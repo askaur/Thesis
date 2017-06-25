@@ -1,0 +1,296 @@
+%% Main thesis file-AmandeepKaur2016
+\documentclass[12pt,twoside]{report}
+%\usepackage[italic]{hepnames}
+%\usepackage{CMScomm}
+\usepackage{array}
+\usepackage{fancyhdr}
+\usepackage{graphicx,psfrag,amsmath}
+\usepackage{nccmath}
+%%%%%%%%%%\usepackage{chapterbib}
+\usepackage{lineno}
+\usepackage{multibib}
+\usepackage{url}
+\usepackage{multirow}     
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{setspace}
+\usepackage[margin=16pt,font={small,stretch=1.1}]{caption}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[caption=false]{subfig}
+\usepackage{cite}
+\usepackage{rotating}
+\usepackage{pdfpages}
+\usepackage{gensymb}
+\usepackage{bold-extra}
+\usepackage[italic]{hepnames}
+\usepackage{ptdr-definitions}
+%\usepackage{CMScomm}
+\usepackage[belowskip=-1pt,aboveskip=2pt]{caption}
+\newcommand{\lumins}{\ensuremath{\mathcal{L}}}
+\providecommand{\TeV}{{TeV}}
+\providecommand{\httwo}{\ensuremath{H_{\mathrm{T,2}}/2}\xspace}
+\providecommand{\ptone}{\ensuremath{p_{\mathrm{T,1}}}\xspace}
+\providecommand{\pttwo}{\ensuremath{p_{\mathrm{T,2}}}\xspace}
+\providecommand{\ptave}{\ensuremath{\langle p_\mathrm{T1,2}\rangle}\xspace}
+\providecommand{\bqm}{\ensuremath{\scalebox{1.2}{\textbf{?}}}\xspace}
+\providecommand{\RooUnfold} {{\textsc{RooUnfold}}\xspace}
+\providecommand{\refe}{\ensuremath{\textcolor{red!80!black}{\bf [REF]}}\xspace}
+\providecommand{\HERWIGPP} {{\textsc{herwig++}}\xspace}
+\providecommand{\PYTHIAS} {{\textsc{pythia6}}\xspace}
+\providecommand{\PYTHIAE} {{\textsc{pythia8}}\xspace}
+\providecommand{\POWHEG} {{\textsc{powheg}}\xspace}
+\providecommand{\NLOJETPP} {{\textsc{NLOJet++}}\xspace}
+\providecommand{\RunDec}{{\textsc{RunDec}}\xspace}
+\providecommand{\fastNLO} {{\textsc{fastNLO}}\xspace}
+\providecommand{\fastjet} {{\textsc{FastJet}}\xspace}
+\providecommand{\mur}{\ensuremath{\mu_r}\xspace}
+\providecommand{\muf}{\ensuremath{\mu_f}\xspace}
+\providecommand{\alpsmz}{\ensuremath{\alpha_s(M_Z)}\xspace}
+\providecommand{\chisq}{\ensuremath{\chi^2}\xspace}
+\providecommand{\chisqndof}{\ensuremath{\chi^2/n_\mathrm{dof}}\xspace}
+\providecommand{\alps}{\ensuremath{\alpha_S}\xspace}
+\providecommand{\alpsmusq}{\ensuremath{\alpha_S(\mu_r^2)}\xspace}
+\providecommand{\alpsmzsq}{\ensuremath{\alpha_S(M_Z^2)}\xspace}
+\providecommand{\alpsqsq}{\ensuremath{\alpha_S(Q^2)}\xspace}
+\providecommand{\alpsmu}{\ensuremath{\alpha_S(\mu_r)}\xspace}
+\providecommand{\alpsmz}{\ensuremath{\alpha_S(M_Z)}\xspace}
+\providecommand{\alpsq}{\ensuremath{\alpha_S(Q)}\xspace}
+\providecommand{\ratio}{\ensuremath{R_{32}}\xspace}
+\providecommand{\LHAPDF}{{\textsc{LHAPDF}}\xspace}
+\providecommand{\LHAPDFS}{{\textsc{LHAPDF6}}\xspace}
+\providecommand{\NF}{\ensuremath{N_F}\xspace}
+\providecommand{\MadGraphF}{{\textsc{MadGraph5}}\xspace}
+\providecommand{\Ztwostar}{\ensuremath{\mathrm{Z2}^\star}\xspace}
+\newcommand{\hftwo}{\hspace*{\fill}}
+\newcommand{\rbthm}{\rule[-2ex]{0ex}{5ex}}
+\newcommand{\rbtrr}{\rule[-0.8ex]{0ex}{3.2ex}}
+%%%%%%%%%%%%%%
+%\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+%\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+%\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+%\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+%\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+%\providecommand{\DIFaddend}{} %DIF PREAMBLE
+%\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+%\providecommand{\DIFdelend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+%\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+%\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+%\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+%\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+%\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+%\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%%%%%%%%%%%%%%%%%%%%
+%\setlength{\intextsep}{10pt plus 2pt minus 2pt}
+
+%%%% caption adjusting
+%\setlength{\abovecaptionskip}{-2ex}
+%\setlength{\belowcaptionskip}{-6ex}
+
+\setlength{\headheight}{15pt} 
+%\usepackage{amsfonts}
+%\bibliographystyle{} 
+\usepackage[pdfpagelabels]{hyperref}
+%%%\renewcommand{\familydefault}{\sfdefault}
+%\hypersetup{colorlinks,
+%  citecolor=Red,
+%  linkcolor=blue,
+%  urlcolor=magenta}
+\pagestyle{fancy} \fancyhfoffset[LE]{.5 cm}
+\clearpage{\pagestyle{empty}\cleardoublepage} \pagestyle{fancy}
+
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter}{}}
+%\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter\ }{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\fancyhf{}
+
+\fancyhead[LE,RO]{\thepage} \fancyhead[LO]{\slshape\rightmark}
+\fancyhead[RE]{\slshape\leftmark}
+
+
+\textheight 23 cm \textwidth 15cm
+ \oddsidemargin 1.05 cm \evensidemargin -0.2 cm
+ \topmargin -0.8 cm \tolerance=10000000
+
+\newtheorem{theorem}{Theorem}
+\setlength{\parindent}{1 cm}
+ \setlength{\parskip}{0.14 cm}
+ \linespread{1.5}
+  \raggedbottom
+
+%\baselineskip 21.5pt
+
+\def\st{\scriptstyle}
+\def\sst{\scriptscriptstyle}
+\def\mco{\multicolumn}
+\def\fr{\frac}
+\def\no{\nonumber}
+\def\pd{\partial}
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\bea{\begin{eqnarray}}
+\def\eea{\end{eqnarray}}
+\def\sech{{\rm{sech}}}
+\def\r{\ref}
+
+\setcounter{page}{1} \setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+
+\usepackage{bookmark}
+
+\newcommand{\KB}{\ensuremath{k_B}}
+\newcommand{\NP}{\ensuremath{N_p}}
+\newcommand{\BTA}{\ensuremath{\beta^{*}}}
+\newcommand{\tauh}{\ensuremath{\tau_h}\xspace}
+\newcommand{\taum}{\ensuremath{\tau_{\mu}}}
+\newcommand{\absEta}{\ensuremath{\vert \eta \vert}}
+\newcommand{\Zmutau}{\ensuremath{\,Z/\gamma^{*} \to \taum\tauh}\xspace}
+\newcommand{\Zmumu}{\ensuremath{\,Z/\gamma^{*} \to \mu\mu}\xspace}
+
+
+%\newcommand{\pt}{p_{\rm T}}
+%\newcommand{\et}{E_{\rm T}}
+%\newcommand{\met}{\ensuremath{{E\!\!\!/}_{\mathrm{T}}}}
+%\newcommand{\dpt}{\Delta^{\rm rel}p_{\rm T}}
+%\newcommand{\dS}{\Delta S}
+%\newcommand{\eXs}{\sigma_{\rm eff}}
+%\newcommand{\ptCut}{\pt^{\rm cut}}
+
+
+%\newcommand{\pythia}{\textsc{pythia}}
+%\newcommand{\mdGrf}{\textsc{madgraph}}
+%\newcommand{\powheg}{\textsc{powheg}}
+%\newcommand{\herwig}{\textsc{herwig}}
+%\newcommand{\sherpa}{\textsc{sherpa}}
+%\newcommand{\GEANT}{\textsc{geant}}
+
+
+\begin{document}
+
+
+\include{title}
+\newpage 
+\thispagestyle{empty}
+
+\pagenumbering{roman}
+%% --- dedication page ---
+%%
+\baselineskip=1pc \lineskip=1pc \lineskiplimit=1pc
+\renewcommand{\thepage}{\roman{page}}
+\setcounter{page}{2}
+%
+\mbox{}\newpage
+%%%%%%%%%%%       DONE NOW ON 29 SEPT
+%%%%%%%%%%%\newpage\thispagestyle{empty}
+
+
+\vspace*{2in}
+\begin{center}
+{\bf\emph{\Large
+Dedicated to\\
+my Grand-Parents\\
+~~~~~\&\\
+~~~Parents\\
+}}
+\end{center}
+\vskip 4pc
+
+\newpage\thispagestyle{empty}
+\mbox{}\newpage
+
+\hypersetup{pageanchor=false}
+\cleardoublepage
+%\phantomsection
+%\addcontentsline{toc}{chapter}{Acknowledgements}
+%\include{MyAck}
+
+\newpage\thispagestyle{empty}
+\mbox{}\newpage
+
+\cleardoublepage
+%\phantomsection
+%\addcontentsline{toc}{chapter}{Abstract}
+%\include{abstract_one}
+
+\newpage\thispagestyle{empty}
+\mbox{}\newpage
+
+%%%%%%%%%%%       DONE NOW ON 29 SEPT END HERE
+\tableofcontents
+\newpage\thispagestyle{empty}
+\mbox{}\newpage
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Figures}
+\begin{spacing}{1.15}
+  \listoffigures
+\end{spacing}
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Tables}
+\addtocontents{toc}{\protect\rule{13.9 cm}{.1pt}\par}
+\listoftables
+\newpage
+
+\pagenumbering{arabic}
+
+%\cleardoublepage
+
+%\newpage
+\include{Measurement}
+%\cleardoublepage
+%\include{Chapter1a_th} \label{chap:chap2}
+%\cleardoublepage
+%\include{Chapter2_th} \label{chap:chap3}
+%\cleardoublepage
+%\include{Chapter3_th} \label{chap:chap4}
+%\cleardoublepage
+%\include{Chapter4}   \label{chap:chap5}
+%\cleardoublepage
+%\include{Analysis13TeV} \label{chap:chap6}
+%\cleardoublepage
+
+%\include{Summary}
+\fontsize{10pt}{12pt}\selectfont
+
+%\include{publications1}
+%%%%%%%%%%%\hypersetup{pageanchor=false}
+
+%%%%%%%%%%%\newpage\thispagestyle{empty}
+%%%%%%%%%%%\mbox{}\newpage
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of publications}
+%\include{publications1}
+
+\fontsize{12pt}{12pt} \selectfont
+\bibliographystyle{ieeetr}
+\bibliography{thesis.bib}
+
+%\newpage\thispagestyle{empty}
+%\mbox{}\newpage
+
+\cleardoublepage
+\phantomsection
+\chapter*{\vspace*{2in}\begin{center}\Huge \emph{Selected\\Reprints}\end{center}}
+%\addcontentsline{toc}{chapter}{List of Figures}
+\addcontentsline{toc}{chapter}{Reprints}
+\cleardoublepage
+\phantomsection
+%\includepdf[pages=1-24, offset=70 -70]{VBFSUSYpaper.pdf}
+%\includepdf[pages=1-24]{VBFSUSYpaper.pdf}
+%%%%%%%\cleardoublepage
+%%%%%%%%%%%\phantomsection
+%%%%%%%%%%%%%\includepdf[pages=538-542, offset=70 -70]{DAE-BRNS-Symposi.pdf}
+%\chapter*{\vspace*{2in}\begin{center}\Huge \emph{Selected\\Reprints}\end{center}}
+%\newpage\thispagestyle{empty}
+%\mbox{}
+%\include{Ref}
+%\fontsize{12pt}{12pt} \selectfont
+%\bibliographystyle{ieeetr}
+%\bibliography{thesis.bib}
+\end{document}
