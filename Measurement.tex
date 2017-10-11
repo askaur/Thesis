@@ -1,62 +1,51 @@
 \chapter{Measurement of the Inclusive Differential Multijet Cross Section}
 \label{chap:measurement}
-\breakhere
-
-The inclusive differential multijet cross sections are measured as a
-function of the average transverse momentum, $\httwo =
-\frac{1}{2}(\ptone + \pttwo)$, where \ptone and \pttwo denote the
-transverse momenta of the two leading jets. \\
+%\breakhere
+The differential inclusive multijet cross sections are measured as a function of the average transverse momentum, $\httwo = \frac{1}{2}(\ptone + \pttwo)$, where \ptone and \pttwo denote the transverse momenta of the two leading jets.
 
 \section{Cross Section Definition}
 The inclusive mutijet event yields are transformed into a differential cross section which is defined as :
-%
-\begin{equation}
-  \label{inclusive_formula}
-  {\dd{\sigma}{\big(\httwo\big)}} = \frac{1}{\epsilon~\lumi_{\mathrm{int,eff}}}\frac{N_\mathrm{event}}{\Delta\big(\httwo\big)}
-\end{equation}
-%
-where $N_\mathrm{event}$ is the number of 2- or 3-jet events counted in an
-\httwo bin, $\epsilon$ is the product of the trigger and jet selection
-efficiencies, which are greater than 99\%,
-\lumins$_{\mathrm{int,eff}}$ is the effective integrated luminosity,
-, and $\Delta\big(\httwo\big)$ are the bin widths. The
-measurements are reported in units of (pb/\GeV).
 
-For inclusive 2-jet events
-sufficient data are available up to $\httwo = 2\TeV$, while for
-inclusive 3-jet events (and the ratio \ratio) the accessible range in
-\httwo is limited to $\httwo < 1.68\TeV$. In the following, results
-for the inclusive 2-jet and 3-jet event selections will be labelled as
-$\mathrm {n_{~j}} \geq 2$ and $\mathrm {n_{~j}} \geq 3$, respectively.
+\begin{equation}
+ \label{inclusive_formula}
+ {\dd{\sigma}{\big(\httwo\big)}} = \frac{1}{\epsilon~\lumi_{\mathrm{int,eff}}}\frac{N_\mathrm{event}}{\Delta\big(\httwo\big)}
+\end{equation}
+
+where $N_\mathrm{event}$ is the number of inclusive 2- or 3-jet events counted in an \httwo bin, $\epsilon$ is the product of the trigger 
+and jet selection efficiencies, which are greater than 99\%, \lumins$_{\mathrm{int,eff}}$ is the effective integrated luminosity, and $
+\Delta\big(\httwo\big)$ are the bin widths. The measurements are reported in units of (pb/\GeV).
+
+For inclusive 2-jet events sufficient data are available up to $\httwo = 2\TeV$, while for inclusive 3-jet events (and the ratio \ratio) 
+the accessible range in \httwo is limited to $\httwo < 1.68\TeV$. In the following, results for the inclusive 2-jet and 3-jet event 
+selections will be labelled as $\mathrm {n_{~j}} \geq 2$ and $\mathrm {n_{~j}} \geq 3$, respectively.
 
 \section{Data Samples}
-During 2012, CMS collected data at the center of mass energy $\sqrt{s}$ = 8 TeV in four periods A, B, C, D. The datasets are divided into 
-samples according to the run period. For run B-D, the \texttt{JetMon} stream datasets contain prescaled low trigger threshold paths (HLT
-PFJet40, 80, 140, 200 and 260) while the \texttt{JetHT} stream datasets contain unprescaled high threshold trigger paths (HLT PFJet320 and 
-400). For run A, the \texttt{Jet} stream contains all the above mentioned trigger paths. The datasets used in the current study 
-are mentioned in the Table~\ref{tab:dataset} along with the luminosity of each dataset : 
-
+This measurement uses the data collected at the center of mass energy of 8 TeV by CMS experiment in the 2012 run period of the LHC. The 
+2012 data is taken in four periods A, B, C, D and the data sets are divided into samples according to the run period. Further each sample is 
+grouped into subsets based on the trigger decision. For run B-D, the \texttt{JetMon} stream datasets contain prescaled low trigger 
+threshold paths (HLTPFJet40, 80, 140, 200 and 260) while the \texttt{JetHT} stream datasets contain unprescaled high threshold trigger 
+paths (HLT PFJet320 and 400). For run A, the \texttt{Jet} stream contains all the above mentioned trigger paths. The datasets used in the 
+current study are mentioned in the Table~\ref{tab:dataset} along with the luminosity of each dataset :\\
 \begin{table}[!htbp]
-\centering
-\caption{Datasets used along with the corresponding run numbers and luminosity.}
+\caption{Four data sets collected in run periods A, B,C and D during 2012, along with the corresponding run numbers and luminosity.}
 \label{tab:dataset}
 \vspace{2mm}
 \begin{tabular}{cccc}
 \hline\hline
-   
-Run  & Run Range       &  Dataset                               & Luminosity      \rbthm\\\hline
-A    & 190456-193621   & /Jet/Run2012A-22Jan2013-v1/AOD         & 0.88 {\fbinv}   \rbtrr\\
-B    & 193834-196531   & /Jet[Mon,HT]/Run2012B-22Jan2013-v1/AOD & 4.49 {\fbinv}   \rbtrr\\
-C    & 198022-203742   & /Jet[Mon,HT]/Run2012C-22Jan2013-v1/AOD & 7.06 {\fbinv}   \rbtrr\\
-D    & 203777-208686   & /Jet[Mon,HT]/Run2012D-22Jan2013-v1/AOD & 7.37 {\fbinv}   \rbtrr\\
+\centering
+{\bf Run}  & {\bf Run range}  &  {\bf Data set}   & {\bf Luminosity } \\ %\rbthm\\\hline
+ & & & {\bf {\fbinv}}  \rbthm\\\hline
+A    & 190456-193621   & /Jet/Run2012A-22Jan2013-v1/AOD         & 0.88  \rbtrr\\
+B    & 193834-196531   & /Jet[Mon,HT]/Run2012B-22Jan2013-v1/AOD & 4.41  \rbtrr\\
+C    & 198022-203742   & /Jet[Mon,HT]/Run2012C-22Jan2013-v1/AOD & 7.06  \rbtrr\\
+D    & 203777-208686   & /Jet[Mon,HT]/Run2012D-22Jan2013-v1/AOD & 7.37  \rbtrr\\
 \hline\hline
 \end{tabular}
-\end{table}
-
-The data sets have the LHC luminosity increasing with period, full data sample of 2012 corresponds to an integrated luminosity of 19.7 {\fbinv}. 
+\end{table}\\
+The data sets have the LHC luminosity increasing with period, full data sample of 2012 corresponds to an integrated luminosity of 19.71 \fbinv. 
 
 \subsection{Monte Carlo samples}
-To have a comparison of data results with the simulated events, the \MadGraphF~\cite{bib:madgraph5} Monte-Carlo event generator has been 
+To have a comparison of data results with the simulated events, the \MadGraphF~\cite{Alwall:2011uj} Monte-Carlo event generator has been 
 used. The \MadGraphF generates matrix elements for High Energy Physics processes, such as decays and $2 \rightarrow n$ scatterings. The 
 underlying event is modeled using the tune \Ztwostar. It has been interfaced to \PYTHIAS~\cite{Sjostrand:2006za} by the LHE event record, 
 which generates the rest of the higher-order effects using the Parton Showering (PS) model. Matching algorithms ensure that no double-
@@ -436,7 +425,7 @@ parameters of the fit for the inclusive 2-jet and inclusive 3-jet events.
 \end{equation}
 
 While calculating JER where we are using one large rapidity bin, it has been observed that from Figure~\ref{fig:ratios}, when JER extracted from \blue{simulated MG\plus P6 Reco/MG\plus P6 Gen} is used in toyMC for smearing, it smears the fastNLO too much (\mycolor
-{red curve}). The extracted JER also smears MC Gen more as seen from Smeared MG\plus P6 Gen/MG\plus P6 Gen (black dashed curve). When the 30\% reduced JER  is used to smear MG\plus Gen, the  \textcolor{pink}{Smeared MG\plus Gen/MG\plus P6 Gen}, matches with simulated \blue{MG\plus P6
+{red curve}). The extracted JER also smears MC Gen more as seen from Smeared MG\plus P6 Gen/MG\plus P6 Gen (black dashed curve). When the 30\% reduced JER  is used to smear MG\plus Gen, the \textcolor{pink}{Smeared MG\plus Gen/MG\plus P6 Gen}, matches with simulated \blue{MG\plus P6
 Reco/MG\plus P6 Gen}. Also, toyMC Gen smeared with 30\% reduced  JER, \green{Smeared FastNLO/Gen FastNLO}. So an additional unfolding uncertainty is attributed by comparison to 30\% reduced JER.  
 
 \begin{figure}[!htbp]
