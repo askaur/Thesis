@@ -2,6 +2,7 @@
 \documentclass[12pt,twoside]{report}
 %\usepackage[italic]{hepnames}
 %\usepackage{CMScomm}
+\include{shortcuts}
 \usepackage{array}
 \usepackage{commath}
 \usepackage{fancyhdr}
@@ -26,44 +27,6 @@
 \usepackage{ptdr-definitions}
 %\usepackage{CMScomm}
 \usepackage[belowskip=-1pt,aboveskip=2pt]{caption}
-\newcommand{\lumins}{\ensuremath{\mathcal{L}}}
-\providecommand{\TeV}{{TeV}}
-\providecommand{\httwo}{\ensuremath{H_{\mathrm{T,2}}/2}\xspace}
-\providecommand{\ptone}{\ensuremath{p_{\mathrm{T,1}}}\xspace}
-\providecommand{\pttwo}{\ensuremath{p_{\mathrm{T,2}}}\xspace}
-\providecommand{\ptave}{\ensuremath{\langle p_\mathrm{T1,2}\rangle}\xspace}
-\providecommand{\bqm}{\ensuremath{\scalebox{1.2}{\textbf{?}}}\xspace}
-\providecommand{\RooUnfold} {{\textsc{RooUnfold}}\xspace}
-\providecommand{\refe}{\ensuremath{\textcolor{red!80!black}{\bf [REF]}}\xspace}
-\providecommand{\HERWIGPP} {{\textsc{herwig++}}\xspace}
-\providecommand{\PYTHIAS} {{\textsc{pythia6}}\xspace}
-\providecommand{\PYTHIAE} {{\textsc{pythia8}}\xspace}
-\providecommand{\POWHEG} {{\textsc{powheg}}\xspace}
-\providecommand{\NLOJETPP} {{\textsc{NLOJet++}}\xspace}
-\providecommand{\RunDec}{{\textsc{RunDec}}\xspace}
-\providecommand{\fastNLO} {{\textsc{fastNLO}}\xspace}
-\providecommand{\fastjet} {{\textsc{FastJet}}\xspace}
-\providecommand{\mur}{\ensuremath{\mu_r}\xspace}
-\providecommand{\muf}{\ensuremath{\mu_f}\xspace}
-\providecommand{\alpsmz}{\ensuremath{\alpha_s(M_Z)}\xspace}
-\providecommand{\chisq}{\ensuremath{\chi^2}\xspace}
-\providecommand{\chisqndof}{\ensuremath{\chi^2/n_\mathrm{dof}}\xspace}
-\providecommand{\alps}{\ensuremath{\alpha_S}\xspace}
-\providecommand{\alpsmusq}{\ensuremath{\alpha_S(\mu_r^2)}\xspace}
-\providecommand{\alpsmzsq}{\ensuremath{\alpha_S(M_Z^2)}\xspace}
-\providecommand{\alpsqsq}{\ensuremath{\alpha_S(Q^2)}\xspace}
-\providecommand{\alpsmu}{\ensuremath{\alpha_S(\mu_r)}\xspace}
-\providecommand{\alpsmz}{\ensuremath{\alpha_S(M_Z)}\xspace}
-\providecommand{\alpsq}{\ensuremath{\alpha_S(Q)}\xspace}
-\providecommand{\ratio}{\ensuremath{R_{32}}\xspace}
-\providecommand{\LHAPDF}{{\textsc{LHAPDF}}\xspace}
-\providecommand{\LHAPDFS}{{\textsc{LHAPDF6}}\xspace}
-\providecommand{\NF}{\ensuremath{N_F}\xspace}
-\providecommand{\MadGraphF}{{\textsc{MadGraph5}}\xspace}
-\providecommand{\Ztwostar}{\ensuremath{\mathrm{Z2}^\star}\xspace}
-\newcommand{\hftwo}{\hspace*{\fill}}
-\newcommand{\rbthm}{\rule[-2ex]{0ex}{5ex}}
-\newcommand{\rbtrr}{\rule[-0.8ex]{0ex}{3.2ex}}
 %%%%%%%%%%%%%%
 %\RequirePackage[normalem]{ulem} %DIF PREAMBLE
 %\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
@@ -241,13 +204,13 @@ my Grand-Parents\\
 %\cleardoublepage
 
 %\newpage
-%\include{Introduction}  %Chapter 1
-%\include{Theory}  %Chapter 2
-%\include{Detector}  %Chapter 3
+\include{Introduction}  %Chapter 1
+\include{Theory}  %Chapter 2
+\include{Detector}  %Chapter 3
 \include{Theory_Predictions}  %Chapter 4	
 \include{Measurement} %Chapter 5
 \include{Alphas}  %Chapter 6	
-%\include{Summary} %Chapter 7
+\include{Summary} %Chapter 7
 %\cleardoublepage
 %\include{Chapter1a_th} \label{chap:chap2}
 %\cleardoublepage
