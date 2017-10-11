@@ -1,0 +1,142 @@
+\begin{thebibliography}{10}
+
+\bibitem{Alwall:2011uj}
+J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, and T.~Stelzer, ``{MadGraph} 5
+  : Going beyond,'' {\em JHEP}, vol.~06, p.~128, 2011.
+
+\bibitem{Sjostrand:2006za}
+T.~Sj{\"o}strand, S.~Mrenna, and P.~Z. Skands, ``Pythia 6.4 physics and
+  manual,'' {\em JHEP}, vol.~05, p.~026, 2006.
+
+\bibitem{CMS:2015haa}
+C.~Collaboration, ``{Measurement of the double-differential inclusive jet cross
+  section at sqrt(s) = 8 TeV},'' CMS Physics Summary CMS-PAS-SMP-14-001, 2015.
+
+\bibitem{JERC:Resolution}
+``Jet energy resolution twiki,'' tech. rep., 2012.
+
+\bibitem{D'Agostini:1994zf}
+G.~D'Agostini, ``A multidimensional unfolding method based on bayes' theorem,''
+  {\em Nucl. Instrum. Meth. A}, vol.~362, p.~487, 1995.
+
+\bibitem{Adye:2011gm}
+T.~Adye, ``Unfolding algorithms and tests using {RooUnfold},'' in {\em
+  Proceedings, {PHYSTAT} 2011 Workshop on Statistical Issues Related to
+  Discovery Claims in Search Experiments and Unfolding}, (Geneva, Switzerland,
+  January 17-20), p.~313, 2011.
+
+\bibitem{CMS:2013gfa}
+{CMS Collaboration}, ``{CMS} luminosity based on pixel cluster counting -
+  summer 2013 update,'' tech. rep., CERN, 2013.
+
+\bibitem{bib:JES_2013}
+{CMS Collaboration}, ``Jet energy scale and resolution in the 8 tev pp data,''
+  CMS Physics Summary CMS-PAS-JME-13-004, 2013.
+
+\bibitem{Nagy:2001fj}
+Z.~Nagy, ``Three jet cross-sections in hadron hadron collisions at
+  next-to-leading order,'' {\em Phys. Rev. Lett.}, vol.~88, p.~122003, 2002.
+
+\bibitem{Nagy:2003tz}
+Z.~Nagy, ``Next-to-leading order calculation of three-jet observables in hadron
+  hadron collisions,'' {\em Phys. Rev. D}, vol.~68, p.~094002, 2003.
+
+\bibitem{Britzger:2012bs}
+D.~Britzger, K.~Rabbertz, F.~Stober, and M.~Wobisch, ``New features in version
+  2 of the {fastNLO} project,'' in {\em Proceedings, XX.\ International
+  Workshop on Deep-Inelastic Scattering and Related Subjects ({DIS} 2012)},
+  (Bonn, Germany, March 26-30), p.~217, 2012.
+
+\bibitem{Buckley:2014ana}
+A.~Buckley, J.~Ferrando, S.~Lloyd, K.~Nordstr{\"o}m, B.~Page, M.~R{\"u}fenacht,
+  M.~Sch{\"o}nherr, and G.~Watt, ``{LHAPDF6}: parton density access in the
+  {LHC} precision era,'' {\em Eur. Phys. J.}, vol.~C75, p.~132, 2015.
+
+\bibitem{Aad:2013lpa}
+G.~Aad {\em et~al.}, ``Measurement of the inclusive jet cross section in $pp$
+  collisions at $\sqrt{s}=2.76$ {TeV} and comparison to the inclusive jet cross
+  section at $\sqrt{s}=7$ {TeV} using the {ATLAS} detector,'' {\em Eur. Phys.
+  J. C}, vol.~73, p.~2509, 2013.
+
+\bibitem{Aad:2014vwa}
+G.~Aad {\em et~al.}, ``Measurement of the inclusive jet cross-section in
+  proton-proton collisions at $\sqrt{s}=7$ {TeV} using 4.5 fb$^{-1}$ of data
+  with the {ATLAS} detector,'' {\em JHEP}, vol.~02, p.~153, 2015.
+
+\bibitem{Alekhin:2012ig}
+S.~Alekhin, J.~Bl{\"u}mlein, and S.~Moch, ``Parton distribution functions and
+  benchmark cross sections at {NNLO},'' {\em Phys. Rev. D}, vol.~86, p.~054009,
+  2012.
+
+\bibitem{Lai:2010vv}
+H.-L. Lai, M.~Guzzi, J.~Huston, Z.~Li, P.~M. Nadolsky, J.~Pumplin, and C.-P.
+  Yuan, ``New parton distributions for collider physics,'' {\em Phys. Rev. D},
+  vol.~82, p.~074024, 2010.
+
+\bibitem{Martin:2009iq}
+A.~D. Martin, W.~J. Stirling, R.~S. Thorne, and G.~Watt, ``Parton distributions
+  for the {LHC},'' {\em Eur. Phys. J. C}, vol.~63, p.~189, 2009.
+
+\bibitem{Martin:2009bu}
+A.~D. Martin, W.~J. Stirling, R.~S. Thorne, and G.~Watt, ``Uncertainties on
+  $\alpha_s$ in global pdf analyses and implications for predicted hadronic
+  cross sections,'' {\em Eur. Phys. J. C}, vol.~64, p.~653, 2009.
+
+\bibitem{Ball:2012cx}
+R.~D. Ball {\em et~al.}, ``Parton distributions with {LHC} data,'' {\em Nucl.
+  Phys. B}, vol.~867, p.~244, 2013.
+
+\bibitem{Dulat:2015mca}
+S.~Dulat, T.-J. Hou, J.~Gao, M.~Guzzi, J.~Huston, P.~Nadolsky, J.~Pumplin,
+  C.~Schmidt, D.~Stump, and C.~P. Yuan, ``New parton distribution functions
+  from a global analysis of quantum chromodynamics,'' {\em Phys. Rev. D},
+  vol.~93, p.~033006, 2016.
+
+\bibitem{Abramowicz:2015mha}
+H.~Abramowicz {\em et~al.}, ``Combination of measurements of inclusive deep
+  inelastic ${e^{\pm }p}$ scattering cross sections and {QCD} analysis of
+  {HERA} data,'' {\em Eur. Phys. J. C}, vol.~75, p.~580, 2015.
+
+\bibitem{Harland-Lang:2014zoa}
+L.~Harland-Lang, A.~Martin, P.~Motylinski, and R.~Thorne, ``Parton
+  distributions in the {LHC} era: {MMHT} 2014 {PDFs},'' {\em Eur. Phys. J. C},
+  vol.~75, no.~5, p.~204, 2015.
+
+\bibitem{Ball:2014uwa}
+R.~D. Ball {\em et~al.}, ``Parton distributions for the {LHC} run {II},'' {\em
+  JHEP}, vol.~04, p.~040, 2015.
+
+\bibitem{Bahr:2008pv}
+M.~B{\"a}hr, S.~Gieseke, M.~Gigg, D.~Grellscheid, K.~Hamilton, O.~Latunde-Dada,
+  S.~Pl{\"a}tzer, P.~Richardson, M.~H. Seymour, A.~Sherstnev, and B.~R. Webber,
+  ``Herwig++ physics and manual,'' {\em Eur. Phys. J. C}, vol.~58, p.~639,
+  2008.
+
+\bibitem{Nason:2004rx}
+P.~Nason, ``{A New method for combining NLO QCD with shower Monte Carlo
+  algorithms},'' {\em JHEP}, vol.~11, p.~040, 2004.
+
+\bibitem{Frixione:2007vw}
+S.~Frixione, P.~Nason, and C.~Oleari, ``{Matching NLO QCD computations with
+  Parton Shower simulations: the POWHEG method},'' {\em JHEP}, vol.~11, p.~070,
+  2007.
+
+\bibitem{Alioli:2010xa}
+S.~Alioli, K.~Hamilton, P.~Nason, C.~Oleari, and E.~Re, ``{Jet pair production
+  in POWHEG},'' {\em JHEP}, vol.~04, p.~081, 2011.
+
+\bibitem{Khachatryan:2015pea}
+V.~Khachatryan {\em et~al.}, ``{Event generator tunes obtained from underlying
+  event and multiparton scattering measurements}.'' {2015}.
+
+\bibitem{Dittmaier:2012kx}
+S.~Dittmaier, A.~Huss, and C.~Speckner, ``Weak radiative corrections to dijet
+  production at hadron colliders,'' {\em JHEP}, vol.~11, p.~095, 2012.
+
+\bibitem{Chatrchyan:2013txa}
+S.~Chatrchyan {\em et~al.}, ``Measurement of the ratio of the inclusive 3-jet
+  cross section to the inclusive 2-jet cross section in $pp$ collisions at
+  {$\sqrt{s}$} = 7 {TeV} and first determination of the strong coupling
+  constant in the {TeV} range,'' {\em Eur. Phys. J. C}, vol.~73, p.~2604, 2013.
+
+\end{thebibliography}

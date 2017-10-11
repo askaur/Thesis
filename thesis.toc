@@ -1,54 +1,45 @@
+\select@language {english}
 \contentsline {chapter}{List of Figures}{xiii}{section*.2}
-\contentsline {chapter}{List of Tables}{xxiii}{section*.4}
+\contentsline {chapter}{List of Tables}{xix}{section*.4}
 \rule {13.9 cm}{.1pt}\par 
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Experimental Apparatus}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}CMS Detector}{4}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Prototype Detector}{5}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}CMS}{11}{subsection.2.1.2}
-\contentsline {chapter}{\numberline {3}Theory predictions}{16}{chapter.3}
-\contentsline {chapter}{\numberline {4}Measurement of the Inclusive Differential Multijet Cross Section}{21}{chapter.4}
-\contentsline {section}{\numberline {4.1}Cross Section Definition}{21}{section.4.1}
-\contentsline {section}{\numberline {4.2}Data Samples}{22}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Monte Carlo samples}{23}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Event Selection}{23}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Trigger Selection}{24}{subsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.1.1}Primary vertex selection}{26}{subsubsection.4.3.1.1}
-\contentsline {subsubsection}{\numberline {4.3.1.2}Jet Identification}{27}{subsubsection.4.3.1.2}
-\contentsline {subsection}{\numberline {4.3.2}Pile-up reweighting}{31}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Kinematic Distributions}{32}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Differential cross section and ratios}{32}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Jet Energy Resolution (JER)}{33}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Unfolding}{39}{subsection.4.4.3}
-\contentsline {subsubsection}{\numberline {4.4.3.1}Response matrices}{40}{subsubsection.4.4.3.1}
-\contentsline {subsubsection}{\numberline {4.4.3.2}Closure test}{43}{subsubsection.4.4.3.2}
-\contentsline {subsubsection}{\numberline {4.4.3.3}Unfolding data}{44}{subsubsection.4.4.3.3}
-\contentsline {subsection}{\numberline {4.4.4}Experimental uncertainties}{44}{subsection.4.4.4}
-\contentsline {subsubsection}{\numberline {4.4.4.1}Uncertainty on luminosity measurement}{47}{subsubsection.4.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.4.2}Statistical uncertainty}{47}{subsubsection.4.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.4.3}Jet Energy Scale uncertainty}{49}{subsubsection.4.4.4.3}
-\contentsline {subsubsection}{\numberline {4.4.4.4}Unfolding uncertainty}{50}{subsubsection.4.4.4.4}
-\contentsline {subsubsection}{\numberline {4.4.4.5}Total experimental uncertainty}{51}{subsubsection.4.4.4.5}
-\contentsline {section}{\numberline {4.5}Measurement of cross section ratio, unfolding and experimental uncertainties}{52}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Measurement of cross section ratio}{52}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Unfolding}{53}{subsection.4.5.2}
-\contentsline {subsubsection}{\numberline {4.5.2.1}Response matrix}{54}{subsubsection.4.5.2.1}
-\contentsline {subsection}{\numberline {4.5.3}Experimental uncertainties}{56}{subsection.4.5.3}
-\contentsline {subsubsection}{\numberline {4.5.3.1}Statistical uncertainty}{56}{subsubsection.4.5.3.1}
-\contentsline {subsubsection}{\numberline {4.5.3.2}Jet Energy Scale uncertainty}{57}{subsubsection.4.5.3.2}
-\contentsline {subsubsection}{\numberline {4.5.3.3}Unfolding uncertainty}{58}{subsubsection.4.5.3.3}
-\contentsline {subsubsection}{\numberline {4.5.3.4}Total experimental uncertainty}{59}{subsubsection.4.5.3.4}
-\contentsline {section}{\numberline {4.6}Theory predictions}{60}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Fixed order NLO calculations}{60}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Non-Perturbative corrections}{62}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Electroweak corrections (EWK)}{63}{subsection.4.6.3}
-\contentsline {subsection}{\numberline {4.6.4}Theory uncertainties}{65}{subsection.4.6.4}
-\contentsline {subsubsection}{\numberline {4.6.4.1}Scale uncertainties}{65}{subsubsection.4.6.4.1}
-\contentsline {subsubsection}{\numberline {4.6.4.2}PDF uncertainties}{67}{subsubsection.4.6.4.2}
-\contentsline {section}{\numberline {4.7}Comparison of theory to data}{67}{section.4.7}
-\contentsline {chapter}{\numberline {5}Extraction of the strong coupling constant}{72}{chapter.5}
-\contentsline {subsection}{\numberline {5.0.1}Sensitivity of the inclusive differential jet cross sections and their ratio, \ensuremath {R_{32}}\xspace to \ensuremath {\alpha _s(M_Z)}\xspace }{73}{subsection.5.0.1}
-\contentsline {subsection}{\numberline {5.0.2}The fitting procedure and fit results}{74}{subsection.5.0.2}
-\contentsline {chapter}{\numberline {6}Summary}{86}{chapter.6}
-\contentsline {chapter}{List of publications}{89}{section*.65}
-\contentsline {chapter}{Reprints}{89}{chapter*.67}
+\contentsline {chapter}{\numberline {1}Measurement of the Inclusive Differential Multijet Cross Section}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Cross Section Definition}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Data Samples}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Monte Carlo samples}{3}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.3}Event Selection}{3}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Trigger Selection}{4}{subsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.1.1}Primary vertex selection}{6}{subsubsection.1.3.1.1}
+\contentsline {subsubsection}{\numberline {1.3.1.2}Jet Identification}{7}{subsubsection.1.3.1.2}
+\contentsline {subsection}{\numberline {1.3.2}Pile-up reweighting}{11}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Kinematic Distributions}{12}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Differential cross section and ratios}{12}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Jet Energy Resolution (JER)}{13}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Unfolding}{19}{subsection.1.4.3}
+\contentsline {subsubsection}{\numberline {1.4.3.1}Response matrices}{20}{subsubsection.1.4.3.1}
+\contentsline {subsubsection}{\numberline {1.4.3.2}Closure test}{23}{subsubsection.1.4.3.2}
+\contentsline {subsubsection}{\numberline {1.4.3.3}Unfolding data}{24}{subsubsection.1.4.3.3}
+\contentsline {subsection}{\numberline {1.4.4}Experimental uncertainties}{24}{subsection.1.4.4}
+\contentsline {subsubsection}{\numberline {1.4.4.1}Uncertainty on luminosity measurement}{27}{subsubsection.1.4.4.1}
+\contentsline {subsubsection}{\numberline {1.4.4.2}Statistical uncertainty}{27}{subsubsection.1.4.4.2}
+\contentsline {subsubsection}{\numberline {1.4.4.3}Jet Energy Scale uncertainty}{29}{subsubsection.1.4.4.3}
+\contentsline {subsubsection}{\numberline {1.4.4.4}Unfolding uncertainty}{30}{subsubsection.1.4.4.4}
+\contentsline {subsubsection}{\numberline {1.4.4.5}Total experimental uncertainty}{31}{subsubsection.1.4.4.5}
+\contentsline {section}{\numberline {1.5}Measurement of cross section ratio, unfolding and experimental uncertainties}{32}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Measurement of cross section ratio}{32}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Unfolding}{33}{subsection.1.5.2}
+\contentsline {subsubsection}{\numberline {1.5.2.1}Response matrix}{34}{subsubsection.1.5.2.1}
+\contentsline {subsection}{\numberline {1.5.3}Experimental uncertainties}{36}{subsection.1.5.3}
+\contentsline {subsubsection}{\numberline {1.5.3.1}Statistical uncertainty}{36}{subsubsection.1.5.3.1}
+\contentsline {subsubsection}{\numberline {1.5.3.2}Jet Energy Scale uncertainty}{37}{subsubsection.1.5.3.2}
+\contentsline {subsubsection}{\numberline {1.5.3.3}Unfolding uncertainty}{38}{subsubsection.1.5.3.3}
+\contentsline {subsubsection}{\numberline {1.5.3.4}Total experimental uncertainty}{39}{subsubsection.1.5.3.4}
+\contentsline {section}{\numberline {1.6}Theory predictions}{40}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Fixed order NLO calculations}{40}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Non-Perturbative corrections}{42}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}Electroweak corrections (EWK)}{43}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.4}Theory uncertainties}{45}{subsection.1.6.4}
+\contentsline {subsubsection}{\numberline {1.6.4.1}Scale uncertainties}{45}{subsubsection.1.6.4.1}
+\contentsline {subsubsection}{\numberline {1.6.4.2}PDF uncertainties}{47}{subsubsection.1.6.4.2}
+\contentsline {section}{\numberline {1.7}Comparison of theory to data}{47}{section.1.7}
+\contentsline {chapter}{List of publications}{53}{section*.45}
+\contentsline {chapter}{Reprints}{57}{chapter*.48}
