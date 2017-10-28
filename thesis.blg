@@ -10,45 +10,45 @@ Warning--empty author in JERC:Resolution
 Warning--empty institution in JERC:Resolution
 Warning--empty institution in bib:JES_2013
 Warning--empty note in Khachatryan:2015pea
-You've used 30 entries,
+You've used 31 entries,
             1876 wiz_defined-function locations,
-            665 strings with 8614 characters,
-and the built_in function-call counts, 7200 in all, are:
-= -- 675
-> -- 339
+            673 strings with 8865 characters,
+and the built_in function-call counts, 7516 in all, are:
+= -- 709
+> -- 347
 < -- 2
-+ -- 126
-- -- 96
-* -- 467
-:= -- 1057
-add.period$ -- 30
-call.type$ -- 30
-change.case$ -- 32
++ -- 129
+- -- 98
+* -- 486
+:= -- 1098
+add.period$ -- 31
+call.type$ -- 31
+change.case$ -- 33
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 447
-empty$ -- 613
-format.name$ -- 96
-if$ -- 1788
+cite$ -- 36
+duplicate$ -- 464
+empty$ -- 643
+format.name$ -- 98
+if$ -- 1870
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 25
-newline$ -- 93
-num.names$ -- 29
-pop$ -- 95
+int.to.str$ -- 31
+missing$ -- 26
+newline$ -- 96
+num.names$ -- 30
+pop$ -- 97
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 314
+skip$ -- 329
 stack$ -- 0
-substring$ -- 184
-swap$ -- 211
+substring$ -- 212
+swap$ -- 220
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 54
-width$ -- 32
-write$ -- 292
+while$ -- 57
+width$ -- 33
+write$ -- 302
 (There were 5 warnings)

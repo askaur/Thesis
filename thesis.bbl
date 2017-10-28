@@ -8,6 +8,10 @@ J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, and T.~Stelzer, ``{MadGraph} 5
 T.~Sj{\"o}strand, S.~Mrenna, and P.~Z. Skands, ``Pythia 6.4 physics and
   manual,'' {\em JHEP}, vol.~05, p.~026, 2006.
 
+\bibitem{Alwall:2006yp}
+J.~Alwall {\em et~al.}, ``{A Standard format for Les Houches event files},''
+  {\em Comput. Phys. Commun.}, vol.~176, pp.~300--304, 2007.
+
 \bibitem{CMS:2015haa}
 C.~Collaboration, ``{Measurement of the double-differential inclusive jet cross
   section at sqrt(s) = 8 TeV},'' CMS Physics Summary CMS-PAS-SMP-14-001, 2015.

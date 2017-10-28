@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  11 OCT 2017 18:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  12 OCT 2017 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -278,6 +278,18 @@ File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen135
+\c@nlinenum=\count124
+\TeXr@lab=\toks24
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks25
+\verbatim@line=\toks26
+\verbatim@in@stream=\read1
+)
 (/usr/share/texlive/texmf-dist/tex/latex/bold-extra/bold-extra.sty
 Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
 )
@@ -317,8 +329,8 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/02/24 3.9q Babel common definitions
-\babel@savecnt=\count124
-\U@D=\dimen135
+\babel@savecnt=\count125
+\U@D=\dimen136
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -326,8 +338,8 @@ File: babel.def 2016/02/24 3.9q Babel common definitions
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks24
-\inpenc@posthook=\toks25
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
@@ -690,16 +702,16 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen136
-\Hy@linkcounter=\count125
-\Hy@pagecounter=\count126
+\@linkdim=\dimen137
+\Hy@linkcounter=\count126
+\Hy@pagecounter=\count127
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count127
+\Hy@SavedSpaceFactor=\count128
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -712,12 +724,12 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count128
+\c@Hy@tempcnt=\count129
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen137
-\Fld@menulength=\count129
-\Field@Width=\dimen138
-\Fld@charsize=\dimen139
+\XeTeXLinkMargin=\dimen138
+\Fld@menulength=\count130
+\Field@Width=\dimen139
+\Fld@charsize=\dimen140
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -727,17 +739,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count130
-\c@Item=\count131
-\c@Hfootnote=\count132
+\Hy@abspage=\count131
+\c@Item=\count132
+\c@Hfootnote=\count133
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count133
-\c@bookmark@seq@number=\count134
+\Fld@listcount=\count134
+\c@bookmark@seq@number=\count135
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -746,49 +758,46 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip67
 )
-\c@theorem=\count135
+\c@theorem=\count136
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
-\BKM@id=\count136
+\BKM@id=\count137
 ))
-(./thesis.aux (./title.aux) (./Measurement.aux
-
-LaTeX Warning: Label `inclusive_formula' multiply defined.
-
-))
+(./thesis.aux (./title.aux) (./Measurement.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count137
-\scratchdimen=\dimen140
+\scratchcounter=\count138
+\scratchdimen=\dimen141
 \scratchbox=\box32
-\nofMPsegments=\count138
-\nofMParguments=\count139
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count140
-\MPscratchDim=\dimen141
-\MPnumerator=\count141
-\makeMPintoPDFobject=\count142
-\everyMPtoPDFconversion=\toks27
+\nofMPsegments=\count139
+\nofMParguments=\count140
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count141
+\MPscratchDim=\dimen142
+\MPnumerator=\count142
+\makeMPintoPDFobject=\count143
+\everyMPtoPDFconversion=\toks30
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -804,30 +813,30 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
-LaTeX Info: Redefining \celsius on input line 73.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 73.
+LaTeX Info: Redefining \celsius on input line 75.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 75.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 73.
-Package gensymb Info: Using \Omega for \ohm on input line 73.
+LaTeX Info: Redefining \ohm on input line 75.
+Package gensymb Info: Using \Omega for \ohm on input line 75.
 
 Package gensymb Warning: Not defining \micro.
 
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 75.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count143
+\c@section@level=\count144
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
 \openout2 = `title.aux'.
 
 
@@ -852,51 +861,35 @@ Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 [2
 
 ] [3] [4]
-Package hyperref Info: Option `pageanchor' set `false' on input line 102.
+Package hyperref Info: Option `pageanchor' set `false' on input line 104.
  [5
 
 ] [6
 
-] [7] (./thesis.toc [8
-
-] [9])
+] [7] (./thesis.toc)
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [10] [11] [12
+ [8
 
-] (./thesis.lof
-[13
+] [9] [10
 
-]
-
-! LaTeX Error: Undefined color `pink'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ...s (right).\relax }}{18}{figure.caption.17}
-                                                  
-? r
-OK, entering \nonstopmode...
-
-Underfull \hbox (badness 3323) in paragraph at lines 12--12
- \OT1/cmr/m/n/12 Gen/MG$[]$ P6 Gen us-ing ex-tracted JER, smeared MG$[]$ P6 
- []
-
-[14] [15] [16] [17])
+] (./thesis.lof)
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
- [18] (./thesis.lot)
+ [11
+
+]
+[12
+
+] (./thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
- [19
+ [13
 
-
-] [20]
+]
 \openout2 = `Measurement.aux'.
 
  (./Measurement.tex
@@ -905,1349 +898,73 @@ Chapter 1.
 
 
 ]
-Overfull \hbox (29.20549pt too wide) in paragraph at lines 33--44
+Overfull \hbox (29.20549pt too wide) in paragraph at lines 30--41
 [][] 
  []
 
-[2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 62.
+! Missing } inserted.
+<inserted text> 
+                }
+l.67 ...2\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}}
+                                                   & 50129518 & 1.036 $\time...
+
+? r
+OK, entering \nonstopmode...
+! Extra }, or forgotten \endgroup.
+<argument> ...53X-PU\_S10\_START53\_V7A-v1/AODSIM}
+                                                  
+l.67 ...2\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}}
+                                                   & 50129518 & 1.036 $\time...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (105.3113pt too wide) in paragraph at lines 60--73
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--74
+
+ []
+
+[2] [3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
- [3]
-Overfull \hbox (135.35254pt too wide) in paragraph at lines 94--105
- [][] 
- []
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
+) [4]
+(./thesis.bbl [5
 
-[4]
-<Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf, id=407, 569.12625pt x 386.44
-376pt>
-File: Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf used 
-on input line 113.
-(pdftex.def)             Requested size: 213.39566pt x 144.89836pt.
 
-<Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf, id=408, 569.12625pt x 386.4
-4376pt>
-File: Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf Graphic file (type pdf)
 
- <use Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf used
- on input line 114.
-(pdftex.def)             Requested size: 213.39566pt x 144.89836pt.
+] [6] [7]) [8] [9
 
-<Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf, id=409, 569.12625pt x 386.4
-4376pt>
-File: Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf Graphic file (type pdf)
 
- <use Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf used
- on input line 115.
-(pdftex.def)             Requested size: 213.39566pt x 144.89836pt.
-
-<Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf, id=410, 569.12625pt x 386.4
-4376pt>
-File: Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf Graphic file (type pdf)
-
- <use Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf used
- on input line 116.
-(pdftex.def)             Requested size: 213.39566pt x 144.89836pt.
-
-<Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf, id=411, 569.12625pt x 386.4
-4376pt>
-File: Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf Graphic file (type pdf)
-
- <use Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf used
- on input line 117.
-(pdftex.def)             Requested size: 213.39566pt x 144.89836pt.
- [5 <./Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf, page is rotated 90 deg
-rees> <./Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf, page is rotated 90 
-degrees> <./Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf, page is rotated 
-90 degrees> <./Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf, page is rotat
-ed 90 degrees> <./Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf, page is ro
-tated 90 degrees>] [6] [7]
-<Plots_HT_2_150/Qual/Missing_ET_2_HT_2_150.pdf, id=640, 569.12625pt x 386.44376
-pt>
-File: Plots_HT_2_150/Qual/Missing_ET_2_HT_2_150.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Qual/Missing_ET_2_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Missing_ET_2_HT_2_150.pdf used on 
-input line 188.
-(pdftex.def)             Requested size: 213.39566pt x 144.89836pt.
-
-<Plots_HT_2_150/Qual/Missing_ET_3_HT_2_150.pdf, id=641, 569.12625pt x 386.44376
-pt>
-File: Plots_HT_2_150/Qual/Missing_ET_3_HT_2_150.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Qual/Missing_ET_3_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Missing_ET_3_HT_2_150.pdf used on 
-input line 189.
-(pdftex.def)             Requested size: 213.39566pt x 144.89836pt.
-
-<Plots_HT_2_150/Qual/Missing_ET_4_HT_2_150.pdf, id=642, 569.12625pt x 386.44376
-pt>
-File: Plots_HT_2_150/Qual/Missing_ET_4_HT_2_150.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Qual/Missing_ET_4_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Missing_ET_4_HT_2_150.pdf used on 
-input line 190.
-(pdftex.def)             Requested size: 213.39566pt x 144.89836pt.
-
-
-LaTeX Warning: Reference `fig:qual4' on page 8 undefined on input line 198.
-
-
-<Plots_HT_2_150/Qual/Comparison_NuHadFrac_2_HT_2_150.pdf, id=644, 569.12625pt x
- 542.025pt>
-File: Plots_HT_2_150/Qual/Comparison_NuHadFrac_2_HT_2_150.pdf Graphic file (typ
-e pdf)
- <use Plots_HT_2_150/Qual/Comparison_NuHadFrac_2_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_NuHadFrac_2_HT_2_150.pd
-f used on input line 203.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_PhFrac_2_HT_2_150.pdf, id=645, 569.12625pt x 54
-2.025pt>
-File: Plots_HT_2_150/Qual/Comparison_PhFrac_2_HT_2_150.pdf Graphic file (type p
-df)
- <use Plots_HT_2_150/Qual/Comparison_PhFrac_2_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_PhFrac_2_HT_2_150.pdf u
-sed on input line 204.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_MuFrac_2_HT_2_150.pdf, id=646, 569.12625pt x 54
-2.025pt>
-File: Plots_HT_2_150/Qual/Comparison_MuFrac_2_HT_2_150.pdf Graphic file (type p
-df)
- <use Plots_HT_2_150/Qual/Comparison_MuFrac_2_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_MuFrac_2_HT_2_150.pdf u
-sed on input line 205.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_ElFrac_2_HT_2_150.pdf, id=647, 569.12625pt x 54
-2.025pt>
-File: Plots_HT_2_150/Qual/Comparison_ElFrac_2_HT_2_150.pdf Graphic file (type p
-df)
- <use Plots_HT_2_150/Qual/Comparison_ElFrac_2_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_ElFrac_2_HT_2_150.pdf u
-sed on input line 206.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_ChHadFrac_2_HT_2_150.pdf, id=648, 569.12625pt x
- 542.025pt>
-File: Plots_HT_2_150/Qual/Comparison_ChHadFrac_2_HT_2_150.pdf Graphic file (typ
-e pdf)
- <use Plots_HT_2_150/Qual/Comparison_ChHadFrac_2_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_ChHadFrac_2_HT_2_150.pd
-f used on input line 207.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-
-LaTeX Warning: Float too large for page by 16.31966pt on input line 211.
-
-
-<Plots_HT_2_150/Qual/Comparison_NuHadFrac_3_HT_2_150.pdf, id=649, 569.12625pt x
- 542.025pt>
-File: Plots_HT_2_150/Qual/Comparison_NuHadFrac_3_HT_2_150.pdf Graphic file (typ
-e pdf)
- <use Plots_HT_2_150/Qual/Comparison_NuHadFrac_3_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_NuHadFrac_3_HT_2_150.pd
-f used on input line 215.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_PhFrac_3_HT_2_150.pdf, id=650, 569.12625pt x 54
-2.025pt>
-File: Plots_HT_2_150/Qual/Comparison_PhFrac_3_HT_2_150.pdf Graphic file (type p
-df)
- <use Plots_HT_2_150/Qual/Comparison_PhFrac_3_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_PhFrac_3_HT_2_150.pdf u
-sed on input line 216.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_MuFrac_3_HT_2_150.pdf, id=651, 569.12625pt x 54
-2.025pt>
-File: Plots_HT_2_150/Qual/Comparison_MuFrac_3_HT_2_150.pdf Graphic file (type p
-df)
- <use Plots_HT_2_150/Qual/Comparison_MuFrac_3_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_MuFrac_3_HT_2_150.pdf u
-sed on input line 217.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_ElFrac_3_HT_2_150.pdf, id=652, 569.12625pt x 54
-2.025pt>
-File: Plots_HT_2_150/Qual/Comparison_ElFrac_3_HT_2_150.pdf Graphic file (type p
-df)
- <use Plots_HT_2_150/Qual/Comparison_ElFrac_3_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_ElFrac_3_HT_2_150.pdf u
-sed on input line 218.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_ChHadFrac_3_HT_2_150.pdf, id=653, 569.12625pt x
- 542.025pt>
-File: Plots_HT_2_150/Qual/Comparison_ChHadFrac_3_HT_2_150.pdf Graphic file (typ
-e pdf)
- <use Plots_HT_2_150/Qual/Comparison_ChHadFrac_3_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_ChHadFrac_3_HT_2_150.pd
-f used on input line 219.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-
-LaTeX Warning: Float too large for page by 16.31966pt on input line 223.
-
-[8 <./Plots_HT_2_150/Qual/Missing_ET_2_HT_2_150.pdf, page is rotated 90 degrees
-> <./Plots_HT_2_150/Qual/Missing_ET_3_HT_2_150.pdf, page is rotated 90 degrees>
- <./Plots_HT_2_150/Qual/Missing_ET_4_HT_2_150.pdf, page is rotated 90 degrees>]
-[9 <./Plots_HT_2_150/Qual/Comparison_NuHadFrac_2_HT_2_150.pdf, page is rotated 
-90 degrees> <./Plots_HT_2_150/Qual/Comparison_PhFrac_2_HT_2_150.pdf, page is ro
-tated 90 degrees> <./Plots_HT_2_150/Qual/Comparison_MuFrac_2_HT_2_150.pdf, page
- is rotated 90 degrees> <./Plots_HT_2_150/Qual/Comparison_ElFrac_2_HT_2_150.pdf
-, page is rotated 90 degrees> <./Plots_HT_2_150/Qual/Comparison_ChHadFrac_2_HT_
-2_150.pdf, page is rotated 90 degrees>] [10 <./Plots_HT_2_150/Qual/Comparison_N
-uHadFrac_3_HT_2_150.pdf, page is rotated 90 degrees> <./Plots_HT_2_150/Qual/Com
-parison_PhFrac_3_HT_2_150.pdf, page is rotated 90 degrees> <./Plots_HT_2_150/Qu
-al/Comparison_MuFrac_3_HT_2_150.pdf, page is rotated 90 degrees> <./Plots_HT_2_
-150/Qual/Comparison_ElFrac_3_HT_2_150.pdf, page is rotated 90 degrees> <./Plots
-_HT_2_150/Qual/Comparison_ChHadFrac_3_HT_2_150.pdf, page is rotated 90 degrees>
-] <Plots_HT_2_150/Nvertices.pdf, id=1223, 569.12625pt x 542.025pt>
-File: Plots_HT_2_150/Nvertices.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Nvertices.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Nvertices.pdf used on input line 239.
-(pdftex.def)             Requested size: 227.64647pt x 216.80615pt.
-
-<Plots_HT_2_150/Nvertices_weight.pdf, id=1224, 569.12625pt x 542.025pt>
-File: Plots_HT_2_150/Nvertices_weight.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Nvertices_weight.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Nvertices_weight.pdf used on input line
- 241.
-(pdftex.def)             Requested size: 227.64647pt x 216.80615pt.
-
-Overfull \hbox (28.5016pt too wide) in paragraph at lines 239--242
- [][] 
- []
-
-[11 <./Plots_HT_2_150/Nvertices.pdf, page is rotated 90 degrees> <./Plots_HT_2_
-150/Nvertices_weight.pdf, page is rotated 90 degrees>] [12]
-<Plots_HT_2_150/Comparison_all_2_HT_2_150.pdf, id=1325, 569.12625pt x 528.97626
-pt>
-File: Plots_HT_2_150/Comparison_all_2_HT_2_150.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Comparison_all_2_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_all_2_HT_2_150.pdf used on i
-nput line 296.
-(pdftex.def)             Requested size: 199.19717pt x 185.14445pt.
-
-<Plots_HT_2_150/Comparison_all_3_HT_2_150.pdf, id=1326, 569.12625pt x 528.97626
-pt>
-File: Plots_HT_2_150/Comparison_all_3_HT_2_150.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Comparison_all_3_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_all_3_HT_2_150.pdf used on i
-nput line 298.
-(pdftex.def)             Requested size: 199.19717pt x 185.14445pt.
-
-<Plots_HT_2_150/Comparison_all_4_HT_2_150.pdf, id=1327, 569.12625pt x 528.97626
-pt>
-File: Plots_HT_2_150/Comparison_all_4_HT_2_150.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Comparison_all_4_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_all_4_HT_2_150.pdf used on i
-nput line 299.
-(pdftex.def)             Requested size: 199.19717pt x 185.14445pt.
- [13] [14 <./Plots_HT_2_150/Comparison_all_2_HT_2_150.pdf, page is rotated 90 d
-egrees> <./Plots_HT_2_150/Comparison_all_3_HT_2_150.pdf, page is rotated 90 deg
-rees> <./Plots_HT_2_150/Comparison_all_4_HT_2_150.pdf, page is rotated 90 degre
-es>]
-! Undefined control sequence.
-l.352 The reconstructed jet \pt (\ptreco
-                                        ) is smeared randomly using a gaussi...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-<Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_crystal_nomet.pdf, id=14
-67, 569.12625pt x 386.44376pt>
-File: Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_crystal_nomet.pdf G
-raphic file (type pdf)
-
-<use Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_crystal_nomet.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_
-crystal_nomet.pdf used on input line 368.
-(pdftex.def)             Requested size: 233.34328pt x 158.44296pt.
-File: Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_crystal_nomet.pdf G
-raphic file (type pdf)
-
-<use Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_crystal_nomet.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_
-crystal_nomet.pdf used on input line 369.
-(pdftex.def)             Requested size: 233.34328pt x 158.44296pt.
-
-<Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_crystal.pdf, id=1468, 56
-9.12625pt x 386.44376pt>
-File: Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_crystal.pdf Graphic
- file (type pdf)
-
-<use Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_crystal.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_
-crystal.pdf used on input line 370.
-(pdftex.def)             Requested size: 233.34328pt x 158.44296pt.
-
-<Plots_HT_2_150/Fit_Res_3_final_crystal_genbin_250-275_crystal.pdf, id=1469, 56
-9.12625pt x 386.44376pt>
-File: Plots_HT_2_150/Fit_Res_3_final_crystal_genbin_250-275_crystal.pdf Graphic
- file (type pdf)
-
-<use Plots_HT_2_150/Fit_Res_3_final_crystal_genbin_250-275_crystal.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Fit_Res_3_final_crystal_genbin_250-275_
-crystal.pdf used on input line 371.
-(pdftex.def)             Requested size: 233.34328pt x 158.44296pt.
-
-Overfull \hbox (39.89522pt too wide) in paragraph at lines 368--371
- [][] 
- []
-
-
-Overfull \hbox (39.89522pt too wide) in paragraph at lines 368--371
- [][] 
- []
-
-[15] [16 <./Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_crystal_nomet
-.pdf, page is rotated 90 degrees> <./Plots_HT_2_150/Fit_Res_2_final_crystal_gen
-bin_250-275_crystal.pdf, page is rotated 90 degrees> <./Plots_HT_2_150/Fit_Res_
-3_final_crystal_genbin_250-275_crystal.pdf, page is rotated 90 degrees>]
-<Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_2.pdf, id=1609, 569.12625pt
- x 386.44376pt>
-File: Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_2.pdf Graphic file (ty
-pe pdf)
- <use Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_2.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_2.p
-df used on input line 406.
-(pdftex.def)             Requested size: 213.39566pt x 144.89836pt.
-
-<Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_3.pdf, id=1610, 569.12625pt
- x 386.44376pt>
-File: Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_3.pdf Graphic file (ty
-pe pdf)
- <use Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_3.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_3.p
-df used on input line 407.
-(pdftex.def)             Requested size: 213.39566pt x 144.89836pt.
-
-<Plots_HT_2_150/Extrapolate_Sigma_Value_Res_2_crystal_range.pdf, id=1611, 569.1
-2625pt x 386.44376pt>
-File: Plots_HT_2_150/Extrapolate_Sigma_Value_Res_2_crystal_range.pdf Graphic fi
-le (type pdf)
-
-<use Plots_HT_2_150/Extrapolate_Sigma_Value_Res_2_crystal_range.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Extrapolate_Sigma_Value_Res_2_crystal_r
-ange.pdf used on input line 411.
-(pdftex.def)             Requested size: 213.39566pt x 144.89836pt.
-
-<Plots_HT_2_150/Extrapolate_Sigma_Value_Res_3_crystal.pdf, id=1612, 569.12625pt
- x 386.44376pt>
-File: Plots_HT_2_150/Extrapolate_Sigma_Value_Res_3_crystal.pdf Graphic file (ty
-pe pdf)
- <use Plots_HT_2_150/Extrapolate_Sigma_Value_Res_3_crystal.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Extrapolate_Sigma_Value_Res_3_crystal.p
-df used on input line 412.
-(pdftex.def)             Requested size: 213.39566pt x 144.89836pt.
-
-[17 <./Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_2.pdf, page is rotate
-d 90 degrees> <./Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_3.pdf, page
- is rotated 90 degrees> <./Plots_HT_2_150/Extrapolate_Sigma_Value_Res_2_crystal
-_range.pdf, page is rotated 90 degrees> <./Plots_HT_2_150/Extrapolate_Sigma_Val
-ue_Res_3_crystal.pdf, page is rotated 90 degrees>]
-! Undefined control sequence.
-l.427 ...ig:ratios}, when JER extracted from \blue
-                                                  {simulated MG\plus P6 Reco...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.427 ... it smears the fastNLO too much (\mycolor
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Undefined color `pink'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.428 ...pink}{Smeared MG\plus Gen/MG\plus P6 Gen}
-                                                  , matches with simulated \...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.428 ...lus P6 Gen}, matches with simulated \blue
-                                                  {MG\plus P6
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.429 ...en smeared with 30\% reduced  JER, \green
-                                                  {Smeared FastNLO/Gen FastN...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<Plots_HT_2_150/Ratio_all_2_crystal.pdf, id=1794, 569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Ratio_all_2_crystal.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Ratio_all_2_crystal.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Ratio_all_2_crystal.pdf used on input l
-ine 433.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Ratio_all_3_crystal.pdf, id=1795, 569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Ratio_all_3_crystal.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Ratio_all_3_crystal.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Ratio_all_3_crystal.pdf used on input l
-ine 434.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-! Undefined control sequence.
-<argument> ...e {thefigure}}}{\ignorespaces \blue 
-                                                  {Simulated MG\plus P6 Reco...
-l.435 ...eft) and inclusive 3-jet events (right).}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...us P6 Gen} to extract JER, \mycolor 
-                                                  {Smeared FastNLO/Gen FastN...
-l.435 ...eft) and inclusive 3-jet events (right).}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... 30\% reduced extracted JER, \green 
-                                                  {Smeared FastNLO/Gen FastN...
-l.435 ...eft) and inclusive 3-jet events (right).}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \blue 
-                 {Simulated MG\plus P6 Reco/MG\plus P6 Gen} to extract JER, ...
-l.435 ...eft) and inclusive 3-jet events (right).}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...us P6 Gen} to extract JER, \mycolor 
-                                                  {Smeared FastNLO/Gen FastN...
-l.435 ...eft) and inclusive 3-jet events (right).}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Undefined color `pink'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.435 ...eft) and inclusive 3-jet events (right).}
-                                                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> ... 30\% reduced extracted JER, \green 
-                                                  {Smeared FastNLO/Gen FastN...
-l.435 ...eft) and inclusive 3-jet events (right).}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \blue 
-                 {Simulated MG\plus P6 Reco/MG\plus P6 Gen} to extract JER, ...
-l.435 ...eft) and inclusive 3-jet events (right).}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...us P6 Gen} to extract JER, \mycolor 
-                                                  {Smeared FastNLO/Gen FastN...
-l.435 ...eft) and inclusive 3-jet events (right).}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Undefined color `pink'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.435 ...eft) and inclusive 3-jet events (right).}
-                                                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> ... 30\% reduced extracted JER, \green 
-                                                  {Smeared FastNLO/Gen FastN...
-l.435 ...eft) and inclusive 3-jet events (right).}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[18 <./Plots_HT_2_150/Ratio_all_2_crystal.pdf, page is rotated 90 degrees> <./P
-lots_HT_2_150/Ratio_all_3_crystal.pdf, page is rotated 90 degrees>] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 493--495
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 496--497
-
- []
-
-<Plots_HT_2_150/Formula.png, id=1892, 325.215pt x 67.75313pt>
-File: Plots_HT_2_150/Formula.png Graphic file (type png)
-
-<use Plots_HT_2_150/Formula.png>
-Package pdftex.def Info: Plots_HT_2_150/Formula.png used on input line 498.
-(pdftex.def)             Requested size: 211.38724pt x 44.03899pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 504--506
-
- []
-
-[20 <./Plots_HT_2_150/Formula.png>]
-<Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcI.pdf, id=1902, 569.12625pt x
- 374.39874pt>
-File: Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcI.pdf Graphic file (type
- pdf)
- <use Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcI.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcI.pdf
- used on input line 520.
-(pdftex.def)             Requested size: 213.39566pt x 140.38203pt.
-
-<Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcI.pdf, id=1903, 569.12625pt x
- 374.39874pt>
-File: Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcI.pdf Graphic file (type
- pdf)
- <use Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcI.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcI.pdf
- used on input line 521.
-(pdftex.def)             Requested size: 213.39566pt x 140.38203pt.
-
-<Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcII.pdf, id=1904, 569.12625pt 
-x 374.39874pt>
-File: Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcII.pdf Graphic file (typ
-e pdf)
- <use Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcII.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcII.pd
-f used on input line 523.
-(pdftex.def)             Requested size: 213.39566pt x 140.38203pt.
-
-<Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcII.pdf, id=1905, 569.12625pt 
-x 374.39874pt>
-File: Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcII.pdf Graphic file (typ
-e pdf)
- <use Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcII.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcII.pd
-f used on input line 524.
-(pdftex.def)             Requested size: 213.39566pt x 140.38203pt.
-
-[21 <./Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcI.pdf, page is rotated 
-90 degrees> <./Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcI.pdf, page is 
-rotated 90 degrees> <./Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcII.pdf,
- page is rotated 90 degrees> <./Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_fu
-ncII.pdf, page is rotated 90 degrees>]
-<Plots_HT_2_150/Normalized_Response_Matrix_NLO_2_range_column.pdf, id=2084, 569
-.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Normalized_Response_Matrix_NLO_2_range_column.pdf Graphic 
-file (type pdf)
-
-<use Plots_HT_2_150/Normalized_Response_Matrix_NLO_2_range_column.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Normalized_Response_Matrix_NLO_2_range_
-column.pdf used on input line 538.
-(pdftex.def)             Requested size: 192.0548pt x 144.29814pt.
-
-<Plots_HT_2_150/Normalized_Response_Matrix_NLO_3_column.pdf, id=2085, 569.12625
-pt x 427.5975pt>
-File: Plots_HT_2_150/Normalized_Response_Matrix_NLO_3_column.pdf Graphic file (
-type pdf)
-
-<use Plots_HT_2_150/Normalized_Response_Matrix_NLO_3_column.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Normalized_Response_Matrix_NLO_3_column
-.pdf used on input line 539.
-(pdftex.def)             Requested size: 192.0548pt x 144.29814pt.
-
-<Plots_HT_2_150/Normalized_Response_Matrix_Madgraph_2_HT_2_150.pdf, id=2086, 56
-9.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Normalized_Response_Matrix_Madgraph_2_HT_2_150.pdf Graphic
- file (type pdf)
-
-<use Plots_HT_2_150/Normalized_Response_Matrix_Madgraph_2_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Normalized_Response_Matrix_Madgraph_2_H
-T_2_150.pdf used on input line 547.
-(pdftex.def)             Requested size: 192.0548pt x 144.29814pt.
-
-<Plots_HT_2_150/Normalized_Response_Matrix_Madgraph_3_HT_2_150.pdf, id=2087, 56
-9.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Normalized_Response_Matrix_Madgraph_3_HT_2_150.pdf Graphic
- file (type pdf)
-
-<use Plots_HT_2_150/Normalized_Response_Matrix_Madgraph_3_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Normalized_Response_Matrix_Madgraph_3_H
-T_2_150.pdf used on input line 548.
-(pdftex.def)             Requested size: 192.0548pt x 144.29814pt.
-
-<Plots_HT_2_150/Normalized_Response_Matrix_Madgraph_4_HT_2_150.pdf, id=2088, 56
-9.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Normalized_Response_Matrix_Madgraph_4_HT_2_150.pdf Graphic
- file (type pdf)
-
-<use Plots_HT_2_150/Normalized_Response_Matrix_Madgraph_4_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Normalized_Response_Matrix_Madgraph_4_H
-T_2_150.pdf used on input line 549.
-(pdftex.def)             Requested size: 192.0548pt x 144.29814pt.
-
-[22 <./Plots_HT_2_150/Normalized_Response_Matrix_NLO_2_range_column.pdf, page i
-s rotated 90 degrees> <./Plots_HT_2_150/Normalized_Response_Matrix_NLO_3_column
-.pdf, page is rotated 90 degrees> <./Plots_HT_2_150/Normalized_Response_Matrix_
-Madgraph_2_HT_2_150.pdf, page is rotated 90 degrees> <./Plots_HT_2_150/Normaliz
-ed_Response_Matrix_Madgraph_3_HT_2_150.pdf, page is rotated 90 degrees> <./Plot
-s_HT_2_150/Normalized_Response_Matrix_Madgraph_4_HT_2_150.pdf, page is rotated 
-90 degrees>] [23]
-<Plots_HT_2_150/Ratio_Unfolding_NLO_2.pdf, id=2321, 569.12625pt x 426.59375pt>
-File: Plots_HT_2_150/Ratio_Unfolding_NLO_2.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Ratio_Unfolding_NLO_2.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_NLO_2.pdf used on input
- line 585.
-(pdftex.def)             Requested size: 213.39566pt x 159.95273pt.
-
-<Plots_HT_2_150/Ratio_Unfolding_NLO_3.pdf, id=2322, 569.12625pt x 426.59375pt>
-File: Plots_HT_2_150/Ratio_Unfolding_NLO_3.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Ratio_Unfolding_NLO_3.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_NLO_3.pdf used on input
- line 586.
-(pdftex.def)             Requested size: 213.39566pt x 159.95273pt.
-
-<Plots_HT_2_150/Ratio_Unfolding_Mad_2_HT_2_150.pdf, id=2323, 569.12625pt x 426.
-59375pt>
-File: Plots_HT_2_150/Ratio_Unfolding_Mad_2_HT_2_150.pdf Graphic file (type pdf)
-
- <use Plots_HT_2_150/Ratio_Unfolding_Mad_2_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_Mad_2_HT_2_150.pdf used
- on input line 590.
-(pdftex.def)             Requested size: 213.39566pt x 159.95273pt.
-
-<Plots_HT_2_150/Ratio_Unfolding_Mad_3_HT_2_150.pdf, id=2324, 569.12625pt x 426.
-59375pt>
-File: Plots_HT_2_150/Ratio_Unfolding_Mad_3_HT_2_150.pdf Graphic file (type pdf)
-
- <use Plots_HT_2_150/Ratio_Unfolding_Mad_3_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_Mad_3_HT_2_150.pdf used
- on input line 591.
-(pdftex.def)             Requested size: 213.39566pt x 159.95273pt.
-
-<Plots_HT_2_150/Ratio_Unfolding_Mad_4_HT_2_150.pdf, id=2325, 569.12625pt x 426.
-59375pt>
-File: Plots_HT_2_150/Ratio_Unfolding_Mad_4_HT_2_150.pdf Graphic file (type pdf)
-
- <use Plots_HT_2_150/Ratio_Unfolding_Mad_4_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_Mad_4_HT_2_150.pdf used
- on input line 592.
-(pdftex.def)             Requested size: 213.39566pt x 159.95273pt.
-
-<Plots_HT_2_150/Comparison_closure_2_range.pdf, id=2326, 569.12625pt x 427.5975
-pt>
-File: Plots_HT_2_150/Comparison_closure_2_range.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Comparison_closure_2_range.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_closure_2_range.pdf used on 
-input line 600.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Comparison_closure_3.pdf, id=2327, 569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Comparison_closure_3.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Comparison_closure_3.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_closure_3.pdf used on input 
-line 601.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Ratio_Unfolding_data_NLO_2.pdf, id=2328, 569.12625pt x 427.5975
-pt>
-File: Plots_HT_2_150/Ratio_Unfolding_data_NLO_2.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Ratio_Unfolding_data_NLO_2.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_data_NLO_2.pdf used on 
-input line 605.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Ratio_Unfolding_data_NLO_3.pdf, id=2329, 569.12625pt x 427.5975
-pt>
-File: Plots_HT_2_150/Ratio_Unfolding_data_NLO_3.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Ratio_Unfolding_data_NLO_3.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_data_NLO_3.pdf used on 
-input line 606.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-
-LaTeX Warning: Reference `table_event' on page 24 undefined on input line 618.
-
-[24] [25 <./Plots_HT_2_150/Ratio_Unfolding_NLO_2.pdf, page is rotated 90 degree
-s> <./Plots_HT_2_150/Ratio_Unfolding_NLO_3.pdf, page is rotated 90 degrees> <./
-Plots_HT_2_150/Ratio_Unfolding_Mad_2_HT_2_150.pdf, page is rotated 90 degrees> 
-<./Plots_HT_2_150/Ratio_Unfolding_Mad_3_HT_2_150.pdf, page is rotated 90 degree
-s> <./Plots_HT_2_150/Ratio_Unfolding_Mad_4_HT_2_150.pdf, page is rotated 90 deg
-rees>] [26 <./Plots_HT_2_150/Comparison_closure_2_range.pdf, page is rotated 90
- degrees> <./Plots_HT_2_150/Comparison_closure_3.pdf, page is rotated 90 degree
-s> <./Plots_HT_2_150/Ratio_Unfolding_data_NLO_2.pdf, page is rotated 90 degrees
-> <./Plots_HT_2_150/Ratio_Unfolding_data_NLO_3.pdf, page is rotated 90 degrees>
-]
-<Plots_HT_2_150/Comparison_stat_unc_2_HT_2_150.pdf, id=2729, 569.12625pt x 427.
-5975pt>
-File: Plots_HT_2_150/Comparison_stat_unc_2_HT_2_150.pdf Graphic file (type pdf)
-
- <use Plots_HT_2_150/Comparison_stat_unc_2_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_stat_unc_2_HT_2_150.pdf used
- on input line 646.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Comparison_stat_unc_3_HT_2_150.pdf, id=2730, 569.12625pt x 427.
-5975pt>
-File: Plots_HT_2_150/Comparison_stat_unc_3_HT_2_150.pdf Graphic file (type pdf)
-
- <use Plots_HT_2_150/Comparison_stat_unc_3_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_stat_unc_3_HT_2_150.pdf used
- on input line 647.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Correlation_Matrix_NLO_2_ite4.pdf, id=2732, 569.12625pt x 427.5
-975pt>
-File: Plots_HT_2_150/Correlation_Matrix_NLO_2_ite4.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Correlation_Matrix_NLO_2_ite4.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Correlation_Matrix_NLO_2_ite4.pdf used 
-on input line 662.
-(pdftex.def)             Requested size: 149.37956pt x 112.2297pt.
-
-<Plots_HT_2_150/Correlation_Matrix_NLO_2_ite5.pdf, id=2733, 569.12625pt x 427.5
-975pt>
-File: Plots_HT_2_150/Correlation_Matrix_NLO_2_ite5.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Correlation_Matrix_NLO_2_ite5.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Correlation_Matrix_NLO_2_ite5.pdf used 
-on input line 663.
-(pdftex.def)             Requested size: 149.37956pt x 112.2297pt.
-
-<Plots_HT_2_150/Correlation_Matrix_NLO_2_ite10.pdf, id=2734, 569.12625pt x 427.
-5975pt>
-File: Plots_HT_2_150/Correlation_Matrix_NLO_2_ite10.pdf Graphic file (type pdf)
-
- <use Plots_HT_2_150/Correlation_Matrix_NLO_2_ite10.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Correlation_Matrix_NLO_2_ite10.pdf used
- on input line 664.
-(pdftex.def)             Requested size: 149.37956pt x 112.2297pt.
-
-Overfull \hbox (21.34735pt too wide) in paragraph at lines 662--664
- [][][] 
- []
-
-
-<Plots_HT_2_150/Correlation_Matrix_NLO_3_ite4.pdf, id=2735, 569.12625pt x 427.5
-975pt>
-File: Plots_HT_2_150/Correlation_Matrix_NLO_3_ite4.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Correlation_Matrix_NLO_3_ite4.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Correlation_Matrix_NLO_3_ite4.pdf used 
-on input line 666.
-(pdftex.def)             Requested size: 149.37956pt x 112.2297pt.
-
-<Plots_HT_2_150/Correlation_Matrix_NLO_3_ite5.pdf, id=2736, 569.12625pt x 427.5
-975pt>
-File: Plots_HT_2_150/Correlation_Matrix_NLO_3_ite5.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Correlation_Matrix_NLO_3_ite5.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Correlation_Matrix_NLO_3_ite5.pdf used 
-on input line 667.
-(pdftex.def)             Requested size: 149.37956pt x 112.2297pt.
-
-<Plots_HT_2_150/Correlation_Matrix_NLO_3_ite10.pdf, id=2737, 569.12625pt x 427.
-5975pt>
-File: Plots_HT_2_150/Correlation_Matrix_NLO_3_ite10.pdf Graphic file (type pdf)
-
- <use Plots_HT_2_150/Correlation_Matrix_NLO_3_ite10.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Correlation_Matrix_NLO_3_ite10.pdf used
- on input line 668.
-(pdftex.def)             Requested size: 149.37956pt x 112.2297pt.
-
-Overfull \hbox (21.34735pt too wide) in paragraph at lines 666--671
- [][][][] 
- []
-
-[27] [28 <./Plots_HT_2_150/Comparison_stat_unc_2_HT_2_150.pdf, page is rotated 
-90 degrees> <./Plots_HT_2_150/Comparison_stat_unc_3_HT_2_150.pdf, page is rotat
-ed 90 degrees> <./Plots_HT_2_150/Correlation_Matrix_NLO_2_ite4.pdf, page is rot
-ated 90 degrees> <./Plots_HT_2_150/Correlation_Matrix_NLO_2_ite5.pdf, page is r
-otated 90 degrees> <./Plots_HT_2_150/Correlation_Matrix_NLO_2_ite10.pdf, page i
-s rotated 90 degrees> <./Plots_HT_2_150/Correlation_Matrix_NLO_3_ite4.pdf, page
- is rotated 90 degrees> <./Plots_HT_2_150/Correlation_Matrix_NLO_3_ite5.pdf, pa
-ge is rotated 90 degrees> <./Plots_HT_2_150/Correlation_Matrix_NLO_3_ite10.pdf,
- page is rotated 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 682--685
-\OT1/cmr/m/n/12 https://twiki.cern.ch/twiki/bin/viewauth/CMS/
- []
-
-
-LaTeX Warning: Reference `fig:jes1' on page 29 undefined on input line 693.
-
-
-LaTeX Warning: Reference `fig:jes4' on page 29 undefined on input line 693.
-
-
-LaTeX Warning: Reference `tab:exp_unc_jes_2' on page 29 undefined on input line
- 694.
-
-
-LaTeX Warning: Reference `tab:exp_unc_jes_2s' on page 29 undefined on input lin
-e 694.
-
-
-LaTeX Warning: Reference `tab:exp_unc_jes_3' on page 29 undefined on input line
- 694.
-
-
-LaTeX Warning: Reference `tab:exp_unc_jes_3s' on page 29 undefined on input lin
-e 694.
-
-[29] [30]
-
-LaTeX Warning: Reference `tab:exp_unc2' on page 31 undefined on input line 723.
-
-
-
-LaTeX Warning: Reference `tab:exp_unc3' on page 31 undefined on input line 723.
-
-
-
-<Plots_HT_2_150/Total_unc_all_2_NLO_add.pdf, id=3111, 569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Total_unc_all_2_NLO_add.pdf Graphic file (type pdf)
-<use Plots_HT_2_150/Total_unc_all_2_NLO_add.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Total_unc_all_2_NLO_add.pdf used on inp
-ut line 730.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Total_unc_all_3_NLO_add.pdf, id=3112, 569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Total_unc_all_3_NLO_add.pdf Graphic file (type pdf)
-<use Plots_HT_2_150/Total_unc_all_3_NLO_add.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Total_unc_all_3_NLO_add.pdf used on inp
-ut line 731.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-! Undefined control sequence.
-l.748      {\bf \blue
-                      {JEC}}  & 3 to 10\% & 4 to 12\% \rbtrr\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Undefined color `green!50!black'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 ...bf \textcolor{green!50!black} {Unfolding}
-                                                  } & 1-2\% & 1-2\% \rbtrr\\
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.750      {\bf \mycolor
-                         {Luminosity}} & 2.6\% & 2.6\% \rbtrr\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Undefined color `red!30!blue!50!white'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.751 ...30!blue!50!white} {Residual uncorrelated}
-                                                  } & 1\% & 1\% \rbtrr\\
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `tab:ratio_32' on page 31 undefined on input line 762.
-
-
-[31] [32 <./Plots_HT_2_150/Total_unc_all_2_NLO_add.pdf, page is rotated 90 degr
-ees> <./Plots_HT_2_150/Total_unc_all_3_NLO_add.pdf, page is rotated 90 degrees>
-]
-<Plots_HT_2_150/Ratio_32_43_42_all_HT_2_150.pdf, id=3207, 569.12625pt x 386.443
-76pt>
-File: Plots_HT_2_150/Ratio_32_43_42_all_HT_2_150.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Ratio_32_43_42_all_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Ratio_32_43_42_all_HT_2_150.pdf used on
- input line 771.
-(pdftex.def)             Requested size: 213.39566pt x 144.89836pt.
- [33 <./Plots_HT_2_150/Ratio_32_43_42_all_HT_2_150.pdf, page is rotated 90 degr
-ees>]
-<Plots_HT_2_150/Ratio_32_43_42_unfolded_all_HT_2_150.pdf, id=3261, 569.12625pt 
-x 427.5975pt>
-File: Plots_HT_2_150/Ratio_32_43_42_unfolded_all_HT_2_150.pdf Graphic file (typ
-e pdf)
- <use Plots_HT_2_150/Ratio_32_43_42_unfolded_all_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Ratio_32_43_42_unfolded_all_HT_2_150.pd
-f used on input line 792.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Ratio_Unfolding_data_NLO_ratio32.pdf, id=3262, 569.12625pt x 42
-7.5975pt>
-File: Plots_HT_2_150/Ratio_Unfolding_data_NLO_ratio32.pdf Graphic file (type pd
-f)
- <use Plots_HT_2_150/Ratio_Unfolding_data_NLO_ratio32.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_data_NLO_ratio32.pdf us
-ed on input line 793.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
- [34 <./Plots_HT_2_150/Ratio_32_43_42_unfolded_all_HT_2_150.pdf, page is rotate
-d 90 degrees> <./Plots_HT_2_150/Ratio_Unfolding_data_NLO_ratio32.pdf, page is r
-otated 90 degrees>]
-<Plots_HT_2_150/Extrapolate_Theory_Ratio_32.pdf, id=3356, 569.12625pt x 375.402
-5pt>
-File: Plots_HT_2_150/Extrapolate_Theory_Ratio_32.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Extrapolate_Theory_Ratio_32.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Extrapolate_Theory_Ratio_32.pdf used on
- input line 808.
-(pdftex.def)             Requested size: 256.0774pt x 168.9181pt.
-
-<Plots_HT_2_150/Normalized_Response_Matrix_NLO_ratio_32_column_2.pdf, id=3361, 
-569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Normalized_Response_Matrix_NLO_ratio_32_column_2.pdf Graph
-ic file (type pdf)
-
-<use Plots_HT_2_150/Normalized_Response_Matrix_NLO_ratio_32_column_2.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Normalized_Response_Matrix_NLO_ratio_32
-_column_2.pdf used on input line 834.
-(pdftex.def)             Requested size: 192.0548pt x 144.29814pt.
-
-<Plots_HT_2_150/Ratio_Unfolding_NLO_Ratio_32_ToyMC.pdf, id=3362, 569.12625pt x 
-427.5975pt>
-File: Plots_HT_2_150/Ratio_Unfolding_NLO_Ratio_32_ToyMC.pdf Graphic file (type 
-pdf)
- <use Plots_HT_2_150/Ratio_Unfolding_NLO_Ratio_32_ToyMC.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_NLO_Ratio_32_ToyMC.pdf 
-used on input line 835.
-(pdftex.def)             Requested size: 192.0548pt x 144.29814pt.
-
-[35 <./Plots_HT_2_150/Extrapolate_Theory_Ratio_32.pdf, page is rotated 90 degre
-es>]
-<Plots_HT_2_150/Comparison_stat_unc_ratio_32_up.pdf, id=3412, 569.12625pt x 427
-.5975pt>
-File: Plots_HT_2_150/Comparison_stat_unc_ratio_32_up.pdf Graphic file (type pdf
-)
- <use Plots_HT_2_150/Comparison_stat_unc_ratio_32_up.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_stat_unc_ratio_32_up.pdf use
-d on input line 858.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Comparison_stat_unc_ratio_32_down.pdf, id=3413, 569.12625pt x 4
-27.5975pt>
-File: Plots_HT_2_150/Comparison_stat_unc_ratio_32_down.pdf Graphic file (type p
-df)
- <use Plots_HT_2_150/Comparison_stat_unc_ratio_32_down.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_stat_unc_ratio_32_down.pdf u
-sed on input line 859.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
- [36 <./Plots_HT_2_150/Normalized_Response_Matrix_NLO_ratio_32_column_2.pdf, pa
-ge is rotated 90 degrees> <./Plots_HT_2_150/Ratio_Unfolding_NLO_Ratio_32_ToyMC.
-pdf, page is rotated 90 degrees>]
-<Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite4.pdf, id=3504, 569.12625pt 
-x 427.5975pt>
-File: Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite4.pdf Graphic file (typ
-e pdf)
- <use Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite4.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite4.pd
-f used on input line 874.
-(pdftex.def)             Requested size: 149.37956pt x 112.2297pt.
-
-<Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite5.pdf, id=3505, 569.12625pt 
-x 427.5975pt>
-File: Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite5.pdf Graphic file (typ
-e pdf)
- <use Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite5.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite5.pd
-f used on input line 875.
-(pdftex.def)             Requested size: 149.37956pt x 112.2297pt.
-
-<Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite10.pdf, id=3506, 569.12625pt
- x 427.5975pt>
-File: Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite10.pdf Graphic file (ty
-pe pdf)
- <use Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite10.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite10.p
-df used on input line 876.
-(pdftex.def)             Requested size: 149.37956pt x 112.2297pt.
-
-Overfull \hbox (21.34735pt too wide) in paragraph at lines 874--876
- [][][] 
- []
-
-[37 <./Plots_HT_2_150/Comparison_stat_unc_ratio_32_up.pdf, page is rotated 90 d
-egrees> <./Plots_HT_2_150/Comparison_stat_unc_ratio_32_down.pdf, page is rotate
-d 90 degrees> <./Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite4.pdf, page 
-is rotated 90 degrees> <./Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite5.p
-df, page is rotated 90 degrees> <./Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_
-32_ite10.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `fig:jes1' on page 38 undefined on input line 885.
-
-
-LaTeX Warning: Reference `fig:jes4' on page 38 undefined on input line 885.
-
-
-LaTeX Warning: Reference `tab:exp_unc_jes_r' on page 38 undefined on input line
- 885.
-
-
-LaTeX Warning: Reference `tab:exp_unc_jes_rs' on page 38 undefined on input lin
-e 885.
-
-
-LaTeX Warning: Reference `tab:exp_unc_ratio' on page 38 undefined on input line
- 904.
-
-[38]
-<Plots_HT_2_150/Total_Unc_ratio_32_direct_add.pdf, id=3738, 569.12625pt x 427.5
-975pt>
-File: Plots_HT_2_150/Total_Unc_ratio_32_direct_add.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Total_Unc_ratio_32_direct_add.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Total_Unc_ratio_32_direct_add.pdf used 
-on input line 911.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-! Undefined control sequence.
-l.925      {\bf \blue
-                      {JEC}}  & 1 to 2\% \rbtrr\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Undefined color `green!50!black'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.926 ...bf \textcolor{green!50!black} {Unfolding}
-                                                  } & 1\%  \rbtrr\\
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.927      {\bf \mycolor
-                         {Luminosity}} & cancels \rbtrr\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Undefined color `red!30!blue!50!white'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.928 ...30!blue!50!white} {Residual uncorrelated}
-                                                  } & cancels \rbtrr\\
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[39 <./Plots_HT_2_150/Total_Unc_ratio_32_direct_add.pdf, page is rotated 90 deg
-rees>]
-Overfull \hbox (0.71971pt too wide) in paragraph at lines 983--1007
- [][] 
- []
-
-[40] <Plots_HT_2_150/Kfactor_all_1.pdf, id=3812, 569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Kfactor_all_1.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Kfactor_all_1.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Kfactor_all_1.pdf used on input line 10
-19.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Kfactor_all_2.pdf, id=3813, 569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Kfactor_all_2.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Kfactor_all_2.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Kfactor_all_2.pdf used on input line 10
-20.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
- [41 <./Plots_HT_2_150/Kfactor_all_1.pdf, page is rotated 90 degrees> <./Plots_
-HT_2_150/Kfactor_all_2.pdf, page is rotated 90 degrees>] [42]
-<Plots_HT_2_150/Final_NP_Corr_2.pdf, id=3935, 569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Final_NP_Corr_2.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Final_NP_Corr_2.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Final_NP_Corr_2.pdf used on input line 
-1084.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Final_NP_Corr_3.pdf, id=3936, 569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Final_NP_Corr_3.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Final_NP_Corr_3.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Final_NP_Corr_3.pdf used on input line 
-1085.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Final_NP_Corr_Ratio_32.pdf, id=3937, 569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Final_NP_Corr_Ratio_32.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Final_NP_Corr_Ratio_32.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Final_NP_Corr_Ratio_32.pdf used on inpu
-t line 1086.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/EW_2.pdf, id=3940, 569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/EW_2.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/EW_2.pdf>
-Package pdftex.def Info: Plots_HT_2_150/EW_2.pdf used on input line 1107.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
- [43] [44 <./Plots_HT_2_150/Final_NP_Corr_2.pdf, page is rotated 90 degrees> <.
-/Plots_HT_2_150/Final_NP_Corr_3.pdf, page is rotated 90 degrees> <./Plots_HT_2_
-150/Final_NP_Corr_Ratio_32.pdf, page is rotated 90 degrees> <./Plots_HT_2_150/E
-W_2.pdf, page is rotated 90 degrees>]
-<Plots_HT_2_150/Theory_Unc_2.pdf, id=4125, 569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Theory_Unc_2.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Theory_Unc_2.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Theory_Unc_2.pdf used on input line 114
-0.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Theory_Unc_3.pdf, id=4126, 569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Theory_Unc_3.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Theory_Unc_3.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Theory_Unc_3.pdf used on input line 114
-1.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Theory_Unc_Ratio_32.pdf, id=4127, 569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Theory_Unc_Ratio_32.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Theory_Unc_Ratio_32.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Theory_Unc_Ratio_32.pdf used on input l
-ine 1142.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-
-! LaTeX Error: Undefined color `green!50!white'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1162     {\bf \textcolor{green!50!white} {PDF}
-                                                } & 2 to 30\% & 5 to 50\% & ...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[45] [46 <./Plots_HT_2_150/Theory_Unc_2.pdf, page is rotated 90 degrees> <./Plo
-ts_HT_2_150/Theory_Unc_3.pdf, page is rotated 90 degrees> <./Plots_HT_2_150/The
-ory_Unc_Ratio_32.pdf, page is rotated 90 degrees>]
-<Plots_HT_2_150/Comparison_data_theory_EWK.pdf, id=4264, 569.12625pt x 427.5975
-pt>
-File: Plots_HT_2_150/Comparison_data_theory_EWK.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Comparison_data_theory_EWK.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_data_theory_EWK.pdf used on 
-input line 1200.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Comparison_data_MC_EWK.pdf, id=4265, 569.12625pt x 427.5975pt>
-File: Plots_HT_2_150/Comparison_data_MC_EWK.pdf Graphic file (type pdf)
-
-<use Plots_HT_2_150/Comparison_data_MC_EWK.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_data_MC_EWK.pdf used on inpu
-t line 1201.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1200--1211
-
- []
-
-[47]
-<Plots_HT_2_150/Comparison_data_NLO_Pdfs_2_EWK.pdf, id=4271, 569.12625pt x 427.
-5975pt>
-File: Plots_HT_2_150/Comparison_data_NLO_Pdfs_2_EWK.pdf Graphic file (type pdf)
-
- <use Plots_HT_2_150/Comparison_data_NLO_Pdfs_2_EWK.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_data_NLO_Pdfs_2_EWK.pdf used
- on input line 1230.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Comparison_data_NLO_Pdfs_3.pdf, id=4272, 569.12625pt x 427.5975
-pt>
-File: Plots_HT_2_150/Comparison_data_NLO_Pdfs_3.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Comparison_data_NLO_Pdfs_3.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_data_NLO_Pdfs_3.pdf used on 
-input line 1231.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Comparison_data_NLO_Pdfs_ratio_32.pdf, id=4273, 569.12625pt x 4
-27.5975pt>
-File: Plots_HT_2_150/Comparison_data_NLO_Pdfs_ratio_32.pdf Graphic file (type p
-df)
- <use Plots_HT_2_150/Comparison_data_NLO_Pdfs_ratio_32.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_data_NLO_Pdfs_ratio_32.pdf u
-sed on input line 1232.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
- [48 <./Plots_HT_2_150/Comparison_data_theory_EWK.pdf, page is rotated 90 degre
-es> <./Plots_HT_2_150/Comparison_data_MC_EWK.pdf, page is rotated 90 degrees>] 
-[49 <./Plots_HT_2_150/Comparison_data_NLO_Pdfs_2_EWK.pdf, page is rotated 90 de
-grees> <./Plots_HT_2_150/Comparison_data_NLO_Pdfs_3.pdf, page is rotated 90 deg
-rees> <./Plots_HT_2_150/Comparison_data_NLO_Pdfs_ratio_32.pdf, page is rotated 
-90 degrees>]
-<Plots_HT_2_150/Comparison_data_MC_samples_2_Pow_EWK.pdf, id=4496, 569.12625pt 
-x 427.5975pt>
-File: Plots_HT_2_150/Comparison_data_MC_samples_2_Pow_EWK.pdf Graphic file (typ
-e pdf)
- <use Plots_HT_2_150/Comparison_data_MC_samples_2_Pow_EWK.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_data_MC_samples_2_Pow_EWK.pd
-f used on input line 1263.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Comparison_data_MC_samples_3_Pow.pdf, id=4497, 569.12625pt x 42
-7.5975pt>
-File: Plots_HT_2_150/Comparison_data_MC_samples_3_Pow.pdf Graphic file (type pd
-f)
- <use Plots_HT_2_150/Comparison_data_MC_samples_3_Pow.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_data_MC_samples_3_Pow.pdf us
-ed on input line 1264.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Comparison_data_MC_samples_ratio_32_Pow.pdf, id=4498, 569.12625
-pt x 427.5975pt>
-File: Plots_HT_2_150/Comparison_data_MC_samples_ratio_32_Pow.pdf Graphic file (
-type pdf)
-
-<use Plots_HT_2_150/Comparison_data_MC_samples_ratio_32_Pow.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Comparison_data_MC_samples_ratio_32_Pow
-.pdf used on input line 1265.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-
-<Plots_HT_2_150/Ratio_32_unfolded_all_7TeV.pdf, id=4501, 569.12625pt x 427.5975
-pt>
-File: Plots_HT_2_150/Ratio_32_unfolded_all_7TeV.pdf Graphic file (type pdf)
- <use Plots_HT_2_150/Ratio_32_unfolded_all_7TeV.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Ratio_32_unfolded_all_7TeV.pdf used on 
-input line 1285.
-(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
-) [50 <./Plots_HT_2_150/Comparison_data_MC_samples_2_Pow_EWK.pdf, page is rotat
-ed 90 degrees> <./Plots_HT_2_150/Comparison_data_MC_samples_3_Pow.pdf, page is 
-rotated 90 degrees> <./Plots_HT_2_150/Comparison_data_MC_samples_ratio_32_Pow.p
-df, page is rotated 90 degrees>] [51 <./Plots_HT_2_150/Ratio_32_unfolded_all_7T
-eV.pdf, page is rotated 90 degrees>] [52
-
-
-] (./thesis.bbl [53
-
-] [54] [55]) [56] [57
-
-
-] [58
+] [10
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
- (./thesis.aux
-(./title.aux) (./Measurement.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 167.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+ (./thesis.aux (./title.aux)
+(./Measurement.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 12137 strings out of 493033
- 181051 string characters out of 6136455
- 289330 words of memory out of 5000000
- 15201 multiletter control sequences out of 15000+600000
- 22490 words of font info for 73 fonts, out of 8000000 for 9000
+ 11635 strings out of 493033
+ 157623 string characters out of 6136455
+ 270731 words of memory out of 5000000
+ 14885 multiletter control sequences out of 15000+600000
+ 21621 words of font info for 70 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 43i,18n,43p,1085b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,18n,43p,833b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf
@@ -2255,28 +972,23 @@ e/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive
 onts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on thesis.pdf (78 pages, 2206848 bytes).
+ic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uh
+vb8a.pfb>
+Output written on thesis.pdf (23 pages, 270029 bytes).
 PDF statistics:
- 4955 PDF objects out of 5155 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
- 800 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

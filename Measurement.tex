@@ -1,7 +1,6 @@
 \chapter{Measurement of the Inclusive Differential Multijet Cross Section}
 \label{chap:measurement}
-%\breakhere
-The differential inclusive multijet cross sections are measured as a function of the average transverse momentum, $\httwo = \frac{1}{2}(\ptone + \pttwo)$, where \ptone and \pttwo denote the transverse momenta of the two leading jets.
+The differential inclusive multijet cross sections are measured as a function of the average transverse momentum, $\httwo = \frac{1}{2}(\ptone \plus \pttwo)$, where \ptone and \pttwo denote the transverse momenta of the two leading jets.
 
 \section{Cross Section Definition}
 The inclusive mutijet event yields are transformed into a differential cross section which is defined as :
@@ -9,12 +8,10 @@ The inclusive mutijet event yields are transformed into a differential cross sec
 \begin{equation}
  \label{inclusive_formula}
  {\dd{\sigma}{\big(\httwo\big)}} = \frac{1}{\epsilon~\lumi_{\mathrm{int,eff}}}\frac{N_\mathrm{event}}{\Delta\big(\httwo\big)}
-\end{equation}
-
+\end{equation}\\
 where $N_\mathrm{event}$ is the number of inclusive 2- or 3-jet events counted in an \httwo bin, $\epsilon$ is the product of the trigger 
 and jet selection efficiencies, which are greater than 99\%, \lumins$_{\mathrm{int,eff}}$ is the effective integrated luminosity, and $
-\Delta\big(\httwo\big)$ are the bin widths. The measurements are reported in units of (pb/\GeV).
-
+\Delta\big(\httwo\big)$ are the bin widths. The measurements are reported in units of (pb/\GeV).\\
 For inclusive 2-jet events sufficient data are available up to $\httwo = 2\TeV$, while for inclusive 3-jet events (and the ratio \ratio) 
 the accessible range in \httwo is limited to $\httwo < 1.68\TeV$. In the following, results for the inclusive 2-jet and 3-jet event 
 selections will be labelled as $\mathrm {n_{~j}} \geq 2$ and $\mathrm {n_{~j}} \geq 3$, respectively.
@@ -47,22 +44,39 @@ The data sets have the LHC luminosity increasing with period, full data sample o
 \subsection{Monte Carlo samples}
 To have a comparison of data results with the simulated events, the \MadGraphF~\cite{Alwall:2011uj} Monte-Carlo event generator has been 
 used. The \MadGraphF generates matrix elements for High Energy Physics processes, such as decays and $2 \rightarrow n$ scatterings. The 
-underlying event is modeled using the tune \Ztwostar. It has been interfaced to \PYTHIAS~\cite{Sjostrand:2006za} by the LHE event record, 
-which generates the rest of the higher-order effects using the Parton Showering (PS) model. Matching algorithms ensure that no double-
-counting occurs between the tree-level and the PS-model-generated partons. The MC samples are processed through the complete CMS detector 
-simulation to allow studies of the detector response and compare to measured data on detector level.
-
+underlying event is modeled using the tune \Ztwostar. It has been interfaced to \PYTHIAS~\cite{Sjostrand:2006za} by the LHE event record~
+\cite{Alwall:2006yp}, which generates the rest of the higher-order effects using the Parton Showering (PS) model. Matching algorithms 
+ensure that no double-counting occurs between the tree-level and the PS-model-generated partons. The MC samples are processed through the 
+complete CMS detector simulation to allow studies of the detector response and compare to measured data on detector level.\\
 The cross section measured as a function of the transverse momentum \pt or the scalar sum of the transverse momentum of all jets \HT falls 
 steeply with the increasing \pt. So in the reasonable time, it is not possible to generate a large number of high \pt events. Hence, the 
 events are generated in the different phase-space region binned in \HT or the leading jet \pt. Later on, the different phase-space regions 
 are added together in the data analyses by taking into account the cross section of the different phase-space regions. The official CMS 
-\MadGraphF + \PYTHIAS MC samples used in this analysis were generated as slices in the \HT phase-space :
+\MadGraphF \plus \PYTHIAS MC samples used in this analysis are generated as slices in the \HT phase-space are tabulated in Table~\ref{tab:dataset_MC} along with their cross sections and number of events generated.\\
+\begin{table}[!htbp]
+\caption{The official MC production samples generated in phase space slices in \HT with the generator \MadGraphF and interfaced to \PYTHIAS for the parton shower and hadronization of the events. The cross section and number of events generated are mentioned for each sample.}
+\label{tab:dataset_MC}
+\vspace{2mm}
+\begin{tabular}{cccc}
+\hline\hline
+\centering
+{\bf Generator}  & {\bf Sample}  &  {\bf Events}   & {\bf Cross Section } \\ %\rbthm\\\hline
+ & & & {\bf pb}  \rbthm\\\hline
+    & {\tiny /QCD\_HT-100To250\_TuneZ2star\_8TeV-madgraph-pythia6/} & 50129518 & 1.036 $\times$ 10$^7$ \\
+    & {\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}   &  & \rbtrr\\
+    & \makecell{ {\tiny /QCD\_HT-100To250\_TuneZ2star\_8TeV-madgraph-pythia6/\\Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & 50129518 & 1.036 $\times$ 10$^7$ \rbtrr\\
+    %& 193834-196531   & /Jet[Mon,HT]/Run2012B-22Jan2013-v1/AOD & 4.41  \rbtrr\\
+    %& 198022-203742   & /Jet[Mon,HT]/Run2012C-22Jan2013-v1/AOD & 7.06  \rbtrr\\
+    %& 203777-208686   & /Jet[Mon,HT]/Run2012D-22Jan2013-v1/AOD & 7.37  \rbtrr\\
+\hline\hline
+\end{tabular}
+\end{table}\\
 \begin{center}
 \begin{itemize}
-\item The \MadGraphF + \PYTHIAS MC : /QCD\_HT-xxxtoxxxx\_TuneZ2star\_8TeV-madgraph-pythia6/\\Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM
+\item The \MadGraphF \plus \PYTHIAS MC : /QCD\_HT-xxxtoxxxx\_TuneZ2star\_8TeV-madgraph-pythia6/\\Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM
 \end{itemize}
 \end{center}
-
+\begin{comment}
 \section{Event Selection}
 To select good events, certain event selection criteria is applied to yield a multijet event 
 sample with high selection efficiency. It also reduces beam induced background, detector-level noise and jets arising 
@@ -1288,4 +1302,4 @@ previously measured at 7 \TeV~\cite{Chatrchyan:2013txa}.
   \end{center}
 \end{figure}
 
-
+\end{comment}
