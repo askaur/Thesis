@@ -2,9 +2,11 @@
 \contentsline {chapter}{List of Figures}{xi}{section*.2}
 \contentsline {chapter}{List of Tables}{xiii}{section*.4}
 \rule {13.9 cm}{.1pt}\par 
-\contentsline {chapter}{\numberline {1}Measurement of the Inclusive Differential Multijet Cross Section}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Cross Section Definition}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Data Samples}{2}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Monte Carlo samples}{3}{subsection.1.2.1}
-\contentsline {chapter}{List of publications}{5}{section*.8}
-\contentsline {chapter}{Reprints}{9}{chapter*.11}
+\contentsline {chapter}{\numberline {1}Measurement of the Differential Inclusive Multijet Cross Sections and their Ratio}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Data Samples}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Monte Carlo samples}{3}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.2}Event Selection}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Certified Data}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Trigger Selection}{4}{subsection.1.2.2}
+\contentsline {chapter}{List of publications}{9}{section*.10}
+\contentsline {chapter}{Reprints}{11}{chapter*.13}
