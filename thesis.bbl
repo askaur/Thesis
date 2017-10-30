@@ -12,8 +12,9 @@ T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, ``{PYTHIA 6.4 Physics and Manual},''
 J.~Alwall {\em et~al.}, ``{A Standard format for Les Houches event files},''
   {\em Comput. Phys. Commun.}, vol.~176, pp.~300--304, 2007.
 
-\bibitem{CMS:2015haa}
-C.~Collaboration, ``{Measurement of the double-differential inclusive jet cross
-  section at sqrt(s) = 8 TeV},'' 2015.
+\bibitem{10.2307/2331986}
+C.~J. Clopper and E.~S. Pearson, ``The use of confidence or fiducial limits
+  illustrated in the case of the binomial,'' {\em Biometrika}, vol.~26, no.~4,
+  pp.~404--413, 1934.
 
 \end{thebibliography}

@@ -6,7 +6,8 @@ The inclusive $n\hy jet$ event samples include the events with number of jets $\
  \label{eq:inclusive_formula}
  {\dd{\sigma}{\big(\httwo\big)}} = \frac{1}{\epsilon~\lumi_{\mathrm{int,eff}}}\frac{N_\mathrm{event}}{\Delta\big(\httwo\big)}
 \end{equation}
-where $N_\mathrm{event}$ is the number of inclusive 2\hy~or 3\hy jet events counted in an \httwo bin, $\epsilon$ is the product of the trigger and jet selection efficiencies, which are greater than 99\%, \lumins$_{\mathrm{int,eff}}$ is the effective integrated luminosity, and $ \Delta\big(\httwo\big)$ are the bin widths. The measurements are reported in units of (pb/\GeV).\\
+where $N_\mathrm{event}$ is the number of inclusive 2\hy~or 3\hy jet events counted in an \httwo bin, $\epsilon$ is the product of the trigger and jet selection efficiencies, which are greater than 99\%, \lumins$_{\mathrm{int,eff}}$ is the effective integrated luminosity, and $ \Delta\big(\httwo\big)$ are the bin widths. The measurements are reported in units of (pb/\GeV).
+
 The differential inclusive multijet cross sections are measured as a function of the average transverse momentum, $\httwo = \frac{1}{2}(\ptone\plus \pttwo)$, where \ptone and \pttwo denote the transverse momenta of the two leading jets. The cross section ratio \ratio, defined in Eq.~\ref{eq:ratio_32} is obtained by dividing the differential cross sections of inclusive 3\hy jet events to that of inclusive 2\hy jet one, for each bin in \httwo.
 \begin{equation}
  \label{eq:ratio_32}
@@ -15,12 +16,7 @@ The differential inclusive multijet cross sections are measured as a function of
 For inclusive 2-jet events ($\mathrm {n_{~j}} \geq 2$) sufficient data are available up to $\httwo = 2\TeV$, while for inclusive 3-jet events ($\mathrm {n_{~j}} \geq 3$) and the ratio \ratio, the accessible range in \httwo is limited to $\httwo < 1.68\TeV$.
 
 \section{Data Samples}
-This measurement uses the data collected at the center of mass energy of 8 TeV by CMS experiment in the 2012 run period of the LHC. The 
-2012 data is taken in four periods A, B, C, D and the data sets are divided into samples according to the run period. Further each sample is 
-grouped into subsets based on the trigger decision. For run B-D, the \texttt{JetMon} stream datasets contain prescaled low trigger 
-threshold paths (HLTPFJet40, 80, 140, 200 and 260) while the \texttt{JetHT} stream datasets contain unprescaled high threshold trigger 
-paths (HLT PFJet320 and 400). For run A, the \texttt{Jet} stream contains all the above mentioned trigger paths. The datasets used in the 
-current study are mentioned in the Table~\ref{tab:dataset} along with the luminosity of each dataset :\\
+This measurement uses the data collected at the center of mass energy of 8 TeV by CMS experiment in the 2012 run period of the LHC. The 2012 data is taken in four periods A, B, C, D and the data sets are divided into samples according to the run period. Further each sample is grouped into subsets based on the trigger decision. For run B-D, the \texttt{JetMon} stream datasets contain prescaled low trigger threshold paths (HLTPFJet40, 80, 140, 200 and 260) while the \texttt{JetHT} stream datasets contain unprescaled high threshold trigger paths (HLT PFJet320 and 400). For run A, the \texttt{Jet} stream contains all the above mentioned trigger paths. The data to be used in physics analysis must satisfy a certain criteria which include proper performance of all detector subsystems as well as the passing of data quality monitoring (DQM) steps during the validation process. CMS uses JSON (Java Script Object Notation) format files to store the range of good lumi sections within a run. In the current analysis, the applied certification file\footnote{Cert\_190456\hy 208686\_8TeV\_22Jan2013ReReco\_Collisions12\_JSON} is based on the final event reconstruction of the 2012 CMS data sets. The datasets used in the current study are mentioned in the Table~\ref{tab:dataset} along with the luminosity of each dataset. 
 \begin{table}[!htbp]
 \caption{Four data sets collected in run periods A, B,C and D during 2012, along with the corresponding run numbers and luminosity.}
 \label{tab:dataset}
@@ -28,7 +24,7 @@ current study are mentioned in the Table~\ref{tab:dataset} along with the lumino
 \begin{tabular}{cccc}
 \hline\hline
 \centering
-{\bf Run}  & {\bf Run range}  &  {\bf Data set}   & \makecell{{\bf Luminosity} \\ {\bf \fbinv}} \rbthm\\\hline
+{\bf Run}  & {\bf Run range}  &  {\bf Data set}   & \makecell{{\bf Luminosity} \\ \fbinv} \rbthm\\\hline
 
 A    & 190456-193621   & /Jet/Run2012A-22Jan2013-v1/AOD         & 0.88  \rbtrr\\
 B    & 193834-196531   & /Jet[Mon,HT]/Run2012B-22Jan2013-v1/AOD & 4.41  \rbtrr\\
@@ -36,21 +32,14 @@ C    & 198022-203742   & /Jet[Mon,HT]/Run2012C-22Jan2013-v1/AOD & 7.06  \rbtrr\\
 D    & 203777-208686   & /Jet[Mon,HT]/Run2012D-22Jan2013-v1/AOD & 7.37  \rbtrr\\
 \hline\hline
 \end{tabular}
-\end{table}\\
+\end{table}
+
 The data sets have the LHC luminosity increasing with period, full data sample of 2012 corresponds to an integrated luminosity of 19.71 \fbinv. 
 
 \subsection{Monte Carlo samples}
-To have a comparison of data results with the simulated events, the \MadGraphF \cite{Alwall:2011uj} Monte-Carlo event generator has been 
-used. The \MadGraphF generates matrix elements for High Energy Physics processes, such as decays and $2 \rightarrow n$ scatterings. The 
-underlying event is modeled using the tune \Ztwostar. It has been interfaced to \PYTHIAS \cite{Sjostrand:2006za} by the LHE event record 
-\cite{Alwall:2006yp}, which generates the rest of the higher-order effects using the Parton Showering (PS) model. Matching algorithms 
-ensure that no double-counting occurs between the tree-level and the PS-model-generated partons. The MC samples are processed through the 
-complete CMS detector simulation to allow studies of the detector response and compare to measured data on detector level.\\
-The cross section measured as a function of the transverse momentum \pt or the scalar sum of the transverse momentum of all jets \HT falls 
-steeply with the increasing \pt. So in the reasonable time, it is not possible to generate a large number of high \pt events. Hence, the 
-events are generated in the different phase-space region binned in \HT or the leading jet \pt. Later on, the different phase-space regions 
-are added together in the data analyses by taking into account the cross section of the different phase-space regions. The official CMS 
-\MadGraphF \plus \PYTHIAS MC samples used in this analysis are generated as slices in the \HT phase-space are tabulated in Table~\ref{tab:dataset_MC} along with their cross sections and number of events generated.\\
+To have a comparison of data results with the simulated events, the \MadGraphF \cite{Alwall:2011uj} Monte-Carlo event generator has been used. The \MadGraphF generates matrix elements for High Energy Physics processes, such as decays and $2 \rightarrow n$ scatterings. The underlying event is modeled using the tune \Ztwostar. It has been interfaced to \PYTHIAS \cite{Sjostrand:2006za} by the LHE event record \cite{Alwall:2006yp}, which generates the rest of the higher-order effects using the Parton Showering (PS) model. Matching algorithms ensure that no double-counting occurs between the tree-level and the PS-model-generated partons. The MC samples are processed through the complete CMS detector simulation to allow studies of the detector response and compare to measured data on detector level.
+
+The cross section measured as a function of the transverse momentum \pt or the scalar sum of the transverse momentum of all jets \HT falls steeply with the increasing \pt. So in the reasonable time, it is not possible to generate a large number of high \pt events. Hence, the events are generated in the different phase-space region binned in \HT or the leading jet \pt. Later on, the different phase-space regions are added together in the data analyses by taking into account the cross section of the different phase-space regions. The official CMS \MadGraphF \plus \PYTHIAS MC samples used in this analysis are generated as slices in the \HT phase-space are tabulated in Table~\ref{tab:dataset_MC} along with their cross sections and number of events generated.
 \begin{table}[!htbp]
 \caption{The official MC production samples generated in phase space slices in \HT with the generator \MadGraphF and interfaced to \PYTHIAS for the parton shower and hadronization of the events. The cross section and number of events generated are mentioned for each sample.}
 \label{tab:dataset_MC}
@@ -58,7 +47,7 @@ are added together in the data analyses by taking into account the cross section
 \begin{tabular}{cccc}
 \hline\hline
 \centering
-{\bf Generator}  & {\bf Sample}  &  {\bf Events}   & \makecell{{\bf Cross Section} \\ {\bf pb}}  \rbthm\\\hline
+{\bf Generator}  & {\bf Sample}  &  {\bf Events}   & \makecell{{\bf Cross Section} \\ pb}  \rbthm\\\hline
  & \makecell{{\tiny /QCD\_HT-100To250\_TuneZ2star\_8TeV-madgraph-pythia6/\vspace{-2mm}}\\{\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & 50129518 & 1.036 $\times$ 10$^7$ \rbtrr\\
 \MadGraphF & \makecell{{\tiny /QCD\_HT-250To500\_TuneZ2star\_8TeV-madgraph-pythia6/\vspace{-2mm}}\\{\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & 27062078 & 2.760 $\times$ 10$^5$ \rbtrr\\
 \plus \PYTHIA6 & \makecell{{\tiny /QCD\_HT-500To1000\_TuneZ2star\_8TeV-madgraph-pythia6/\vspace{-2mm}}\\{\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & 30599292 & 8.426 $\times$ 10$^3$ \rbtrr\\
@@ -70,90 +59,59 @@ are added together in the data analyses by taking into account the cross section
 \section{Event Selection}
 To yield a multijet sample with high purity and high selection efficiency, the events are selected according to several quality criteria. This event selection also reduces beam induced background, detector-level noise and jets arising from fake calorimeter energy deposits. 
 
-\subsection{Certified Data}
-
 \subsection{Trigger Selection}
+\begin{comment}
 The CMS Trigger and Data Acquisition System (TriDAS) is designed to inspect the detector information at the full crossing frequency and to 
 select events at a maximum rate of O(10$^2$) Hz for archiving and later offline analysis. The required rejection rate of O(10$^5$) Hz is 
 too 
 large to be achieved in a single processing step, if a high efficiency is to be maintained for the physics phenomena, CMS plans to study. 
 For this reason, the full selection task is split into two steps : Level-1 Trigger, (L1 - hardware trigger) and Higher Level Trigger, (HLT - software trigger).
-
-In this analysis the trigger paths which are used are single jet triggers which consists of one L1 trigger seed and  multiple HLT filters. 
-The current 2012 data samples contain several jet triggers at the level of HLT which are presented in Table~\ref{hlttab1} mentioning the 
-trigger thresholds, along with the corresponding L1 trigger seeds. Also the trigger thresholds vs \pt~\cite{CMS:2015haa} are shown. As 
-expected, \httwo 
-thresholds ($|y| < 2.5$) are comparable but lower than \pt thresholds ($|y| < 3.0$). The prescaled low \pt triggers having different 
-prescales 
-are used to have sufficient data in the lower part of the \pt spectrum. In addition unprescaled trigger HLT PFJet320 is also used in the 
-region 
-where the jet rate is sufficiently small to collect all the events. During the reconstruction of the spectrum, the prescales have been 
-taken into the account. 
+\end{comment}
+In this analysis single jet trigger paths are used which consists of one L1 trigger seed and multiple HLT filters and are tabulated in Table~\ref{tab:hlt}. HLT\_PFJetX implies that there is at-least one jet in the event, whose \pt \gr X (GeV). The L1 trigger has a lower threshold to ensure full efficiency versus \pt of the HLT trigger. The \pt spectrum is steeply falling and hence the rates for low-\pt jets are very high. So it is not feasible to use a single unprescaled trigger for the selection of all required events. To collect sufficient data in the lower part of the \pt spectrum, different five prescaled low-\pt trigger paths, each with different prescale value, are used. Also, one unprescaled trigger i.e. HLT\_Jet320 is used in the high \pt region, in which the rate is sufficiently small to collect and store all events. 
 
 \begin{table}[!htbp]
-  \centering
-  \caption{HLT trigger thresholds and corresponding L1SingleJet trigger.}
-  \label{hlttab1}
-  \vspace{2mm}
-  \begin{tabular}{cccccc}
-    \hline\hline
-    
-    HLT Path          &       PFJet80 &      PFJet140 &      PFJet200 &       PFJet260 & PFJet320       \rbthm\\\hline
-    L1 seed           & L1SingleJet36 & L1SingleJet68 & L1SingleJet92 & L1SingleJet128 & L1SingleJet128 \rbtrr\\
-    \httwo, 99\% (GeV)&       120.0   &         187.5 &         262.5 &        345.0   &  405.0         \rbtrr\\  
-    \httwo range (GeV)&    120 -- 188 &    188 -- 263 &    263 -- 345 &     345 -- 406 & 405 -- 5000   \rbtrr \\
-    \pt range (GeV)   &    133 -- 220 &    220 -- 300 &    300 -- 395 &     395 -- 507 & 507 -- 2500   \rbtrr \\
-    Integrated lumi (pb$^{-1}$) & 2.12 & 5.57 x 10 & 2.61 x 10$^2$ & 1.06 x 10$^3$ & 1.97 x 10$^4$ \\\hline\hline
-    
+ \centering
+ \caption{List of all single jet trigger paths used in the analysis. The column \httwons, 99\% indicates the value of \httwo at which each trigger exhibits an efficiency larger than 99\%. The last column reports the effective luminosity seen by each trigger. This number, divided by the total integrated luminosity of 19.71 \fbinv, gives the effective prescale applied on a trigger over the whole run period.}
+ \label{tab:hlt}
+ \vspace{2mm}
+ \begin{tabular}{ccccc}
+ \hline\hline
+ {\bf Trigger Path} & \makecell{{\bf L1 threshold} \\GeV} & \makecell{{\bf HLT threshold} \\ GeV} & \makecell{{\bf \httwo, 99\%}\\ GeV}  & \makecell{{\bf Eff. Lumi} \\ \fbinv} \rbthm\\\hline
+ HLT\_PFJet80  &  36 &  80 & 120.0 & 0.21 $\times$ 10$^{-2}$ \rbtrr \\
+ HLT\_PFJet140 &  68 & 140 & 187.5 & 0.56 $\times$ 10$^{-1}$ \rbtrr \\
+ HLT\_PFJet200 &  92 & 200 & 262.5 & 0.26 \rbtrr \\
+ HLT\_PFJet260 & 128 & 260 & 345.0 & 1.06 \rbtrr \\
+ HLT\_PFJet320 & 128 & 320 & 405.0 & 19.71 \rbtrr \\
+ \hline\hline
   \end{tabular}
 \end{table}
 
-In order to obtain the lower threshold with maximum efficiency of the jet triggers we produce trigger turn on curves for each HLT trigger 
-paths. The efficiency of each trigger is not calculated as a function of jet \pt, which was used in the trigger decision, but versus 
-\httwo. The triggers show a turn-on behaviour which as can been seen in Figure~\ref{fig:trig_eff}. 
+The efficiency of each trigger, as a function of the measured observable, is described by the turn-on curves with a rising part, where the trigger is partly inefficient, until a plateaux region, corresponding to the region of full efficiency of the trigger. Hence it is necessary to determine the threshold above which a trigger becomes fully efficient. It is defined as the value at which the efficiency exceeds 99\%. In  the  assumption  that  the  reference trigger HLT\_PFJetX is fully efficient in the considered region of the phase space, the trigger efficiency for HLT\_PFJetY is defined as Eq.~\ref{eq:eff}. The value of X is chosen previous to that of Y in \pt ordering from the trigger list so that the higher trigger condition can be emulated from the lower trigger path.
+
+\begin{equation}
+ \label{eq:eff}
+ {\rm \epsilon_{HLT\_PFJetY}} = \frac{\httwo {\rm \bigg(HLT\_PFJetX~\plus (L1Object\_\pt > Z)~\plus (HLTObject\_\pt > Y)\bigg)}}{\httwo {\rm (HLT\_PFJetX)}}
+\end{equation}
+where Y indicates the \pt threshold of HLT\_PFJetY and Z is the L1 seed value corresponding to the trigger path HLT\_PFJetY. The denominator represents the number of events for which the reference trigger path HLT\_PFJetX has been fired. The numerator is the number of events for which HLT\_PFJetX has been fired along the \pt of L1Object $\geq$ Z and the \pt of HLTObject $\geq$ Y. For example, in order to obtain turn-on curve for HLT\_PFJet260, the reference HLT path HLT\_PFJet200 is chosen, the \pt cut on L1Object is 128 GeV and \pt cut on HLTObject is 260 GeV. The uncertainty on the efficiency is indicated by error bars which represent Clopper-Pearson confidence intervals \cite{10.2307/2331986}. To determine the point, at which the trigger efficiency is larger than 99\%, the turn-on distribution is fitted using a sigmoid function described in Eq.~\ref{eq:sigmoid}. The trigger turn-on curves as a function of \httwo can been seen in Figure~\ref{fig:trig_eff}.
+\begin{equation}
+ \label{eq:sigmoid}
+  f_{fit} (x) = \frac {1}{2} \Bigg( 1 ~\texttt{+}~ erf \Big(\frac {x - \mu}{\sqrt{2} \sigma} \Big) \Bigg)
+\end{equation}
 
 \begin{figure}[!htbp]
-  \begin{center}
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf}%
-    \caption{Trigger efficiencies turn-on curves for the single jet trigger paths used in the analysis.}
-    \label{fig:trig_eff}
-  \end{center}
-\end{figure} 
+ \begin{center}
+ \includegraphics[scale=0.4]{Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf}%
+ \includegraphics[scale=0.4]{Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf}\\
+ \includegraphics[scale=0.4]{Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf}%
+ \includegraphics[scale=0.4]{Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf}\\
+ \includegraphics[scale=0.4]{Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf}%
+ \caption{Trigger efficiencies turn-on curves for the single jet trigger paths used in the analysis.To determine the 99\% efficiency threshold, the trigger turn-on curves are fitted using a sigmoid function taking into account the uncertainties using Clopper-Pearson confidence intervals.}
+ \label{fig:trig_eff}
+ \end{center}
+\end{figure}
 
-The trigger efficiency for HLT\_PFJetY is defined as : 
-
-\begin{equation}
-  \rm{HLT\_PFJet_{eff}Y = \frac{\httwo (HLT\_PFJetX + L1Object\_\pt > Z + HLTObject\_\pt > Y)}{\httwo (HLT\_PFJetX)}}
-\end{equation}
-
-Here the denominator represents the number of events for which the trigger path HLT\_PFJetX has been fired. Here the value of X is chosen 
-previous to that of Y in \pt ordering from the trigger list so that the higher trigger condition can be emulated from the lower trigger 
-path. The numerator is the number of events for which HLT\_PFJetX has been fired and the \pt of L1Object corresponding to the trigger path 
-HLT\_JetX is $\geq$ Z (where Z is the L1 seed value corresponding to the trigger path
-HLT\_PFJetY ) and the \pt of HLTObject corresponding to the trigger path HLT JetX is $\geq$ Y. For example, in order to obtain turn on 
-curve for HLT\_PFJet260, the immediate HLT path of lower threshold HLT\_PFJet200 is chosen, the \pt cut on L1Object corresponding to the 
-trigger path HLT PFJet260 is 128 GeV and \pt cut on HLTObject corresponding to the trigger path
-HLT Jet260 is 260 GeV. 
-The uncertainty on the efficiency is indicated by error bars which represent Clopper-Pearson confidence intervals.
-To determine the point, at which the trigger efficiency is larger than 99\%, the turn-on distribution is fitted using a sigmoid function, 
-that describes the turn-on behaviour of the trigger paths.
-
-\begin{equation}
-  f_{fit} (x) = \frac {1}{2} \Big( 1 ~\texttt{+}~ erf \Big(\frac {x - \mu}{\sqrt{2} \sigma} \Big) \Big)
-\end{equation}
-\begin{comment}
 \subsubsection{Primary vertex selection}
-A primary vertex (PV) is identified by a collection of tracks, measured 
-in the tracker with a good fit quality between the hits and 
-compatible with the beam line. The tracks are clustered according to the z-coordinate of 
-their point of closest approach to the beam axis. Each event 
-is required to have at least one good primary vertex which is well 
-reconstructed within a distance of \abs{z(PV)} $<$ 24 cm to the nominal 
-interaction point of the detector.
+A primary vertex (PV) is identified by a collection of tracks, measured in the tracker with a good fit quality between the hits and compatible with the beam line. The tracks are clustered according to the z-coordinate of their point of closest approach to the beam axis. Each event is required to have at least one good primary vertex which is well reconstructed within a distance of \abs{z(PV)} $<$ 24 cm to the nominal interaction point of the detector.
 
 \begin{itemize}
 \item Require the radius in x-y plane of PV to be $rho <$ 2 cm.
@@ -247,7 +205,7 @@ distributions in data and simulated events, which is present before the reweight
     \label{fig:pileup}
   \end{center}
 \end{figure}
-
+\begin{comment}
 \section{Kinematic Distributions}
 
 \subsection{Differential cross section and ratios}

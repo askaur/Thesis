@@ -6,7 +6,9 @@
 \contentsline {section}{\numberline {1.1}Data Samples}{2}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Monte Carlo samples}{3}{subsection.1.1.1}
 \contentsline {section}{\numberline {1.2}Event Selection}{4}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Certified Data}{4}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Trigger Selection}{4}{subsection.1.2.2}
-\contentsline {chapter}{List of publications}{9}{section*.10}
-\contentsline {chapter}{Reprints}{11}{chapter*.13}
+\contentsline {subsection}{\numberline {1.2.1}Trigger Selection}{4}{subsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.1.1}Primary vertex selection}{6}{subsubsection.1.2.1.1}
+\contentsline {subsubsection}{\numberline {1.2.1.2}Jet Identification}{8}{subsubsection.1.2.1.2}
+\contentsline {subsection}{\numberline {1.2.2}Pile-up reweighting}{9}{subsection.1.2.2}
+\contentsline {chapter}{List of publications}{13}{section*.14}
+\contentsline {chapter}{Reprints}{15}{chapter*.17}
