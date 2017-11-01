@@ -13,7 +13,7 @@ The differential inclusive multijet cross sections are measured as a function of
  \label{eq:ratio_32}
  \ratio = \frac[10pt]{{\dd{\sigma_{3\hy jet}}{\big(\httwo\big)}}}{\dd{\sigma_{2\hy jet}}{\big(\httwo\big)}}
 \end{equation}
-For inclusive 2-jet events ($\mathrm {n_{~j}} \geq 2$) sufficient data are available up to $\httwo = 2\TeV$, while for inclusive 3-jet events ($\mathrm {n_{~j}} \geq 3$) and the ratio \ratio, the accessible range in \httwo is limited to $\httwo < 1.68\TeV$.
+For inclusive 2-jet events (\njt) sufficient data are available up to $\httwo = 2\TeV$, while for inclusive 3-jet events (\njth) and the ratio \ratio, the accessible range in \httwo is limited to $\httwo < 1.68\TeV$.
 
 \section{Data Samples}
 This measurement uses the data collected at the center of mass energy of 8 TeV by CMS experiment in the 2012 run period of the LHC. The 2012 data is taken in four periods A, B, C, D and the data sets are divided into samples according to the run period. Further each sample is grouped into subsets based on the trigger decision. For run B-D, the \texttt{JetMon} stream datasets contain prescaled low trigger threshold paths (HLTPFJet40, 80, 140, 200 and 260) while the \texttt{JetHT} stream datasets contain unprescaled high threshold trigger paths (HLT PFJet320 and 400). For run A, the \texttt{Jet} stream contains all the above mentioned trigger paths. The data to be used in physics analysis must satisfy a certain criteria which include proper performance of all detector subsystems as well as the passing of data quality monitoring (DQM) steps during the validation process. CMS uses JSON (Java Script Object Notation) format files to store the range of good lumi sections within a run. In the current analysis, the applied certification file\footnote{Cert\_190456\hy 208686\_8TeV\_22Jan2013ReReco\_Collisions12\_JSON} is based on the final event reconstruction of the 2012 CMS data sets. The datasets used in the current study are mentioned in the Table~\ref{tab:dataset} along with the luminosity of each dataset. 
@@ -36,7 +36,7 @@ D    & 203777-208686   & /Jet[Mon,HT]/Run2012D-22Jan2013-v1/AOD & 7.37  \rbtrr\\
 
 The data sets have the LHC luminosity increasing with period, full data sample of 2012 corresponds to an integrated luminosity of 19.71 \fbinv. 
 
-\subsection{Monte Carlo samples}
+\subsection{Monte Carlo Samples}
 To have a comparison of data results with the simulated events, the \MadGraphF \cite{Alwall:2011uj} Monte-Carlo event generator has been used. The \MadGraphF generates matrix elements for High Energy Physics processes, such as decays and $2 \rightarrow n$ scatterings. The underlying event is modeled using the tune \Ztwostar. It has been interfaced to \PYTHIAS \cite{Sjostrand:2006za} by the LHE event record \cite{Alwall:2006yp}, which generates the rest of the higher-order effects using the Parton Showering (PS) model. Matching algorithms ensure that no double-counting occurs between the tree-level and the PS-model-generated partons. The MC samples are processed through the complete CMS detector simulation to allow studies of the detector response and compare to measured data on detector level.
 
 The cross section measured as a function of the transverse momentum \pt or the scalar sum of the transverse momentum of all jets \HT falls steeply with the increasing \pt. So in the reasonable time, it is not possible to generate a large number of high \pt events. Hence, the events are generated in the different phase-space region binned in \HT or the leading jet \pt. Later on, the different phase-space regions are added together in the data analyses by taking into account the cross section of the different phase-space regions. The official CMS \MadGraphF \plus \PYTHIAS MC samples used in this analysis are generated as slices in the \HT phase-space are tabulated in Table~\ref{tab:dataset_MC} along with their cross sections and number of events generated.
@@ -67,7 +67,7 @@ too
 large to be achieved in a single processing step, if a high efficiency is to be maintained for the physics phenomena, CMS plans to study. 
 For this reason, the full selection task is split into two steps : Level-1 Trigger, (L1 - hardware trigger) and Higher Level Trigger, (HLT - software trigger).
 \end{comment}
-In this analysis single jet trigger paths are used which consists of one L1 trigger seed and multiple HLT filters and are tabulated in Table~\ref{tab:hlt}. HLT\_PFJetX implies that there is at-least one jet in the event, whose \pt \gr X (GeV). The L1 trigger has a lower threshold to ensure full efficiency versus \pt of the HLT trigger. The \pt spectrum is steeply falling and hence the rates for low-\pt jets are very high. So it is not feasible to use a single unprescaled trigger for the selection of all required events. To collect sufficient data in the lower part of the \pt spectrum, different five prescaled low-\pt trigger paths, each with different prescale value, are used. Also, one unprescaled trigger i.e. HLT\_Jet320 is used in the high \pt region, in which the rate is sufficiently small to collect and store all events. 
+CMS implements a trigger system organized in two levels, in order to reduce the amount of recorded events to a sustainable rate. This analysis deals with jets in the final state, so single jet trigger paths are used to select events in data which consists of one L1 trigger seed and multiple HLT filters. The L1 jet trigger uses transverse energy sums computed using both HCAL and ECAL in the central region ($|\eta|$ \ls 3.0) or HF in the forward region ($|\eta|$ \gr 3.0). A more elaborate but still very fast algorithm, the ``jet finder'', is then implemented on the energy cluster but with a finer segmentation in order to select the raw object for the HLT trigger :  the algorithm makes use of a cone size in order to cluster in a primitive jet the calorimeter towers whose energy is larger than the seed threshold. If the primitive HLT jet has an energy above the threshold set by the trigger, the event is selected and the collection of recorded data is saved and stored in streams.  The single jet triggers used for this analysis are tabulated in Table~\ref{tab:hlt}. HLT\_PFJetX implies that there is at-least one jet in the event, whose \pt \gr X (GeV). The L1 trigger has a lower threshold to ensure full efficiency versus \pt of the HLT trigger. The \pt spectrum is steeply falling and hence the rates for low-\pt jets are very high. So it is not feasible to use a single unprescaled trigger for the selection of all required events. To collect sufficient data in the lower part of the \pt spectrum, different five prescaled low-\pt trigger paths, each with different prescale value, are used. Also, one unprescaled trigger i.e. HLT\_Jet320 is used in the high \pt region, in which the rate is sufficiently small to collect and store all events. 
 
 \begin{table}[!htbp]
  \centering
@@ -76,6 +76,7 @@ In this analysis single jet trigger paths are used which consists of one L1 trig
  \vspace{2mm}
  \begin{tabular}{ccccc}
  \hline\hline
+ \centering
  {\bf Trigger Path} & \makecell{{\bf L1 threshold} \\GeV} & \makecell{{\bf HLT threshold} \\ GeV} & \makecell{{\bf \httwo, 99\%}\\ GeV}  & \makecell{{\bf Eff. Lumi} \\ \fbinv} \rbthm\\\hline
  HLT\_PFJet80  &  36 &  80 & 120.0 & 0.21 $\times$ 10$^{-2}$ \rbtrr \\
  HLT\_PFJet140 &  68 & 140 & 187.5 & 0.56 $\times$ 10$^{-1}$ \rbtrr \\
@@ -100,28 +101,55 @@ where Y indicates the \pt threshold of HLT\_PFJetY and Z is the L1 seed value co
 
 \begin{figure}[!htbp]
  \begin{center}
- \includegraphics[scale=0.4]{Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf}%
- \includegraphics[scale=0.4]{Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf}\\
- \includegraphics[scale=0.4]{Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf}%
- \includegraphics[scale=0.4]{Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf}\\
- \includegraphics[scale=0.4]{Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf}%
+ \includegraphics[width=0.53\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf}%
+ \includegraphics[width=0.53\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf}\\
+ \includegraphics[width=0.53\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf}%
+ \includegraphics[width=0.53\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf}\\
+ \includegraphics[width=0.53\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf}%
  \caption{Trigger efficiencies turn-on curves for the single jet trigger paths used in the analysis.To determine the 99\% efficiency threshold, the trigger turn-on curves are fitted using a sigmoid function taking into account the uncertainties using Clopper-Pearson confidence intervals.}
  \label{fig:trig_eff}
  \end{center}
 \end{figure}
 
-\subsubsection{Primary vertex selection}
-A primary vertex (PV) is identified by a collection of tracks, measured in the tracker with a good fit quality between the hits and compatible with the beam line. The tracks are clustered according to the z-coordinate of their point of closest approach to the beam axis. Each event is required to have at least one good primary vertex which is well reconstructed within a distance of \abs{z(PV)} $<$ 24 cm to the nominal interaction point of the detector.
+\subsection{Primary Vertex Selection}
+A primary vertex (PV) is identified by a collection of tracks, measured in the tracker with a good fit quality between the hits and compatible with the beam line. The tracks are clustered according to the z-coordinate of their point of closest approach to the beam axis. Each event is required to have at least one good PV which is well reconstructed within a distance of \abs{z(PV)}\ls 24 cm to the nominal interaction point of the detector. Also the radial distance in x-y plane, $\rho$(PV) should be smaller than 2 cm. The number of degrees of freedom in vertex fit needs to be at-least four. Thus, at least four tracks must be present in order to perform a valid vertex fit.
 
-\begin{itemize}
-\item Require the radius in x-y plane of PV to be $rho <$ 2 cm.
-\item Require the vertex fit no. of degrees of freedom (ndf) $>$ 4. Thus, at least four tracks must be present in order to perform a valid 
-  vertex fit.
-\end{itemize}
+\subsection{Missing Transverse Energy Cut}
+If all particles could be identified and perfectly measured, the transverse momentum of all particles would sum up to zero. Neutral weakly interacting particles, such as neutrinos, escape from typical collider detectors without producing any direct response in the detector elements. The presence of such particles must be inferred from the imbalance of total momentum of all visible particles. The vector momentum imbalance in the plane perpendicular to the beam direction is known as missing transverse momentum or energy (\ETmiss). It is one of the most important observables for discriminating leptonic decays of W bosons and top quarks from background events which do not contain neutrinos, such  as multijet and Drell–Yan events or searches for physics beyond the Standard Model which involve undetectable particles.
 
-\subsubsection{Jet Identification}
-In order to suppress noise and non-physical jets, jet identification criteria (ID) has been applied. The official tight jet ID has been used which are based on the number of constituents inside the reconstructed jets. Instead of applying it event-wise, it 
-is applied it on each jet and the following cuts need to be fulfilled by the jets :
+The ratio of missing transverse energy to the total transverse energy \ETmiss/$\sum\ET$, shown in Fig.~\ref{fig:metcut} for \njt~(left) and \njth~(right), shows a discrepancy between data and MC at the tail part of the distribution. This is because of a  finite contribution from Z($\rightarrow \nu \bar{\nu}$) \plus jet events which gives rise to non-zero \ET in the events in data. Such events are absent in QCD simulated events in MC. Hence \ETmiss/$\sum\ET$ is required to be less than 0.3 to reject events with high \ETmiss.
+
+\begin{figure}[!htbp]
+\centering
+ \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Qual/Missing_ET_2.pdf}%
+ \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Qual/Missing_ET_3.pdf}
+ \caption{Missing transverse energy fraction of the total transverse energy per event in data and simulated events in inclusive 2-jet (left) and 3-jet events (right). To remove background and noise, events with a fraction exceeding a certain threshold, here indicated with the dashed line, are rejected.}
+ \label{fig:metcut}
+\end{figure} 
+
+\subsection{Jet Identification}
+In order to suppress noise and non-physical jets, jet identification criteria (ID) has been applied. Instead of applying it event-wise, it 
+is applied it on each jet. The algorithm works on reconstructed jets using information of the clustered particle candidates. The official tight jet ID \cite{CMS:2010xta}, recommended by $\textsc{JETMET}$ group \cite{JetID} is used. Table~\ref{tab:jetID} summarizes the properties of the reconstructed jets and their respective cuts.
+
+\begin{table}[!htbp]
+ \centering
+ \caption{The jet ID removes noise and fake jets based on the properties of the reconstructed jets and the clustered particle candidates. All the selection cuts which are recommended by the JetMET group are applied \cite{JetID}.}
+ \label{tab:jetID}
+ \vspace{2mm}
+ \begin{tabular}{cccc}
+ \hline\hline
+ \centering
+  & {\bf Property} & {\bf ~~~Loose ID} & {\bf ~~~Tight ID} \rbthm\\\hline
+  & neutral hadron fraction  & ~~~\ls 0.99 & ~~~\ls 0.90 \rbtrr \\
+ Whole & neutral EM fraction & ~~~\ls 0.99 & ~~~\ls 0.90 \rbtrr \\
+ $\eta$ region  & number of constituents  & \gr 1    & \gr 1    \rbtrr \\
+  & muon fraction           & ~~~\ls 0.80 & ~~~\ls 0.80 \rbtrr \\ \hline
+  & charged hadron fraction & \gr 0    & \gr 0    \rbtrr \\
+  only $|\eta|$ \ls 2.4 & charged multiplicity    & \gr 0    & \gr 0    \rbtrr \\
+  & charged EM fraction     & ~~~\ls 0.99 & ~~~\ls 0.90 \rbtrr \\
+ \hline\hline
+  \end{tabular}
+\end{table}
 
 \begin{itemize}
 \item Each jet should contain at least two particles, one of which should be a charged hadron.
@@ -132,6 +160,8 @@ is applied it on each jet and the following cuts need to be fulfilled by the jet
   misidentified electrons are removed with the condition on charged electromagnetic fraction to be $<$ 0.90. Also, the fraction of charged 
   hadrons in the jet must be larger than zero. 
 \end{itemize}
+
+\subsection{Jet Energy Corrections and Selection}
 
 Finally the event selection is as follows : 
 
@@ -144,18 +174,6 @@ Finally the event selection is as follows :
   $\frac{\ETmiss}{\sum \ET}$, both derived from the whole event information, is required to be less than 0.3 to select well measured
   jet events, as shown in Figure~\ref{fig:metcut}. 
 \end{itemize}
-
-\begin{figure}[!htbp]
-  \begin{center}
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Qual/Missing_ET_2_HT_2_150.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Qual/Missing_ET_3_HT_2_150.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Qual/Missing_ET_4_HT_2_150.pdf}\\
-    \caption{Missing transverse energy fraction of the total transverse energy per event
-      in data and simulated events. To remove background and noise, events with a fraction
-      exceeding a certain threshold, here indicated with the dashed line, are rejected.}
-    \label{fig:metcut}
-  \end{center}
-\end{figure} 
 
 The Figures~\ref{fig:qual2}-~\ref{fig:qual4} show the distributions of the jet constituents observed in data and simulated events for 
 inclusive 2-jet, 3-jet and 4-jet events respectively.
@@ -184,7 +202,7 @@ inclusive 2-jet, 3-jet and 4-jet events respectively.
   \end{center}
 \end{figure} 
 
-\subsection{Pile-up reweighting}
+\subsection{Pile-up Reweighting}
 The official Monte-Carlo samples are generated with distributions for the number of pileup interactions which is meant to roughly cover, 
 though not exactly match the conditions expected for each data-taking period. To still get comparable pile-up distributions in data and 
 simulated events, the simulated events are reweighted with a weight $\rm{ w_{PU}}$ to match the distribution in data :

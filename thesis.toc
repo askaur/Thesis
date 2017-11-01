@@ -4,11 +4,13 @@
 \rule {13.9 cm}{.1pt}\par 
 \contentsline {chapter}{\numberline {1}Measurement of the Differential Inclusive Multijet Cross Sections and their Ratio}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Data Samples}{2}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Monte Carlo samples}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Monte Carlo Samples}{3}{subsection.1.1.1}
 \contentsline {section}{\numberline {1.2}Event Selection}{4}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Trigger Selection}{4}{subsection.1.2.1}
-\contentsline {subsubsection}{\numberline {1.2.1.1}Primary vertex selection}{6}{subsubsection.1.2.1.1}
-\contentsline {subsubsection}{\numberline {1.2.1.2}Jet Identification}{8}{subsubsection.1.2.1.2}
-\contentsline {subsection}{\numberline {1.2.2}Pile-up reweighting}{9}{subsection.1.2.2}
-\contentsline {chapter}{List of publications}{13}{section*.14}
-\contentsline {chapter}{Reprints}{15}{chapter*.17}
+\contentsline {subsection}{\numberline {1.2.2}Primary Vertex Selection}{6}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Missing Transverse Energy Cut}{8}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Jet Identification}{9}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Jet Energy Corrections and Selection}{10}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}Pile-up Reweighting}{13}{subsection.1.2.6}
+\contentsline {chapter}{List of publications}{15}{section*.15}
+\contentsline {chapter}{Reprints}{17}{chapter*.18}
