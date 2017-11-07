@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  31 OCT 2017 18:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  7 NOV 2017 13:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1032,28 +1032,26 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 105.
 
 ] [6
 
-] [7] (./thesis.toc)
+] [7] (./thesis.toc [8
+
+])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [8
+ [9] [10] (./thesis.lof [11
 
-] [9] [10
 
-] (./thesis.lof)
+])
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
- [11
 
-]
-[12
-
-] (./thesis.lot)
+[12] (./thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
  [13
+
 
 ]
 \openout2 = `Measurement.aux'.
@@ -1089,59 +1087,59 @@ Overfull \hbox (2.16966pt too wide) detected at line 95
  []
 
 
-<Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf, id=183, 569.12625pt x 386.44
-376pt>
+<Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf, id=200, 569.12625pt x 427.59
+75pt>
 File: Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf used 
 on input line 104.
-(pdftex.def)             Requested size: 226.19888pt x 153.59592pt.
+(pdftex.def)             Requested size: 226.19888pt x 169.95288pt.
 
-<Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf, id=184, 569.12625pt x 386.4
-4376pt>
+<Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf, id=201, 569.12625pt x 427.5
+975pt>
 File: Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf Graphic file (type pdf)
 
  <use Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf used
  on input line 105.
-(pdftex.def)             Requested size: 226.19888pt x 153.59592pt.
+(pdftex.def)             Requested size: 226.19888pt x 169.95288pt.
 
-Overfull \hbox (25.60643pt too wide) in paragraph at lines 104--105
- [][] 
+Overfull \hbox (30.8286pt too wide) in paragraph at lines 104--105
+ []  [] 
  []
 
 
-<Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf, id=185, 569.12625pt x 386.4
-4376pt>
+<Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf, id=202, 569.12625pt x 427.5
+975pt>
 File: Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf Graphic file (type pdf)
 
  <use Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf used
  on input line 106.
-(pdftex.def)             Requested size: 226.19888pt x 153.59592pt.
+(pdftex.def)             Requested size: 226.19888pt x 169.95288pt.
 
-<Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf, id=186, 569.12625pt x 386.4
-4376pt>
+<Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf, id=203, 569.12625pt x 427.5
+975pt>
 File: Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf Graphic file (type pdf)
 
  <use Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf used
  on input line 107.
-(pdftex.def)             Requested size: 226.19888pt x 153.59592pt.
+(pdftex.def)             Requested size: 226.19888pt x 169.95288pt.
 
-Overfull \hbox (25.60643pt too wide) in paragraph at lines 106--107
- [][][] 
+Overfull \hbox (30.8286pt too wide) in paragraph at lines 106--107
+ [][]  [] 
  []
 
 
-<Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf, id=187, 569.12625pt x 386.4
-4376pt>
+<Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf, id=204, 569.12625pt x 427.5
+975pt>
 File: Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf Graphic file (type pdf)
 
  <use Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf used
  on input line 108.
-(pdftex.def)             Requested size: 226.19888pt x 153.59592pt.
+(pdftex.def)             Requested size: 226.19888pt x 169.95288pt.
  [6] [7 <./Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf, page is rotated 90
  degrees> <./Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf, page is rotated
  90 degrees> <./Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf, page is rota
@@ -1153,224 +1151,297 @@ Underfull \hbox (badness 1275) in paragraph at lines 120--121
 s-verse en-ergy
  []
 
-<Plots_HT_2_150/Qual/Missing_ET_2.pdf, id=414, 569.12625pt x 404.51125pt>
-File: Plots_HT_2_150/Qual/Missing_ET_2.pdf Graphic file (type pdf)
+<Plots_HT_2_150/Missing_ET_2.pdf, id=431, 569.12625pt x 427.5975pt>
+File: Plots_HT_2_150/Missing_ET_2.pdf Graphic file (type pdf)
 
-<use Plots_HT_2_150/Qual/Missing_ET_2.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Missing_ET_2.pdf used on input lin
-e 124.
-(pdftex.def)             Requested size: 217.66122pt x 154.70345pt.
+<use Plots_HT_2_150/Missing_ET_2.pdf>
+Package pdftex.def Info: Plots_HT_2_150/Missing_ET_2.pdf used on input line 124
+.
+(pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Qual/Missing_ET_3.pdf, id=415, 569.12625pt x 404.51125pt>
-File: Plots_HT_2_150/Qual/Missing_ET_3.pdf Graphic file (type pdf)
+<Plots_HT_2_150/Missing_ET_3.pdf, id=432, 569.12625pt x 427.5975pt>
+File: Plots_HT_2_150/Missing_ET_3.pdf Graphic file (type pdf)
 
-<use Plots_HT_2_150/Qual/Missing_ET_3.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Missing_ET_3.pdf used on input lin
-e 125.
-(pdftex.def)             Requested size: 217.66122pt x 154.70345pt.
+<use Plots_HT_2_150/Missing_ET_3.pdf>
+Package pdftex.def Info: Plots_HT_2_150/Missing_ET_3.pdf used on input line 125
+.
+(pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-Overfull \hbox (8.53111pt too wide) in paragraph at lines 124--126
- [][][] 
+Overfull \hbox (13.75328pt too wide) in paragraph at lines 124--126
+ [][]  [] 
  []
 
-[8] [9 <./Plots_HT_2_150/Qual/Missing_ET_2.pdf, page is rotated 90 degrees> <./
-Plots_HT_2_150/Qual/Missing_ET_3.pdf, page is rotated 90 degrees>]
+[8] [9 <./Plots_HT_2_150/Missing_ET_2.pdf, page is rotated 90 degrees> <./Plots
+_HT_2_150/Missing_ET_3.pdf, page is rotated 90 degrees>]
+<Plots_HT_2_150/Comparison_NuHadFrac_2_HT_2_150.pdf, id=533, 569.12625pt x 544.
+0325pt>
+File: Plots_HT_2_150/Comparison_NuHadFrac_2_HT_2_150.pdf Graphic file (type pdf
+)
+ <use Plots_HT_2_150/Comparison_NuHadFrac_2_HT_2_150.pdf>
+Package pdftex.def Info: Plots_HT_2_150/Comparison_NuHadFrac_2_HT_2_150.pdf use
+d on input line 155.
+(pdftex.def)             Requested size: 213.39566pt x 203.98679pt.
 
-LaTeX Warning: Reference `fig:qual4' on page 10 undefined on input line 178.
+<Plots_HT_2_150/Comparison_PhFrac_2_HT_2_150.pdf, id=534, 569.12625pt x 544.032
+5pt>
+File: Plots_HT_2_150/Comparison_PhFrac_2_HT_2_150.pdf Graphic file (type pdf)
+ <use Plots_HT_2_150/Comparison_PhFrac_2_HT_2_150.pdf>
+Package pdftex.def Info: Plots_HT_2_150/Comparison_PhFrac_2_HT_2_150.pdf used o
+n input line 156.
+(pdftex.def)             Requested size: 213.39566pt x 203.98679pt.
 
-
-<Plots_HT_2_150/Qual/Comparison_NuHadFrac_2_HT_2_150.pdf, id=517, 569.12625pt x
- 542.025pt>
-File: Plots_HT_2_150/Qual/Comparison_NuHadFrac_2_HT_2_150.pdf Graphic file (typ
-e pdf)
- <use Plots_HT_2_150/Qual/Comparison_NuHadFrac_2_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_NuHadFrac_2_HT_2_150.pd
-f used on input line 183.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_PhFrac_2_HT_2_150.pdf, id=518, 569.12625pt x 54
-2.025pt>
-File: Plots_HT_2_150/Qual/Comparison_PhFrac_2_HT_2_150.pdf Graphic file (type p
-df)
- <use Plots_HT_2_150/Qual/Comparison_PhFrac_2_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_PhFrac_2_HT_2_150.pdf u
-sed on input line 184.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_MuFrac_2_HT_2_150.pdf, id=519, 569.12625pt x 54
-2.025pt>
-File: Plots_HT_2_150/Qual/Comparison_MuFrac_2_HT_2_150.pdf Graphic file (type p
-df)
- <use Plots_HT_2_150/Qual/Comparison_MuFrac_2_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_MuFrac_2_HT_2_150.pdf u
-sed on input line 185.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_ElFrac_2_HT_2_150.pdf, id=520, 569.12625pt x 54
-2.025pt>
-File: Plots_HT_2_150/Qual/Comparison_ElFrac_2_HT_2_150.pdf Graphic file (type p
-df)
- <use Plots_HT_2_150/Qual/Comparison_ElFrac_2_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_ElFrac_2_HT_2_150.pdf u
-sed on input line 186.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_ChHadFrac_2_HT_2_150.pdf, id=521, 569.12625pt x
- 542.025pt>
-File: Plots_HT_2_150/Qual/Comparison_ChHadFrac_2_HT_2_150.pdf Graphic file (typ
-e pdf)
- <use Plots_HT_2_150/Qual/Comparison_ChHadFrac_2_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_ChHadFrac_2_HT_2_150.pd
-f used on input line 187.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
+Overfull \hbox (5.22215pt too wide) in paragraph at lines 155--156
+ []  [] 
+ []
 
 
-LaTeX Warning: Float too large for page by 31.27974pt on input line 191.
+<Plots_HT_2_150/Comparison_MuFrac_2_HT_2_150.pdf, id=535, 569.12625pt x 544.032
+5pt>
+File: Plots_HT_2_150/Comparison_MuFrac_2_HT_2_150.pdf Graphic file (type pdf)
+ <use Plots_HT_2_150/Comparison_MuFrac_2_HT_2_150.pdf>
+Package pdftex.def Info: Plots_HT_2_150/Comparison_MuFrac_2_HT_2_150.pdf used o
+n input line 157.
+(pdftex.def)             Requested size: 213.39566pt x 203.98679pt.
+
+<Plots_HT_2_150/Comparison_ElFrac_2_HT_2_150.pdf, id=536, 569.12625pt x 544.032
+5pt>
+File: Plots_HT_2_150/Comparison_ElFrac_2_HT_2_150.pdf Graphic file (type pdf)
+ <use Plots_HT_2_150/Comparison_ElFrac_2_HT_2_150.pdf>
+Package pdftex.def Info: Plots_HT_2_150/Comparison_ElFrac_2_HT_2_150.pdf used o
+n input line 158.
+(pdftex.def)             Requested size: 213.39566pt x 203.98679pt.
+
+Overfull \hbox (5.22215pt too wide) in paragraph at lines 157--158
+ [][]  [] 
+ []
 
 
-<Plots_HT_2_150/Qual/Comparison_NuHadFrac_3_HT_2_150.pdf, id=522, 569.12625pt x
- 542.025pt>
-File: Plots_HT_2_150/Qual/Comparison_NuHadFrac_3_HT_2_150.pdf Graphic file (typ
-e pdf)
- <use Plots_HT_2_150/Qual/Comparison_NuHadFrac_3_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_NuHadFrac_3_HT_2_150.pd
-f used on input line 195.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_PhFrac_3_HT_2_150.pdf, id=523, 569.12625pt x 54
-2.025pt>
-File: Plots_HT_2_150/Qual/Comparison_PhFrac_3_HT_2_150.pdf Graphic file (type p
-df)
- <use Plots_HT_2_150/Qual/Comparison_PhFrac_3_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_PhFrac_3_HT_2_150.pdf u
-sed on input line 196.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_MuFrac_3_HT_2_150.pdf, id=524, 569.12625pt x 54
-2.025pt>
-File: Plots_HT_2_150/Qual/Comparison_MuFrac_3_HT_2_150.pdf Graphic file (type p
-df)
- <use Plots_HT_2_150/Qual/Comparison_MuFrac_3_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_MuFrac_3_HT_2_150.pdf u
-sed on input line 197.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_ElFrac_3_HT_2_150.pdf, id=525, 569.12625pt x 54
-2.025pt>
-File: Plots_HT_2_150/Qual/Comparison_ElFrac_3_HT_2_150.pdf Graphic file (type p
-df)
- <use Plots_HT_2_150/Qual/Comparison_ElFrac_3_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_ElFrac_3_HT_2_150.pdf u
-sed on input line 198.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
-
-<Plots_HT_2_150/Qual/Comparison_ChHadFrac_3_HT_2_150.pdf, id=526, 569.12625pt x
- 542.025pt>
-File: Plots_HT_2_150/Qual/Comparison_ChHadFrac_3_HT_2_150.pdf Graphic file (typ
-e pdf)
- <use Plots_HT_2_150/Qual/Comparison_ChHadFrac_3_HT_2_150.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Qual/Comparison_ChHadFrac_3_HT_2_150.pd
-f used on input line 199.
-(pdftex.def)             Requested size: 213.39566pt x 203.23405pt.
+<Plots_HT_2_150/Comparison_ChHadFrac_2_HT_2_150.pdf, id=537, 569.12625pt x 544.
+0325pt>
+File: Plots_HT_2_150/Comparison_ChHadFrac_2_HT_2_150.pdf Graphic file (type pdf
+)
+ <use Plots_HT_2_150/Comparison_ChHadFrac_2_HT_2_150.pdf>
+Package pdftex.def Info: Plots_HT_2_150/Comparison_ChHadFrac_2_HT_2_150.pdf use
+d on input line 159.
+(pdftex.def)             Requested size: 213.39566pt x 203.98679pt.
 
 
-LaTeX Warning: Float too large for page by 16.31966pt on input line 203.
+LaTeX Warning: Float too large for page by 19.57785pt on input line 163.
 
-[10] [11 <./Plots_HT_2_150/Qual/Comparison_NuHadFrac_2_HT_2_150.pdf, page is ro
-tated 90 degrees> <./Plots_HT_2_150/Qual/Comparison_PhFrac_2_HT_2_150.pdf, page
- is rotated 90 degrees> <./Plots_HT_2_150/Qual/Comparison_MuFrac_2_HT_2_150.pdf
-, page is rotated 90 degrees> <./Plots_HT_2_150/Qual/Comparison_ElFrac_2_HT_2_1
-50.pdf, page is rotated 90 degrees> <./Plots_HT_2_150/Qual/Comparison_ChHadFrac
-_2_HT_2_150.pdf, page is rotated 90 degrees>] [12 <./Plots_HT_2_150/Qual/Compar
-ison_NuHadFrac_3_HT_2_150.pdf, page is rotated 90 degrees> <./Plots_HT_2_150/Qu
-al/Comparison_PhFrac_3_HT_2_150.pdf, page is rotated 90 degrees> <./Plots_HT_2_
-150/Qual/Comparison_MuFrac_3_HT_2_150.pdf, page is rotated 90 degrees> <./Plots
-_HT_2_150/Qual/Comparison_ElFrac_3_HT_2_150.pdf, page is rotated 90 degrees> <.
-/Plots_HT_2_150/Qual/Comparison_ChHadFrac_3_HT_2_150.pdf, page is rotated 90 de
-grees>] <Plots_HT_2_150/Nvertices.pdf, id=969, 569.12625pt x 542.025pt>
+
+<Plots_HT_2_150/Comparison_NuHadFrac_3_HT_2_150.pdf, id=538, 569.12625pt x 544.
+0325pt>
+File: Plots_HT_2_150/Comparison_NuHadFrac_3_HT_2_150.pdf Graphic file (type pdf
+)
+ <use Plots_HT_2_150/Comparison_NuHadFrac_3_HT_2_150.pdf>
+Package pdftex.def Info: Plots_HT_2_150/Comparison_NuHadFrac_3_HT_2_150.pdf use
+d on input line 167.
+(pdftex.def)             Requested size: 213.39566pt x 203.98679pt.
+
+<Plots_HT_2_150/Comparison_PhFrac_3_HT_2_150.pdf, id=539, 569.12625pt x 544.032
+5pt>
+File: Plots_HT_2_150/Comparison_PhFrac_3_HT_2_150.pdf Graphic file (type pdf)
+ <use Plots_HT_2_150/Comparison_PhFrac_3_HT_2_150.pdf>
+Package pdftex.def Info: Plots_HT_2_150/Comparison_PhFrac_3_HT_2_150.pdf used o
+n input line 168.
+(pdftex.def)             Requested size: 213.39566pt x 203.98679pt.
+
+Overfull \hbox (5.22215pt too wide) in paragraph at lines 167--168
+ []  [] 
+ []
+
+
+<Plots_HT_2_150/Comparison_MuFrac_3_HT_2_150.pdf, id=540, 569.12625pt x 544.032
+5pt>
+File: Plots_HT_2_150/Comparison_MuFrac_3_HT_2_150.pdf Graphic file (type pdf)
+ <use Plots_HT_2_150/Comparison_MuFrac_3_HT_2_150.pdf>
+Package pdftex.def Info: Plots_HT_2_150/Comparison_MuFrac_3_HT_2_150.pdf used o
+n input line 169.
+(pdftex.def)             Requested size: 213.39566pt x 203.98679pt.
+
+<Plots_HT_2_150/Comparison_ElFrac_3_HT_2_150.pdf, id=541, 569.12625pt x 544.032
+5pt>
+File: Plots_HT_2_150/Comparison_ElFrac_3_HT_2_150.pdf Graphic file (type pdf)
+ <use Plots_HT_2_150/Comparison_ElFrac_3_HT_2_150.pdf>
+Package pdftex.def Info: Plots_HT_2_150/Comparison_ElFrac_3_HT_2_150.pdf used o
+n input line 170.
+(pdftex.def)             Requested size: 213.39566pt x 203.98679pt.
+
+Overfull \hbox (5.22215pt too wide) in paragraph at lines 169--170
+ [][]  [] 
+ []
+
+
+<Plots_HT_2_150/Comparison_ChHadFrac_3_HT_2_150.pdf, id=542, 569.12625pt x 544.
+0325pt>
+File: Plots_HT_2_150/Comparison_ChHadFrac_3_HT_2_150.pdf Graphic file (type pdf
+)
+ <use Plots_HT_2_150/Comparison_ChHadFrac_3_HT_2_150.pdf>
+Package pdftex.def Info: Plots_HT_2_150/Comparison_ChHadFrac_3_HT_2_150.pdf use
+d on input line 171.
+(pdftex.def)             Requested size: 213.39566pt x 203.98679pt.
+
+
+LaTeX Warning: Float too large for page by 19.57785pt on input line 175.
+
+
+</home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficiency.pdf, id=544, 569.12625
+pt x 427.5975pt>
+File: /home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficiency.pdf Graphic file 
+(type pdf)
+
+<use /home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficiency.pdf>
+Package pdftex.def Info: /home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficienc
+y.pdf used on input line 182.
+(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
+File: /home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficiency.pdf Graphic file 
+(type pdf)
+
+<use /home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficiency.pdf>
+Package pdftex.def Info: /home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficienc
+y.pdf used on input line 183.
+(pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
+ [10] [11 <./Plots_HT_2_150/Comparison_NuHadFrac_2_HT_2_150.pdf, page is rotate
+d 90 degrees> <./Plots_HT_2_150/Comparison_PhFrac_2_HT_2_150.pdf, page is rotat
+ed 90 degrees> <./Plots_HT_2_150/Comparison_MuFrac_2_HT_2_150.pdf, page is rota
+ted 90 degrees> <./Plots_HT_2_150/Comparison_ElFrac_2_HT_2_150.pdf, page is rot
+ated 90 degrees> <./Plots_HT_2_150/Comparison_ChHadFrac_2_HT_2_150.pdf, page is
+ rotated 90 degrees>] [12 <./Plots_HT_2_150/Comparison_NuHadFrac_3_HT_2_150.pdf
+, page is rotated 90 degrees> <./Plots_HT_2_150/Comparison_PhFrac_3_HT_2_150.pd
+f, page is rotated 90 degrees> <./Plots_HT_2_150/Comparison_MuFrac_3_HT_2_150.p
+df, page is rotated 90 degrees> <./Plots_HT_2_150/Comparison_ElFrac_3_HT_2_150.
+pdf, page is rotated 90 degrees> <./Plots_HT_2_150/Comparison_ChHadFrac_3_HT_2_
+150.pdf, page is rotated 90 degrees>] [13 </home/anter/Desktop/Thesis/Plots_HT_
+2_150/ID_Efficiency.pdf, page is rotated 90 degrees>]
+<Plots_HT_2_150/Nvertices.pdf, id=1038, 569.12625pt x 544.0325pt>
 File: Plots_HT_2_150/Nvertices.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/Nvertices.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Nvertices.pdf used on input line 219.
-(pdftex.def)             Requested size: 227.64647pt x 216.80615pt.
+Package pdftex.def Info: Plots_HT_2_150/Nvertices.pdf used on input line 214.
+(pdftex.def)             Requested size: 217.66122pt x 208.0627pt.
 
-<Plots_HT_2_150/Nvertices_weight.pdf, id=970, 569.12625pt x 542.025pt>
+<Plots_HT_2_150/Nvertices_weight.pdf, id=1039, 569.12625pt x 544.0325pt>
 File: Plots_HT_2_150/Nvertices_weight.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/Nvertices_weight.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Nvertices_weight.pdf used on input line
- 221.
-(pdftex.def)             Requested size: 227.64647pt x 216.80615pt.
+ 215.
+(pdftex.def)             Requested size: 217.66122pt x 208.0627pt.
 
-Overfull \hbox (28.5016pt too wide) in paragraph at lines 219--222
- [][] 
+Overfull \hbox (13.75328pt too wide) in paragraph at lines 214--216
+ []  [] 
  []
 
-) [13 <./Plots_HT_2_150/Nvertices.pdf, page is rotated 90 degrees> <./Plots_HT_
-2_150/Nvertices_weight.pdf, page is rotated 90 degrees>] [14
+[14 <./Plots_HT_2_150/Nvertices.pdf, page is rotated 90 degrees> <./Plots_HT_2_
+150/Nvertices_weight.pdf, page is rotated 90 degrees>] [15]
+
+LaTeX Warning: File `Plots_HT_2_150/Comparison_all_2_HT_2_150.pdf' not found on
+ input line 268.
 
 
-] (./thesis.bbl)
-[15
+! Package pdftex.def Error: File `Plots_HT_2_150/Comparison_all_2_HT_2_150.pdf'
+ not found.
 
-] [16
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 ...s_HT_2_150/Comparison_all_2_HT_2_150.pdf}
+                                                  %
+? r
+OK, entering \nonstopmode...
 
-] [17
+LaTeX Warning: File `Plots_HT_2_150/Comparison_all_3_HT_2_150.pdf' not found on
+ input line 270.
+
+
+! Package pdftex.def Error: File `Plots_HT_2_150/Comparison_all_3_HT_2_150.pdf'
+ not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.270 ...s_HT_2_150/Comparison_all_3_HT_2_150.pdf}
+                                                  \\
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Plots_HT_2_150/Comparison_all_4_HT_2_150.pdf' not found on
+ input line 271.
+
+
+! Package pdftex.def Error: File `Plots_HT_2_150/Comparison_all_4_HT_2_150.pdf'
+ not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.271 ...s_HT_2_150/Comparison_all_4_HT_2_150.pdf}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) [16] (./thesis.bbl) [17
+
+
 
 ] [18
+
+] [19
+
+] [20
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
- (./thesis.aux (./title.aux) (./Measurement.aux))
+ (./thesis.aux (./title.aux)
+(./Measurement.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 171.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
  ) 
 Here is how much of TeX's memory you used:
- 12220 strings out of 493033
- 168999 string characters out of 6136455
- 275889 words of memory out of 5000000
- 15440 multiletter control sequences out of 15000+600000
- 25041 words of font info for 80 fonts, out of 8000000 for 9000
+ 12275 strings out of 493033
+ 169784 string characters out of 6136455
+ 279665 words of memory out of 5000000
+ 15476 multiletter control sequences out of 15000+600000
+ 31409 words of font info for 100 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 43i,24n,43p,1989b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,24n,43p,1989b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texli
 ve/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextr
-a/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/helvetic/uhvb8a.pfb>
-Output written on thesis.pdf (31 pages, 711023 bytes).
+cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/helvetic/uhvb8a.pfb>
+Output written on thesis.pdf (33 pages, 746843 bytes).
 PDF statistics:
- 1219 PDF objects out of 1440 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1304 PDF objects out of 1440 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 237 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{JetID}
+C.~Collaboration, ``{Jet Identification at 8 TeV}.''
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetID}, 2012.
+\newblock (accessed on 2017-10-31).
+
 \bibitem{Alwall:2011uj}
 J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, and T.~Stelzer, ``{MadGraph 5
   : Going Beyond},'' {\em JHEP}, vol.~06, p.~128, 2011.
@@ -19,10 +24,5 @@ C.~J. Clopper and E.~S. Pearson, ``The use of confidence or fiducial limits
 
 \bibitem{CMS:2010xta}
 C.~Collaboration, ``{Jet Performance in pp Collisions at 7 TeV},'' 2010.
-
-\bibitem{JetID}
-C.~Collaboration, ``{Jet Identification at 8 TeV}.''
-  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetID}, 2012.
-\newblock (accessed on 2017-10-31).
 
 \end{thebibliography}

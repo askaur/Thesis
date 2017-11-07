@@ -93,7 +93,7 @@ The efficiency of each trigger, as a function of the measured observable, is des
  \label{eq:eff}
  {\rm \epsilon_{HLT\_PFJetY}} = \frac{\httwo {\rm \bigg(HLT\_PFJetX~\plus (L1Object\_\pt > Z)~\plus (HLTObject\_\pt > Y)\bigg)}}{\httwo {\rm (HLT\_PFJetX)}}
 \end{equation}
-where Y indicates the \pt threshold of HLT\_PFJetY and Z is the L1 seed value corresponding to the trigger path HLT\_PFJetY. The denominator represents the number of events for which the reference trigger path HLT\_PFJetX has been fired. The numerator is the number of events for which HLT\_PFJetX has been fired along the \pt of L1Object $\geq$ Z and the \pt of HLTObject $\geq$ Y. For example, in order to obtain turn-on curve for HLT\_PFJet260, the reference HLT path HLT\_PFJet200 is chosen, the \pt cut on L1Object is 128 GeV and \pt cut on HLTObject is 260 GeV. The uncertainty on the efficiency is indicated by error bars which represent Clopper-Pearson confidence intervals \cite{10.2307/2331986}. To determine the point, at which the trigger efficiency is larger than 99\%, the turn-on distribution is fitted using a sigmoid function described in Eq.~\ref{eq:sigmoid}. The trigger turn-on curves as a function of \httwo can been seen in Figure~\ref{fig:trig_eff}.
+where Y indicates the \pt threshold of HLT\_PFJetY and Z is the L1 seed value corresponding to the trigger path HLT\_PFJetY. The denominator represents the number of events for which the reference trigger path HLT\_PFJetX has been fired. The numerator is the number of events for which HLT\_PFJetX has been fired along the \pt of L1Object $\geq$ Z and the \pt of HLTObject $\geq$ Y. For example, in order to obtain turn-on curve for HLT\_PFJet260, the reference HLT path HLT\_PFJet200 is chosen, the \pt cut on L1Object is 128 GeV and \pt cut on HLTObject is 260 GeV. The uncertainty on the efficiency is indicated by error bars which represent Clopper-Pearson confidence intervals \cite{10.2307/2331986}. To determine the point, at which the trigger efficiency is larger than 99\%, the turn-on distribution is fitted using a sigmoid function described in Eq.~\ref{eq:sigmoid}. The trigger turn-on curves as a function of \httwo can been seen in Fig.~\ref{fig:trig_eff}.
 \begin{equation}
  \label{eq:sigmoid}
   f_{fit} (x) = \frac {1}{2} \Bigg( 1 ~\texttt{+}~ erf \Big(\frac {x - \mu}{\sqrt{2} \sigma} \Big) \Bigg)
@@ -102,9 +102,9 @@ where Y indicates the \pt threshold of HLT\_PFJetY and Z is the L1 seed value co
 \begin{figure}[!htbp]
  \begin{center}
  \includegraphics[width=0.53\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf}%
- \includegraphics[width=0.53\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf}\\
+ ~~\includegraphics[width=0.53\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf}\\
  \includegraphics[width=0.53\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf}%
- \includegraphics[width=0.53\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf}\\
+ ~~\includegraphics[width=0.53\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf}\\
  \includegraphics[width=0.53\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf}%
  \caption{Trigger efficiencies turn-on curves for the single jet trigger paths used in the analysis.To determine the 99\% efficiency threshold, the trigger turn-on curves are fitted using a sigmoid function taking into account the uncertainties using Clopper-Pearson confidence intervals.}
  \label{fig:trig_eff}
@@ -121,19 +121,18 @@ The ratio of missing transverse energy to the total transverse energy \ETmiss/$\
 
 \begin{figure}[!htbp]
 \centering
- \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Qual/Missing_ET_2.pdf}%
- \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Qual/Missing_ET_3.pdf}
- \caption{Missing transverse energy fraction of the total transverse energy per event in data and simulated events in inclusive 2-jet (left) and 3-jet events (right). To remove background and noise, events with a fraction exceeding a certain threshold, here indicated with the dashed line, are rejected.}
+ \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Missing_ET_2.pdf}%
+ ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Missing_ET_3.pdf}
+ \caption{Missing transverse energy fraction of the total transverse energy per event in data and simulated events in inclusive 2-jet (left) and 3-jet events (right). To remove background and noise, events with a fraction exceeding a certain threshold, here indicated with the red dashed line, are rejected.}
  \label{fig:metcut}
 \end{figure} 
 
 \subsection{Jet Identification}
-In order to suppress noise and non-physical jets, jet identification criteria (ID) has been applied. Instead of applying it event-wise, it 
-is applied it on each jet. The algorithm works on reconstructed jets using information of the clustered particle candidates. The official tight jet ID \cite{CMS:2010xta}, recommended by $\textsc{JETMET}$ group \cite{JetID} is used. Table~\ref{tab:jetID} summarizes the properties of the reconstructed jets and their respective cuts.
+In order to suppress fake jets, arising from detector noise or misreconstructed particles, jet identification criteria (ID) has been applied. Instead of applying it event-wise, it  is applied it on each jet. The algorithm works on reconstructed jets using information of the clustered particle candidates. The official tight jet ID \cite{CMS:2010xta}, recommended by \JetMet group \cite{JetID} is used. Due to pileup and electronic noise the jet constituent fractions may vary from event to event. In order to reject the noisy jets, some jet selection criteria are optimized to select only good quality jets. The selection criteria are implemented as selection cut on jet fractions. Table~\ref{tab:jetID} summarizes the properties of the reconstructed jets and their respective cuts. Each jet should contain at least two particles, one of which should be a charged hadron. The cut on the fraction of neutral hadrons and photons removes HCAL noise and ECAL noise, respectively. Muons that are falsely identified and clustered as jets are removed by the muon fraction criterion. Based on information of the tracker, additional selection cuts are enforced in the region $|\eta|$ \ls 2.4. The charged electromagnetic fraction cut removes the jets clustered from misidentified electrons. Furthermore, the fraction of charged hadrons in the jet must be larger than zero and jets without any charged hadrons are very likely to be pileup jets. The Figures~\ref{fig:qual2} and~\ref{fig:qual3} show the distributions of the jet constituents observed in data and simulated events for \njt~and \njth, respectively.
 
 \begin{table}[!htbp]
  \centering
- \caption{The jet ID removes noise and fake jets based on the properties of the reconstructed jets and the clustered particle candidates. All the selection cuts which are recommended by the JetMET group are applied \cite{JetID}.}
+ \caption{The jet ID removes noise and fake jets based on the properties of the reconstructed jets and the clustered particle candidates. All the selection cuts which are recommended by the \JetMet group are applied \cite{JetID}.}
  \label{tab:jetID}
  \vspace{2mm}
  \begin{tabular}{cccc}
@@ -151,40 +150,13 @@ is applied it on each jet. The algorithm works on reconstructed jets using infor
   \end{tabular}
 \end{table}
 
-\begin{itemize}
-\item Each jet should contain at least two particles, one of which should be a charged hadron.
-\item The fraction of neutral hadrons and photons should be $<$ 0.90 to remove HCAL noise and ECAL
-  noise, respectively. 
-\item Muons that are falsely identified and clustered as jets are removed by requiring the muon fraction $<$ 0.80 
-\item Based on information of the tracker, additional selection cuts are enforced in the region $\eta$ $<$ 2.4. Jets clustered from 
-  misidentified electrons are removed with the condition on charged electromagnetic fraction to be $<$ 0.90. Also, the fraction of charged 
-  hadrons in the jet must be larger than zero. 
-\end{itemize}
-
-\subsection{Jet Energy Corrections and Selection}
-
-Finally the event selection is as follows : 
-
-\begin{itemize}
-\item All jets having \pt $>$ 150 \GeV and \abs{y} $<$ 5 are selected.
-\item Events with at least two jets are selected.
-\item The two leading jets should have \abs{y} $<$ 2.5 and further jets are counted only, if they lie within the same central rapidity range of \abs{y} $<$ 2.5.
-\item In QCD, pure jet events are balanced in \pt and thus exhibit a low level of missing transverse energy, which predominantly is caused 
-  by jet calibration and resolution effects of the detector. Therefore, the ratio of missing transverse energy to the total transverse energy
-  $\frac{\ETmiss}{\sum \ET}$, both derived from the whole event information, is required to be less than 0.3 to select well measured
-  jet events, as shown in Figure~\ref{fig:metcut}. 
-\end{itemize}
-
-The Figures~\ref{fig:qual2}-~\ref{fig:qual4} show the distributions of the jet constituents observed in data and simulated events for 
-inclusive 2-jet, 3-jet and 4-jet events respectively.
-
 \begin{figure}[!htbp]
   \begin{center}
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Qual/Comparison_NuHadFrac_2_HT_2_150.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Qual/Comparison_PhFrac_2_HT_2_150.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Qual/Comparison_MuFrac_2_HT_2_150.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Qual/Comparison_ElFrac_2_HT_2_150.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Qual/Comparison_ChHadFrac_2_HT_2_150.pdf}%
+    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_NuHadFrac_2_HT_2_150.pdf}%
+    ~~\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_PhFrac_2_HT_2_150.pdf}\\
+    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_MuFrac_2_HT_2_150.pdf}%
+    ~~\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_ElFrac_2_HT_2_150.pdf}\\
+    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_ChHadFrac_2_HT_2_150.pdf}%
     \caption{The fractions of jet constituents as observed in data and simulated events for different types of PF candidates for inclusive 2-jet events. Data and simulation are normalized to the same number of events. The distributions are shown after the application of the jet ID.}
     \label{fig:qual2}
   \end{center}
@@ -192,16 +164,39 @@ inclusive 2-jet, 3-jet and 4-jet events respectively.
 
 \begin{figure}[!htbp]
   \begin{center}
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Qual/Comparison_NuHadFrac_3_HT_2_150.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Qual/Comparison_PhFrac_3_HT_2_150.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Qual/Comparison_MuFrac_3_HT_2_150.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Qual/Comparison_ElFrac_3_HT_2_150.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Qual/Comparison_ChHadFrac_3_HT_2_150.pdf}%
+    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_NuHadFrac_3_HT_2_150.pdf}%
+    ~~\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_PhFrac_3_HT_2_150.pdf}\\
+    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_MuFrac_3_HT_2_150.pdf}%
+    ~~\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_ElFrac_3_HT_2_150.pdf}\\
+    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_ChHadFrac_3_HT_2_150.pdf}%
     \caption{The fractions of jet constituents as observed in data and simulated events for different types of PF candidates for inclusive 3-jet events. Data and simulation are normalized to the same number of events. The distributions are shown after the application of the jet ID.}
     \label{fig:qual3}
   \end{center}
 \end{figure} 
 
+\subsubsection{Jet ID Efficiency}
+The efficiency of the jet ID as a function of \httwo is studied using a tag-and-probe technique with dijet events. The two leading jets are required to be back-to-back in the azimuthal plane such that $|\Delta\phi - \pi|$ \ls 0.3. One of the dijets is selected randomly as a ``tag'' jet which is required to fulfill the tight jet ID criteria. The other jet is called ``probe'' jet for which it is examined, whether it also passes the tight jet ID. The ID efficiency is defined as the ratio of events where the probe jet passes the ID requirements, over the total number of dijet events. Figure~\ref{fig:ideff} shows the ID efficiency as a function of \httwo for \njt~(left) and \njth~(right) \qm. As expected, the jet ID efficiency is larger than 99\%. The QCD cross section decreases as a function of \httwo and hence the number of events decrease on moving to higher \httwons. Consequently the statistical fluctuations for ID efficiency are larger at higher \httwons.
+
+\begin{figure}[!htbp]
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{/home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficiency.pdf}%
+    \includegraphics[width=0.5\textwidth]{/home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficiency.pdf}%
+    \caption{The jet ID efficiency studied using a tag-and-probe technique on dijet event topologies, is shown as a function of \httwo for inclusive 2-jet (left) and 3-jet events (right) and it always exceeds 99\%.}
+    \label{fig:ideff}
+  \end{center}
+\end{figure} 
+
+\subsection{Jet Energy Corrections and Selection}
+The measurement presented in this thesis is based on jets clustered from PF candidates using the anti-\kt jet algorithm with a size parameter of 0.7. All the jet energy corrections, described in section \qm~and recommended by CMS, are applied prior to this selection in order to have the correct energy scale of the jets. These comprises different correction levels for jets in data\footnote{The JEC version applied on data is internally referred to as Winter14\_V8} and for jets in simulated events\footnote{The latest JEC for run-independent Monte Carlo Samples are called START53\_V27}. The jet selection, based on phase space cuts on transverse momentum and rapidity of jets in an event, is as follows : 
+
+\begin{itemize}
+\item All jets having \pt $>$ 150 \GeV and $|y| < 5.0$ are selected.
+\item Events with at least two jets are selected.
+\item The two leading jets should have $|y| < 2.5$ and further jets are counted only, if they lie within the same central rapidity range of $|y| < 2.5$. 
+\end{itemize}
+These cuts assure high detector acceptance and exactly same selection is applied in the measurement, simulated events as well in theoretical calculations for a consistent comparison. 
+
+\section{Comparison with Simulated Events}
 \subsection{Pile-up Reweighting}
 The official Monte-Carlo samples are generated with distributions for the number of pileup interactions which is meant to roughly cover, 
 though not exactly match the conditions expected for each data-taking period. To still get comparable pile-up distributions in data and 
@@ -216,17 +211,14 @@ distributions in data and simulated events, which is present before the reweight
 
 \begin{figure}[!htbp]
   \begin{center}
-    \includegraphics[scale = 0.4]{Plots_HT_2_150/Nvertices.pdf}%
-    %\hspace{5mm}
-    \includegraphics[scale = 0.4]{Plots_HT_2_150/Nvertices_weight.pdf}
+    \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Nvertices.pdf}%
+    ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Nvertices_weight.pdf}
     \caption{Number of reconstructed vertices in data and simulated events before (left) and after (right) the pile-up reweighting.}
     \label{fig:pileup}
   \end{center}
 \end{figure}
-\begin{comment}
-\section{Kinematic Distributions}
 
-\subsection{Differential cross section and ratios}
+\subsection{Cross Section Comparison}
 The inclusive differential multijet cross sections are measured as a
 function of the average transverse momentum, \httwo =
 $\frac{1}{2}(p_{T,1} + p_{T,2})$ where $p_{T,1}$ and $p_{T,2}$ denote
@@ -285,7 +277,7 @@ for inclusive 2-jet events.
     \label{fig:comp_all}
   \end{center}
 \end{figure}
-
+\begin{comment}
 \subsection{Jet Energy Resolution (JER)}
 \label{subsec:Resolution}
 To evaluate jet energy resolution (JER), CMS detector simulation based on 
