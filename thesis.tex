@@ -13,7 +13,6 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{setspace}
 \usepackage[margin=16pt,font={small,stretch=1.1}]{caption}
-\usepackage[usenames,dvipsnames]{color}
 \usepackage[caption=false]{subfig}
 \usepackage{cite}
 \usepackage{rotating}
@@ -74,6 +73,12 @@
 \usepackage{bookmark}
 
 \begin{document}
+%Colors
+\definecolor{pink}{rgb}{1.0, 0.08, 0.58}
+\definecolor{auburn}{rgb}{0.07, 0.04, 0.56}
+\definecolor{blue}{rgb}{0.0, 0.0, 0.61}
+\definecolor{green}{rgb}{0.0, 0.5, 0.0}
+\definecolor{mycolor}{rgb}{1.0, 0.0, 0.0}
 
 \include{title}
 \newpage 
@@ -157,7 +162,7 @@ my Grand-Parents\\
 
 \fontsize{12pt}{12pt} \selectfont
 \bibliographystyle{ieeetr}
-%\bibliographystyle{unsrt}
+%\bibliographystyle{plainnat}
 \bibliography{thesis}
 
 \cleardoublepage

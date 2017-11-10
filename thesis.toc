@@ -7,13 +7,14 @@
 \contentsline {subsection}{\numberline {1.1.1}Monte Carlo Samples}{3}{subsection.1.1.1}
 \contentsline {section}{\numberline {1.2}Event Selection}{4}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Trigger Selection}{4}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Primary Vertex Selection}{6}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Missing Transverse Energy Cut}{8}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.2}Primary Vertex Selection}{8}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Missing Transverse Energy}{8}{subsection.1.2.3}
 \contentsline {subsection}{\numberline {1.2.4}Jet Identification}{9}{subsection.1.2.4}
 \contentsline {subsubsection}{\numberline {1.2.4.1}Jet ID Efficiency}{10}{subsubsection.1.2.4.1}
 \contentsline {subsection}{\numberline {1.2.5}Jet Energy Corrections and Selection}{13}{subsection.1.2.5}
 \contentsline {section}{\numberline {1.3}Comparison with Simulated Events}{14}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Pile-up Reweighting}{14}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Cross Section Comparison}{15}{subsection.1.3.2}
-\contentsline {chapter}{List of publications}{17}{section*.17}
-\contentsline {chapter}{Reprints}{19}{chapter*.20}
+\contentsline {subsection}{\numberline {1.3.2}Cross Section Comparison}{14}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Jet Energy Resolution (JER)}{16}{section.1.4}
+\contentsline {chapter}{List of publications}{23}{section*.22}
+\contentsline {chapter}{Reprints}{25}{chapter*.25}
