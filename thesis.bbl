@@ -1,9 +1,14 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{JetID}
 C.~Collaboration, ``{Jet Identification at 8 TeV}.''
   \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetID}, 2012.
 \newblock (accessed on 2017-10-31).
+
+\bibitem{JER}
+C.~Collaboration, ``{Jet Energy Resolution at 8 TeV}.''
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetResolution}, 2012.
+\newblock (accessed on 2016-01-22).
 
 \bibitem{Alwall:2011uj}
 J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, and T.~Stelzer, ``{MadGraph 5
@@ -25,9 +30,22 @@ C.~J. Clopper and E.~S. Pearson, ``The use of confidence or fiducial limits
 \bibitem{CMS:2010xta}
 C.~Collaboration, ``{Jet Performance in pp Collisions at 7 TeV},'' 2010.
 
-\bibitem{JER}
-C.~Collaboration, ``{Jet Energy Resolution at 8 TeV}.''
-  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetResolution}, 2012.
-\newblock (accessed on 2017-10-31).
+\bibitem{CMS:2011esa}
+C.~Collaboration, ``{Jet Energy Resolution in CMS at sqrt(s)=7 TeV},'' 2011.
+
+\bibitem{DAgostini:1994fjx}
+G.~D'Agostini, ``{A Multidimensional unfolding method based on Bayes'
+  theorem},'' {\em Nucl. Instrum. Meth.}, vol.~A362, pp.~487--498, 1995.
+
+\bibitem{Adye:2011gm}
+T.~Adye, ``{Unfolding algorithms and tests using RooUnfold},'' in {\em
+  {Proceedings, PHYSTAT 2011 Workshop on Statistical Issues Related to
+  Discovery Claims in Search Experiments and Unfolding, CERN,Geneva,
+  Switzerland 17-20 January 2011}}, (Geneva), pp.~313--318, CERN, CERN, 2011.
+
+\bibitem{CMS:2011ab}
+S.~Chatrchyan {\em et~al.}, ``{Measurement of the Inclusive Jet Cross Section
+  in $pp$ Collisions at $\sqrt{s}=7$ TeV},'' {\em Phys. Rev. Lett.}, vol.~107,
+  p.~132001, 2011.
 
 \end{thebibliography}

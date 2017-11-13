@@ -106,7 +106,7 @@ where Y indicates the \pt threshold of HLT\_PFJetY and Z is the L1 seed value co
  \includegraphics[width=0.53\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf}%
  ~~\includegraphics[width=0.53\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf}\\
  \includegraphics[width=0.53\textwidth]{Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf}%
- \caption{Trigger efficiencies turn-on curves for the single jet trigger paths used in the analysis.To determine the 99\% efficiency threshold, the trigger turn-on curves are fitted using a sigmoid function taking into account the uncertainties using Clopper-Pearson confidence intervals.}
+ \caption{Trigger efficiencies turn-on curves for the single jet trigger paths used in the analysis. To determine the 99\% efficiency threshold, the trigger turn-on curves are fitted using a sigmoid function taking into account the uncertainties using Clopper-Pearson confidence intervals.}
  \label{fig:trig_eff}
  \end{center}
 \end{figure}
@@ -187,7 +187,7 @@ The efficiency of the jet ID as a function of \httwo is studied using a tag-and-
 \end{figure} 
 
 \subsection{Jet Energy Corrections and Selection}
-The measurement presented in this thesis is based on jets clustered from PF candidates using the anti-\kt jet algorithm with a size parameter of 0.7. All the jet energy corrections, described in section \qm~and recommended by CMS, are applied prior to this selection in order to have the correct energy scale of the jets. These comprises different correction levels for jets in data\footnote{The JEC version applied on data is internally referred to as Winter14\_V8} and for jets in simulated events\footnote{The latest JEC for run-independent Monte Carlo Samples are called START53\_V27}. The jet selection, based on phase space cuts on transverse momentum and rapidity of jets in an event, is as follows : 
+The measurement presented in this thesis is based on jets clustered from PF candidates using the anti-\kt jet algorithm with a size parameter of 0.7. All the jet energy corrections, described in Sec. \qm~and recommended by CMS, are applied prior to this selection in order to have the correct energy scale of the jets. These comprises different correction levels for jets in data\footnote{The JEC version applied on data is internally referred to as Winter14\_V8} and for jets in simulated events\footnote{The latest JEC for run-independent Monte Carlo Samples are called START53\_V27}. The jet selection, based on phase space cuts on transverse momentum and rapidity of jets in an event, is as follows : 
 
 \begin{itemize}
 \item All jets having \pt $>$ 150 \GeV and $|y| < 5.0$ are selected.
@@ -263,92 +263,77 @@ where JER(\pt) is the resolution determined as a function of jet \pt using \MGP~
   \begin{center}
     \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_crystal_nomet.pdf}%
     ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Fit_Res_3_final_crystal_genbin_250-275_crystal_nomet.pdf}
-    \caption{Fitting of the resolution distribution as a function of \httwo for inclusive 2-jet (left) and for inclusive 3-jet events (right). The blue line shows the double-sided Crystal Ball function fit of $\frac{{\rm Reco}~\httwo}{{\rm Gen}~\httwo}$ in each Gen \httwo bin overlayed by Gaussian fitting the core of the resolution (red line).}
+    \caption{Fitting of the resolution distribution as a function of \httwo for inclusive 2-jet (left) and for inclusive 3-jet events (right). The blue line shows the double-sided Crystal Ball function fit of $\frac{{\rm Reco}~\httwo}{{\rm Gen}~\httwo}$ in each Gen \httwo bin, overlayed by Gaussian fitting the core of the resolution (red line).}
     \label{fig:fit_gauss}
   \end{center}
 \end{figure}
 
-The width of the response distribution in a given Gen \httwo bin is interpreted as the resolution which can in good approximation be described by the $\sigma$ of a Gaussian fit to the core of distribution. To take into account the non-Gaussian tails of the jet response distribution, a double-sided Crystal-Ball function is used. The resolution as a function of \httwo is calculated separately for both \njt~and \njth~events. A fit example for one Gen \httwo bin is shown in Fig.~\ref{fig:fit_gauss} for \njt~(left) and inclusive 3-jet events(right). Here the black dots represent the jet response distribution and the double-sided Crystal-Ball fit (blue line) is overlayed by the Gaussian fit (red line). The resolution is then plotted as a function of Gen \httwo. As expected, it has been observed from Fig.~\ref{fig:res_comp} that the Crystal Ball function better describes the measured distributions, especially in the low-\httwo region where the non-Gaussian tails are more pronounced. Hence the Crystal Ball function is preferred to determine the resolution.
+The width of the response distribution in a given Gen \httwo bin is interpreted as the resolution which can in good approximation be described by the $\sigma$ of a Gaussian fit to the core of distribution. To take into account the non-Gaussian tails of the jet response distribution, a double-sided Crystal-Ball function is used. The resolution as a function of \httwo is calculated separately for both \njt~and \njth~events. A fit example for one Gen \httwo bin is shown in Fig.~\ref{fig:fit_gauss} for \njt~(left) and inclusive 3-jet events(right). Here the black dots represent the jet response distribution and the double-sided Crystal-Ball fit (blue line) is overlayed by the Gaussian fit (red line). The resolution in each Gen \httwo bin is then plotted as a function of Gen \httwo. As expected, it has been observed from Fig.~\ref{fig:res_comp} that the Crystal Ball function better describes the measured distributions, especially in the low-\httwo region where the non-Gaussian tails are more pronounced. Hence the Crystal Ball function is preferred to determine the resolution.
 
-\begin{figure}[!htbp]
+\begin{figure}[h]
  \begin{center}
  \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_2.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_3.pdf}
- \caption{Comparison of jet energy resolution calculated using Crystal-Ball fit and Gaussian fit functions for inclusive 2-jet events (left) and for inclusive 3-jet events (right).}
+ \caption{Comparison of jet energy resolution calculated using Crystal-Ball fit function (blue) and Gaussian fit function (red) for inclusive 2-jet events (left) and for inclusive 3-jet events (right).}
  \label{fig:res_comp}
- \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Extrapolate_Sigma_Value_Res_2_crystal_range.pdf}%
- ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Extrapolate_Sigma_Value_Res_3_crystal.pdf}
- \caption{Jet energy resolution (JER) as a function of Gen \httwo for inclusive 2-jet events (left) and for inclusive 3-jet events (right). The solid line gives the results of the fits using the NSC-formula.}
-    \label{fig:resolution}
   \end{center}
 \end{figure}
 
-Figure~\ref{fig:resolution} shows the final relative resolution which is described by a modified version of the NSC formula as mentioned in Equation~\ref{NSC_formula}. Also, the extrapolation of the fit function upto 2 TeV is shown. The formula is based on the usual NSC formula which describes the resolution in terms of noise N, a stochastic component S and a constant term C. Especially in the low \httwo region in which the tracking has a non-negligible influence on the resolution due to the
-particle flow algorithm, a slightly better fit is obtained by using the modified resolution formula. Table~\ref{fit_para} gives the 
-parameters of the fit for the inclusive 2-jet and inclusive 3-jet events.
+\begin{figure}[!htbp]
+ \begin{center}
+ \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Extrapolate_Sigma_Value_Res_2_crystal_range.pdf}%
+ ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Extrapolate_Sigma_Value_Res_3_crystal.pdf}
+ \caption{Jet energy resolution (JER) is shown as a function of Gen \httwo for inclusive 2-jet events (left) and for inclusive 3-jet events (right). JER is fitted by using the modified NSC-formula (blue solid line) which is extrapolated upto 2 TeV (red dashed line).}
+    \label{fig:resolution}
+  \end{center}
+\end{figure}
+ 
+Figure~\ref{fig:resolution} shows the final relative resolution which is described by a modified version of the NSC formula (blue solid line) \cite{CMS:2011esa}, as mentioned in Equation~\ref{NSC_formula}. At high \httwo, the staistics is low. So to obtain the resolution over the full range of Gen \httwons, the extrapolation of the fit function is done upto 2 TeV which is shown by red dashed line. The fit formula used here is based on the usual NSC formula which describes the resolution in terms of noise $N$ originating due to electronic and pileup noise and is independent of \httwons; a stochastic component $S$ due to sampling fluctuation and EM fraction fluctuation per hadrons; and a constant term $C$ beacuse of dead material, magnetic field and calorimeter cell to cell fluctuation. In the low \httwo region the tracking has a non-negligible influence on the resolution due to the particle flow algorithm, so the additional parameter $s$ is introduced to obtain slightly better fits. The parameters obtained after fitting the relative resolution using the above mentioned NSC formula are tabulated in Table~\ref{fit_para} for \njt~and \njth~events. This calculated JER is used in unfolding procedure to smear the generated truth spectrum which is used as input in getting the response matrices and is explained in details in Sec.~\ref{sec:funcs}.
 
 \begin{equation}
   \label{NSC_formula}
   \frac{\sigma (x)}{x} = \sqrt{sgn(N) \cdot\frac{N^{2}}{x^{2}}+S^{2}\cdot x^{s-1}+C^{2}} 
 \end{equation}
 
-While calculating JER where we are using one large rapidity bin, it has been observed that from Figure~\ref{fig:ratios}, when JER extracted from \textcolor{blue}{simulated MG\plus P6 Reco/MG\plus P6 Gen} is used in toyMC for smearing, it smears the fastNLO too much (\textcolor{mycolor}{red curve}). The extracted JER also smears MC Gen more as seen from Smeared MG\plus P6 Gen/MG\plus P6 Gen (black dashed curve). When the 30\% reduced JER  is used to smear MG\plus Gen, the \textcolor{pink}{Smeared MG\plus Gen/MG\plus P6 Gen}, matches with simulated \textcolor{blue}{MG\plus P6
-Reco/MG\plus P6 Gen}. Also, toyMC Gen smeared with 30\% reduced  JER, \textcolor{green}{Smeared FastNLO/Gen FastNLO}. So an additional unfolding uncertainty is attributed by comparison to 30\% reduced JER.  
-
-\begin{figure}[!htbp]
-  \begin{center}
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Ratio_all_2_crystal.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Ratio_all_3_crystal.pdf}\\
-    \caption{\textcolor{blue}{Simulated MG\plus P6 Reco/MG\plus P6 Gen} to extract JER, \textcolor{mycolor}{Smeared FastNLO/Gen FastNLO} using extracted JER, Smeared MG\plus P6 Gen/MG\plus P6 Gen using extracted JER, \textcolor{pink} {smeared MG\plus P6 Gen/MG\plus P6 Gen} using 30\% reduced extracted JER, \textcolor{green}{Smeared FastNLO/Gen FastNLO} using 30\% reduced extracted JER; for inclusive 2-jet (left) and inclusive 3-jet events (right).}
-    }\label{fig:ratios}
-  \end{center}
-\end{figure}
-
-\begin{table}[!htbp]
+\begin{table}[h]
   \centering
-  \caption{The fit parameters of the resolution for inclusive 2-jet and inclusive 3-jet events.}
+  \caption{The parameters obtained by fitting the relative resolution as a function of \httwo, using the modified NSC formula, for inclusive 2-jet and inclusive 3-jet events.}
   \label{fit_para}
   \vspace{2mm}
   \begin{tabular}{ccccc}
     \hline \hline
-
     &    N    &  S   &    C   &    s   \rbtrr \\ \hline
     Inclusive 2-jet  & ~3.32 & 1.62 & 0.0333 & -0.318  \rbtrr \\
     Inclusive 3-jet  & -6.03 & 3.32 & 0.0333 & -0.515  \rbtrr \\
     \hline \hline
-    
   \end{tabular}
 \end{table}
-\begin{comment}
-\subsection{Unfolding}
+
+%Since the JER is calculated using \MGP~Reco and Gen \httwo distributions, so it is expected that the Gen \httwo smeared using this  JER should match the Reco \httwo. But this extracted JER in one large rapidity bin, smears the Gen \httwo too much because \textcolor{red}{$\rm {\frac{Smeared~Gen}{Gen}}$} does not matches with simulated \textcolor{blue}{$\rm {\frac{Reco}{Gen}}$} as observed in Fig.~\ref{fig:ratios} for \njt~(left) and \njth~(right). When the 30\% reduced JER  is used to smear Gen, then \textcolor{pink}{$\rm {\frac{Smeared~Gen}{Gen}}$} matches with simulated \textcolor{blue}{$\rm {\frac{Reco}{Gen}}$} ignoring the statistical fluctuations. So an additional unfolding uncertainty is attributed by comparison to 30\% reduced JER.  
+
+Since the JER is calculated using \MGP~Reco and Gen \httwo distributions, so it is expected that if Gen \httwo is smeared using this JER, it should match the Reco \httwo. But this extracted JER in one large rapidity bin, smears the Gen \httwo too much because Smeared Gen/Gen ratio (red line) shows a discrepancy from simulated Reco/Gen ratio (blue line), as observed in Fig.~\ref{fig:ratios} for \njt~(left) and \njth~(right). When the 30\% reduced JER  is used to smear Gen, then the ratio Smeared Gen/Gen (pink line) matches with simulated Reco/Gen ratio (blue line) within the statistical fluctuations. Hence an additional unfolding uncertainty is attributed by comparison to 30\% reduced JER for both \njt~ and \njth~events.
+
+\begin{figure}[!htbp]
+ \begin{center}
+ \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Ratio_Reco_2_crystal.pdf}%
+ ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Ratio_Reco_3_crystal.pdf}\\
+ \caption{\MadGraphF \plus \PYTHIAS Gen smeared using extracted jet energy resolution (JER) shows a discrepancy from simulated Reco as Smeared Gen/Gen ratio (red line) does not macth with Reco/Gen ratio (blue line), for both inclusive 2-jet (left) and inclusive 3-jet events (right). Smeared Gen/Gen ratio (pink line) where Gen is smeared using 30\% reduced JER matches with simulated Reco/Gen ratio (blue line) within the statistical fluctuations. Hence an additional unfolding uncertainty is attributed by comparison to 30\% reduced JER.}
+ \label{fig:ratios}
+ \end{center}
+\end{figure}
+
+\section{Unfolding}
 \label{sec:unfolding}
-One of the main goal in the experimental measurement is to do the comparison between data and theory predictions or with the results from 
-other experiments. But the finite detector resolution and the steeply falling jet \pt spectrum distorts the physical quantities. As a 
-result, the measured observables are different from the corresponding true values. Each \pt bin content contains the migrated events from 
-neighbouring bins along with the original events. So an unfolding process of the data for detector effects should be followed. Unfolding 
-uses a response matrix that maps the true distribution onto the measured one. The response matrix is usually derived from simulated Monte 
-Carlo (MC) samples (eg. \PYTHIAS tune Z2 MC), which uses as input the true distribution from MC and introduces the smearing effects by 
-taking into account the detector resolution. Then this response matrix is used to unfold the measured data spectrum. There are several 
-drawbacks of constructing response matrix from the MC as MC is not perfectly calibrated. Also dealing with the systematic uncertainties is 
-practically impossible with this technique.
+One of the main goals in an experimental measurement is to do the comparison between data and theory predictions or with the results from other experiments. But the finite detector resolution and the steeply falling jet \pt spectrum distorts the physical quantities. As a result, the measured observables are different from the corresponding true values. Each \pt bin content contains the migrated events from neighbouring bins along with the original events. So an unfolding process of the data should be followed in order to remove detector effects. In this analysis, the measured cross sections are corrected for detector smearing effects and unfolded to stable particle level by using the iterative D'Agostini Bayesian method \cite{DAgostini:1994fjx}, implemented in the RooUnfold software package \cite{Adye:2011gm}. The unfolding process is regularized by the number of iteration steps in this algorithm. A higher number of iterations yields a reduced \chisq but also increases the uncertainty and introduces larger bin-by-bin fluctuations and correlations. The regularization is optimized using simulated events and best results with low bin-by-bin correlations and low \chisq are achieved using four iterations in the unfolding algorithm.
 
-However, there is an indirect way of constructing the response matrix which 
-uses a custom Toy Monte Carlo by utilizing NLO prediction whose 
-details are given in section~\ref{sec:funcs}. The particle level \httwo spectrum is 
-obtained from the falling fitted function used to fit the theoretically 
-predicted \httwo spectrum.  The reconstructed level \httwo spectrum is 
-obtained by smearing the particle level \httwo spectrum with the jet energy 
-resolution (JER) parameters.  
-
-In this analysis, the measured cross sections are corrected for detector 
-smearing effects and unfolded to stable particle level and then the ratio 
-\ratio is constructed. We have used the iterative D'Agostini Bayesian method 
-with four iterations~\cite{D'Agostini:1994zf}, implemented in the RooUnfold 
-software package~\cite{Adye:2011gm}. 
-
-\subsubsection{Response matrices}
+\subsection{Response matrices}
 \label{sec:funcs}
-The NLO spectrum of differential cross section is fitted with the following two different functions :  
+
+Unfolding uses a response matrix as an input that maps the true distribution onto the measured one. The response matrix is usually derived from simulated Monte Carlo (MC) samples, which uses as input the true distribution from MC and introduces the smearing effects by taking into account the detector resolution. Then this response matrix is used to unfold the measured data spectrum. But there are several drawbacks of constructing response matrix using this method. In some phase space regions, the shape of the distribution is not well described by the LO predictions. Also, the number of events in the MC samples are limited at high transverse momenta which introduces non-negligible statistical fluctuations in the response matrix. 
+
+However, there is an indirect way of constructing the response matrix which uses a custom Toy Monte Carlo method. In this method, the particle level or true \httwo spectrum is obtained by fitting the theoretically predicted NLO spectrum. Then this distribution is smeared with forward smearing technique, using the extracted jet energy resolution (JER) to obtain the reconstructed level or measured \httwo spectrum. After that, the response matrix is constructed from these two distributions is used for the unfolding procedure. 
+
+The NLO spectrum obtained from CT10-NLO PDF set is fitted with the following two different functions defined in Eq.~\ref{eq:func1} and~\ref{eq:func2}. These functions describes both the normalization and shape of the distribution.  
 
 \begin{itemize}
 \item {\bf Function I : }
@@ -356,119 +341,86 @@ The NLO spectrum of differential cross section is fitted with the following two 
 
   \begin{equation}
     \label{eq:func1}
-    f(p_{T}) = N[x_{T}]^{-a}[1-x_{T}]^{b} \times exp[-c/x_{T}]
+    f(\httwo) = N[x_{T}]^{-a}[1-x_{T}]^{b} \times exp[-c/x_{T}]
   \end{equation}
   where N is normalization factor and a, b, c are fit parameters.\\
 
-  This function is derived from the below function from \textbf{Phys.Rev.Lett. 107, 132001 (2011)}\\
-  \begin{center}
-    \includegraphics[scale = 0.65]{Plots_HT_2_150/Formula.png} 
-  \end{center}
+  This function is derived from the below function \cite{CMS:2011ab} :
+  \begin{equation}
+    \label{eq:funcderive}
+    f(p_{T};\alpha,\beta,\gamma) = N_{0}[p_{T}]^{-\alpha}\bigg[1-\frac{2~p_{T}~cosh(y_{min})}{\sqrt{s}}\bigg]^{\beta} \times exp[-\gamma/p_{T}]
+  \end{equation}
   using 
   \begin{equation}
     \alpha = a,~~\beta = b,~~\gamma = c*\sqrt{s}/2, \\
-    x_{T} = \frac{2*p_{T}*cosh(y_{min})}{\sqrt{s}} = \frac{2*p_{T}}{\sqrt{s}}
+    x_{T} = \frac{2*\httwons *cosh(y_{min})}{\sqrt{s}} = \frac{2*\httwons}{\sqrt{s}}
   \end{equation}
-  where transverse scaling variable $x_{T}$ corresponds to the proton fractional momentum x for dijets with rapidity y=0, $\sqrt{s}$ = 8000 GeV and $y_{min}$ is low-edge of the rapidity bin y under consideration (Here $y_{min}$ is taken equal to 0) \\ 
-
+  where transverse scaling variable $x_{T}$ corresponds to the proton fractional momentum $x$ for dijets with rapidity $y$ = 0, $\sqrt{s}$ = 8000 GeV and $y_{min}$ is low-edge of the rapidity bin $y$ under consideration (here $y_{min}$ is taken equal to 0)
+  
 \item {\bf Function II : }
 
   \begin{equation}
     \label{eq:func2}
-    f(H_{T,2}/2) = A_{0}\Big(1-\frac{H_{T,2}/2}{A_{6}}\Big)^{A_{7}} \times 10^{F(x)}, \rm where ~~~{F(x) = \sum\limits_{i=1}^5 A_{i}\Big(log\big(\frac{x}{A_{6}}\big)\Big)^{i}}
+    f(H_{T,2}/2) = A_{0}\Big(1-\frac{H_{T,2}/2}{A_{6}}\Big)^{A_{7}} \times 10^{F(\httwo)}, {\rm where} ~~~{F(x) = \sum\limits_{i=1}^5 A_{i}\Big(log\big(\frac{x}{A_{6}}\big)\Big)^{i}}
   \end{equation}
 
-  where the parameter $A_{6}$ is fixed to $\frac{\sqrt{s}}{2cosh(y_{min})}$, where $\sqrt{s}$ = 8000 GeV and $y_{min}$ is 
+  where the parameter $A_{6}$ is fixed to $\frac{\sqrt{s}}{2~cosh(y_{min})}$, where $\sqrt{s}$ = 8000 GeV and $y_{min}$ is 
   the minimum rapidity. The other parameters are derived from the fitting.
 \end{itemize}
 
-\begin{figure}[!htbp]
+\begin{figure}[h]
   \begin{center}
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcI.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcI.pdf}\\
+    \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcI.pdf}%
+    ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcI.pdf}\\
     \vspace{5mm}
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcII.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcII.pdf}\\
+    \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcII.pdf}%
+    ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcII.pdf}\\
     \caption{Fitted NLO spectrum of differential cross section as a function of \httwo using Function I (top) and using Function II (bottom) : for inclusive 2-jet events (left) and for inclusive 3-jet events (right).}
     \label{fig:fit}
   \end{center}
 \end{figure}
 
-Figure~\ref{fig:fit} shows the fitted NLO spectrum of differential cross section as a function of \httwo using Function I (top) and using 
-Function II (bottom) : for inclusive 2-jet events (left) and for inclusive 3-jet events (right). Function I is used primarily to 
-generate response matrices and perform the closure tests and Function II is used as an alternative function to calculate unfolding 
-uncertainty, described in section~\ref{sec:unfolding_unc}. To include the migration to lower bins, the fitted functions are extrapolated to 
-the lower \httwo values.
+Figure~\ref{fig:fit} shows the fitted CT10-NLO  spectrum of differential cross section as a function of \httwo using Function I (top) and using Function II (bottom) : for inclusive 2-jet events (left) and for inclusive 3-jet events (right). Function I is used primarily to generate response matrices and perform the closure tests and Function II is used as an alternative function to calculate unfolding uncertainty, described in Sec.~\ref{sec:unfolding_unc}. To include the migration to lower bins, the fitted functions are extrapolated to the lower \httwo values.
+
+A flat \httwo spectrum is generated by using toy Monte Carlo events and the fit parameters obtained from the NLO spectrum using function I (as shown in Fig.~\ref{fig:fit}) provides weights to the flat spectrum. A total of ten million events are generated (in \httwo range 80-2000). These generated values are then smeared with a Gaussian function, where $\sigma$ of the Gaussian is determined from the relative resolution parametrization as a function of \httwo calculated from NSC formula mentioned in equation~\ref{NSC_formula}. The parameters N, S, C used for smearing are taken from Table~\ref{fit_para}. These generated and smeared values are used to fill the response matrices. Figure~\ref{fig:response_NLO} shows the response matrices derived using the Toy MC for \njt~(left) and \njth~events (right). The matrices are normalized to the number of events in each column. The response matrices are diagonal with small off-diagonal migrations between close-by \httwo bins.
 
 \begin{figure}[!htbp]
-  \begin{center}
-    \includegraphics[width=0.45\textwidth]{Plots_HT_2_150/Normalized_Response_Matrix_NLO_2_range_column.pdf}%
-    \includegraphics[width=0.45\textwidth]{Plots_HT_2_150/Normalized_Response_Matrix_NLO_3_column.pdf} 
-    \caption{The response matrices derived using the Toy MC for inclusive 2-jet (left) and inclusive 3-jet events (right).}
-    \label{fig:response_NLO}
-  %\end{center}
-%\end{figure}
-
-%\begin{figure}[!htbp]
-%  \begin{center}
-    \includegraphics[width=0.45\textwidth]{Plots_HT_2_150/Normalized_Response_Matrix_Madgraph_2_HT_2_150.pdf}%
-    \includegraphics[width=0.45\textwidth]{Plots_HT_2_150/Normalized_Response_Matrix_Madgraph_3_HT_2_150.pdf}\\
-    \includegraphics[width=0.45\textwidth]{Plots_HT_2_150/Normalized_Response_Matrix_Madgraph_4_HT_2_150.pdf} 
-    \caption{The response matrices constructed from \MadGraphF + \PYTHIAS MC inclusive 2-jet (top left), inclusive 3-jet events (top right) and inclusive 4-jet events (bottom).}
-    \label{fig:response_MC}
-  \end{center}
+ \begin{center}
+ \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Normalized_Response_Matrix_NLO_2_range_column.pdf}%
+ ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Normalized_Response_Matrix_NLO_3_column.pdf} 
+ \caption{The response matrices are derived using the Toy Monte Carlo and forward smearing method, for inclusive 2-jet (left) and inclusive 3-jet events (right). The matrices are normalized to the number of events in each column and are diagonal with small off-diagonal migrations between close-by \httwo bins.}
+ \label{fig:response_NLO}
+ \end{center}
 \end{figure}
 
-A flat \httwo spectrum is generated and the fit parameters obtained from the NLO spectrum provides weights to the flat spectrum. A total of 
-ten million events are generated (in \httwo range 80-2000). These generated values are smeared with a Gaussian function, where $\sigma$ of 
-the Gaussian is determined from the relative resolution parametrization as a function of \httwo calculated from NSC formula mentioned in 
-equation~\ref{NSC_formula}. The parameters N, S, C used for smearing are taken from Table~\ref{fit_para}.
+\subsection{Closure test}
+A closure test has been performed to confirm the working of the unfolding procedure. In this test, the smeared spectrum obtained from Toy MC method, is unfolded using the constructed response matrices shown in Figure~\ref{fig:response_NLO}. It is expected that the same generated spectrum should be re-obtained after unfolding. Figure~\ref{fig:unfolded_smeared} shows that after unfolding, the smeared spectrum matches exactly with the randomly generated spectrum as the ratio of these distributions is perfectly flat at one for both \njt~(left) and \njth~events (right).
 
-These generated and smeared values are used to fill the response matrices by using the RooUnfold package. Figure~\ref{fig:response_NLO} 
-shows the response matrices derived using the Toy MC for inclusive 2-jet (left) and inclusive 3-jet events (right). The matrices 
-are normalized to the number of events in each column. The response matrices are diagonal with small off-diagonal migrations between close-
-by \httwo bins.
-
-Also, the response matrices are constructed from \MadGraphF + \PYTHIAS MC using the distributions from PFJets (Jets based on individual 
-particles reconstructed by the Particle Flow Algorithm) and GenJets (Jets found by applying a jet algorithm on MC stable particles which are
-produced at the end of the hadronization stage). Figure~\ref{fig:response_MC} shows the response matrices constructed from \MadGraphF + 
-\PYTHIAS MC for inclusive 2-jet (top left), inclusive 3-jet events (top right) and inclusive 4-jet events (bottom).
-
-\subsubsection{Closure test}
-First we unfold the smeared spectrum obtained from Toy MC, using the constructed response matrices shown in Figure~\ref{fig:response_NLO} 
-to check how good the unfolding procedure is working. Figure~\ref{fig:unfolded_smeared} shows that after unfolding, the smeared spectrum 
-matches exactly with the randomly generated spectrum as the ratio of these distributions is perfectly flat at one for both inclusive 2-jet 
-(left) as well as inclusive 3-jet events (right).
-
-Also we unfold the distribution from PFJets obtained from \MadGraphF + \PYTHIAS MC using the constructed response matrices shown in 
-Figure~\ref{fig:response_MC}. Figure~\ref{fig:unfolded_reco} shows that after unfolding, the spectrum from PFJets matches exactly with that 
-from GenJets as expected.
+For another closure test, Reco \MGP~MC differential cross section distribution is unfolded using the above constructed response matrices. While taking ratio of the unfolded distribution to that of Gen \MGP~MC, it is observed that a well closure is not obtained. This is shown by 
 
 Also we unfold the distribution from PFJets obtained from \MadGraphF + \PYTHIAS MC with the toyMC response matrices shown in 
-Figure~\ref{fig:response_NLO}. While performing this closure test, it has been observed that when 30\% reduced JER is used to unfold \MadGraphF + \PYTHIAS Reco MC, a good closure is obtained as seen in  Figure~\ref{fig:unfolded_reco_NLO}.
+Figure~\ref{fig:response_NLO}. While performing this closure test, it has been observed that when 30\% reduced JER is used to unfold \MadGraphF \plus \PYTHIAS Reco MC, a good closure is obtained as seen in  Figure~\ref{fig:unfolded_reco_NLO}.
+
+\begin{figure}[h]
+ \begin{center}
+ \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Ratio_Unfolding_NLO_2_funcI.pdf}%
+ ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Ratio_Unfolding_NLO_3_funcI.pdf}
+ \caption{Closure test with response matrices from NLO for inclusive 2-jet (left) and inclusive 3-jet events (right).}
+ \label{fig:unfolded_smeared}
+ \end{center}
+\end{figure}
 
 \begin{figure}[!htp]
-  \begin{center}
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Ratio_Unfolding_NLO_2.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Ratio_Unfolding_NLO_3.pdf}
-    \caption{Closure test with response matrices from NLO for inclusive 2-jet (left) and inclusive 3-jet events (right).}
-    \label{fig:unfolded_smeared}
- 
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Ratio_Unfolding_Mad_2_HT_2_150.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Ratio_Unfolding_Mad_3_HT_2_150.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Ratio_Unfolding_Mad_4_HT_2_150.pdf}
-    \caption{Closure test with response matrices from \MadGraphF + \PYTHIAS MC for inclusive 2-jet (top left), inclusive 3-jet events (top right) and inclusive 4-jet events (bottom).}
-    \label{fig:unfolded_reco}
-  \end{center}
+ \begin{center}
+ \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_closure_2_range.pdf}%
+ ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_closure_3.pdf}
+ \caption{Closure test with unfolding \MadGraphF \plus \PYTHIAS Reco MC with response matrices from NLO for inclusive 2-jet (left) and inclusive 3-jet events (right).}
+ \label{fig:unfolded_reco_NLO}
+ \end{center}
 \end{figure}
 
 \begin{figure}[!htp]
   \begin{center}
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_closure_2_range.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_closure_3.pdf}
-    \caption{Closure test with unfolding \MadGraphF + \PYTHIAS Reco MC with response matrices from NLO for inclusive 2-jet (left) and inclusive 3-jet events (right).}
-    \label{fig:unfolded_reco_NLO}
-
     \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Ratio_Unfolding_data_NLO_2.pdf}%
     \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Ratio_Unfolding_data_NLO_3.pdf}
     \caption{The ratio of data unfolded with that of measured using response matrices from NLO (black solid circles), from NLO but 30\% reduced JER (green solid circles) and from MC (red open circles); for inclusive 2-jet (left) and inclusive 3-jet events (right).}
@@ -476,7 +428,7 @@ Figure~\ref{fig:response_NLO}. While performing this closure test, it has been o
   \end{center}
 \end{figure}
 
-\subsubsection{Unfolding data}
+\subsection{Unfolding data}
 After the validity of the unfolding method, the data is unfolded using the above reconstructed response matrices : both from NLO as well as 
 MC. The unfolded data is compared to that of measured. Figure~\ref{fig:unfolded_data} shows the ratio of data unfolded to the measured data using response matrices from NLO (black solid circles), from NLO but 30\% reduced JER (green solid circles) and from MC (red open circles); for inclusive 2-jet (left) and inclusive 3-jet events (right). The unfolding using MC and reduced JER NLO response matrices, give similar results within statistical uncertainties. 
 The unfolding does not 
@@ -484,9 +436,9 @@ working well for bins near to minimum \pt cut for inclusive 2-jet events because
 while the higher jet multiplicities are less affected. The event yield for each bin in \httwo is tabulated in Appendix in Table~\ref
 {table_event}. 
 
-\subsection{Experimental uncertainties}
+\section{Experimental uncertainties}
 \label{sec:exp_unc}
-The experimental sources of uncertainty which affect the cross section measurement includes - 
+\begin{comment}The experimental sources of uncertainty which affect the cross section measurement includes - 
 
 \begin{itemize}
 \item the statistical uncertainty : propagated through the unfolding, 
@@ -496,12 +448,12 @@ The experimental sources of uncertainty which affect the cross section measureme
 \item an uncorrelated residual uncertainty of 1\% : which comprises the trigger efficiency uncertainty, the jet id efficiency and further residual effects.
 \end{itemize}
 
-\subsubsection{Uncertainty on luminosity measurement}
+\subsection{Uncertainty on luminosity measurement}
 The uncertainty on the luminosity measurement for the 2012 LHC run is estimated to be 2.5\% (syst.) and 0.5\% (stat.)~\cite{CMS:2013gfa}. 
 As the luminosity uncertainty translates into a normalization uncertainty on any absolute cross section measurement, a combined systematic 
 uncertainty of 2.6\% is assigned which is fully correlated across all the \httwo bins. 
 
-\subsubsection{Statistical uncertainty}
+\subsection{Statistical uncertainty}
 \label{sec:unfolding_stat}
 Statistical uncertainties of data points are propagated through the unfolding using a toy MC technique in which the measured data points 
 are smeared within their statistical uncertainties and the unfolding procedure is repeated multiple times for each smeared
@@ -540,7 +492,7 @@ statistical errors in the unfolded distributions are greater than that of the me
   \end{center}
 \end{figure}
 
-\subsubsection{Jet Energy Scale uncertainty}
+\subsection{Jet Energy Scale uncertainty}
 The systematic uncertainty on the measured cross sections is asymmetric and dominated by the uncertainty on the jet-energy corrections (JEC). This is estimated by shifting the jet \pt according to the JEC uncertainty. The JEC uncertainties are split 
 into 25 mutually independent sources of uncertainty, in which each source is fully correlated in \pt and $\eta$ but uncorrelated to all 
 other sources and presents a 1$\sigma$ shift. \httwo is calculated by varying \pt and the difference from central \httwo gives JEC uncertainty as a function of \httwo. As these uncertainties can be asymmetric, the upwards and downwards variation of each source 
@@ -559,9 +511,10 @@ RelativeStatHF, PileUpDataMC, PileUpPtRef, PileUpPtBB, PileUpPtEC1, PileUpPtEC2 
 The AbsoluteFlavMap uncertainty is exactly zero for the 8 TeV and can be ignored. In this way practically 24 uncertainties are considered to calculate JEC uncertainty. For the four sources : RelativeJERHF, 
 RelativePtHF, RelativeStatHF, PileUpPtHF, the JEC uncertainty is exactly zero because of \abs{y} $<$ 2.5 cut used in the analysis. So only 20 sources contribute to the total JEC uncertainty. The Figures~\ref{fig:jes1}-\ref{fig:jes4} show the JEC uncertainty from each 
 source separately for inclusive 2-jet (left) and 3-jet events (middle), respectively. The bin-wise values (in \%) are tabulated in the Tables~\ref{tab:exp_unc_jes_2},~\ref{tab:exp_unc_jes_2s} for inclusive 2-jet and~\ref{tab:exp_unc_jes_3},~\ref{tab:exp_unc_jes_3s} for inclusive 3-jet events. 
-
-\subsubsection{Unfolding uncertainty}
+\end{comment}
+\subsection{Unfolding uncertainty}
 \label{sec:unfolding_unc}
+\begin{comment}
 The unfolding uncertainty is comprised of three uncertainties :
 
 \begin{enumerate}
@@ -585,7 +538,19 @@ The NLO \httwo spectrum is fitted by the another function described by Equation~
 
 All the three uncertainties are added in quadrature to account the unfolding uncertainty which is 1-2\% on cross-sections.
 
-\subsubsection{Total experimental uncertainty}
+While calculating JER where one large rapidity bin is used, it has been observed that from Figure~\ref{fig:ratios}, when JER extracted from \textcolor{blue}{simulated MG\plus P6 Reco/MG\plus P6 Gen} is used in toyMC for smearing, it smears the fastNLO too much (\textcolor{mycolor}{red curve}). The extracted JER also smears MC Gen more as seen from Smeared MG\plus P6 Gen/MG\plus P6 Gen (black dashed curve). When the 30\% reduced JER  is used to smear MG\plus Gen, the \textcolor{pink}{Smeared MG\plus Gen/MG\plus P6 Gen}, matches with simulated \textcolor{blue}{MG\plus P6 Reco/MG\plus P6 Gen}. Also, toyMC Gen smeared with 30\% reduced  JER, \textcolor{green}{Smeared FastNLO/Gen FastNLO}. So an additional unfolding uncertainty is attributed by comparison to 30\% reduced JER.  
+
+\begin{figure}[!htbp]
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Ratio_all_2_crystal.pdf}%
+    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Ratio_all_3_crystal.pdf}\\
+    \caption{\textcolor{blue}{Simulated MG\plus P6 Reco/MG\plus P6 Gen} to extract JER, \textcolor{red}{Smeared FastNLO/Gen FastNLO} using extracted JER, Smeared MG\plus P6 Gen/MG\plus P6 Gen using extracted JER, \textcolor{pink} {smeared MG\plus P6 Gen/MG\plus P6 Gen} using 30\% reduced extracted JER, \textcolor{green}{Smeared FastNLO/Gen FastNLO} using 30\% reduced extracted JER; for inclusive 2-jet (left) and inclusive 3-jet events (right).}
+    }\label{fig:ratios}
+  \end{center}
+\end{figure}
+
+
+\subsection{Total experimental uncertainty}
 After calculating the uncertainties from all different sources, total experimental uncertainty is obtained by adding in quadrature the 
 uncertainties from individual sources. The bin-wise values (in \%) of uncertainties from each source as well as total uncertainty are tabulated in Table~\ref{tab:exp_unc2} and Table~\ref{tab:exp_unc3} for inclusive 2-jet and inclusive 3-jet events, respectively. Figure~\ref{fig:exp_unc} show the uncertainties from all sources of 
 experimental uncertainty as well as the total uncertainty for inclusive 2-jet (left) and inclusive 3-jet (right) events. The systematic uncertainty on the measured cross 
