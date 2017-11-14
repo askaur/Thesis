@@ -1,6 +1,6 @@
 \select@language {english}
 \contentsline {chapter}{List of Figures}{xi}{section*.2}
-\contentsline {chapter}{List of Tables}{xv}{section*.4}
+\contentsline {chapter}{List of Tables}{xvii}{section*.4}
 \rule {13.9 cm}{.1pt}\par 
 \contentsline {chapter}{\numberline {1}Measurement of the Differential Inclusive Multijet Cross Sections and their Ratio}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Data Samples}{2}{section.1.1}
@@ -19,8 +19,12 @@
 \contentsline {section}{\numberline {1.5}Unfolding}{21}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Response matrices}{22}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}Closure test}{25}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Unfolding data}{26}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.3}Unfolding measurement}{27}{subsection.1.5.3}
 \contentsline {section}{\numberline {1.6}Experimental uncertainties}{27}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Unfolding uncertainty}{27}{subsection.1.6.1}
-\contentsline {chapter}{List of publications}{29}{section*.28}
-\contentsline {chapter}{Reprints}{31}{chapter*.31}
+\contentsline {subsection}{\numberline {1.6.1}Luminosity measurement uncertainty}{28}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Statistical uncertainty}{28}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}Jet Energy Scale uncertainty}{29}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.4}Unfolding uncertainty}{31}{subsection.1.6.4}
+\contentsline {subsection}{\numberline {1.6.5}Total experimental uncertainty}{33}{subsection.1.6.5}
+\contentsline {chapter}{List of publications}{35}{section*.33}
+\contentsline {chapter}{Reprints}{37}{chapter*.36}
