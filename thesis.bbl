@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{10.2307/2331986}
+C.~J. Clopper and E.~S. Pearson, ``The use of confidence or fiducial limits
+  illustrated in the case of the binomial,'' {\em Biometrika}, vol.~26, no.~4,
+  pp.~404--413, 1934.
+
 \bibitem{JetID}
 C.~Collaboration, ``{Jet Identification at 8 TeV}.''
   \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetID}, 2012.
@@ -22,11 +27,6 @@ T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, ``{PYTHIA 6.4 Physics and Manual},''
 J.~Alwall {\em et~al.}, ``{A Standard format for Les Houches event files},''
   {\em Comput. Phys. Commun.}, vol.~176, pp.~300--304, 2007.
 
-\bibitem{10.2307/2331986}
-C.~J. Clopper and E.~S. Pearson, ``The use of confidence or fiducial limits
-  illustrated in the case of the binomial,'' {\em Biometrika}, vol.~26, no.~4,
-  pp.~404--413, 1934.
-
 \bibitem{CMS:2010xta}
 C.~Collaboration, ``{Jet Performance in pp Collisions at 7 TeV},'' 2010.
 
@@ -47,5 +47,14 @@ T.~Adye, ``{Unfolding algorithms and tests using RooUnfold},'' in {\em
 S.~Chatrchyan {\em et~al.}, ``{Measurement of the Inclusive Jet Cross Section
   in $pp$ Collisions at $\sqrt{s}=7$ TeV},'' {\em Phys. Rev. Lett.}, vol.~107,
   p.~132001, 2011.
+
+\bibitem{CMS:2013gfa}
+C.~Collaboration, ``{CMS Luminosity Based on Pixel Cluster Counting - Summer
+  2013 Update},'' 2013.
+
+\bibitem{Khachatryan:2016kdb}
+V.~Khachatryan {\em et~al.}, ``{Jet energy scale and resolution in the CMS
+  experiment in pp collisions at 8 TeV},'' {\em JINST}, vol.~12, no.~02,
+  p.~P02014, 2017.
 
 \end{thebibliography}

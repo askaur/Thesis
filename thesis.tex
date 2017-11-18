@@ -26,6 +26,7 @@
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[belowskip=-1pt,aboveskip=2pt]{caption}
+\usepackage[titletoc]{appendix}
 
 \setlength{\headheight}{15pt} 
 \usepackage[pdfpagelabels]{hyperref}
@@ -75,14 +76,16 @@
 \begin{document}
 %Colors
 \definecolor{pink}{rgb}{1.0, 0.08, 0.58}
-\definecolor{auburn}{rgb}{0.07, 0.04, 0.56}
-\definecolor{blue2}{rgb}{0.0, 0.44, 1.0}
+%\definecolor{blue2}{rgb}{0.0, 0.44, 1.0}
 \definecolor{green}{rgb}{0.0, 0.5, 0.0}
 \definecolor{red}{rgb}{0.8, 0.2, 0.2}
-\definecolor{mycolor}{rgb}{1.0, 0.0, 0.0}
 \definecolor{gray}{rgb}{0.47, 0.53, 0.6}
-\definecolor{purple}{rgb}{0.75, 0.0, 1.0}
-
+\definecolor{lightpurple}{rgb}{0.69, 0.61, 0.85}
+\definecolor{blue2}{rgb}{0.45, 0.66, 0.96}
+\definecolor{pink2}{rgb}{1.0, 0.1, 0.7}
+\definecolor{darkgray}{rgb}{0.66, 0.66, 0.66}
+\definecolor{deepsaffron}{rgb}{1.0, 0.6, 0.2}
+\definecolor{dimgray}{rgb}{0.41, 0.41, 0.41}
 \include{title}
 \newpage 
 \thispagestyle{empty}
@@ -160,13 +163,18 @@ my Grand-Parents\\
 
 \cleardoublepage
 \phantomsection
-\addcontentsline{toc}{chapter}{List of publications}
+
+\begin{appendices}
+\chapter{}
+\include{Appendix}
+\end{appendices}
+%\addcontentsline{toc}{chapter}{List of publications}
 %\include{publications1}
 
 \fontsize{12pt}{12pt} \selectfont
 %\bibliographystyle{ieeetr}
 %\bibliography{thesis}
-
+\addcontentsline{toc}{chapter}{Bibliography}
 \include{bibliography}
 
 \cleardoublepage
