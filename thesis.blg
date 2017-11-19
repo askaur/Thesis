@@ -3,41 +3,42 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: title.aux
 A level-1 auxiliary file: Measurement.aux
+A level-1 auxiliary file: Appendix.aux
 The style file: ieeetr.bst
 Database file #1: thesis.bib
 Warning--empty journal in CMS:2010xta
 Warning--empty journal in CMS:2011esa
 Warning--empty journal in CMS:2013gfa
-You've used 13 entries,
+You've used 14 entries,
             1876 wiz_defined-function locations,
-            565 strings with 5459 characters,
-and the built_in function-call counts, 3042 in all, are:
-= -- 306
-> -- 88
+            570 strings with 5587 characters,
+and the built_in function-call counts, 3178 in all, are:
+= -- 320
+> -- 92
 < -- 0
-+ -- 36
-- -- 23
-* -- 176
-:= -- 424
-add.period$ -- 15
-call.type$ -- 13
-change.case$ -- 13
++ -- 38
+- -- 24
+* -- 181
+:= -- 444
+add.period$ -- 17
+call.type$ -- 14
+change.case$ -- 14
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 179
-empty$ -- 305
-format.name$ -- 23
-if$ -- 772
+cite$ -- 17
+duplicate$ -- 183
+empty$ -- 323
+format.name$ -- 24
+if$ -- 807
 int.to.chr$ -- 0
-int.to.str$ -- 13
+int.to.str$ -- 14
 missing$ -- 11
-newline$ -- 44
-num.names$ -- 13
-pop$ -- 50
+newline$ -- 48
+num.names$ -- 14
+pop$ -- 56
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 127
+skip$ -- 130
 stack$ -- 0
 substring$ -- 148
 swap$ -- 76
@@ -46,7 +47,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 25
-width$ -- 15
-write$ -- 127
+while$ -- 26
+width$ -- 16
+write$ -- 137
 (There were 3 warnings)

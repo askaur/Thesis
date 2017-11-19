@@ -1,1 +1,1 @@
-gedit Measurement.tex shortcuts.tex  thesis.tex  thesis.bib &
+gedit Measurement.tex shortcuts.tex  thesis.tex  thesis.bib bibliography.tex &

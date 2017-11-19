@@ -128,7 +128,7 @@ The ratio of missing transverse energy to the total transverse energy \ETmiss/$\
 \end{figure} 
 
 \subsection{Jet Identification}
-In order to suppress fake jets, arising from detector noise or misreconstructed particles, jet identification criteria (ID) has been applied. Instead of applying it event-wise, it  is applied it on each jet. The algorithm works on reconstructed jets using information of the clustered particle candidates. The official tight jet ID \cite{CMS:2010xta}, recommended by \JetMet group \cite{JetID} is used. Due to pileup and electronic noise the jet constituent fractions may vary from event to event. In order to reject the noisy jets, some jet selection criteria are optimized to select only good quality jets. The selection criteria are implemented as selection cut on jet fractions. Table~\ref{tab:jetID} summarizes the properties of the reconstructed jets and their respective cuts. Each jet should contain at least two particles, one of which should be a charged hadron. The cut on the fraction of neutral hadrons and photons removes HCAL noise and ECAL noise, respectively. Muons that are falsely identified and clustered as jets are removed by the muon fraction criterion. Based on information of the tracker, additional selection cuts are enforced in the region $|\eta|$ \ls 2.4. The charged electromagnetic fraction cut removes the jets clustered from misidentified electrons. Furthermore, the fraction of charged hadrons in the jet must be larger than zero and jets without any charged hadrons are very likely to be pileup jets. The Figures~\ref{fig:qual2} and~\ref{fig:qual3} show the distributions of the jet constituents observed in data (black solid circles) and simulated MC events (blue histogram) for \njt~and \njth, respectively.
+In order to suppress fake jets, arising from detector noise or misreconstructed particles, jet identification criteria (ID) has been applied. Instead of applying it event-wise, it  is applied it on each jet. The algorithm works on reconstructed jets using information of the clustered particle candidates. The official tight jet ID \cite{CMS:2010xta}, recommended by \JetMet group \cite{JetID} is used. Due to pileup and electronic noise the jet constituent fractions may vary from event to event. In order to reject the noisy jets, some jet selection criteria are optimized to select only good quality jets. The selection criteria are implemented as selection cut on jet fractions. Table~\ref{tab:jetID} summarizes the properties of the reconstructed jets and their respective cuts. Each jet should contain at least two particles, one of which should be a charged hadron. The cut on the fraction of neutral hadrons and photons removes HCAL noise and ECAL noise, respectively. Muons that are falsely identified and clustered as jets are removed by the muon fraction criterion. Based on information of the tracker, additional selection cuts are enforced in the region $|\eta|$ \ls 2.4. The charged electromagnetic fraction cut removes the jets clustered from misidentified electrons. Furthermore, the fraction of charged hadrons in the jet must be larger than zero and jets without any charged hadrons are very likely to be pileup jets. The Figs.~\ref{fig:qual2} and~\ref{fig:qual3} show the distributions of the jet constituents observed in data (black solid circles) and simulated MC events (blue histogram) for \njt~and \njth, respectively.
 
 \begin{table}[!htbp]
  \centering
@@ -231,11 +231,11 @@ The measured data distribution of differential cross section at detector level i
 \label{sec:Resolution}
 In an ideal experiment, the value of a physical quantity would be determined exactly with an infinite precision. For e.g. whenever a particle with energy E passes an ideal calorimeter having infinite resolution, the measured energy should always be equal to E. But in real detector, the measured energy of the above mentioned particle might differ from the value E. This shift of the measured quantity from its true value may be due to detector noise, uncertainties in the calibration, non-linearity of the response etc. Hence this results in the finite value of the detector resolution (JER). In such case, the measured values of energy of different particles, crossing the same detector with same energy E, will be different. The set of measurements of this type would in the form of a gaussian distribution, centered around the true value of the measured quantity, whose width is generally interpreted as detector resolution. The resolution of a detector indicates that how precise it is able to measure a given physical observable. The narrower the distribution, the higher the resolution is and hence the more precise is the detector. The importance of the measurement of the detector resolution lies in the fact that it indicates how much the measured value of the observable differs from the true one. %The measurement of detector resolution helps in the determination of the histogram binning of the observable to be studied. In binned histograms, it is possible that the measured quantity may migrate from one bin to another with respect to their true value. To avoid these migrations, the bin width should be at least two-three times larger than the detector resolution in that particular bin. The bin widths may also differ between each other for the same observable.
 
-Due to finite resolution of the CMS detector, the measured transverse momentum of jets gets smeared. Since the observable in this study i.e. \httwo is the average sum of transverse momentum of leading and sub-leading jets, the resolution of the detector has to be studied in terms of the observable. CMS detector simulation based on \MGP~MC event generators is used to determine the resolution as both the particle and reconstructed level information is available. The jets clustered from stable generator particles called Gen jets as well as from particle flow candidates reconstructed from the simulated detector output called Reco jets, are used. The studies of the \JetMet working group at CMS has shown that the jet energy resolution in data is actually worse than in simulation \cite{JER}. So the reconstructed jet transverse momentum needs to be smeared additionally to match the resolution in data. Table~\ref{tab:resolution} shows the scaling factors (c) which need to be applied on the transverse momentum of simulated reconstructed jets. The scaling factors depend on the absolute $\eta$ of the jet. The uncertainty on these measured scaling factors needs to be taken into account in a physics analysis. This is done by smearing the reconstructed jets with two additional sets of scaling factors, c$_{up}$ and c$_{down}$, that correspond to varying the factors up and down respectively, by one sigma and evaluating the impact of these new sets. 
+Due to finite resolution of the CMS detector, the measured transverse momentum of jets gets smeared. Since the observable in this study i.e. \httwo is the average sum of transverse momentum of leading and sub-leading jets, the resolution of the detector has to be studied in terms of the observable. CMS detector simulation based on \MGP~MC event generators is used to determine the resolution as both the particle and reconstructed level information is available. The jets clustered from stable generator particles called Gen jets as well as from particle flow candidates reconstructed from the simulated detector output called Reco jets, are used. The studies of the \JetMet working group at CMS has shown that the jet energy resolution in data is actually worse than in simulation \cite{JER}. So the reconstructed jet transverse momentum needs to be smeared additionally to match the resolution in data. Table~\ref{tab:resolution} shows the scaling factors (c) which need to be applied on the transverse momentum of simulated reconstructed jets. The scaling factors depend on the absolute $\eta$ of the jet. The uncertainty on these measured scaling factors (c$_{central}$) needs to be taken into account in a physics analysis. This is done by smearing the reconstructed jets with two additional sets of scaling factors, c$_{up}$ and c$_{down}$, that correspond to varying the factors up and down respectively, by one sigma and evaluating the impact of these new sets. 
 
 \begin{table}[!htbp]
 \centering
- \caption{\JetMet working group at CMS has shown that the jet energy resolution in data is actually worse than in simulation \cite{JER}. The scaling factors need to be applied to the reconstructed jet transverse momentum in simulated events to match the resolution in data. The uncertainty on the resolution is given by an upwards and downwards variation c$_{up}$ and c$_{down}$ of the smearing factor c$_{central}$.}
+ \caption{\JetMet working group at CMS has shown that the jet energy resolution in data is actually worse than in simulation \cite{JER}. The scaling factors need to be applied to the reconstructed jet transverse momentum in simulated events to match the resolution in data. The uncertainty on the resolution is given by an upwards and downwards variation c$_{up}$ and c$_{down}$ of the measured scaling factor c$_{central}$.}
  \label{tab:resolution}
  \vspace{2mm}
  \begin{tabular}{cccccc}
@@ -312,7 +312,7 @@ Figure~\ref{fig:resolution} shows the final relative jet energy resolution (JER)
 
 %Since the JER is calculated using \MGP~Reco and Gen \httwo distributions, so it is expected that the Gen \httwo smeared using this  JER should match the Reco \httwo. But this extracted JER in one large rapidity bin, smears the Gen \httwo too much because \textcolor{red}{$\rm {\frac{Smeared~Gen}{Gen}}$} does not matches with simulated \textcolor{blue}{$\rm {\frac{Reco}{Gen}}$} as observed in Fig.~\ref{fig:ratios} for \njt~(left) and \njth~(right). When the 30\% reduced JER  is used to smear Gen, then \textcolor{pink}{$\rm {\frac{Smeared~Gen}{Gen}}$} matches with simulated \textcolor{blue}{$\rm {\frac{Reco}{Gen}}$} ignoring the statistical fluctuations. So an additional unfolding uncertainty is attributed by comparison to 30\% reduced JER.  
 
-Since the JER is calculated using \MGP~Reco and Gen \httwo distributions, so it is expected that if Gen \httwo is smeared using this JER, it should match the Reco \httwo. But this extracted JER in one large rapidity bin, smears the Gen \httwo too much because Smeared Gen/Gen ratio (red line) shows a discrepancy from simulated Reco/Gen ratio (blue line), as observed in Fig.~\ref{fig:ratios} for \njt~(left) and \njth~(right). When the 30\% reduced JER  is used to smear Gen, then the ratio Smeared Gen/Gen (pink line) matches with simulated Reco/Gen ratio (blue line) within the statistical fluctuations. Hence an additional unfolding uncertainty is attributed by comparison to 30\% reduced JER for both \njt~ and \njth~events. Due to high statistical fluctuations at high \httwo, range is presented upto 1.68 TeV only.
+Since the JER is calculated using \MGP~Reco and Gen \httwo distributions, so it is expected that if Gen \httwo is smeared using this JER, it should match the Reco \httwo. But this extracted JER in one large rapidity bin, smears the Gen \httwo too much because Smeared Gen/Gen ratio (red line) shows a discrepancy from simulated Reco/Gen ratio (blue line), as observed in Fig.~\ref{fig:ratios} for \njt~(left) and \njth~(right). Some shortcomings in the detector simulation of the theory spectra leads to thses small nonclosures. When the 30\% reduced JER  is used to smear Gen, then the ratio Smeared Gen/Gen (pink line) matches with simulated Reco/Gen ratio (blue line) within the statistical fluctuations. Hence an additional unfolding uncertainty is attributed by comparison to 30\% reduced JER for both \njt~ and \njth~events. Due to high statistical fluctuations at high \httwo, range is presented upto 1.68 TeV only.
 
 \begin{figure}[!htbp]
  \begin{center}
@@ -418,6 +418,7 @@ A closure test has been performed to confirm the working of the unfolding proced
 For another closure test, Reco \MGP~MC differential cross section distribution is unfolded using the above constructed response matrices using JER for forward smearing the randomly generated spectrum. While taking ratio of the unfolded distribution to that of Gen \MGP~MC, it is observed that a well closure is not obtained. This is represented by blue line in Fig.~\ref{fig:unfolded_reco_NLO} for \njt~(left) and \njth~(right). As observed in Fig.~\ref{fig:ratios} in Sec.~\ref{sec:Resolution}, if Reco \MGP~MC is unfolded using the response matrices obtained using 30\% reduced JER, then the good closure is obtained as shown by red line in Fig.~\ref{fig:unfolded_reco_NLO}.
 
 \subsection{Unfolding measurement}
+\label{subsec:unf}
 After validity the unfolding method, the measured differential cross sections as a function of \httwo are unfolded using the above reconstructed response matrices. The unfolded data spectrum is compared to that of measured one in Fig.~\ref{fig:unfolded_data} for \njt~(left) and \njth~(right). As already discussed that 30\% reduced JER gives better closures than JER, so the unfolding of data is done with response matrices using JER (blue solid circles) as well as 30\% reduced JER (red solid circles). The difference between both is taken as an additional uncertainty on the unfolded measurement. %The unfolding does not working well for bins near to minimum \pt cut for inclusive 2-jet events because two-jet rate is very sensitive to soft gluon emission while the higher jet multiplicities are less affected. %The event yield for each bin in \httwo is tabulated in Appendix in Table~\ref{table_event}. 
 
 \begin{figure}[!htp]
@@ -431,17 +432,15 @@ After validity the unfolding method, the measured differential cross sections as
 
 \section{Experimental uncertainties}
 \label{sec:exp_unc}
-In an experimental measurement of any physical observable, the uncertainties play a key role and hence are important to study in a physics analysis. The uncertainties are of two types : statistical and systematic. The statistical uncertainties arise due to random fluctuations depending on the number of selected events. The systematic uncertainties may be due to known detector effects, model dependence, assumptions
-made or various corrections applied. The statistical and systematic errors can in general be added in quadrature, if uncorrelated. In this section, all the experimental uncertainties affecting the cross section measurement are described.
-
-\subsection{Luminosity measurement uncertainty}
-The LHC luminosity delivered to CMS in the 2012 proton-proton physics run is measured  by using the silicon pixel cluster counting method \cite{CMS:2013gfa}. The uncertainty related to the integrated luminosity measurement for the 2012 LHC run is estimated to be 2.5\% (syst.) and 0.5\% (stat.). The luminosity uncertainty propagates directly to any absolute cross section measurement. Hence, a combined systematic uncertainty of 2.6\% is assigned which is fully correlated across all the \httwo bins. 
+In an experimental measurement of any physical observable, the uncertainties play a key role and hence are important to study in a physics analysis. The uncertainties are of two types : statistical and systematic. The statistical uncertainties arise due to random fluctuations depending on the number of selected events. The systematic uncertainties may be due to known detector effects, model dependence, assumptions made or various corrections applied. The statistical and systematic errors can in general be added in quadrature, if uncorrelated. In this section, all the experimental uncertainties affecting the cross section measurement are described.
 
 \subsection{Statistical uncertainty}
 \label{sec:unfolding_stat}
 Statistical uncertainty on the measurement is propagated through the unfolding procedure using a toy MC technique. The measured data points are smeared within their statistical uncertainties and the unfolding is repeated multiple times for each smeared spectra. One million of such toy spectra are used to propagate the statistical uncertainty. The statistical uncertainty slightly increases during the unfolding process which can be seen in Fig.~\ref{fig:stat_unc} where the relative statistical uncertainty before (blue line) and after (red line) unfolding procedure is shown for \njt~(left) and \njth~events (right). 
 
-\begin{figure}[ht]
+The final statistical uncertainties after the unfolding become correlated among the bins and the size of these correlations varies typically between 10 and 20\%. There is a significant correlation (anti-) between for neighbouring bins in \httwo whereas the correlations can be negligible between bins which are far off in the phase space. Figure~\ref{fig:corr} shows the correlations of the statistical uncertainty after the unfolding for \njt~(left) and \njth~events (right). These correlations are must be taken into account while performing the fits to extract the value of the strong coupling constant, \alpsns. 
+
+\begin{figure}[!ht]
  \begin{center}
  \hspace*{-3mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_stat_unc_2_HT_2_150.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_stat_unc_3_HT_2_150.pdf}
@@ -450,9 +449,7 @@ Statistical uncertainty on the measurement is propagated through the unfolding p
  \end{center}
 \end{figure}
 
-The unfolding procedure also introduces a correlation between bins due to event migrations. There is a significant correlation (anti-) between for neighbouring bins in \httwo whereas the correlationc can be negligible between bins which are far off in the phase space. Figure~\ref{fig:corr} shows the correlations of the statistical uncertainty after the unfolding for \njt~(left) and \njth~events (right). These correlations are must be taken into account while performing the fits to extract the value of the strong coupling constant, \alpsns. 
-
-\begin{figure}[ht]
+\begin{figure}[!h]
  \begin{center}
  \hspace*{-3mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Correlation_Matrix_NLO_2_ite4.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Correlation_Matrix_NLO_3_ite4.pdf}%
@@ -460,77 +457,75 @@ The unfolding procedure also introduces a correlation between bins due to event 
  \label{fig:corr}
  \end{center}
 \end{figure}
-
+ % and in : \\ https://twiki.cern.ch/twiki/bin/viewauth/CMS/ JECUncertaintySources\#Winter14\_uncertainties. 
 \subsection{Jet Energy Corrections uncertainties}
-The systematic uncertainty on the measured cross sections is dominated by the jet energy corrections (JEC). These corrections, as explained in Sec.\qm, correct the measured jet energy for a variety of detector effects. The effect of the JEC has been estimated by varying up and down the energy of all jets by the uncertainty. The observables obtained with these variations are then compared to the nominal distributions in which the observable is obtained with the nominal values of the jet energy. The differences between the nominal distributions and the ones obtained by varying the jet energy scale reflect the effect of the jet energy corrections. There are 25 mutually independent sources which contribute to JEC uncertainty. Each source is fully correlated in \pt and $\eta$ but uncorrelated to all other sources and presents a 1$\sigma$ shift. The JEC uncertainties can be asymmetric in nature and hence the upwards and downwards variation of each source are treated separately. The sum in quadrature of all sources gives the total JEC uncertainty. Depending on the origin of sources, they are categorized into four groups which are described below in brief. The details of the jet energy corrections and uncertainties can be found in ~\cite{Khachatryan:2016kdb}. % and in : \\ https://twiki.cern.ch/twiki/bin/viewauth/CMS/ JECUncertaintySources\#Winter14\_uncertainties. 
+The systematic uncertainty on the measured cross sections is dominated by the jet energy corrections (JEC) \cite{Khachatryan:2016kdb}. These corrections, as explained in Sec.\qm, correct the measured jet energy for a variety of detector effects and are a dominant source of experimental uncertainty in the current analysis. The JEC uncertainty ranges from 3\% to 10\% for \njt~ and from 3\% to 8\% for \njth~events. The effect of the JEC has been estimated by varying up and down the energy of all jets by the uncertainty. The observables obtained with these variations are then compared to the nominal distributions in which the observable is obtained with the nominal values of the jet energy. The differences between the nominal distributions and the ones obtained by varying the jet energy scale reflect the effect of the jet energy corrections. There are 25 mutually independent sources which contribute to JEC uncertainty. Each source is fully correlated in \pt and $\eta$ but uncorrelated to all other sources and presents a 1$\sigma$ shift. The JEC uncertainties can be asymmetric in nature and hence the upwards and downwards variation of each source are treated separately. The sum in quadrature of all sources gives the total JEC uncertainty. The sources considered in this analysis are : AbsoluteStat, AbsoluteScale, AbsoluteFlavMap, AbsoluteMPFBias, Fragmentation, SinglePionECAL, SinglePionHCAL, FlavorQCD, RelativeJEREC1, RelativeJEREC2, RelativeJERHF, RelativePtBB, RelativePtEC1, RelativePtEC2, RelativePtHF, RelativeFSR, RelativeStatFSR, RelativeStatEC2, RelativeStatHF, PileUpDataMC, PileUpPtRef, PileUpPtBB, PileUpPtEC1, PileUpPtEC2 and PileUpPtHF. The AbsoluteFlavMap uncertainty is exactly zero for the 8 TeV and can be ignored. For the four sources : RelativeJERHF, RelativePtHF, RelativeStatHF, PileUpPtHF, the JEC uncertainty is exactly zero because of $|y| <$ 2.5 cut used in the analysis. So only 20 sources contribute to the total JEC uncertainty. The Figs.~\ref{fig:jes1}-\ref{fig:jes3} show the JEC uncertainty from each source separately for inclusive 2-jet (top) and 3-jet events cross section (middle), respectively. 
 
-The 25 individual uncertainty sources are the following :
-AbsoluteStat, AbsoluteScale, AbsoluteFlavMap, AbsoluteMPFBias, Fragmentation, SinglePionECAL, 
-SinglePionHCAL, FlavorQCD, RelativeJEREC1, RelativeJEREC2, RelativeJERHF,
-RelativePtBB, RelativePtEC1, RelativePtEC2, RelativePtHF, RelativeFSR, RelativeStatFSR, RelativeStatEC2,
-RelativeStatHF, PileUpDataMC, PileUpPtRef, PileUpPtBB, PileUpPtEC1, PileUpPtEC2 and PileUpPtHF.
-
-The AbsoluteFlavMap uncertainty is exactly zero for the 8 TeV and can be ignored. In this way practically 24 uncertainties are considered to calculate JEC uncertainty. For the four sources : RelativeJERHF, 
-RelativePtHF, RelativeStatHF, PileUpPtHF, the JEC uncertainty is exactly zero because of \abs{y} $<$ 2.5 cut used in the analysis. So only 20 sources contribute to the total JEC uncertainty. The Figures~\ref{fig:jes1}-\ref{fig:jes3} show the JEC uncertainty from each 
-source separately for inclusive 2-jet (left) and 3-jet events (middle), respectively. The bin-wise values (in \%) are tabulated in the %Tables~\ref{tab:exp_unc_jes_2},~\ref{tab:exp_unc_jes_2s} for inclusive 2-jet and~\ref{tab:exp_unc_jes_3},~\ref{tab:exp_unc_jes_3s} for inclusive 3-jet events. 
-
-\subsection{Unfolding uncertainty}
-\label{sec:unfolding_unc}
-
-The unfolding uncertainty is comprised of three uncertainties :
+Depending on the origin of sources, they are categorized into four groups which are described below in brief :
 
 \begin{enumerate}
-\item {\bf JER uncertainty :} The jet energy resolution, which was derived in Section~\ref{sec:Resolution}, is used to produce the response matrix using a forward 
-smearing technique in the unfolding procedure. Therefore, a dependence on the jet energy resolution on the unfolded cross section is 
-introduced and a further uncertainty source due to the uncertainty on the jet energy resolution is introduced. Table~\ref{tab:resolution} shows 
-the scaling factors, which were applied on reconstructed simulated events to obtain the actual resolution in data. The official 
-recommendations include offset variations of these scaling factors to estimate the uncertainty on the resolution and are also given in Table~\ref{tab:resolution}. The 
-determination of the resolution is repeated with the upwards and downwards variation of the resolution scaling factor applied. The 
-unfolding procedure is also reiterated using the variations of the resolution and the differences of the obtained cross section to the 
-nominal cross section are accounted for as a systematic uncertainty. 
+\item {\bf Pileup :} This uncertainty origns from the differences in the transverse momentum between the true offset and the Random Cone method (i.e. essentially difference of pile-up inside and outside of jets), in simulated events. This uncertainty is derived from Z/$\gamma$\plusn jet, dijet and multijet data using fit procedure to estimate the residual pileup uncertainty after the calibration. 
 
-\item {\bf Model dependence :} As explained earlier that to construct the response matrix by Toy MC method, the fitting of the theoretical predictions is performed by using function given in Equation~\ref{eq:func1}. To use alternative function for this fitting gives the model dependence of the theoretical \httwo spectrum which affects the response matrix and thus the unfolding.
-The NLO \httwo spectrum is fitted by the another function described by Equation~\ref{eq:func2}. The procedure mentioned in Section~\ref
-{sec:unfolding} is repeated to get the new unfolded cross sections. The differences in unfolded cross sections using the functions given by equations~
-\ref{eq:func1} and~\ref{eq:func2} gives the unfolding uncertainty. 
+\item {\bf Relative :} The forward jets are calibrated by the relative $\eta$-dependent corrections using dijet events. The main contribution to the uncertainty comes from jet energy resolution (JER), derived by varying JER scale factors up and down by quoted uncertainties and the initial and final state raditaion bias corrections.
 
-\item {\bf Additional uncertainty :} As explained in Section~\ref{sec:Resolution}, an additional uncertainty is added from the difference in unfolding on comparing with reduced JER.
+\item {\bf Absolute :} A global fit to Z/$\gamma$\plusn jet and multi-jet events gives the absolute calibration of the jet energy scale. The uncertainties are related to the lepton momentum scale for muons in Z ($\rightarrow\mu\mu$)\plusn jet and the single pion response in the HCAL. 
 
+\item {\bf Flavor :} Flavor response differences are studied from simulation by cross-checking the results with quark- and gluon-tagged $\gamma$\plusn jet and Z\plusn jet events. These uncertainties are based on \PYTHIASn.4 and \HERWIGPPn 2.3 differences propagated through the data-based calibration method.   
 \end{enumerate}
 
-All the three uncertainties are added in quadrature to account the unfolding uncertainty which is 1-2\% on cross-sections.
+More details of the jet energy corrections and uncertainties can be found in \cite{JEC}. 
+
+\subsection{Unfolding uncertainties}
+\label{sec:unfolding_unc}
+
+The unfolding uncertainty is comprised of three uncertainties which are explained as follows :
+
+\begin{enumerate}
+\item {\bf Jet Energy Resolution uncertainty :} The jet energy resolution (JER) is derived from simulated \MGP~Monte Carlo events as explained in Sec.~\ref{sec:Resolution}. As already explained, to match the resolution in data, the reconstructed jet transverse momentum (\ptn) in simulated MC events is smeared additionally by using measured scale factors (c$_{central}$) mentioned in Table~\ref{tab:resolution}. It is recommended by \JetMet group that the uncertainty on these measured scaling factors must be taken into account in a physics analysis. Since JER is used to to construct the response matrix which is an input in unfolding procedure, so the uncertainty on scale factors accounts for the unfolding uncertainty. To calculate JER uncertainty, \pt is smeared with two additional sets of scale factors corresponding to varying the factors up and down by one sigma, and corresponding \httwo is calculated. Then JER determination as a function of \httwo is repeated with these upwards (c$_{up}$)and downwards (c$_{down}$) variations of the scaling factors. Alternative response matrices are built using the extracted JER with above variations and the unfolding is performed again. The differences of the obtained unfolded cross sections to the nominal cross sections accounts for a systematic uncertainty. 
+
+\item {\bf Model dependence :} It is explained in Sec.~\ref{sec:funcs} that to obtain the true \httwo spectrum to be used in constructing response matrix using Toy MC method, the fitting of the CT10-NLO predictions is performed with the Function I described in Eq.~\ref{eq:func1}. Using the alternative function, Function II given by  Eq.~\ref{eq:func2}, for the fitting gives the model dependence of the true \httwo spectrum which affects the response matrix and thus the unfolding. The differences in unfolded cross sections using the above mentioned two different functions gives the model dependence uncertainty. 
+
+\item {\bf Additional uncertainty :} Small nonclosures observed in Fig.~\ref{fig:ratios} introduces a supplementary uncertainty which is attributed by comparison of unfolded cross sections using extracted JER from simulation with that obtained with a 30\% reduced JER. 
+\end{enumerate}
+
+All the three above mentioned uncertainties are added in quadrature to account the unfolding uncertainty which increases from about 1\% at low \httwo up to 2\% at the high \httwo ends of the cross sections for both \njt~and \njth~events.
+
+\subsection{Luminosity measurement uncertainty}
+The LHC luminosity delivered to CMS in the 2012 proton-proton physics run is measured  by using the silicon pixel cluster counting method \cite{CMS:2013gfa}. The uncertainty related to the integrated luminosity measurement for the 2012 LHC run is estimated to be 2.5\% (syst.) and 0.5\% (stat.). The luminosity uncertainty propagates directly to any absolute cross section measurement. Hence, a combined systematic uncertainty of 2.6\% is assigned which is fully correlated across all the \httwo bins. At low \httwo, it is similar in size as the one from JEC. 
+
+\subsection{Residual uncertainty}
+The small trigger and jet identification inefficiencies account for smaller than 1\% uncertainties on the cross section measurements \cite{Chatrchyan:2012bja,Khachatryan:2016mlc}. Hence, an uncorrelated residual uncertainty of 1\% is assumed across all \httwo bins for both \njt~and \njth~events cross sections.
 
 \subsection{Total experimental uncertainty}
-After calculating the uncertainties from all different sources, total experimental uncertainty is obtained by adding in quadrature the 
-uncertainties from individual sources. The bin-wise values (in \%) of uncertainties from each source as well as total uncertainty are %tabulated in Table~\ref{tab:exp_unc2} and Table~\ref{tab:exp_unc3} for inclusive 2-jet and inclusive 3-jet events, respectively. Figure~\ref{fig:exp_unc} show the uncertainties from all sources of 
-experimental uncertainty as well as the total uncertainty for inclusive 2-jet (left) and inclusive 3-jet (right) events. The systematic uncertainty on the measured cross 
-sections is asymmetric and dominated by the uncertainty on the jet-energy scale at lower \httwo values and by statistical uncertainty at 
-higher \httwo values. The experimental uncertainties from each source as well as total uncertainty are quoted in Table~\ref{tab:exp_unc_overview}. 
+After calculating the uncertainties from all the above mentioned sources, the total experimental uncertainty on measured cross sections is obtained by adding in quadrature the uncertainties from individual sources. The bin-wise values (in \%) of uncertainties from each source as well as total uncertainty are tabulated in Tables~\ref{tab:exp_unc2} and~\ref{tab:exp_unc3} for \njt~and \njth~events cross sections, respectively. Figure~\ref{fig:exp_unc} shows the experimental uncertainties, from different sources as well as the total uncertainty, affecting the cross section measurement for \njt~(left) and \njth~(right) events. The error bars represent the statistical uncertainty after unfolding. The colored lines give the systematice uncertainties due to jet energy corrections (JEC by blue line), luminosity (red dashed line), unfolding (green dashed line) and residual effects (light purple line). The total uncertainty (black dashed line) on the measured cross sections is asymmetric and dominated by the uncertainty due to the jet energy corrections (JEC) at lower \httwo values and by statistical uncertainty at higher \httwo values. The experimental uncertainties from each source as well as total uncertainty are also quoted in Table~\ref{tab:exp_unc_overview}. 
 
 \begin{figure}[!htbp]
  \begin{center}
  \hspace*{-3mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Total_unc_all_2_NLO_add.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Total_unc_all_3_NLO_add.pdf}
- \caption{Overview of all experimental uncertainties affecting the cross section measurement for inclusive 2-jet (left) and inclusive 3-jet (right). The error bars indicate the statistical uncertainty after unfolding. The colored lines give the uncertainties resulting of jet energy scale, luminosity, unfolding and residual effects. The total uncertainty is calculated by adding in quadrature the individual sources of uncertainty. {\bf \textcolor{blue2}{JEC}} {\bf \textcolor{green}{Unfolding}} {\bf \textcolor{red}{Luminosity}} {\bf \textcolor{lightpurple}{Residual uncorrelated}}}
+ \caption{Experimental uncertainties from different sources affecting the cross section measurement for inclusive 2-jet (left) and inclusive 3-jet events (right). The error bars represent the statistical uncertainty after unfolding. The colored lines give the systematice uncertainties due to jet energy corrections (JEC by blue line), luminosity (red dashed line), unfolding (green dashed line) and residual effects (light purple line). The total uncertainty (black dashed line) is calculated by adding in quadrature the individual sources of uncertainty.}
  \label{fig:exp_unc}
  \end{center}
 \end{figure}
 
 \begin{table}[!htbp]
-\caption{Overview of all experimental uncertainties affecting the cross section measurement.}
+\caption{Overview of all experimental uncertainties affecting the cross section measurement for inclusive 2-jet (left) and inclusive 3-jet events (right). The total uncertainty is calculated by adding in quadrature the individual sources of uncertainty.}
 \label{tab:exp_unc_overview}
   \centering
   \begin{tabular}{ccc}
     \hline\hline
      Uncertainty Source & {\bf Inclusive 2-jet} & {\bf Inclusive 3-jet} \rbthm\\\hline     
-     {\bf Statistical}  & $<$ 1 to 30\% & $<$ 1 to 40\% \rbtrr\\
-     {\bf \textcolor{blue2}{JEC}}  & 3 to 10\% & 4 to 12\% \rbtrr\\
+     {\bf Statistical}  & $<$ 1 to 30\% & $<$ 1 to 27\% \rbtrr\\
+     {\bf \textcolor{blue2}{Jet energy corrections (JEC)}}  & 3 to 10\% & 3 to 8\% \rbtrr\\
      {\bf \textcolor{green}{Unfolding}} & 1-2\% & 1-2\% \rbtrr\\
      {\bf \textcolor{red}{Luminosity}} & 2.6\% & 2.6\% \rbtrr\\
-     {\bf \textcolor{lightpurple}{Residual uncorrelated}} & 1\% & 1\% \rbtrr\\
+     {\bf \textcolor{lightpurple}{Residual}} & 1\% & 1\% \rbtrr\\\hline
+     {\bf Total} & 4 to 32\% & 4 to 28\% \rbtrr\\
   \hline\hline
   \end{tabular}
 \end{table}
+
+\section{Comparison with NLO Predictions}
 \begin{comment}
 \section{Measurement of cross section ratio, unfolding and experimental uncertainties}
 \subsection{Measurement of cross section ratio}

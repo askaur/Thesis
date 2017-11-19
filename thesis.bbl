@@ -1,20 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{10.2307/2331986}
-C.~J. Clopper and E.~S. Pearson, ``The use of confidence or fiducial limits
-  illustrated in the case of the binomial,'' {\em Biometrika}, vol.~26, no.~4,
-  pp.~404--413, 1934.
-
-\bibitem{JetID}
-C.~Collaboration, ``{Jet Identification at 8 TeV}.''
-  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetID}, 2012.
-\newblock (accessed on 2017-10-31).
-
-\bibitem{JER}
-C.~Collaboration, ``{Jet Energy Resolution at 8 TeV}.''
-  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetResolution}, 2012.
-\newblock (accessed on 2016-01-22).
-
 \bibitem{Alwall:2011uj}
 J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, and T.~Stelzer, ``{MadGraph 5
   : Going Beyond},'' {\em JHEP}, vol.~06, p.~128, 2011.
@@ -27,8 +12,23 @@ T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, ``{PYTHIA 6.4 Physics and Manual},''
 J.~Alwall {\em et~al.}, ``{A Standard format for Les Houches event files},''
   {\em Comput. Phys. Commun.}, vol.~176, pp.~300--304, 2007.
 
+\bibitem{10.2307/2331986}
+C.~J. Clopper and E.~S. Pearson, ``The use of confidence or fiducial limits
+  illustrated in the case of the binomial,'' {\em Biometrika}, vol.~26, no.~4,
+  pp.~404--413, 1934.
+
 \bibitem{CMS:2010xta}
 C.~Collaboration, ``{Jet Performance in pp Collisions at 7 TeV},'' 2010.
+
+\bibitem{JetID}
+C.~Collaboration, ``{Jet Identification at 8 TeV}.''
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetID}, 2012.
+\newblock (accessed on 2017-10-31).
+
+\bibitem{JER}
+C.~Collaboration, ``{Jet Energy Resolution at 8 TeV}.''
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetResolution}, 2012.
+\newblock (accessed on 2016-01-22).
 
 \bibitem{CMS:2011esa}
 C.~Collaboration, ``{Jet Energy Resolution in CMS at sqrt(s)=7 TeV},'' 2011.
@@ -56,5 +56,11 @@ C.~Collaboration, ``{CMS Luminosity Based on Pixel Cluster Counting - Summer
 V.~Khachatryan {\em et~al.}, ``{Jet energy scale and resolution in the CMS
   experiment in pp collisions at 8 TeV},'' {\em JINST}, vol.~12, no.~02,
   p.~P02014, 2017.
+
+\bibitem{JEC}
+C.~Collaboration, ``{Jet energy scale uncertainty sources}.''
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JECUncertaintySources},
+  2012.
+\newblock (accessed on 2017-10-31).
 
 \end{thebibliography}
