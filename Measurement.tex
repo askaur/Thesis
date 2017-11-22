@@ -1,5 +1,5 @@
 \chapter{Measurement of the Differential Inclusive Multijet Cross Sections and their Ratio}
-\label{chap:measurement}
+\label{chap:Measurement}
 The inclusive $n\hy jet$ event samples include the events with number of jets $\geq$ $n$, where $n$ = 2 and 3 in the current study. The inclusive multijet event yields are transformed into a differential cross section which is defined as :
 
 \begin{equation}
@@ -214,18 +214,19 @@ Figure~\ref{fig:pileup} shows the number of reconstructed vertices before (left)
  \end{center}
 \end{figure}
 
-\begin{figure}[!htbp]
+\subsection{Comparison of Cross Sections and their Ratio}
+The measured data distribution of differential cross section at detector level is compared to the predictions of Monte Carlo simulation using \MadGraphF generator interfaced with \PYTHIAS (\MGP) and including the detector simulation as well as to a fixed-order prediction of \NLOJETPP. Figure~\ref{fig:comp_all} shows the comparison of differential cross section as a function of \httwo for \njt~(left) and \njth~(right), for data (black solid circles), \MGP~MC (red empty circles) and NLO (blue histogram). The bottom panel in each plot shows the ratio of data to the MC predictions (red line) as well as to the NLO predictions (blue line). The NLO predictions on parton level are not corrected for non-perturbative effects. Still the NLO predictions describe the data better as compared to the LO MC simulations. The sufficient data for \njt~and \njth~events are available up to $\httwo = 2\TeV$ and $1.68\TeV$, respectively. As mentioned in Sec. \qm that the minimum kinematical cut on \httwo is 300 GeV. Hence the observable is studied in the range 300 GeV $\leq$ \httwo $<$ 2 TeV for \njt~ and 300 GeV $\leq$ \httwo $<$ 1.68 TeV for \njth~events.
+
+\begin{figure}[!h]
  \begin{center}
  \hspace*{-5mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_all_2_HT_2_150.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_all_3_HT_2_150.pdf}\\
+ \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_all_3_HT_2_150.pdf}
  \caption{The differential cross sections are compared for data (black solid circles) and LO \MadGraphF \plus \PYTHIAS (\MGP) Monte Carlo (red empty circles), at reconstructed level with NLO theory predictions (blue histogram), as a function \httwo for inclusive 2-jet events (left)and 3-jet events (right). Ratios of data to the Monte Carlo predictions (red line) as well as to the NLO predictions (blue line) are shown in bottom panel of each plot.}
  \label{fig:comp_all}
  \end{center}
 \end{figure}
 
-\subsection{Cross Section Comparison}
-The measured data distribution of differential cross section at detector level is compared to the predictions of Monte Carlo simulation using \MadGraphF generator interfaced with \PYTHIAS (\MGP) and including the detector simulation as well as to a fixed-order prediction of \NLOJETPP. Figure~\ref{fig:comp_all} shows the comparison of differential cross section as a function of \httwo for \njt~(left) and \njth~(right), for data (black solid circles), \MGP~MC (red empty circles) and NLO (blue histogram). The bottom panel in each plot shows the ratio of data to the MC predictions (red line) as well as to the NLO predictions (blue line). The NLO predictions on parton level are not corrected for non-perturbative effects. Still the NLO predictions describe the data better as compared to the LO MC simulations. The sufficient data for \njt~and \njth~events are available up to $\httwo = 2\TeV$ and $1.68\TeV$, respectively. As mentioned in Sec. \qm that the minimum kinematical cut on \httwo is 300 GeV. Hence the observable is studied in the range 300 GeV $\leq$ \httwo $<$ 2 TeV for \njt~ and   
-300 GeV $\leq$ \httwo $<$ 1.68 TeV for \njth~events.
 
 \section{Jet Energy Resolution (JER)}
 \label{sec:Resolution}
@@ -327,7 +328,9 @@ Since the JER is calculated using \MGP~Reco and Gen \httwo distributions, so it 
 \label{sec:unfolding}
 One of the main goals in an experimental measurement is to do the comparison between data and theory predictions or with the results from other experiments. But the finite detector resolution and the steeply falling jet \pt spectrum distorts the physical quantities. As a result, the measured observables are different from the corresponding true values. Each \pt bin content contains the migrated events from neighbouring bins along with the original events. So an unfolding process of the data should be followed in order to remove detector effects. In this analysis, the measured cross sections are corrected for detector smearing effects and unfolded to stable particle level by using the iterative D$'$Agostini Bayesian method \cite{DAgostini:1994fjx}, implemented in the RooUnfold software package \cite{Adye:2011gm}. The unfolding process is regularized by the number of iteration steps in this algorithm. A higher number of iterations yields a reduced \chisq but also increases the uncertainty and introduces larger bin-by-bin fluctuations and correlations. The regularization is optimized using simulated events and best results with low bin-by-bin correlations and low \chisq are achieved using four iterations in the unfolding algorithm.
 
-\subsection{Response matrices}
+\subsection{Inclusive Multijet Cross sections}
+
+\subsubsection{Response Matrices}
 \label{sec:funcs}
 
 Unfolding uses a response matrix as an input that maps the true distribution onto the measured one. The response matrix is usually derived from simulated Monte Carlo (MC) samples, which uses as input the true distribution from MC and introduces the smearing effects by taking into account the detector resolution. Then this response matrix is used to unfold the measured data spectrum. But there are several drawbacks of constructing response matrix using this method. In some phase space regions, the shape of the distribution is not well described by the LO predictions. Also, the number of events in the MC samples are limited at high transverse momenta which introduces non-negligible statistical fluctuations in the response matrix. 
@@ -394,7 +397,7 @@ A flat \httwo spectrum is generated by using toy Monte Carlo events and the fit 
  \end{center}
 \end{figure}
 
-\subsection{Closure test}
+\subsubsection{Closure test}
 A closure test has been performed to confirm the working of the unfolding procedure. In this test, Measured$_{\rm Toy}$ spectrum is unfolded using the constructed response matrices shown in Figure~\ref{fig:response_NLO}. It is expected that the same Gen$_{\rm Toy}$  spectrum should be re-obtained after unfolding. Figure~\ref{fig:unfolded_smeared} shows that the unfolded Measured$_{\rm Toy}$ spectrum, matches exactly with Gen$_{\rm Toy}$ spectrum as the ratio of these distributions is perfectly flat at one for both \njt~(left) and \njth~events (right).
 
 \begin{figure}[!htbp]
@@ -417,7 +420,7 @@ A closure test has been performed to confirm the working of the unfolding proced
 
 For another closure test, Reco \MGP~MC differential cross section distribution is unfolded using the above constructed response matrices using JER for forward smearing the randomly generated spectrum. While taking ratio of the unfolded distribution to that of Gen \MGP~MC, it is observed that a well closure is not obtained. This is represented by blue line in Fig.~\ref{fig:unfolded_reco_NLO} for \njt~(left) and \njth~(right). As observed in Fig.~\ref{fig:ratios} in Sec.~\ref{sec:Resolution}, if Reco \MGP~MC is unfolded using the response matrices obtained using 30\% reduced JER, then the good closure is obtained as shown by red line in Fig.~\ref{fig:unfolded_reco_NLO}.
 
-\subsection{Unfolding measurement}
+\subsubsection{Unfolding of the Measurement}
 \label{subsec:unf}
 After validity the unfolding method, the measured differential cross sections as a function of \httwo are unfolded using the above reconstructed response matrices. The unfolded data spectrum is compared to that of measured one in Fig.~\ref{fig:unfolded_data} for \njt~(left) and \njth~(right). As already discussed that 30\% reduced JER gives better closures than JER, so the unfolding of data is done with response matrices using JER (blue solid circles) as well as 30\% reduced JER (red solid circles). The difference between both is taken as an additional uncertainty on the unfolded measurement. %The unfolding does not working well for bins near to minimum \pt cut for inclusive 2-jet events because two-jet rate is very sensitive to soft gluon emission while the higher jet multiplicities are less affected. %The event yield for each bin in \httwo is tabulated in Appendix in Table~\ref{table_event}. 
 
@@ -429,6 +432,8 @@ After validity the unfolding method, the measured differential cross sections as
  \label{fig:unfolded_data}
  \end{center}
 \end{figure}
+
+\subsection{Cross Section Ratio, \texorpdfstring{\ratio}{R-32}}
 
 \section{Experimental uncertainties}
 \label{sec:exp_unc}
@@ -443,7 +448,9 @@ The final statistical uncertainties after the unfolding become correlated among 
 \begin{figure}[!ht]
  \begin{center}
  \hspace*{-3mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_stat_unc_2_HT_2_150.pdf}%
- ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_stat_unc_3_HT_2_150.pdf}
+ ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_stat_unc_3_HT_2_150.pdf}\\
+ \hspace*{-3mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_stat_unc_ratio_32_up.pdf}%
+ ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_stat_unc_ratio_32_down.pdf}\\
  \caption{The fractional statistical uncertainties of the measured (blue line) and the unfolded data (red line) for inclusive 2-jet events (left) and for inclusive 3-jet events (right). The statistical uncertainty increases slightly after unfolding.}
  \label{fig:stat_unc}
  \end{center}
@@ -452,7 +459,8 @@ The final statistical uncertainties after the unfolding become correlated among 
 \begin{figure}[!h]
  \begin{center}
  \hspace*{-3mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Correlation_Matrix_NLO_2_ite4.pdf}%
- ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Correlation_Matrix_NLO_3_ite4.pdf}%
+ ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Correlation_Matrix_NLO_3_ite4.pdf}\\
+ \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite4.pdf}
  \caption{Correlations of the statistical uncertainty introduced by the unfolding procedure for inclusive 2-jet events (left) and and 3-jet events (right). There is a significant correlation or anti-correlation between neighbouring bins through bin migrations.}
  \label{fig:corr}
  \end{center}
@@ -502,7 +510,8 @@ After calculating the uncertainties from all the above mentioned sources, the to
 \begin{figure}[!htbp]
  \begin{center}
  \hspace*{-3mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Total_unc_all_2_NLO_add.pdf}%
- ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Total_unc_all_3_NLO_add.pdf}
+ ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Total_unc_all_3_NLO_add.pdf}\\
+ \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Total_Unc_ratio_32_direct_add.pdf}
  \caption{Experimental uncertainties from different sources affecting the cross section measurement for inclusive 2-jet (left) and inclusive 3-jet events (right). The error bars represent the statistical uncertainty after unfolding. The colored lines give the systematice uncertainties due to jet energy corrections (JEC by blue line), luminosity (red dashed line), unfolding (green dashed line) and residual effects (light purple line). The total uncertainty (black dashed line) is calculated by adding in quadrature the individual sources of uncertainty.}
  \label{fig:exp_unc}
  \end{center}
@@ -512,20 +521,19 @@ After calculating the uncertainties from all the above mentioned sources, the to
 \caption{Overview of all experimental uncertainties affecting the cross section measurement for inclusive 2-jet (left) and inclusive 3-jet events (right). The total uncertainty is calculated by adding in quadrature the individual sources of uncertainty.}
 \label{tab:exp_unc_overview}
   \centering
-  \begin{tabular}{ccc}
+  \begin{tabular}{cccc}
     \hline\hline
-     Uncertainty Source & {\bf Inclusive 2-jet} & {\bf Inclusive 3-jet} \rbthm\\\hline     
-     {\bf Statistical}  & $<$ 1 to 30\% & $<$ 1 to 27\% \rbtrr\\
-     {\bf \textcolor{blue2}{Jet energy corrections (JEC)}}  & 3 to 10\% & 3 to 8\% \rbtrr\\
-     {\bf \textcolor{green}{Unfolding}} & 1-2\% & 1-2\% \rbtrr\\
-     {\bf \textcolor{red}{Luminosity}} & 2.6\% & 2.6\% \rbtrr\\
-     {\bf \textcolor{lightpurple}{Residual}} & 1\% & 1\% \rbtrr\\\hline
-     {\bf Total} & 4 to 32\% & 4 to 28\% \rbtrr\\
+     Uncertainty Source & {\bf Inclusive 2-jet} & {\bf Inclusive 3-jet} & {\bf \ratio}\rbthm\\\hline     
+     {\bf Statistical}  & $<$ 1 to 30\% & $<$ 1 to 27\% & \rbtrr\\
+     {\bf \textcolor{blue2}{Jet energy corrections (JEC)}}  & 3 to 10\% & 3 to 8\% & \rbtrr\\
+     {\bf \textcolor{green}{Unfolding}} & 1-2\% & 1-2\% & \rbtrr\\
+     {\bf \textcolor{red}{Luminosity}} & 2.6\% & 2.6\% & \rbtrr\\
+     {\bf \textcolor{lightpurple}{Residual}} & 1\% & 1\% & \rbtrr\\\hline
+     {\bf Total} & 4 to 32\% & 4 to 28\% & \rbtrr\\
   \hline\hline
   \end{tabular}
 \end{table}
 
-\section{Comparison with NLO Predictions}
 \begin{comment}
 \section{Measurement of cross section ratio, unfolding and experimental uncertainties}
 \subsection{Measurement of cross section ratio}
@@ -703,363 +711,5 @@ higher \httwo values. The experimental uncertainties from each source as well as
   \hline\hline
   \end{tabular}
 \end{table}
-
-\section{Theory predictions}
-\label{sec:theory predictions}
-\subsection{Fixed order NLO calculations}
-Predictions at NLO accuracy in pQCD are computed with the \NLOJETPP
-program~\cite{Nagy:2001fj,Nagy:2003tz}. The results are provided
-within the framework of \fastNLO~\cite{Britzger:2012bs} for use within
-fits. The renormalization and factorization scales \mur and \muf are
-chosen equal to \httwo,
-
-\begin{equation}
-  \mur = \muf = \httwo
-\end{equation}
-
-PDF sets at NLO available for a series of
-different assumptions on \alpsmz via the \LHAPDFS
-package~\cite{Buckley:2014ana} are listed in
-Table~\ref{tab:chap2:nlopdfsets}. All sets employ a variable-flavour
-number scheme with at most five or six flavours apart from the ABM11
-PDFs, which use a fixed-flavour number scheme with $\NF=5$.
-
-Out of these eight PDF sets the following three will not be considered
-further:
-%
-\begin{itemize}
-\item At NLO, predictions based on ABM11 do not describe LHC jet data
-  at small jet rapidity, cf.\ Refs.~\cite{Aad:2013lpa,Aad:2014vwa}.
-\item The HERAPDF2.0 set exclusively fits HERA DIS data with only weak
-  constraints on the gluon PDF\@.
-\item The range in values available for \alpsmz is too limited for the
-  NNPDF3.0 set.
-\end{itemize}
-%
-PDF uncertainties are evaluated according to the prescriptions given
-for each PDF set. Uncertainties on \alpsmz are not considered, since
-this value is later on determined from a fit to the data. The PDF
-uncertainty as derived with the CT10 PDF set ranges from 2\% to 30\%
-for inclusive 2- and 3-jet events.
-
-\begin{table}[htbp]
-  \centering
-  \caption{NLO PDF sets available via \LHAPDFS for comparisons to data with
-    various assumptions on the value of \alpsmz. Sets existing already in
-    LHC Run~1 (upper rows) and newer sets for Run~2 (lower rows) are
-    listed together with the corresponding number of flavours $N_f$, the
-    assumed masses $M_t$ and $M_Z$ of the top quark and the $Z$ boson,
-    respectively, the default values of \alpsmz, and the range in \alpsmz
-    variation available for fits.  A~$^*$ behind the \alpsmz values
-    signifies that the parameter was fixed, not fitted.}
-  \label{tab:chap2:nlopdfsets}
-  \vspace{2mm}
-  \begin{tabular}{llccllc}
-    \hline\hline
-    Base set & Refs. & \NF & $M_t$ (\GeVns{}) &
-    $M_Z$ (\GeVns{}) &\alpsmz & \alpsmz range\rbthm\\  \hline
-    % LHC Run 1
-    ABM11     & \cite{Alekhin:2012ig}
-    &       5   & 180       & 91.174  & $0.1180$   & 0.110--0.130\rbtrr\\
-    CT10      & \cite{Lai:2010vv}
-    & ${\leq}5$ & 172       & 91.188  & $0.1180^*$ & 0.112--0.127\rbtrr\\
-    MSTW2008  & \cite{Martin:2009iq,Martin:2009bu}
-    & ${\leq}5$ & $10^{10}$ & 91.1876 & $0.1202$   & 0.110--0.130\rbtrr\\
-    NNPDF2.3  & \cite{Ball:2012cx}
-    & ${\leq}6$ & 175       & 91.1876 & $0.1180^*$ & 0.114--0.124\rbtrr\\\hline
-    % LHC Run 2
-    CT14      & \cite{Dulat:2015mca}
-    & ${\leq}5$ & 172       & 91.1876 & $0.1180^*$ & 0.113--0.123\rbtrr\\
-    HERAPDF2.0& \cite{Abramowicz:2015mha}
-    & ${\leq}5$ & 173       & 91.1876 & $0.1180^*$ & 0.110--0.130\rbtrr\\
-    MMHT2014  & \cite{Harland-Lang:2014zoa}
-    & ${\leq}5$ & $10^{10}$ & 91.1876 & $0.1180^*$ & 0.108--0.128\rbtrr\\
-    NNPDF3.0  & \cite{Ball:2014uwa}
-    & ${\leq}5$ & 173       & 91.2    & $0.1180^*$ & 0.115--0.121\rbtrr\\
-    \hline\hline
-  \end{tabular}
-\end{table}
-
-To check the impact of higher-order contributions to the perturbative QCD prediction,
-the differences between LO prediction and NLO prediction are studied, given by the k-factors, k$_{NLO}$ defined as :
-
-\begin{equation}
-\label{eq:kfactors}
-  k_{NLO} = \frac{\sigma_{NLO}}{\sigma_{LO}}, ~k_{NLO}^{\ratio} = \frac{k_{NLO}^{3-jet}}{k_{NLO}^{2-jet}}
-\end{equation}
-
-\begin{figure}[!htbp]
-  \begin{center}
-    \includegraphics[width=0.50\textwidth]{Plots_HT_2_150/Kfactor_all_1.pdf}%
-    \includegraphics[width=0.50\textwidth]{Plots_HT_2_150/Kfactor_all_2.pdf}
-    \caption{k-factors of the \NLOJETPP cross section calculations for 
-      inclusive 2-jet and inclusive 3-jet cross sections and cross section ratio \ratio, using the above mentioned 
-      scale choice and different PDF sets.}
-    \label{fig:kfactor}
-  \end{center}
-\end{figure}
-
-The size of NLO corrections gives an estimate about the effect of these higher-order
-corrections. If they are small, the LO result already describes the observable cross sub-
-section precisely. %It is also possible that the k-factors fall below unity, in which case the
-%NLO corrections are negative and the total cross subsection decreases when adding the
-%correction. 
-Figure~\ref{fig:kfactor} shows the k-factors of the \NLOJETPP cross section calculations for inclusive 2-jet and inclusive 3-jet cross sections and cross section ratio \ratio, using the above mentioned 
-scale choice and different PDF sets. k-factor for \ratio is the ratio of k-factors for inclusive 3-jet cross sections to that of inclusive 2-jet as shown in Equation~\ref{eq:kfactors}. The k-factors are similar for all the PDF sets in the lower region, but the differences increase in regions with larger \httwo.
-
-\subsection{Non-Perturbative corrections}
-\label{sec:NPcorr}
-The fixed-order pQCD calculations predict the parton-level cross section and 
-do not include additional soft QCD effects
-and hence cannot be directly compared to unfolded data. These calculations 
-should be corrected for non-perturbative effects (NP) before comparison
-with the measurement at particle level. The impact of NP effects, \ie from multiple-parton
-interactions (MPI) and hadronization, are evaluated by using samples
-obtained from different MC event generators with a simulation of
-parton-shower and underlying-event (UE)
-contributions. The leading order (LO), 
-\HERWIGPP~\cite{Bahr:2008pv} with the default tune of version 2.3 and \PYTHIAS~\cite{Sjostrand:2006za} 
-with tune \Ztwostar, and the NLO, \POWHEG~\cite{Nason:2004rx,Frixione:2007vw,Alioli:2010xa}, MC event generators are considered. 
-The matrix-element calculation performed with \POWHEG is interfaced to \PYTHIAE with tune CUETM1~\cite{Khachatryan:2015pea} for the UE simulation. The cross section ratios between a nominal event
-generation interfaced to the simulation of UE contributions and a
-sample without hadronization and MPI effects are taken as correction
-separately for inclusive 2-jet, 3-jet events and ratio \ratio, defined as in Equation~\ref{Eq:np}. Equation~\ref{Eq:np_ratio} is used to calculate the NP correction factor for \ratio. The correction is then applied as a bin-by-bin correction factor to the parton-level
-NLO cross section. 
-
-\begin{equation}
-  \label{Eq:np}
-  C^{NP} = \frac{\sigma^{PS\texttt{+}HAD\texttt{+}MPI}}{\sigma^{PS}}
-\end{equation}
-
-
-\begin{equation}
-  \label{Eq:np_ratio}
-  C^{NP}_{\ratio} = \frac{\Big(\frac{\sigma_{3\mbox{-}jet}}{\sigma_{2\mbox{-}jet}}\Big)^{PS\texttt{+}HAD\texttt{+}MPI}}{\Big(\frac{\sigma_{3\mbox{-}jet}}{\sigma_{2\mbox{-}jet}}\Big)^{PS}}
-\end{equation}
-
-\begin{equation}
-  \label{Eq:power}
-  f(\httwo) = a\cdot\big(\httwo\big)^{b}\texttt{+}~c
-\end{equation}
-
-This ratio is fitted by a power-law function defined in Equation~\ref{Eq:power}. 
-Since the correction factors obtained from different MC generators have 
-large differences, an uncertainty is assigned to the correction factor. The correction
-factors $C^{\mathrm{NP}}$ are determined by the average of the envelope
-which covers all the differences and half of it is taken as the uncertainty.
-The NP corrections are shown in Figure~\ref{fig:np_factors} for the inclusive 2-jet (top left) and 3-jet event cross sections
-(top right), as well as for ratio \ratio (bottom). They amount to $\sim$ 5\% for inclusive 2-jet,
-$\sim$ 7--8\% for inclusive 3-jet events and $\sim$ 4\% for ratio \ratio, for \httwo $\sim$ 200\GeV
-and decrease rapidly for increasing \httwo. The uncertainty assigned
-to the NP corrections is of the order of 1--2\%. The non-perturbative effects are reduced in the cross section ratio.
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Final_NP_Corr_2.pdf}%
-  \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Final_NP_Corr_3.pdf}\\
-  \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Final_NP_Corr_Ratio_32.pdf}
-  \caption{Fits to the nonperturbative corrections obtained for
-    inclusive 2-jet (top left) and 3-jet (top right) event cross
-    sections, as well as ratio \ratio, as a function of \httwo for $|y|<2.5$.}
-  \label{fig:np_factors}
-\end{center}
-\end{figure}
-
-\subsection{Electroweak corrections (EWK)}
-\label{sec:EWK}
-
-The fixed-order QCD calculations do not include contributions arising from virtual
-exchanges of massive W and Z bosons. The electroweak corrections (EWK) are calculated by ~\cite{Dittmaier:2012kx} and are
-applied as a bin-by-bin correction factor to the fixed-order calculation of \NLOJETPP 
-as well as the MC predictions of \MadGraphF \plus \PYTHIAS. The correction factors in the
-phase space of the measurement are given in Figure~\ref{fig:EW} for inclusive 2-jet events. 
-For inclusive 3-jet events are not calculated yet. The EWK increases up to 5\% for \httwo $>$ 1 TeV and significantly improves the
-agreement between data and prediction. Since the guess from theory side is that EWK for inclusive 2-jet and 3-jet will be similar, so for \ratio, it is assumed to be equal to the factor of 1.
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/EW_2.pdf}
-  \caption{The electroweak corrections for inclusive 2-jet as a function of \httwo.}
-  \label{fig:EW}
-\end{center}
-\end{figure}
-
-\subsection{Theory uncertainties}
-In this subsection, the derivation of theoretical uncertainties from various 
-sources have been described. The total systematic theoretical uncertainties
-are evaluated as the quadratic sum of the scale, PDF, and NP uncertainties, and are tabulated in the table~\ref{tab:theory_unc}. 
-Figure~\ref{fig:theory_unc} gives the overview of systematic theoretical 
-uncertainties affecting the cross section measurement
-for inclusive 2-jet (top left) and 3-jet events (top right) and their
-ratio \ratio (bottom), using CT10 PDF 
-set. The uncertainties on non-perturbative 
-corrections have been already presented together
-with the obtained correction factors in Section~\ref{sec:NPcorr}. 
-
-The computation of the NLO predictions with \NLOJETPP is also subject
-to statistical fluctuations from the complex numerical integrations.
-For the inclusive 2-jet event cross sections this uncertainty is
-smaller than about a per mille, while for the inclusive 3-jet event
-cross section it amounts to 1--9 per mille.
-
-Higher orders of electroweak origin affect jet cross sections at large
-jet \pt. These electroweak corrections (EWK) have been calculated for
-the inclusive 1-jet and 2-jet case, cf.\ Ref.~\cite{Dittmaier:2012kx},
-but are not yet known for 3-jet production. Therefore, they are
-considered for the 2-jet events, while for the 3-jet event cross
-section and for the ratio they have been neglected.
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Theory_Unc_2.pdf}%
-  \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Theory_Unc_3.pdf}\\
-  \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Theory_Unc_Ratio_32.pdf}\\  
-  \caption{Overview of systematic theoretical uncertainties affecting the cross section measurement
-    for inclusive 2-jet (top left) and 3-jet events (top right) and their ratio \ratio (bottom)
-    using CT10 PDF set. The total uncertainty is calculated
-    by adding in quadrature the individual sources of uncertainty.}
-  \label{fig:theory_unc}
-\end{center}
-\end{figure}
-
-
-\begin{table}[!htbp]
-  \caption{Overview of systematic theoretical uncertainties affecting the cross section measurement
-    for inclusive 2-jet and 3-jet events using CT10 PDF set. }
-  \label{tab:theory_unc}
-  \centering
-  \vspace{2mm}
-  \begin{tabular}{cccc}
-    \hline\hline
-    Uncertainty Source & {\bf Inclusive 2-jet} & {\bf Inclusive 3-jet} & {\bf \ratio} \rbthm\\ \hline
-    {\bf \textcolor{red} {Scale}} & 5 to 13\% & 11 to 17\% & 6 to 8\% \rbtrr\\
-    {\bf \textcolor{green!50!white} {PDF}} & 2 to 30\% & 5 to 50\% & 2 to 7\% \rbtrr\\
-    {\bf \textcolor{blue} {NP}} & 1\% & 1 to 2\%  & $<$ 1\% \rbtrr\\
-    \hline\hline
-  \end{tabular}
-\end{table}
-
-\subsubsection{Scale uncertainties}
-The uncertainty related to unknown higher orders of the perturbative
-series is evaluated with the conventional recipe of varying the
-default scale \httwo chosen for \mur and \muf independently in the
-following six combinations: (\mur/\httwo, \muf/\httwo) = (1/2,1/2),
-(1/2,1), (1,1/2), (1,2), (2,1) and (2,2). The maximal upwards and
-downwards deviations in cross section from the central prediction are
-taken as scale uncertainty. This uncertainty ranges for inclusive
-2-jet events from 5\% to 13\%, for inclusive 3-jet events from 11\%
-to 17\% and \ratio from 6\% to 8\%.
-
-\subsubsection{PDF uncertainties}
-PDF uncertainties are evaluated according to the prescriptions given
-for each PDF set. Uncertainties on \alpsmz are not considered, since
-this value is later on determined from a fit to the data. The PDF
-uncertainty as derived with the CT10 PDF set ranges from 2\% to 30\%
-for inclusive 2-jet events and from 5\% to 50\% for inclusive 3-jet
-events and from 2\% to 7\% for \ratio.
-
-\section{Comparison of theory to data}
-
-Figure~\ref{fig:data_NL0_MC} shows the measured inclusive 2-jet and
-3-jet event cross sections as a function of \httwo after unfolding for
-detector effects. On the left, the measurements are compared to the
-\NLOJETPP predictions using the CT10 PDF set, corrected for NP effects
-and in addition for EWK effects in the 2-jet case.  On the right, the
-comparison is made to the predictions from \MadGraphF + \PYTHIAS with
-tune \Ztwostar, corrected for EWK effects in the 2-jet case. On a
-logarithmic scale, the data are in agreement with the NLO predictions
-over the whole range of \httwo from 300\GeV up to 2.0 (2-jet) and 1.68\TeV (3-jet) respectively.
-
-\begin{figure}[!htbp]
-  \includegraphics[width=0.50\textwidth]{Plots_HT_2_150/Comparison_data_theory_EWK.pdf}%
-  \includegraphics[width=0.50\textwidth]{Plots_HT_2_150/Comparison_data_MC_EWK.pdf}\\
-  \caption{Comparison of the inclusive 2-jet and 3-jet event cross
-    sections as a function of \httwo to theoretical predictions. On
-    the (left), the data (points) are shown together with
-    \NLOJETPP predictions (line) using the CT10 PDF set, corrected for
-    NP and EWK (2-jet) or only NP effects (3-jet).  On the
-    (right), the data (points) are compared to predictions from
-    \MadGraphF + \PYTHIAS with tune \Ztwostar (line), corrected for
-    EWK effects in the 2-jet case. The error bars correspond to the
-    total uncertainty, for which the statistical and systematic
-    uncertainties are added in quadrature.}
-  \label{fig:data_NL0_MC}
-\end{figure}
-
-For better visibility the ratios of data over the \NLOJETPP
-predictions using the CT10 PDF set are shown in
-Figure~\ref{fig:data_NLOPdfs}. The data are well described by the
-predictions within their uncertainty, which is dominated at large
-\httwo by PDF effects in the upwards and by scale variations in the
-downwards direction. A trend towards an increasing systematic excess
-of the 2-jet data with respect to theory, starting at about 1\TeV in
-\httwo, is remedied by the inclusion of EWK corrections. In the 3-jet
-case the statistical precision of the data and the reach in \httwo is
-insufficient to observe any effect. The alternative PDF sets MSTW2008
-and NNPDF2.3 exhibit a small underestimation of the cross sections at
-high \httwo.
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_data_NLO_Pdfs_2_EWK.pdf}%
-  \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_data_NLO_Pdfs_3.pdf}\\
-  \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_data_NLO_Pdfs_ratio_32.pdf}\\  
-  \caption{Ratio of data over theory using the CT10 PDF set for
-    inclusive 2-jet (top left) and inclusive 3-jet event cross
-    sections (top right) and their ratio \ratio (bottom). For comparison predictions employing two
-    other PDF sets are also shown. The error bars correspond to the
-    statistical uncertainty of the data and the shaded rectangles to
-    the total experimental systematic uncertainty. The shaded band
-    around unity represents the total uncertainty of the theory.}
-  \label{fig:data_NLOPdfs}
-\end{center}  
-\end{figure}
-
-As for the NP corrections, the \POWHEG framework providing a NLO dijet
-calculation matched to the parton showers of \PYTHIAE is used for a
-comparison. Here, \POWHEG + \PYTHIAE are employed with the CUETS1 and
-CUETM1 tunes. The ratios of data over theory from \POWHEG + \PYTHIAE
-with tune CUETS1 are shown in Figure~\ref{fig:data_MC}. For
-comparison, the LO prediction from \PYTHIAS, the tree-level multi-leg
-improved prediction by \MadGraphF + \PYTHIAS, and the matched NLO
-prediction from \POWHEG + \PYTHIAE with tune CUETM1 are shown as
-well. Significant discrepancies, which are cancelled to a large extent
-in the ratio \ratio, are visible in the comparison with the LO
-prediction from \MadGraphF + \PYTHIAS, in particular for small \httwo.
-In contrast, the employed dijet MC \PYTHIAE and \POWHEG + \PYTHIAE
-better describe the 2-jet event cross section, but fail for the 3-jet
-ones. A more satisfactory description can be expected from 3-jet
-\POWHEG predictions matched to \PYTHIAE for showering and
-hadronization.
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_data_MC_samples_2_Pow_EWK.pdf}%
-  \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_data_MC_samples_3_Pow.pdf}\\
-  \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_data_MC_samples_ratio_32_Pow.pdf}\\
-  \caption{Ratio of data over the prediction from \POWHEG + \PYTHIAE
-    with tune CUETS1. For comparison the alternative tune CUETM1 of
-    \POWHEG + \PYTHIAE, the tree-level multi-leg improved prediction
-    by \MadGraphF + \PYTHIAS with tune \Ztwostar, and the the LO MC
-    predictions from \PYTHIAS tune \Ztwostar are shown as well. The
-    error bars correspond to the statistical uncertainty of the data
-    and the shaded rectangles to the total experimental systematic
-    uncertainty. EWK corrections have been accounted for in this
-    comparison in the 2-jet case.}
-  \label{fig:data_MC}
-\end{center}  
-\end{figure}
-
-Figure~\ref{fig:ratio} presents the cross section ratio \ratio, as obtained from
-unfolded cross sections (blue soled circles), in comparison to that from NLO pQCD (CT10 PDF) (red dashed line) and to the ratio
-previously measured at 7 \TeV~\cite{Chatrchyan:2013txa}.
-
-\begin{figure}[!htbp]
-  \begin{center}
-    \includegraphics[width=0.50\textwidth]{Plots_HT_2_150/Ratio_32_unfolded_all_7TeV.pdf}
-    \caption{Cross section ratios \ratio obtained from unfolded cross sections (blue solid circles), from NLO pQCD (CT10 PDF) (red dashed line), as a function of \httwo in comparison with the previously measured at 7.}
-    \label{fig:ratio}
-  \end{center}
-\end{figure}
 
 \end{comment}
