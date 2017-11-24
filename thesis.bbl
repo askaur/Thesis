@@ -48,10 +48,6 @@ S.~Chatrchyan {\em et~al.}, ``{Measurement of the Inclusive Jet Cross Section
   in $pp$ Collisions at $\sqrt{s}=7$ TeV},'' {\em Phys. Rev. Lett.}, vol.~107,
   p.~132001, 2011.
 
-\bibitem{CMS:2013gfa}
-C.~Collaboration, ``{CMS Luminosity Based on Pixel Cluster Counting - Summer
-  2013 Update},'' 2013.
-
 \bibitem{Khachatryan:2016kdb}
 V.~Khachatryan {\em et~al.}, ``{Jet energy scale and resolution in the CMS
   experiment in pp collisions at 8 TeV},'' {\em JINST}, vol.~12, no.~02,
@@ -62,5 +58,21 @@ C.~Collaboration, ``{Jet energy scale uncertainty sources}.''
   \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JECUncertaintySources},
   2012.
 \newblock (accessed on 2017-10-31).
+
+\bibitem{CMS:2013gfa}
+C.~Collaboration, ``{CMS Luminosity Based on Pixel Cluster Counting - Summer
+  2013 Update},'' 2013.
+
+\bibitem{Chatrchyan:2012bja}
+S.~Chatrchyan {\em et~al.}, ``{Measurements of differential jet cross sections
+  in proton-proton collisions at $\sqrt{s}=7$ TeV with the CMS detector},''
+  {\em Phys. Rev.}, vol.~D87, no.~11, p.~112002, 2013.
+\newblock [Erratum: Phys. Rev.D87,no.11,119902(2013)].
+
+\bibitem{Khachatryan:2016mlc}
+V.~Khachatryan {\em et~al.}, ``{Measurement and QCD analysis of
+  double-differential inclusive jet cross sections in pp collisions at $
+  \sqrt{s}=8 $ TeV and cross section ratios to 2.76 and 7 TeV},'' {\em JHEP},
+  vol.~03, p.~156, 2017.
 
 \end{thebibliography}

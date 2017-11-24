@@ -1,39 +1,35 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Theory}{2}{chapter.2}
-\contentsline {chapter}{\numberline {3}Experimental Apparatus}{3}{chapter.3}
-\contentsline {chapter}{\numberline {4}Measurement of the Differential Inclusive Multijet Cross Sections and their Ratio}{4}{chapter.4}
-\contentsline {section}{\numberline {4.1}Data Samples}{5}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Monte Carlo Samples}{6}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}Event Selection}{7}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Trigger Selection}{7}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Primary Vertex Selection}{11}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Missing Transverse Energy}{11}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Jet Identification}{12}{subsection.4.2.4}
-\contentsline {subsubsection}{\numberline {4.2.4.1}Jet ID Efficiency}{13}{subsubsection.4.2.4.1}
-\contentsline {subsection}{\numberline {4.2.5}Jet Energy Corrections and Selection}{16}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}Comparison with Simulated Events}{17}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Pile-up Reweighting}{17}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Comparison of Cross Sections and their Ratio}{17}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Jet Energy Resolution (JER)}{18}{section.4.4}
-\contentsline {section}{\numberline {4.5}Unfolding}{24}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Inclusive Multijet Cross sections}{26}{subsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.1.1}Response Matrices}{26}{subsubsection.4.5.1.1}
-\contentsline {subsubsection}{\numberline {4.5.1.2}Closure test}{29}{subsubsection.4.5.1.2}
-\contentsline {subsubsection}{\numberline {4.5.1.3}Unfolding of the Measurement}{31}{subsubsection.4.5.1.3}
-\contentsline {subsection}{\numberline {4.5.2}Cross Section Ratio, \ensuremath {R_{32}}\xspace }{31}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}Experimental uncertainties}{31}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Statistical uncertainty}{32}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Jet Energy Corrections uncertainties}{32}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Unfolding uncertainties}{36}{subsection.4.6.3}
-\contentsline {subsection}{\numberline {4.6.4}Luminosity measurement uncertainty}{37}{subsection.4.6.4}
-\contentsline {subsection}{\numberline {4.6.5}Residual uncertainty}{37}{subsection.4.6.5}
-\contentsline {subsection}{\numberline {4.6.6}Total experimental uncertainty}{38}{subsection.4.6.6}
-\contentsline {chapter}{\numberline {5}Theoretical Calculations}{40}{chapter.5}
-\contentsline {chapter}{\numberline {6}Extraction of the strong coupling constant}{41}{chapter.6}
-\contentsline {chapter}{\numberline {7}Summary}{42}{chapter.7}
+\contentsline {chapter}{\numberline {1}Measurement of the Differential Inclusive Multijet Cross Sections and their Ratio}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Data Samples}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Monte Carlo Samples}{3}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.2}Event Selection}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Trigger Selection}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Primary Vertex Selection}{8}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Missing Transverse Energy}{8}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Jet Identification}{9}{subsection.1.2.4}
+\contentsline {subsubsection}{\numberline {1.2.4.1}Jet ID Efficiency}{10}{subsubsection.1.2.4.1}
+\contentsline {subsection}{\numberline {1.2.5}Jet Energy Corrections and Selection}{13}{subsection.1.2.5}
+\contentsline {section}{\numberline {1.3}Comparison with Simulated Events}{14}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Pile-up Reweighting}{14}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Comparison of Cross Sections and their Ratio}{14}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Jet Energy Resolution (JER)}{17}{section.1.4}
+\contentsline {section}{\numberline {1.5}Unfolding}{22}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Response Matrices}{24}{subsection.1.5.1}
+\contentsline {subsubsection}{\numberline {1.5.1.1}Inclusive Cross Sections}{24}{subsubsection.1.5.1.1}
+\contentsline {subsubsection}{\numberline {1.5.1.2}Cross Section Ratio, \ensuremath {R_{32}}\xspace }{27}{subsubsection.1.5.1.2}
+\contentsline {subsection}{\numberline {1.5.2}Closure Test}{28}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Unfolding of the Measurement}{29}{subsection.1.5.3}
+\contentsline {section}{\numberline {1.6}Experimental Uncertainties}{31}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Statistical Uncertainty}{32}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Jet Energy Corrections Uncertainties}{33}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}Unfolding Uncertainties}{36}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.4}Luminosity Measurement Uncertainty}{37}{subsection.1.6.4}
+\contentsline {subsection}{\numberline {1.6.5}Residual Uncertainty}{38}{subsection.1.6.5}
+\contentsline {subsection}{\numberline {1.6.6}Total Experimental Uncertainty}{38}{subsection.1.6.6}
+\contentsline {chapter}{\numberline {2}Theoretical Calculations}{41}{chapter.2}
 \contentsline {chapter}{Appendix \numberline {A}}{43}{Appendix.a.A}
-\contentsline {section}{\numberline {A.1}Individual sources of Jet Energy Correction uncertainties}{44}{section.a.A.1}
-\contentsline {section}{\numberline {A.2}Experimental uncertainties}{47}{section.a.A.2}
-\contentsline {chapter}{Bibliography}{50}{table.caption.35}
-\contentsline {chapter}{Reprints}{53}{chapter*.38}
+\contentsline {section}{\numberline {A.1}Cross section ratio, \ensuremath {R_{32}}\xspace }{44}{section.a.A.1}
+\contentsline {section}{\numberline {A.2}Individual sources of Jet Energy Correction uncertainties}{45}{section.a.A.2}
+\contentsline {section}{\numberline {A.3}Experimental uncertainties}{48}{section.a.A.3}
+\contentsline {chapter}{Bibliography}{51}{table.caption.38}
+\contentsline {chapter}{Reprints}{55}{chapter*.41}
