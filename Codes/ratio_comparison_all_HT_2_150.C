@@ -83,7 +83,7 @@ double makeCanvas (TCanvas *c, TPad *c1_2, TPad *c1_1, TH1D *hData, TH1D *hMC, T
   if (twojet) legend1->AddEntry((TObject*)0,"n_{j} #geq 2"," ");
   else legend1->AddEntry((TObject*)0,"n_{j} #geq 3"," ");
   legend1->AddEntry(hData,"Data","pel");
-  legend1->AddEntry(hNLO,"Theory (NLO)", "f");
+  legend1->AddEntry(hNLO,"CT10-NLO", "f");
   legend1->AddEntry(hMC,"MG5+P6","pel");
   legend1->Draw();
   
@@ -185,7 +185,7 @@ double makeCanvas (TCanvas *c, TPad *c1_2, TPad *c1_1, TH1D *hData, TH1D *hMC, T
   legend1->SetFillColor(0);
   legend1->SetBorderSize(0);
   legend1->SetLineColor(1);
-  legend1->AddEntry(hrat_NLO,"Data/Theory","pel");
+  legend1->AddEntry(hrat_NLO,"Data/CT10-NLO","pel");
   legend1->AddEntry(hrat_MC,"Data/MG5+P6","pel");
   legend1->Draw();
   

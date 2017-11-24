@@ -1,4 +1,4 @@
-double makeCanvas(TCanvas *c, TH1D *hUnfold_Meas_NLO, TH1D *hTrue_NLO, TString plotname, bool twojet)
+double makeCanvas(TCanvas *c, TH1D *hUnfold_Meas_NLO, TH1D *hTrue_NLO, TString plotname, bool twojet, bool ratio)
 {
  c->Range(2.318121,0.4327759,3.346459,1.683612);
   c->SetFillColor(0);
@@ -55,6 +55,7 @@ double makeCanvas(TCanvas *c, TH1D *hUnfold_Meas_NLO, TH1D *hTrue_NLO, TString p
   legend1->SetBorderSize(0);
   legend1->SetLineColor(1);
   if (twojet) legend1->AddEntry((TObject*)0,"n_{j} #geq 2"," ");
+  else if (ratio) legend1->AddEntry((TObject*)0,"#it{R}_{32}"," ");
   else legend1->AddEntry((TObject*)0,"n_{j} #geq 3"," ");
   legend1->Draw();
   
@@ -98,6 +99,8 @@ void ratio_unfold_NLO_funcI(){
   
   TFile *f_unf_NLO_3 = TFile::Open("/home/anter/Desktop/Analysis_8_HT_2/NLO/Final_Unfolding/Rootfile_NLO_HT_2_150/Unfolding_NLO_3_funcI.root");
   
+  TFile *f_unf_ratio = TFile::Open("/home/anter/Desktop/Analysis_8_HT_2/NLO/Unfolding_new_crystal/Rootfile_NLO_HT_2_150/Unfolding_NLO_ratio_32_direct_ToyMC_HT_2_150.root");
+  
   //*****************************************************************
 
   TH1D *hUnfold_Meas_NLO_2 = (TH1D*)f_unf_NLO_2->Get("Unfolded_Meas_NLO");
@@ -105,12 +108,19 @@ void ratio_unfold_NLO_funcI(){
   
   TH1D *hUnfold_Meas_NLO_3 = (TH1D*)f_unf_NLO_3->Get("Unfolded_Meas_NLO");
   TH1D *hTrue_NLO_3 = (TH1D*)f_unf_NLO_3->Get("True");
-   
+  
+  TH1D *hUnfold_Meas_NLO_ratio = (TH1D*)f_unf_ratio->Get("Unfolded_NLO_ratio_32_smear3");
+  TH1D *hTrue_NLO_ratio = (TH1D*)f_unf_ratio->Get("True_ratio");
+  
   TCanvas *c = new TCanvas("c", "",500,400);
   sprintf(figname,"2");
-  makeCanvas(c,hUnfold_Meas_NLO_2,hTrue_NLO_2,figname,1);
+  makeCanvas(c,hUnfold_Meas_NLO_2,hTrue_NLO_2,figname,1,0);
   
   TCanvas *c = new TCanvas("c", "",500,400);
   sprintf(figname,"3");
-  makeCanvas(c,hUnfold_Meas_NLO_3,hTrue_NLO_3,figname,0);
+  makeCanvas(c,hUnfold_Meas_NLO_3,hTrue_NLO_3,figname,0,0);
+  
+  TCanvas *c = new TCanvas("c", "",500,400);
+  sprintf(figname,"Ratio_32");
+  makeCanvas(c,hUnfold_Meas_NLO_ratio,hTrue_NLO_ratio,figname,0,1);
  }

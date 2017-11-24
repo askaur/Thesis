@@ -3,18 +3,15 @@
 #include "TH1.h"
 #include "TH1F.h"
 
-void comparison_closure_3(){
+void comparison_closure_ratio_32(){
   setTDRStyle();
 
-  TFile *f_unfold_NLO = TFile::Open("/home/anter/Desktop/Analysis_8_HT_2/AN_Final_Plots/RootFiles/Ratio_unfold_NLO_3_funcI.root"); 
+  TFile *f_unfold_NLO = TFile::Open("/home/anter/Desktop/Analysis_8_HT_2/AN_Final_Plots/RootFiles/Ratio_unfold_NLO_32_funcI.root"); 
   
-  TFile *f_unfold_NLO_less = TFile::Open("/home/anter/Desktop/Analysis_8_HT_2/AN_Final_Plots/RootFiles/Ratio_unfold_NLO_3_less_funcI.root");
-  
-  TFile *f_unfold_NLO_up = TFile::Open("/home/anter/Desktop/Analysis_8_HT_2/AN_Final_Plots/RootFiles/Ratio_unfold_NLO_3_up_funcI.root");
-  
-  TFile *f_unfold_NLO_down = TFile::Open("/home/anter/Desktop/Analysis_8_HT_2/AN_Final_Plots/RootFiles/Ratio_unfold_NLO_3_down_funcI.root");
-    
+  TFile *f_unfold_NLO_less = TFile::Open("/home/anter/Desktop/Analysis_8_HT_2/AN_Final_Plots/RootFiles/Ratio_unfold_NLO_32_funcI_less.root");
+      
   //*****************************************************************
+  
   double bins[57] = {20., 25., 30., 35., 40., 45., 50., 55., 60., 65., 70., 80., 90., 110., 130., 150., 175., 200., 225., 250., 275., 300., 330., 360., 390., 420., 450., 480., 510., 540., 570., 600., 640., 680., 720., 760., 800., 850., 900., 950., 1000., 1060., 1120., 1180., 1250., 1320., 1390., 1460., 1530., 1600., 1680., 1760., 1840., 1920., 2000., 2500., 3000.};
   
   int nsize_bins = sizeof(bins) / sizeof(bins[0]);
@@ -22,43 +19,24 @@ void comparison_closure_3(){
     
   TH1D *hUnfold_pre = (TH1D*)f_unfold_NLO->Get("Unfolded_MG_Reco_NLO");
   TH1D *hUnfold_less_pre = (TH1D*)f_unfold_NLO_less->Get("Unfolded_MG_Reco_NLO");
-  TH1D *hUnfold_up = (TH1D*)f_unfold_NLO_up->Get("Unfolded_MG_Reco_NLO");
-  TH1D *hUnfold_down = (TH1D*)f_unfold_NLO_down->Get("Unfolded_MG_Reco_NLO");
   
   TH1D *hUnfold = new TH1D ("Unfold","Unfold", 56, bins);
   TH1D *hUnfold_less = new TH1D ("Unfold_less","Unfold_less", 56, bins);
   
-  hUnfold_less_pre->Scale(1.005);
-  
   for (int i = 1; i <=nsize_bins ; i++)
     {
-      if (i >=23 && i < 30) 
-	{ 
-	  hUnfold->SetBinContent(23,hUnfold_pre->GetBinContent(23)*1.003);
-	  hUnfold_less->SetBinContent(23,hUnfold_less_pre->GetBinContent(23)*1.003);
-	  hUnfold->SetBinContent(24,hUnfold_pre->GetBinContent(24));
-	  hUnfold_less->SetBinContent(24,hUnfold_less_pre->GetBinContent(24));
-	  hUnfold->SetBinContent(25,hUnfold_pre->GetBinContent(25)*1.019);
-	  hUnfold_less->SetBinContent(25,hUnfold_less_pre->GetBinContent(25)*1.019);
-	  hUnfold->SetBinContent(26,hUnfold_pre->GetBinContent(26)*1.01);
-	  hUnfold_less->SetBinContent(26,hUnfold_less_pre->GetBinContent(26)*1.01);
-	  hUnfold->SetBinContent(27,hUnfold_pre->GetBinContent(27));
-	  hUnfold_less->SetBinContent(27,hUnfold_less_pre->GetBinContent(27));
-	  hUnfold->SetBinContent(28,hUnfold_pre->GetBinContent(28)*1.007);
-	  hUnfold_less->SetBinContent(28,hUnfold_less_pre->GetBinContent(28)*1.007);
-	  hUnfold->SetBinContent(29,hUnfold_pre->GetBinContent(29)*1.002);
-	  hUnfold_less->SetBinContent(29,hUnfold_less_pre->GetBinContent(29)*1.002);
-	}
-      else if (i==32)
+      /*if (i==22 || i==23)
 	{
-	  hUnfold->SetBinContent(i,hUnfold_pre->GetBinContent(i)*1.002);
-	  hUnfold_less->SetBinContent(i,hUnfold_less_pre->GetBinContent(i)*1.002);
+	  hUnfold->SetBinContent(22,hUnfold_pre->GetBinContent(22)/1.011);
+	  hUnfold_less->SetBinContent(22,hUnfold_less_pre->GetBinContent(22)/1.005);
+	  hUnfold->SetBinContent(23,hUnfold_pre->GetBinContent(23));
+	  hUnfold_less->SetBinContent(23,hUnfold_less_pre->GetBinContent(23)/1.003);
 	}
       else
 	{
-	  hUnfold->SetBinContent(i,hUnfold_pre->GetBinContent(i));
+	*/  hUnfold->SetBinContent(i,hUnfold_pre->GetBinContent(i));
 	  hUnfold_less->SetBinContent(i,hUnfold_less_pre->GetBinContent(i));
-	}
+	//}
     }        
  
   hUnfold->SetLineColor(38); 
@@ -72,10 +50,6 @@ void comparison_closure_3(){
    
   hUnfold_less_pre->SetLineColor(kGreen+2);
   hUnfold_less_pre->SetLineWidth(2);
-  
-  hUnfold_up->SetLineColor(kGreen+2);
-  
-  hUnfold_down->SetLineColor(kRed);
   
   TCanvas *c = new TCanvas("c", "",500,400);
   c->Range(2.318121,0.4327759,3.346459,1.683612);
@@ -91,7 +65,7 @@ void comparison_closure_3(){
   c->SetTopMargin(0.06684492);
   c->SetBottomMargin(0.1336898);
   c->SetLogx();
-  
+   
   hUnfold->GetXaxis()->SetTitle("#it{H}_{T,2}/2 (GeV)");
   hUnfold->GetXaxis()->SetTitleOffset(1.04);
   hUnfold->GetXaxis()->SetTitleSize(0.06);
@@ -113,8 +87,6 @@ void comparison_closure_3(){
   hUnfold_less->GetXaxis()->SetRangeUser(300.0,1000.0);
   hUnfold_pre->GetXaxis()->SetRangeUser(300.0,1000.0);
   hUnfold_less_pre->GetXaxis()->SetRangeUser(300.0,1000.0);
-  hUnfold_up->GetXaxis()->SetRangeUser(300.0,1000.0);
-  hUnfold_down->GetXaxis()->SetRangeUser(300.0,1000.0);
   hUnfold->GetYaxis()->SetRangeUser(0.94,1.06);
   
   hUnfold->SetStats(0);
@@ -122,9 +94,6 @@ void comparison_closure_3(){
   hUnfold_less->Draw("histsame][");
   //hUnfold_pre->Draw("histsame][");
   //hUnfold_less_pre->Draw("histsame][");
-  
-  //hUnfold_up->Draw("histsame][");
-  //hUnfold_down->Draw("histsame][");  
   
   double x1 = 0.4; // 0.62 fixed
   double x2 = x1 + 0.30;
@@ -139,10 +108,8 @@ void comparison_closure_3(){
   legend1->SetFillColor(0);
   legend1->SetBorderSize(0);
   legend1->SetLineColor(1);
-  legend1->AddEntry((TObject*)0,"n_{j} #geq 3"," ");
+  legend1->AddEntry((TObject*)0,"#it{R}_{32}"," ");
   legend1->AddEntry(hUnfold,"using JER","l");
-  //legend1->AddEntry(hUnfold_up,"up","l");
-  //legend1->AddEntry(hUnfold_down,"down","l");
   legend1->AddEntry(hUnfold_less,"using 30% reduced JER","l");
   legend1->Draw();
   
@@ -150,12 +117,12 @@ void comparison_closure_3(){
   tex->SetTextFont(42);
   tex->SetTextSize(0.05);
   tex->SetLineWidth(2);
-  tex->Draw();
+  tex->Draw(); 
   
   TLatex pt3;pt3.SetNDC();
   pt3.SetTextSize(0.05);
-  pt3.DrawLatex(0.87,0.95,"#font[61]{8 TeV}"); 
+  pt3.DrawLatex(0.87,0.95,"#font[61]{8 TeV}");
       
-  c->SaveAs("/home/anter/Desktop/Analysis_8_HT_2/Thesis_Plots/Gifs/Comparison_closure_3.gif");
-  c->SaveAs("/home/anter/Desktop/Analysis_8_HT_2/Thesis_Plots/Pdfs/Comparison_closure_3.pdf"); 
+  c->SaveAs("/home/anter/Desktop/Analysis_8_HT_2/Thesis_Plots/Gifs/Comparison_closure_ratio_32.gif");
+  c->SaveAs("/home/anter/Desktop/Analysis_8_HT_2/Thesis_Plots/Pdfs/Comparison_closure_ratio_32.pdf"); 
 }  

@@ -78,7 +78,7 @@ void comparison_closure_2_range(){
   hUnfold->GetXaxis()->SetMoreLogLabels();
   hUnfold->GetXaxis()->SetNoExponent();
   hUnfold->GetXaxis()->SetLabelSize(0.05);
-  hUnfold->GetXaxis()->SetLabelOffset(0.022);
+  hUnfold->GetXaxis()->SetLabelOffset(0.018);
   hUnfold->GetXaxis()->SetTickLength(0.03);
   
   hUnfold->GetYaxis()->SetTitle("Unfolded Reco/Gen");

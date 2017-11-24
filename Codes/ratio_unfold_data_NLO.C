@@ -1,6 +1,6 @@
 double makeCanvas(TCanvas *c, TH1D *h_NLO, TH1D *h_NLO_less, TH1D *h_Data,TString plotname, bool twojet)
 {
- c->Range(2.318121,0.4327759,3.346459,1.683612);
+  c->Range(2.318121,0.4327759,3.346459,1.683612);
   c->SetFillColor(0);
   c->SetBorderMode(0);
   c->SetBorderSize(2);
@@ -30,7 +30,7 @@ double makeCanvas(TCanvas *c, TH1D *h_NLO, TH1D *h_NLO_less, TH1D *h_Data,TStrin
      
   if (twojet) double max = 2000.0;
   else double max = 1680.0;
-  h_NLO->GetYaxis()->SetRangeUser(0.65,1.25);
+  h_NLO->GetYaxis()->SetRangeUser(0.65,1.35);
   h_NLO->GetXaxis()->SetRangeUser(300.0,max);
   h_NLO_less->GetXaxis()->SetRangeUser(300.0,max);
   h_NLO->SetTitle("");
@@ -43,7 +43,7 @@ double makeCanvas(TCanvas *c, TH1D *h_NLO, TH1D *h_NLO_less, TH1D *h_Data,TStrin
   h_NLO->GetXaxis()->SetLabelOffset(0.018);
   h_NLO->GetXaxis()->SetTickLength(0.03);
   
-  h_NLO->GetYaxis()->SetTitle("Unfolded /Measured");
+  h_NLO->GetYaxis()->SetTitle("Unfolded/Measured");
   h_NLO->GetYaxis()->SetTitleOffset(1.00);
   h_NLO->GetYaxis()->SetTitleSize(0.06);
   h_NLO->GetYaxis()->SetLabelSize(0.05);

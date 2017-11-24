@@ -217,7 +217,7 @@ void total_unc_ratio_32_direct_add(){
   legend1->SetFillColor(0);
   legend1->SetBorderSize(0);
   legend1->SetLineColor(1);
-  legend1->AddEntry((TObject*)0,"R_{32}"," ");
+  legend1->AddEntry((TObject*)0,"#it{R}_{32}"," ");
   legend1->AddEntry(hStatMarker,"Statistical","pel");
   legend1->AddEntry(hJECup_frac,"JEC","l");
   legend1->AddEntry(hUnf_total_up_new_frac,"Unfolding","l");

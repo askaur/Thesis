@@ -60,7 +60,7 @@ void correlationM_NLO_ratio_32()
   
   TLatex pt1;pt1.SetNDC();
   pt1.SetTextSize(0.05);
-  pt1.DrawLatex(0.18,0.95,"#font[42]{R_{32}}");// (Iterations = 10)");
+  pt1.DrawLatex(0.18,0.95,"#font[42]{#it{R}_{32}}");// (Iterations = 10)");
   
   tex = new TLatex(248.3114,288.7939,"300");
   tex->SetTextFont(42);

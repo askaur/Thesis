@@ -172,7 +172,7 @@ void macro_plot_ratio_32_ht_2_unc_single(){
       legend1->SetFillColor(0);
       legend1->SetBorderSize(0);
       legend1->SetLineColor(1);
-      legend1->AddEntry((TObject*)0,"R_{32}"," ");
+      legend1->AddEntry((TObject*)0,"#it{R}_{32}"," ");
       legend1->AddEntry(h_up_1,"AbsoluteStat", "l");
       legend1->AddEntry(h_up_2,"AbsoluteScale", "l");
       legend1->AddEntry(h_up_3,"AbsoluteMPFBias", "l");
@@ -231,7 +231,7 @@ void macro_plot_ratio_32_ht_2_unc_single(){
       legend1->SetFillColor(0);
       legend1->SetBorderSize(0);
       legend1->SetLineColor(1);
-      legend1->AddEntry((TObject*)0,"R_{32}"," ");
+      legend1->AddEntry((TObject*)0,"#it{R}_{32}"," ");
       legend1->AddEntry(h_up_1,"SinglePionECAL", "l");
       legend1->AddEntry(h_up_2,"SinglePionHCAL", "l");
       legend1->AddEntry(h_up_3,"FlavorQCD", "l");
@@ -300,7 +300,7 @@ void macro_plot_ratio_32_ht_2_unc_single(){
       legend1->SetFillColor(0);
       legend1->SetBorderSize(0);
       legend1->SetLineColor(1);
-      legend1->AddEntry((TObject*)0,"R_{32}"," ");
+      legend1->AddEntry((TObject*)0,"#it{R}_{32}"," ");
       legend1->AddEntry(h_up_1,"RelativeJEREC1", "l");
       legend1->AddEntry(h_up_2,"RelativeJEREC2", "l");
       legend1->AddEntry(h_up_3,"RelativePtBB", "l");
@@ -370,7 +370,7 @@ void macro_plot_ratio_32_ht_2_unc_single(){
       legend1->SetFillColor(0);
       legend1->SetBorderSize(0);
       legend1->SetLineColor(1);
-      legend1->AddEntry((TObject*)0,"R_{32}"," ");
+      legend1->AddEntry((TObject*)0,"#it{R}_{32}"," ");
       legend1->AddEntry(h_up_1,"RelativePtEC1", "l");
       legend1->AddEntry(h_up_2,"RelativePtEC2", "l");
       legend1->AddEntry(h_up_3,"RelativeFSR", "l");
@@ -429,7 +429,7 @@ void macro_plot_ratio_32_ht_2_unc_single(){
       legend1->SetFillColor(0);
       legend1->SetBorderSize(0);
       legend1->SetLineColor(1);
-      legend1->AddEntry((TObject*)0,"R_{32}"," ");
+      legend1->AddEntry((TObject*)0,"#it{R}_{32}"," ");
       legend1->AddEntry(h_up_1,"RelativeStatFSR", "l");
       legend1->AddEntry(h_up_2,"RelativeStatEC2", "l");
       legend1->AddEntry(h_up_3,"RelativeStatHF", "l");
@@ -516,7 +516,7 @@ void macro_plot_ratio_32_ht_2_unc_single(){
       legend1->SetFillColor(0);
       legend1->SetBorderSize(0);
       legend1->SetLineColor(1);
-      legend1->AddEntry((TObject*)0,"R_{32}"," ");
+      legend1->AddEntry((TObject*)0,"#it{R}_{32}"," ");
       legend1->AddEntry(h_up_1,"PileUpDataMC", "l");
       legend1->AddEntry(h_up_2,"PileUpPtRef", "l");
       legend1->AddEntry(h_up_3,"PileUpPtBB", "l");

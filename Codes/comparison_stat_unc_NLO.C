@@ -1,4 +1,4 @@
-double makeCanvas(TCanvas *c, TH1D *hData_err, TH1D *hData_unfold_err, TString plotname, bool twojet, bool ratio_up, bool ratio_down)
+double makeCanvas(TCanvas *c, TH1D *hData_err, TH1D *hData_unfold_err, TString plotname, bool twojet, bool ratio_up, bool ratio_down, bool ratio_symm)
 {
   c->Range(2.318121,0.4327759,3.346459,1.683612);
   c->SetFillColor(0);
@@ -73,7 +73,7 @@ double makeCanvas(TCanvas *c, TH1D *hData_err, TH1D *hData_unfold_err, TString p
   legend1->SetBorderSize(0);
   legend1->SetLineColor(1);
   if (twojet) legend1->AddEntry((TObject*)0,"n_{j} #geq 2","");
-  else if (ratio_up || ratio_down) legend1->AddEntry((TObject*)0,"R_{32}","");
+  else if (ratio_up || ratio_down || ratio_symm) legend1->AddEntry((TObject*)0,"#it{R}_{32}","");
   else legend1->AddEntry((TObject*)0,"n_{j} #geq 3","");
   legend1->AddEntry(hData_err,"Before unfolding","l");
   legend1->AddEntry(hData_unfold_err,"After unfolding","l");
@@ -151,6 +151,9 @@ void comparison_stat_unc_NLO(){
   
   TH1D *hData_up =  (TH1D*)fdata_ratio->Get("Ratio_32_Data_Up");
   TH1D *hData_unfold_up =  (TH1D*)fdata_unfold_ratio->Get("Unfolded_ratio_32_up_smear2");
+  
+  TH1D *hData_symm =  (TH1D*)fdata_ratio->Get("Ratio_32_Data_Symm");
+  TH1D *hData_unfold_symm =  (TH1D*)fdata_unfold_ratio->Get("Unfolded_ratio_32_symm_smear2");
 
   const double new_bins[57] = {20., 25., 30., 35., 40., 45., 50., 55., 60., 65., 70., 80., 90., 110., 130., 150., 175., 200., 225., 250., 275., 300., 330., 360., 390., 420., 450., 480., 510., 540., 570., 600., 640., 680., 720., 760., 800., 850., 900., 950., 1000., 1060., 1120., 1180., 1250., 1320., 1390., 1460., 1530., 1600., 1680., 1760., 1840., 1920., 2000., 2500., 3000.};
  
@@ -162,6 +165,8 @@ void comparison_stat_unc_NLO(){
   TH1D *hData_unfold_err_up = new TH1D("After Unfolding Up","After Unfolding Up",56.0,new_bins);
   TH1D *hData_err_down = new TH1D("Before Unfolding Down","Before Unfolding Down",56.0,new_bins);
   TH1D *hData_unfold_err_down = new TH1D("After Unfolding Down","After Unfolding Down",56.0,new_bins);
+  TH1D *hData_err_symm = new TH1D("Before Unfolding Symm","Before Unfolding Symm",56.0,new_bins);
+  TH1D *hData_unfold_err_symm = new TH1D("After Unfolding Symm","After Unfolding Symm",56.0,new_bins);
  
   double nbinsx = hData_2->GetXaxis()->GetNbins();
   cout<<nbinsx<<endl;
@@ -179,21 +184,29 @@ void comparison_stat_unc_NLO(){
       
       hData_err_down->SetBinContent(i,hData_down->GetBinError(i)/hData_down->GetBinContent(i));
       hData_unfold_err_down->SetBinContent(i,hData_unfold_down->GetBinError(i)/hData_unfold_down->GetBinContent(i));      
+   
+      hData_err_symm->SetBinContent(i,hData_symm->GetBinError(i)/hData_symm->GetBinContent(i));
+      hData_unfold_err_symm->SetBinContent(i,hData_unfold_symm->GetBinError(i)/hData_unfold_symm->GetBinContent(i));      
+    
     }
   
   TCanvas *c = new TCanvas("c", "",500,400);
   sprintf(figname,"2_HT_2_150");
-  makeCanvas(c,hData_err_2,hData_unfold_err_2,figname,1,0,0);
+  makeCanvas(c,hData_err_2,hData_unfold_err_2,figname,1,0,0,0);
   
   TCanvas *c = new TCanvas("c", "",500,400);
   sprintf(figname,"3_HT_2_150");
-  makeCanvas(c,hData_err_3,hData_unfold_err_3,figname,0,0,0);
+  makeCanvas(c,hData_err_3,hData_unfold_err_3,figname,0,0,0,0);
   
   TCanvas *c = new TCanvas("c", "",500,400);
   sprintf(figname,"ratio_32_up");
-  makeCanvas(c,hData_err_up,hData_unfold_err_up,figname,0,1,0);
+  makeCanvas(c,hData_err_up,hData_unfold_err_up,figname,0,1,0,0);
   
   TCanvas *c = new TCanvas("c", "",500,400);
   sprintf(figname,"ratio_32_down");
-  makeCanvas(c,hData_err_down,hData_unfold_err_down,figname,0,0,1);
+  makeCanvas(c,hData_err_down,hData_unfold_err_down,figname,0,0,1,0);
+  
+  TCanvas *c = new TCanvas("c", "",500,400);
+  sprintf(figname,"ratio_32_symm");
+  makeCanvas(c,hData_err_symm,hData_unfold_err_symm,figname,0,0,0,1);
  }  
