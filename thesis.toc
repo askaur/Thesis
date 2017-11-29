@@ -4,24 +4,24 @@
 \contentsline {subsection}{\numberline {1.1.1}Monte Carlo Samples}{3}{subsection.1.1.1}
 \contentsline {section}{\numberline {1.2}Event Selection}{4}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Trigger Selection}{4}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Primary Vertex Selection}{8}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Primary Vertex Selection}{6}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Missing Transverse Energy}{8}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Jet Identification}{9}{subsection.1.2.4}
-\contentsline {subsubsection}{\numberline {1.2.4.1}Jet ID Efficiency}{10}{subsubsection.1.2.4.1}
-\contentsline {subsection}{\numberline {1.2.5}Jet Energy Corrections and Selection}{13}{subsection.1.2.5}
-\contentsline {section}{\numberline {1.3}Comparison with Simulated Events}{14}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Pile-up Reweighting}{14}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.2.4}Jet Identification}{8}{subsection.1.2.4}
+\contentsline {subsubsection}{\numberline {1.2.4.1}Jet ID Efficiency}{9}{subsubsection.1.2.4.1}
+\contentsline {subsection}{\numberline {1.2.5}Jet Selection}{13}{subsection.1.2.5}
+\contentsline {section}{\numberline {1.3}Comparison with Simulation}{13}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Pile-up Reweighting}{13}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Comparison of Cross Sections and their Ratio}{14}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}Jet Energy Resolution (JER)}{17}{section.1.4}
+\contentsline {section}{\numberline {1.4}Jet Energy Resolution (JER)}{16}{section.1.4}
 \contentsline {section}{\numberline {1.5}Unfolding}{22}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Response Matrices}{24}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.1}Response Matrices}{23}{subsection.1.5.1}
 \contentsline {subsubsection}{\numberline {1.5.1.1}Inclusive Cross Sections}{24}{subsubsection.1.5.1.1}
 \contentsline {subsubsection}{\numberline {1.5.1.2}Cross Section Ratio, \ensuremath {R_{32}}\xspace }{27}{subsubsection.1.5.1.2}
-\contentsline {subsection}{\numberline {1.5.2}Closure Test}{28}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.2}Closure Test}{27}{subsection.1.5.2}
 \contentsline {subsection}{\numberline {1.5.3}Unfolding of the Measurement}{29}{subsection.1.5.3}
-\contentsline {section}{\numberline {1.6}Experimental Uncertainties}{31}{section.1.6}
+\contentsline {section}{\numberline {1.6}Experimental Uncertainties}{30}{section.1.6}
 \contentsline {subsection}{\numberline {1.6.1}Statistical Uncertainty}{32}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Jet Energy Corrections Uncertainties}{33}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.2}Jet Energy Corrections Uncertainties}{32}{subsection.1.6.2}
 \contentsline {subsection}{\numberline {1.6.3}Unfolding Uncertainties}{36}{subsection.1.6.3}
 \contentsline {subsection}{\numberline {1.6.4}Luminosity Measurement Uncertainty}{37}{subsection.1.6.4}
 \contentsline {subsection}{\numberline {1.6.5}Residual Uncertainty}{38}{subsection.1.6.5}

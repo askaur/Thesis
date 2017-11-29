@@ -2,49 +2,45 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: title.aux
-A level-1 auxiliary file: Introduction.aux
-A level-1 auxiliary file: Theory.aux
-A level-1 auxiliary file: Detector.aux
 A level-1 auxiliary file: Measurement.aux
 A level-1 auxiliary file: Theory_Predictions.aux
-A level-1 auxiliary file: Alphas.aux
-A level-1 auxiliary file: Summary.aux
 A level-1 auxiliary file: Appendix.aux
 The style file: ieeetr.bst
 Database file #1: thesis.bib
 Warning--empty journal in CMS:2010xta
 Warning--empty journal in CMS:2011esa
+Warning--empty journal in DAgostini
 Warning--empty journal in CMS:2013gfa
-You've used 16 entries,
+You've used 17 entries,
             1876 wiz_defined-function locations,
-            589 strings with 6094 characters,
-and the built_in function-call counts, 3708 in all, are:
-= -- 379
-> -- 108
+            587 strings with 6092 characters,
+and the built_in function-call counts, 3838 in all, are:
+= -- 389
+> -- 112
 < -- 0
-+ -- 44
-- -- 28
-* -- 207
-:= -- 514
-add.period$ -- 20
-call.type$ -- 16
-change.case$ -- 16
++ -- 46
+- -- 29
+* -- 214
+:= -- 535
+add.period$ -- 21
+call.type$ -- 17
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 219
-empty$ -- 368
-format.name$ -- 28
-if$ -- 947
+cite$ -- 21
+duplicate$ -- 228
+empty$ -- 385
+format.name$ -- 29
+if$ -- 977
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 13
-newline$ -- 55
-num.names$ -- 16
-pop$ -- 60
+int.to.str$ -- 17
+missing$ -- 14
+newline$ -- 58
+num.names$ -- 17
+pop$ -- 66
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 161
+skip$ -- 162
 stack$ -- 0
 substring$ -- 166
 swap$ -- 96
@@ -52,8 +48,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 30
-width$ -- 18
-write$ -- 160
-(There were 3 warnings)
+warning$ -- 4
+while$ -- 31
+width$ -- 19
+write$ -- 167
+(There were 4 warnings)

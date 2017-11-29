@@ -37,6 +37,9 @@ C.~Collaboration, ``{Jet Energy Resolution in CMS at sqrt(s)=7 TeV},'' 2011.
 G.~D'Agostini, ``{A Multidimensional unfolding method based on Bayes'
   theorem},'' {\em Nucl. Instrum. Meth.}, vol.~A362, pp.~487--498, 1995.
 
+\bibitem{DAgostini}
+G.~D'Agostini, ``{Improved iterative Bayesian unfolding},'' 2010.
+
 \bibitem{Adye:2011gm}
 T.~Adye, ``{Unfolding algorithms and tests using RooUnfold},'' in {\em
   {Proceedings, PHYSTAT 2011 Workshop on Statistical Issues Related to
