@@ -15,7 +15,18 @@
 \providecommand{\rbtrrnm}{\rule[-0.85ex]{0ex}{3.1ex}}
 \providecommand{\ratio}{\ensuremath{R_{32}}\xspace}
 \providecommand{\rations}{\ensuremath{\mathrm{R_{32}}}}
-% Chapter 4
+\providecommand{\alpsmz}{\ensuremath{\alpha_s(M_Z)}\xspace}
+\providecommand{\alpsmzns}{\ensuremath{\alpha_s(M_Z)}}
+\providecommand{\alps}{\ensuremath{\alpha_S}\xspace}
+\providecommand{\alpsns}{\ensuremath{\alpha_S}}
+\providecommand{\alpsmusq}{\ensuremath{\alpha_S(\mu_r^2)}\xspace}
+\providecommand{\alpsmzsq}{\ensuremath{\alpha_S(M_Z^2)}\xspace}
+\providecommand{\alpsqsq}{\ensuremath{\alpha_S(Q^2)}\xspace}
+\providecommand{\alpsmu}{\ensuremath{\alpha_S(\mu_r)}\xspace}
+\providecommand{\alpsmz}{\ensuremath{\alpha_S(M_Z)}\xspace}
+\providecommand{\alpsq}{\ensuremath{\alpha_S(Q)}\xspace}
+
+% Chapter Measurement
 \providecommand{\httwo}{\ensuremath{H_{\mathrm{T,2}}/2}\xspace}
 \providecommand{\httwons}{\ensuremath{H_{\mathrm{T,2}}/2}}
 \providecommand{\ptone}{\ensuremath{p_{\mathrm{T,1}}}\xspace}
@@ -29,65 +40,35 @@
 \providecommand{\MGP}{MG5\texttt{+}P6}
 \providecommand{\HERWIGPP} {{\textsc{herwig\texttt{+}\texttt{+}}}\xspace}
 \providecommand{\HERWIGPPn} {{\textsc{herwig\texttt{+}\texttt{+}}}}
+\providecommand{\PYTHIAE} {{\textsc{pythia8}}\xspace}
+\providecommand{\POWHEG} {{\textsc{powheg}}\xspace}
+\providecommand{\Ztwostar}{\ensuremath{\mathrm{Z2}^\star}\xspace}
+\providecommand{\RooUnfold} {{\textsc{RooUnfold}}\xspace}
 
-% Chapter 5
+% Chapter Theory Predictions
 \providecommand{\chisq}{\ensuremath{\chi^2}\xspace}
-
+\providecommand{\mur}{\ensuremath{\mu_r}\xspace}
+\providecommand{\muf}{\ensuremath{\mu_f}\xspace}
+\providecommand{\LHAPDF}{{\textsc{LHAPDF}}\xspace}
+\providecommand{\LHAPDFS}{{\textsc{LHAPDF6}}\xspace}
+\providecommand{\NF}{\ensuremath{N_F}\xspace}
+\providecommand{\RunDec}{{\textsc{RunDec}}\xspace}
+\providecommand{\fastNLO} {{\textsc{fastNLO}}\xspace}
+\providecommand{\fastjet} {{\textsc{FastJet}}\xspace}
 
 % Itemize
-\newcommand*\ball{\setbeamertemplate{itemize items}[ball]}
-\newcommand*\cir{\setbeamertemplate{itemize items}[circle]}
-\newcommand*\tri{\setbeamertemplate{itemize items}[triangle]}
 
-%Colors
-%\newcommand*\mycolor{\textcolor{red!80!black}}
-%\newcommand*\blue{\textcolor{blue!70!black}}
-%\newcommand*\green{\textcolor{green!50!black}}
-%\definecolor{auburn}{rgb}{0.07, 0.04, 0.56}
-\newcommand*\AN{\textcolor{auburn}}
-%\newcommand*\yes{\textcolor{red!80!black} {\Checkmark }}
-%\newcommand*\no{\textcolor{red!80!black} {\XSolidBrush}}
-%\definecolor{pink}{rgb}{1.0, 0.11, 0.81}
-%spaces
 \providecommand{\tab}[1]{\hspace{.2\textwidth}\rlap{#1}}
 \providecommand{\itab}[1]{\hspace{.12\textwidth}\rlap{#1}}
-%\tcbset{colframe=white,colback=white,nobeforeafter}
-%\providecommand{\mybox}[2]{{\color{red!80!black}\fbox{\normalcolor#2}}}
-%\setlength\fboxrule{0.8pt}
-%Def
 \providecommand{\lumins}{\ensuremath{\mathcal{L}}}
 
 \providecommand{\ptave}{\ensuremath{\langle p_\mathrm{T1,2}\rangle}\xspace}
 \providecommand{\bqm}{\ensuremath{\scalebox{1.2}{\textbf{?}}}\xspace}
-\providecommand{\RooUnfold} {{\textsc{RooUnfold}}\xspace}
-%\providecommand{\refe}{\ensuremath{\textcolor{red!80!black}{\bf [REF]}}\xspace}
 
 
-\providecommand{\PYTHIAE} {{\textsc{pythia8}}\xspace}
-\providecommand{\POWHEG} {{\textsc{powheg}}\xspace}
-
-\providecommand{\RunDec}{{\textsc{RunDec}}\xspace}
-\providecommand{\fastNLO} {{\textsc{fastNLO}}\xspace}
-\providecommand{\fastjet} {{\textsc{FastJet}}\xspace}
-\providecommand{\mur}{\ensuremath{\mu_r}\xspace}
-\providecommand{\muf}{\ensuremath{\mu_f}\xspace}
-\providecommand{\alpsmz}{\ensuremath{\alpha_s(M_Z)}\xspace}
 \providecommand{\chisqndof}{\ensuremath{\chi^2/n_\mathrm{dof}}\xspace}
-\providecommand{\alps}{\ensuremath{\alpha_S}\xspace}
-\providecommand{\alpsmusq}{\ensuremath{\alpha_S(\mu_r^2)}\xspace}
-\providecommand{\alpsmzsq}{\ensuremath{\alpha_S(M_Z^2)}\xspace}
-\providecommand{\alpsqsq}{\ensuremath{\alpha_S(Q^2)}\xspace}
-\providecommand{\alpsmu}{\ensuremath{\alpha_S(\mu_r)}\xspace}
-\providecommand{\alpsmz}{\ensuremath{\alpha_S(M_Z)}\xspace}
-\providecommand{\alpsq}{\ensuremath{\alpha_S(Q)}\xspace}
 
-\providecommand{\LHAPDF}{{\textsc{LHAPDF}}\xspace}
-\providecommand{\LHAPDFS}{{\textsc{LHAPDF6}}\xspace}
-\providecommand{\NF}{\ensuremath{N_F}\xspace}
-\providecommand{\Ztwostar}{\ensuremath{\mathrm{Z2}^\star}\xspace}
 \providecommand{\hftwo}{\hspace*{\fill}}
-\newcommand*\alpsmzns{\ensuremath{\alpha_S(M_Z)}}
-\newcommand*\alpsns{\ensuremath{\alpha_S}}
 \newcommand*\ptavens{\ensuremath{\mathrm{\langle p_\mathrm{T_{1,2}}\rangle}}}
 
 

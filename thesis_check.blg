@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis_check.aux
+A level-1 auxiliary file: title.aux
+A level-1 auxiliary file: Measurement.aux
+A level-1 auxiliary file: Theory_Predictions.aux
+A level-1 auxiliary file: Appendix.aux
+The style file: ieeetr.bst
+Database file #1: thesis.bib
+Warning--empty journal in CMS:2010xta
+Warning--empty journal in CMS:2011esa
+Warning--empty journal in DAgostini
+Warning--empty journal in CMS:2013gfa
+You've used 41 entries,
+            1876 wiz_defined-function locations,
+            728 strings with 10253 characters,
+and the built_in function-call counts, 10735 in all, are:
+= -- 1070
+> -- 394
+< -- 0
++ -- 149
+- -- 108
+* -- 651
+:= -- 1481
+add.period$ -- 46
+call.type$ -- 41
+change.case$ -- 41
+chr.to.int$ -- 0
+cite$ -- 45
+duplicate$ -- 646
+empty$ -- 989
+format.name$ -- 108
+if$ -- 2734
+int.to.chr$ -- 0
+int.to.str$ -- 41
+missing$ -- 38
+newline$ -- 131
+num.names$ -- 41
+pop$ -- 138
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 490
+stack$ -- 0
+substring$ -- 496
+swap$ -- 310
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 86
+width$ -- 43
+write$ -- 413
+(There were 4 warnings)
