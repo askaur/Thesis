@@ -39,7 +39,7 @@ The data sets have the LHC luminosity increasing with period, full data sample o
 \subsection{Monte Carlo Samples}
 To have a comparison of data results with the simulated events, the \MadGraphF \cite{Alwall:2011uj} Monte-Carlo (MC) event generator has been used. The \MadGraphF generates matrix elements for High Energy Physics processes, such as decays and $2 \rightarrow n$ scatterings. It has been interfaced to \PYTHIAS \cite{Sjostrand:2006za} by the LHE event record \cite{Alwall:2006yp}, to generate the rest of the higher-order effects using the Parton Showering (PS) model, with tune \Ztwostar to model the underlying event. Matching algorithms make sure that thers is no double-counting between the tree-level and the PS-model-generated partons. The MC samples are processed through the complete CMS detector simulation to allow studies of the detector response and compare to measured data on detector level.
 
-The cross section measured as a function of the transverse momentum \pt or the scalar sum of the transverse momentum of all jets \HT falls steeply with the increasing \pt. So in the reasonable time, it is not possible to generate a large number of high \pt events. Hence, the events are generated in the different phase-space region binned in \HT or the leading jet \pt. Later on, the different phase-space regions are added together in the data analyses by taking into account the cross section of the different phase-space regions. The official CMS \MadGraphF \plus \PYTHIAS (\MGP) MC samples used in this analysis are generated as slices in the \HT phase-space are tabulated in Table~\ref{tab:dataset_MC} along with their cross sections and number of events generated.
+The cross section measured as a function of the transverse momentum \pt or the scalar sum of the transverse momentum of all jets \HT falls steeply with the increasing \pt. So in the reasonable time, it is not possible to generate a large number of high \pt events. Hence, the events are generated in the different phase-space region binned in \HT or the leading jet \pt. Later on, the different phase-space regions are added together in the data analyses by taking into account the cross section of the different phase-space regions. The official CMS \MadGraphFn\plusn \PYTHIAS (\MGP) MC samples used in this analysis are generated as slices in the \HT phase-space are tabulated in Table~\ref{tab:dataset_MC} along with their cross sections and number of events generated.
 \begin{table}[!htbp]
 \centering
 \caption{The official Monte Carlo samples are produced in phase space slices in \HT with the generator \MadGraphF and interfaced to \PYTHIAS for the parton shower and motorization of the events. The cross section and number of events generated are mentioned for each sample.}
@@ -179,7 +179,7 @@ The efficiency of the jet ID as a function of \httwo is studied using a tag-and-
 
 \begin{figure}[!htbp]
  \begin{center}
- \includegraphics[width=0.5\textwidth]{/home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficiency.pdf}
+ \includegraphics[width=0.51\textwidth]{/home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficiency.pdf}
  \caption{The jet ID efficiency is studied as a function of \httwo with tag-and-probe technique using dijet event topologies and it always exceeds 99\%.}
  \label{fig:ideff}
  \end{center}
@@ -214,13 +214,13 @@ While generating the official Monte-Carlo samples, the number of pileup interact
 \end{figure}
 
 \subsection{Comparison of Cross Sections and their Ratio}
-The measured data distribution of differential cross section at detector level is compared to the predictions of Monte Carlo simulation using \MadGraphF generator interfaced with \PYTHIAS (\MGP) including the detector simulation as well as to a fixed-order theory prediction obtained using CT10 NLO PDF set. Figure~\ref{fig:comp_all} shows the comparison of differential cross section as a function of \httwo for \njt~(left) and \njth~events (right), for data (black solid circles), \MGP~MC (red empty circles) and CT10-NLO (blue histogram). The bottom panel in each plot shows the ratio of data to the MC predictions (red line) as well as to the CT10-NLO theory predictions (blue line). The NLO predictions on parton level are not corrected for non-perturbative effects. Still the NLO predictions describe the data better as compared to the LO MC simulations which roughly describes the spectrum on detector level. The sufficient data for \njt~and \njth~events are available up to \httwo = 2000 GeV and 1680 GeV, respectively. Due to some kinematical constraints, the minimum cut on \httwo is 300 GeV  (explained in Sec.~\ref{sec:nlo_factors}. Hence the differential cross sections are studied in the range 300 GeV $\leq$ \httwo \ls 2000 GeV for \njt~and 300 GeV $\leq$ \httwo \ls 1680 GeV for \njth~events.
+The measured data distribution of differential cross section at detector level is compared to the predictions of Monte Carlo simulation using \MadGraphF generator interfaced with \PYTHIAS (\MGP) including the detector simulation as well as to a fixed-order theory prediction obtained using CT10-NLO PDF set. Figure~\ref{fig:comp_all} shows the comparison of differential cross section as a function of \httwo for \njt~(left) and \njth~events (right), for data (black solid circles), \MGP~MC (red empty circles) and CT10-NLO (blue histogram). The bottom panel in each plot shows the ratio of data to the MC predictions (red line) as well as to the CT10-NLO theory predictions (blue line). The NLO predictions on parton level are not corrected for non-perturbative effects. Still the NLO predictions describe the data better as compared to the LO MC simulations which roughly describes the spectrum on detector level. The sufficient data for \njt~and \njth~events are available up to \httwo = 2000 GeV and 1680 GeV, respectively. Due to some kinematical constraints, the minimum cut on \httwo is 300 GeV  (explained in Sec.~\ref{sec:nlo_factors}. Hence the differential cross sections are studied in the range 300 GeV $\leq$ \httwo \ls 2000 GeV for \njt~and 300 GeV $\leq$ \httwo \ls 1680 GeV for \njth~events.
 
 \begin{figure}[!htbp]
  \begin{center}
  \hspace*{-5mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_all_2_HT_2_150.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_all_3_HT_2_150.pdf}
- \caption{The differential cross sections are compared for data (black solid circles) and LO \MadGraphF \plus \PYTHIAS (\MGP) Monte Carlo (red empty circles), at reconstructed level with CT10-NLO theory predictions (blue histogram), as a function of \httwo for inclusive 2-jet (left) and 3-jet events (right). Ratios of data to the Monte Carlo predictions (red line) as well as to the CT10-NLO predictions (blue line) are shown in bottom panel of each plot.}
+ \caption{The differential cross sections are compared for data (black solid circles) and LO \MadGraphFn\plusn \PYTHIAS (\MGP) Monte Carlo (red empty circles), at reconstructed level with CT10-NLO theory predictions (blue histogram), as a function of \httwo for inclusive 2-jet (left) and 3-jet events (right). Ratios of data to the Monte Carlo predictions (red line) as well as to the CT10-NLO predictions (blue line) are shown in bottom panel of each plot.}
  \label{fig:comp_all}
  \end{center}
 \end{figure}
@@ -228,12 +228,12 @@ The measured data distribution of differential cross section at detector level i
 \begin{figure}[!h] 
  \begin{center}
  \hspace*{-5mm}\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Ratio_32_all_HT_2_150.pdf}
- \caption{Comparison of the cross section ratio \ratio as a function of \httwons, for data (black solid circles) and LO \MadGraphF \plus \PYTHIAS (\MGP) Monte Carlo (red empty circles), at reconstructed level with CT10-NLO theory predictions (blue line). The error bars give the asymmetrical statistical uncertainty, calculated by the Wilson score interval method which takes into the account the correlation between the numerator and denominator.}
+ \caption{Comparison of the cross section ratio \ratio as a function of \httwons, for data (black solid circles) and LO \MadGraphFn\plusn \PYTHIAS (\MGP) Monte Carlo (red empty circles), at reconstructed level with CT10-NLO theory predictions (blue line). The error bars give the asymmetrical statistical uncertainty, calculated by the Wilson score interval method which takes into the account the correlation between the numerator and denominator.}
  \label{fig:ratio_32}
  \end{center}
 \end{figure}
 
-The ratio of differential cross sections, $R_{32}$ as a function of $\httwo$, is extracted by dividing the cross section of selected inclusive 3-jet events to that of inclusive 2-jet events at any given bin size of \httwo. In the cross section ratios, the numerator and denominator are not independent samples. So to calculate the statistical uncertainty for the cross section ratios at reconstructed level, the Wilson score interval method is used which takes into account the correlation between the numerator and the denominator and give asymmetric errors. Figure~\ref{fig:ratio_32} shows the comparison of the cross section ratio \ratio as a function of \httwons, for data (black solid circles) and LO \MadGraphF \plus \PYTHIAS (\MGP) Monte Carlo (red empty circles), at reconstructed level with CT10-NLO theory predictions (blue line). Since in \njth~events, the enough statistics for differential cross section is available upto 1680 GeV of \httwo only, \ratio is also studied in the range 300 GeV $\leq$ \httwo \ls 1680 GeV. The bin-wise inclusive 2-jet and 3-jet events differential cross sections as well as their ratio \ratio, calculated at detector level, along with statistical uncertainty (in \%) are tabulated in Table~\ref{tab:ratio_32}. 
+The ratio of differential cross sections, $R_{32}$ as a function of $\httwo$, is extracted by dividing the cross section of selected inclusive 3-jet events to that of inclusive 2-jet events at any given bin size of \httwo. In the cross section ratios, the numerator and denominator are not independent samples. So to calculate the statistical uncertainty for the cross section ratios at reconstructed level, the Wilson score interval method is used which takes into account the correlation between the numerator and the denominator and give asymmetric errors. Figure~\ref{fig:ratio_32} shows the comparison of the cross section ratio \ratio as a function of \httwons, for data (black solid circles) and LO \MadGraphFn\plusn \PYTHIAS (\MGP) Monte Carlo (red empty circles), at reconstructed level with CT10-NLO theory predictions (blue line). Since in \njth~events, the enough statistics for differential cross section is available upto 1680 GeV of \httwo only, \ratio is also studied in the range 300 GeV $\leq$ \httwo \ls 1680 GeV. The bin-wise inclusive 2-jet and 3-jet events differential cross sections as well as their ratio \ratio, calculated at detector level, along with statistical uncertainty (in \%) are tabulated in Table~\ref{tab:ratio_32}. 
 
 \section{Jet Energy Resolution (JER)}
 \label{sec:Resolution}
@@ -272,7 +272,7 @@ where JER(\pt) is the resolution determined as a function of jet \pt using \MGP~
   \begin{center}
    \hspace*{-5mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_crystal_nomet.pdf}%
     ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Fit_Res_3_final_crystal_genbin_250-275_crystal_nomet.pdf}
-    \caption{Fitting of the resolution distribution, obtained using LO \MadGraphF \plus \PYTHIAS (\MGP) Monte Carlo simulated events, as a function of \httwo for inclusive 2-jet (left) and inclusive 3-jet events (right). The blue line shows the double-sided Crystal Ball function fit of $\frac{{\rm Reco}~\httwo}{{\rm Gen}~\httwo}$ in each Gen \httwo bin, overlayed by Gaussian fitting the core of the resolution (red line).}
+    \caption{Fitting of the resolution distribution, obtained using LO \MadGraphFn\plusn \PYTHIAS (\MGP) Monte Carlo simulated events, as a function of \httwo for inclusive 2-jet (left) and inclusive 3-jet events (right). The blue line shows the double-sided Crystal Ball function fit of $\frac{{\rm Reco}~\httwo}{{\rm Gen}~\httwo}$ in each Gen \httwo bin, overlayed by Gaussian fitting the core of the resolution (red line).}
     \label{fig:fit_gauss}
   \end{center}
 \end{figure}
@@ -326,7 +326,7 @@ Since the JER is calculated using \MGP~Reco and Gen \httwo distributions, so it 
  \begin{center}
  \hspace*{-5mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Ratio_Reco_2_crystal.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Ratio_Reco_3_crystal.pdf}
- \caption{\MadGraphF \plus \PYTHIAS (\MGP) Gen smeared using extracted jet energy resolution (JER) shows a discrepancy from simulated Reco as Smeared Gen/Gen ratio (red line) does not match with Reco/Gen ratio (blue line), for both inclusive 2-jet (left) and inclusive 3-jet events (right). Smeared Gen/Gen ratio (pink line) where Gen is smeared using 30\% reduced JER matches with simulated Reco/Gen ratio (blue line) within the statistical fluctuations. Hence an additional unfolding uncertainty is attributed by comparison to 30\% reduced JER.}
+ \caption{\MadGraphFn\plusn \PYTHIAS (\MGP) Gen smeared using extracted jet energy resolution (JER) shows a discrepancy from simulated Reco as Smeared Gen/Gen ratio (red line) does not match with Reco/Gen ratio (blue line), for both inclusive 2-jet (left) and inclusive 3-jet events (right). Smeared Gen/Gen ratio (pink line) where Gen is smeared using 30\% reduced JER matches with simulated Reco/Gen ratio (blue line) within the statistical fluctuations. Hence an additional unfolding uncertainty is attributed by comparison to 30\% reduced JER.}
  \label{fig:ratios}
  \end{center}
 \end{figure}
@@ -448,7 +448,7 @@ A closure test has been performed to confirm the working of the unfolding proced
  \hspace*{-3mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_closure_2_range.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_closure_3.pdf}\\
  \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_closure_ratio_32_now.pdf}
- \caption{Reco \MadGraphF \plus \PYTHIAS Monte Carlo (\MGP~MC) differential cross section distributions unfolded with the response matrices (obtained by forward smearing the randomly generated spectrum (Gen) using extracted jet energy resolution (JER)), does not give a good closure with Gen \MGP~MC (blue line), for inclusive 2-jet (top left) and inclusive 3-jet events (top right). After performing the unfolding using 30\% reduced JER, a good closure is obtained (red line). Since unfolded the cross section ratio \ratio is the ratio of unfolded differential cross sections, same behaviour is observed for \ratio (bottom).}
+ \caption{Reco \MadGraphFn\plusn \PYTHIAS Monte Carlo (\MGP~MC) differential cross section distributions unfolded with the response matrices (obtained by forward smearing the randomly generated spectrum (Gen) using extracted jet energy resolution (JER)), does not give a good closure with Gen \MGP~MC (blue line), for inclusive 2-jet (top left) and inclusive 3-jet events (top right). After performing the unfolding using 30\% reduced JER, a good closure is obtained (red line). Since unfolded the cross section ratio \ratio is the ratio of unfolded differential cross sections, same behaviour is observed for \ratio (bottom).}
  \label{fig:unfolded_reco_NLO}
  \end{center}
 \end{figure}
@@ -501,9 +501,9 @@ After the unfolding, the final statistical uncertainties become correlated among
  \end{center}
 \end{figure}
  % and in : \\ https://twiki.cern.ch/twiki/bin/viewauth/CMS/ JECUncertaintySources\#Winter14\_uncertainties. 
-\subsection{Jet Energy Corrections Uncertainties}
+\subsection{Jet Energy Corrections Uncertainty}
 
-As explained in Sec.\qm, the measured jet energy is corrected for a variety of detector effects by applying jet energy corrections (JEC) \cite{Khachatryan:2016kdb}. There are 25 mutually independent sources which contribute to JEC. Each source presents a 1$\sigma$ shift and is fully correlated in \pt and $\eta$ but uncorrelated to all other sources. The observable is studied with the nominal values of the jet energy which gives nominal distributions as well as by varying up and down the energy of all jets by the uncertainty. The differences between the nominal distributions and the ones obtained by varying the jet energy gives the uncertainties from each source. The JEC uncertainties can be asymmetric in nature which leads to separate treatment of upwards and downwards variation of each source. The sum in quadrature of uncertainties from all sources gives the total JEC uncertainty. In the current analysis, JEC uncertainties are a dominant source of experimental uncertainty at low \httwo. The JEC uncertainty ranges from 3\% to 10\% for \njt~and from 3\% to 8\% for \njth~events cross sections measurement. To calculate JEC uncertainty for ratio \ratio, the inclusive 2-jet and 3-jet events cross sections are measured as a function of \httwo by shifting the jet \pt according to the JEC uncertainty for each source of JEC separately. Then the ratio of these cross sections is taken and the difference of these from the central ratio \ratio, gives the JEC uncertainty for \ratio. As expected, JEC uncertainty for \ratio is small as compared to that for individual cross sections and is about 1-2\% over all \httwo bins.
+As explained in Sec.\qm, the measured jet energy is corrected for a variety of detector effects by applying jet energy corrections (JEC) \cite{Khachatryan:2016kdb}. There are 25 mutually independent sources which contribute to JEC. Each source presents a 1$\sigma$ shift and is fully correlated in \pt and $\eta$ but uncorrelated to all other sources. The observable is studied with the nominal values of the jet energy which gives nominal distributions as well as by varying up and down the energy of all jets by the uncertainty. The differences between the nominal distributions and the ones obtained by varying the jet energy gives the uncertainties from each source. The JEC uncertainties can be asymmetric in nature which leads to separate treatment of upwards and downwards variation of each source. The sum in quadrature of uncertainties from all sources gives the total JEC uncertainty. In the current analysis, JEC uncertainties are a dominant source of experimental uncertainty at low \httwo. The JEC uncertainty ranges from 3\% to 10\% for \njt~and from 3\% to 8\% for \njth~events cross sections measurement. To calculate JEC uncertainty for ratio \ratio, the inclusive 2-jet and 3-jet events cross sections are measured as a function of \httwo by shifting the jet \pt according to the JEC uncertainty for each source of JEC separately. Then the ratio of these cross sections is taken and the difference of these from the central ratio \ratio, gives the JEC uncertainty for \ratio. As expected, JEC uncertainty for \ratio is small as compared to that for individual cross sections and is about 1 to 2\% over all \httwo bins.
 
  The sources of JEC considered in this analysis are : AbsoluteStat, AbsoluteScale, AbsoluteFlavMap, AbsoluteMPFBias, Fragmentation, SinglePionECAL, SinglePionHCAL, FlavorQCD, RelativeJEREC1, RelativeJEREC2, RelativeJERHF, RelativePtBB, RelativePtEC1, RelativePtEC2, RelativePtHF, RelativeFSR, RelativeStatFSR, RelativeStatEC2, RelativeStatHF, PileUpDataMC, PileUpPtRef, PileUpPtBB, PileUpPtEC1, PileUpPtEC2 and PileUpPtHF. The AbsoluteFlavMap uncertainty is exactly zero for the 8 TeV and can be ignored. For the four sources : RelativeJERHF, RelativePtHF, RelativeStatHF, PileUpPtHF, the JEC uncertainty is exactly zero because of $|y|$ \ls 2.5 cut used in the analysis. So only 20 sources contribute to the total JEC uncertainty. The Figs.~\ref{fig:jes1}-\ref{fig:jes3} show the JEC uncertainty from each source separately for inclusive 2-jet (top) and 3-jet events cross sections (middle) as for cross section \ratio (bottom). Depending on the origin of sources, they are categorized into four groups which are described below in brief :
 
@@ -519,7 +519,7 @@ As explained in Sec.\qm, the measured jet energy is corrected for a variety of d
 
 The details of the jet energy corrections and uncertainties can be found in \cite{JEC}. 
 
-\subsection{Unfolding Uncertainties}
+\subsection{Unfolding Uncertainty}
 \label{sec:unfolding_unc}
 
 The unfolding uncertainty is comprised of three uncertainties which are explained as follows :
@@ -560,15 +560,22 @@ After calculating the uncertainties from all the above mentioned sources, the to
   \vspace{2mm}
   \begin{tabular}{cccc}
     \hline\hline
-     Uncertainty Source & {\bf Inclusive 2-jet} & {\bf Inclusive 3-jet} & {\bf \ratio}\rbthm\\\hline     
+     {\bf Uncertainty Source}    & {\bf Inclusive 2-jet} & {\bf Inclusive 3-jet} & {\bf \ratio}  \rbthm\\\hline     
+     Statistical                 & \ls 1 to 30\%         & \ls 1 to 27\%         & \ls 1 to 28\% \rbtrr\\
+     Jet energy corrections (JEC)& 3 to 10\%             & 3 to 8\%              & 1 to 2\%      \rbtrr\\
+     Unfolding                   & 1 to 2\%              & 1 to 2\%              & \ls 1\%       \rbtrr\\
+     Luminosity                  & 2.6\%                 & 2.6\%                 & cancels       \rbtrr\\
+     Residual                    & 1\%                   & 1\%                   & cancels       \rbtrr\\\hline
+     Total                       & 4 to 32\%             & 4 to 28\%             & 1 to 28\%     \rbtrr\\  
+  \hline\hline
+  \end{tabular}
+\end{table}
+\begin{comment}
      {\bf Statistical}  & \ls 1 to 30\% & \ls 1 to 27\% & \ls 1 to 28\% \rbtrr\\
      {\bf \textcolor{blue2}{Jet energy corrections (JEC)}}  & 3 to 10\% & 3 to 8\% & 1 to 2\%\rbtrr\\
      {\bf \textcolor{green}{Unfolding}} & 1-2\% & 1-2\% & \ls 1\% \rbtrr\\
      {\bf \textcolor{myred}{Luminosity}} & 2.6\% & 2.6\% & cancels\rbtrr\\
      {\bf \textcolor{lightpurple}{Residual}} & 1\% & 1\% & cancels \rbtrr\\\hline
      {\bf Total} & 4 to 32\% & 4 to 28\% & 1 to 28\% \rbtrr\\
-  \hline\hline
-  \end{tabular}
-\end{table}
-
+\end{comment}
 The complete data analysis of the differential inclusive 2-jet and inclusive 3-jet events cross sections as well as their ratio \ratio has been presented as a function of \httwo. The measured spectrums after correcting for detector effects through the unfolding procedure, are compared with the next-to-leading order (NLO) pQCD calculations in the next chapter.

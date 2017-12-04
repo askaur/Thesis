@@ -140,7 +140,6 @@ void total_unc_all_2_NLO_add(){
      hJERup_frac->Print("all"); 
   */ 
   hStatp->SetTitle("");	
-  gStyle->SetLineStyleString(11,"40 15"); 
   
   TCanvas *c = new TCanvas("c", "",500,400);
   c->Range(2.318121,0.4327759,3.346459,1.683612);
