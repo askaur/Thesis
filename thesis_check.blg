@@ -4,16 +4,28 @@ The top-level auxiliary file: thesis_check.aux
 A level-1 auxiliary file: title.aux
 A level-1 auxiliary file: Measurement.aux
 A level-1 auxiliary file: Theory_Predictions.aux
+A level-1 auxiliary file: Alphas.aux
 A level-1 auxiliary file: Appendix.aux
 The style file: ieeetr.bst
 Database file #1: thesis.bib
+Warning--I didn't find a database entry for "Khachatryan:2014waa"
+Warning--I didn't find a database entry for "Chetyrkin:2000yt"
+Warning--I didn't find a database entry for "Schmidt:2012az"
+Warning--I didn't find a database entry for "Patrignani:2016xmw"
+Warning--I didn't find a database entry for "Chatrchyan:2013haa"
+Warning--I didn't find a database entry for "ATLAS:2015yaa"
+Warning--I didn't find a database entry for "Abazov:2009nc"
+Warning--I didn't find a database entry for "Abazov:2012lua"
+Warning--I didn't find a database entry for "Andreev:2014wwa"
+Warning--I didn't find a database entry for "Andreev:2016tgi"
+Warning--I didn't find a database entry for "Abramowicz:2012jz"
 Warning--empty journal in CMS:2010xta
 Warning--empty journal in CMS:2011esa
 Warning--empty journal in DAgostini
 Warning--empty journal in CMS:2013gfa
 You've used 45 entries,
             1876 wiz_defined-function locations,
-            752 strings with 11141 characters,
+            775 strings with 11495 characters,
 and the built_in function-call counts, 11862 in all, are:
 = -- 1182
 > -- 441
@@ -52,4 +64,4 @@ warning$ -- 4
 while$ -- 95
 width$ -- 47
 write$ -- 454
-(There were 4 warnings)
+(There were 15 warnings)

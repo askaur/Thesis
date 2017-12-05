@@ -1,147 +1,21 @@
-\chapter{Extraction of the strong coupling constant}
-\label{chap:Alphas}
-\begin{comment}
-The inclusive jet production measurements at hadron colliders provides a direct probe to measure the strong coupling constant \alps.
-A previous measurement of \alps has been carried out from inclusive 
-jet measurement at $\sqrt{s}$ = 7TeV \cite{Khachatryan:2014waa} and also from Tevatron experiments \cite{D0Alpha1, D0Alpha2}. The current analysis also broadly follows the same procedure for extraction of \alps.
-
-The extraction of $\alps$ is performed by fitting chi-square between measured \httwo and theory prediction.
-
-The differential inclusive jet production cross section upto at NLO is given by \cite{ALPHASCDF}:
-
- \begin{equation}
- \frac{d\sigma}{d(\httwo)} = \alpha_S^2(\mur)\hat{X}^{(0)}(\muf,(\httwo))[1 + \alpha_S(\mur)K1(\mur, \muf,(\httwo))] \,,
- \label{eqn:SigmaNLO}
- \end{equation}
-
- where $\frac{d\sigma}{d(\httwo)}$ is the differential inclusive-jet production cross section as a function of jet \httwo, \mur and
-\muf are the renormalization and factorization scales set equal to jet \httwo, $\alpha_S^2(\mur)\hat{X}^{(0)}(\muf,(\httwo))$ is the
-leading order contribution to the differential inclusive-jet production cross section and $\alpha_S^3(\mur)\hat{X}^{(0)}(\muf,(\httwo))K1(\mur, \muf,(\httwo))$ is the NLO contribution. Equation~\ref{eqn:SigmaNLO} shows how the inclusive jet production cross section varies with $\alpha_S(\mur)$. This NLO cross section is corrected with the electroweak correction factors and NP correction factors.
-
-For a fixed choice of $\mur, \muf$, different input values of \alps will lead to different theory predictions of the differential cross section distribution, giving an estimate of the sensitivity of the theory predictions with varying input value of \alps. A comparison with the measured spectrum gives an estimate of the input value of \alps for which the theory distribution has the closest matching with data.
-
-The measured inclusive 2-jet and 3-jet event cross sections can be used for a determination of the strong coupling constant
-\alpsmz. In the following section, the sensitivity of the inclusive differential jet cross section and ratio, \ratio to \alpsmz
-is demonstrated and the fitting procedure is explained in details before presenting the outcome of the diverse fits of \alpsmz.
-
-\subsection{Sensitivity of the inclusive differential jet cross sections and their ratio, \texorpdfstring{\ratio}{R-32} to \texorpdfstring{\alpsmz}{alpha-S(M(Z))}}
-\label{sec:sensitivity}
-
-First we have studied the sensitivity of the theory spectrum with varying \alps inputs for each PDF set. Figures~\ref{fig:sensitivity_2},~\ref{fig:sensitivity_3} and~\ref{fig:R32_sensitivity} present the ratio of data to 
-the theory predictions for all variations in \alpsmz available for the PDF sets CT10, CT14, MSTW2008, MMHT2014 and NNPDF2.3 at NLO 
-evolution order as specified in Table~\ref{tab:chap2:nlopdfsets}, for inclusive 2-jet, inclusive 3-jet and ratio \ratio respectively. The \alpsmz value is varied in the range 0.112-0.127, 0.111-123, 0.110-0.130, 0.108-0.128 and 0.114-0.124 in steps of 0.001 for the CT10, CT14, MSTW2008, MMHT2014 and 
-NNPDF2.3PDF sets, respectively. The error bars correspond to the total
-experimental uncertainty derived as quadratic sum from all
-uncertainty sources. For brevity, the relative factor of NP between data and theory has been indicated as ``Data/NP'' in the legend. In Figure ~\ref{fig:sensitivity_2}, the theory predictions are also corrected for EWK.
-
-A small slope increasing with \httwo is visible for most PDFs in both cross sections.  This effect is largely cancelled in the cross section ratio. \ratio exhibits a flat behaviour with respect to the predictions for all five PDF sets in the whole range of \httwo up to 1.68 TeV. Therefore, these data can be used to determine the strong coupling constant, although only up to
-1\TeV for the cross sections as long as electroweak corrections are
-not taken into account.
-
-Moreover, the different sensitivity to \alpsmz caused by the leading
-power in \alps in the expansion of the 2-jet inclusive
-($\propto\alps^2$) and the 3-jet inclusive cross section
-($\propto\alps^3$), and their ratio ($\propto\alps^1$) is clearly
-visible from the spread between the calculations for the smallest and
-largest value of \alpsmz within the same PDF set when passing through
-Figures~\ref{fig:sensitivity_2}--\ref{fig:R32_sensitivity}.  This
-also demonstrates the potential of ratios $R_{mn}$ with $m-n>1$.
-
-\begin{figure}[!htbp]
-  \begin{center}
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_2_ratio_NLO_CT10_EW.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_2_ratio_NLO_CT14_EW.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_2_ratio_NLO_MSTW2008_EW.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_2_ratio_NLO_MMHT2014_EW.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_2_ratio_NLO_NNPDF23_EW.pdf}
-    \caption{Ratio of the inclusive 2-jet differential cross section to theory predictions using the CT10 (top left), the CT14 (top right),
-      the MSTW2008 (middle left), the MMHT2014 (middle right) and NNPDF2.3 (bottom) NLO PDF sets for a 
-      series of values of \alpsmz. The \alpsmz value is varied in the range 0.112-0.127, 0.111-123, 0.110-0.130, 0.108-0.128 and 0.114-0.124 in steps of 0.001 for the CT10, CT14, MSTW2008, MMHT2014 and NNPDF2.3 NLO PDF sets, respectively. The error bars correspond to the total experimental uncertainty. For brevity, the relative factor of NP and EWK
-      between data and theory has been indicated as ``Data/(NP x EWK)'' in
-      the legend.}
-    \label{fig:sensitivity_2}
-  \end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-  \begin{center}
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_3_ratio_NLO_CT10.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_3_ratio_NLO_CT14.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_3_ratio_NLO_MSTW2008.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_3_ratio_NLO_MMHT2014.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_3_ratio_NLO_NNPDF23.pdf}
-    \caption{Ratio of the inclusive 3-jet differential cross section to theory predictions using the CT10 (top left), the CT14 (top right),
-      the MSTW2008 (middle left), the MMHT2014 (middle right) and NNPDF2.3 (bottom) NLO PDF sets for a 
-      series of values of \alpsmz. The \alpsmz value is varied in the range 0.112-0.127, 0.111-123, 0.110-0.130, 0.108-0.128 and 0.114-0.124 in steps of 0.001 for the CT10, CT14, MSTW2008, MMHT2014 and NNPDF2.3 NLO PDF sets, respectively. The error bars correspond to the total experimental uncertainty. For brevity, the relative factor of NP 
-      between data and theory has been indicated as ``Data/NP'' in
-      the legend.}
-    \label{fig:sensitivity_3}
-  \end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-  \begin{center}
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_double_ratio_32_CT10.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_double_ratio_32_CT14.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_double_ratio_32_MSTW2008.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_double_ratio_32_MMHT2014.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_double_ratio_32_NNPDF23.pdf}
-    \caption{Ratio of the ratio, \ratio to theory predictions using the CT10 (top left), the CT14 (top right),
-      the MSTW2008 (middle left), the MMHT2014 (middle right) and NNPDF2.3 (bottom) NLO PDF sets for a 
-      series of values of \alpsmz. The \alpsmz value is varied in the range 0.112-0.127, 0.111-123, 0.110-0.130, 0.108-0.128 and 0.114-0.124 in steps of 0.001 for the CT10, CT14, MSTW2008, MMHT2014 and NNPDF2.3 NLO PDF sets, respectively. The error bars correspond to the total experimental uncertainty. For brevity, the relative factor of NP 
-      between data and theory has been indicated as ``Data/NP'' in
-      the legend.}
-    \label{fig:sensitivity_double_ratio}
-  \end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-  \begin{center}
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_ratio_32_CT10.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_ratio_32_CT14.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_ratio_32_MSTW2008.pdf}%
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_ratio_32_MMHT2014.pdf}\\
-    \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Sensitivity_Pdfs/Sensitivity_ratio_32_NNPDF23.pdf}
-    \caption{The NLO predictions using the CT10 (top left), the CT14 (top right),
-      the MSTW2008 (middle left), the MMHT2014 (middle right) and NNPDF2.3 (bottom) NLO PDF sets for a 
-      series of values of \alpsmz, together with the measured \ratio. 
-      The \alpsmz value is varied in the range 0.112-0.127, 0.111-123, 0.110-0.130, 0.108-0.128 and 0.114-0.124 in steps of 0.001 for the CT10, CT14, MSTW2008, MMHT2014 and NNPDF2.3 NLO PDF sets, respectively. The error bars correspond to the total experimental uncertainty. For brevity, the relative factor of NP 
-      between data and theory has been indicated as ``Data/NP'' in
-      the legend.}
-    \label{fig:R32_sensitivity}
-  \end{center}
-\end{figure}
-
-\subsection{The fitting procedure and fit results}
+\chapter{Fits of the strong coupling constant}
 \label{sec:Fits}
-As discussed in the previous section, the measured inclusive 2-jet and
-3-jet event cross sections and their ratio \ratio can be used for a
-determination of the strong coupling constant \alpsmz. The value of
-\alpsmz is determined by minimizing the \chisq between the
-experimental measurement and the theoretical predictions. The fit
-procedure here follows closely the one previously used in
-Refs.~\cite{Chatrchyan:2013txa} and~\cite{Khachatryan:2014waa}. The
-\chisq is defined as:
+
+As discussed in the previous section, the measured inclusive 2-jet and 3-jet event cross sections and their ratio \ratio can be used for a determination of the strong coupling constant \alpsmz. The value of \alpsmz is determined by minimizing the \chisq between the experimental measurement and the theoretical predictions. The fit procedure here follows closely the one previously used in Refs.~\cite{Chatrchyan:2013txa} and~\cite{Khachatryan:2014waa}. The \chisq is defined as:
 
 \begin{equation}
   \label{chisq}
   \chisq = M^{T}C^{-1}M\,,
 \end{equation}
 
-where $M$ is the vector of the differences between the data ($D^{i}$)
-and the theoretical values ($T^{i}$) in each bin $i$,
+where $M$ is the vector of the differences between the data ($D^{i}$) and the theoretical values ($T^{i}$) in each bin $i$,
 
 \begin{equation}
   \label{eqn:M_matrix}
   M^{i}=D^{i}-T^{i}
 \end{equation}
 
-and $C$ is the covariance matrix including all experimental
-uncertainties as described in Section~\ref{sec:Measurement} and some
-theoretical uncertainties. More precisely,
-$C=C_\mathrm{exp}+C_\mathrm{theo}$ is defined as the sum of
-covariances of experimental and theoretical sources of uncertainty as
-follows
+and $C$ is the covariance matrix including all experimental uncertainties as described in Section~\ref{sec:Measurement} and some theoretical uncertainties. More precisely, $C=C_\mathrm{exp}+C_\mathrm{theo}$ is defined as the sum of covariances of experimental and theoretical sources of uncertainty as follows
 
 \begin{eqnarray}
   \label{eqn:c_exp}
@@ -154,11 +28,10 @@ follows
   \label{eqn:c_theo}
 \end{eqnarray}
 
-where the labelled covariance matrices account for the following
-effects:
+where the labelled covariance matrices account for the following effects:
 
 \begin{itemize}
-\item{$\mathrm{Cov}^\mathrm{ExpStat}$: statistical uncertainty of the
+\item{$\mathrm{Cov}^\mathrm{ExpStat}$: the statistical uncertainty of the
     data including correlations introduced by the unfolding,}
 \item{$\mathrm{Cov}^\mathrm{JEC}$: the JEC
 systematic uncertainty,}
@@ -166,43 +39,18 @@ systematic uncertainty,}
     uncertainty including the JER,}
 \item{$\mathrm{Cov}^\mathrm{Lumi}$: the luminosity uncertainty,}
 \item{$\mathrm{Cov}^\mathrm{Uncor}$: a residual uncorrelated
-    systematic uncertainty summarizing individual causes such as small
-    trigger and identification inefficiencies, time dependence of the
+    systematic uncertainty summarizing individual causes such as trigger and identification
+    inefficiencies, time dependence of the
     jet \pt resolution, and uncertainty on the trigger prescale
     factors,}
-\item{$\mathrm{Cov}^\mathrm{TheoStat}$: statistical uncertainty caused
+\item{$\mathrm{Cov}^\mathrm{TheoStat}$: the statistical uncertainty caused
     by numerical integrations in the cross section computations,}
 \item{$\mathrm{Cov}^\mathrm{NP}$: the systematic uncertainty of the
     NP corrections, and}
-\item{$\mathrm{Cov}^\mathrm{PDF}$: the PDF uncertainties.}
+\item{$\mathrm{Cov}^\mathrm{PDF}$: the PDF uncertainty.}
 \end{itemize}
 
-The Unfolding, JEC, Lumi and PDF and NP systematics are treated as 100$\%$ correlated among \httwo bins. If $\delta_i$ is the
-total uncertainty on the double differential cross section, for the $i$-th \httwo bin, for any of these fully correlated sources, then the
-$i,j$-th element of the corresponding covariance matrix is given by
-\begin{equation*}
- COV_{ij} = \delta_i \times \delta_j
-\end{equation*}
-
-In fits of the ratio \ratio, the luminosity and residual uncorrelated
-uncertainties cancel completely. Partial cancellations between the
-other sources of uncertainty are taken into account in the fit.
-
-The scale uncertainty is obtained by
-varying the renormalization and factorization
-scale by the six combinations of scale factors : ($\mu_F/\mu,\mu_R/\mu) = (0.5,0.5)$, $(2,2)$, $(1,0.5)$, $(1,2)$,
-$(0.5,1)$, $(2,1)$, where $\mu=$ \httwo. The largest upwards and downwards deviations from the default factors are defined as the
-scale uncertainty.
-
-The treatment of PDF uncertainty depends on the individual PDF set. The PDF covariance matrix construction varies among different PDF sets. CT10 NLO PDF set has $N_{ev}=$26 eigen vectors with two PDF members viz. positive('+') and negative('-'). The PDF sets are denoted as $S_k^{\pm}$ for a given eigen vector $k$. Symmetric uncertainties due to PDF are then calculated using the formula \cite{CT10ERR}:
-
-\begin{equation}
-(\Delta X)^2 = \frac{1}{4} \sum_{k=1}^{N_{ev}} [X(S_k^{+}) - X(S_k^{-})]^2 \,,
-\end{equation}
-
-where $X(S_k^{\pm})$ are the double differential inclusive jet cross section for the $S_k^{\pm}$ PDF eigenvectors respectively.
-The CT10 uncertainties are downscaled by a factor of 1.64 in order to have the uncertainties at the 68.3\% confidence level CL(1$\sigma$)
-instead of 90\% CL(2$\sigma$).  
+In fits of the ratio \ratio, the luminosity and residual uncorrelated uncertainties cancel completely. Partial cancellations between the other sources of uncertainty are taken into account in the fit. The JEC, unfolding, and luminosity uncertainties are treated as multiplicative to avoid the statistical bias that arises when estimating uncertainties from data.
 
 % The JES, unfolding, and luminosity uncertainties can be treated as
 % multiplicative or additive.  When an uncertainty source is treated
@@ -214,36 +62,20 @@ instead of 90\% CL(2$\sigma$).
 % luminosity uncertainties are multiplicative uncertainties and
 % treated in this way.
 
-The NNPDF2.3 PDF set comes with hundred different replicas ($N_{rep}$) instead of different eigenvectors, as for the previously discussed PDF sets. The mean uncertainty is calculated as average uncertainty from 100 different replicas. Following the prescription given in~\cite{NNPDFERR}, the PDF uncertainty is calculated as :
+The derivation of PDF uncertainties depends on each PDF set. The CT10 PDF set consists of $N_\mathrm{ev}=26$ eigenvectors with two PDF members per eigenvector $k$, which lead to the predictions $S_{k}^{\pm}$ that follow from PDF variations with respect to the plus and minus directions of eigenvector $k$. Symmetric uncertainties as required by the use of covariance matrices are then computed by~\cite{Pumplin:2002vw}:
 
 \begin{equation}
-(\Delta X)^2 = \frac{1}{N_{rep}-1} \sum_{k=1}^{N_{rep}} [X(S_k) - \langle X(S_k) \rangle]^2 \,,
+  \label{ct10unc}
+  (\Delta X)^2 = \frac{1}{4} \sum \limits_{k=1}^{N_\mathrm{ev}} [X(S_{k}^{+})-X(S_{k}^{-})]^2\,,
 \end{equation}
 
-where $\Delta X$ is the uncertainty on predicted double differential cross section, $X(S_k)$ is the double differential cross section for $k$-th replica and $\langle X \rangle$ is the average double differential cross section from all the replicas. 
+where $\Delta X$ is the uncertainty of the cross section and $X(S_{k}^{\pm})$ is the predicted cross section for each eigenvector orientation, $+$ or $-$.
 
-The MSTW-2008 NLO PDF sets are also used to cross-check the \alpsmz extraction. The PDF uncertainties are derived in the same way as CT10, using 20 `+' and `-' eigenvectors.
+Scale uncertainties of the pQCD predictions are taken into account employing the offset method, \ie by performing separate fits with varying scale factors as described in the previous section. The largest upwards and downwards deviations from the default factors are defined as the uncertainty. At NLO such scale variations predominantly lead to smaller cross sections and also a smaller ratio \ratio as visible in Fig.~\ref{fig:theory_unc}. As a consequence the scale uncertainty in fits is equally asymmetric, where smaller cross sections or ratios are compensated by an increase in the fitted value for \alpsmz.
 
-First, fits to the cross sections are performed, where the range in
-\httwo is restricted to be between 300\GeV and 1\TeV to avoid the
-region close to the minimal \pt threshold of 150\GeV for each jet at
-low \pt and the onset of electroweak effects at high \pt, which are
-available for the dijet case only. The results are reported in
-Table~\ref{tab:xsep300-1000} for the 2-jet and 3-jet event cross
-sections and in Table~\ref{tab:xcomb300-1000} for a simultaneous fit
-of both cross sections and for their ratio. In the ratio, EWK effects
-are assumed to cancel as do the luminosity and the uncorrelated
-uncertainty.
+First, fits to the cross sections are performed, where the range in \httwo is restricted to be between 300\GeV and 1\TeV to avoid the region close to the minimal \pt threshold of 150\GeV for each jet at low \pt and the onset of electroweak effects at high \pt, which are available for the dijet case only. The results are reported in Table~\ref{tab:xsep300-1000} for the 2-jet and 3-jet event cross sections. For comparison, a simultaneous fit to both cross sections ignoring any correlations, and a fit to their ratio fully accounting for correlations are given in Table~\ref{tab:xcomb300-1000}. Also, EWK effects are assumed to cancel in the ratio as do the luminosity and the uncorrelated uncertainty.
 
-All cross section fits give compatible values for \alpsmz in the range
-of 0.115--0.118; for the ratio \ratio somewhat smaller values are
-obtained.  A common issue, except for the ratio fits, is the rather
-small \chisqndof. A possible explanation is an overestimation of the
-residual uncorrelated uncertainty of 1\% that is cancelled for \ratio.
-If the fits are repeated with an assumed uncertainty of 0.25\%
-instead, the \chisqndof values lie around unity while the \alpsmz
-values are still compatible with the previous results but with
-slightly reduced uncertainties.
+All cross section fits give compatible values for \alpsmz in the range of 0.115--0.118; for the ratio \ratio somewhat smaller values are obtained. A common issue, except for the ratio fits, is the rather small \chisqndof. A possible explanation is an overestimation of the residual uncorrelated uncertainty of 1\% that is cancelled for \ratio. If the fits are repeated with an assumed uncertainty of 0.25\% instead, the \chisqndof values lie around unity while the \alpsmz values are still compatible with the previous results but with slightly reduced uncertainties.
 
 %
 % 300 - 1000 GeV
@@ -298,7 +130,10 @@ slightly reduced uncertainties.
     \ratio using five PDF sets at NLO\@. Only
     total uncertainties without scale variations are quoted.
     The results are obtained from a simultaneous fit to all 38 (19) \httwo
-    bins in the restricted range of $0.3 < \httwo < 1.0\TeV$.}
+    bins in the restricted range of $0.3 < \httwo < 1.0\TeV$. For comparison,
+    correlations between the two cross sections are neglected in the
+    simultaneous fit on the left, but fully taken into account in the
+    ratio fit on the right.}
   \label{tab:xcomb300-1000}
   \centering
   \begin{tabular}{lcccccc}
@@ -330,15 +165,7 @@ slightly reduced uncertainties.
   \end{tabular}
 \end{table}
 
-To investigate how the EWK corrections affect the fit results for
-\alpsmz, the range in \httwo is extended to $0.3 < \httwo < 1.68\TeV$.
-Table~\ref{tab:xsep300-1680} reports the values obtained for \alpsmz
-from fits to the 2-jet event cross section in this range with or
-without EWK factors. The largest impact is a reduction in \chisqndof,
-which indicates a better agreement when EWK effects are included. In
-addition, a tendency to slightly smaller \alpsmz values is observed
-without the EWK corrections. For the ratio \ratio it is expected that
-these effects are much reduced.
+To investigate how the EWK corrections affect the fit results for \alpsmz, the range in \httwo is extended to $0.3 < \httwo < 1.68\TeV$. Table~\ref{tab:xsep300-1680} reports the values obtained for \alpsmz from fits to the 2-jet event cross section in this range with or without EWK correction factors. The largest impact is a reduction in \chisqndof, which indicates a better agreement when EWK effects are included. In addition, a tendency to slightly smaller \alpsmz values is observed without the EWK corrections. For the ratio \ratio it is expected that these effects are much reduced.
 
 %
 % 300 - 1680 GeV, 2j only, w/o ew
@@ -354,8 +181,8 @@ these effects are much reduced.
   \centering
   \begin{tabular}{lcccccc}
     \hline\hline
-    \multirow{2}{*}{PDF set} & \multicolumn{3}{c}{2-jets, no EWK} &
-			    \multicolumn{3}{c}{2-jets, with EWK} \\
+    \multirow{2}{*}{PDF set} & \multicolumn{3}{c}{2-jets, without EWK} &
+    \multicolumn{3}{c}{2-jets, with EWK} \\
     & \alpsmz & $\pm\Delta\alpsmz$ & \chisqndof &\alpsmz & $\pm\Delta\alpsmz$ & \chisqndof \\\hline
     % v2                         v2 ew
     % % ABM11          & 0.1260 & 0.0019 & 50./28 & 0.1272 & 0.0018 & 39./28 \\
@@ -375,30 +202,25 @@ these effects are much reduced.
   \end{tabular}
 \end{table}
 
-From Figure~\ref{fig:R32_sensitivity} follows that only the PDF sets
-MSTW2008 and MMHT2014 provide a large enough range in \alpsmz values
-to ensure fits without extrapolation. The other three PDF sets are at
-the limit such that reliable fits cannot be performed for all scale
-settings and/or bins in scale
-$Q=\httwo$. Tables~\ref{tab:xcomb300-1680}--\ref{tab:as_values_qbins}
-give the complete results for MSTW2008 and MMHT2014 for the full range
-in \httwo of 0.3\TeV up to 1.68\TeV, for scale variations in this
-range, and for subranges in \httwo.
+From Fig.~\ref{fig:R32_sensitivity} follows that only the PDF sets MSTW2008 and MMHT2014 provide a large enough range in \alpsmz values to ensure fits without extrapolation. The other three PDF sets are at the limit such that reliable fits cannot be performed for all scale settings and/or bins in scale $Q=\httwo$. Tables~\ref{tab:xcomb300-1680}--\ref{tab:as_values_qbins} give the complete results for MSTW2008 and MMHT2014 for the full range in \httwo of 300\GeV up to 1.68\TeV, for scale variations in this range, and for subranges in \httwo.
 
-Using the MSTW PDF set, which dates from before the LHC start, the
-strong coupling constant finally is determined to
+Using the MSTW2008 PDF set, which dates from before the LHC start, the strong coupling constant finally is determined to
 %
 \begin{eqnarray*}
   \alpsmz &=& 0.1150\,\pm0.0010\,\textrm{(exp)}\,\pm0.0013\,\textrm{(PDF)}\,\pm0.0015\,\textrm{(NP)}\,^{+0.0050}_{-0.0000}\,\textrm{(scale)}\\
   &=& 0.1150\,\pm0.0023\,\textrm{(all except scale)}\,^{+0.0050}_{-0.0000}\,\textrm{(scale)}\,.
 \end{eqnarray*}
 %
-The MMHT PDF set, although using LHC jet data to determine the PDF
+The MMHT2014 PDF set, although using LHC jet data to determine the PDF
 parameters, leads to a very similar result of
 \begin{eqnarray*}
   \alpsmz &=& 0.1142\,\pm0.0010\,\textrm{(exp)}\,\pm0.0013\,\textrm{(PDF)}\,\pm0.0014\,\textrm{(NP)}\,^{+0.0049}_{-0.0006}\,\textrm{(scale)}\\
   &=& 0.1142\,\pm0.0022\,\textrm{(all except scale)}\,^{+0.0049}_{-0.0006}\,\textrm{(scale)}\,.
 \end{eqnarray*}
+
+In contrast to fits at NLO using cross sections, where the scale uncertainty recipe usually leads to a very asymmetric behaviour with the larger uncertainty towards smaller values of \alpsmz, this is inverted for the fits to the cross section ratio.
+
+Table~\ref{tab:asq_values} provides in addition to the extracted \alpsmz value for each range in \httwo the \alpsq values with total uncertainty as evolved to the respective cross-section averaged scale $\langle{}Q\rangle$ in that range. The evolution is performed for five flavours at 2-loop order with the \RunDec program~\cite{Chetyrkin:2000yt, Schmidt:2012az}. The obtained \alpsq points are illustrated in Fig.~\ref{fig:running_alphas} together with the world average~\cite{Patrignani:2016xmw} and results from other measurements of the CMS~\cite{Chatrchyan:2013txa, Chatrchyan:2013haa, Khachatryan:2014waa, CMS:2014mna, Khachatryan:2016mlc}, ATLAS~\cite{ATLAS:2015yaa}, D0~\cite{Abazov:2009nc, Abazov:2012lua}, H1~\cite{Andreev:2014wwa, Andreev:2016tgi}, and ZEUS~\cite{Abramowicz:2012jz} experiments.
 
 %
 % 300 - 1680 GeV, R_32 only, only MSTW/MMHT, pol2, asredrange
@@ -414,8 +236,8 @@ parameters, leads to a very similar result of
   \centering
   \begin{tabular}{lccccccc}
     \hline\hline
-    \multirow{2}{*}{PDF set} & & \multicolumn{5}{c}{\ratio: $\Delta\alpsmz\cdot1000$} & \\
-    & \alpsmz & exp. & PDF & NP & all exc.\ scale & scale & \chisqndof \rbthm\\\hline
+    \multirow{2}{*}{PDF set} & & \multicolumn{5}{c}{\ratio: $\Delta\alpsmz\times1000$} & \\
+    & \alpsmz & exp & PDF & NP & all exc.\ scale & scale & \chisqndof \rbthm\\\hline
     % v1 preapp
     % MSTW2008       & 0.1149 & $\pm10$ & $\pm29$ & $\pm32$ & $^{+45}_{-0}$ & 16./28 \rbtrr\\
     % MMHT2014       & 0.1143 & $\pm10$ & $\pm29$ & $\pm31$ & $^{+47}_{-0}$ & 14./28 \rbtrr\\
@@ -461,7 +283,7 @@ parameters, leads to a very similar result of
     % v3
     $1$    & $1$    & $0.1150$ & $26./28$ & $0.1142$ & $24./28$\rbtrr\\
     $1/2$  & $1/2$  & $0.1165$ & $77./28$ & $0.1160$ & $73./28$\rbtrr\\
-    $2$    & $2$    & $0.1120$ & $18./28$ & $0.1191$ & $18./28$\rbtrr\\
+    $2$    & $2$    & $0.1200$ & $18./28$ & $0.1191$ & $18./28$\rbtrr\\
     $1/2$  & $1$    & $0.1150$ & $53./28$ & $0.1136$ & $48./28$\rbtrr\\
     $1$    & $1/2$  & $0.1150$ & $30./28$ & $0.1142$ & $28./28$\rbtrr\\
     $1$    & $2$    & $0.1155$ & $23./28$ & $0.1147$ & $22./28$\rbtrr\\
@@ -484,11 +306,11 @@ parameters, leads to a very similar result of
   \begin{tabular}{ccccccccccc}
     \hline\hline
     \httwo & % $\langle{}Q\rangle$ &
-    \multicolumn{5}{c}{MSTW2008: $\Delta\alpsmz\cdot1000$} &
-    \multicolumn{5}{c}{MMHT2014: $\Delta\alpsmz\cdot1000$} \\
+    \multicolumn{5}{c}{MSTW2008: $\Delta\alpsmz\times1000$} &
+    \multicolumn{5}{c}{MMHT2014: $\Delta\alpsmz\times1000$} \\
     (\GeV) & % (\GeV) &
-    \alpsmz & exp. & PDF & NP & scale &
-    \alpsmz & exp. & PDF & NP & scale \rbthm\\\hline
+    \alpsmz & exp & PDF & NP & scale &
+    \alpsmz & exp & PDF & NP & scale \rbthm\\\hline
     % v1 preapp
     % 300--420 \rbtrr  & %474 &
     % 0.1169 & $\pm{15}$ & $\pm{27}$      & $^{+73}_{-18}$ &
@@ -540,36 +362,57 @@ parameters, leads to a very similar result of
     \hline\hline
   \end{tabular}
 \end{table}
-%\begin{figure}[!htbp]
-%\begin{center}
-%\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fits/OutputPlot_2j_mstw.pdf}%
-%\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fits/OutputPlot_3j_mstw.pdf}\\
-%\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fits/OutputPlot_nj_mstw.pdf}%
-%\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fits/OutputPlot_r32_mstw.pdf}\\
-%\caption{Variation of Uncorrelated Uncertainty.}
-%\label{fig:unc_variation}
-%\end{center}
-%\end{figure}
 %
-%\begin{figure}[!htbp]
-%\begin{center}
-%\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fits/OutputPlot_2j_100.pdf}%
-%\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fits/OutputPlot_3j_100.pdf}\\
-%\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fits/OutputPlot_nj_100.pdf}%
-%\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fits/OutputPlot_r32_100.pdf}\\
-%\caption{Variation of Pdf sets.}
-%\label{fig:pdf_variation}
-%\end{center}
-%\end{figure}
+% alpha_s(Q) bins
 %
-%\begin{figure}[!htbp]
-%\begin{center}
-%\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fits/OutputPlot_2j_100_nn.pdf}%
-%\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fits/OutputPlot_3j_100_nn.pdf}\\
-%\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fits/OutputPlot_nj_100_nn.pdf}%
-%\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Fits/OutputPlot_r32_100_nn.pdf}\\
-%\caption{Effect of randomized NNPDF samples.}
-%\label{fig:NNPDF}
-%\end{center}
-%\end{figure}
-\end{comment}
+\begin{table}[htbp]
+  \caption{Evolution of the strong coupling constant between the scale
+    of the Z boson mass and the cross-section averaged \httwo scale
+    $\langle{}Q\rangle$ for the separate determinations in each
+    respective fit range. The evolution is performed for five flavours
+    at 2-loop order with the \RunDec
+    program~\cite{Chetyrkin:2000yt, Schmidt:2012az}.}
+  \label{tab:asq_values}
+  \centering
+  \begin{tabular}{cccccc}
+    \hline\hline
+    \httwo & $\langle{}Q\rangle$ & \alpsmz & \alpsq & No.\ of data & \chisqndof\\
+    (\GeV) & (\GeV) & & & points & \rbthm\\\hline
+    % v4
+    300--420 \rbtrr  &  340 &
+    $0.1157\,^{+0.0060}_{-0.0030}$ & $0.0969\,^{+0.0041}_{-0.0021}$ &  4 & 2.8/3 \\
+    420--600 \rbtrr  &  476 &
+    $0.1153\,^{+0.0062}_{-0.0025}$ & $0.0928\,^{+0.0039}_{-0.0016}$ &  6 & 6.1/5 \\
+    600--1000\rbtrr  &  685 &
+    $0.1134\,^{+0.0059}_{-0.0028}$ & $0.0879\,^{+0.0035}_{-0.0017}$ &  9 & 7.1/8 \\
+    1000--1680\rbtrr & 1114 &
+    $0.1147\,^{+0.0074}_{-0.0040}$ & $0.0841\,^{+0.0039}_{-0.0021}$ & 10 & 5.4/9 \\
+    \hline\hline
+  \end{tabular}
+\end{table}
+
+% Superseded H1 alpha_s points:
+% Aaron:2009vs superseded by Andreev:2014wwa
+% Aaron:2010ac superseded by Andreev:2016tgi
+%
+% ATLAS point
+% <Q> = 305; asmz = 0.1173 + 0.0066 - 0.0028~\cite{ATLAS:2015yaa}
+
+\begin{figure}[tbp]
+  \hftwo\includegraphics[width=0.9\textwidth]{Plots_HT_2_150/Running_alphas_8TeV_R32.pdf}\hftwo
+  \caption{The running \alpsq as a function of the scale Q is shown as
+    obtained by using the MSTW2008 NLO PDF set. The solid line and the
+    uncertainty band are drawn by evolving the extracted \alpsmz
+    values using the 2-loop 5-flavour renormalization group equations
+    as implemented in \RunDec~\cite{Chetyrkin:2000yt,Schmidt:2012az}.
+    The dashed line represents the evolution of the world
+    average~\cite{Patrignani:2016xmw} and the black circles correspond
+    to the \alpsq determinations presented in
+    Table~\ref{tab:asq_values}. Results from other measurements of
+    CMS~\cite{Chatrchyan:2013txa, Chatrchyan:2013haa,
+      Khachatryan:2014waa, CMS:2014mna, Khachatryan:2016mlc},
+    ATLAS~\cite{ATLAS:2015yaa}, D0~\cite{Abazov:2009nc,
+      Abazov:2012lua}, H1~\cite{Andreev:2014wwa, Andreev:2016tgi}, and
+    ZEUS~\cite{Abramowicz:2012jz} are superimposed.}
+  \label{fig:running_alphas}
+\end{figure}
