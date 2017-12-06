@@ -37,11 +37,12 @@
 \contentsline {subsection}{\numberline {2.2.3}Non-perturbative Uncertainty}{49}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Total Theoretical Uncertainty}{50}{subsection.2.2.4}
 \contentsline {section}{\numberline {2.3}Comparison of theory to data}{51}{section.2.3}
-\contentsline {chapter}{\numberline {3}Fits of the strong coupling constant}{56}{chapter.3}
-\contentsline {chapter}{Appendix \numberline {A}}{65}{Appendix.a.A}
-\contentsline {section}{\numberline {A.1}Cross Section Ratio, \ensuremath {R_{32}}\xspace }{66}{section.a.A.1}
-\contentsline {section}{\numberline {A.2}Individual Sources of Jet Energy Correction Uncertainties}{67}{section.a.A.2}
-\contentsline {section}{\numberline {A.3}Experimental Uncertainties}{70}{section.a.A.3}
-\contentsline {section}{\numberline {A.4}Theoretical Uncertainties}{73}{section.a.A.4}
-\contentsline {chapter}{Bibliography}{76}{table.caption.59}
-\contentsline {chapter}{Reprints}{83}{chapter*.62}
+\contentsline {chapter}{\numberline {3}Determination of the Strong Coupling Constant}{56}{chapter.3}
+\contentsline {section}{\numberline {3.1}Sensitivity of Measurements to \ensuremath {\alpha _s(M_Z)}\xspace }{57}{section.3.1}
+\contentsline {chapter}{Appendix \numberline {A}}{63}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}Cross Section Ratio, \ensuremath {R_{32}}\xspace }{64}{section.a.A.1}
+\contentsline {section}{\numberline {A.2}Individual Sources of Jet Energy Correction Uncertainties}{65}{section.a.A.2}
+\contentsline {section}{\numberline {A.3}Experimental Uncertainties}{68}{section.a.A.3}
+\contentsline {section}{\numberline {A.4}Theoretical Uncertainties}{71}{section.a.A.4}
+\contentsline {chapter}{Bibliography}{74}{table.caption.55}
+\contentsline {chapter}{Reprints}{81}{chapter*.58}

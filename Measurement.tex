@@ -16,20 +16,20 @@ The cross section ratio \ratio, defined in Eq.~\ref{eq:ratio_32} is obtained by 
 For inclusive 2-jet events (\njt) sufficient data are available up to \httwo = 2000 GeV, while for inclusive 3-jet events (\njth) and the ratio \ratio, the accessible range in \httwo is limited to \httwo \ls 1680 GeV.
 
 \section{Data Samples}
-This measurement uses the data which was collected at the center of mass energy of 8 TeV by CMS experiment in the 2012 run period of the LHC. The 2012 data is taken in four periods A, B, C, D and the data sets are divided into samples according to the run period. Further each sample is grouped into subsets based on the trigger decision. For run B-D, the \texttt{JetMon} stream datasets contain prescaled low trigger threshold paths (HLTPFJet40, 80, 140, 200 and 260) while the \texttt{JetHT} stream datasets contain unprescaled high threshold trigger paths (HLT PFJet320 and 400). For run A, the \texttt{Jet} stream contains all the above mentioned trigger paths. The data to be used in physics analysis must satisfy a certain criteria according to which it should fulfill the validation requirements of data quality monitoring procedure. CMS uses JSON (Java Script Object Notation) format files to store the range of good lumi sections within a run. In the current analysis, the applied certification file\footnote{Cert\_190456\hy 208686\_8TeV\_22Jan2013ReReco\_Collisions12\_JSON} is based on the final event reconstruction of the 2012 CMS data sets. The datasets used in the current study are mentioned in the Table~\ref{tab:dataset} along with the luminosity of each dataset. 
+This measurement uses the data which was collected at the centre-of-mass energy of 8 TeV by CMS experiment in the 2012 run period of the LHC. The 2012 data is taken in four periods A, B, C, D and the data sets are divided into samples according to the run period. Further each sample is grouped into subsets based on the trigger decision. For run B-D, the \texttt{JetMon} stream datasets contain prescaled low trigger threshold paths (HLTPFJet40, 80, 140, 200 and 260) while the \texttt{JetHT} stream datasets contain unprescaled high threshold trigger paths (HLT PFJet320 and 400). For run A, the \texttt{Jet} stream contains all the above mentioned trigger paths. The data to be used in physics analysis must satisfy a certain criteria according to which it should fulfill the validation requirements of data quality monitoring procedure. CMS uses JSON (Java Script Object Notation) format files to store the range of good lumi sections within a run. In the current analysis, the applied certification file\footnote{Cert\_190456\hy 208686\_8TeV\_22Jan2013ReReco\_Collisions12\_JSON} is based on the final event reconstruction of the 2012 CMS data sets. The datasets used in the current study are mentioned in the Table~\ref{tab:dataset} along with the luminosity of each dataset. 
 \begin{table}[!htbp]
 \centering
-\caption{Run range and luminosity of the proton-proton collisions data collected at the center of mass energy of 8 TeV by CMS experiment in the year of 2012 in four different run periods A, B, C and D.}
+\caption{Run range and luminosity of the proton-proton collisions data collected at the centre-of-mass energy of 8 TeV by CMS experiment in the year of 2012 in four different run periods A, B, C and D.}
 \label{tab:dataset}
 \vspace{2mm}
-\begin{tabular}{cccc}
+\begin{tabular}{cclc}
 \hline\hline
-{\bf Run}  & {\bf Run range}  &  {\bf Data set}   & \makecell{{\bf Luminosity} \\ \fbinv} \rbthm\\\hline
+{\bf Run}  & {\bf Run range} &  {\bf \hspace*{32mm}Data set}          & \makecell{{\bf Luminosity} \\ \fbinv} \rbthm\\\hline
 
-A    & 190456-193621   & /Jet/Run2012A-22Jan2013-v1/AOD         & 0.88  \rbtrr\\
-B    & 193834-196531   & /Jet[Mon,HT]/Run2012B-22Jan2013-v1/AOD & 4.41  \rbtrr\\
-C    & 198022-203742   & /Jet[Mon,HT]/Run2012C-22Jan2013-v1/AOD & 7.06  \rbtrr\\
-D    & 203777-208686   & /Jet[Mon,HT]/Run2012D-22Jan2013-v1/AOD & 7.37  \rbtrr\\
+   A       & 190456-193621   & /Jet/Run2012A-22Jan2013-v1/AOD         & 0.88  \rbtrr\\
+   B       & 193834-196531   & /Jet[Mon,HT]/Run2012B-22Jan2013-v1/AOD & 4.41  \rbtrr\\
+   C       & 198022-203742   & /Jet[Mon,HT]/Run2012C-22Jan2013-v1/AOD & 7.06  \rbtrr\\
+   D       & 203777-208686   & /Jet[Mon,HT]/Run2012D-22Jan2013-v1/AOD & 7.37  \rbtrr\\
 \hline\hline
 \end{tabular}
 \end{table}
@@ -45,12 +45,12 @@ The cross section measured as a function of the transverse momentum \pt or the s
 \caption{The official Monte Carlo samples are produced in phase space slices in \HT with the generator \MadGraphF and interfaced to \PYTHIAS for the parton shower and motorization of the events. The cross section and number of events generated are mentioned for each sample.}
 \label{tab:dataset_MC}
 \vspace{2mm}
-\begin{tabular}{cccc}
+\begin{tabular}{lccc}
 \hline\hline
 {\bf Generator}  & {\bf Sample}  &  {\bf Events}   & \makecell{{\bf Cross Section} \\ pb}  \rbthm\\\hline
  & \makecell{{\tiny /QCD\_HT-100To250\_TuneZ2star\_8TeV-madgraph-pythia6/\vspace{-2mm}}\\{\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & 50129518 & 1.036 $\times$ 10$^7$ \rbtrr\\
 \MadGraphF & \makecell{{\tiny /QCD\_HT-250To500\_TuneZ2star\_8TeV-madgraph-pythia6/\vspace{-2mm}}\\{\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & 27062078 & 2.760 $\times$ 10$^5$ \rbtrr\\
-\plus \PYTHIA6 & \makecell{{\tiny /QCD\_HT-500To1000\_TuneZ2star\_8TeV-madgraph-pythia6/\vspace{-2mm}}\\{\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & 30599292 & 8.426 $\times$ 10$^3$ \rbtrr\\
+\plus \PYTHIAS & \makecell{{\tiny /QCD\_HT-500To1000\_TuneZ2star\_8TeV-madgraph-pythia6/\vspace{-2mm}}\\{\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & 30599292 & 8.426 $\times$ 10$^3$ \rbtrr\\
  & \makecell{{\tiny /QCD\_HT-1000ToInf\_TuneZ2star\_8TeV-madgraph-pythia6/\vspace{-2mm}}\\{\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & 13843863 & 2.040 $\times$ 10$^2$ \rbtrr\\
 \hline\hline
 \end{tabular}
@@ -74,15 +74,15 @@ CMS implements a two-level trigger system to reduce the amount of recorded event
  \caption{The single jet trigger paths used in the analysis are listed here. The column \httwons, 99\% indicates the value of \httwo at which each trigger exhibits an efficiency larger than 99\%. The last column gives the effective luminosity seen by each trigger which divided by the total integrated luminosity of 19.71 \fbinv, gives the effective prescale applied on a trigger over the whole run period.}
  \label{tab:hlt}
  \vspace{2mm}
- \begin{tabular}{ccccc}
+ \begin{tabular}{ccccl}
  \hline\hline
  \centering
  {\bf Trigger Path} & \makecell{{\bf L1 threshold} \\GeV} & \makecell{{\bf HLT threshold} \\ GeV} & \makecell{{\bf \httwons, 99\%}\\ GeV}  & \makecell{{\bf Eff. Lumi} \\ \fbinv} \rbthm\\\hline
- HLT\_PFJet80  &  36 &  80 & 120.0 & 0.21 $\times$ 10$^{-2}$ \rbtrr \\
- HLT\_PFJet140 &  68 & 140 & 187.5 & 0.56 $\times$ 10$^{-1}$ \rbtrr \\
- HLT\_PFJet200 &  92 & 200 & 262.5 & 0.26 \rbtrr \\
- HLT\_PFJet260 & 128 & 260 & 345.0 & 1.06 \rbtrr \\
- HLT\_PFJet320 & 128 & 320 & 405.0 & 19.71 \rbtrr \\
+ HLT\_PFJet80       &  36 &  80 & 120.0 & 0.0021 \rbtrr \\
+ HLT\_PFJet140      &  68 & 140 & 187.5 & 0.056 \rbtrr \\
+ HLT\_PFJet200      &  92 & 200 & 262.5 & 0.26 \rbtrr \\
+ HLT\_PFJet260      & 128 & 260 & 345.0 & 1.06 \rbtrr \\
+ HLT\_PFJet320      & 128 & 320 & 405.0 & 19.71 \rbtrr \\
  \hline\hline
  \end{tabular}
 \end{table}
@@ -135,28 +135,31 @@ In order to suppress fake jets, arising from detector noise or misreconstructed 
  \caption{The jet ID removes noise and fake jets based on the properties of the reconstructed jets and the clustered particle candidates. All the selection cuts which are recommended by the \JetMet group are applied \cite{JetID}.}
  \label{tab:jetID}
  \vspace{2mm}
- \begin{tabular}{cccc}
+ \begin{tabular}{llll}
  \hline\hline
  \centering
-  & {\bf Property} & {\bf ~~~Loose ID} & {\bf ~~~Tight ID} \rbthm\\\hline
-  & neutral hadron fraction  & ~~~\ls 0.99 & ~~~\ls 0.90 \rbtrr \\
- Whole & neutral EM fraction & ~~~\ls 0.99 & ~~~\ls 0.90 \rbtrr \\
- $\eta$ region  & number of constituents  & \gr 1    & \gr 1    \rbtrr \\
-  & muon fraction           & ~~~\ls 0.80 & ~~~\ls 0.80 \rbtrr \\ \hline
-  & charged hadron fraction & \gr 0    & \gr 0    \rbtrr \\
-  only $|\eta|$ \ls 2.4 & charged multiplicity    & \gr 0    & \gr 0    \rbtrr \\
-  & charged EM fraction     & ~~~\ls 0.99 & ~~~\ls 0.90 \rbtrr \\
+                      & {\bf Property}          & {\bf Loose ID} & {\bf Tight ID} \rbthm\\\hline
+                      & neutral hadron fraction & \ls 0.99       & \ls 0.90       \rbtrr \\
+  Whole               & neutral EM fraction     & \ls 0.99       & \ls 0.90       \rbtrr \\
+ $\eta$ region        & number of constituents  & \gr 1          & \gr 1          \rbtrr \\
+                      & muon fraction           & \ls 0.80       & \ls 0.80       \rbtrr \\ \hline
+                      & charged hadron fraction & \gr 0          & \gr 0          \rbtrr \\
+only $|\eta|$ \ls 2.4 & charged multiplicity    & \gr 0          & \gr 0          \rbtrr \\
+                      & charged EM fraction     & \ls 0.99       & \ls 0.90       \rbtrr \\
  \hline\hline
-  \end{tabular}
+ \end{tabular}
 \end{table}
 
 \begin{figure}[!htbp]
  \begin{center}
- \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_NuHadFrac_2_HT_2_150.pdf}%
- ~~\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_PhFrac_2_HT_2_150.pdf}\\
- \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_MuFrac_2_HT_2_150.pdf}%
- ~~\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_ElFrac_2_HT_2_150.pdf}\\
- \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_ChHadFrac_2_HT_2_150.pdf}
+ \vspace*{-1mm}
+ \hspace*{-2mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_NuHadFrac_2_HT_2_150.pdf}%
+ ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_PhFrac_2_HT_2_150.pdf}\\
+ \vspace*{1mm}
+ \hspace*{-2mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_MuFrac_2_HT_2_150.pdf}%
+ ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_ElFrac_2_HT_2_150.pdf}\\
+ \vspace*{1mm}
+ \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_ChHadFrac_2_HT_2_150.pdf}
  \caption{The fractions of jet constituents as observed in data (black solid circles) and simulated Monte Carlo events (blue histogram) for different types of PF candidates for inclusive 2-jet events. Data and simulations are normalized to the same number of events. The distributions are shown after the application of the jet ID.}
  \label{fig:qual2}
  \end{center}
@@ -164,11 +167,14 @@ In order to suppress fake jets, arising from detector noise or misreconstructed 
 
 \begin{figure}[!htbp]
  \begin{center}
- \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_NuHadFrac_3_HT_2_150.pdf}%
- ~~\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_PhFrac_3_HT_2_150.pdf}\\
- \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_MuFrac_3_HT_2_150.pdf}%
- ~~\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_ElFrac_3_HT_2_150.pdf}\\
- \includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_ChHadFrac_3_HT_2_150.pdf}
+ \vspace*{-1mm}
+ \hspace*{-2mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_NuHadFrac_3_HT_2_150.pdf}%
+ ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_PhFrac_3_HT_2_150.pdf}\\
+ \vspace*{1mm}
+ \hspace*{-2mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_MuFrac_3_HT_2_150.pdf}%
+ ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_ElFrac_3_HT_2_150.pdf}\\
+ \vspace*{1mm}
+ \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_ChHadFrac_3_HT_2_150.pdf}
  \caption{The fractions of jet constituents as observed in data (black solid circles) and simulated Monte Carlo events (blue histogram) for different types of PF candidates for inclusive 3-jet events. Data and simulations are normalized to the same number of events. The distributions are shown after the application of the jet ID.}
  \label{fig:qual3}
  \end{center}
@@ -246,9 +252,9 @@ Due to finite resolution of the CMS detector, the measured transverse momentum o
  \caption{\JetMet working group at CMS has shown that the jet energy resolution in data is actually worse than in simulation \cite{JER}. To match the resolution in data, the reconstructed jet transverse momentum in simulated events need to be smeared by applying the scale factors. The uncertainty on the resolution is given by an upwards and downwards variation c$_{up}$ and c$_{down}$ of the measured scaling factor c$_{central}$.}
  \label{tab:resolution}
  \vspace{2mm}
- \begin{tabular}{cccccc}
+ \begin{tabular}{lccccc}
   \hline\hline
-    $\eta$  & $0.0$ -- $0.5$ & $0.5$ -- $1.1$ & $1.1$ -- $1.7$ & $1.7$ -- $2.3$ & $2.3$ -- $2.8$  \rbthm\\ \hline
+    $~~~\eta$  & $0.0$ - $0.5$ & $0.5$ - $1.1$ & $1.1$ - $1.7$ & $1.7$ - $2.3$ & $2.3$ - $2.8$  \rbthm\\ \hline
 
     c$_{central}$    & 1.079   & 1.099   & 1.121    & 1.208   & 1.254    \rbtrr\\
     c$_{down}$       & 1.053   & 1.071   & 1.092    & 1.162   & 1.192    \rbtrr\\
@@ -558,15 +564,15 @@ After calculating the uncertainties from all the above mentioned sources, the to
  \caption{Overview of all experimental uncertainties affecting the measurement of cross sections for inclusive 2-jet (left) and inclusive 3-jet events (middle) and cross section ratio \ratio (right). The uncertainties due to luminosity and residual effects cancel completely in \ratio. The total uncertainty is calculated by adding in quadrature the individual sources of uncertainty.}
 \label{tab:exp_unc_overview}
   \vspace{2mm}
-  \begin{tabular}{cccc}
+  \begin{tabular}{llll}
     \hline\hline
-     {\bf Uncertainty Source}    & {\bf Inclusive 2-jet} & {\bf Inclusive 3-jet} & {\bf \ratio}  \rbthm\\\hline     
+     {\bf Uncertainty Source}    & {\bf Inclusive 2-jet} & {\bf Inclusive 3-jet} & {\bf ~~~~\ratio}  \rbthm\\\hline     
      Statistical                 & \ls 1 to 30\%         & \ls 1 to 27\%         & \ls 1 to 28\% \rbtrr\\
-     Jet energy corrections (JEC)& 3 to 10\%             & 3 to 8\%              & 1 to 2\%      \rbtrr\\
-     Unfolding                   & 1 to 2\%              & 1 to 2\%              & \ls 1\%       \rbtrr\\
-     Luminosity                  & 2.6\%                 & 2.6\%                 & cancels       \rbtrr\\
-     Residual                    & 1\%                   & 1\%                   & cancels       \rbtrr\\\hline
-     Total                       & 4 to 32\%             & 4 to 28\%             & 1 to 28\%     \rbtrr\\  
+     Jet energy corrections (JEC)& ~~~3 to 10\%          & ~~~3 to 8\%           & ~~~1 to 2\%   \rbtrr\\
+     Unfolding                   & ~~~1 to 2\%           & ~~~1 to 2\%           & \ls 1\%       \rbtrr\\
+     Luminosity                  & ~~~2.6\%              & ~~~2.6\%              & ~~~cancels    \rbtrr\\
+     Residual                    & ~~~1\%                & ~~~1\%                & ~~~cancels    \rbtrr\\\hline
+     Total                       & ~~~4 to 32\%          & 4 to 28\%             & ~~~1 to 28\%  \rbtrr\\  
   \hline\hline
   \end{tabular}
 \end{table}
