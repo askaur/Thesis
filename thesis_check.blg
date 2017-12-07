@@ -5,6 +5,7 @@ A level-1 auxiliary file: title.aux
 A level-1 auxiliary file: Measurement.aux
 A level-1 auxiliary file: Theory_Predictions.aux
 A level-1 auxiliary file: Alphas.aux
+A level-1 auxiliary file: Summary.aux
 A level-1 auxiliary file: Appendix.aux
 The style file: ieeetr.bst
 Database file #1: thesis.bib
@@ -12,45 +13,45 @@ Warning--empty journal in CMS:2010xta
 Warning--empty journal in CMS:2011esa
 Warning--empty journal in DAgostini
 Warning--empty journal in CMS:2013gfa
-You've used 54 entries,
+You've used 58 entries,
             1876 wiz_defined-function locations,
-            804 strings with 12883 characters,
-and the built_in function-call counts, 14282 in all, are:
-= -- 1440
-> -- 513
+            831 strings with 13631 characters,
+and the built_in function-call counts, 15603 in all, are:
+= -- 1575
+> -- 563
 < -- 0
-+ -- 193
-- -- 139
-* -- 861
-:= -- 1964
-add.period$ -- 60
-call.type$ -- 54
-change.case$ -- 54
++ -- 211
+- -- 153
+* -- 949
+:= -- 2141
+add.period$ -- 64
+call.type$ -- 58
+change.case$ -- 58
 chr.to.int$ -- 0
-cite$ -- 58
-duplicate$ -- 859
-empty$ -- 1308
-format.name$ -- 139
-if$ -- 3651
+cite$ -- 62
+duplicate$ -- 931
+empty$ -- 1422
+format.name$ -- 153
+if$ -- 3987
 int.to.chr$ -- 0
-int.to.str$ -- 54
-missing$ -- 51
-newline$ -- 171
-num.names$ -- 54
-pop$ -- 167
+int.to.str$ -- 58
+missing$ -- 55
+newline$ -- 183
+num.names$ -- 58
+pop$ -- 175
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 663
+skip$ -- 726
 stack$ -- 0
-substring$ -- 683
-swap$ -- 419
+substring$ -- 779
+swap$ -- 459
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 117
-width$ -- 56
-write$ -- 549
+while$ -- 128
+width$ -- 60
+write$ -- 590
 (There were 4 warnings)

@@ -266,4 +266,24 @@ T.~Affolder {\em et~al.}, ``{Measurement of the strong coupling constant from
   inclusive jet production at the Tevatron $\bar{p}p$ collider},'' {\em Phys.
   Rev. Lett.}, vol.~88, p.~042001, 2002.
 
+\bibitem{Ball:2010de}
+R.~D. Ball, L.~Del~Debbio, S.~Forte, A.~Guffanti, J.~I. Latorre, J.~Rojo, and
+  M.~Ubiali, ``{A first unbiased global NLO determination of parton
+  distributions and their uncertainties},'' {\em Nucl. Phys.}, vol.~B838,
+  pp.~136--206, 2010.
+
+\bibitem{Chetyrkin:2000yt}
+K.~G. Chetyrkin, J.~H. Kuhn, and M.~Steinhauser, ``{RunDec: A Mathematica
+  package for running and decoupling of the strong coupling and quark
+  masses},'' {\em Comput. Phys. Commun.}, vol.~133, pp.~43--65, 2000.
+
+\bibitem{Schmidt:2012az}
+B.~Schmidt and M.~Steinhauser, ``{CRunDec: a C++ package for running and
+  decoupling of the strong coupling and quark masses},'' {\em Comput. Phys.
+  Commun.}, vol.~183, pp.~1845--1848, 2012.
+
+\bibitem{Patrignani:2016xqp}
+C.~Patrignani {\em et~al.}, ``{Review of Particle Physics},'' {\em Chin.
+  Phys.}, vol.~C40, no.~10, p.~100001, 2016.
+
 \end{thebibliography}
