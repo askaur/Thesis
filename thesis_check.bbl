@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{Chatrchyan:2013txa}
+S.~Chatrchyan {\em et~al.}, ``{Measurement of the ratio of the inclusive 3-jet
+  cross section to the inclusive 2-jet cross section in pp collisions at
+  $\sqrt{s}$ = 7 TeV and first determination of the strong coupling constant in
+  the TeV range},'' {\em Eur. Phys. J.}, vol.~C73, no.~10, p.~2604, 2013.
+
 \bibitem{Alwall:2011uj}
 J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, and T.~Stelzer, ``{MadGraph 5
   : Going Beyond},'' {\em JHEP}, vol.~06, p.~128, 2011.
@@ -210,12 +216,6 @@ S.~Dittmaier, A.~Huss, and C.~Speckner, ``{Weak radiative corrections to dijet
 J.~Pumplin, D.~R. Stump, J.~Huston, H.~L. Lai, P.~M. Nadolsky, and W.~K. Tung,
   ``{New generation of parton distributions with uncertainties from global QCD
   analysis},'' {\em JHEP}, vol.~07, p.~012, 2002.
-
-\bibitem{Chatrchyan:2013txa}
-S.~Chatrchyan {\em et~al.}, ``{Measurement of the ratio of the inclusive 3-jet
-  cross section to the inclusive 2-jet cross section in pp collisions at
-  $\sqrt{s}$ = 7 TeV and first determination of the strong coupling constant in
-  the TeV range},'' {\em Eur. Phys. J.}, vol.~C73, no.~10, p.~2604, 2013.
 
 \bibitem{Chatrchyan:2013haa}
 S.~Chatrchyan {\em et~al.}, ``{Determination of the top-quark pole mass and
