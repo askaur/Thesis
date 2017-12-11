@@ -1,6 +1,6 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Theory}{2}{chapter.2}
+\contentsline {chapter}{\numberline {2}Theoretical Background}{2}{chapter.2}
 \contentsline {chapter}{\numberline {3}Experimental Apparatus}{3}{chapter.3}
 \contentsline {chapter}{\numberline {4}Measurement of the Differential Inclusive Multijet Cross-sections and their Ratio}{4}{chapter.4}
 \contentsline {section}{\numberline {4.1}Data Samples}{5}{section.4.1}
@@ -29,28 +29,28 @@
 \contentsline {subsection}{\numberline {4.6.4}Luminosity Measurement Uncertainty}{40}{subsection.4.6.4}
 \contentsline {subsection}{\numberline {4.6.5}Residual Uncertainty}{40}{subsection.4.6.5}
 \contentsline {subsection}{\numberline {4.6.6}Total Experimental Uncertainty}{41}{subsection.4.6.6}
-\contentsline {chapter}{\numberline {5}Theoretical Calculations}{44}{chapter.5}
-\contentsline {section}{\numberline {5.1}Fixed Order NLO Calculations}{44}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}NLO Correction Factors}{46}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Non-Perturbative Corrections}{47}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Electroweak Corrections}{49}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Theoretical Uncertainties}{51}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Scale Uncertainty}{51}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}PDF Uncertainty}{52}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Non-perturbative Uncertainty}{53}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Total Theoretical Uncertainty}{53}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Comparison of Theory to Data}{55}{section.5.3}
-\contentsline {chapter}{\numberline {6}Determination of the Strong Coupling Constant}{60}{chapter.6}
-\contentsline {section}{\numberline {6.1}Sensitivity of Measurements to \ensuremath {\alpha _s(M_Z)}\xspace }{61}{section.6.1}
-\contentsline {section}{\numberline {6.2}Determination of \ensuremath {\alpha _s(M_Z)}\xspace }{62}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Fitting Procedure}{62}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Fit Results}{68}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Running of the Strong Coupling Constant}{71}{section.6.3}
-\contentsline {chapter}{\numberline {7}Summary}{75}{chapter.7}
+\contentsline {chapter}{\numberline {5}Theoretical Calculations}{43}{chapter.5}
+\contentsline {section}{\numberline {5.1}Fixed Order NLO Calculations}{43}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}NLO Correction Factors}{45}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Non-Perturbative Corrections}{46}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Electroweak Corrections}{48}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Theoretical Uncertainties}{50}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Scale Uncertainty}{50}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}PDF Uncertainty}{51}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Non-perturbative Uncertainty}{52}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Total Theoretical Uncertainty}{52}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Comparison of Theory to Data}{54}{section.5.3}
+\contentsline {chapter}{\numberline {6}Determination of the Strong Coupling Constant}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}Sensitivity of Measurements to \ensuremath {\alpha _s(M_Z)}\xspace }{60}{section.6.1}
+\contentsline {section}{\numberline {6.2}Determination of \ensuremath {\alpha _s(M_Z)}\xspace }{61}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Fitting Procedure}{61}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Fit Results}{67}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Running of the Strong Coupling Constant}{70}{section.6.3}
+\contentsline {chapter}{\numberline {7}Summary}{74}{chapter.7}
 \contentsline {chapter}{Appendix \numberline {A}}{78}{Appendix.a.A}
 \contentsline {section}{\numberline {A.1}Cross-section Ratio, \ensuremath {R_{32}}\xspace }{79}{section.a.A.1}
 \contentsline {section}{\numberline {A.2}Individual Sources of Jet Energy Correction Uncertainties}{80}{section.a.A.2}
 \contentsline {section}{\numberline {A.3}Experimental Uncertainties}{83}{section.a.A.3}
 \contentsline {section}{\numberline {A.4}Theoretical Uncertainties}{86}{section.a.A.4}
-\contentsline {chapter}{Bibliography}{89}{table.caption.64}
-\contentsline {chapter}{Reprints}{97}{chapter*.67}
+\contentsline {chapter}{Bibliography}{89}{table.caption.65}
+\contentsline {chapter}{Reprints}{97}{chapter*.68}

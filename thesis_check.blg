@@ -2,6 +2,11 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis_check.aux
 A level-1 auxiliary file: title.aux
+A level-1 auxiliary file: Ackn.aux
+A level-1 auxiliary file: Abstract.aux
+A level-1 auxiliary file: Introduction.aux
+A level-1 auxiliary file: Theory.aux
+A level-1 auxiliary file: Detector.aux
 A level-1 auxiliary file: Measurement.aux
 A level-1 auxiliary file: Theory_Predictions.aux
 A level-1 auxiliary file: Alphas.aux
@@ -15,7 +20,7 @@ Warning--empty journal in DAgostini
 Warning--empty journal in CMS:2013gfa
 You've used 58 entries,
             1876 wiz_defined-function locations,
-            831 strings with 13631 characters,
+            836 strings with 13689 characters,
 and the built_in function-call counts, 15603 in all, are:
 = -- 1575
 > -- 563

@@ -22,7 +22,8 @@ This measurement uses the data which was collected at the centre-of-mass energy 
 \caption{Run range and luminosity of the proton-proton collisions data collected at the centre-of-mass energy of 8 TeV by CMS experiment in the year of 2012 in four different run periods A, B, C and D.}
 \label{tab:dataset}
 \vspace{2mm}
-\begin{tabular}{cclc}
+%\begin{tabular}{cclc}
+\hspace*{-6mm}\begin{tabular}{>{\centering\arraybackslash}m{0.25in}cl>{\centering\arraybackslash}m{0.97in}}
 \hline\hline
 {\bf Run}  & {\bf Run range} &  {\bf \hspace*{32mm}Data set}          & \makecell{{\bf Luminosity} \\ \fbinv} \rbthm\\\hline
 
@@ -45,7 +46,9 @@ The cross-section measured as a function of the transverse momentum \pt or the s
 \caption{The official Monte Carlo samples are produced in phase space slices in \HT with the generator \MadGraphF and interfaced to \PYTHIAS for the parton shower and motorization of the events. The cross-section and number of events generated are mentioned for each sample.}
 \label{tab:dataset_MC}
 \vspace{2mm}
-\begin{tabular}{lccc}
+%\begin{tabular}{lccc}
+\hspace*{-3mm}\begin{tabular}{lc>{\centering\arraybackslash}m{0.6in}c}
+
 \hline\hline
 {\bf Generator}  & {\bf Sample}  &  {\bf Events}   & \makecell{{\bf Cross-section} \\ pb}  \rbthm\\\hline
  & \makecell{{\tiny /QCD\_HT-100To250\_TuneZ2star\_8TeV-madgraph-pythia6/\vspace{-2mm}}\\{\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & 50129518 & 1.036 $\times$ 10$^7$ \rbtrr\\
@@ -554,14 +557,14 @@ After calculating the uncertainties from all the above mentioned sources, the to
  \hspace*{-3mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Total_unc_all_2_NLO_add.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Total_unc_all_3_NLO_add.pdf}\\
  \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Total_Unc_ratio_32_direct_add.pdf}
- \caption{Experimental uncertainties from different sources affecting the measurement of cross-sections for inclusive 2-jet (top left) and 3-jet events (top right) and cross-section ratio \ratio (bottom). The error bars represent the statistical uncertainty after unfolding. The systematic uncertainties due to jet energy corrections (JEC by blue line), luminosity (red dashed line), unfolding (green dashed line) and residual effects (light purple line) are also presented. The uncertainties due to luminosity and residual effects cancel completely in \ratio. The total uncertainty (black dashed line) is calculated by adding in quadrature the individual sources of uncertainty.}
+ \caption{Experimental uncertainties from different sources affecting the measurement of cross-sections for inclusive 2-jet (top left) and 3-jet events (top right) and cross-section ratio \ratio (bottom). The error bars represent the statistical uncertainty after unfolding. The systematic uncertainties due to jet energy corrections (JEC by blue line), luminosity (red dashed line), unfolding (green dashed line) and residual effects (light purple line) are also presented. The uncertainties due to luminosity and residual effects cancel completely in \ratio. The total uncertainty (black dashed line) is the quadrature sum of the individual sources of uncertainty.}
  \label{fig:exp_unc}
  \end{center}
 \end{figure}
 
 \begin{table}[!h]
  \centering
- \caption{Overview of all experimental uncertainties affecting the measurement of cross-sections for inclusive 2-jet (left) and 3-jet events (middle) and cross-section ratio \ratio (right). The uncertainties due to luminosity and residual effects cancel completely in \ratio. The total uncertainty is calculated by adding in quadrature the individual sources of uncertainty.}
+ \caption{Overview of all experimental uncertainties affecting the measurement of cross-sections for inclusive 2-jet (left) and 3-jet events (middle) and cross-section ratio \ratio (right). The uncertainties due to luminosity and residual effects cancel completely in \ratio. The total uncertainty is the quadrature sum of the individual sources of uncertainty.}
 \label{tab:exp_unc_overview}
   \vspace{2mm}
   \begin{tabular}{llll}
@@ -584,4 +587,4 @@ After calculating the uncertainties from all the above mentioned sources, the to
      {\bf \textcolor{lightpurple}{Residual}} & 1\% & 1\% & cancels \rbtrr\\\hline
      {\bf Total} & 4 to 32\% & 4 to 28\% & 1 to 28\% \rbtrr\\
 \end{comment}
-The complete data analysis of the differential inclusive 2-jet and 3-jet events cross-sections as well as their ratio \ratio has been presented as a function of \httwo. The measured spectrums after correcting for detector effects through the unfolding procedure, are compared with the next-to-leading order (NLO) pQCD calculations in the next chapter.
+The complete data analysis of the differential inclusive 2-jet and 3-jet events cross-sections as well as their ratio \ratio has been presented as a function of \httwo. The measured spectrums after correcting for detector effects through the unfolding procedure, are compared with the next-to-leading order (NLO) pQCD calculations in the next chapter. 
