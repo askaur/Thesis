@@ -1,5 +1,83 @@
 \chapter{Experimental Apparatus}
 \label{chap:Detector}
+\textcolor{red}{\bf \large {Introduction}}
+The LHC is to reveal the physics beyond the Standard Model with centre-of-mass collision energies up to 14 TeV and luminosity up to 10$^{34}$ cm$^{-2}$s$^{-1}$. At present, the center-of-mass energy at the LHC is at 8 TeV and it will increase to around 14 TeV collision energy by around 2015. Due to the availability of very high energy for the collisions, it becomes possible for the researchers to understand the fundamental structure of the universe deeply and to look back in its history. 
+
+\section{The Large Hadron Collider}
+The Large Hadron Collider (LHC) \cite{Evans:2008zzb} is the world's biggest and the most powerful particle accelerator and collider built by CERN (European Organization for Nuclear Research), at Geneva, Switzerland. It occupies the 27 km circumference circular tunnel (between the border of France and Switzerland), previously used by LEP (Large Electron-Positron) collider \cite{LEP}, at a depth ranging from 50 to 175 metres (164 to 574 ft) underground. Two beams of particles of the same kind, either protons or lead or xenon ions, are accelerated in direction opposite to each other. 1,232 dipole magnets maintain the beams in their circular path and 392 quadrupole magnets keep the beams focused to increase the probabilities of interaction between the particles. Since this thesis is based on the proton-proton (pp) collisions data, the main focus is on protons. 
+
+The protons pass through a series of accelerators which increase their energy successively before their injection into the main ring of LHC. Figure~\ref{fig:LHC} gives an overview of the various accelerators and detectors comprising the complex structure of the LHC. The protons are obtained by stripping of electrons from hydrogen gas atoms using an electric field. The first accelerator of the chain is the linear particle acclerator (LINAC2) which accelerates the protons to energy of 50 MeV. Then these protons are injected into the Proton Synchrotron Booster (PSB) in the form of bunches and get accelerated to 1.4 GeV energy. The energy of protons is further increased to 25 GeV by Proton Synchrotron (PS) and then to 450 GeV by the Super Proton Synchrotron (SPS). Finally the protons are injected into two beam pipelines of the main LHC ring where their energy increases to the designed collision energy. 
+
+The accelerated beams are made to collide at four interaction points around which four detectors : CMS (Compact Muon Solenoid) \cite{Chatrchyan:2008aa,Bayatian:2006nff,Ball:2007zza}, ATLAS (A Toroidal LHC Apparatus) \cite{Aad:2008zzm}, ALICE (A Large Ion Collider Experiment) \cite{Aamodt:2008zz} and LHCb (Large Hadron Collider for Beauty) \cite{Alves:2008zz}, are located. The CMS and ATLAS are the two general purpose detectors dedicated to the search of the Higgs boson, existence of super-symmetry (SUSY) and also looking for extra dimensions. The ALICE is a heavy-ion detector which collides lead ions to study quark-gluon plasma, a state of matter believed to be present just after the Big Bang. The LHCb experiment will explore the differences between matter and antimatter and new physics through b-quark (beauty) studies. The LHC operated at the centre-of-mass energy (\cme) of 7 TeV of pp collisions in the 2010 and 2011 and at \cme = 8 TeV in the year 2012. After the upgradations , it restarted in 2015 at a much higher centre-of-mass energy of 13 TeV and is running successfully till now. In the coming years, protons will be made to collide at a designed \cme = 14 TeV with luminosity up to 10$^{34}$ cm$^{-2}$s$^{-1}$. In this thesis, work has been carried out using the pp collisions data collected by the CMS detector at \cme = 8 TeV.
+
+\begin{figure}[!h]
+ \begin{center} 
+ \hspace*{-5mm}
+ \includegraphics[width=1.\textwidth]{/home/anter/Desktop/Thesis/Figures/LHC.png}\\
+ \vspace*{5mm}
+ \caption[LHC]{Overview of the different experiments of the Large Hadron Collider (LHC), a complex particle accelerator and collider located at CERN.\footnotemark}
+ \label{fig:LHC}
+ \end{center}
+\end{figure}
+\footnotetext{Source: \url{http://public.web.cern.ch/public/en/research/AccelComplex-en.html}}
+
+\section{Luminosity Measurement}
+Luminosity (\lumi) is one of the most important parameters of an accelerator which characterizes its performance. It gives the rate at which collisions occur and given by the number of collisions produced in a detector per cm$^2$ and per second. Cross section ($\sigma$) is a measurement of the probability that an event occurs. It is related to total number of events $N$ of a process over a time period T and \lumi as :
+\begin{equation}
+N = \int_{0}^{T} \lumi~\sigma~dt = \lumi_{int}~\sigma
+\end{equation}
+where \lumi$_{int}$ is the total integrated luminosity.
+
+\begin{figure}[!h]
+ \begin{center} 
+ \includegraphics[width=.8\textwidth]{/home/anter/Desktop/Thesis/Figures/int_lumi_cumulative_pp_2.pdf}\\
+ \vspace*{5mm}
+ \caption[Lumi]{Cumulative luminosity delivered to CMS during stable beams for proton-proton collisions at nominal center-of-mass energy versus time. This is shown for data-taking in 2010 (green), 2011 (red), 2012 (blue), 2015 (purple), 2016 (orange) and 2017 (light blue).\footnotemark}
+ \label{fig:LHC}
+ \end{center}
+\end{figure}
+\footnotetext{Source: \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}}
+
+\begin{comment}
+\section{The Compact Muon Solenoid}
+The CMS (Compact Muon Solenoid) detector is a multilayered cylinder which is 21 m long, 15 m wide and 15 m high weighing 12,500 tonnes, as shown in Figure \ref{CMS}. The CMS detector aims at identifying the different types of particles produced in the collisions and measuring their energies and momenta. This goal cannot be fulfilled by a single device. So several sub-detectors are arranged to form a complex apparatus which are discussed in brief as below :
+\begin{figure}[h!]
+%\begin{center} 
+\begin{flushright}
+\hspace{15mm}
+\includegraphics[scale = 0.85]{thesis/figs/Detector/CMS1.jpg}
+\caption{Overview of the CMS (Compact Muon Solenoid) Detector}
+\label{CMS}
+\end{flushright}
+%\end{center}
+\end{figure}
+
+ \begin{itemize}
+\item
+\textbf{Inner Tracking System :} The charged particles produced from the LHC collisions leave their trajectories as they move outward from the interaction point. These trajectories are measured precisely and efficiently by the inner tracking system of CMS. The inner tracking system also reconstructs secondary vertices. It surrounds the interaction point and has a cylindrical volume of length of 5.8 m and a diameter of 2.5 m. A pixel detector with three barrel layers at radii between 4.4 cm and 10.2 cm and a silicon strip tracker with 10 barrel detection layers extending outwards to a radius of 1.1 m are the integral parts of the tracking system. Two disks form the endcaps in the pixel detector whereas 3 plus 9 disks on each side of the barrel completes the strip tracker on its end. These endcaps extend the acceptance of the tracker up to a pseudorapidity of $|\eta| < 2.5$ ($\eta$ = $-$ log tan($\frac{\theta}{2}$), where $\theta$ is the angle between particle momentum and beam direction). The active silicon area of CMS tracker is about 200m$^{2}$ which makes it the largest silicon tracker. There are calorimeters outside the tracker to measure the energy of particles. The tracker should interfere with the particles to a minimum extent so that their momentum can be measured precisely. To measure their energy, they are required to interact with the calorimeters fully.
+ \item
+\textbf{Electromagnetic Calorimeter :} The electromagnetic calorimeter (ECAL)~\cite{ecal} consists of an array of lead tungstate (PbWO$_{4}$) crystals with coverage in pseudorapidity up-to $|\eta| <$ 3.0. The produced photons and electrons interact with matter mainly through bremsstrahlung and electron-positron pair production and deposit most of their energy in calorimeter. The deposited energy is converted to scintillation light which is detected by silicon avalanche photo diodes (APDs) in the barrel region and vacuum phototriodes (VPT) in the end-cap region. The number of created photons gives the direct measure of energy of the incident particle. Also, the pre-shower detectors made of lead absorbers and silicon detectors are put in front of the endcaps to distinguish high energetic single photons from low energetic photon pairs originating from $\pi^{0}$ decays. 
+
+\item
+\textbf{Hadron Calorimeter :} The Hadron Calorimeter (HCAL)~\cite{hcal} is designed to detect any particle made up of quarks (the basic building blocks of protons and neutrons) and measurement of hadron jets and neutrinos or exotic particles resulting in apparent missing transverse energy. The region between the outer extent of the electromagnetic calorimeter (R = 1.77 m) and the inner extent of the magnet coil (R = 2.95 m) encloses the hadron calorimeter barrel (HB). The total amount of material in this region to absorb the hadronic shower is not sufficient. This requirement is fulfilled by placing an outer hadron (HO) calorimeter or tail catcher outside the solenoid. The forward hadron calorimeter (HF) placed at 11.2 m from the interaction point covers the pseudorapidity, 3.0 < $|\eta|$ < 5.2. Hadronic barrel (HB) and hadronic endcap (HE) calorimeters are sampling calorimeters made up of 50mm thick copper (selected because of its density) absorber plates interleaved with 4mm scintillator sheets. HB is made of two 4.4m length half-barrels, and HE has two large structures, situated at each end of the barrel detector and within the region of high magnetic field.  HF, situated at each extreme of the CMS detector, is made of steel absorbing plates along with quartz fibers. The passage of charged particles through the quartz fibers produces Cerenkov light signals, which are used to measure the energy of the jets. 
+
+ \item
+\textbf{The Superconducting magnet :} The Superconducting magnet is 13m long and 6m in diameter. Its refrigerated superconducting niobium-titanium coils are cooled at -270$^{\circ}$C to produce a magnetic field of 4 Teslas. This intense solenoidal field makes the compactness and cylindrical symmetry of the detector possible. The tracker and calorimeters are placed inside the magnet making the detector compact in size. The solenoidal magnetic field parallel to the beam bends the tracks of the charged particles in the transverse plane. The curvature of these tracks gives the measurement of momentum.
+
+\item
+\textbf{Muon System :} As the name suggests, the detection of muons is of central importance to CMS. The muon system has three functions: muon identification, momentum measurement and triggering. Good muon momentum resolution and trigger capability are enabled by the high-field solenoidal magnet and its flux-return yoke. The latter also serves as a hadron absorber for the identification of muons. The CMS muon system is designed to have the capability of reconstructing the momentum and charge of muons over the entire kinematic range of the LHC. There are 3 types of gaseous particle detectors for muon identification : Resistive Plate Chambers (RPC), Cathode Strip Chambers (CSC) and Drift Tubes (DT). The details of all these detectors can be found in~\cite{muon}. RPCs can be operated at high rates and thus provide fast information which is used for the Level-1         trigger.                                                                
+
+\item
+\textbf{Trigger system :} The Trigger and Data Acquisition (DAQ) system of an experiment at a hadron collider plays a crucial role. Both the collision and the overall data rates are much higher than the rate at which the information can be stored. The p-p collisions (events) take place at high interaction rates at LHC. An average of 17 events occurs at the beam crossing frequency of 25 ns for the nominal LHC design luminosity of 10$^{34}$ cm$^{-2}$s$^{-1}$. The CMS Trigger and Data Acquisition System (TriDAS) observes the detector information at the full crossing frequency and selects events at a maximum rate of O(10$^{2}$) Hz for archiving and later offline analysis. The required rejection power of O(10$^{5}$) is very large. The high efficiency for the interesting events should also be maintained. These tasks are split into two steps $-$
+\begin{itemize}
+\item
+The Level-1 Trigger~\cite{trigger} : At the first level all data is stored for 3.2 $\mu$s, after which no more than 100 kHz of the stored events are forwarded to the next level triggers. This must be done for all channels without dead time, while full data are stored temporarily in pipeline memories in the the front-end electronics of the sub-detectors. Due to this time restriction and the number of channels and complexity of the reconstruction involved, the central tracking system is not used in the L1 trigger decision. The Level-1 (L1) system is based on custom electronics. The L1 system uses only coarsely segmented data from calorimeter and muon detectors, while holding all the high-resolution data in pipeline memories in the front-end electronics.
+\item
+The High Level Trigger~\cite{hlt} : The second step, High-Level Trigger (``HLT'') is designed to reduce the maximum Level-1 accept rate of 100 kHz to a final output rate of 100 Hz. The HLT system relies upon commercial processors. The HLT is provided by a subset of the on-line processor farm which, in turn, passes a fraction of the accepted events to the remainder of the on-line farm for more complete processing.
+
+The trigger is the start of the physics event selection process. A decision to retain an event for further consideration has to be made every 25 ns. This decision is based on the event's suitability for inclusion in one of the various data sets to be used for analysis. The data sets to be taken are determined by CMS physics priorities as a whole. These data sets include di-lepton and multi-lepton data sets for top and higgs searches, lepton plus jet data sets for top physics, and inclusive electron data sets for calorimeter calibrations. In addition, other samples are necessary for measuring efficiencies in event selection and studying backgrounds. The trigger has to select these samples in real time along with the main data samples.
+\end{itemize}
+\end{itemize}
 \begin{comment}
 \section{CMS Detector}
 The aim of a particle detector is to count the particles produced that pass through it after being produced in a collision or a decay - an ``event'', to visualise their tracks, to measure their energies and momenta, to record time-of-flight and to identify their identity. The exact position where the event occurs is known as the interaction point. It is neccessary to know the mass and momentum of the particles to identify them. The mass can be found by measuring either the velocity or the energy and the momentum. Depending on the type of the particles and forces to be studied, various detectors have been designed.
