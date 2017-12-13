@@ -6,9 +6,9 @@ The LHC is to reveal the physics beyond the Standard Model with centre-of-mass c
 \section{The Large Hadron Collider}
 The Large Hadron Collider (LHC) \cite{Evans:2008zzb} is the world's biggest and the most powerful particle accelerator and collider built by CERN (European Organization for Nuclear Research), at Geneva, Switzerland. It occupies the 27 km circumference circular tunnel (between the border of France and Switzerland), previously used by LEP (Large Electron-Positron) collider \cite{LEP}, at a depth ranging from 50 to 175 metres (164 to 574 ft) underground. Two beams of particles of the same kind, either protons or lead or xenon ions, are accelerated in direction opposite to each other. 1,232 dipole magnets maintain the beams in their circular path and 392 quadrupole magnets keep the beams focused to increase the probabilities of interaction between the particles. Since this thesis is based on the proton-proton (pp) collisions data, the main focus is on protons. 
 
-The protons pass through a series of accelerators which increase their energy successively before their injection into the main ring of LHC. Figure~\ref{fig:LHC} gives an overview of the various accelerators and detectors comprising the complex structure of the LHC. The protons are obtained by stripping of electrons from hydrogen gas atoms using an electric field. The first accelerator of the chain is the linear particle acclerator (LINAC2) which accelerates the protons to energy of 50 MeV. Then these protons are injected into the Proton Synchrotron Booster (PSB) in the form of bunches and get accelerated to 1.4 GeV energy. The energy of protons is further increased to 25 GeV by Proton Synchrotron (PS) and then to 450 GeV by the Super Proton Synchrotron (SPS). Finally the protons are injected into two beam pipelines of the main LHC ring where their energy increases to the designed collision energy. 
+The protons pass through a series of accelerators which increase their energy successively before their injection into the main ring of LHC. Figure~\ref{fig:LHC} gives an overview of the various accelerators and detectors comprising the complex structure of the LHC. The protons are obtained by stripping of electrons from hydrogen gas atoms using an electric field. The protons are accelerated up to 100 keV through a radiofrequency quadrupole which provides the first focusing and a further acceleration to 750 keV energy. The linear particle acclerator (LINAC2) increases the energy of protons to 50 MeV. Then these protons are injected into the Proton Synchrotron Booster (PSB) in the form of bunches where they get accelerated to 1.4 GeV energy. The energy of protons is further enhanced to 25 GeV by Proton Synchrotron (PS) and then to 450 GeV by the Super Proton Synchrotron (SPS). Finally the protons are injected into two beam pipelines of the main LHC ring where their energy increases to the collision energy. 
 
-The accelerated beams are made to collide at four interaction points around which four detectors : CMS (Compact Muon Solenoid) \cite{Chatrchyan:2008aa,Bayatian:2006nff,Ball:2007zza}, ATLAS (A Toroidal LHC Apparatus) \cite{Aad:2008zzm}, ALICE (A Large Ion Collider Experiment) \cite{Aamodt:2008zz} and LHCb (Large Hadron Collider for Beauty) \cite{Alves:2008zz}, are located. The CMS and ATLAS are the two general purpose detectors dedicated to the search of the Higgs boson, existence of super-symmetry (SUSY) and also looking for extra dimensions. The ALICE is a heavy-ion detector which collides lead ions to study quark-gluon plasma, a state of matter believed to be present just after the Big Bang. The LHCb experiment will explore the differences between matter and antimatter and new physics through b-quark (beauty) studies. The LHC operated at the centre-of-mass energy (\cme) of 7 TeV of pp collisions in the 2010 and 2011 and at \cme = 8 TeV in the year 2012. After the upgradations , it restarted in 2015 at a much higher centre-of-mass energy of 13 TeV and is running successfully till now. In the coming years, protons will be made to collide at a designed \cme = 14 TeV with luminosity up to 10$^{34}$ cm$^{-2}$s$^{-1}$. In this thesis, work has been carried out using the pp collisions data collected by the CMS detector at \cme = 8 TeV.
+The accelerated beams are made to collide at four interaction points around which six detectors : ALICE (A Large Ion Collider Experiment) \cite{Aamodt:2008zz}, ATLAS (A Toroidal LHC Apparatus) \cite{Aad:2008zzm},  CMS (Compact Muon Solenoid) \cite{Chatrchyan:2008aa,Bayatian:2006nff,Ball:2007zza}, LHCb (Large Hadron Collider for Beauty) \cite{Alves:2008zz}, LHCf (Large Hadron Collider forward)\cite{Adriani:2008zz} and TOTEM (ToTal Elastic and diffractive cross section Measurement) \cite{Anelli:2008zza}, are located. The CMS and ATLAS are the two general purpose detectors dedicated to the search of the Higgs boson, existence of super-symmetry (SUSY) and also looking for extra dimensions. The ALICE is a heavy-ion detector which collides lead ions to study quark-gluon plasma, a state of matter believed to be present just after the Big Bang. The LHCb experiment will explore the differences between matter and antimatter and new physics through b-quark (beauty) studies. TOTEM experiment is dedicated to cross section measurements whereas LHCf focuses on forward physics  The LHC operated at the centre-of-mass energy (\cme) of 7 TeV of pp collisions in the 2010 and 2011 and at \cme = 8 TeV in the year 2012. After the upgradations , it restarted in 2015 at a much higher centre-of-mass energy of 13 TeV and is running successfully till now. In the coming years, protons will be made to collide at a designed \cme = 14 TeV with luminosity up to 10$^{34}$ cm$^{-2}$s$^{-1}$. In this thesis, work has been carried out using the pp collisions data collected by the CMS detector at \cme = 8 TeV.
 
 \begin{figure}[!h]
  \begin{center} 
@@ -19,38 +19,108 @@ The accelerated beams are made to collide at four interaction points around whic
  \label{fig:LHC}
  \end{center}
 \end{figure}
-\footnotetext{Source: \url{http://public.web.cern.ch/public/en/research/AccelComplex-en.html}}
+\footnotetext{Source : \url{http://public.web.cern.ch/public/en/research/AccelComplex-en.html}}
 
 \section{Luminosity Measurement}
 Luminosity (\lumi) is one of the most important parameters of an accelerator which characterizes its performance. It gives the rate at which collisions occur and given by the number of collisions produced in a detector per cm$^2$ and per second. Cross section ($\sigma$) is a measurement of the probability that an event occurs. It is related to total number of events $N$ of a process over a time period T and \lumi as :
 \begin{equation}
 N = \int_{0}^{T} \lumi~\sigma~dt = \lumi_{int}~\sigma
 \end{equation}
-where \lumi$_{int}$ is the total integrated luminosity.
+where $\int_{0}^{T} \lumi~dt = \lumi_{int}$ is the total integrated luminosity. It is usually expressed in units of barn$^{-1}$ and gives a direct indication of the number of produced events for a process. For example, an integrated luminosity of 10 fb$^{-1}$ means that 10 events are produced in a process with cross section equal to 1 fb.
+
+The luminosity depends on the particle beam parameters and is given by :
+
+\begin{equation}
+\lumi = \frac{N^2_p~N_b~f_{rev}~\gamma~F}{4\pi~\epsilon_n~\beta^*}
+\end{equation}
+where $N_p$ is the number of particles per bunch, $N_b$ is the number of bunches per beam, $f_{rev}$ is the revolution frequency of the beam, $\gamma$ is the relativistic gamma factor and $F$ gives the geometric luminosity reduction factor. The effective collision area of the two beams is related to the normalized transverse beam emittance $\epsilon_n$ and the value of the betatron function $ \beta^*$ at the interaction point.
+ 
+The CMS experiment constantly monitors the instantaneous luminosity delivered by LHC which is shown versus time in Fig.~\ref{fig:lumi} for proton-proton collisions at nominal center-of-mass energy for the years 2010-2017. The relative instantaneous luminosity is calculated by using two methods \cite{CMS:2013gfa} : Hadron Forward (HF) method by measuring the particle flux in the hadron forward calorimeter and by counting the number of reconstructed vertices in the pixel tracker. The absolute luminosity measurement relys on van-der-Meer scans done in special runs of the LHC \cite{vanderMeer:1968zz}. The uncertainty on the luminosity measured for 2012 data set is 2.5\% (syst.) and 0.5\% (stat.).
 
 \begin{figure}[!h]
- \begin{center} 
+ \begin{center}
+ \vspace*{4mm} 
  \includegraphics[width=.8\textwidth]{/home/anter/Desktop/Thesis/Figures/int_lumi_cumulative_pp_2.pdf}\\
  \vspace*{5mm}
- \caption[Lumi]{Cumulative luminosity delivered to CMS during stable beams for proton-proton collisions at nominal center-of-mass energy versus time. This is shown for data-taking in 2010 (green), 2011 (red), 2012 (blue), 2015 (purple), 2016 (orange) and 2017 (light blue).\footnotemark}
- \label{fig:LHC}
+ \caption[Lumi]{The integrated luminosity, delivered to CMS during stable beams for proton-proton collisions at nominal center-of-mass energy, is shown versus time for data-taking in 2010 (green), 2011 (red), 2012 (blue), 2015 (purple), 2016 (orange) and 2017 (light blue) run periods of the LHC.\footnotemark}
+ \label{fig:lumi}
  \end{center}
 \end{figure}
-\footnotetext{Source: \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}}
 
-\begin{comment}
 \section{The Compact Muon Solenoid}
-The CMS (Compact Muon Solenoid) detector is a multilayered cylinder which is 21 m long, 15 m wide and 15 m high weighing 12,500 tonnes, as shown in Figure \ref{CMS}. The CMS detector aims at identifying the different types of particles produced in the collisions and measuring their energies and momenta. This goal cannot be fulfilled by a single device. So several sub-detectors are arranged to form a complex apparatus which are discussed in brief as below :
-\begin{figure}[h!]
-%\begin{center} 
-\begin{flushright}
-\hspace{15mm}
-\includegraphics[scale = 0.85]{thesis/figs/Detector/CMS1.jpg}
-\caption{Overview of the CMS (Compact Muon Solenoid) Detector}
-\label{CMS}
-\end{flushright}
-%\end{center}
+
+\footnotetext{Source : \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}}
+The Compact Muon Solenoid (CMS) detector is a general purpose detector located at the interaction point 5 (P5) of the main LHC ring, near the village of Cessy in France. The name of CMS comes from its compact size with main emphasis on the detection of muons and enclosed within high solenoidal magnetic field. The CMS detector aims at identifying the different types of particles produced in proton-proton and heavy ion collisions and measuring their energies and momenta. This is achieved by layers of different sub-detectors arranged in a cylindrical complex structure with 21.6 m length and 15 m diameter. The silcon-based tracker suurounds the the interaction point and forms the innermost layer. It is surrounded by a scintillating crystal electromagnetic calorimeter (ECAL) and a sampling hadron calorimeter (HCAL) which are enclosed inside the superconducting solenoid. Outside the magnet lies the large muon detectors embedded inside  an iron yoke. The three dimensional view of the CMS detector along with its components is presented in Fig.~\ref{fig:CMS}. The CMS was constructed in parts at ground and assembled later on in the cavern. The components are easily accessible for upgrades or repairs as the detector can be opened up into movable slices. Figure~\ref{fig:CMS_front} shows the front view of the CMS detector differentiating individual components which contribute to event reconstruction. The path of reconstructed particles is represented by dashed (invisible track) and solid (visible track) lines for different particle classes : photons ($\gamma$), muons ($\mu^{\pm}$), electrons (e$^{-}$), neutrons (n) and charged hadrons (pions $\pi^{\pm}$).
+\begin{figure}[!h]
+\begin{center}
+\vspace{2mm}
+\hspace*{-10mm}
+\includegraphics[scale = 0.98]{/home/anter/Desktop/Thesis/Figures/CMS_2_new.png}\\
+\vspace*{5mm}
+\caption[CMS]{The three dimensional view of the CMS detector along with its sub-detector components.\footnotemark}
+\label{fig:CMS}
+\end{center}
 \end{figure}
+\footnotetext{Source : \url{https://orbiterchspacenews.blogspot.in/2013/04/cern-cms-prepares-for-future.html}}
+
+\begin{figure}[!h]
+\begin{center} 
+\hspace*{-15mm}
+\includegraphics[scale = 0.75]{/home/anter/Desktop/Thesis/Figures/CMS_Front_2.png}
+\caption{Front view of the CMS detector \cite{Ball:2007zza} along with its components : inner tracker, outer tracker, electromagnetic calorimeter, hadronic calorimeter, solenoid and muon system. The path of different particles detected by dedicated sub-detectors are shown by dashed (invisible track) and solid (visible track) lines. $\otimes$ and $\odot$ gives the direction of magnetic field inside the solenoid and in the return yoke, respectively.}
+\label{fig:CMS_front}
+\end{center}
+\end{figure}
+
+A brief overview of the CMS detector has been presented and the details of the its design as well as physics performance are available in Ref.~\cite{Bayatian:2006nff,Ball:2007zza}. Before going into the details of each sub-detector, first we described the coordinate system used by CMS in the next section.
+
+\subsection{Coordinate System}
+CMS uses right-handed coordinate system having origin at the nominal interaction point of the collision inside the detector. The $x$-axis points horizontally towards the center of the LHC ring, the $y$-axis vertically upwards and the $z$-axis along the beam direction towards the Jura mountains. Following customary polar coordinate conventions, the
+azimuthal angle $\phi$ is measured from the x-axis in the x-y plane as $\phi = {\rm tan^{-1}}(\frac{y}{x})$, and the polar angle $\theta$, from the z-axis in the z-y plane as $\theta~=~{\rm tan^{-1}}\big(\frac{x^2~\plus y^2}{2}\big)$. The quantities pseudorapidity $\eta$ and the rapidity $y$ are preferred over the angles $\theta$ and $\phi$. The pseudorapidity and rapidity are given by Eq.~\ref{eq:pseudorap}. Both the quantities are equal for massless particles.
+
+\begin{equation}
+\begin{gathered}
+\eta = -~{\rm ln}\bigg({\rm tan}\bigg(\frac{\theta}{2}\bigg)\bigg)\\
+y = \frac{1}{2}~{\rm ln} \bigg(\frac{E~\plus p_z}{E - p_z} \bigg)
+\end{gathered}
+\label{eq:pseudorap}
+\end{equation}
+The difference between rapidities $\Delta y$ is invariant under longitudinal Lorentz boost whereas it does not hold for $\eta$. Hence $y$ is considered in this thesis. The angular distance between the two particles is defined by $\Delta R = \sqrt{(\Delta \eta)^2~\plus (\Delta \phi)^2}$. The momentum component transverse to the direction of beam \pt, is computed from the $x$- and $y$-components as \pt = $\sqrt{p^2_x~\plus p^2_y}$ and the transverse energy is given by $E_T$ = $E$ sin $\theta$.
+ 
+\subsection{Inner Tracker System}
+
+\begin{figure}[!h]
+\begin{center} 
+\hspace*{-15mm}
+\includegraphics[scale = 0.75]{/home/anter/Desktop/Thesis/Figures/Tracker.png}
+\caption{A schematic diagram of tracker in CMS experiment \cite{Chatrchyan:2008aa}. The figure shows
+two quadrants of a longitudinal section of the inner tracking detector of CMS along r-z
+plane. The strip detector comprises four components: The Tracker Inner Barrel (TIB)
+is complemented by the Tracker Inner Disks (TID). These two are surrounded by the
+Tracker Outer Barrel (TOB). High $\eta$ ranges are covered by the Tracker End Cap (TEC)
+up to $\eta$ = 2.5}
+\label{fig:Trcaker}
+\end{center}
+\end{figure}
+
+\subsection{Electromagnetic Calorimeter}
+
+\subsection{Hadron Calorimeter}
+
+\subsection{Superconducting Magnet}
+
+\subsection{Muon System}
+
+\subsection{Trigger system}
+
+\section{Computing and Software Tools}
+
+\subsection{Analysis Software}
+
+\subsection{Monte Carlo Event Generators and Simulation Software}
+
+\section{Reconstruction of Jets} 
+\begin{comment}
 
  \begin{itemize}
 \item

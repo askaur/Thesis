@@ -15,6 +15,14 @@ S.~Myers and E.~Picasso, ``The design, construction and commissioning of the
   cern large electron–positron collider,'' {\em Contemporary Physics},
   vol.~31, no.~6, pp.~387--403, 1990.
 
+\bibitem{Aamodt:2008zz}
+K.~Aamodt {\em et~al.}, ``{The ALICE experiment at the CERN LHC},'' {\em
+  JINST}, vol.~3, p.~S08002, 2008.
+
+\bibitem{Aad:2008zzm}
+G.~Aad {\em et~al.}, ``{The ATLAS Experiment at the CERN Large Hadron
+  Collider},'' {\em JINST}, vol.~3, p.~S08003, 2008.
+
 \bibitem{Chatrchyan:2008aa}
 S.~Chatrchyan {\em et~al.}, ``{The CMS Experiment at the CERN LHC},'' {\em
   JINST}, vol.~3, p.~S08004, 2008.
@@ -26,17 +34,25 @@ G.~L. Bayatian {\em et~al.}, ``{CMS Physics},'' 2006.
 G.~L. Bayatian {\em et~al.}, ``{CMS technical design report, volume II: Physics
   performance},'' {\em J. Phys.}, vol.~G34, no.~6, pp.~995--1579, 2007.
 
-\bibitem{Aad:2008zzm}
-G.~Aad {\em et~al.}, ``{The ATLAS Experiment at the CERN Large Hadron
-  Collider},'' {\em JINST}, vol.~3, p.~S08003, 2008.
-
-\bibitem{Aamodt:2008zz}
-K.~Aamodt {\em et~al.}, ``{The ALICE experiment at the CERN LHC},'' {\em
-  JINST}, vol.~3, p.~S08002, 2008.
-
 \bibitem{Alves:2008zz}
 A.~A. Alves, Jr. {\em et~al.}, ``{The LHCb Detector at the LHC},'' {\em JINST},
   vol.~3, p.~S08005, 2008.
+
+\bibitem{Adriani:2008zz}
+O.~Adriani {\em et~al.}, ``{The LHCf detector at the CERN Large Hadron
+  Collider},'' {\em JINST}, vol.~3, p.~S08006, 2008.
+
+\bibitem{Anelli:2008zza}
+G.~Anelli {\em et~al.}, ``{The TOTEM experiment at the CERN Large Hadron
+  Collider},'' {\em JINST}, vol.~3, p.~S08007, 2008.
+
+\bibitem{CMS:2013gfa}
+C.~Collaboration, ``{CMS Luminosity Based on Pixel Cluster Counting - Summer
+  2013 Update},'' 2013.
+
+\bibitem{vanderMeer:1968zz}
+S.~van~der Meer, ``{Calibration of the Effective Beam Height in the ISR},''
+  1968.
 
 \bibitem{Alwall:2011uj}
 J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, and T.~Stelzer, ``{MadGraph 5
@@ -99,10 +115,6 @@ C.~Collaboration, ``{Jet energy scale uncertainty sources}.''
   \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JECUncertaintySources},
   2012.
 \newblock (accessed on 2017-10-31).
-
-\bibitem{CMS:2013gfa}
-C.~Collaboration, ``{CMS Luminosity Based on Pixel Cluster Counting - Summer
-  2013 Update},'' 2013.
 
 \bibitem{Chatrchyan:2012bja}
 S.~Chatrchyan {\em et~al.}, ``{Measurements of differential jet cross sections
