@@ -54,6 +54,30 @@ C.~Collaboration, ``{CMS Luminosity Based on Pixel Cluster Counting - Summer
 S.~van~der Meer, ``{Calibration of the Effective Beam Height in the ISR},''
   1968.
 
+\bibitem{Adzic:2007mi}
+P.~Adzic {\em et~al.}, ``{Energy resolution of the barrel of the CMS
+  electromagnetic calorimeter},'' {\em JINST}, vol.~2, p.~P04004, 2007.
+
+\bibitem{Chatrchyan:2009ag}
+S.~Chatrchyan {\em et~al.}, ``{Performance of the CMS Hadron Calorimeter with
+  Cosmic Ray Muons and LHC Beam Data},'' {\em JINST}, vol.~5, p.~T03012, 2010.
+
+\bibitem{Schorner-Sadenius:2015cga}
+T.~Schörner-Sadenius, ed., {\em {The Large Hadron Collider}}.
+\newblock Berlin: Springer, 2015.
+
+\bibitem{CMS:2009nxa}
+``{Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus,
+  and MET},'' 2009.
+
+\bibitem{CMS:2010byl}
+``{Commissioning of the Particle-flow Event Reconstruction with the first LHC
+  collisions recorded in the CMS detector},'' 2010.
+
+\bibitem{Adam:2005cg}
+W.~Adam, B.~Mangano, T.~Speer, and T.~Todorov, ``{Track reconstruction in the
+  CMS tracker},'' 2005.
+
 \bibitem{Alwall:2011uj}
 J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, and T.~Stelzer, ``{MadGraph 5
   : Going Beyond},'' {\em JHEP}, vol.~06, p.~128, 2011.
