@@ -2,19 +2,19 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Theoretical Background}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Jet Algorithms}{5}{section.2.1}
-\contentsline {chapter}{\numberline {3}Experimental Apparatus}{6}{chapter.3}
-\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{6}{section.3.1}
+\contentsline {chapter}{\numberline {3}Experimental Setup}{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{7}{section.3.1}
 \contentsline {section}{\numberline {3.2}Luminosity Measurement}{8}{section.3.2}
 \contentsline {section}{\numberline {3.3}The Compact Muon Solenoid}{10}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Coordinate System}{12}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Inner Tracker System}{13}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Inner Tracker System}{14}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Electromagnetic Calorimeter}{15}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Hadronic Calorimeter}{17}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Superconducting Magnet}{19}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Muon System}{19}{subsection.3.3.6}
-\contentsline {subsection}{\numberline {3.3.7}Trigger and Data Acquisition system}{21}{subsection.3.3.7}
-\contentsline {subsubsection}{\numberline {3.3.7.1}Jet Triggers}{23}{subsubsection.3.3.7.1}
-\contentsline {subsubsection}{\numberline {3.3.7.2}Data Acquisition System}{24}{subsubsection.3.3.7.2}
+\contentsline {subsection}{\numberline {3.3.5}Superconducting Magnet}{20}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Muon System}{20}{subsection.3.3.6}
+\contentsline {subsection}{\numberline {3.3.7}Trigger and Data Acquisition system}{22}{subsection.3.3.7}
+\contentsline {subsubsection}{\numberline {3.3.7.1}Jet Triggers}{24}{subsubsection.3.3.7.1}
+\contentsline {subsubsection}{\numberline {3.3.7.2}Data Acquisition System}{25}{subsubsection.3.3.7.2}
 \contentsline {section}{\numberline {3.4}Operation of the CMS}{25}{section.3.4}
 \contentsline {chapter}{\numberline {4}Event Generation, Simulation and Reconstruction}{26}{chapter.4}
 \contentsline {section}{\numberline {4.1}Computing and Software Tools}{26}{section.4.1}

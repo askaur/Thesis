@@ -1,5 +1,6 @@
 \chapter{Event Generation, Simulation and Reconstruction}
 \label{chap:Reconstruction}
+\begin{comment}
 \section{Computing and Software Tools}
 
 \subsection{Analysis Software}
@@ -31,4 +32,4 @@ The transverse momenta of final state stable particles or energies of the calori
 
 
 The electromagnetic and hadronic calorimeters are divided into a grid of cells based on the detector granularity to identify calorimeter cluster seeds. If there are seeds with an energy exceeding a certain threshold, they are used in an iterative merging algorithm to form Particle Flow clusters. The different elements of the detector information are then linked together into Particle Flow building blocks based on the geometry and χ 2 fits. At first, muons, which can be well identified using the tracks in the muon detector, are reconstructed using the building blocks connected to the muon system. Blocks connecting the inner tracking system with the ECAL clusters are used to identify electrons. Similarly, charged hadrons are identified using links between the tracking system and the remaining calorimeter clusters. Only neutral objects which leave no traces in the tracking system, remain. ECAL clusters are interpreted as photon candidates, while the remaining HCAL clusters are assumed to be deposits of neutral hadrons. To avoid any kind of double-counting of energy, all Particle Flow building blocks of successfully reconstructed particle candidates are removed and the energy of the calorimeter clusters is recalculated. Finally, a set of so-called Particle Flow candidates is yielded. They consist of well identified particles, which profit from the improved resolution gained by the inclusion of tracking information. This collection of particles is then used to reconstruct the jets and further physical objects.
-
+\end{comment}
