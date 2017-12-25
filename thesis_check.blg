@@ -18,53 +18,57 @@ Database file #1: thesis.bib
 Warning--empty journal in Bayatian:2006nff
 Warning--empty journal in CMS:2013gfa
 Warning--empty journal in vanderMeer:1968zz
+Warning--empty journal in Bird:2005js
+Warning--empty journal in Bahr:2008tf
 Warning--empty author in CMS:2009nxa
 Warning--empty journal in CMS:2009nxa
 Warning--empty author in CMS:2010byl
 Warning--empty journal in CMS:2010byl
 Warning--empty journal in Adam:2005cg
+Warning--empty author in CMS:2005aa
+Warning--empty journal in CMS:2005aa
 Warning--empty journal in CMS:2010xta
 Warning--empty journal in CMS:2011esa
 Warning--empty journal in DAgostini
-You've used 75 entries,
+You've used 87 entries,
             1876 wiz_defined-function locations,
-            922 strings with 15586 characters,
-and the built_in function-call counts, 19670 in all, are:
-= -- 1998
-> -- 684
+            1000 strings with 17840 characters,
+and the built_in function-call counts, 23134 in all, are:
+= -- 2321
+> -- 849
 < -- 0
-+ -- 258
-- -- 183
-* -- 1156
-:= -- 2664
-add.period$ -- 82
-call.type$ -- 75
-change.case$ -- 74
++ -- 318
+- -- 231
+* -- 1408
+:= -- 3159
+add.period$ -- 95
+call.type$ -- 87
+change.case$ -- 86
 chr.to.int$ -- 0
-cite$ -- 86
-duplicate$ -- 1209
-empty$ -- 1804
-format.name$ -- 183
-if$ -- 5044
+cite$ -- 102
+duplicate$ -- 1389
+empty$ -- 2108
+format.name$ -- 231
+if$ -- 5895
 int.to.chr$ -- 0
-int.to.str$ -- 75
-missing$ -- 72
-newline$ -- 235
-num.names$ -- 74
-pop$ -- 241
+int.to.str$ -- 87
+missing$ -- 84
+newline$ -- 272
+num.names$ -- 85
+pop$ -- 277
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 943
+skip$ -- 1073
 stack$ -- 0
-substring$ -- 946
-swap$ -- 595
+substring$ -- 1155
+swap$ -- 676
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 11
-while$ -- 156
-width$ -- 77
-write$ -- 744
-(There were 11 warnings)
+warning$ -- 15
+while$ -- 183
+width$ -- 89
+write$ -- 858
+(There were 15 warnings)

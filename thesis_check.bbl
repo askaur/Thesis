@@ -62,6 +62,118 @@ P.~Adzic {\em et~al.}, ``{Energy resolution of the barrel of the CMS
 S.~Chatrchyan {\em et~al.}, ``{Performance of the CMS Hadron Calorimeter with
   Cosmic Ray Muons and LHC Beam Data},'' {\em JINST}, vol.~5, p.~T03012, 2010.
 
+\bibitem{Bird:2005js}
+I.~Bird, K.~Bos, N.~Brook, D.~Duellmann, C.~Eck, I.~Fisk, D.~Foster,
+  B.~Gibbard, C.~Grandi, F.~Grey, {\em et~al.}, ``{LHC computing Grid.
+  Technical design report},'' 2005.
+
+\bibitem{Monte}
+N.~Metropolis and S.~Ulam, ``The monte carlo method,'' {\em Journal of the
+  American Statistical Association}, vol.~44, no.~247, pp.~335--341, 1949.
+\newblock PMID: 18139350.
+
+\bibitem{Lund}
+B.~Andersson, G.~Gustafson, G.~Ingelman, and T.~Sjöstrand, ``Parton
+  fragmentation and string dynamics,'' {\em Physics Reports}, vol.~97, no.~2,
+  pp.~31 -- 145, 1983.
+
+\bibitem{Sjostrand:2006za}
+T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, ``{PYTHIA 6.4 Physics and Manual},''
+  {\em JHEP}, vol.~05, p.~026, 2006.
+
+\bibitem{Sjostrand:2007gs}
+T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, ``{A Brief Introduction to PYTHIA
+  8.1},'' {\em Comput. Phys. Commun.}, vol.~178, pp.~852--867, 2008.
+
+\bibitem{Field:2011iq}
+R.~Field, ``{Min-Bias and the Underlying Event at the LHC},'' {\em Acta Phys.
+  Polon.}, vol.~B42, pp.~2631--2656, 2011.
+
+\bibitem{Khachatryan:2015pea}
+V.~Khachatryan {\em et~al.}, ``{Event generator tunes obtained from underlying
+  event and multiparton scattering measurements},'' {\em Eur. Phys. J.},
+  vol.~C76, no.~3, p.~155, 2016.
+
+\bibitem{Alwall:2011uj}
+J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, and T.~Stelzer, ``{MadGraph 5
+  : Going Beyond},'' {\em JHEP}, vol.~06, p.~128, 2011.
+
+\bibitem{Alwall:2006yp}
+J.~Alwall {\em et~al.}, ``{A Standard format for Les Houches event files},''
+  {\em Comput. Phys. Commun.}, vol.~176, pp.~300--304, 2007.
+
+\bibitem{Corcella:2000bw}
+G.~Corcella, I.~G. Knowles, G.~Marchesini, S.~Moretti, K.~Odagiri,
+  P.~Richardson, M.~H. Seymour, and B.~R. Webber, ``{HERWIG 6: An Event
+  generator for hadron emission reactions with interfering gluons (including
+  supersymmetric processes)},'' {\em JHEP}, vol.~01, p.~010, 2001.
+
+\bibitem{Bahr:2008pv}
+M.~Bahr {\em et~al.}, ``{Herwig++ Physics and Manual},'' {\em Eur. Phys. J.},
+  vol.~C58, pp.~639--707, 2008.
+
+\bibitem{Bahr:2008tf}
+M.~Bahr, S.~Gieseke, M.~Gigg, D.~Grellscheid, K.~Hamilton, S.~Platzer,
+  P.~Richardson, M.~H. Seymour, and J.~Tully, ``{Herwig++ 2.3 Release Note},''
+  2008.
+
+\bibitem{Frixione:2007vw}
+S.~Frixione, P.~Nason, and C.~Oleari, ``{Matching NLO QCD computations with
+  Parton Shower simulations: the POWHEG method},'' {\em JHEP}, vol.~11, p.~070,
+  2007.
+
+\bibitem{Nason:2004rx}
+P.~Nason, ``{A New method for combining NLO QCD with shower Monte Carlo
+  algorithms},'' {\em JHEP}, vol.~11, p.~040, 2004.
+
+\bibitem{Alioli:2010xa}
+S.~Alioli, K.~Hamilton, P.~Nason, C.~Oleari, and E.~Re, ``{Jet pair production
+  in POWHEG},'' {\em JHEP}, vol.~04, p.~081, 2011.
+
+\bibitem{Oleari:2010nx}
+C.~Oleari, ``{The POWHEG-BOX},'' {\em Nucl. Phys. Proc. Suppl.}, vol.~205-206,
+  pp.~36--41, 2010.
+
+\bibitem{Nagy:2001fj}
+Z.~Nagy, ``{Three jet cross-sections in hadron hadron collisions at
+  next-to-leading order},'' {\em Phys. Rev. Lett.}, vol.~88, p.~122003, 2002.
+
+\bibitem{Nagy:2003tz}
+Z.~Nagy, ``{Next-to-leading order calculation of three jet observables in
+  hadron hadron collision},'' {\em Phys. Rev.}, vol.~D68, p.~094002, 2003.
+
+\bibitem{Kluge:2006xs}
+T.~Kluge, K.~Rabbertz, and M.~Wobisch, ``{FastNLO: Fast pQCD calculations for
+  PDF fits},'' in {\em {Deep inelastic scattering. Proceedings, 14th
+  International Workshop, DIS 2006, Tsukuba, Japan, April 20-24, 2006}},
+  pp.~483--486, 2006.
+
+\bibitem{Britzger:2012bs}
+D.~Britzger, K.~Rabbertz, F.~Stober, and M.~Wobisch, ``{New features in version
+  2 of the fastNLO project},'' in {\em {Proceedings, 20th International
+  Workshop on Deep-Inelastic Scattering and Related Subjects (DIS 2012): Bonn,
+  Germany, March 26-30, 2012}}, pp.~217--221, 2012.
+
+\bibitem{Whalley:2005nh}
+M.~R. Whalley, D.~Bourilkov, and R.~C. Group, ``{The Les Houches accord PDFs
+  (LHAPDF) and LHAGLUE},'' in {\em {HERA and the LHC: A Workshop on the
+  implications of HERA for LHC physics. Proceedings, Part B}}, pp.~575--581,
+  2005.
+
+\bibitem{Buckley:2014ana}
+A.~Buckley, J.~Ferrando, S.~Lloyd, K.~Nordström, B.~Page, M.~Rüfenacht,
+  M.~Schönherr, and G.~Watt, ``{LHAPDF6: parton density access in the LHC
+  precision era},'' {\em Eur. Phys. J.}, vol.~C75, p.~132, 2015.
+
+\bibitem{Agostinelli:2002hh}
+S.~Agostinelli {\em et~al.}, ``{GEANT4: A Simulation toolkit},'' {\em Nucl.
+  Instrum. Meth.}, vol.~A506, pp.~250--303, 2003.
+
+\bibitem{Abdullin:2011zz}
+S.~Abdullin, P.~Azzi, F.~Beaudette, P.~Janot, and A.~Perrotta, ``{The fast
+  simulation of the CMS detector at LHC},'' {\em J. Phys. Conf. Ser.},
+  vol.~331, p.~032049, 2011.
+
 \bibitem{Schorner-Sadenius:2015cga}
 T.~Schörner-Sadenius, ed., {\em {The Large Hadron Collider}}.
 \newblock Berlin: Springer, 2015.
@@ -78,17 +190,12 @@ T.~Schörner-Sadenius, ed., {\em {The Large Hadron Collider}}.
 W.~Adam, B.~Mangano, T.~Speer, and T.~Todorov, ``{Track reconstruction in the
   CMS tracker},'' 2005.
 
-\bibitem{Alwall:2011uj}
-J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, and T.~Stelzer, ``{MadGraph 5
-  : Going Beyond},'' {\em JHEP}, vol.~06, p.~128, 2011.
+\bibitem{CMS:2005aa}
+``{CMS: The computing project. Technical design report},'' 2005.
 
-\bibitem{Sjostrand:2006za}
-T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, ``{PYTHIA 6.4 Physics and Manual},''
-  {\em JHEP}, vol.~05, p.~026, 2006.
-
-\bibitem{Alwall:2006yp}
-J.~Alwall {\em et~al.}, ``{A Standard format for Les Houches event files},''
-  {\em Comput. Phys. Commun.}, vol.~176, pp.~300--304, 2007.
+\bibitem{Brun:1997pa}
+R.~Brun and F.~Rademakers, ``{ROOT: An object oriented data analysis
+  framework},'' {\em Nucl. Instrum. Meth.}, vol.~A389, pp.~81--86, 1997.
 
 \bibitem{10.2307/2331986}
 C.~J. Clopper and E.~S. Pearson, ``The use of confidence or fiducial limits
@@ -151,37 +258,6 @@ V.~Khachatryan {\em et~al.}, ``{Measurement and QCD analysis of
   double-differential inclusive jet cross sections in pp collisions at $
   \sqrt{s}=8 $ TeV and cross section ratios to 2.76 and 7 TeV},'' {\em JHEP},
   vol.~03, p.~156, 2017.
-
-\bibitem{Nagy:2001fj}
-Z.~Nagy, ``{Three jet cross-sections in hadron hadron collisions at
-  next-to-leading order},'' {\em Phys. Rev. Lett.}, vol.~88, p.~122003, 2002.
-
-\bibitem{Nagy:2003tz}
-Z.~Nagy, ``{Next-to-leading order calculation of three jet observables in
-  hadron hadron collision},'' {\em Phys. Rev.}, vol.~D68, p.~094002, 2003.
-
-\bibitem{Kluge:2006xs}
-T.~Kluge, K.~Rabbertz, and M.~Wobisch, ``{FastNLO: Fast pQCD calculations for
-  PDF fits},'' in {\em {Deep inelastic scattering. Proceedings, 14th
-  International Workshop, DIS 2006, Tsukuba, Japan, April 20-24, 2006}},
-  pp.~483--486, 2006.
-
-\bibitem{Britzger:2012bs}
-D.~Britzger, K.~Rabbertz, F.~Stober, and M.~Wobisch, ``{New features in version
-  2 of the fastNLO project},'' in {\em {Proceedings, 20th International
-  Workshop on Deep-Inelastic Scattering and Related Subjects (DIS 2012): Bonn,
-  Germany, March 26-30, 2012}}, pp.~217--221, 2012.
-
-\bibitem{Whalley:2005nh}
-M.~R. Whalley, D.~Bourilkov, and R.~C. Group, ``{The Les Houches accord PDFs
-  (LHAPDF) and LHAGLUE},'' in {\em {HERA and the LHC: A Workshop on the
-  implications of HERA for LHC physics. Proceedings, Part B}}, pp.~575--581,
-  2005.
-
-\bibitem{Buckley:2014ana}
-A.~Buckley, J.~Ferrando, S.~Lloyd, K.~Nordström, B.~Page, M.~Rüfenacht,
-  M.~Schönherr, and G.~Watt, ``{LHAPDF6: parton density access in the LHC
-  precision era},'' {\em Eur. Phys. J.}, vol.~C75, p.~132, 2015.
 
 \bibitem{Aad:2013lpa}
 G.~Aad {\em et~al.}, ``{Measurement of the inclusive jet cross section in pp
@@ -249,28 +325,6 @@ L.~A. Harland-Lang, A.~D. Martin, P.~Motylinski, and R.~S. Thorne, ``{Parton
 \bibitem{Ball:2014uwa}
 R.~D. Ball {\em et~al.}, ``{Parton distributions for the LHC Run II},'' {\em
   JHEP}, vol.~04, p.~040, 2015.
-
-\bibitem{Bahr:2008pv}
-M.~Bahr {\em et~al.}, ``{Herwig++ Physics and Manual},'' {\em Eur. Phys. J.},
-  vol.~C58, pp.~639--707, 2008.
-
-\bibitem{Nason:2004rx}
-P.~Nason, ``{A New method for combining NLO QCD with shower Monte Carlo
-  algorithms},'' {\em JHEP}, vol.~11, p.~040, 2004.
-
-\bibitem{Frixione:2007vw}
-S.~Frixione, P.~Nason, and C.~Oleari, ``{Matching NLO QCD computations with
-  Parton Shower simulations: the POWHEG method},'' {\em JHEP}, vol.~11, p.~070,
-  2007.
-
-\bibitem{Alioli:2010xa}
-S.~Alioli, K.~Hamilton, P.~Nason, C.~Oleari, and E.~Re, ``{Jet pair production
-  in POWHEG},'' {\em JHEP}, vol.~04, p.~081, 2011.
-
-\bibitem{Khachatryan:2015pea}
-V.~Khachatryan {\em et~al.}, ``{Event generator tunes obtained from underlying
-  event and multiparton scattering measurements},'' {\em Eur. Phys. J.},
-  vol.~C76, no.~3, p.~155, 2016.
 
 \bibitem{Hollik:2004dz}
 W.~Hollik {\em et~al.}, ``{Electroweak physics},'' {\em Acta Phys. Polon.},
