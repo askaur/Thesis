@@ -190,15 +190,15 @@ T.~Schörner-Sadenius, ed., {\em {The Large Hadron Collider}}.
 W.~Adam, B.~Mangano, T.~Speer, and T.~Todorov, ``{Track reconstruction in the
   CMS tracker},'' 2005.
 
-\bibitem{Khachatryan:2016kdb}
-V.~Khachatryan {\em et~al.}, ``{Jet energy scale and resolution in the CMS
-  experiment in pp collisions at 8 TeV},'' {\em JINST}, vol.~12, no.~02,
-  p.~P02014, 2017.
-
 \bibitem{Chatrchyan:2011ds}
 S.~Chatrchyan {\em et~al.}, ``{Determination of Jet Energy Calibration and
   Transverse Momentum Resolution in CMS},'' {\em JINST}, vol.~6, p.~P11002,
   2011.
+
+\bibitem{Khachatryan:2016kdb}
+V.~Khachatryan {\em et~al.}, ``{Jet energy scale and resolution in the CMS
+  experiment in pp collisions at 8 TeV},'' {\em JINST}, vol.~12, no.~02,
+  p.~P02014, 2017.
 
 \bibitem{CMS:2005aa}
 ``{CMS: The computing project. Technical design report},'' 2005.
