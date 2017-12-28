@@ -2,82 +2,82 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Theoretical Background}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Jet Algorithms}{5}{section.2.1}
-\contentsline {chapter}{\numberline {3}Experimental Setup}{6}{chapter.3}
-\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Luminosity Measurement}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}The Compact Muon Solenoid}{11}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Coordinate System}{13}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Inner Tracker System}{14}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Electromagnetic Calorimeter}{16}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Hadronic Calorimeter}{18}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Superconducting Magnet}{21}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Muon System}{21}{subsection.3.3.6}
-\contentsline {subsection}{\numberline {3.3.7}Trigger and Data Acquisition System}{23}{subsection.3.3.7}
-\contentsline {subsubsection}{\numberline {3.3.7.1}Jet Triggers}{25}{subsubsection.3.3.7.1}
-\contentsline {subsubsection}{\numberline {3.3.7.2}Data Acquisition System}{26}{subsubsection.3.3.7.2}
-\contentsline {subsection}{\numberline {3.3.8}Data Management}{27}{subsection.3.3.8}
-\contentsline {chapter}{\numberline {4}Event Generation, Simulation and Reconstruction}{28}{chapter.4}
-\contentsline {section}{\numberline {4.1}Event Generation and Simulation Software}{28}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}{\textsc {pythia}}}{30}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}{\textsc {MadGraph5}}\xspace }{30}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}\textsc {herwig}}{31}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}{\textsc {powheg}}\xspace }{31}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}\NLOJET ~and {\textsc {fastNLO}}\xspace }{31}{subsection.4.1.5}
-\contentsline {section}{\numberline {4.2}Detector Simulation}{32}{section.4.2}
-\contentsline {section}{\numberline {4.3}Event Reconstruction}{33}{section.4.3}
+\contentsline {chapter}{\numberline {3}Experimental Setup}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{8}{section.3.1}
+\contentsline {section}{\numberline {3.2}Luminosity Measurement}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}The Compact Muon Solenoid}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Coordinate System}{14}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Inner Tracker System}{15}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Electromagnetic Calorimeter}{17}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Hadronic Calorimeter}{19}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Superconducting Magnet}{22}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Muon System}{22}{subsection.3.3.6}
+\contentsline {subsection}{\numberline {3.3.7}Trigger and Data Acquisition System}{24}{subsection.3.3.7}
+\contentsline {subsubsection}{\numberline {3.3.7.1}Jet Triggers}{26}{subsubsection.3.3.7.1}
+\contentsline {subsubsection}{\numberline {3.3.7.2}Data Acquisition System}{27}{subsubsection.3.3.7.2}
+\contentsline {subsection}{\numberline {3.3.8}Data Management}{28}{subsection.3.3.8}
+\contentsline {chapter}{\numberline {4}Event Generation, Simulation and Reconstruction}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Event Generation and Simulation Software}{29}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}{\textsc {pythia}}}{31}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}{\textsc {MadGraph5}}\xspace }{31}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}\textsc {herwig}}{32}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}{\textsc {powheg}}\xspace }{32}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}\NLOJET ~and {\textsc {fastNLO}}\xspace }{32}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}Detector Simulation}{33}{section.4.2}
+\contentsline {section}{\numberline {4.3}Event Reconstruction}{34}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Particle Flow Algorithm}{35}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Jet Energy Corrections}{36}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Software Tools}{38}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}CMSSW Framework}{39}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}ROOT}{39}{subsection.4.4.2}
-\contentsline {chapter}{\numberline {5}Measurement of the Differential Inclusive Multijet Cross-sections and their Ratio}{41}{chapter.5}
-\contentsline {section}{\numberline {5.1}Data Samples}{42}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Monte Carlo Samples}{43}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}Event Selection}{44}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Trigger Selection}{44}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Primary Vertex Selection}{46}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Missing Transverse Energy}{48}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Jet Identification}{48}{subsection.5.2.4}
-\contentsline {subsubsection}{\numberline {5.2.4.1}Jet ID Efficiency}{49}{subsubsection.5.2.4.1}
-\contentsline {subsection}{\numberline {5.2.5}Jet Selection}{53}{subsection.5.2.5}
-\contentsline {section}{\numberline {5.3}Comparison with Simulation}{53}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Pileup Reweighting}{53}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Comparison of Cross-sections and their Ratio}{54}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Jet Energy Resolution (JER)}{56}{section.5.4}
-\contentsline {section}{\numberline {5.5}Unfolding}{62}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Response Matrices}{63}{subsection.5.5.1}
-\contentsline {subsubsection}{\numberline {5.5.1.1}Inclusive Cross-sections}{64}{subsubsection.5.5.1.1}
-\contentsline {subsubsection}{\numberline {5.5.1.2}Cross-section Ratio, \ensuremath {R_{32}}\xspace }{67}{subsubsection.5.5.1.2}
-\contentsline {subsection}{\numberline {5.5.2}Closure Test}{67}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Unfolding of the Measurement}{69}{subsection.5.5.3}
-\contentsline {section}{\numberline {5.6}Experimental Uncertainties}{70}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Statistical Uncertainty}{72}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Jet Energy Corrections Uncertainty}{72}{subsection.5.6.2}
-\contentsline {subsection}{\numberline {5.6.3}Unfolding Uncertainty}{76}{subsection.5.6.3}
-\contentsline {subsection}{\numberline {5.6.4}Luminosity Measurement Uncertainty}{77}{subsection.5.6.4}
-\contentsline {subsection}{\numberline {5.6.5}Residual Uncertainty}{77}{subsection.5.6.5}
-\contentsline {subsection}{\numberline {5.6.6}Total Experimental Uncertainty}{78}{subsection.5.6.6}
-\contentsline {chapter}{\numberline {6}Theoretical Calculations}{80}{chapter.6}
-\contentsline {section}{\numberline {6.1}Fixed Order NLO Calculations}{80}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}NLO Correction Factors}{82}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Non-Perturbative Corrections}{83}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Electroweak Corrections}{85}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}Theoretical Uncertainties}{87}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Scale Uncertainty}{87}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}PDF Uncertainty}{88}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Non-perturbative Uncertainty}{89}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Total Theoretical Uncertainty}{89}{subsection.6.2.4}
-\contentsline {section}{\numberline {6.3}Comparison of Theory to Data}{91}{section.6.3}
-\contentsline {chapter}{\numberline {7}Determination of the Strong Coupling Constant}{96}{chapter.7}
-\contentsline {section}{\numberline {7.1}Sensitivity of Measurements to \ensuremath {\alpha _s(M_Z)}\xspace }{97}{section.7.1}
-\contentsline {section}{\numberline {7.2}Determination of \ensuremath {\alpha _s(M_Z)}\xspace }{98}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Fitting Procedure}{98}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Fit Results}{104}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}Running of the Strong Coupling Constant}{107}{section.7.3}
-\contentsline {chapter}{\numberline {8}Summary}{111}{chapter.8}
-\contentsline {chapter}{Appendix \numberline {A}}{115}{Appendix.a.A}
-\contentsline {section}{\numberline {A.1}Cross-section Ratio, \ensuremath {R_{32}}\xspace }{116}{section.a.A.1}
-\contentsline {section}{\numberline {A.2}Individual Sources of Jet Energy Correction Uncertainties}{117}{section.a.A.2}
-\contentsline {section}{\numberline {A.3}Experimental Uncertainties}{120}{section.a.A.3}
-\contentsline {section}{\numberline {A.4}Theoretical Uncertainties}{123}{section.a.A.4}
-\contentsline {chapter}{Bibliography}{126}{table.caption.79}
+\contentsline {subsection}{\numberline {4.3.2}Jet Energy Corrections}{37}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Software Tools}{40}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}CMSSW Framework}{40}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}ROOT}{41}{subsection.4.4.2}
+\contentsline {chapter}{\numberline {5}Measurement of the Differential Inclusive Multijet Cross-sections and their Ratio}{42}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data Samples}{43}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Monte Carlo Samples}{44}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Event Selection}{45}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Trigger Selection}{45}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Primary Vertex Selection}{47}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Missing Transverse Energy}{49}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Jet Identification}{49}{subsection.5.2.4}
+\contentsline {subsubsection}{\numberline {5.2.4.1}Jet ID Efficiency}{50}{subsubsection.5.2.4.1}
+\contentsline {subsection}{\numberline {5.2.5}Jet Selection}{54}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}Comparison with Simulation}{54}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Pileup Reweighting}{54}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Comparison of Cross-sections and their Ratio}{55}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Jet Energy Resolution (JER)}{57}{section.5.4}
+\contentsline {section}{\numberline {5.5}Unfolding}{63}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Response Matrices}{64}{subsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.1.1}Inclusive Cross-sections}{65}{subsubsection.5.5.1.1}
+\contentsline {subsubsection}{\numberline {5.5.1.2}Cross-section Ratio, \ensuremath {R_{32}}\xspace }{68}{subsubsection.5.5.1.2}
+\contentsline {subsection}{\numberline {5.5.2}Closure Test}{68}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Unfolding of the Measurement}{70}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}Experimental Uncertainties}{71}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Statistical Uncertainty}{73}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Jet Energy Corrections Uncertainty}{73}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Unfolding Uncertainty}{77}{subsection.5.6.3}
+\contentsline {subsection}{\numberline {5.6.4}Luminosity Measurement Uncertainty}{78}{subsection.5.6.4}
+\contentsline {subsection}{\numberline {5.6.5}Residual Uncertainty}{78}{subsection.5.6.5}
+\contentsline {subsection}{\numberline {5.6.6}Total Experimental Uncertainty}{79}{subsection.5.6.6}
+\contentsline {chapter}{\numberline {6}Theoretical Calculations}{81}{chapter.6}
+\contentsline {section}{\numberline {6.1}Fixed Order NLO Calculations}{81}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}NLO Correction Factors}{83}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Non-Perturbative Corrections}{84}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Electroweak Corrections}{86}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Theoretical Uncertainties}{88}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Scale Uncertainty}{88}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}PDF Uncertainty}{89}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Non-perturbative Uncertainty}{90}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Total Theoretical Uncertainty}{90}{subsection.6.2.4}
+\contentsline {section}{\numberline {6.3}Comparison of Theory to Data}{92}{section.6.3}
+\contentsline {chapter}{\numberline {7}Determination of the Strong Coupling Constant}{97}{chapter.7}
+\contentsline {section}{\numberline {7.1}Sensitivity of Measurements to \ensuremath {\alpha _s(M_Z)}\xspace }{98}{section.7.1}
+\contentsline {section}{\numberline {7.2}Determination of \ensuremath {\alpha _s(M_Z)}\xspace }{99}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Fitting Procedure}{99}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Fit Results}{105}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Running of the Strong Coupling Constant}{108}{section.7.3}
+\contentsline {chapter}{\numberline {8}Summary}{112}{chapter.8}
+\contentsline {chapter}{Appendix \numberline {A}}{116}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}Cross-section Ratio, \ensuremath {R_{32}}\xspace }{117}{section.a.A.1}
+\contentsline {section}{\numberline {A.2}Individual Sources of Jet Energy Correction Uncertainties}{118}{section.a.A.2}
+\contentsline {section}{\numberline {A.3}Experimental Uncertainties}{121}{section.a.A.3}
+\contentsline {section}{\numberline {A.4}Theoretical Uncertainties}{124}{section.a.A.4}
+\contentsline {chapter}{Bibliography}{127}{table.caption.80}
