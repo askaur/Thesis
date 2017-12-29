@@ -186,13 +186,13 @@ T.~Schörner-Sadenius, ed., {\em {The Large Hadron Collider}}.
 ``{Commissioning of the Particle-flow Event Reconstruction with the first LHC
   collisions recorded in the CMS detector},'' 2010.
 
-\bibitem{Rabbertz:2017ssq}
-K.~Rabbertz, ``{Jet Physics at the LHC},'' {\em Springer Tracts Mod. Phys.},
-  vol.~268, pp.~pp.1--214, 2017.
-
 \bibitem{Adam:2005cg}
 W.~Adam, B.~Mangano, T.~Speer, and T.~Todorov, ``{Track reconstruction in the
   CMS tracker},'' 2005.
+
+\bibitem{Rabbertz:2017ssq}
+K.~Rabbertz, ``{Jet Physics at the LHC},'' {\em Springer Tracts Mod. Phys.},
+  vol.~268, pp.~pp.1--214, 2017.
 
 \bibitem{Chatrchyan:2011ds}
 S.~Chatrchyan {\em et~al.}, ``{Determination of Jet Energy Calibration and
@@ -210,6 +210,18 @@ V.~Khachatryan {\em et~al.}, ``{Jet energy scale and resolution in the CMS
 \bibitem{Brun:1997pa}
 R.~Brun and F.~Rademakers, ``{ROOT: An object oriented data analysis
   framework},'' {\em Nucl. Instrum. Meth.}, vol.~A389, pp.~81--86, 1997.
+
+\bibitem{Khachatryan:2016mlc}
+V.~Khachatryan {\em et~al.}, ``{Measurement and QCD analysis of
+  double-differential inclusive jet cross sections in pp collisions at $
+  \sqrt{s}=8 $ TeV and cross section ratios to 2.76 and 7 TeV},'' {\em JHEP},
+  vol.~03, p.~156, 2017.
+
+\bibitem{Sirunyan:2017skj}
+A.~M. Sirunyan {\em et~al.}, ``{Measurement of the triple-differential dijet
+  cross section in proton-proton collisions at $\sqrt{s}=8\,\text {TeV} $ and
+  constraints on parton distribution functions},'' {\em Eur. Phys. J.},
+  vol.~C77, no.~11, p.~746, 2017.
 
 \bibitem{10.2307/2331986}
 C.~J. Clopper and E.~S. Pearson, ``The use of confidence or fiducial limits
@@ -261,12 +273,6 @@ S.~Chatrchyan {\em et~al.}, ``{Measurements of differential jet cross sections
   in proton-proton collisions at $\sqrt{s}=7$ TeV with the CMS detector},''
   {\em Phys. Rev.}, vol.~D87, no.~11, p.~112002, 2013.
 \newblock [Erratum: Phys. Rev.D87,no.11,119902(2013)].
-
-\bibitem{Khachatryan:2016mlc}
-V.~Khachatryan {\em et~al.}, ``{Measurement and QCD analysis of
-  double-differential inclusive jet cross sections in pp collisions at $
-  \sqrt{s}=8 $ TeV and cross section ratios to 2.76 and 7 TeV},'' {\em JHEP},
-  vol.~03, p.~156, 2017.
 
 \bibitem{Aad:2013lpa}
 G.~Aad {\em et~al.}, ``{Measurement of the inclusive jet cross section in pp

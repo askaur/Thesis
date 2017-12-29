@@ -69,7 +69,7 @@ The Compact Muon Solenoid (CMS) detector is a general purpose detector located a
 \begin{figure}[!h]
 \begin{center} 
 \hspace*{-15mm}
-\includegraphics[scale = 0.75]{/home/anter/Desktop/Thesis/Figures/CMS_Front_2.png}
+\includegraphics[scale = 0.55]{/home/anter/Desktop/Thesis/Figures/cropped_CMS_Front.pdf}
 \caption{Front view of the CMS detector along with its components : inner tracker, outer tracker, electromagnetic calorimeter, hadronic calorimeter, solenoid and muon system. The path of different particles detected by dedicated sub-detectors are shown by dashed (invisible track) and solid (visible track) lines. $\otimes$ and $\odot$ gives the direction of magnetic field inside the solenoid and in the return yoke, respectively. Taken from \cite{Ball:2007zza}.}
 \label{fig:CMS_front}
 \end{center}
@@ -78,8 +78,17 @@ The Compact Muon Solenoid (CMS) detector is a general purpose detector located a
 A brief overview of the CMS detector has been presented and the details of the its design as well as physics performance are available in Ref.~\cite{Bayatian:2006nff,Ball:2007zza}. Before going into the details of each sub-detector, first the CMS coordinate system is described in the next section.
 
 \subsection{Coordinate System}
-CMS uses right-handed coordinate system having origin at the nominal interaction point of the collision inside the detector. The $x$-axis points horizontally towards the center of the LHC ring, the $y$-axis vertically upwards and the $z$-axis along the beam direction towards the Jura mountains. The radial coordinate in $x$-$y$ plane is denoted by $r$. Following customary polar coordinate conventions : the azimuthal angle $\phi$ is measured from the $x$-axis in the $x$-$y$ plane as $\phi = {\rm tan^{-1}}(\frac{y}{x})$ where $\phi$ = 0 points to the \plusn $x$ axis and $\phi$ = $\pi$/2 points to the \plusn $y$ axis. The polar angle $\theta$, is calculated from the $z$-axis in the $z$-$y$ plane as $\theta~=~{\rm tan^{-1}}\big(\frac{x^2~\plus y^2}{2}\big)$ with $\theta$ = 0 corresponding to the \plusn $z$ direction and $\theta$ = $\pi$ to the -$z$ direction. The quantities pseudorapidity $\eta$ and the rapidity $y$ are preferred over the angles $\theta$ and $\phi$. The pseudorapidity and rapidity are given by Eq.~\ref{eq:pseudorap}. Both the quantities are equal for massless particles.
-
+\begin{figure}[!h]
+\begin{center} 
+\hspace*{-15mm}
+\includegraphics[scale = 1.5]{/home/anter/Desktop/Thesis/Figures/cms_coordinate_system.png}
+\vspace{3mm}
+\caption[Co-ordinate]{The right-handed coordinate system used by the CMS detector\footnotemark with origin at the interaction point (IP), $x$-axis points horizontally from the IP towards the center of the LHC ring, the $y$-axis vertically upwards and the $z$-axis along the beam direction towards the Jura mountains, $\phi$ as the azimuthal angle measured from the $x$-axis in the $x$-$y$ plane and $\theta$ as the polar angle calculated from the $z$-axis in the $z$-$y$ plane.}
+\label{fig:coordinate}
+\end{center}
+\end{figure}
+CMS uses right-handed coordinate system, illustrated in Fig.~\ref{fig:coordinate}, having origin at the nominal interaction point (IP) of the collision inside the detector. The $x$-axis points horizontally from the IP, towards the center of the LHC ring, the $y$-axis vertically upwards and the $z$-axis along the beam direction towards the Jura mountains. The radial coordinate in $x$-$y$ plane is denoted by $r$. Following customary polar coordinate conventions : the azimuthal angle $\phi$ is measured from the $x$-axis in the $x$-$y$ plane as $\phi = {\rm tan^{-1}}(\frac{y}{x})$ where $\phi$ = 0 points to the \plusn $x$ axis and $\phi$ = $\pi$/2 points to the \plusn $y$ axis. The polar angle $\theta$, is calculated from the $z$-axis in the $z$-$y$ plane as $\theta~=~{\rm tan^{-1}}\big(\frac{x^2~\plus y^2}{2}\big)$ with $\theta$ = 0 corresponding to the \plusn $z$ direction and $\theta$ = $\pi$ to the -$z$ direction. The quantities pseudorapidity $\eta$ and the rapidity $y$ are preferred over the angles $\theta$ and $\phi$. The pseudorapidity and rapidity are given by Eq.~\ref{eq:pseudorap}. Both the quantities are equal for massless particles.
+\footnotetext{Source : \url{https://wiki.physik.uzh.ch/cms/latex:example_spherical_coordinates}}
 \begin{equation}
 \begin{gathered}
 \eta = -~{\rm ln}\bigg({\rm tan}\bigg(\frac{\theta}{2}\bigg)\bigg)\\
@@ -87,24 +96,34 @@ y = \frac{1}{2}~{\rm ln} \bigg(\frac{E~\plus p_z}{E - p_z} \bigg)
 \end{gathered}
 \label{eq:pseudorap}
 \end{equation}
-The difference between rapidities $\Delta y$ is invariant under longitudinal Lorentz boost whereas it does not hold for $\eta$. Hence $y$ is considered in this thesis. The angular distance between the two particles is defined by $\Delta R = \sqrt{(\Delta \eta)^2~\plus (\Delta \phi)^2}$. The momentum component transverse to the direction of beam \pt, is computed from the $x$- and $y$-components as \pt = $\sqrt{p^2_x~\plus p^2_y}$ and the transverse energy is given by $E_T$ = $E$ sin$\theta$.
- 
+The difference between rapidities $\Delta y$ is invariant under longitudinal Lorentz boost whereas it does not hold for $\eta$. Hence $y$ is considered in this thesis. The angular distance between the two particles is defined by $\Delta R = \sqrt{(\Delta \eta)^2~\plus (\Delta \phi)^2}$. The momentum component transverse to the direction of beam \pt, is computed from the $x$- and $y$-components as \pt = $\sqrt{p^2_x~\plus p^2_y}$ and the transverse energy is given by $E_T$ = $E$ sin$\theta$. After introducing the CMS coordinate system, further the detector subsystems are described briefly in the following sections. A longitudinal section through the CMS detector shown in Fig.~\ref{fig:CMS_quad} presents the position of all sub-systems along with the superconducting solenoid.
+
+\begin{figure}[!h]
+\vspace*{2mm}
+\begin{center} 
+\hspace*{-5mm}
+\includegraphics[scale = 1.1]{/home/anter/Desktop/Thesis/Figures/cropped_CMS_Quad.pdf}
+\vspace{3mm}
+\caption[Quad]{The right-handed coordinate system used by the CMS detector\footnotemark with origin at the interaction point (IP), $x$-axis points horizontally from the IP towards the center of the LHC ring, the $y$-axis vertically upwards and the $z$-axis along the beam direction towards the Jura mountains, $\phi$ as the azimuthal angle measured from the $x$-axis in the $x$-$y$ plane and $\theta$ as the polar angle calculated from the $z$-axis in the $z$-$y$ plane.}
+\label{fig:CMS_quad}
+\end{center}
+\end{figure}
+\footnotetext{Source : \url{http://cds.cern.ch/record/1747055}}
+
 \subsection{Inner Tracker System}
 The charged particles produced from the LHC collisions leave their trajectories as they move outward from the interaction point. The particle flux within the detector decreases as 1/$r^2$. So the tracks of the particles need to be measured as close to the collision point as possible and in a precise manner. The innermost tracking system of the CMS consisting of silicon detectors measures the hits of charged particles. It surrounds the interaction point and has a cylindrical volume of length of 5.8 m and a diameter of 2.5 m and covers a pseudorapidity range up to $|\eta|$ \ls 2.5. When charged particles pass through the silicon detector material, small ionization currents are produced which are detected as a hit. Such multiple hits when combined, reconstruct the track which gives the information about the direction and transverse momentum \pt of the charged particle. Silicon detectors have a much higher resolution in tracking charged particles as compared to the older ones such as cloud chambers or wire chambers. CMS inner tracking system shown in Fig.~\ref{fig:tracker} consists of two sub-systems :\\ \newline 
 {\bf Pixel Detector -} A pixel detector lying close to the beam pipe have three co-centric barrel layers at radii of 4.4, 7.3 and 10.2 cm from the beam pipe. It has two disks of pixel modules on each side of barrel. At the LHC design luminosity of 10$^{34}$ cm$^{-2}$s$^{-1}$, about 1000 particles from more than 20 overlapping proton-proton interactions traverse through the tracker for each bunch crossing, i.e. every 25 ns. The size of each pixel is 100 $\micro$m $\times$ 150 $\micro$m which gives an average occupancy of 10$^{-4}$ per bunch crossing. By taking an advantage of the large Lorentz effect, the pixel tracker has a resolution of 10 $\micro$m $\times$ 20 $\micro$m needed for a precise determination of the primary and secondary vertices and the required momentum resolution. \\ \newline
 {\bf Strip Detector -} After coming out of the pixel detector the charged particles pass through ten layers of silicon strip detectors, reaching out to a radius of 130 cm. The silicon strip detector consists of four inner barrel (TIB) layers assembled in shells with two inner endcaps (TID), each composed of three small discs. The outer barrel (TOB) consists of six concentric layers. Finally two endcaps (TEC) close off the tracker. Each part has silicon modules designed differently for its place within the detector. The strip detector measures the particle tracks with a reduced resolution of 23 $\micro$m reflecting the smaller particle flux at larger distances from the interaction point.
-
-The active silicon area of CMS tracker is about 200m$^{2}$ which makes it the largest silicon tracker. Along with the measurement of tracks, the energy also needs to be measured for which the calorimeters are present outside the tracker. The tracker should interfere with the particles to a minimum extent so that their momentum can be measured precisely but to measure their energy, they are required to interact with the calorimeters fully.
-
 \begin{figure}[!h]
 \begin{center} 
 \vspace*{2mm}
-\hspace*{-10mm}
-\includegraphics[scale = 0.3]{/home/anter/Desktop/Thesis/Figures/Tracker.png}\\
+\hspace*{-6mm}
+\includegraphics[scale = 1.1]{/home/anter/Desktop/Thesis/Figures/cropped_Tracker.pdf}\\
 \caption{The longitudinal section of the inner tracking system consisting of the silicon pixel detector and the silicon strip detector is shown in $r$-$z$ plane. The silicon strip detector has four components : The Tracker Inner Barrel (TIB) complemented by the Tracker Inner Disks (TID) which are further surrounded by the Tracker Outer Barrel (TOB) in barrel region. Tracker End Cap (TEC) covers high $\eta$ ranges up to $\eta$ = 2.5. Taken from \cite{Chatrchyan:2008aa}.}
 \label{fig:tracker}
 \end{center}
 \end{figure}
+The active silicon area of CMS tracker is about 200m$^{2}$ which makes it the largest silicon tracker. Along with the measurement of tracks, the energy also needs to be measured for which the calorimeters are present outside the tracker. The tracker should interfere with the particles to a minimum extent so that their momentum can be measured precisely but to measure their energy, they are required to interact with the calorimeters fully.
 
 \subsection{Electromagnetic Calorimeter}
 The electromagnetic calorimeter (ECAL) is a homogeneous and hermetic calorimeter used to slow down the produced photons and electrons/positrons and measure their energy by absorb them into the detector material. ECAL consists of 61200 lead tungstate (PbWO$_4$) crystals in the barrel part and 7324 crystals in each of the two endcaps. PbWO$_4$ is a very dense material with a short radiation length of X$_0$ = 0.89 cm and covers the pseudorapidity up to $|\eta|$ \ls 3.0. The particles interact with matter and produce electromagnetic shower through the subsequent processes of bremsstrahlung and electron-positron pair production. The energy of the particles deposited by Compton scattering and the photoelectric effect causes excitation of the material atomic state and the emission of photons. These photons are detected by silicon avalanche photo diodes (APDs) in the barrel region and vacuum phototriodes (VPT) in the end-cap region. The number of created photons gives the direct measure of energy of the incident particle. The incorporation of oxygen makes it highly transparent and enables to emit scintillation light. The small Moli$\grave{e}$re radius of 2.19 cm gives a fine granularity. These properties leads to compact size of ECAL and can be placed easily within the solenoid magnet. 
@@ -117,6 +136,7 @@ Figure~\ref{fig:ecal} presents a geometric view of ECAL in the $y$-$z$ plane sho
 \vspace*{3mm} 
 \hspace*{-5mm}
 \includegraphics[scale = 0.26]{/home/anter/Desktop/Thesis/Figures/ECAL.png}\\
+%\includegraphics[scale = 0.26]{/home/anter/Desktop/Thesis/Figures/cropped_ECAL.pdf}\\
 \vspace*{2mm}
 \caption{A geometric view of one quarter of the electromagnetic calorimeter (ECAL) in $y$-$z$ plane showing the arrangement of sub-modules covering the barrel region (EB) and the endcaps (EE). ECAL is complemented with preshower detector (ES) mounted in front of the endcaps. Taken from \cite{Bayatian:2006nff}.}
 \label{fig:ecal}
@@ -136,7 +156,7 @@ At CMS, the major fraction of the produced particles in proton-proton collisions
 \begin{center}
 \vspace*{3mm} 
 \hspace*{-5mm}
-\includegraphics[scale = 0.26]{/home/anter/Desktop/Thesis/Figures/HCAL.png}\\
+\includegraphics[scale = 1.]{/home/anter/Desktop/Thesis/Figures/cropped_HCAL.pdf}\\
 \vspace*{4mm}
 \caption{Longitudinal view of one quarter of the hadronic calorimeter (HCAL) detector in $r$-$\eta$ plane showing its different parts : hadron barrel (HB), hadron outer (HO), hadron endcap (HE) and hadron forward (HF). Taken from \cite{Chatrchyan:2008aa}.}
 \label{fig:hcal}
@@ -159,22 +179,21 @@ with a stochastic term a and a constant term b. These values have been measured 
 \subsection{Superconducting Magnet}
 The superconducting magnet is the key feature of the CMS detector which is 13m long and 6m in diameter. Its refrigerated superconducting high-purity aluminium-stabilized niobium-titanium coils cooled at 4 Kelvin produces a magnetic field of 4 Teslas (T). The magnet will run at 3.8 T in order to maximize its lifetime. This intense solenoidal field makes the compactness and cylindrical symmetry of the detector possible. The magnet is placed between the calorimeters and the muon system. The solenoidal magnetic field parallel to the beam bends the tracks of the high momentum charged particles in the transverse plane. The curvature of the trajectory increases with the strength of the magnetic field which make possible to determine the transverse momentum more precisely. The magnet is complemented by a $\sim$10000 tonnes iron yoke which returns the magnetic field at 2 T.
 
+\subsection{Muon System}
+As the name suggests, the detection of muons is of central importance to CMS. Only the muons and neutrinos, out of all the known stable particles, pass through the calorimeter without depositing most or all of their energy. They interact very little with matter and can travel long distances through the dense matter. The charged muons can be detected by having an additional tracking system outside the calorimeters whereas the neutrinos are practically undetectable as they escape completely without being tracked in any of the layers. Their presence can be detected from the missing energy carried by them. The CMS muon system is installed outside calorimeters in the iron return yoke of the magnet. The muon system perform the muon identification, momentum measurement and triggering. Good muon momentum resolution and trigger capability are enabled by the high-field solenoidal magnet and its flux-return yoke. The latter also serves as a hadron absorber for the identification of muons. The CMS muon system is designed to have the capability of reconstructing the momentum and charge of muons over the entire kinematic range of the LHC. The muon system shown in Fig.~\ref{fig:muon} consists of three types of gaseous particle detectors : \\ \newline
 \begin{figure}[!h]
 \begin{center}
 \vspace*{3mm} 
 \hspace*{-5mm}
-\includegraphics[scale = 0.5]{/home/anter/Desktop/Thesis/Figures/Muon_2.png}\\
+\includegraphics[scale = 1.4]{/home/anter/Desktop/Thesis/Figures/cropped_Muon.pdf}\\
 \vspace*{4mm}
 \caption[Muon]{A longitudinal view presenting the location of the three muon sub-systems : four Drift Tube (DT) stations in the barrel (MB1-MB4, green), four stations of Cathode Strip Chambers (CSC) in the endcap (ME1-ME4, blue), and the Resistive Plate Chambers (RPC) stations (red)\footnotemark.}
 \label{fig:muon}
 \end{center}
 \end{figure}
-
-\subsection{Muon System}
-As the name suggests, the detection of muons is of central importance to CMS. Only the muons and neutrinos, out of all the known stable particles, pass through the calorimeter without depositing most or all of their energy. They interact very little with matter and can travel long distances through the dense matter. The charged muons can be detected by having an additional tracking system outside the calorimeters whereas the neutrinos are practically undetectable as they escape completely without being tracked in any of the layers. Their presence can be detected from the missing energy carried by them. \footnotetext{Source : \url{https://arxiv.org/abs/1209.2646}}The CMS muon system is installed outside calorimeters in the iron return yoke of the magnet. The muon system perform the muon identification, momentum measurement and triggering. Good muon momentum resolution and trigger capability are enabled by the high-field solenoidal magnet and its flux-return yoke. The latter also serves as a hadron absorber for the identification of muons. The CMS muon system is designed to have the capability of reconstructing the momentum and charge of muons over the entire kinematic range of the LHC. The muon system shown in Fig.~\ref{fig:muon} consists of three types of gaseous particle detectors : \\ \newline 
 {\bf Drift Tube -} 
-The muon barrel (MB) detector has four concentric layers of drift tube (DT) chambers inside the iron yoke which covers the region up to $|\eta|$ \ls 1.2. DT stations are distributed into 5 wheels along the z direction. Each wheel is divided into 12 sectors, each covering a 30$\degree$ azimuthal angle. The DTs are aluminium tubes of 2.5 m of length and 4.2 $\times$ 1.3 cm$^{2}$ of area, filled with gas mixture ( 58\% Ar \plus 15 \% CO$_{2}$). \\ \newline
-{\bf Cathode Strip Chambers -} In the forward region, the muon and background flux is higher. So cathode strip chambers (CSC) are preferred because of their fast response time, radiation tolerance and fine segmentation. The four stations of CSCs are installed in each end cap covering in total the region of 0.9 \ls $|\eta|$ \ls 2.4. Each CSC is trapezoidal in shape and consists of 6 gas gaps, each gap having a plane of radial cathode strips and a plane of anode wires running almost perpendicularly to the strips. \\ \newline
+The muon barrel (MB) detector has four concentric layers of drift tube (DT) chambers inside the iron yoke which covers the region up to $|\eta|$ \ls 1.2. DT stations are distributed into 5 wheels along the z direction. Each wheel is divided into 12 sectors, each covering a 30$\degree$ azimuthal angle. The DTs are aluminium tubes of 2.5 m of length and 4.2 $\times$ 1.3 cm$^{2}$ of area, filled with gas mixture ( 58\% Ar \plus 15 \% CO$_{2}$). \\ \newline \footnotetext{Source : \url{https://arxiv.org/abs/1209.2646}}
+{\bf Cathode Strip Chambers -} In the forward region, the muon and background flux is higher. So cathode strip chambers (CSC) are preferred because of their fast response time, radiation tolerance and fine segmentation. The four stations of CSCs are installed in each end cap covering in total the region of 0.9 \ls $|\eta|$ \ls 2.4. Each CSC is trapezoidal in shape and consists of 6 gas gaps, each gap having a plane of radial cathode strips and a plane of anode wires running almost perpendicularly to the strips. \\ \newline 
 {\bf Resistive Plate Chambers -} Both DT and CSC are accompanied by resistive plate chambers (RPC) which are double-gap chambers, operated in avalanche mode to ensure good operation at high rates. They help to resolve ambiguities in attempting to make tracks from multiple hits in a chamber and provide additional points for determination of a muon trajectory. They provide fast response to the trigger system which is described in the following section.
  
 \subsection{Trigger and Data Acquisition System}
@@ -185,7 +204,7 @@ CMS has a two-level complex trigger system : \\\newline
 \begin{center}
 \vspace*{3mm} 
 \hspace*{-5mm}
-\includegraphics[scale = 0.7]{/home/anter/Desktop/Thesis/Figures/L1.png}\\
+\includegraphics[scale = 1.2]{/home/anter/Desktop/Thesis/Figures/cropped_Trigger.pdf}\\
 \vspace*{4mm}
 \caption{Work flow of the L1 trigger system. Taken from \cite{Chatrchyan:2008aa}.}
 \label{fig:L1}
@@ -217,7 +236,7 @@ As the L1 trigger accepts events at a rate of 100 kHz, the Data Acquisition (DAQ
 \begin{center}
 \vspace*{3mm} 
 \hspace*{-5mm}
-\includegraphics[scale = 0.85]{/home/anter/Desktop/Thesis/Figures/DAQ.png}\\
+\includegraphics[scale = 1.3]{/home/anter/Desktop/Thesis/Figures/cropped_DAQ.pdf}\\
 \vspace*{4mm}
 \caption{Architecture of the CMS DAQ system. Taken from \cite{Chatrchyan:2008aa}.}
 \label{fig:DAQ}
