@@ -13,6 +13,7 @@ The cross-section ratio \rations, defined in Eq.~\ref{eq:ratio_32} is obtained b
  \label{eq:ratio_32}
  \ratio = \frac[10pt]{{\dd{\sigma_{3\hy jet}}{\big(\httwo\big)}}}{\dd{\sigma_{2\hy jet}}{\big(\httwo\big)}}
 \end{equation}
+
 For inclusive 2-jet events (\njt) sufficient data are available up to \httwo = 2000 GeV, while for inclusive 3-jet events (\njth) and the ratio \rations, the accessible range in \httwo is limited to \httwo = 1680 GeV.
 
 \section{Data Samples}
@@ -201,6 +202,7 @@ The measurement of differential cross-sections and their ratio uses jets cluster
 \item Events with at least two jets are selected.
 \item The two leading jets should have $|y|$ \ls 2.5 and further jets are counted only, if they lie within the same central rapidity range of $|y|$ \ls 2.5. 
 \end{itemize}
+
 These cuts assure high detector acceptance and exactly same selection is applied in the measurement, simulated events as well in theoretical calculations for a consistent comparison. 
 
 \section{Comparison with Simulation}
@@ -269,7 +271,6 @@ The reconstructed jet \pt is smeared randomly using a Gaussian width widened by 
 \begin{equation}
 \pt \rightarrow Gauss\bigg(\mu = \pt, \sigma = \sqrt{c^2_{central} - 1} \cdot {\rm JER}(\pt)\bigg)
 \end{equation}
-
 where JER(\pt) is the resolution determined as a function of jet \pt using \MGP~MC simulated events. After smearing transverse momentum of each reco jet, \httwo is calculated from both generator particle jets (Gen \httwons) as well as the particle flow or reconstructed jets (Reco \httwons). Then the response is calculated as defined in the Eq.~\ref{eq:res}. 
 \begin{equation}
 \label{eq:res}
@@ -524,7 +525,6 @@ As explained in Sec.~\ref{sec:jet_corrections}, the measured jet energy is corre
 
 \item {\bf Flavor -} Flavor response differences are studied from simulation by cross-checking the results with quark- and gluon-tagged $\gamma$\plusn jet and Z\plusn jet events. These uncertainties are based on \PYTHIASn.4 and \HERWIGPPn 2.3 differences propagated through the data-based calibration method.
 \end{enumerate}
-
 The details of the jet energy corrections and uncertainties can be found in \cite{JEC}. 
 
 \subsection{Unfolding Uncertainty}

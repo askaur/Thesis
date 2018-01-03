@@ -15,6 +15,8 @@ A level-1 auxiliary file: Summary.aux
 A level-1 auxiliary file: Appendix.aux
 The style file: ieeetr.bst
 Database file #1: thesis.bib
+Warning--empty publisher in Perkins:1982xb
+Warning--empty publisher in Halzen:1984mc
 Warning--empty journal in Bayatian:2006nff
 Warning--empty journal in CMS:2013gfa
 Warning--empty journal in vanderMeer:1968zz
@@ -30,45 +32,45 @@ Warning--empty journal in CMS:2005aa
 Warning--empty journal in CMS:2010xta
 Warning--empty journal in CMS:2011esa
 Warning--empty journal in DAgostini
-You've used 90 entries,
+You've used 102 entries,
             1876 wiz_defined-function locations,
-            1016 strings with 18302 characters,
-and the built_in function-call counts, 23981 in all, are:
-= -- 2414
-> -- 869
+            1095 strings with 20024 characters,
+and the built_in function-call counts, 26899 in all, are:
+= -- 2716
+> -- 944
 < -- 0
-+ -- 326
-- -- 236
-* -- 1453
-:= -- 3267
-add.period$ -- 98
-call.type$ -- 90
-change.case$ -- 89
++ -- 357
+- -- 255
+* -- 1627
+:= -- 3665
+add.period$ -- 115
+call.type$ -- 102
+change.case$ -- 97
 chr.to.int$ -- 0
-cite$ -- 105
-duplicate$ -- 1444
-empty$ -- 2185
-format.name$ -- 236
-if$ -- 6118
+cite$ -- 119
+duplicate$ -- 1604
+empty$ -- 2489
+format.name$ -- 255
+if$ -- 6868
 int.to.chr$ -- 0
-int.to.str$ -- 90
-missing$ -- 87
-newline$ -- 281
-num.names$ -- 88
-pop$ -- 284
+int.to.str$ -- 102
+missing$ -- 103
+newline$ -- 322
+num.names$ -- 100
+pop$ -- 323
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1121
+skip$ -- 1224
 stack$ -- 0
-substring$ -- 1206
-swap$ -- 707
+substring$ -- 1394
+swap$ -- 771
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 15
-while$ -- 190
-width$ -- 92
-write$ -- 889
-(There were 15 warnings)
+warning$ -- 17
+while$ -- 218
+width$ -- 105
+write$ -- 1006
+(There were 17 warnings)
