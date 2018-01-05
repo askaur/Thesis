@@ -1,0 +1,29 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{feynmp}
+\DeclareGraphicsRule{*}{mps}{*}{}
+
+\usepackage{tikz-feynman}
+\tikzfeynmanset{compat=1.1.0}
+
+\title{Drawing Feynman Diagrams in \LaTeX}
+
+\begin{document}
+\begin{figure}
+\centering
+\feynmandiagram [horizontal=a to b] {
+  a -- [gluon] b,
+  f1 -- [fermion] b -- [fermion] f2,
+};
+\hspace{13mm}
+\feynmandiagram [horizontal=a to b] {
+  a -- [gluon] b,
+  f1 -- [gluon] b -- [gluon] f2,
+};
+\hspace{13mm}
+\feynmandiagram [horizontal=a to b] {
+  a -- [gluon] b,
+  f1 -- [gluon] b -- [gluon] f2 -- [gluon] f3,
+};
+\end{figure}
+\end{document}

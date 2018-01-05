@@ -61,6 +61,26 @@ F.~Halzen and A.~D. Martin, {\em {QUARKS AND LEPTONS: AN INTRODUCTORY COURSE IN
   MODERN PARTICLE PHYSICS}}.
 \newblock 1984.
 
+\bibitem{GellMann:1962xb}
+M.~Gell-Mann, ``{Symmetries of baryons and mesons},'' {\em Phys. Rev.},
+  vol.~125, pp.~1067--1084, 1962.
+
+\bibitem{Rabbertz:2017ssq}
+K.~Rabbertz, ``{Jet Physics at the LHC},'' {\em Springer Tracts Mod. Phys.},
+  vol.~268, pp.~pp.1--214, 2017.
+
+\bibitem{tHooft:1973mfk}
+G.~'t~Hooft, ``{Dimensional regularization and the renormalization group},''
+  {\em Nucl. Phys.}, vol.~B61, pp.~455--468, 1973.
+
+\bibitem{Weinberg:1951ss}
+S.~Weinberg, ``{New approach to the renormalization group},'' {\em Phys. Rev.},
+  vol.~D8, pp.~3497--3509, 1973.
+
+\bibitem{Patrignani:2016xqp}
+C.~Patrignani {\em et~al.}, ``{Review of Particle Physics},'' {\em Chin.
+  Phys.}, vol.~C40, no.~10, p.~100001, 2016.
+
 \bibitem{Evans:2008zzb}
 L.~Evans and P.~Bryant, ``{LHC Machine},'' {\em JINST}, vol.~3, p.~S08001,
   2008.
@@ -244,10 +264,6 @@ T.~Schörner-Sadenius, ed., {\em {The Large Hadron Collider}}.
 \bibitem{Adam:2005cg}
 W.~Adam, B.~Mangano, T.~Speer, and T.~Todorov, ``{Track reconstruction in the
   CMS tracker},'' 2005.
-
-\bibitem{Rabbertz:2017ssq}
-K.~Rabbertz, ``{Jet Physics at the LHC},'' {\em Springer Tracts Mod. Phys.},
-  vol.~268, pp.~pp.1--214, 2017.
 
 \bibitem{Chatrchyan:2011ds}
 S.~Chatrchyan {\em et~al.}, ``{Determination of Jet Energy Calibration and
@@ -473,9 +489,5 @@ K.~G. Chetyrkin, J.~H. Kuhn, and M.~Steinhauser, ``{RunDec: A Mathematica
 B.~Schmidt and M.~Steinhauser, ``{CRunDec: a C++ package for running and
   decoupling of the strong coupling and quark masses},'' {\em Comput. Phys.
   Commun.}, vol.~183, pp.~1845--1848, 2012.
-
-\bibitem{Patrignani:2016xqp}
-C.~Patrignani {\em et~al.}, ``{Review of Particle Physics},'' {\em Chin.
-  Phys.}, vol.~C40, no.~10, p.~100001, 2016.
 
 \end{thebibliography}
