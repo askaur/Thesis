@@ -81,6 +81,71 @@ S.~Weinberg, ``{New approach to the renormalization group},'' {\em Phys. Rev.},
 C.~Patrignani {\em et~al.}, ``{Review of Particle Physics},'' {\em Chin.
   Phys.}, vol.~C40, no.~10, p.~100001, 2016.
 
+\bibitem{Collins:1989gx}
+J.~C. Collins, D.~E. Soper, and G.~F. Sterman, ``{Factorization of Hard
+  Processes in QCD},'' {\em Adv. Ser. Direct. High Energy Phys.}, vol.~5,
+  pp.~1--91, 1989.
+
+\bibitem{Gribov:1972ri}
+V.~N. Gribov and L.~N. Lipatov, ``{Deep inelastic e p scattering in
+  perturbation theory},'' {\em Sov. J. Nucl. Phys.}, vol.~15, pp.~438--450,
+  1972.
+\newblock [Yad. Fiz.15,781(1972)].
+
+\bibitem{Dokshitzer:1977sg}
+Y.~L. Dokshitzer, ``{Calculation of the Structure Functions for Deep Inelastic
+  Scattering and e+ e- Annihilation by Perturbation Theory in Quantum
+  Chromodynamics.},'' {\em Sov. Phys. JETP}, vol.~46, pp.~641--653, 1977.
+\newblock [Zh. Eksp. Teor. Fiz.73,1216(1977)].
+
+\bibitem{Altarelli:1977zs}
+G.~Altarelli and G.~Parisi, ``{Asymptotic Freedom in Parton Language},'' {\em
+  Nucl. Phys.}, vol.~B126, pp.~298--318, 1977.
+
+\bibitem{Sirunyan:2017skj}
+A.~M. Sirunyan {\em et~al.}, ``{Measurement of the triple-differential dijet
+  cross section in proton-proton collisions at $\sqrt{s}=8\,\text {TeV} $ and
+  constraints on parton distribution functions},'' {\em Eur. Phys. J.},
+  vol.~C77, no.~11, p.~746, 2017.
+
+\bibitem{Dulat:2015mca}
+S.~Dulat, T.-J. Hou, J.~Gao, M.~Guzzi, J.~Huston, P.~Nadolsky, J.~Pumplin,
+  C.~Schmidt, D.~Stump, and C.~P. Yuan, ``{New parton distribution functions
+  from a global analysis of quantum chromodynamics},'' {\em Phys. Rev.},
+  vol.~D93, no.~3, p.~033006, 2016.
+
+\bibitem{Harland-Lang:2014zoa}
+L.~A. Harland-Lang, A.~D. Martin, P.~Motylinski, and R.~S. Thorne, ``{Parton
+  distributions in the LHC era: MMHT 2014 PDFs},'' {\em Eur. Phys. J.},
+  vol.~C75, no.~5, p.~204, 2015.
+
+\bibitem{Ball:2014uwa}
+R.~D. Ball {\em et~al.}, ``{Parton distributions for the LHC Run II},'' {\em
+  JHEP}, vol.~04, p.~040, 2015.
+
+\bibitem{Alekhin:2012ig}
+S.~Alekhin, J.~Blumlein, and S.~Moch, ``{Parton Distribution Functions and
+  Benchmark Cross Sections at NNLO},'' {\em Phys. Rev.}, vol.~D86, p.~054009,
+  2012.
+
+\bibitem{Abramowicz:2015mha}
+H.~Abramowicz {\em et~al.}, ``{Combination of measurements of inclusive deep
+  inelastic ${e^{\pm }p}$ scattering cross sections and QCD analysis of HERA
+  data},'' {\em Eur. Phys. J.}, vol.~C75, no.~12, p.~580, 2015.
+
+\bibitem{Sjostrand:1984ic}
+T.~Sjostrand, ``{Jet Fragmentation of Nearby Partons},'' {\em Nucl. Phys.},
+  vol.~B248, pp.~469--502, 1984.
+
+\bibitem{Marchesini:1987cf}
+G.~Marchesini and B.~R. Webber, ``{Monte Carlo Simulation of General Hard
+  Processes with Coherent QCD Radiation},'' {\em Nucl. Phys.}, vol.~B310,
+  pp.~461--526, 1988.
+
+\bibitem{Webber:1983if}
+B.~R. Webber, ``{A QCD Model for Jet Fragmentation Including Soft Gluon
+  Interference},'' {\em Nucl. Phys.}, vol.~B238, pp.~492--528, 1984.
+
 \bibitem{Evans:2008zzb}
 L.~Evans and P.~Bryant, ``{LHC Machine},'' {\em JINST}, vol.~3, p.~S08001,
   2008.
@@ -288,12 +353,6 @@ V.~Khachatryan {\em et~al.}, ``{Measurement and QCD analysis of
   \sqrt{s}=8 $ TeV and cross section ratios to 2.76 and 7 TeV},'' {\em JHEP},
   vol.~03, p.~156, 2017.
 
-\bibitem{Sirunyan:2017skj}
-A.~M. Sirunyan {\em et~al.}, ``{Measurement of the triple-differential dijet
-  cross section in proton-proton collisions at $\sqrt{s}=8\,\text {TeV} $ and
-  constraints on parton distribution functions},'' {\em Eur. Phys. J.},
-  vol.~C77, no.~11, p.~746, 2017.
-
 \bibitem{10.2307/2331986}
 C.~J. Clopper and E.~S. Pearson, ``The use of confidence or fiducial limits
   illustrated in the case of the binomial,'' {\em Biometrika}, vol.~26, no.~4,
@@ -368,11 +427,6 @@ V.~Khachatryan {\em et~al.}, ``{Measurement of the inclusive jet cross section
   in pp collisions at $\sqrt{s} = 2.76\,\text {TeV}$},'' {\em Eur. Phys. J.},
   vol.~C76, no.~5, p.~265, 2016.
 
-\bibitem{Alekhin:2012ig}
-S.~Alekhin, J.~Blumlein, and S.~Moch, ``{Parton Distribution Functions and
-  Benchmark Cross Sections at NNLO},'' {\em Phys. Rev.}, vol.~D86, p.~054009,
-  2012.
-
 \bibitem{Lai:2010vv}
 H.-L. Lai, M.~Guzzi, J.~Huston, Z.~Li, P.~M. Nadolsky, J.~Pumplin, and C.~P.
   Yuan, ``{New parton distributions for collider physics},'' {\em Phys. Rev.},
@@ -391,26 +445,6 @@ A.~D. Martin, W.~J. Stirling, R.~S. Thorne, and G.~Watt, ``{Uncertainties on
 \bibitem{Ball:2012cx}
 R.~D. Ball {\em et~al.}, ``{Parton distributions with LHC data},'' {\em Nucl.
   Phys.}, vol.~B867, pp.~244--289, 2013.
-
-\bibitem{Dulat:2015mca}
-S.~Dulat, T.-J. Hou, J.~Gao, M.~Guzzi, J.~Huston, P.~Nadolsky, J.~Pumplin,
-  C.~Schmidt, D.~Stump, and C.~P. Yuan, ``{New parton distribution functions
-  from a global analysis of quantum chromodynamics},'' {\em Phys. Rev.},
-  vol.~D93, no.~3, p.~033006, 2016.
-
-\bibitem{Abramowicz:2015mha}
-H.~Abramowicz {\em et~al.}, ``{Combination of measurements of inclusive deep
-  inelastic ${e^{\pm }p}$ scattering cross sections and QCD analysis of HERA
-  data},'' {\em Eur. Phys. J.}, vol.~C75, no.~12, p.~580, 2015.
-
-\bibitem{Harland-Lang:2014zoa}
-L.~A. Harland-Lang, A.~D. Martin, P.~Motylinski, and R.~S. Thorne, ``{Parton
-  distributions in the LHC era: MMHT 2014 PDFs},'' {\em Eur. Phys. J.},
-  vol.~C75, no.~5, p.~204, 2015.
-
-\bibitem{Ball:2014uwa}
-R.~D. Ball {\em et~al.}, ``{Parton distributions for the LHC Run II},'' {\em
-  JHEP}, vol.~04, p.~040, 2015.
 
 \bibitem{Hollik:2004dz}
 W.~Hollik {\em et~al.}, ``{Electroweak physics},'' {\em Acta Phys. Polon.},

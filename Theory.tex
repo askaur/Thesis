@@ -73,7 +73,7 @@ where $\xi$ may be any finite constant. This choice fixes the class of covariant
 \end{equation}
 where $\eta^{A}$ is a complex scalar field which obeys Fermi statistics. The ghost fields cancel unphysical degrees of freedom which arise due to using covariant gauges. This completes the QCD Lagrangian shown in equation \ref{eq:lag}.
 
-The strength of an interaction is given by a fundamental parameter called the coupling constant $\alpha$. In QED, the coupling constant $\alpha_e$ = $e^2/4\pi$ = 1/137 is constant. In contrast to this, in QCD, the coupling constant \alpsq = $g^2_s/4\pi$ is not constant and depends on the separation between the interacting particles. It increases with the increase in the distance or decrease in the energy scale Q. At large distances or low energies, the quarks can never be found as free particles but as color neutral bound states called hadrons. Hadrons are two types : mesons ($q\bar{q}$) made up of quark-antiquark pair and baryons ($qqq$) made from three (anti-)quarks. When the colored quarks and gluons within a hadron are pulled farther and farther apart, there is an increase in the strength of force between them. This results in creation of new quark-antiquark pair making difficult to liberate a free quark or gluon. This property of QCD is known as confinement. As it would take an infinite amount of energy to separate two quarks, they are forever bound into hadrons such as protons ($uud$), neutrons ($udd$). Although the gluons are massless, the confinement leads to the finite range of the strong interactions. On the other hand, at small distances, the quarks and gluons interact very weakly and are treated as free particles. This property is known as asymptotic freedom. This indicates that perturbation theory is only applicable at high energies or small distances.
+The strength of an interaction is given by a fundamental parameter called the coupling constant $\alpha$. In QED, the coupling constant $\alpha_e$ = $e^2/4\pi$ = 1/137 is constant. In contrast to this, in QCD, the coupling constant \alpsq = $g^2_s/4\pi$ is not constant and depends on the separation between the interacting particles. It increases with the increase in the distance or decrease in the energy scale Q. At large distances or low energies, the quarks can never be found as free particles but as color neutral bound states called hadrons. Hadrons are of two types : baryons and mesons made up of quark-antiquark pair and ($qqq$) made from three (anti-)quarks. According to the quark model \cite{Griffiths:111880} every (anti-)baryon is made up of three (anti-)quarks and every meson is composed of a quark and an antiquark. When the colored quarks and gluons within a hadron are pulled farther and farther apart, there is an increase in the strength of force between them. This results in creation of new quark-antiquark pair making difficult to liberate a free quark or gluon. This property of QCD is known as confinement. As it would take an infinite amount of energy to separate two quarks, they are forever bound into hadrons such as protons ($uud$), neutrons ($udd$). Although the gluons are massless, the confinement leads to the finite range of the strong interactions. On the other hand, at small distances, the quarks and gluons interact very weakly and are treated as free particles. This property is known as asymptotic freedom. This indicates that perturbation theory is only applicable at high energies or small distances.
 
 \subsection{Perturbative Quantum Chromodynamics}
 At high energies, the property of asymptotic freedom allows a perturbative treatment in QCD calculations. In perturbative Quantum Chromodynamics (pQCD), any observable $X$ such as cross-section of a scattering process, can be written as a perturbative series in terms of coupling constant \alps as : 
@@ -90,10 +90,10 @@ where ${\rm c}_i$ are the perturbative coefficients. In a process, the pQCD calc
 \label{fig:orders}
 \end{center}
 \end{figure}
-The calculations become complex with the loop diagrams where the momenta of the virtual partcles in a loop are not fully constrained by four-momentum conservation and the associated integrals are divergent. Such ultraviolet (UV) divergencies enter the calculations beyond LO due to loop or vertex corrections. These are overcome by a procedure known as renormalization, described in next Section. Apart from these, QCD also suffers from infrared and collinear divergences (IRC) due to the presence of massless gluons and neglected quark masses. These need to be handled in pQCD calculations. The observable to be studied must be IRC safe. 
+The calculations become complex with the loop diagrams where the momenta of the virtual particles in a loop are not fully constrained by four-momentum conservation and the associated integrals are divergent. Such ultraviolet (UV) divergencies enter the calculations beyond LO due to loop or vertex corrections. These are overcome by a procedure known as renormalization, described in next Section. Apart from these, QCD also suffers from infrared and collinear divergences (IRC) due to the presence of massless gluons and neglected quark masses. These need to be handled in pQCD calculations. The observable to be studied must be IRC safe. 
 
 \subsection{Renormalization and Running of the Strong Coupling}
-The renormalization is a mathematical procedure which allows the finite calculation of momementa integrals of loop by removing UV divergences. \footnotetext{Drawn using ROOT}It introduces a regulator for the infinities, the renormalization scale \mur. At first, the divergences are regularized temporarily by introducing a cut-off to the loop momenta at \mur scale. Then the free parameters of the Lagrangian, i.e. the coupling constant are redefined (renormalized) to absorb the UV divergences. Hence, both \alpsq and observable $X$ become a function of \mur. The exact dependence of \alpsmusq on \mur is described by the renormalization group equation (RGE), which determines the running of \alpsmusq. RGE states that the dependence of $X$ on \mur must cancel, which is expressed mathematically as : 
+The renormalization is a mathematical procedure which allows the finite calculation of momenta integrals of loop by removing UV divergences. \footnotetext{Drawn using ROOT}It introduces a regulator for the infinities, the renormalization scale \mur. At first, the divergences are regularized temporarily by introducing a cut-off to the loop momenta at \mur scale. Then the free parameters of the Lagrangian, i.e. the coupling constant are redefined (renormalized) to absorb the UV divergences. Hence, both \alpsq and observable $X$ become a function of \mur. The exact dependence of \alpsmusq on \mur is described by the renormalization group equation (RGE), which determines the running of \alpsmusq. RGE states that the dependence of $X$ on \mur must cancel, which is expressed mathematically as : 
 \begin{equation}
 \mur^{2}\frac{d}{d\mur^{2}}X\Bigg(\frac{Q^{2}}{\mur^{2}},\alpha_{s}(\mur^{2})\Bigg)=
 \Bigg(\mur^{2}\frac{\partial}{\partial\mur^{2}}~\plus \mur^{2}\frac{\partial\alpha_{s}(\mur^{2})}
@@ -110,16 +110,16 @@ By setting the renormalization scale to the physical scale i.e. $Q^{2}=\mu^{2}$,
 \beta(\alps)=-\alpha_{s}^{2}\Big(b_0~\plus b_1\alps~\plus b_2\alpha_{s}^{2}~\plus {\cal O}(\alpha_{s}^{3})\Big) 
 \label{eq:beta}
 \end{equation}
-where $b_0$, $b_1$ and$b_2$ are the 1-loop, 2-loop and 3-loop $\beta$-function coefficients encolding the dependence of the coupling on the energy scale and given in the modified minimal subtraction ($\overline{\rm MS}$) scheme \cite{tHooft:1973mfk,Weinberg:1951ss} as :
+where $b_0$, $b_1$ and$b_2$ are the 1-loop, 2-loop and 3-loop $\beta$-function coefficients encoding the dependence of the coupling on the energy scale and given in the modified minimal subtraction ($\overline{\rm MS}$) scheme \cite{tHooft:1973mfk,Weinberg:1951ss} as :
 \begin{equation}
 b_0 = \frac{33-2n_f}{12\pi}, ~~~b_1 = \frac{153-19n_f}{24\pi^2}, ~~b_2 = \frac{77139 - 15099n_f~\plus 325n^2_f}{3456\pi^3}
 \end{equation}
 where $n_f$ is the number of quark flavours with masses $m_q$ smaller than the scale \mur. On integration of above equation, the energy dependence of \alps is yielded. Neglecting the higher orders, the first order solution of RGE is :
 \begin{equation}
-\alpha_{s}(\mur^2)=\frac{1}{b_0~{\rm ln}(\mur^2/\Lambda^2)}
+\alpha_{s}(\mur^2)=\frac{1}{b_0~{\rm ln}(\mur^2/\Lambda^2_{QCD})}
 \label{eq:sol}
 \end{equation}
-with $\Lambda$ as the constant of integration. It corresponds to the scale at which the perturbative coupling would become large and the perturbative series diverge. With $b_0$ \gr 0, the coupling becomes weaker at higher scales $Q$, i.e. the effective color charge gets smaller when the distance decreases. This allows the quarks to behave as free particles within the hadron, leading to the property called asymptotic freedom. It is convenient to express \alps at some fixed scale. As some of the best measurements come from $Z^0$ decays, it is common practise to give the strong coupling at the scale of the $Z$ boson mass as \alpsmz. So, Eq.~\ref{eq:sol} can be expressed as :
+with $\Lambda_{QCD}$ as the constant of integration. It corresponds to the scale at which the perturbative coupling would become large and the perturbative series diverge. With $b_0$ \gr 0, the coupling becomes weaker at higher scales $Q$, i.e. the effective color charge gets smaller when the distance decreases. This allows the quarks to behave as free particles within the hadron, leading to the property called asymptotic freedom. It is convenient to express \alps at some fixed scale. As some of the best measurements come from $Z^0$ decays, it is common practise to give the strong coupling at the scale of the $Z$ boson mass as \alpsmz. So, Eq.~\ref{eq:sol} can be expressed as :
 \begin{equation}
 \alps\big(\mur,\alpsmz\big) = \frac{\alpsmz}{1\plus\alpsmz b_0{\rm ln}(\mur^2/M^2_z)}
 \end{equation}
@@ -140,21 +140,112 @@ This value is derived using hadronic $\tau$ lepton decays, lattice QCD calculati
 \end{center}
 \end{figure}
 
-\subsection{Factorization and Parton Distribution Functions}
+\section{Hadronic Collisions}
 
-\section{Hadron Collisions}
-\subsection{Parton Shower}
-\subsection{Hadronization}
-\subsection{Underlying Event and Multi-Parton Interactions}
+The collision between two hadrons is visualized as an interaction between their constituents, known as partons - quarks and gluons, at at a large momentum transfer, $Q$. At the Large Hadron Collider (LHC), the hadrons involved in the collisions are protons : a complex composite particles consisting of three valence quarks ($uud$) and gluons for the exchange of the strong force. The proton also contains `sea quarks' consisting of quark-anti-quark pairs coming into and out of existence rapidly and continuously due to gluon colour field splitting. In a collision, one of the most important quantities to evaluate is the cross-section ($\sigma$) of a certain process. It gives the probability that the two hadrons interact and give rise to that specific process. But in a hadronic collision, the perturbation theory is only valid at the parton-level and due to property of confinement at low energies, free partons cannot exist in nature. Only hadrons having a complex internal structure are available for the high energy collisions. So, a factorization theorem of QCD \cite{Collins:1989gx} comes into play which allows the calculation of $\sigma$ by separating into two parts : a short-distance partonic cross-section calculable with pQCD, and a non-perturbative long-distance part described by parton distribution functions (PDFs) $f_i(x,\muf)$. \muf is a factorization scale which corresponds to the resolution with which the hadron is being probed. The particles emitted with transverse momenta above \muf are considered in the hard scattering perturbative coefficients whereas those emitted with transverse momenta less than \muf are accounted for within the PDFs. The PDFs describe the partonic content of the colliding hadrons and give the probability to find a parton $i$ with momentum fraction $x$ within a hadron $h$. Assuming factorization theorem in a proton-proton collision, the cross-section of a hard scattering process can be written as :
+\begin{equation}
+\begin{gathered}
+\sigma_{P_1P_2 \rightarrow X} = \sum\limits_{i,j}^{}\int_{}^{} dx_1dx_2f_{i,P_1}(x_1,\muf)f_{j,P_2}(x_2,\muf)\\\times~\hat\sigma_{ij\rightarrow X} \Bigg(x_1p_1,x_2p_2,\alpha(\mur^2),\frac{Q^2}{\muf^2}\Bigg)
+\end{gathered}
+\end{equation}
+where $i,~j$ are initial-state parton flavours, $f_i$ and $f_{j}$ are the proton PDFs which depend on momentum fractions $x_1$ and $x_2$ of parent protons $P_1$ and $P_2$ respectively as well as on the factorization scale \muf. The sum extends over all contributing initial-state partons. $\hat\sigma_{ij}$ is parton level cross-section for the production of final state $X$ and depends on the final state phase, the factorization scale \muf and the renormalization scale \mur. The schematic illustration of the factorization into the PDFs and the hard scattering cross-section is presented in Fig.~\ref{fig:fac}.
+\begin{figure}[!h]
+\begin{center}
+\hspace*{-7mm}
+\includegraphics[width=0.65\textwidth]{/home/anter/Desktop/Thesis/Figures/Factorization.pdf}\\
+\vspace*{4mm}
+\caption[Factorization]{Schematic illustration\footnotemark~of factorization theorem in a collision of two hadrons (protons here) leading to a hard-scattering process at a scale $Q^2$. The two partons $x_1$ and $x_2$ participate in hard interaction with momenta $x_1p_1$ and $x_2p_2$, where $p_1$ and $p_2$ are the momenta of the colliding protons $P_1$ and $P_2$, respectively. The total cross-section is factorized into the hard scattering cross-section $\hat\sigma_{ij}$ calculable using perturbative Quantum Chromodynamics and the PDFs $f_i(x_1,\muf)$ and $f_j(x_2,\muf)$ with factorization scale \muf.}
+\label{fig:fac}
+\end{center}
+\end{figure}
+The PDFs of the proton are a necessary input to almost all theory predictions for the hadron colliders. The QCD does not predict the parton content of the proton. So the shapes of PDFs are determined in fits to experimental measurements from data of different experiments. The dependence of PDFs on \muf is calculated using the Dokshitzer-Gribov-Lipatov-Altarelli-Parisi (DGLAP) \cite{Gribov:1972ri,Dokshitzer:1977sg,Altarelli:1977zs} equations which use \alps and the RGE as inputs. The knowledge of proton PDFs mainly comes from the Deep Inelastic Scattering (DIS) HERA, fixed target and TEVATRON data. The LHC data has a potential to improve constraints of the PDFs further as done in one of the recent measurements \cite{Sirunyan:2017skj}. There are several groups which determine the PDFs with the differences in the applied minimization method, the phenomenological approaches and the estimation of the uncertainties. The global PDFs are the CTEQ \cite{Dulat:2015mca}, MMHT \cite{Harland-Lang:2014zoa}, NNPDF \cite{Ball:2014uwa}, ABM \cite{Alekhin:2012ig} and HERAPDF \cite{Abramowicz:2015mha} groups at LO, NLO and NNLO.
+\footnotetext{Drawn using ROOT}%Source : \url{https://arxiv.org/pdf/1003.0521.pdf}}
+
+\subsection{Parton Shower and Hadronization}
+The hard scattering process involves large momentum transfers due to which the partons involved in it get accelerated. These accelerated colored partons emit QCD radiation in the form of gluons with successively lower energy. Unlike the uncharged photons in QED, the gluons themselves carry color charge and hence also emit further gluons. The emmitted gluons in turn splits into $q\bar{q}$ pairs. This leads to a shower of colored partons called the parton shower. The collinear parton splitting described by splitting functions and the soft gluon emissions contibute mainly to parton shower. The parton shower mimics the effect of higher-order corrections to the hard process. These cannot be calculated exactly and are taken into account using the parton shower approximation. The two incoming partons which are constituents of two colliding hadrons can also develop parton showers, commonly known as Initial-State Radiation (ISR). The initial parton showers till they collide to initiate the hard scattering process. The final outgoing partons produced from a hard scattering process undergo parton showering and give rise to Final-State Radiation (FSR). A parton shower terminates when the scale is below the hadronization scale, which is of order 1 GeV.
+
+With the decrease in energy of partons, the coupling constant of QCD \alps evolves and become large. This leads to the confinement of colored quarks and gluons which leads to the formation of color-neutral composite particles called hadrons. This process is known as hadronization. This process takes place at low momentum transfer and hence non-perturbative in nature. Although no exact theory for hadronization is known, the different phenomenological models have been developed to explain the process of hadronization. These are implemented in Monte Carlo event generators to simulate the hadronization process. \PYTHIA~uses the Lund string model while \HERWIG~is based on the cluster fragmentation model. \\\newline
+{\bf Lund String Model -} In the Lund string model of hadronization \cite{Andersson:1998tv}, the highest-energy gluons are treated as field lines. Due to the gluon self-interaction, the gluons are attracted to each other and form a narrow tube (or string) of strong color field between a $q\bar{q}$ pair. This model is based on an observation that at distances greater than about a femtometer, the potential energy $V(r)$ of colored quarks grows linearly with the increase in distance betwee them ($r$) as :
+\begin{equation}
+V(r) = \kappa r
+\end{equation}
+where $\kappa \sim {\rm GeV/fm^2}$ is the tension of the string connecting the quarks. When the $q$ and $\bar{q}$ move apart, the gluonic string gets stretched between them and its potential energy grows at the expense of their kinetic energy. When the potential energy becomes of the order of hadron masses, the potential energy is so large that the string breaks at some point along its length, creating a new $q\bar{q}$ pair. The two string segments then again stretch and break until all the potential energy gets converted to $q\bar{q}$ pairs. this whole process is illustrated in Fig~\ref{fig:string}. Then $q$ and $\bar{q}$ hadronize into hadrons due to confinement property. \\ \newline
+{\bf Cluster Model -} The cluster model of hadronization \cite{Marchesini:1987cf,Webber:1983if} is based on preconfinement property of QCD \cite{Amati:1979fg}. According to this property, at evolution scales $Q_0$ much less than the hard process scale $Q$, the partons in a shower are clustered in colourless groups with an invariant mass distribution, depending on $Q_0$, not on $Q$ and nature of hard process. This model contains two steps : firtsly all gluons split into $q\bar{q}$ pairs at the end of the parton shower and in the second step, a new set of low-mass color-singlet clusters are obtained which decay into either secondary clusters or directly into hadrons. However, this model has problems in dealing with the decay of very massive clusters.
+
+\begin{figure}[!h]
+\begin{center}
+\hspace*{-4mm}
+\includegraphics[width=0.95\textwidth]{/home/anter/Desktop/Thesis/Figures/cropped_String.pdf}\\
+\vspace*{4mm}
+\caption[String]{Illustration of the hadronization process in Lund string model\footnotemark. As the quark $q$ and anti-quark $\bar{q}$ move apart, the potential energy of the gluonic string increases. When it becomes of the order of hadron masses, the string breaks and a new $q\bar{q}$ pair is created. The breaking of string and creation of $q\bar{q}$ continues till all the potential energy gets converted to $q\bar{q}$ pairs which then get hadronized.}
+\label{fig:string}
+\end{center}
+\end{figure}
+\footnotetext{Source : \url{http://inspirehep.net/record/806744}}
+
+\subsection{Underlying Event}
+In a high energy proton-proton collisons, the underlying event (UE) includes the effects which are not coming from the primary hard scattering process. The UE include the contributions from initial and final-state radiations (ISR, FSR), leftover partons in the collisions called beam remnants and multiple parton interations (MPI). Due to composite nature of proton, the remaining two partons which do not participate in a hard collision, called spectators, may interact giving rise to multiple parton interations. The UE induces an additional energy in the detector which is not related to the main hard interaction. This acts an unavoidable background whose contribution has to be removed because it induces additional energy in the detector not related to the main interaction. There are
+several models available for measuring these eects, the most recent one being JIMMY
+[20] which is used along with the HERWIG event generator to study p-p collisions at
+LHC.
+
+ In a high energy collision of protons, due to the composite physics, the underlying event (UE) is all what is seen in a hadron collider event which is not coming from the primary hard scattering (high energy, high momentum impact) process.[1]
+
+
+Due to composite nature of proton, the remaining two partons which do not participate in a hard collision, may 
+Collectively termed as Underlying Event (UE), the soft activity may receive contributions
+from initial and final state radiation (ISR, FSR), leftover partons in the collisions called beam
+remnants, and the MPI mentioned above. 
+
+
+In high energy proton-proton (pp) collisions at LHC, due to the composite nature of
+protons, it is possible to have two or more distinct hard parton-parton interactions
+occuring simultaneously in a single pp collision.
+
+In hadron collider events that contain a hard subprocess, there is extra hadron production that cannot be ascribed to showering from the coloured partons participating in the subprocess. Furthermore this extra activity, known as the underlying event is greater than that in so-called minimum-bias events, i.e. collisions that do not yield an identifiable hard subprocess. The underlying event is believed to arise from collisions between those partons in the incoming hadrons that do not directly participate in the hard subprocess.
+Multiple parton interactions
+
+The most common hard subprocess at a high-energy hadron collider, such as the LHC, is elastic gluon-gluon scattering, gg→gg . The leading-order differential cross section for this subprocess diverges at zero momentum transfer, due to the exchange of a massless virtual gluon. This divergence is presumably regularized below some momentum transfer tmin by higher-order and non-perturbative effects. Nevertheless, for reasonable values of tmin the integrated gluon-gluon scattering cross section is very large, larger even than the total proton-proton scattering cross section. This result is not absurd: it simply indicates that the average number of gluon-gluon collisions per proton-proton collisions is greater than one. Including the cross sections for elastic scattering of quarks, antiquarks and gluons in all possible combinations, all of which diverge in leading order, we see that multiple parton interactions, each with relatively small momentum transfer, are highly probable in hadron-hadron collisions. This is the basis on which modern event generators model both minimum-bias collisions and the underlying event. To account for the extra hadron production when a hard subprocess is present, an event generator must model the impact parameter structure of hadron-hadron collisions. The partons in each incoming hadron are distributed over a transverse area of the order of 1 fm2. The impact parameter of a collision is the transverse distance between the centroids of these areas before the collision. When the impact parameter is large, the areas overlap little and the collision is peripheral, with a low probability of a hard parton-parton interaction and few multiple interactions. On the other hand at small impact parameter the collision is central, with a large overlap, several multiple interactions and a higher probability of a hard interaction. Thus the presence of a hard subprocess is correlated with more multiple interactions and a higher level of underlying event activity. 
+
+
+
+
+The UE is a very important component in a hadronic collision, including most of the occurring
+partonic interactions; it can be easily represented as everything that happens in the collision, but
+the hard scattering. This general definition stems from the fact that it includes all the different el-
+ements which underlie (as the name suggests) the primary hard interaction. In particular, different
+subphenomena are grouped under the name of the UE:
+• Initial- and final-state radiation which includes the emission of additional particles by partons
+in the initial or in the final state, namely before or after the hard scattering;
+• Beam-beam remnants (BBR) which group the colour interactions undergone by the spectator
+partons in each of the two colliding hadrons;
+• Multiple parton interactions (MPI) which contain the whole of additional interactions be-
+tween partons of the colliding hadrons, occurring together with the hard scattering.
+
+\begin{figure}[!h]
+\begin{center}
+\hspace*{-7mm}
+\includegraphics[width=0.95\textwidth]{/home/anter/Desktop/Thesis/Figures/MPI.png}\\
+\vspace*{4mm}
+\caption[Factorization]{Schematic illustration\footnotemark~of factorization theorem in a collision of two hadrons (protons here) leading to a hard-scattering process at a scale $Q^2$. The two partons $x_1$ and $x_2$ participate in hard interaction with momenta $x_1p_1$ and $x_2p_2$, where $p_1$ and $p_2$ are the momenta of the colliding protons $P_1$ and $P_2$, respectively. The total cross section is factorized into the hard scattering cross section $\hat\sigma_{ij}$ calculable using perturbative Quantum Chromodynamics and the PDFs $f_i(x_1,\muf)$ and $f_j(x_2,\muf)$ with factorization scale \muf.}
+\label{fig:MPI}
+\end{center}
+\end{figure}
+\footnotetext{Source : \href{https://www-cdf.fnal.gov/physics/new/qcd/ue_escan/}{The Energy Dependence of Min-Bias and the Underlying Event at CDF}}
 
 \section{Jets}
 \label{sec:jets}
+Since the partons can not exist as free
+particles and can therefore not be measured directly by the experiments, information about
+the dynamics of the partons has to be obtained from particle jets produced by the partons
+in the scattering process.
+
 \subsection{Jet Algorithms}
 \label{sec:jet_algos}
 \subsection{Jet Production Cross-Section}
 
 \subsection{Jet Properties}
-
+\begin{comment}
 \section{Leading order and next-to-leading order calculations}
 
 A perturbative expansion in $\alpha_{s}$ is generally performed to calculate
