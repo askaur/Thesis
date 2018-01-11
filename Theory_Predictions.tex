@@ -18,7 +18,7 @@ Mainly CT10 PDF set is considered for comparison between data and theory predict
 
 \begin{table}[htbp]
  \centering
- \caption{NLO PDF sets are available via \LHAPDFS with various assumptions on the value of \alpsmz. The upper rows list the already existing sets in LHC Run~1 and newer ones for Run~2 are listed in lower rows, along with the corresponding number of flavours $N_f$, the assumed masses $M_t$ and $M_Z$ of the top quark and the $Z$ boson, respectively, the default values of \alpsmz, and the range in \alpsmz variation available for fits.}
+ \caption[NLO PDF sets available via \LHAPDFS with various assumptions on the value of \alpsmz.]{NLO PDF sets are available via \LHAPDFS with various assumptions on the value of \alpsmz. The upper rows list the already existing sets in LHC Run~1 and newer ones for Run~2 are listed in lower rows, along with the corresponding number of flavours $N_f$, the assumed masses $M_t$ and $M_Z$ of the top quark and the $Z$ boson, respectively, the default values of \alpsmz, and the range in \alpsmz variation available for fits.}
  \label{tab:nlopdfsets}
  \vspace{2mm}
  \begin{tabular}{lccllc}
@@ -53,12 +53,12 @@ The impact of the higher-order corrections is determined by the size of k-factor
  \begin{center}
  \hspace*{-5mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Kfactor_all_1.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Kfactor_all_2.pdf}
- \caption[]{The k-factors of the \NLOJETPP calculations, for inclusive 2-jet and 3-jet event cross-sections and their ratio \ratio, using five different PDF sets.}
+ \caption[The k-factors using five different PDF sets.]{The k-factors of the \NLOJETPP calculations, for inclusive 2-jet and 3-jet event cross-sections and their ratio \ratio, using five different PDF sets.}
  \label{fig:kfactor}
  \end{center}
 \end{figure}
 
-\subsection{Non-Perturbative Corrections}
+\subsection{Non-perturbative Corrections}
 \label{sec:NPcorr}
 
 The fixed-order pQCD NLO calculations predict the parton-level cross-section but lacks accuracy due to several effects. The partons which are emitted close to each other in phase space are not handled well in lower order perturbation theories and hence requires a parton shower (PS) correction. The scattering phenomena between partons within a colliding proton, other than the hard scattering, give rise to multi-parton interactions (MPI). The partons of the hard scattering forms colorless bound states called hadrons through a process of hadronization (HAD). The MPI and hadronization cannot be modelled well within the perturbative framework. Since the fixed-order NLO calculations do not include these additional soft QCD effects, these calculations cannot be compared directly to unfolded data. So the corrections for non-perturbative effects (NP) should be taken into account in NLO calculations. The ratio of cross-section predicted with a nominal event generation interfaced to the simulation of UE contributions and to the one without hadronization and MPI effects gives the NP correction factors which are defined as : 
@@ -82,7 +82,7 @@ The NP correction factors, $C_{\rm 3\hy jet}^{\rm NP}$ and $C_{\rm 2\hy jet}^{\r
  \hspace*{-5mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Final_NP_Corr_2.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Final_NP_Corr_3.pdf}\\
  \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Final_NP_Corr_Ratio_32.pdf}
- \caption[]{The nonperturbative (NP) corrections are presented as a function of \httwo for inclusive 2-jet (top left) and 3-jet (top right) event cross-sections, as well as their ratio \ratio. These corrections are calculated from the leading order \HERWIGPP with the default tune of version 2.3 (red line) and \PYTHIAS with tune \Ztwostar (blue line); and the next-to-leading order \POWHEG interfaced to \PYTHIAE with tune CUETS1 (green line) Monte Carlo event generators. The black solid circles give the average NP correction factor along with the uncertainty shown by the error bars. }
+ \caption[The nonperturbative (NP) corrections are presented as a function of \httwo.]{The nonperturbative (NP) corrections are presented as a function of \httwo for inclusive 2-jet (top left) and 3-jet (top right) event cross-sections, as well as their ratio \ratio. These corrections are calculated from the leading order \HERWIGPP with the default tune of version 2.3 (red line) and \PYTHIAS with tune \Ztwostar (blue line); and the next-to-leading order \POWHEG interfaced to \PYTHIAE with tune CUETS1 (green line) Monte Carlo event generators. The black solid circles give the average NP correction factor along with the uncertainty shown by the error bars. }
  \label{fig:np_factors}
  \end{center}
 \end{figure}
@@ -95,7 +95,7 @@ In LHC, the centre-of-mass energy of proton-proton collisions is well beyond the
 \begin{figure}[!t]
  \begin{center}
  \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/EW_2.pdf}
- \caption[]{The electroweak (EW) corrections \cite{Dittmaier:2012kx} in the phase space of the measurement are shown as a function of \httwo for inclusive 2-jet event cross-sections. These corrections are applied as a bin-by-bin correction factor to the fixed-order calculation of \NLOJETPP as well as the MC predictions of \MadGraphFn\plusn \PYTHIAS. The EW correction factor increases up to 13\% at high ends of \httwo and significantly improves the agreement between data and prediction.}
+ \caption[The electroweak (EW) corrections as a function of \httwo.]{The electroweak (EW) corrections \cite{Dittmaier:2012kx} in the phase space of the measurement are shown as a function of \httwo for inclusive 2-jet event cross-sections. These corrections are applied as a bin-by-bin correction factor to the fixed-order calculation of \NLOJETPP as well as the MC predictions of \MadGraphFn\plusn \PYTHIAS. The EW correction factor increases up to 13\% at high ends of \httwo and significantly improves the agreement between data and prediction.}
  \label{fig:EW}
  \end{center}
 \end{figure}
@@ -104,7 +104,7 @@ In LHC, the centre-of-mass energy of proton-proton collisions is well beyond the
  \begin{center}
  \hspace*{-5mm}\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_data_NLO_2_NoEW.pdf}
  ~~\includegraphics[width=0.5\textwidth]{Plots_HT_2_150/Comparison_data_NLO_2_EW.pdf}
- \caption[]{Ratio of data over theory obtained using the CT10-NLO PDF set and corrected with non-perturbative effects (NP) without including electroweak (EW) corrections (left) and including EW corrections (right) is shown for inclusive 2-jet event cross-sections. The error bars represents the statistical uncertainty of the data and the shaded rectangles represents the total experimental systematic uncertainty. The shaded band around unity indicate the total uncertainty of the theory. The EW corrections significantly improve the agreement between data and prediction in the high \httwo region.}
+ \caption[Ratio of data over theory obtained using the CT10-NLO PDF set.]{Ratio of data over theory obtained using the CT10-NLO PDF set and corrected with non-perturbative effects (NP) without including electroweak (EW) corrections (left) and including EW corrections (right) is shown for inclusive 2-jet event cross-sections. The error bars represents the statistical uncertainty of the data and the shaded rectangles represents the total experimental systematic uncertainty. The shaded band around unity indicate the total uncertainty of the theory. The EW corrections significantly improve the agreement between data and prediction in the high \httwo region.}
  \label{fig:EW_Comp}
  \end{center}
 \end{figure}
@@ -146,7 +146,7 @@ As discussed in \ref{sec:NPcorr}, the differences in the non-perturbative (NP) c
  \hspace*{-5mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Theory_Unc_2.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Theory_Unc_3.pdf}\\
  \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Theory_Unc_Ratio_32.pdf}\\
- \caption{The systematic theoretical uncertainties affecting the cross-section measurement for inclusive 2-jet (top left) and 3-jet events (top right) and their ratio \ratio (bottom). The scale (red dashed line), PDF (green line) and NP (blue dashed line) uncertainties as well as total uncertainty (black dashed line) obtained using CT10-NLO PDF set are shown. The total theoretical uncertainty is asymmetric and is dominated by PDF uncertainty.}
+ \caption[The systematic theoretical uncertainties affecting the cross-section measurement and the cross-section ratio.]{The systematic theoretical uncertainties affecting the cross-section measurement for inclusive 2-jet (top left) and 3-jet events (top right) and their ratio \ratio (bottom). The scale (red dashed line), PDF (green line) and NP (blue dashed line) uncertainties as well as total uncertainty (black dashed line) obtained using CT10-NLO PDF set are shown. The total theoretical uncertainty is asymmetric and is dominated by PDF uncertainty.}
  \label{fig:theory_unc}
  \end{center}
 \end{figure}
@@ -156,7 +156,7 @@ The total systematic theoretical uncertainties are obtained as the quadratic sum
  
 \begin{table}[!h]
 %\centering
- \caption{Overview of all systematic theoretical uncertainties, obtained using CT10-NLO PDF set, affecting the measurement of cross-sections for inclusive 2-jet (left) and 3-jet events (middle) and cross-section ratio \ratio (right).}
+ \caption[Overview of all systematic theoretical uncertainties affecting the measurement of cross-sections and the cross-section ratio.]{Overview of all systematic theoretical uncertainties, obtained using CT10-NLO PDF set, affecting the measurement of cross-sections for inclusive 2-jet (left) and 3-jet events (middle) and cross-section ratio \ratio (right).}
  \label{tab:theory_unc}
  \vspace{2mm}
  \begin{tabular}{lccc}
@@ -176,14 +176,14 @@ After correcting the measurement for detector effects as well as NLO pQCD calcul
 \begin{figure}[!h]
  \hspace*{-5mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_data_theory_EW.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_data_MC_EW.pdf}\\
- \caption[]{Comparison of the measured differential inclusive 2-jet and 3-jet event cross-sections as a function of \httwo to theoretical predictions. On the left, the data (points) are shown together with \NLOJETPP predictions (line) using the CT10-NLO PDF set, corrected for non-perturbative (NP) and electroweak (EW) effects (2-jet) or only NP effects (3-jet). On the (right), the data (points) are compared to predictions from \MadGraphFn \plusn \PYTHIAS (MG\plusn P6) with tune \Ztwostar (line), corrected for EW effects in the 2-jet case. The error bars give the total experimental uncertainty, given by the quadrature sum of the statistical and systematic uncertainties.}
+ \caption[Comparison of the measured differential inclusive 2-jet and 3-jet event cross-sections as a function of \httwo to theoretical predictions.]{Comparison of the measured differential inclusive 2-jet and 3-jet event cross-sections as a function of \httwo to theoretical predictions. On the left, the data (points) are shown together with \NLOJETPP predictions (line) using the CT10-NLO PDF set, corrected for non-perturbative (NP) and electroweak (EW) effects (2-jet) or only NP effects (3-jet). On the (right), the data (points) are compared to predictions from \MadGraphFn \plusn \PYTHIAS (MG\plusn P6) with tune \Ztwostar (line), corrected for EW effects in the 2-jet case. The error bars give the total experimental uncertainty, given by the quadrature sum of the statistical and systematic uncertainties.}
  \label{fig:data_NL0_MC}
 \end{figure}
 
 \begin{figure}[!h]
  \begin{center}
  \includegraphics[width=0.50\textwidth]{Plots_HT_2_150/Sensitivity_ratio_32_CT10_only.pdf}%
- \caption{Cross-section ratio \ratio as a function of \httwo calculated from data (solid circles) in comparison to that from NLO pQCD predictions obtained using the CT10-NLO PDF set corrected with non-perturbative (NP) corrections (line). The error bars correspond to the total experimental uncertainty derived as quadratic sum from all uncertainty sources.}
+ \caption[Cross-section ratio as a function of \httwo calculated from data in comparison to that from NLO pQCD predictions obtained using the CT10-NLO PDF set.]{Cross-section ratio \ratio as a function of \httwo calculated from data (solid circles) in comparison to that from NLO pQCD predictions obtained using the CT10-NLO PDF set corrected with non-perturbative (NP) corrections (line). The error bars correspond to the total experimental uncertainty derived as quadratic sum from all uncertainty sources.}
  \label{fig:ratiosens}
  \end{center}
 \end{figure}
@@ -195,7 +195,7 @@ Figure~\ref{fig:ratiosens} shows the cross-section ratio \ratio obtained from un
  \hspace*{-5mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_data_NLO_Pdfs_2_EW.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_data_NLO_Pdfs_3.pdf}\\
  \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_data_NLO_Pdfs_ratio_32.pdf}\\
- \caption{Ratio of data over theory using the CT10-NLO PDF set for inclusive 2-jet (top left) and 3-jet event cross-sections (top right) and their ratio \ratio (bottom). The theory predictions are corrected for non-perturbative effects (NP) and also for electroweak effects (EW) for inclusive 2-jet only. For comparison predictions employing two other PDF sets, MSTW2008 and NNPDF2.3, are also shown. The error bars represents the statistical uncertainty of the data and the shaded rectangles represents the total experimental systematic uncertainty. The shaded band around unity indicate the total uncertainty of the theory.}
+ \caption[Ratio of data over theory using the CT10-NLO PDF set.]{Ratio of data over theory using the CT10-NLO PDF set for inclusive 2-jet (top left) and 3-jet event cross-sections (top right) and their ratio \ratio (bottom). The theory predictions are corrected for non-perturbative effects (NP) and also for electroweak effects (EW) for inclusive 2-jet only. For comparison predictions employing two other PDF sets, MSTW2008 and NNPDF2.3, are also shown. The error bars represents the statistical uncertainty of the data and the shaded rectangles represents the total experimental systematic uncertainty. The shaded band around unity indicate the total uncertainty of the theory.}
  \label{fig:data_NLOPdfs}
  \end{center}
 \end{figure}
@@ -207,7 +207,7 @@ For better visibility, the ratios of data over the theory at NLO are also studie
  \hspace*{-5mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_data_MC_samples_2_Pow_EW.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_data_MC_samples_3_Pow.pdf}\\
  \includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Comparison_data_MC_samples_ratio_32_Pow.pdf}\\
- \caption[]{Ratio of data over the prediction from \POWHEGn \plusn \PYTHIAE with tune CUETS1 are presented for inclusive 2-jet (top left) and 3-jet event cross-sections (top right) as well as their ratio \ratio (bottom). For comparison the alternative tune CUETM1 of \POWHEGn \plusn \PYTHIAE, the tree-level multi-leg improved prediction by \MadGraphFn \plusn \PYTHIAS with tune \Ztwostar, and the the LO MC predictions from \PYTHIAS tune \Ztwostar are shown as well. The error bars correspond to the statistical uncertainty of the data and the shaded rectangles to the total experimental systematic uncertainty. EW corrections have been accounted for in this comparison in the 2-jet case only.}
+ \caption[Ratio of data over the predictions from Monte Carlo simulations.]{Ratio of data over the predictions from \POWHEGn \plusn \PYTHIAE with tune CUETS1 are presented for inclusive 2-jet (top left) and 3-jet event cross-sections (top right) as well as their ratio \ratio (bottom). For comparison the alternative tune CUETM1 of \POWHEGn \plusn \PYTHIAE, the tree-level multi-leg improved prediction by \MadGraphFn \plusn \PYTHIAS with tune \Ztwostar, and the the LO MC predictions from \PYTHIAS tune \Ztwostar are shown as well. The error bars correspond to the statistical uncertainty of the data and the shaded rectangles to the total experimental systematic uncertainty. EW corrections have been accounted for in this comparison in the 2-jet case only.}
  \label{fig:data_MC}
  \end{center}
 \end{figure}

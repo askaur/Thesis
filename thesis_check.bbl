@@ -133,9 +133,9 @@ H.~Abramowicz {\em et~al.}, ``{Combination of measurements of inclusive deep
   inelastic ${e^{\pm }p}$ scattering cross sections and QCD analysis of HERA
   data},'' {\em Eur. Phys. J.}, vol.~C75, no.~12, p.~580, 2015.
 
-\bibitem{Sjostrand:1984ic}
-T.~Sjostrand, ``{Jet Fragmentation of Nearby Partons},'' {\em Nucl. Phys.},
-  vol.~B248, pp.~469--502, 1984.
+\bibitem{Andersson:1998tv}
+B.~Andersson, ``{The Lund model},'' {\em Camb. Monogr. Part. Phys. Nucl. Phys.
+  Cosmol.}, vol.~7, pp.~1--471, 1997.
 
 \bibitem{Marchesini:1987cf}
 G.~Marchesini and B.~R. Webber, ``{Monte Carlo Simulation of General Hard
@@ -145,6 +145,63 @@ G.~Marchesini and B.~R. Webber, ``{Monte Carlo Simulation of General Hard
 \bibitem{Webber:1983if}
 B.~R. Webber, ``{A QCD Model for Jet Fragmentation Including Soft Gluon
   Interference},'' {\em Nucl. Phys.}, vol.~B238, pp.~492--528, 1984.
+
+\bibitem{Amati:1979fg}
+D.~Amati and G.~Veneziano, ``{Preconfinement as a Property of Perturbative
+  QCD},'' {\em Phys. Lett.}, vol.~83B, pp.~87--92, 1979.
+
+\bibitem{Sterman:1977wj}
+G.~F. Sterman and S.~Weinberg, ``{Jets from Quantum Chromodynamics},'' {\em
+  Phys. Rev. Lett.}, vol.~39, p.~1436, 1977.
+
+\bibitem{Hanson:1975fe}
+G.~Hanson {\em et~al.}, ``{Evidence for Jet Structure in Hadron Production by
+  e+ e- Annihilation},'' {\em Phys. Rev. Lett.}, vol.~35, pp.~1609--1612, 1975.
+
+\bibitem{Salam:2009jx}
+G.~P. Salam, ``{Towards Jetography},'' {\em Eur. Phys. J.}, vol.~C67,
+  pp.~637--686, 2010.
+
+\bibitem{Ellis:1989vm}
+S.~D. Ellis, Z.~Kunszt, and D.~E. Soper, ``{The One Jet Inclusive Cross-Section
+  at Order alpha-s**3. 1. Gluons Only},'' {\em Phys. Rev.}, vol.~D40,
+  pp.~2188--2222, 1989.
+\newblock [,11(1989)].
+
+\bibitem{Blazey:2000qt}
+G.~C. Blazey {\em et~al.}, ``{Run II jet physics},'' in {\em {QCD and weak
+  boson physics in Run II. Proceedings, Batavia, USA, March 4-6, June 3-4,
+  November 4-6, 1999}}, pp.~47--77, 2000.
+
+\bibitem{Weinzierl:2011jx}
+S.~Weinzierl, ``{The SISCone jet algorithm optimised for low particle
+  multiplicities},'' {\em Comput. Phys. Commun.}, vol.~183, pp.~813--820, 2012.
+
+\bibitem{Ellis:1993tq}
+S.~D. Ellis and D.~E. Soper, ``{Successive combination jet algorithm for hadron
+  collisions},'' {\em Phys. Rev.}, vol.~D48, pp.~3160--3166, 1993.
+
+\bibitem{Catani:1993hr}
+S.~Catani, Y.~L. Dokshitzer, M.~H. Seymour, and B.~R. Webber, ``{Longitudinally
+  invariant $K_t$ clustering algorithms for hadron hadron collisions},'' {\em
+  Nucl. Phys.}, vol.~B406, pp.~187--224, 1993.
+
+\bibitem{Catani:1992zp}
+S.~Catani, Y.~L. Dokshitzer, and B.~R. Webber, ``{The $K^-$ perpendicular
+  clustering algorithm for jets in deep inelastic scattering and hadron
+  collisions},'' {\em Phys. Lett.}, vol.~B285, pp.~291--299, 1992.
+
+\bibitem{Dokshitzer:1997in}
+Y.~L. Dokshitzer, G.~D. Leder, S.~Moretti, and B.~R. Webber, ``{Better jet
+  clustering algorithms},'' {\em JHEP}, vol.~08, p.~001, 1997.
+
+\bibitem{Cacciari:2008gp}
+M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{The Anti-k(t) jet clustering
+  algorithm},'' {\em JHEP}, vol.~04, p.~063, 2008.
+
+\bibitem{Cacciari:2011ma}
+M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{FastJet User Manual},'' {\em Eur.
+  Phys. J.}, vol.~C72, p.~1896, 2012.
 
 \bibitem{Evans:2008zzb}
 L.~Evans and P.~Bryant, ``{LHC Machine},'' {\em JINST}, vol.~3, p.~S08001,
