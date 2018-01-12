@@ -1,6 +1,7 @@
 \select@language {english}
-\contentsline {chapter}{List of Figures}{ix}{section*.4}
-\contentsline {chapter}{List of Tables}{xv}{section*.6}
+\contentsline {chapter}{List of Figures}{xix}{chapter*.2}
+\contentsline {chapter}{List of Tables}{xxii}{chapter*.3}
+\rule {13.9 cm}{.1pt}\par 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Theoretical Background}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Standard Model}{5}{section.2.1}
@@ -91,4 +92,4 @@
 \contentsline {section}{\numberline {A.2}Individual Sources of Jet Energy Correction Uncertainties}{147}{section.a.A.2}
 \contentsline {section}{\numberline {A.3}Experimental Uncertainties}{150}{section.a.A.3}
 \contentsline {section}{\numberline {A.4}Theoretical Uncertainties}{153}{section.a.A.4}
-\contentsline {chapter}{Bibliography}{157}{table.caption.94}
+\contentsline {chapter}{Bibliography}{171}{chapter*.91}

@@ -1,74 +1,74 @@
 \select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The Standard Model summarizing the properties of elementary particles and their forces of interaction.}}{6}{figure.caption.8}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The fundamental Feynman rules of QCD.}}{10}{figure.caption.9}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Feynman diagrams showing leading-order (LO), next-to-leading order (NLO) and next-next-to-leading order (NNLO) processes in QCD.}}{13}{figure.caption.10}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Running of the strong coupling constant.}}{16}{figure.caption.11}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Schematic illustration of factorization theorem in a collision of two hadrons (protons here).}}{18}{figure.caption.12}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Illustration of the hadronization process in Lund string model.}}{21}{figure.caption.13}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Proton-proton collision.}}{22}{figure.caption.14}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Effects of emission of infrared radiations and collinear splitting in jet algorithms.}}{24}{figure.caption.15}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces The clustering of particles into jets using different jet algorithms.}}{27}{figure.caption.16}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The Standard Model summarizing the properties of elementary particles and their forces of interaction.}}{6}{figure.caption.4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The fundamental Feynman rules of QCD.}}{10}{figure.caption.5}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Feynman diagrams showing leading-order (LO), next-to-leading order (NLO) and next-next-to-leading order (NNLO) processes in QCD.}}{13}{figure.caption.6}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Running of the strong coupling constant.}}{16}{figure.caption.7}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Schematic illustration of factorization theorem in a collision of two hadrons (protons here).}}{18}{figure.caption.8}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Illustration of the hadronization process in Lund string model.}}{21}{figure.caption.9}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Proton-proton collision.}}{22}{figure.caption.10}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Effects of emission of infrared radiations and collinear splitting in jet algorithms.}}{24}{figure.caption.11}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces The clustering of particles into jets using different jet algorithms.}}{27}{figure.caption.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Overview of the different experiments of the Large Hadron Collider (LHC), a complex particle accelerator and collider located at CERN.}}{31}{figure.caption.17}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The integrated luminosity, delivered to CMS during stable beams for proton-proton collisions.}}{34}{figure.caption.18}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Pileup Interactions}}{35}{figure.caption.19}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces The three dimensional view of the CMS detector along with its sub-detector components.}}{36}{figure.caption.20}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Front view of the CMS detector along with its components.}}{37}{figure.caption.21}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces The right-handed coordinate system used by the CMS detector.}}{38}{figure.caption.22}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Longitudinal section of the CMS detector in the $y$-$z$ plane.}}{40}{figure.caption.23}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces The longitudinal section of the inner tracking system.}}{41}{figure.caption.24}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces A geometric view of one quarter of the electromagnetic calorimeter (ECAL) in $y$-$z$ plane.}}{43}{figure.caption.25}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Longitudinal view of one quarter of the hadronic calorimeter (HCAL) detector in $r$-$\eta $ plane.}}{45}{figure.caption.26}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces A longitudinal view presenting the location of the three muon sub-systems.}}{48}{figure.caption.27}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Work flow of the L1 trigger system}}{50}{figure.caption.28}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Architecture of the CMS DAQ system.}}{52}{figure.caption.29}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Schematic overview of the CMS computing grid.}}{53}{figure.caption.30}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Overview of the different experiments of the Large Hadron Collider (LHC), a complex particle accelerator and collider located at CERN.}}{31}{figure.caption.13}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The integrated luminosity, delivered to CMS during stable beams for proton-proton collisions.}}{34}{figure.caption.14}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Pileup Interactions}}{35}{figure.caption.15}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The three dimensional view of the CMS detector along with its sub-detector components.}}{36}{figure.caption.16}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Front view of the CMS detector along with its components.}}{37}{figure.caption.17}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The right-handed coordinate system used by the CMS detector.}}{38}{figure.caption.18}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Longitudinal section of the CMS detector in the $y$-$z$ plane.}}{40}{figure.caption.19}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces The longitudinal section of the inner tracking system.}}{41}{figure.caption.20}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces A geometric view of one quarter of the electromagnetic calorimeter (ECAL) in $y$-$z$ plane.}}{43}{figure.caption.21}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Longitudinal view of one quarter of the hadronic calorimeter (HCAL) detector in $r$-$\eta $ plane.}}{45}{figure.caption.22}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces A longitudinal view presenting the location of the three muon sub-systems.}}{48}{figure.caption.23}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Work flow of the L1 trigger system}}{50}{figure.caption.24}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Architecture of the CMS DAQ system.}}{52}{figure.caption.25}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Schematic overview of the CMS computing grid.}}{53}{figure.caption.26}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison of Monte Carlo simulations with the real world data.\relax }}{56}{figure.caption.31}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Formation of jets in a proton-proton collision at different levels.}}{62}{figure.caption.32}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic association of sub-detector measurements to physical particle objects using the Particle Flow (PF) event reconstruction technique used by CMS.}}{64}{figure.caption.33}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces A schematic diagram of the factorized jet energy corrections (JEC).}}{65}{figure.caption.34}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison of Monte Carlo simulations with the real world data.\relax }}{56}{figure.caption.27}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Formation of jets in a proton-proton collision at different levels.}}{62}{figure.caption.28}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic association of sub-detector measurements to physical particle objects using the Particle Flow (PF) event reconstruction technique used by CMS.}}{64}{figure.caption.29}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces A schematic diagram of the factorized jet energy corrections (JEC).}}{65}{figure.caption.30}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Trigger efficiencies turn-on curves for the single jet HLT trigger paths.}}{75}{figure.caption.38}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Missing transverse energy distribution.}}{77}{figure.caption.39}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The fractions of jet constituents for different types of PF candidates for inclusive 2-jet events.}}{79}{figure.caption.41}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces The fractions of jet constituents for different types of PF candidates for inclusive 3-jet events.}}{80}{figure.caption.42}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces The jet ID efficiency is studied as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{81}{figure.caption.43}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Number of reconstructed vertices before (left) and after (right) the pileup reweighting.}}{83}{figure.caption.44}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Comparison of differential cross-sections for data with simulated events and CT10-NLO theory predictions.}}{84}{figure.caption.45}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparison of the cross-section ratio for data with simulated events and CT10-NLO theory predictions.}}{84}{figure.caption.46}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Fitting of the jet energy resolution distribution as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{87}{figure.caption.48}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Comparison of jet energy resolution calculated using Crystal-Ball fit function and Gaussian fit function}}{88}{figure.caption.49}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Jet energy resolution (JER) is shown as a function of Gen \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{88}{figure.caption.50}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Additional unfolding uncertainty.}}{90}{figure.caption.52}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Fitted CT10-NLO spectrum of differential cross-section as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{94}{figure.caption.53}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces The response matrices are derived using the Toy Monte Carlo and forward smearing method.}}{95}{figure.caption.54}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Left : The ratio of cross-sections for inclusive 3-jet to that of 2-jet events as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace . Right : The response matrix is derived using the Toy Monte Carlo and forward smearing method, for the cross-section ratio \ensuremath {\mathrm {R_{32}}}.}}{96}{figure.caption.55}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Closure test of the unfolding technique .}}{97}{figure.caption.56}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Reco differential cross-section distributions unfolded with the response matrices.}}{98}{figure.caption.57}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces The measured differential cross-sections as well as the cross-section ratio \ensuremath {R_{32}}\xspace are unfolded as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace using the response matrices derived using the Toy Monte Carlo and forward smearing method.}}{99}{figure.caption.58}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces The fractional statistical uncertainties of the unfolded data are compared with those of the measured one.}}{101}{figure.caption.59}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces The unfolding procedure introduces the correlations of the statistical uncertainty through bin migrations.}}{102}{figure.caption.60}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Experimental uncertainties from different sources affecting the measurement of cross-sections and cross-section ratio.}}{107}{figure.caption.61}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Trigger efficiencies turn-on curves for the single jet HLT trigger paths.}}{75}{figure.caption.34}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Missing transverse energy distribution.}}{77}{figure.caption.35}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The fractions of jet constituents for different types of PF candidates for inclusive 2-jet events.}}{79}{figure.caption.37}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The fractions of jet constituents for different types of PF candidates for inclusive 3-jet events.}}{80}{figure.caption.38}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The jet ID efficiency is studied as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{81}{figure.caption.39}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Number of reconstructed vertices before (left) and after (right) the pileup reweighting.}}{83}{figure.caption.40}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Comparison of differential cross-sections for data with simulated events and CT10-NLO theory predictions.}}{84}{figure.caption.41}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparison of the cross-section ratio for data with simulated events and CT10-NLO theory predictions.}}{84}{figure.caption.42}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Fitting of the jet energy resolution distribution as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{87}{figure.caption.44}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Comparison of jet energy resolution calculated using Crystal-Ball fit function and Gaussian fit function}}{88}{figure.caption.45}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Jet energy resolution (JER) is shown as a function of Gen \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{88}{figure.caption.46}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Additional unfolding uncertainty.}}{90}{figure.caption.48}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Fitted CT10-NLO spectrum of differential cross-section as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{94}{figure.caption.49}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces The response matrices are derived using the Toy Monte Carlo and forward smearing method.}}{95}{figure.caption.50}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Left : The ratio of cross-sections for inclusive 3-jet to that of 2-jet events as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace . Right : The response matrix is derived using the Toy Monte Carlo and forward smearing method, for the cross-section ratio \ensuremath {\mathrm {R_{32}}}.}}{96}{figure.caption.51}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Closure test of the unfolding technique .}}{97}{figure.caption.52}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Reco differential cross-section distributions unfolded with the response matrices.}}{98}{figure.caption.53}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces The measured differential cross-sections as well as the cross-section ratio \ensuremath {R_{32}}\xspace are unfolded as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace using the response matrices derived using the Toy Monte Carlo and forward smearing method.}}{99}{figure.caption.54}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces The fractional statistical uncertainties of the unfolded data are compared with those of the measured one.}}{101}{figure.caption.55}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces The unfolding procedure introduces the correlations of the statistical uncertainty through bin migrations.}}{102}{figure.caption.56}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Experimental uncertainties from different sources affecting the measurement of cross-sections and cross-section ratio.}}{107}{figure.caption.57}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces The k-factors using five different PDF sets.}}{112}{figure.caption.64}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces The nonperturbative (NP) corrections are presented as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{114}{figure.caption.65}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces The electroweak (EW) corrections as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{115}{figure.caption.66}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Ratio of data over theory obtained using the CT10-NLO PDF set.}}{116}{figure.caption.67}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces The systematic theoretical uncertainties affecting the cross-section measurement and the cross-section ratio.}}{119}{figure.caption.68}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Comparison of the measured differential inclusive 2-jet and 3-jet event cross-sections as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace to theoretical predictions.}}{121}{figure.caption.70}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Cross-section ratio as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace calculated from data in comparison to that from NLO pQCD predictions obtained using the CT10-NLO PDF set.}}{121}{figure.caption.71}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Ratio of data over theory using the CT10-NLO PDF set.}}{122}{figure.caption.72}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Ratio of data over the predictions from Monte Carlo simulations.}}{123}{figure.caption.73}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The k-factors using five different PDF sets.}}{112}{figure.caption.60}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces The nonperturbative (NP) corrections are presented as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{114}{figure.caption.61}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces The electroweak (EW) corrections as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{115}{figure.caption.62}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Ratio of data over theory obtained using the CT10-NLO PDF set.}}{116}{figure.caption.63}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces The systematic theoretical uncertainties affecting the cross-section measurement and the cross-section ratio.}}{119}{figure.caption.64}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Comparison of the measured differential inclusive 2-jet and 3-jet event cross-sections as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace to theoretical predictions.}}{121}{figure.caption.66}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Cross-section ratio as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace calculated from data in comparison to that from NLO pQCD predictions obtained using the CT10-NLO PDF set.}}{121}{figure.caption.67}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Ratio of data over theory using the CT10-NLO PDF set.}}{122}{figure.caption.68}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Ratio of data over the predictions from Monte Carlo simulations.}}{123}{figure.caption.69}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Ratio of the measured inclusive 2-jet differential cross-section to theory predictions using different PDF sets.}}{128}{figure.caption.74}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Ratio of the measured inclusive 3-jet differential cross-section to theory predictions using different PDF sets.}}{129}{figure.caption.75}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Ratio of the measured cross-section ratio to theory predictions using different PDF sets.}}{130}{figure.caption.76}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces The running \ensuremath {\alpha _S(Q)}\xspace as a function of the scale $Q$.}}{139}{figure.caption.84}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Ratio of the measured inclusive 2-jet differential cross-section to theory predictions using different PDF sets.}}{128}{figure.caption.70}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Ratio of the measured inclusive 3-jet differential cross-section to theory predictions using different PDF sets.}}{129}{figure.caption.71}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Ratio of the measured cross-section ratio to theory predictions using different PDF sets.}}{130}{figure.caption.72}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces The running \ensuremath {\alpha _S(Q)}\xspace as a function of the scale $Q$.}}{139}{figure.caption.80}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces The fractional jet energy correction (JEC) uncertainties from individual sources (Part I).}}{147}{figure.caption.86}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces The fractional jet energy correction (JEC) uncertainties from individual sources (Part II).}}{148}{figure.caption.87}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces The fractional jet energy correction (JEC) uncertainties from individual sources (Part III).}}{149}{figure.caption.88}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces The fractional jet energy correction (JEC) uncertainties from individual sources (Part I).}}{147}{figure.caption.82}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces The fractional jet energy correction (JEC) uncertainties from individual sources (Part II).}}{148}{figure.caption.83}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces The fractional jet energy correction (JEC) uncertainties from individual sources (Part III).}}{149}{figure.caption.84}
