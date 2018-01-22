@@ -109,7 +109,7 @@
 \thispagestyle{empty}                          % to remove pagenumber
 \vspace*{3in}
 \begin{center}
-{\bf\emph{\Large Dedicated to\\ my Parents\\ }}
+{\bf\emph{\Huge Dedicated to\\ my Parents\\ }}
 \end{center}
 \vskip 4pc
 \newpage \thispagestyle{empty}\cleardoublepage  % to get empty page without pagenumber
@@ -129,12 +129,16 @@
 \newpage \thispagestyle{empty}\cleardoublepage  % to get empty page without pagenumber
 
 %% --- List of Figures ---
-\listoffigures
+\phantomsection
 \addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
 
+\newpage \thispagestyle{empty}\cleardoublepage  % to get empty page without pagenumber
 %% --- List of Tables ---
-\listoftables
+\phantomsection
 \addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+
 \addtocontents{toc}{\protect\rule{13.9 cm}{.1pt}\par}  % horizontal line in contents
 \newpage \thispagestyle{empty}\cleardoublepage  % to get empty page without pagenumber
 
@@ -159,16 +163,31 @@
 \include{Appendix}
 \end{appendices}
 
-%\addcontentsline{toc}{chapter}{List of publications}
-%\include{publications1}
-
 \fontsize{12pt}{12pt} \selectfont
 \newpage \thispagestyle{empty}\cleardoublepage     % to get empty page without pagenumber
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
 %%\bibliographystyle{ieeetr}
 %%\bibliography{thesis}
 \include{bibliography}
+\newpage \thispagestyle{empty}\cleardoublepage     % to get empty page without pagenumber
 
-%\chapter*{\vspace*{2in}\begin{center}\Huge \emph{Selected\\Reprints}\end{center}}
-%\addcontentsline{toc}{chapter}{Reprints}
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Publications}
+\include{publications}
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Reprints}
+\thispagestyle{empty}
+\vspace*{3in}
+\begin{center}
+{\bf\emph{\Huge Selected\\Reprint\\}}
+\end{center}
+\vskip 4pc
+\newpage \thispagestyle{empty}\cleardoublepage     % to get empty page without pagenumber
+\includepdf[pages=1-28]{Pdfs/SMP-16-008-pas.pdf}
+
+\newpage \thispagestyle{empty}\cleardoublepage     % to get empty page without pagenumber
+
 
 \end{document}
