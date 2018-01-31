@@ -1,47 +1,47 @@
 \select@language {english}
+\contentsline {chapter}{List of Figures}{xv}{section*.2}
+\contentsline {chapter}{List of Tables}{xxi}{section*.4}
+\rule {13.9 cm}{.1pt}\par 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Theoretical Background}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Standard Model}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}Quantum Chromodynamics}{8}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Perturbative Quantum Chromodynamics}{12}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Renormalization and Running of the Strong Coupling}{13}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Renormalization and Running of the Strong Coupling}{14}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Hadronic Collisions}{16}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Parton Shower and Hadronization}{19}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Underlying Event}{20}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Underlying Event}{21}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}Jets}{23}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Jet Algorithms}{23}{subsection.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.1.1}$k_{T}$ -algorithm}{27}{subsubsection.2.4.1.1}
-\contentsline {subsubsection}{\numberline {2.4.1.2}Cambridge/Aachen algorithm}{28}{subsubsection.2.4.1.2}
-\contentsline {subsection}{\numberline {2.4.2}Recombination Schemes}{29}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Jet Properties}{30}{subsection.2.4.3}
-\contentsline {chapter}{\numberline {3}Experimental Setup}{31}{chapter.3}
-\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{32}{section.3.1}
-\contentsline {section}{\numberline {3.2}Luminosity Measurement}{34}{section.3.2}
-\contentsline {section}{\numberline {3.3}The Compact Muon Solenoid}{36}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Coordinate System}{38}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Inner Tracker System}{41}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Electromagnetic Calorimeter}{43}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Hadronic Calorimeter}{44}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Superconducting Magnet}{47}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Muon System}{48}{subsection.3.3.6}
-\contentsline {subsection}{\numberline {3.3.7}Trigger and Data Acquisition System}{50}{subsection.3.3.7}
-\contentsline {subsubsection}{\numberline {3.3.7.1}Jet Triggers}{52}{subsubsection.3.3.7.1}
-\contentsline {subsubsection}{\numberline {3.3.7.2}Data Acquisition System}{52}{subsubsection.3.3.7.2}
-\contentsline {subsection}{\numberline {3.3.8}Data Management}{53}{subsection.3.3.8}
-\contentsline {chapter}{\numberline {4}Event Generation, Simulation and Reconstruction}{55}{chapter.4}
-\contentsline {section}{\numberline {4.1}Event Generation and Simulation Software}{55}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}{\textsc {pythia}}}{57}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}{\textsc {MadGraph5}}\xspace }{57}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}\textsc {herwig}}{58}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}{\textsc {powheg}}\xspace }{58}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}\NLOJET ~and {\textsc {fastNLO}}\xspace }{58}{subsection.4.1.5}
-\contentsline {section}{\numberline {4.2}Detector Simulation}{59}{section.4.2}
-\contentsline {section}{\numberline {4.3}Event Reconstruction}{61}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Particle Flow Algorithm}{63}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Jet Energy Corrections}{64}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Software Tools}{67}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}CMSSW Framework}{67}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}ROOT}{68}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {2.4.1}Jet Algorithms}{24}{subsection.2.4.1}
+\contentsline {chapter}{\numberline {3}Experimental Setup}{29}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{30}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Luminosity Measurement}{32}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Pileup Interactions}{34}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}The Compact Muon Solenoid}{35}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Coordinate System}{37}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Inner Tracker System}{39}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Electromagnetic Calorimeter}{42}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Hadronic Calorimeter}{43}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Superconducting Magnet}{47}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Muon System}{47}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Trigger and Data Acquisition System}{49}{subsection.3.2.7}
+\contentsline {subsubsection}{\numberline {3.2.7.1}Jet Triggers}{51}{subsubsection.3.2.7.1}
+\contentsline {subsubsection}{\numberline {3.2.7.2}Data Acquisition System}{52}{subsubsection.3.2.7.2}
+\contentsline {subsection}{\numberline {3.2.8}Data Management}{52}{subsection.3.2.8}
+\contentsline {section}{\numberline {3.3}Software Tools}{53}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}CMSSW Framework}{54}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}ROOT}{54}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}\NLOJET ~and {\textsc {fastNLO}}\xspace }{55}{subsection.3.3.3}
+\contentsline {chapter}{\numberline {4}Event Generation, Simulation and Reconstruction}{57}{chapter.4}
+\contentsline {section}{\numberline {4.1}Event Generation and Simulation Software}{57}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}{\textsc {pythia}}}{59}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}{\textsc {MadGraph5}}\xspace }{59}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}\textsc {herwig}}{60}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}{\textsc {powheg}}\xspace }{60}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Detector Simulation}{60}{section.4.2}
+\contentsline {section}{\numberline {4.3}Event Reconstruction}{62}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Particle Flow Algorithm}{64}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Jet Energy Corrections}{66}{subsection.4.3.2}
 \contentsline {chapter}{\numberline {5}Measurement of the Differential Inclusive Multijet Cross-sections and their Ratio}{69}{chapter.5}
 \contentsline {section}{\numberline {5.1}Data Samples}{70}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Monte Carlo Samples}{71}{subsection.5.1.1}
@@ -49,11 +49,11 @@
 \contentsline {subsection}{\numberline {5.2.1}Trigger Selection}{72}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Primary Vertex Selection}{74}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Missing Transverse Energy}{76}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Jet Identification}{76}{subsection.5.2.4}
-\contentsline {subsubsection}{\numberline {5.2.4.1}Jet ID Efficiency}{77}{subsubsection.5.2.4.1}
+\contentsline {subsection}{\numberline {5.2.4}Jet Identification}{77}{subsection.5.2.4}
+\contentsline {subsubsection}{\numberline {5.2.4.1}Jet ID Efficiency}{78}{subsubsection.5.2.4.1}
 \contentsline {subsection}{\numberline {5.2.5}Jet Selection}{81}{subsection.5.2.5}
-\contentsline {section}{\numberline {5.3}Comparison with Simulation}{81}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Pileup Reweighting}{81}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.3}Comparison with Simulation}{82}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Pileup Reweighting}{82}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Comparison of Cross-sections and their Ratio}{82}{subsection.5.3.2}
 \contentsline {section}{\numberline {5.4}Jet Energy Resolution (JER)}{85}{section.5.4}
 \contentsline {section}{\numberline {5.5}Unfolding}{90}{section.5.5}
@@ -61,7 +61,7 @@
 \contentsline {subsubsection}{\numberline {5.5.1.1}Inclusive Cross-sections}{92}{subsubsection.5.5.1.1}
 \contentsline {subsubsection}{\numberline {5.5.1.2}Cross-section Ratio, \ensuremath {R_{32}}\xspace }{95}{subsubsection.5.5.1.2}
 \contentsline {subsection}{\numberline {5.5.2}Closure Test}{96}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Unfolding of the Measurement}{97}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.3}Unfolding of the Measurement}{98}{subsection.5.5.3}
 \contentsline {section}{\numberline {5.6}Experimental Uncertainties}{99}{section.5.6}
 \contentsline {subsection}{\numberline {5.6.1}Statistical Uncertainty}{100}{subsection.5.6.1}
 \contentsline {subsection}{\numberline {5.6.2}Jet Energy Corrections Uncertainty}{101}{subsection.5.6.2}
@@ -72,7 +72,7 @@
 \contentsline {chapter}{\numberline {6}Theoretical Calculations}{109}{chapter.6}
 \contentsline {section}{\numberline {6.1}Fixed Order NLO Calculations}{109}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}NLO Correction Factors}{111}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Non-Perturbative Corrections}{112}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.2}Non-perturbative Corrections}{112}{subsection.6.1.2}
 \contentsline {subsection}{\numberline {6.1.3}Electroweak Corrections}{114}{subsection.6.1.3}
 \contentsline {section}{\numberline {6.2}Theoretical Uncertainties}{116}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Scale Uncertainty}{116}{subsection.6.2.1}
@@ -86,10 +86,12 @@
 \contentsline {subsection}{\numberline {7.2.1}Fitting Procedure}{127}{subsection.7.2.1}
 \contentsline {subsection}{\numberline {7.2.2}Fit Results}{133}{subsection.7.2.2}
 \contentsline {section}{\numberline {7.3}Running of the Strong Coupling Constant}{136}{section.7.3}
-\contentsline {chapter}{\numberline {8}Summary}{140}{chapter.8}
-\contentsline {chapter}{Appendix \numberline {A}}{144}{Appendix.a.A}
-\contentsline {section}{\numberline {A.1}Cross-section Ratio, \ensuremath {R_{32}}\xspace }{145}{section.a.A.1}
-\contentsline {section}{\numberline {A.2}Individual Sources of Jet Energy Correction Uncertainties}{146}{section.a.A.2}
-\contentsline {section}{\numberline {A.3}Experimental Uncertainties}{149}{section.a.A.3}
-\contentsline {section}{\numberline {A.4}Theoretical Uncertainties}{152}{section.a.A.4}
-\contentsline {chapter}{Bibliography}{155}{table.caption.91}
+\contentsline {chapter}{\numberline {8}Summary}{141}{chapter.8}
+\contentsline {chapter}{Appendix \numberline {A}}{145}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}Cross-section Ratio, \ensuremath {R_{32}}\xspace }{146}{section.a.A.1}
+\contentsline {section}{\numberline {A.2}Individual Sources of Jet Energy Correction Uncertainties}{147}{section.a.A.2}
+\contentsline {section}{\numberline {A.3}Experimental Uncertainties}{150}{section.a.A.3}
+\contentsline {section}{\numberline {A.4}Theoretical Uncertainties}{153}{section.a.A.4}
+\contentsline {chapter}{Bibliography}{157}{section*.94}
+\contentsline {chapter}{List of Publications}{171}{section*.96}
+\contentsline {chapter}{Reprints}{198}{section*.104}

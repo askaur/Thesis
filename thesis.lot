@@ -4,30 +4,30 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Data sets of the 2012 LHC run period.}}{71}{table.caption.33}
-\contentsline {table}{\numberline {5.2}{\ignorespaces The official Monte Carlo samples produced in phase space slices in \ensuremath {H_{\mathrm {T}}}\xspace with the generator {\textsc {MadGraph5}}\xspace and interfaced to {\textsc {pythia6}}\xspace .}}{72}{table.caption.34}
-\contentsline {table}{\numberline {5.3}{\ignorespaces The single jet HLT trigger paths used in the analysis.}}{73}{table.caption.35}
-\contentsline {table}{\numberline {5.4}{\ignorespaces The jet ID criteria.}}{78}{table.caption.38}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Jet energy resolution scale factors.}}{86}{table.caption.45}
-\contentsline {table}{\numberline {5.6}{\ignorespaces The parameters obtained by fitting the relative resolution as a function of \ensuremath {H_{\mathrm {T,2}}/2}.}}{89}{table.caption.49}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Overview of all experimental uncertainties affecting the measurement of cross-sections and the cross-section ratio.}}{108}{table.caption.60}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Data sets of the 2012 LHC run period.}}{71}{table.caption.34}
+\contentsline {table}{\numberline {5.2}{\ignorespaces The official Monte Carlo samples produced in phase space slices in \ensuremath {H_{\mathrm {T}}}\xspace with the generator {\textsc {MadGraph5}}\xspace and interfaced to {\textsc {pythia6}}\xspace .}}{72}{table.caption.35}
+\contentsline {table}{\numberline {5.3}{\ignorespaces The single jet HLT trigger paths used in the analysis.}}{73}{table.caption.36}
+\contentsline {table}{\numberline {5.4}{\ignorespaces The jet ID criteria.}}{78}{table.caption.39}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Jet energy resolution scale factors.}}{86}{table.caption.46}
+\contentsline {table}{\numberline {5.6}{\ignorespaces The parameters obtained by fitting the relative resolution as a function of \ensuremath {H_{\mathrm {T,2}}/2}.}}{89}{table.caption.50}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Overview of all experimental uncertainties affecting the measurement of cross-sections and the cross-section ratio.}}{108}{table.caption.61}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces NLO PDF sets available via {\textsc {LHAPDF6}}\xspace with various assumptions on the value of \ensuremath {\alpha _s(M_Z)}\xspace .}}{111}{table.caption.61}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Overview of all systematic theoretical uncertainties affecting the measurement of cross-sections and the cross-section ratio.}}{120}{table.caption.67}
+\contentsline {table}{\numberline {6.1}{\ignorespaces NLO PDF sets available via {\textsc {LHAPDF6}}\xspace with various assumptions on the value of \ensuremath {\alpha _s(M_Z)}\xspace .}}{111}{table.caption.62}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Overview of all systematic theoretical uncertainties affecting the measurement of cross-sections and the cross-section ratio.}}{120}{table.caption.68}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Determination of \ensuremath {\alpha _s(M_Z)}\xspace from the inclusive 2-jet and 3-jet event cross-sections using five PDF sets.}}{134}{table.caption.75}
-\contentsline {table}{\numberline {7.2}{\ignorespaces Determination of \ensuremath {\alpha _s(M_Z)}\xspace from the inclusive 2-jet and 3-jet event cross-sections simultaneously and from their ratio \ensuremath {R_{32}}\xspace using five PDF sets.}}{134}{table.caption.76}
-\contentsline {table}{\numberline {7.3}{\ignorespaces Determination of \ensuremath {\alpha _s(M_Z)}\xspace from the inclusive 2-jet event cross-section using five PDF sets at NLO without (left) and with (right) electroweak (EW) corrections.}}{135}{table.caption.77}
-\contentsline {table}{\numberline {7.4}{\ignorespaces Determination of \ensuremath {\alpha _s(M_Z)}\xspace from the ratio \ensuremath {R_{32}}\xspace using the two most compatible PDF sets MSTW2008 and MMHT2014.}}{137}{table.caption.78}
-\contentsline {table}{\numberline {7.5}{\ignorespaces Determination of \ensuremath {\alpha _s(M_Z)}\xspace from the ratio \ensuremath {R_{32}}\xspace in the \ensuremath {H_{\mathrm {T,2}}/2}\xspace range from 0.3 up to 1.68 TeV at the central scale and for the six scale factor combinations for the two PDF sets MSTW2008 and MMHT2014.\relax }}{137}{table.caption.79}
-\contentsline {table}{\numberline {7.6}{\ignorespaces Uncertainty decomposition for \ensuremath {\alpha _s(M_Z)}\xspace from the determination of \ensuremath {\alpha _S}\xspace from the jet event rate \ensuremath {R_{32}}\xspace in bins of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{137}{table.caption.80}
-\contentsline {table}{\numberline {7.7}{\ignorespaces Evolution of the strong coupling constant.}}{139}{table.caption.81}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Determination of \ensuremath {\alpha _s(M_Z)}\xspace from the inclusive 2-jet and 3-jet event cross-sections using five PDF sets.}}{134}{table.caption.76}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Determination of \ensuremath {\alpha _s(M_Z)}\xspace from the inclusive 2-jet and 3-jet event cross-sections simultaneously and from their ratio \ensuremath {R_{32}}\xspace using five PDF sets.}}{134}{table.caption.77}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Determination of \ensuremath {\alpha _s(M_Z)}\xspace from the inclusive 2-jet event cross-section using five PDF sets at NLO without (left) and with (right) electroweak (EW) corrections.}}{135}{table.caption.78}
+\contentsline {table}{\numberline {7.4}{\ignorespaces Determination of \ensuremath {\alpha _s(M_Z)}\xspace from the ratio \ensuremath {R_{32}}\xspace using the two most compatible PDF sets MSTW2008 and MMHT2014.}}{137}{table.caption.79}
+\contentsline {table}{\numberline {7.5}{\ignorespaces Determination of \ensuremath {\alpha _s(M_Z)}\xspace from the ratio \ensuremath {R_{32}}\xspace in the \ensuremath {H_{\mathrm {T,2}}/2}\xspace range from 0.3 up to 1.68 TeV at the central scale and for the six scale factor combinations for the two PDF sets MSTW2008 and MMHT2014.\relax }}{137}{table.caption.80}
+\contentsline {table}{\numberline {7.6}{\ignorespaces Uncertainty decomposition for \ensuremath {\alpha _s(M_Z)}\xspace from the determination of \ensuremath {\alpha _S}\xspace from the jet event rate \ensuremath {R_{32}}\xspace in bins of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{137}{table.caption.81}
+\contentsline {table}{\numberline {7.7}{\ignorespaces Evolution of the strong coupling constant.}}{139}{table.caption.82}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Differential cross-sections ($\times $ 10$^{-3}$(pb/GeV)) and cross-section ratio \ensuremath {R_{32}}\xspace at detector level in each bin of \ensuremath {H_{\mathrm {T,2}}/2}\xspace , along with statistical uncertainty (in \%).\relax }}{146}{table.caption.83}
-\contentsline {table}{\numberline {A.2}{\ignorespaces Experimental uncertainties (in \%) affecting the cross-section measurement in each bin of \ensuremath {H_{\mathrm {T,2}}/2}\xspace for inclusive 2-jet events.}}{150}{table.caption.87}
-\contentsline {table}{\numberline {A.3}{\ignorespaces Experimental uncertainties (in \%) affecting the cross-section measurement in each bin of \ensuremath {H_{\mathrm {T,2}}/2}\xspace for inclusive 3-jet events.}}{151}{table.caption.88}
-\contentsline {table}{\numberline {A.4}{\ignorespaces Experimental uncertainties (in \%) affecting the cross-section measurement in each bin of \ensuremath {H_{\mathrm {T,2}}/2}\xspace for cross-section ratio.}}{152}{table.caption.89}
-\contentsline {table}{\numberline {A.5}{\ignorespaces Theoretical uncertainties (in \%), calculated using CT10-NLO PDF set, affecting the cross-section measurement in each bin of \ensuremath {H_{\mathrm {T,2}}/2}\xspace for inclusive 2-jet events.}}{153}{table.caption.90}
-\contentsline {table}{\numberline {A.6}{\ignorespaces Theoretical uncertainties (in \%), calculated using CT10-NLO PDF set, affecting the cross-section measurement in each bin of \ensuremath {H_{\mathrm {T,2}}/2}\xspace for inclusive 3-jet events.}}{154}{table.caption.91}
-\contentsline {table}{\numberline {A.7}{\ignorespaces Theoretical uncertainties (in \%), calculated using CT10-NLO PDF set, affecting the measurement of cross-section ratio in each bin of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{155}{table.caption.92}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Differential cross-sections ($\times $ 10$^{-3}$(pb/GeV)) and cross-section ratio \ensuremath {R_{32}}\xspace at detector level in each bin of \ensuremath {H_{\mathrm {T,2}}/2}\xspace , along with statistical uncertainty (in \%).\relax }}{146}{table.caption.84}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Experimental uncertainties (in \%) affecting the cross-section measurement in each bin of \ensuremath {H_{\mathrm {T,2}}/2}\xspace for inclusive 2-jet events.}}{150}{table.caption.88}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Experimental uncertainties (in \%) affecting the cross-section measurement in each bin of \ensuremath {H_{\mathrm {T,2}}/2}\xspace for inclusive 3-jet events.}}{151}{table.caption.89}
+\contentsline {table}{\numberline {A.4}{\ignorespaces Experimental uncertainties (in \%) affecting the cross-section measurement in each bin of \ensuremath {H_{\mathrm {T,2}}/2}\xspace for cross-section ratio.}}{152}{table.caption.90}
+\contentsline {table}{\numberline {A.5}{\ignorespaces Theoretical uncertainties (in \%), calculated using CT10-NLO PDF set, affecting the cross-section measurement in each bin of \ensuremath {H_{\mathrm {T,2}}/2}\xspace for inclusive 2-jet events.}}{153}{table.caption.91}
+\contentsline {table}{\numberline {A.6}{\ignorespaces Theoretical uncertainties (in \%), calculated using CT10-NLO PDF set, affecting the cross-section measurement in each bin of \ensuremath {H_{\mathrm {T,2}}/2}\xspace for inclusive 3-jet events.}}{154}{table.caption.92}
+\contentsline {table}{\numberline {A.7}{\ignorespaces Theoretical uncertainties (in \%), calculated using CT10-NLO PDF set, affecting the measurement of cross-section ratio in each bin of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{155}{table.caption.93}

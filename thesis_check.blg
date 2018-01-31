@@ -1,7 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis_check.aux
-A level-1 auxiliary file: title.aux
 A level-1 auxiliary file: Ackn.aux
 A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: Introduction.aux
@@ -14,29 +13,28 @@ A level-1 auxiliary file: Alphas.aux
 A level-1 auxiliary file: Summary.aux
 A level-1 auxiliary file: Appendix.aux
 The style file: ieeetr.bst
+A level-1 auxiliary file: publications.aux
 Database file #1: thesis.bib
-Warning--I didn't find a database entry for "RunII"
-Warning--I didn't find a database entry for "FastJet"
 Warning--empty publisher in Perkins:1982xb
 Warning--empty publisher in Halzen:1984mc
 Warning--empty journal in Bayatian:2006nff
 Warning--empty journal in CMS:2013gfa
 Warning--empty journal in vanderMeer:1968zz
 Warning--empty journal in Bird:2005js
+Warning--empty author in CMS:2005aa
+Warning--empty journal in CMS:2005aa
 Warning--empty journal in Bahr:2008tf
 Warning--empty author in CMS:2009nxa
 Warning--empty journal in CMS:2009nxa
 Warning--empty author in CMS:2010byl
 Warning--empty journal in CMS:2010byl
 Warning--empty journal in Adam:2005cg
-Warning--empty author in CMS:2005aa
-Warning--empty journal in CMS:2005aa
 Warning--empty journal in CMS:2010xta
 Warning--empty journal in CMS:2011esa
 Warning--empty journal in DAgostini
 You've used 125 entries,
             1876 wiz_defined-function locations,
-            1251 strings with 23594 characters,
+            1247 strings with 23577 characters,
 and the built_in function-call counts, 33886 in all, are:
 = -- 3458
 > -- 1123
@@ -75,4 +73,4 @@ warning$ -- 17
 while$ -- 283
 width$ -- 128
 write$ -- 1241
-(There were 19 warnings)
+(There were 17 warnings)

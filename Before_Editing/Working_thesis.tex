@@ -1,0 +1,192 @@
+\documentclass[12pt,twoside]{report}
+\include{shortcuts}
+\usepackage{array}
+\usepackage{commath}
+\usepackage{fancyhdr}
+\usepackage{graphicx,psfrag,amsmath}
+\usepackage{amsmath}
+\usepackage{nccmath}
+\usepackage{lineno}
+\usepackage{multibib}
+\usepackage{url}
+\usepackage{multirow}     
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{setspace}
+\usepackage[margin=16pt,font={small,stretch=1.1}]{caption}
+\usepackage[caption=false]{subfig}
+\usepackage{cite}
+\usepackage{rotating}
+\usepackage{pdfpages}
+\usepackage{textcomp,gensymb}
+\usepackage{makecell}
+\usepackage{verbatim}
+\usepackage{bold-extra}
+\usepackage[italic]{hepnames}
+\usepackage{ptdr-definitions}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[belowskip=-1pt,aboveskip=2pt]{caption}
+\usepackage[titletoc]{appendix}
+\hfuzz=9999pt
+\hbadness=99999
+
+\setlength{\headheight}{15pt} 
+\usepackage[pdfpagelabels]{hyperref}
+\DeclareRobustCommand{\frac}[3][0pt]{%
+  {\begingroup\hspace{#1}#2\hspace{#1}\endgroup\over\hspace{#1}#3\hspace{#1}}}
+\hypersetup{colorlinks, citecolor=blue, linkcolor=blue, urlcolor=blue}
+\pagestyle{fancy} \fancyhfoffset[LE]{.5 cm}
+\clearpage{\pagestyle{empty}\cleardoublepage} \pagestyle{fancy}
+
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\fancyhf{}
+
+\fancyhead[LE,RO]{\thepage} \fancyhead[LO]{\slshape\rightmark}
+\fancyhead[RE]{\slshape\leftmark}
+
+\textheight 23 cm \textwidth 15cm
+\oddsidemargin 1.05 cm \evensidemargin -0.2 cm
+\topmargin -0.8 cm \tolerance=10000000
+
+\newtheorem{theorem}{Theorem}
+\setlength{\parindent}{1 cm}
+\setlength{\parskip}{0.14 cm}
+\linespread{1.5}
+\raggedbottom
+
+\def\st{\scriptstyle}
+\def\sst{\scriptscriptstyle}
+\def\mco{\multicolumn}
+\def\fr{\frac}
+\def\no{\nonumber}
+\def\pd{\partial}
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\bea{\begin{eqnarray}}
+\def\eea{\end{eqnarray}}
+\def\sech{{\rm{sech}}}
+\def\r{\ref}
+
+\setcounter{page}{1} \setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\usepackage{bookmark}
+
+\begin{document}
+
+%Colors
+\definecolor{pink}{rgb}{1.0, 0.08, 0.58}
+%\definecolor{blue2}{rgb}{0.0, 0.44, 1.0}
+\definecolor{green}{rgb}{0.0, 0.5, 0.0}
+\definecolor{myred}{rgb}{0.8, 0.2, 0.2}
+\definecolor{gray}{rgb}{0.47, 0.53, 0.6}
+\definecolor{lightpurple}{rgb}{0.69, 0.61, 0.85}
+\definecolor{blue2}{rgb}{0.45, 0.66, 0.96}
+\definecolor{pink2}{rgb}{1.0, 0.1, 0.7}
+\definecolor{darkgray}{rgb}{0.66, 0.66, 0.66}
+\definecolor{deepsaffron}{rgb}{1.0, 0.6, 0.2}
+\definecolor{dimgray}{rgb}{0.41, 0.41, 0.41}
+\definecolor{ufogreen}{rgb}{0.24, 0.82, 0.44}
+%\pagestyle{empty}
+\thispagestyle{empty}
+\include{title}
+%\pagestyle{plain}
+\newpage 
+\thispagestyle{empty}
+
+%% --- dedication page ---
+
+\baselineskip=1pc \lineskip=1pc \lineskiplimit=1pc
+\renewcommand{\thepage}{\roman{page}}
+\setcounter{page}{2}
+%
+\mbox{}\newpage\thispagestyle{empty}
+
+\vspace*{2in}
+\begin{center}
+{\bf\emph{\Large
+Dedicated to\\
+my Parents\\
+}}
+\end{center}
+\vskip 4pc
+
+\newpage\thispagestyle{empty}
+\mbox{}\newpage
+
+\hypersetup{pageanchor=false}
+\cleardoublepage
+\phantomsection
+%\addcontentsline{toc}{chapter}{Acknowledgements}
+\include{Ackn}
+
+\newpage\thispagestyle{empty}
+\mbox{}\newpage
+
+\cleardoublepage
+\phantomsection
+\thispagestyle{plain}
+%\addcontentsline{toc}{chapter}{Abstract}
+\pagenumbering{roman}
+\include{Abstract}
+
+%\newpage\thispagestyle{empty}
+%\mbox{}\newpage
+
+\tableofcontents
+\newpage\thispagestyle{empty}
+\mbox{}\newpage
+
+\cleardoublepage
+\phantomsection
+%%\addcontentsline{toc}{chapter}{List of Figures}
+%%\begin{spacing}{1.15}
+%%\listoffigures
+%%\end{spacing}
+
+\cleardoublepage
+%\phantomsection
+%\addcontentsline{toc}{chapter}{List of Tables}
+%\addtocontents{toc}{\protect\rule{13.9 cm}{.1pt}\par}
+%\listoftables
+%\newpage
+
+\pagenumbering{arabic}
+
+\include{Introduction}  %Chapter 1
+\include{Theory}  %Chapter 2
+\include{Detector}  %Chapter 3
+\include{Measurement} %Chapter 4
+\include{Theory_Predictions} %Chapter 5	
+\include{Alphas}  %Chapter 6	
+\include{Summary} %Chapter 7
+
+%\include{Summary}
+\fontsize{10pt}{12pt}\selectfont
+
+\cleardoublepage
+\phantomsection
+
+\begin{appendices}
+\chapter{}
+\include{Appendix}
+\end{appendices}
+%\addcontentsline{toc}{chapter}{List of publications}
+%\include{publications1}
+
+\fontsize{12pt}{12pt} \selectfont
+\addcontentsline{toc}{chapter}{Bibliography}
+%\bibliographystyle{ieeetr}
+%\bibliography{thesis}
+
+\include{bibliography}
+
+\cleardoublepage
+\phantomsection
+\chapter*{\vspace*{2in}\begin{center}\Huge \emph{Selected\\Reprints}\end{center}}
+\addcontentsline{toc}{chapter}{Reprints}
+\cleardoublepage
+\phantomsection
+
+\end{document}

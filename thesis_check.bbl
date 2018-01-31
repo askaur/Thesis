@@ -264,6 +264,44 @@ I.~Bird, K.~Bos, N.~Brook, D.~Duellmann, C.~Eck, I.~Fisk, D.~Foster,
   B.~Gibbard, C.~Grandi, F.~Grey, {\em et~al.}, ``{LHC computing Grid.
   Technical design report},'' 2005.
 
+\bibitem{CMS:2005aa}
+``{CMS: The computing project. Technical design report},'' 2005.
+
+\bibitem{Brun:1997pa}
+R.~Brun and F.~Rademakers, ``{ROOT: An object oriented data analysis
+  framework},'' {\em Nucl. Instrum. Meth.}, vol.~A389, pp.~81--86, 1997.
+
+\bibitem{Nagy:2001fj}
+Z.~Nagy, ``{Three jet cross-sections in hadron hadron collisions at
+  next-to-leading order},'' {\em Phys. Rev. Lett.}, vol.~88, p.~122003, 2002.
+
+\bibitem{Nagy:2003tz}
+Z.~Nagy, ``{Next-to-leading order calculation of three jet observables in
+  hadron hadron collision},'' {\em Phys. Rev.}, vol.~D68, p.~094002, 2003.
+
+\bibitem{Kluge:2006xs}
+T.~Kluge, K.~Rabbertz, and M.~Wobisch, ``{FastNLO: Fast pQCD calculations for
+  PDF fits},'' in {\em {Deep inelastic scattering. Proceedings, 14th
+  International Workshop, DIS 2006, Tsukuba, Japan, April 20-24, 2006}},
+  pp.~483--486, 2006.
+
+\bibitem{Britzger:2012bs}
+D.~Britzger, K.~Rabbertz, F.~Stober, and M.~Wobisch, ``{New features in version
+  2 of the fastNLO project},'' in {\em {Proceedings, 20th International
+  Workshop on Deep-Inelastic Scattering and Related Subjects (DIS 2012): Bonn,
+  Germany, March 26-30, 2012}}, pp.~217--221, 2012.
+
+\bibitem{Whalley:2005nh}
+M.~R. Whalley, D.~Bourilkov, and R.~C. Group, ``{The Les Houches accord PDFs
+  (LHAPDF) and LHAGLUE},'' in {\em {HERA and the LHC: A Workshop on the
+  implications of HERA for LHC physics. Proceedings, Part B}}, pp.~575--581,
+  2005.
+
+\bibitem{Buckley:2014ana}
+A.~Buckley, J.~Ferrando, S.~Lloyd, K.~Nordström, B.~Page, M.~Rüfenacht,
+  M.~Schönherr, and G.~Watt, ``{LHAPDF6: parton density access in the LHC
+  precision era},'' {\em Eur. Phys. J.}, vol.~C75, p.~132, 2015.
+
 \bibitem{Monte}
 N.~Metropolis and S.~Ulam, ``The monte carlo method,'' {\em Journal of the
   American Statistical Association}, vol.~44, no.~247, pp.~335--341, 1949.
@@ -331,37 +369,6 @@ S.~Alioli, K.~Hamilton, P.~Nason, C.~Oleari, and E.~Re, ``{Jet pair production
 C.~Oleari, ``{The POWHEG-BOX},'' {\em Nucl. Phys. Proc. Suppl.}, vol.~205-206,
   pp.~36--41, 2010.
 
-\bibitem{Nagy:2001fj}
-Z.~Nagy, ``{Three jet cross-sections in hadron hadron collisions at
-  next-to-leading order},'' {\em Phys. Rev. Lett.}, vol.~88, p.~122003, 2002.
-
-\bibitem{Nagy:2003tz}
-Z.~Nagy, ``{Next-to-leading order calculation of three jet observables in
-  hadron hadron collision},'' {\em Phys. Rev.}, vol.~D68, p.~094002, 2003.
-
-\bibitem{Kluge:2006xs}
-T.~Kluge, K.~Rabbertz, and M.~Wobisch, ``{FastNLO: Fast pQCD calculations for
-  PDF fits},'' in {\em {Deep inelastic scattering. Proceedings, 14th
-  International Workshop, DIS 2006, Tsukuba, Japan, April 20-24, 2006}},
-  pp.~483--486, 2006.
-
-\bibitem{Britzger:2012bs}
-D.~Britzger, K.~Rabbertz, F.~Stober, and M.~Wobisch, ``{New features in version
-  2 of the fastNLO project},'' in {\em {Proceedings, 20th International
-  Workshop on Deep-Inelastic Scattering and Related Subjects (DIS 2012): Bonn,
-  Germany, March 26-30, 2012}}, pp.~217--221, 2012.
-
-\bibitem{Whalley:2005nh}
-M.~R. Whalley, D.~Bourilkov, and R.~C. Group, ``{The Les Houches accord PDFs
-  (LHAPDF) and LHAGLUE},'' in {\em {HERA and the LHC: A Workshop on the
-  implications of HERA for LHC physics. Proceedings, Part B}}, pp.~575--581,
-  2005.
-
-\bibitem{Buckley:2014ana}
-A.~Buckley, J.~Ferrando, S.~Lloyd, K.~Nordström, B.~Page, M.~Rüfenacht,
-  M.~Schönherr, and G.~Watt, ``{LHAPDF6: parton density access in the LHC
-  precision era},'' {\em Eur. Phys. J.}, vol.~C75, p.~132, 2015.
-
 \bibitem{Agostinelli:2002hh}
 S.~Agostinelli {\em et~al.}, ``{GEANT4: A Simulation toolkit},'' {\em Nucl.
   Instrum. Meth.}, vol.~A506, pp.~250--303, 2003.
@@ -396,13 +403,6 @@ S.~Chatrchyan {\em et~al.}, ``{Determination of Jet Energy Calibration and
 V.~Khachatryan {\em et~al.}, ``{Jet energy scale and resolution in the CMS
   experiment in pp collisions at 8 TeV},'' {\em JINST}, vol.~12, no.~02,
   p.~P02014, 2017.
-
-\bibitem{CMS:2005aa}
-``{CMS: The computing project. Technical design report},'' 2005.
-
-\bibitem{Brun:1997pa}
-R.~Brun and F.~Rademakers, ``{ROOT: An object oriented data analysis
-  framework},'' {\em Nucl. Instrum. Meth.}, vol.~A389, pp.~81--86, 1997.
 
 \bibitem{Khachatryan:2016mlc}
 V.~Khachatryan {\em et~al.}, ``{Measurement and QCD analysis of
