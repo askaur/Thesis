@@ -581,4 +581,21 @@ B.~Schmidt and M.~Steinhauser, ``{CRunDec: a C++ package for running and
   decoupling of the strong coupling and quark masses},'' {\em Comput. Phys.
   Commun.}, vol.~183, pp.~1845--1848, 2012.
 
+\bibitem{Lutz:2012yoa}
+B.~Lutz, ``{Upgrade of the CMS Hadron Outer Calorimeter with SiPM sensors},''
+  {\em J. Phys. Conf. Ser.}, vol.~404, p.~012018, 2012.
+
+\bibitem{Anderson:2011zzc}
+J.~Anderson, J.~Freeman, S.~Los, and J.~Whitmore, ``{Upgrade of the CMS Hadron
+  Outer Calorimeter with SIPMs},'' {\em Phys. Procedia}, vol.~37, pp.~72--78,
+  2012.
+
+\bibitem{Kunsken:2015zla}
+A.~Künsken, ``{MPPC photon sensor operational experience in CMS},'' {\em J.
+  Phys. Conf. Ser.}, vol.~587, no.~1, p.~012022, 2015.
+
+\bibitem{DN}
+B.~Lutz, ``{Commissioning and performance of the CMS Hadron Outer
+  Calorimeter},'' 2014.
+
 \end{thebibliography}

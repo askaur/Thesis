@@ -19,11 +19,11 @@ The cross-section ratio \rations, defined in Eq.~\ref{eq:ratio_32} is obtained b
 For inclusive 2-jet events (\njt) sufficient data are available up to \httwo = 2000 GeV, while for inclusive 3-jet events (\njth) and the ratio \rations, the accessible range in \httwo is limited to \httwo = 1680 GeV.
 
 \section{Data Samples}
-This measurement uses the data which was collected at the centre-of-mass energy of 8 TeV by CMS experiment in the 2012 run period of the LHC. The 2012 data is taken in four periods A, B, C, D and the data sets are divided into samples according to the run period. Further each sample is grouped into subsets based on the trigger decision. For run B-D, the \texttt{JetMon} stream data sets contain prescaled low trigger threshold paths (HLTPFJet40, 80, 140, 200 and 260) while the \texttt{JetHT} stream data sets contain unprescaled high threshold trigger paths (HLT PFJet320 and 400). For run A, the \texttt{Jet} stream contains all the above mentioned trigger paths. The data to be used in physics analysis must satisfy a certain criteria according to which it should fulfill the validation requirements of data quality monitoring procedure. CMS uses JSON (Java Script Object Notation) format files to store the range of good lumi sections within a run. In the current analysis, the applied certification file\footnote{Cert\_190456\hy 208686\_8TeV\_22Jan2013ReReco\_Collisions12\_JSON} is based on the final event reconstruction of the 2012 CMS data sets. The data sets used in the current study are mentioned in the Table~\ref{tab:dataset} along with the luminosity of each data set which increases with period. Full 2012 data sample corresponds to an integrated luminosity of 19.71 \fbinv. 
+This measurement uses the data which was collected at the center-of-mass energy of 8 TeV by CMS experiment in the 2012 run period of the LHC. The 2012 data is taken in four periods A, B, C, D and the data sets are divided into samples according to the run period. Further each sample is grouped into subsets based on the trigger decision. For run B-D, the \texttt{JetMon} stream data sets contain prescaled low trigger threshold paths (HLTPFJet40, 80, 140, 200 and 260) while the \texttt{JetHT} stream data sets contain unprescaled high threshold trigger paths (HLT PFJet320 and 400). For run A, the \texttt{Jet} stream contains all the above mentioned trigger paths. The data to be used in physics analysis must satisfy a certain criteria according to which it should fulfill the validation requirements of data quality monitoring procedure. CMS uses JSON (Java Script Object Notation) format files to store the range of good lumi sections within a run. In the current analysis, the applied certification file\footnote{Cert\_190456\hy 208686\_8TeV\_22Jan2013ReReco\_Collisions12\_JSON} is based on the final event reconstruction of the 2012 CMS data sets. The data sets used in the current study are mentioned in the Table~\ref{tab:dataset} along with the luminosity of each data set which increases with period. Full 2012 data sample corresponds to an integrated luminosity of 19.71 \fbinv. 
 
 \begin{table}[!h]
 \centering
-\caption[Data sets of the 2012 LHC run period.]{Run range and luminosity of the proton-proton collisions data collected at the centre-of-mass energy of 8 TeV by CMS experiment in the year of 2012 in four different run periods A, B, C and D.}
+\caption{Run range and luminosity of the proton-proton collisions data collected at the center-of-mass energy of 8 TeV by CMS experiment in the year of 2012 in four different run periods A, B, C and D.}
 \label{tab:dataset}
 \vspace{2mm}
 %\begin{tabular}{cclc}
@@ -128,7 +128,7 @@ The ratio of missing transverse energy to the total transverse energy \ETmiss/$\
 \centering
  \hspace*{-2mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Missing_ET_2.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Missing_ET_3.pdf}
- \caption[Missing transverse energy distribution.]{Missing transverse energy fraction of the total transverse energy per event in data (black solid circles) and simulated Monte Carlo events (blue histogram) in inclusive 2-jet (left) and 3-jet events (right). To remove background and noise, events with a fraction exceeding a certain threshold, here indicated with the red dashed line, are rejected.}
+ \caption[Missing transverse energy fraction of the total transverse energy per event in data and simulated Monte Carlo events.]{Missing transverse energy fraction of the total transverse energy per event in data (black solid circles) and simulated Monte Carlo events (blue histogram) in inclusive 2-jet (left) and 3-jet events (right). To remove background and noise, events with a fraction exceeding a certain threshold, here indicated with the red dashed line, are rejected.}
  \label{fig:metcut}
 \end{figure} 
 
@@ -137,7 +137,7 @@ In order to suppress fake jets, arising from detector noise or misreconstructed 
 
 \begin{table}[!htbp]
  \centering
- \caption[The jet ID criteria.]{The jet ID removes noise and fake jets based on the properties of the reconstructed jets and the clustered particle candidates. All the selection cuts which are recommended by the \JetMet group are applied \cite{JetID}.}
+ \caption[The jet ID removes noise and fake jets based on the properties of the reconstructed jets and the clustered particle candidates.]{The jet ID removes noise and fake jets based on the properties of the reconstructed jets and the clustered particle candidates. All the selection cuts which are recommended by the \JetMet group are applied \cite{JetID}.}
  \label{tab:jetID}
  \vspace{2mm}
  \begin{tabular}{llll}
@@ -191,7 +191,7 @@ The efficiency of the jet ID as a function of \httwo is studied using a tag-and-
 \begin{figure}[!htbp]
  \begin{center}
  \includegraphics[width=0.53\textwidth]{/home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficiency.pdf}
- \caption[The jet ID efficiency is studied as a function of \httwo.]{The jet ID efficiency is studied as a function of \httwo with tag-and-probe technique using dijet event topologies and it always exceeds 99\%.}
+ \caption[The jet ID efficiency is studied as a function of \httwo with tag-and-probe technique using dijet event topologies and it always exceeds 99\%.]{The jet ID efficiency is studied as a function of \httwo with tag-and-probe technique using dijet event topologies and it always exceeds 99\%.}
  \label{fig:ideff}
  \end{center}
 \end{figure} 
@@ -220,7 +220,7 @@ While generating the official Monte-Carlo samples, the number of pileup interact
  \begin{center}
  \hspace*{-5mm}\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Nvertices.pdf}%
  ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Nvertices_weight.pdf}
- \caption[Number of reconstructed vertices before (left) and after (right) the pileup reweighting.]{Number of reconstructed vertices in data (black solid circles) and simulated Monte Carlo events (blue histogram) before (left) and after (right) the pileup reweighting.}
+ \caption[Number of reconstructed vertices before and after the pileup reweighting.]{Number of reconstructed vertices in data (black solid circles) and simulated Monte Carlo events (blue histogram) before (left) and after (right) the pileup reweighting.}
  \label{fig:pileup}
  \end{center}
 \end{figure}
@@ -255,7 +255,7 @@ Due to finite resolution of the CMS detector, the measured transverse momentum o
 
 \begin{table}[!htbp]
 \centering
- \caption[Jet energy resolution scale factors.]{\JetMet working group at CMS has shown that the jet energy resolution in data is actually worse than in simulation \cite{JER}. To match the resolution in data, the reconstructed jet transverse momentum in simulated events need to be smeared by applying the scale factors. The uncertainty on the resolution is given by an upwards and downwards variation c$_{up}$ and c$_{down}$ of the measured scaling factor c$_{central}$.}
+ \caption[The jet energy resolution in data is actually worse than in simulation. To match the resolution in data, the reconstructed jet transverse momentum in simulated events need to be smeared by applying the scale factors.]{\JetMet working group at CMS has shown that the jet energy resolution in data is actually worse than in simulation \cite{JER}. To match the resolution in data, the reconstructed jet transverse momentum in simulated events need to be smeared by applying the scale factors. The uncertainty on the resolution is given by an upwards and downwards variation c$_{up}$ and c$_{down}$ of the measured scaling factor c$_{central}$.}
  \label{tab:resolution}
  \vspace{2mm}
  \begin{tabular}{lccccc}
@@ -566,7 +566,7 @@ The experimental uncertainties from each source as well as total uncertainty are
 
 \begin{table}[!h]
  \centering
- \caption[Overview of all experimental uncertainties affecting the measurement of cross-sections and the cross-section ratio.]{Overview of all experimental uncertainties affecting the measurement of cross-sections for inclusive 2-jet (left) and 3-jet events (middle) and cross-section ratio \ratio (right). The uncertainties due to luminosity and residual effects cancel completely in \ratio. The total uncertainty is the quadrature sum of the individual sources of uncertainty.}
+ \caption[An overview of all experimental uncertainties affecting the measurement of cross-sections and the cross-section ratio.]{An overview of all experimental uncertainties affecting the measurement of cross-sections for inclusive 2-jet (left) and 3-jet events (middle) and cross-section ratio \ratio (right). The uncertainties due to luminosity and residual effects cancel completely in \ratio. The total uncertainty is the quadrature sum of the individual sources of uncertainty.}
 \label{tab:exp_unc_overview}
   \vspace{2mm}
   \begin{tabular}{llll}

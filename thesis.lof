@@ -2,42 +2,42 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The Standard Model summarizing the properties of elementary particles and their forces of interaction.}}{6}{figure.caption.6}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The fundamental Feynman rules of QCD.}}{11}{figure.caption.7}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The fundamental Feynman rules for different processes of quantum chromodynamics.}}{11}{figure.caption.7}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces The Feynman diagrams of leading-order (LO), next-to-leading order (NLO) and next-to-next-to-leading order (NNLO) processes in quantum chromodynamics.}}{13}{figure.caption.8}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Running of the strong coupling constant.}}{16}{figure.caption.9}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Schematic illustration of factorization theorem in a collision of two protons.}}{18}{figure.caption.10}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Running of the strong coupling constant evolved at the energy scale $Q$ as a function of $Q$.}}{16}{figure.caption.9}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Schematic illustration of the factorization theorem in a collision of two protons.}}{18}{figure.caption.10}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Illustration of the hadronization process in Lund string model.}}{21}{figure.caption.11}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Proton-proton collision.}}{22}{figure.caption.12}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces A proton-proton collision involving the main hard scattering process along with the low momentum transfer underlying event (UE) contributions.}}{22}{figure.caption.12}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Formation of a jet in a proton-proton collision.}}{24}{figure.caption.13}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Effects of emission of infrared radiations and collinear splitting in jet algorithms.}}{25}{figure.caption.14}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Illustration of infrared and collinear unsafe behaviour of jet algorithms.}}{25}{figure.caption.14}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces The clustering of particles into jets using different jet algorithms.}}{28}{figure.caption.15}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Overview of the different experiments of the Large Hadron Collider (LHC), a complex particle accelerator and collider located at CERN.}}{31}{figure.caption.16}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The integrated luminosity, delivered to CMS during stable beams for proton-proton collisions.}}{34}{figure.caption.17}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Pileup Interactions}}{35}{figure.caption.18}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces An overview of the different experiments of the Large Hadron Collider (LHC), a complex particle accelerator and collider located at CERN.}}{31}{figure.caption.16}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The integrated luminosity delivered by stable beams to CMS during proton-proton collisions.}}{34}{figure.caption.17}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces In a proton-proton collision, the particles produced from the hard interaction are clustered into a jet. The hard interaction corresponds to the main vertex. The particles produced in the interactions other than the hard one, form a pileup jet.}}{35}{figure.caption.18}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces The three dimensional view of the CMS detector along with its sub-detector components.}}{36}{figure.caption.19}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Front view of the CMS detector along with its components.}}{37}{figure.caption.20}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Front view of the CMS detector along with its various components.}}{37}{figure.caption.20}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces The right-handed coordinate system used by the CMS detector.}}{38}{figure.caption.21}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Longitudinal section of the CMS detector in the $y$-$z$ plane.}}{40}{figure.caption.22}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces The longitudinal section of the inner tracking system.}}{41}{figure.caption.23}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces A longitudinal view of the CMS detector is shown in the $y$-$z$ plane.}}{40}{figure.caption.22}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces A longitudinal view of the inner tracking system is shown in $r$-$z$ plane.}}{41}{figure.caption.23}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces A geometric view of one quarter of the electromagnetic calorimeter (ECAL) in $y$-$z$ plane.}}{43}{figure.caption.24}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Longitudinal view of one quarter of the hadronic calorimeter (HCAL) detector in $r$-$\eta $ plane.}}{45}{figure.caption.25}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces A longitudinal view presenting the location of the three muon sub-systems.}}{48}{figure.caption.26}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Work flow of the L1 trigger system}}{50}{figure.caption.27}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Architecture of the CMS DAQ system.}}{52}{figure.caption.28}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Schematic overview of the CMS computing grid.}}{53}{figure.caption.29}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Longitudinal section of one quarter of the hadronic calorimeter (HCAL) in $r$-$\eta $ plane.}}{45}{figure.caption.25}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces A longitudinal view of the CMS muon system showing the location of the three gaseous particle detectors.}}{48}{figure.caption.26}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Work flow of the L1 trigger system consisting of local, regional and global components.}}{50}{figure.caption.27}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Architecture of the CMS Data Acquisition (DAQ) system.}}{52}{figure.caption.28}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces The schematic overview of the CMS computing grid.}}{53}{figure.caption.29}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces The comparison of Monte Carlo (MC) simulations generated by event generators with the real data produced by the collisions of observed in the detectors.\relax }}{58}{figure.caption.30}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The comparison between Monte Carlo (MC) simulations generated by event generators and the real data produced by the collisions of observed in the detectors.\relax }}{58}{figure.caption.30}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Formation of jets in a proton-proton collision at different levels.}}{63}{figure.caption.31}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic association of sub-detector measurements to physical particle objects using the Particle Flow (PF) event reconstruction technique used by CMS.}}{65}{figure.caption.32}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The Particle Flow (PF) algorithm is used by the CMS to identify and reconstruct the particles. The PF converts the sub-detector measurements back to physical particle objects.}}{65}{figure.caption.32}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces A schematic diagram of the factorized jet energy corrections (JEC).}}{66}{figure.caption.33}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Trigger efficiencies turn-on curves for the single jet HLT trigger paths.}}{75}{figure.caption.37}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Missing transverse energy distribution.}}{77}{figure.caption.38}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Missing transverse energy fraction of the total transverse energy per event in data and simulated Monte Carlo events.}}{77}{figure.caption.38}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces The fractions of jet constituents for different types of PF candidates for inclusive 2-jet events.}}{79}{figure.caption.40}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces The fractions of jet constituents for different types of PF candidates for inclusive 3-jet events.}}{80}{figure.caption.41}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces The jet ID efficiency is studied as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{81}{figure.caption.42}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Number of reconstructed vertices before (left) and after (right) the pileup reweighting.}}{83}{figure.caption.43}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The jet ID efficiency is studied as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace with tag-and-probe technique using dijet event topologies and it always exceeds 99\%.}}{81}{figure.caption.42}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Number of reconstructed vertices before and after the pileup reweighting.}}{83}{figure.caption.43}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Comparison of differential cross-sections for data with simulated events and CT10-NLO theory predictions.}}{84}{figure.caption.44}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Comparison of the cross-section ratio for data with simulated events and CT10-NLO theory predictions.}}{84}{figure.caption.45}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Fitting of the jet energy resolution distribution as a function of \ensuremath {H_{\mathrm {T,2}}/2}\xspace .}}{87}{figure.caption.47}
@@ -67,9 +67,12 @@
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Ratio of the measured inclusive 2-jet differential cross-section to theory predictions using different PDF sets.}}{128}{figure.caption.73}
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Ratio of the measured inclusive 3-jet differential cross-section to theory predictions using different PDF sets.}}{129}{figure.caption.74}
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Ratio of the measured cross-section ratio to theory predictions using different PDF sets.}}{130}{figure.caption.75}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces The running \ensuremath {\alpha _S(Q)}\xspace as a function of the scale $Q$.}}{139}{figure.caption.83}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces The running \ensuremath {\alpha _S(Q)}\xspace as a function of the energy scale $Q$.}}{139}{figure.caption.83}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces The fractional jet energy correction (JEC) uncertainties from individual sources (Part I).}}{147}{figure.caption.85}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces The fractional jet energy correction (JEC) uncertainties from individual sources (Part II).}}{148}{figure.caption.86}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces The fractional jet energy correction (JEC) uncertainties from individual sources (Part III).}}{149}{figure.caption.87}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Longitudinal section of one quarter of the hadronic calorimeter (HCAL) in $r$-$\eta $ plane.}}{151}{figure.caption.84}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Longitudinal section of one quarter of the hadronic calorimeter (HCAL) in $r$-$\eta $ plane.}}{152}{figure.caption.85}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces The fractional jet energy correction (JEC) uncertainties from individual sources (Part I).}}{155}{figure.caption.87}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces The fractional jet energy correction (JEC) uncertainties from individual sources (Part II).}}{156}{figure.caption.88}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces The fractional jet energy correction (JEC) uncertainties from individual sources (Part III).}}{157}{figure.caption.89}

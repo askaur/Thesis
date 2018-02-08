@@ -18,11 +18,11 @@
 \contentsline {subsection}{\numberline {3.1.1}Luminosity Measurement}{32}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Pileup Interactions}{34}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}The Compact Muon Solenoid}{35}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Coordinate System}{37}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Coordinate System}{38}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Inner Tracker System}{39}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Electromagnetic Calorimeter}{42}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Hadronic Calorimeter}{43}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Superconducting Magnet}{47}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.5}Superconducting Magnet}{46}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3.2.6}Muon System}{47}{subsection.3.2.6}
 \contentsline {subsection}{\numberline {3.2.7}Trigger and Data Acquisition System}{49}{subsection.3.2.7}
 \contentsline {subsubsection}{\numberline {3.2.7.1}Jet Triggers}{51}{subsubsection.3.2.7.1}
@@ -87,11 +87,13 @@
 \contentsline {subsection}{\numberline {7.2.2}Fit Results}{133}{subsection.7.2.2}
 \contentsline {section}{\numberline {7.3}Running of the Strong Coupling Constant}{136}{section.7.3}
 \contentsline {chapter}{\numberline {8}Summary}{141}{chapter.8}
-\contentsline {chapter}{Appendix \numberline {A}}{145}{Appendix.a.A}
-\contentsline {section}{\numberline {A.1}Cross-section Ratio, \ensuremath {R_{32}}\xspace }{146}{section.a.A.1}
-\contentsline {section}{\numberline {A.2}Individual Sources of Jet Energy Correction Uncertainties}{147}{section.a.A.2}
-\contentsline {section}{\numberline {A.3}Experimental Uncertainties}{150}{section.a.A.3}
-\contentsline {section}{\numberline {A.4}Theoretical Uncertainties}{153}{section.a.A.4}
-\contentsline {chapter}{Bibliography}{157}{section*.94}
-\contentsline {chapter}{List of Publications}{171}{section*.96}
-\contentsline {chapter}{Reprints}{198}{section*.104}
+\contentsline {chapter}{\numberline {9}Hardware and Software Activities}{145}{chapter.9}
+\contentsline {section}{\numberline {9.1}Silicon Photo-Multipliers}{146}{section.9.1}
+\contentsline {chapter}{Appendix \numberline {A}}{153}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}Cross-section Ratio, \ensuremath {R_{32}}\xspace }{154}{section.a.A.1}
+\contentsline {section}{\numberline {A.2}Individual Sources of Jet Energy Correction Uncertainties}{155}{section.a.A.2}
+\contentsline {section}{\numberline {A.3}Experimental Uncertainties}{158}{section.a.A.3}
+\contentsline {section}{\numberline {A.4}Theoretical Uncertainties}{161}{section.a.A.4}
+\contentsline {chapter}{Bibliography}{165}{section*.96}
+\contentsline {chapter}{List of Publications}{179}{section*.98}
+\contentsline {chapter}{Reprints}{207}{section*.106}

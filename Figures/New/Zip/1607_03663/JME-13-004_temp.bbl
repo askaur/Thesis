@@ -1,0 +1,379 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}%
+\makeatletter
+\providecommand{\hrefCMSnoop }[0]{\@secondoftwo}%
+\makeatother
+\providecommand{\doi}{\texttt{doi:}\begingroup \urlstyle{tt}\Url}
+
+\bibitem{Chatrchyan:2012bja}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Measurements of differential jet cross
+  sections in proton-proton collisions at $\sqrt{s}=7\TeV$ with the CMS
+  detector}'',} \textit{ Phys. Rev. D} \textbf{ 87} (2013) 112002,
+  \href{http://dx.doi.org/10.1103/PhysRevD.87.112002}{\doi{10.1103/PhysRevD.87.112002}},
+  \href{http://www.arXiv.org/abs/1212.6660}{\texttt{arXiv:1212.6660}}.
+Erratum: \DOI{10.1103/PhysRevD.87.119902}.
+%%CITATION = ARXIV:1212.6660;%%.
+
+\bibitem{CMS:2011ab}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{measurement of the inclusive jet cross
+  section in pp collisions at $\sqrt{s}=7\TeV$}'',} \textit{ Phys. Rev. Lett.}
+  \textbf{ 107} (2011) 132001,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.107.132001}{\doi{10.1103/PhysRevLett.107.132001}},
+\href{http://www.arXiv.org/abs/1106.0208}{\texttt{arXiv:1106.0208}}.
+%%CITATION = ARXIV:1106.0208;%%.
+
+\bibitem{Chatrchyan:2011qta}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Measurement of the differential dijet
+  production cross section in proton-proton collisions at $\sqrt{s}=7\TeV$}'',}
+  \textit{ Phys. Lett. B} \textbf{ 700} (2011) 187,
+  \href{http://dx.doi.org/10.1016/j.physletb.2011.05.027}{\doi{10.1016/j.physletb.2011.05.027}},
+\href{http://www.arXiv.org/abs/1104.1693}{\texttt{arXiv:1104.1693}}.
+%%CITATION = ARXIV:1104.1693;%%.
+
+\bibitem{Chatrchyan:2014gia}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Measurement of the ratio of inclusive
+  jet cross sections using the anti-$\kt$ algorithm with radius parameters
+  $R=0.5$ and 0.7 in pp collisions at $\sqrt{s}=7\TeV$}'',} \textit{ Phys. Rev.
+  D} \textbf{ 90} (2014) 072006,
+  \href{http://dx.doi.org/10.1103/PhysRevD.90.072006}{\doi{10.1103/PhysRevD.90.072006}},
+\href{http://www.arXiv.org/abs/1406.0324}{\texttt{arXiv:1406.0324}}.
+%%CITATION = ARXIV:1406.0324;%%.
+
+\bibitem{Khachatryan:2015xwa}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Distributions of topological
+  observables in inclusive three- and four-jet events in pp collisions at
+  $\sqrt{s}=7\TeV$}'',} \textit{ Eur. Phys. J. C} \textbf{ 75} (2015) 302,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-015-3491-9}{\doi{10.1140/epjc/s10052-015-3491-9}},
+\href{http://www.arXiv.org/abs/1502.04785}{\texttt{arXiv:1502.04785}}.
+%%CITATION = ARXIV:1502.04785;%%.
+
+\bibitem{Chatrchyan:2013xza}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Measurement of the top-quark mass in
+  all-jets $\ttbar$ events in pp collisions at $\sqrt{s}=7\TeV$}'',} \textit{
+  Eur. Phys. J. C} \textbf{ 74} (2014) 2758,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-014-2758-x}{\doi{10.1140/epjc/s10052-014-2758-x}},
+\href{http://www.arXiv.org/abs/1307.4617}{\texttt{arXiv:1307.4617}}.
+%%CITATION = ARXIV:1307.4617;%%.
+
+\bibitem{Chatrchyan:2013haa}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Determination of the top-quark pole
+  mass and strong coupling constant from the $\ttbar$ production cross section
+  in pp collisions at $\sqrt{s}=7\TeV$}'',} \textit{ Phys. Lett. B} \textbf{
+  728} (2014) 496,
+  \href{http://dx.doi.org/10.1016/j.physletb.2013.12.009}{\doi{10.1016/j.physletb.2013.12.009}},
+  \href{http://www.arXiv.org/abs/1307.1907}{\texttt{arXiv:1307.1907}}.
+Erratum: \DOI{10.1016/j.physletb.2014.08.040}.
+%%CITATION = ARXIV:1307.1907;%%.
+
+\bibitem{Chatrchyan:2012cz}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Measurement of the top-quark mass in
+  $\ttbar$ events with lepton+jets final states in pp collisions at
+  $\sqrt{s}=7\TeV$}'',} \textit{ JHEP} \textbf{ 12} (2012) 105,
+  \href{http://dx.doi.org/10.1007/JHEP12(2012)105}{\doi{10.1007/JHEP12(2012)105}},
+\href{http://www.arXiv.org/abs/1209.2319}{\texttt{arXiv:1209.2319}}.
+%%CITATION = ARXIV:1209.2319;%%.
+
+\bibitem{Khachatryan:2015hba}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Measurement of the top quark mass using
+  proton-proton data at $\sqrt{s}=7$ and 8\TeV}'',} \textit{ Phys. Rev. D}
+  \textbf{ 93} (2016) 072004,
+  \href{http://dx.doi.org/10.1103/PhysRevD.93.072004}{\doi{10.1103/PhysRevD.93.072004}},
+\href{http://www.arXiv.org/abs/1509.04044}{\texttt{arXiv:1509.04044}}.
+%%CITATION = ARXIV:1509.04044;%%.
+
+\bibitem{CMS-PAS-PFT-09-001}
+\href {http://cdsweb.cern.ch/record/1194487}{{CMS Collaboration},
+  ``Particle--flow event reconstruction in {CMS} and performance for jets,
+  taus, and {\MET}'',} CMS Physics Analysis Summary CMS-PAS-PFT-09-001, 2009.
+
+\bibitem{CMS-PAS-PFT-10-001}
+\href {http://cdsweb.cern.ch/record/1247373}{{CMS Collaboration},
+  ``Commissioning of the particle--flow event reconstruction with the first
+  {LHC} collisions recorded in the {CMS} detector'',} CMS Physics Analysis
+  Summary CMS-PAS-PFT-10-001, 2010.
+
+\bibitem{Cacciari:2008gp}
+\hrefCMSnoop {}{M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{The anti-$k_t$ jet
+  clustering algorithm}'',} \textit{ JHEP} \textbf{ 04} (2008) 063,
+  \href{http://dx.doi.org/10.1088/1126-6708/2008/04/063}{\doi{10.1088/1126-6708/2008/04/063}},
+\href{http://www.arXiv.org/abs/0802.1189}{\texttt{arXiv:0802.1189}}.
+%%CITATION = ARXIV:0802.1189;%%.
+
+\bibitem{JEC_JINST}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Determination of jet energy calibration
+  and transverse momentum resolution in CMS}'',} \textit{ JINST} \textbf{ 6}
+  (2011) P11002,
+  \href{http://dx.doi.org/10.1088/1748-0221/6/11/P11002}{\doi{10.1088/1748-0221/6/11/P11002}},
+\href{http://www.arXiv.org/abs/1107.4277}{\texttt{arXiv:1107.4277}}.
+%%CITATION = ARXIV:1107.4277;%%.
+
+\bibitem{Aad:2011he}
+\hrefCMSnoop {}{{ATLAS Collaboration}, ``{Jet energy measurement with the ATLAS
+  detector in proton-proton collisions at $\sqrt{s}=7\TeV$}'',} \textit{ Eur.
+  Phys. J. C} \textbf{ 73} (2013) 2304,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-013-2304-2}{\doi{10.1140/epjc/s10052-013-2304-2}},
+\href{http://www.arXiv.org/abs/1112.6426}{\texttt{arXiv:1112.6426}}.
+%%CITATION = ARXIV:1112.6426;%%.
+
+\bibitem{CDF_JEC}
+\hrefCMSnoop {}{{CDF} Collaboration, ``{Determination of the jet energy scale
+  at the Collider Detector at Fermilab}'',} \textit{ Nucl. Instrum. Meth. A}
+  \textbf{ 566} (2006) 375,
+  \href{http://dx.doi.org/10.1016/j.nima.2006.05.269}{\doi{10.1016/j.nima.2006.05.269}},
+\href{http://www.arXiv.org/abs/hep-ex/0510047}{\texttt{arXiv:hep-ex/0510047}}.
+%%CITATION = HEP-EX/0510047;%%.
+
+\bibitem{D0_JEC}
+\hrefCMSnoop {}{{D0} Collaboration, ``{Jet energy scale determination in the D0
+  experiment}'',} \textit{ Nucl. Instrum. Meth. A} \textbf{ 763} (2014) 442,
+  \href{http://dx.doi.org/10.1016/j.nima.2014.05.044}{\doi{10.1016/j.nima.2014.05.044}},
+\href{http://www.arXiv.org/abs/1312.6873}{\texttt{arXiv:1312.6873}}.
+%%CITATION = ARXIV:1312.6873;%%.
+
+\bibitem{ATLAS_JEC}
+\hrefCMSnoop {}{{ATLAS Collaboration}, ``{Jet energy measurement and its
+  systematic uncertainty in proton-proton collisions at $\sqrt{s}=7\TeV$ with
+  the ATLAS detector}'',} \textit{ Eur. Phys. J. C} \textbf{ 75} (2015) 17,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-014-3190-y}{\doi{10.1140/epjc/s10052-014-3190-y}},
+\href{http://www.arXiv.org/abs/1406.0076}{\texttt{arXiv:1406.0076}}.
+%%CITATION = ARXIV:1406.0076;%%.
+
+\bibitem{Agostinelli:2002hh}
+\hrefCMSnoop {}{{GEANT4} Collaboration, ``{GEANT4---a simulation toolkit}'',}
+  \textit{ Nucl. Instrum. Meth. A} \textbf{ 506} (2003) 250,
+\href{http://dx.doi.org/10.1016/S0168-9002(03)01368-8}{\doi{10.1016/S0168-9002(03)01368-8}}.
+%%CITATION = NUIMA,A506,250;%%.
+
+\bibitem{Sjostrand:2006za}
+\hrefCMSnoop {}{T.~Sj{\" o}strand, S.~Mrenna, and P.~Skands, ``{PYTHIA} 6.4
+  physics and manual'',} \textit{ JHEP} \textbf{ 05} (2006) 026,
+  \href{http://dx.doi.org/10.1088/1126-6708/2006/05/026}{\doi{10.1088/1126-6708/2006/05/026}},
+\href{http://www.arXiv.org/abs/hep-ph/0603175}{\texttt{arXiv:hep-ph/0603175}}.
+%%CITATION = HEP-PH/0603175;%%.
+
+\bibitem{GEN-14-001}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Event generator tunes obtained from
+  underlying event and multiparton scattering measurements}'',} \textit{ Eur.
+  Phys. J. C} \textbf{ 76} (2016) 155,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-016-3988-x}{\doi{10.1140/epjc/s10052-016-3988-x}},
+\href{http://www.arXiv.org/abs/1512.00815}{\texttt{arXiv:1512.00815}}.
+%%CITATION = ARXIV:1512.00815;%%.
+
+\bibitem{Bahr:2008pv}
+M.~B{\"a}hr\hrefCMSnoop {}{ {et~al.}, ``Herwig++ physics and manual'',}
+  \textit{ Eur. Phys. J. C} \textbf{ 58} (2008) 639,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-008-0798-9}{\doi{10.1140/epjc/s10052-008-0798-9}},
+\href{http://www.arXiv.org/abs/0803.0883}{\texttt{arXiv:0803.0883}}.
+%%CITATION = ARXIV:0803.0883;%%.
+
+\bibitem{Gieseke:2012ft}
+\hrefCMSnoop {}{S.~Gieseke, C.~Rohr, and A.~Siodmok, ``{Colour reconnections in
+  Herwig++}'',} \textit{ Eur. Phys. J. C} \textbf{ 72} (2012) 2225,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-012-2225-5}{\doi{10.1140/epjc/s10052-012-2225-5}},
+\href{http://www.arXiv.org/abs/1206.0041}{\texttt{arXiv:1206.0041}}.
+%%CITATION = ARXIV:1206.0041;%%.
+
+\bibitem{Giammanco:2014bza}
+\hrefCMSnoop {}{A.~Giammanco, ``{The Fast Simulation of the CMS Experiment}'',}
+  \textit{ J. Phys. Conf. Ser.} \textbf{ 513} (2014) 022012,
+\href{http://dx.doi.org/10.1088/1742-6596/513/2/022012}{\doi{10.1088/1742-6596/513/2/022012}}.
+%%CITATION = 00462,513,022012;%%.
+
+\bibitem{CMSdetector}
+\hrefCMSnoop {}{{CMS Collaboration}, ``The {CMS} experiment at the {CERN}
+  {LHC}'',} \textit{ JINST} \textbf{ 3} (2008) S08004,
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004}{\doi{10.1088/1748-0221/3/08/S08004}}.
+%%CITATION = JINST,3,S08004;%%.
+
+\bibitem{madgraph}
+J.~Alwall\hrefCMSnoop {}{ {et~al.}, ``{MadGraph 5: going beyond}'',} \textit{
+  JHEP} \textbf{ 06} (2011) 128,
+  \href{http://dx.doi.org/10.1007/JHEP06(2011)128}{\doi{10.1007/JHEP06(2011)128}},
+\href{http://www.arXiv.org/abs/1106.0522}{\texttt{arXiv:1106.0522}}.
+%%CITATION = ARXIV:1106.0522;%%.
+
+\bibitem{Frixione:2007vw}
+\hrefCMSnoop {}{S.~Frixione, P.~Nason, and C.~Oleari, ``{Matching NLO QCD
+  computations with Parton Shower simulations: the POWHEG method}'',} \textit{
+  JHEP} \textbf{ 11} (2007) 070,
+  \href{http://dx.doi.org/10.1088/1126-6708/2007/11/070}{\doi{10.1088/1126-6708/2007/11/070}},
+\href{http://www.arXiv.org/abs/0709.2092}{\texttt{arXiv:0709.2092}}.
+%%CITATION = ARXIV:0709.2092;%%.
+
+\bibitem{Chatrchyan:2014fea}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Description and performance of track
+  and primary-vertex reconstruction with the CMS tracker}'',} \textit{ JINST}
+  \textbf{ 9} (2014) P10009,
+  \href{http://dx.doi.org/10.1088/1748-0221/9/10/P10009}{\doi{10.1088/1748-0221/9/10/P10009}},
+\href{http://www.arXiv.org/abs/1405.6569}{\texttt{arXiv:1405.6569}}.
+%%CITATION = ARXIV:1405.6569;%%.
+
+\bibitem{CMS-PAS-JME-10-003}
+\href {http://cdsweb.cern.ch/record/1279362}{{CMS Collaboration}, ``Jet
+  performance in pp collisions at $\sqrt{s}=7\TeV$'',} CMS Physics Analysis
+  Summary CMS-PAS-JME-10-003, 2010.
+
+\bibitem{cmsmuons}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Performance of CMS muon reconstruction
+  in pp collision events at $\sqrt{s}=7\TeV$}'',} \textit{ JINST} \textbf{ 7}
+  (2012) P10002,
+  \href{http://dx.doi.org/10.1088/1748-0221/7/10/P10002}{\doi{10.1088/1748-0221/7/10/P10002}},
+\href{http://www.arXiv.org/abs/1206.4071}{\texttt{arXiv:1206.4071}}.
+%%CITATION = ARXIV:1206.4071;%%.
+
+\bibitem{Khachatryan:2015hwa}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Performance of electron reconstruction
+  and selection with the CMS detector in proton-proton collisions at
+  $\sqrt{s}=8\TeV$}'',} \textit{ JINST} \textbf{ 10} (2015) P06005,
+  \href{http://dx.doi.org/10.1088/1748-0221/10/06/P06005}{\doi{10.1088/1748-0221/10/06/P06005}},
+\href{http://www.arXiv.org/abs/1502.02701}{\texttt{arXiv:1502.02701}}.
+%%CITATION = ARXIV:1502.02701;%%.
+
+\bibitem{btag}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Identification of b-quark jets with the
+  CMS experiment}'',} \textit{ JINST} \textbf{ 8} (2013) P04013,
+  \href{http://dx.doi.org/10.1088/1748-0221/8/04/P04013}{\doi{10.1088/1748-0221/8/04/P04013}},
+\href{http://www.arXiv.org/abs/1211.4462}{\texttt{arXiv:1211.4462}}.
+%%CITATION = ARXIV:1211.4462;%%.
+
+\bibitem{Khachatryan:2015iwa}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Performance of photon reconstruction
+  and identification with the CMS detector in proton-proton collisions at
+  $\sqrt{s}=8\TeV$}'',} \textit{ JINST} \textbf{ 10} (2015) P08010,
+  \href{http://dx.doi.org/10.1088/1748-0221/10/08/P08010}{\doi{10.1088/1748-0221/10/08/P08010}},
+\href{http://www.arXiv.org/abs/1502.02702}{\texttt{arXiv:1502.02702}}.
+%%CITATION = ARXIV:1502.02702;%%.
+
+\bibitem{fastjet}
+\hrefCMSnoop {}{M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{FastJet} user
+  manual'',} \textit{ Eur. Phys. J. C} \textbf{ 72} (2012) 1896,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-012-1896-2}{\doi{10.1140/epjc/s10052-012-1896-2}},
+\href{http://www.arXiv.org/abs/1111.6097}{\texttt{arXiv:1111.6097}}.
+%%CITATION = ARXIV:1111.6097;%%.
+
+\bibitem{fastjetB}
+\hrefCMSnoop {}{M.~Cacciari and G.~P. Salam, ``{Dispelling the $N^{3}$ myth for
+  the $k_t$ jet-finder}'',} \textit{ Phys. Lett. B} \textbf{ 641} (2006) 57,
+  \href{http://dx.doi.org/10.1016/j.physletb.2006.08.037}{\doi{10.1016/j.physletb.2006.08.037}},
+\href{http://www.arXiv.org/abs/hep-ph/0512210}{\texttt{arXiv:hep-ph/0512210}}.
+%%CITATION = HEP-PH/0512210;%%.
+
+\bibitem{KT1}
+\hrefCMSnoop {}{S.~Catani, Y.~L. Dokshitzer, and B.~R. Webber, ``The
+  $k_{\perp}$-clustering algorithm for jets in deep inelastic scattering and
+  hadron collisions'',} \textit{ Phys. Lett. B} \textbf{ 285} (1992) 291,
+  \href{http://dx.doi.org/10.1016/0370-2693(92)91467-N}{\doi{10.1016/0370-2693(92)91467-N}}.
+
+\bibitem{KT2}
+\hrefCMSnoop {}{S.~Catani, Y.~L. Dokshitzer, M.~H. Seymour, and B.~R. Webber,
+  ``Longitudinally invariant $k_{\perp}$-clustering algorithms for
+  hadron-hadron collisions'',} \textit{ Nucl. Phys. B} \textbf{ 406} (1993)
+  187,
+  \href{http://dx.doi.org/10.1016/0550-3213(93)90166-M}{\doi{10.1016/0550-3213(93)90166-M}}.
+
+\bibitem{KT3}
+\hrefCMSnoop {}{S.~D. Ellis and D.~E. Soper, ``Successive combination jet
+  algorithm for hadron collisions'',} \textit{ Phys. Rev. D} \textbf{ 48}
+  (1993) 3160,
+  \href{http://dx.doi.org/10.1103/PhysRevD.48.3160}{\doi{10.1103/PhysRevD.48.3160}}.
+
+\bibitem{Cacciari:2007fd}
+\hrefCMSnoop {}{M.~Cacciari and G.~P. Salam, ``Pileup subtraction using jet
+  areas'',} \textit{ Phys. Lett. B} \textbf{ 659} (2008) 119,
+  \href{http://dx.doi.org/10.1016/j.physletb.2007.09.077}{\doi{10.1016/j.physletb.2007.09.077}},
+\href{http://www.arXiv.org/abs/0707.1378}{\texttt{arXiv:0707.1378}}.
+%%CITATION = ARXIV:0707.1378;%%.
+
+\bibitem{Chatrchyan:2012nj}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Measurement of the inelastic
+  proton-proton cross section at $\sqrt{s}=7\TeV$}'',} \textit{ Phys. Lett. B}
+  \textbf{ 722} (2013) 5,
+  \href{http://dx.doi.org/10.1016/j.physletb.2013.03.024}{\doi{10.1016/j.physletb.2013.03.024}},
+\href{http://www.arXiv.org/abs/1210.6718}{\texttt{arXiv:1210.6718}}.
+%%CITATION = ARXIV:1210.6718;%%.
+
+\bibitem{CMS-PAS-LUM-13-001}
+\href {http://cdsweb.cern.ch/record/1598864}{{CMS Collaboration}, ``CMS
+  luminosity based on pixel cluster counting --- Summer 2013 update'',} CMS
+  Physics Analysis Summary CMS-PAS-LUM-13-001, 2013.
+
+\bibitem{phystdr1}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{CMS} technical design report, volume
+  {II}: {Physics} performance'',} \textit{ J. Phys. G} \textbf{ 34} (2007) 995,
+\href{http://dx.doi.org/10.1088/0954-3899/34/6/S01}{\doi{10.1088/0954-3899/34/6/S01}}.
+%%CITATION = JPHGB,G34,995;%%.
+
+\bibitem{dNdeta}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Transverse-momentum and pseudorapidity
+  distributions of charged hadrons in pp collisions at $\sqrt{s}=7\TeV$}'',}
+  \textit{ Phys. Rev. Lett.} \textbf{ 105} (2010) 022002,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.105.022002}{\doi{10.1103/PhysRevLett.105.022002}},
+\href{http://www.arXiv.org/abs/1005.3299}{\texttt{arXiv:1005.3299}}.
+%%CITATION = ARXIV:1005.3299;%%.
+
+\bibitem{puppi}
+\hrefCMSnoop {}{D.~Bertolini, P.~Harris, M.~Low, and N.~Tran, ``{Pileup per
+  particle identification}'',} \textit{ JHEP} \textbf{ 10} (2014) 59,
+  \href{http://dx.doi.org/10.1007/JHEP10(2014)059}{\doi{10.1007/JHEP10(2014)059}},
+\href{http://www.arXiv.org/abs/1407.6013}{\texttt{arXiv:1407.6013}}.
+%%CITATION = ARXIV:1407.6013;%%.
+
+\bibitem{CMS-PAS-JME-13-005}
+\href {http://cdsweb.cern.ch/record/1581583}{{CMS Collaboration}, ``Pileup jet
+  identification'',} CMS Physics Analysis Summary CMS-PAS-JME-13-005, 2013.
+
+\bibitem{Chatrchyan:2012tt}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Measurement of the underlying event
+  activity in pp collisions at $\sqrt{s} = 0.9$ and 7\TeV with the novel
+  jet-area/median approach}'',} \textit{ JHEP} \textbf{ 08} (2012) 130,
+  \href{http://dx.doi.org/10.1007/JHEP08(2012)130}{\doi{10.1007/JHEP08(2012)130}},
+\href{http://www.arXiv.org/abs/1207.2392}{\texttt{arXiv:1207.2392}}.
+%%CITATION = ARXIV:1207.2392;%%.
+
+\bibitem{CMS-DP-2012-006}
+\href {https://cds.cern.ch/record/1454659}{{CMS Collaboration}, ``{Jet energy
+  scale performance in 2011}'',} CMS Detector Performance note CMS-DP-2012-006,
+  2012.
+
+\bibitem{CMS-PAS-JME-10-008}
+\href {https://cds.cern.ch/record/1308178}{{CMS Collaboration},
+  ``{Single-particle response in the CMS calorimeters}'',} CMS Physics Analysis
+  Summary CMS-PAS-JME-10-008, 2010.
+
+\bibitem{Chatrchyan:2013dga}
+\hrefCMSnoop {}{{CMS Collaboration}, ``{Energy calibration and resolution of
+  the CMS electromagnetic calorimeter in pp collisions at $\sqrt{s}=7\TeV$}'',}
+  \textit{ JINST} \textbf{ 8} (2013) P09009,
+  \href{http://dx.doi.org/10.1088/1748-0221/8/09/P09009}{\doi{10.1088/1748-0221/8/09/P09009}},
+\href{http://www.arXiv.org/abs/1306.2016}{\texttt{arXiv:1306.2016}}.
+%%CITATION = ARXIV:1306.2016;%%.
+
+\bibitem{CMS-PAS-JME-13-002}
+\href {https://cds.cern.ch/record/1599732}{{CMS Collaboration}, ``{Performance
+  of quark/gluon discrimination in 8\TeV pp data}'',} CMS Physics Analysis
+  Summary CMS-PAS-JME-13-002, 2013.
+
+\bibitem{CMS-PAS-JME-13-001}
+\href {https://cds.cern.ch/record/1951028}{{CMS Collaboration}, ``{Calculation
+  of Residual Energy Correction for b Jets Using Z+b Events in 8 TeV pp
+  Collisions}'',} CMS Physics Analysis Summary CMS-PAS-JME-13-001, 2014.
+
+\bibitem{crystalball}
+\href {http://www.slac.stanford.edu/pubs/slacreports/slac-r-236.html}{M.~J.
+  Oreglia, ``A study of the reactions $\psi^\prime \to \gamma \gamma \psi$''}.
+\newblock PhD thesis, Stanford University, 1980.
+\newblock {SLAC} Report {SLAC-R-236}, see Appendix {D}.
+
+\bibitem{cteq}
+H.~L. Lai\hrefCMSnoop {}{ {et~al.}, ``{Global QCD analysis and the CTEQ parton
+  distributions}'',} \textit{ Phys. Rev. D} \textbf{ 51} (1995) 4763,
+  \href{http://dx.doi.org/10.1103/PhysRevD.51.4763}{\doi{10.1103/PhysRevD.51.4763}},
+\href{http://www.arXiv.org/abs/hep-ph/9410404}{\texttt{arXiv:hep-ph/9410404}}.
+%%CITATION = HEP-PH/9410404;%%.
+
+\bibitem{Groom:2007zz}
+\hrefCMSnoop {}{D.~E. Groom, ``{A simplistic view of hadron calorimetry}'',}
+  \textit{ AIP Conf. Proc.} \textbf{ 896} (2007) 137,
+\href{http://dx.doi.org/10.1063/1.2720464}{\doi{10.1063/1.2720464}}.
+%%CITATION = APCPC,896,137;%%.
+
+\end{thebibliography}\endgroup
