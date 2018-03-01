@@ -69,6 +69,10 @@ M.~Gell-Mann, ``{Symmetries of baryons and mesons},'' {\em Phys. Rev.},
 K.~Rabbertz, ``{Jet Physics at the LHC},'' {\em Springer Tracts Mod. Phys.},
   vol.~268, pp.~pp.1--214, 2017.
 
+\bibitem{Callan:1970yg}
+C.~G. Callan, Jr., ``{Broken scale invariance in scalar field theory},'' {\em
+  Phys. Rev.}, vol.~D2, pp.~1541--1547, 1970.
+
 \bibitem{tHooft:1973mfk}
 G.~'t~Hooft, ``{Dimensional regularization and the renormalization group},''
   {\em Nucl. Phys.}, vol.~B61, pp.~455--468, 1973.
@@ -378,10 +382,6 @@ S.~Abdullin, P.~Azzi, F.~Beaudette, P.~Janot, and A.~Perrotta, ``{The fast
   simulation of the CMS detector at LHC},'' {\em J. Phys. Conf. Ser.},
   vol.~331, p.~032049, 2011.
 
-\bibitem{Schorner-Sadenius:2015cga}
-T.~Schörner-Sadenius, ed., {\em {The Large Hadron Collider}}.
-\newblock Berlin: Springer, 2015.
-
 \bibitem{CMS:2009nxa}
 ``{Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus,
   and MET},'' 2009.
@@ -393,6 +393,22 @@ T.~Schörner-Sadenius, ed., {\em {The Large Hadron Collider}}.
 \bibitem{Adam:2005cg}
 W.~Adam, B.~Mangano, T.~Speer, and T.~Todorov, ``{Track reconstruction in the
   CMS tracker},'' 2005.
+
+\bibitem{Fruhwirth:1987fm}
+R.~Fruhwirth, ``{Application of Kalman filtering to track and vertex
+  fitting},'' {\em Nucl. Instrum. Meth.}, vol.~A262, pp.~444--450, 1987.
+
+\bibitem{KRose}
+K.~Rose, ``Deterministic annealing for clustering, compression, classification,
+  regression, and related optimization problems,'' 04 2000.
+
+\bibitem{Fruhwirth:2007hz}
+R.~Fruhwirth, W.~Waltenberger, and P.~Vanlaer, ``{Adaptive vertex fitting},''
+  {\em J. Phys.}, vol.~G34, p.~N343, 2007.
+
+\bibitem{Schorner-Sadenius:2015cga}
+T.~Schörner-Sadenius, ed., {\em {The Large Hadron Collider}}.
+\newblock Berlin: Springer, 2015.
 
 \bibitem{Chatrchyan:2011ds}
 S.~Chatrchyan {\em et~al.}, ``{Determination of Jet Energy Calibration and
@@ -597,5 +613,20 @@ A.~Künsken, ``{MPPC photon sensor operational experience in CMS},'' {\em J.
 \bibitem{DN}
 B.~Lutz, ``{Commissioning and performance of the CMS Hadron Outer
   Calorimeter},'' 2014.
+
+\bibitem{CMS:2012tda}
+J.~Mans, J.~Anderson, B.~Dahmes, P.~de~Barbaro, J.~Freeman, T.~Grassi,
+  E.~Hazen, J.~Mans, R.~Ruchti, I.~Schimdt, {\em et~al.}, ``{CMS Technical
+  Design Report for the Phase 1 Upgrade of the Hadron Calorimeter},'' 2012.
+
+\bibitem{DQM}
+C.~Collaboration, ``{Data Quality Monitoring (DQM) and Data Certification
+  (DC)}.'' \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/DQM}, 2012.
+\newblock (accessed on 2018-2-10).
+
+\bibitem{DC}
+C.~Collaboration, ``{Data certification activity}.''
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/DQMDataCertification}, 2012.
+\newblock (accessed on 2018-2-10).
 
 \end{thebibliography}

@@ -1,0 +1,8 @@
+Margin up,  00:1e:c0:81:3a:fa,     PASS, 0.96 V, 0.96 V, 0.96 V, Sat Apr 12 14:18:29 2014
+Margin up,  00:1e:c0:81:71:33,     PASS, 0.96 V, 0.96 V, 0.96 V, Sat Apr 12 14:18:29 2014
+Margin dn,  00:1e:c0:81:3a:fa,     PASS, 1.07 V, 1.07 V, 1.07 V, Sat Apr 12 14:19:30 2014
+Margin dn,  00:1e:c0:81:71:33,     PASS, 1.06 V, 1.06 V, 1.06 V, Sat Apr 12 14:19:30 2014
+Nominal,    00:1e:c0:81:3a:fa,     PASS, 1.02 V, 1.02 V, 1.02 V, Sat Apr 12 14:20:30 2014
+Nominal,    00:1e:c0:81:71:33,     PASS, 1.01 V, 1.01 V, 1.01 V, Sat Apr 12 14:20:30 2014
+Hl Nominal, 00:1e:c0:81:3a:fa,     PASS, 1.02 V, 1.02 V, 1.02 V, Sat Apr 12 14:21:32 2014
+Hl Nominal, 00:1e:c0:81:71:33,     PASS, 1.01 V, 1.01 V, 1.01 V, Sat Apr 12 14:21:32 2014

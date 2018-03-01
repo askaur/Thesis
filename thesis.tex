@@ -28,6 +28,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[belowskip=-1pt,aboveskip=2pt]{caption}
 \usepackage[titletoc]{appendix}
+%\usepackage[stable]{footmisc}
 \hfuzz=9999pt
 \hbadness=99999
 \addtolength{\skip\footins}{10pt}         %space between text and footnotes
@@ -79,7 +80,7 @@
 \setcounter{tocdepth}{3}
 
 \usepackage{bookmark}
-
+\usepackage{enumitem}
 \begin{document}
 
 %Colors
@@ -103,7 +104,7 @@
 %\include{title}         
 \newpage \thispagestyle{empty}\cleardoublepage % to get empty page without pagenumber
 
-\baselineskip=1pc \lineskip=1pc \lineskiplimit=1pc   % to set space at bottom og page
+\baselineskip=1pc \lineskip=1pc \lineskiplimit=1pc   % to set space at bottom of page
 
 %% --- dedication page ---
 \thispagestyle{empty}                          % to remove pagenumber
@@ -145,6 +146,7 @@
 \pagenumbering{arabic}                          % for arabic numbering
 
 \include{Introduction}       %Chapter 1
+\newpage \thispagestyle{empty}\cleardoublepage     % to get empty page without pagenumber
 \include{Theory}             %Chapter 2
 \newpage \thispagestyle{empty}\cleardoublepage     % to get empty page without pagenumber
 \include{Detector}           %Chapter 3
@@ -186,7 +188,7 @@
 \end{center}
 \vskip 4pc
 \newpage \thispagestyle{empty}\cleardoublepage     % to get empty page without pagenumber
-\includepdf[pages=1-28]{Pdfs/SMP-16-008-pas.pdf}
+\includepdf[pages=1-28, nup=1x2, landscape=false, angle=-90]{Pdfs/SMP-16-008-pas.pdf}
 
 \newpage \thispagestyle{empty}\cleardoublepage     % to get empty page without pagenumber
 

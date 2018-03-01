@@ -9,3 +9,4 @@ aspell -t -c Theory_Predictions.tex
 aspell -t -c Alphas.tex
 aspell -t -c Summary.tex
 aspell -t -c Appendix.tex
+aspell -t -c Hardware.tex

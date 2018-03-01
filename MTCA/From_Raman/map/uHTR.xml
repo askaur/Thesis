@@ -1,0 +1,1535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<node id="uHTR">
+
+  <node id="FRONT" address="0x80000000"> <!-- Notice the offset to the upper half of address space for FRONT -->
+
+    <!-- General -->
+    <node id="FIRMWARE_REVISION" address="0x101" permission="read" description="Firmware revision">
+      <node id="FIRMWARE_FLAVOR" mask="0xFF000000" description="Flavor of the version"/>
+      <node id="FIRMWARE_MAJOR" mask="0x00FF0000" description="Major revision number for the firmware" />
+      <node id="FIRMWARE_MINOR" mask="0x0000FF00" description=" Minor revision number for the firmware" />
+      <node id="FIRMWARE_PATCH" mask="0x000000FF" description=" Patch revision number for the firmware" />
+    </node>
+    <node id="BOARDIDENTIFIER" address="0x102" mask="0xFFFFFFFF" permission="read" description="Board version"/>
+
+    <node id="SYSMON" address="0x180">
+      <node id="TEMPCORE" permission="r" address="0"/>
+      <node id="VOLTCORE" permission="r" address="1"/>
+      <node id="VOLTAUX" permission="r" address="2"/>
+    </node>
+
+    <node id="CLOCK_RATES" address="0x300" permission="read" mode="incremental" size="15" description=" Buffer of clock rates in 100Hz units"/>
+
+    <!-- DTC -->
+    <node id="DTC" address="0x400">
+      <node id="RESET" address="16" mask="0x10" permission="w" description="Reset the DTC block"/>
+      <node id="RESET_ERROR_COUNTERS" address="16" mask="0x20" permission="w" description="Reset the error counters"/>
+      <node id="RATE_40MHZ" address="0x0" mask="0xFFFFFFFF" permission="r" description="DTC 40 MHz"/>
+      <node id="RATE_ORBIT" address="0x1" mask="0xFFFFFFFF" permission="r" description="DTC Orbit rate"/>
+      <node id="BUNCH_COUNT" address="0x2" mask="0xFFFFFFFF" permission="r" description="Bunch Count"/>
+      <node id="EVENT_NUMBER" address="0x3" mask="0xFFFFFFFF" permission="r" description="Event Number"/>
+      <node id="BC0_ERROR" address="0x4" mask="0xFFFFFFFF" permission="r" description="BC0 Error Count"/>
+      <node id="SINGLE_ERROR" address="0x5" mask="0xFFFFFFFF" permission="r" description="Single Error Count"/>
+      <node id="DOUBLE_ERROR" address="0x6" mask="0xFFFFFFFF" permission="r" description="Double Error Count"/>
+      <node id="ORM_CMD_QUEUED" address="7" mask="1" permission="r" description="An ORM command is queued"/>
+      <node id="ORM_START_COUNT" address="8" mask="0xFFFF" permission="r" description="Number of oRM start requests"/>
+      <node id="ORM_STOP_COUNT" address="9" mask="0xFFFF" permission="r" description="Number of oRM start requests"/>
+      <node id="ORM_CMD_COUNT" address="10" mask="0xFFFF" permission="r" description="Number of oRM cmd requests"/>
+      <node id="LUMI_NIBBLE" address="11" mask="0xFFFFFFFF" permission="r" description="Number of the next lumi nibble"/>
+      <node id="LUMI_SECTION" address="12" mask="0xFFFFFFFF" permission="r" description="Number of the next lumi section"/>
+      <node id="CMS_RUN" address="13" mask="0xFFFFFFFF" permission="r" description="Number of the CMS Run"/>
+      <node id="LHC_FILL" address="14" mask="0xFFFFFFFF" permission="r" description="Number of the LHC Fill"/>
+      <node id="ORM_START" address="16" mask="0x1" permission="w" description="Generate an oRM start"/>
+      <node id="ORM_STOP" address="16" mask="0x2" permission="w" description="Generate an oRM stop"/>
+      <node id="ORM_SEND" address="16" mask="0x4" permission="w" description="Generate an oRM send"/>
+      
+      <node id="ORM_CMD" address="17" mask="0xFFFFFFFF" permission="rw" description="ORM command code"/>
+      <node id="TTC_STREAM_PHASE_CONTROL" address="18" mask="0x3" permission="rw" description="Manual control over the TTC stream phase"/>
+      <node id="TTC_STREAM_PHASE_OVERRIDE" address="18" mask="0x4" permission="rw" description="Manual override"/>
+      <node id="TTC_STREAM_AUTO_THRESHOLD" address="18" mask="0xFF00" permission="rw" description="Threshold for auto set of delays"/>
+      <node id="TTC_STREAM_PHASE" address="15" mask="0x3" permission="r" description="Read the TTC stream phase"/>
+      <node id="TTC_STREAM_PHASE_LOCKED" address="15" mask="0x4" permission="r" description="Has the auto-lock succeeded?"/>
+    </node>
+
+    <!-- LUMI -->
+    <node id="LUMI_BX_OFFSET" address="0x10000" mask="0xFFFF" permission="rw"/>
+    <node id="LUMI_LHC_THRESHOLD" address="0x10001" mask="0xFFFF" permission="readwrite" description="Threshold for a hit in the LHC luminosity histograms"/>
+    <node id="LUMI_CMS1_THRESHOLD" address="0x10002" mask="0xFFFF" permission="readwrite" description="Threshold for a hit in the CMS1 luminosity histograms"/>
+    <node id="LUMI_CMS2_THRESHOLD" address="0x10003" mask="0xFFFF" permission="readwrite" description="Threshold for a hit in the CMS2 luminosity histograms"/>
+    <node id="LUMI_LHC_CHANNEL_MASK" address="0x10007" permission="readwrite" mode="incremental" size="24" description="Mask (1=disable) for selecting which channels to use for LHC lumi"/>
+    <node id="LUMI_CMS_CHANNEL_MASK" address="0x1001f" permission="readwrite" mode="incremental" size="24" description="Mask (1=disable) for selecting which channels to use for CMS lumi"/>
+
+    <node id="LUMI_LUTS" address="0x10800">
+      <node id="FIBER_0_CHAN_0" address="0x0" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 0, channel 0"/>
+      <node id="FIBER_0_CHAN_1" address="0x100" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 0, channel 1"/>
+      <node id="FIBER_0_CHAN_2" address="0x200" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 0, channel 2"/>
+      <node id="FIBER_0_CHAN_3" address="0x300" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 0, channel 3"/>
+      <node id="FIBER_0_CHAN_4" address="0x400" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 0, channel 4"/>
+      <node id="FIBER_0_CHAN_5" address="0x500" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 0, channel 5"/>
+      <node id="FIBER_1_CHAN_0" address="0x800" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 1, channel 0"/>
+      <node id="FIBER_1_CHAN_1" address="0x900" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 1, channel 1"/>
+      <node id="FIBER_1_CHAN_2" address="0xa00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 1, channel 2"/>
+      <node id="FIBER_1_CHAN_3" address="0xb00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 1, channel 3"/>
+      <node id="FIBER_1_CHAN_4" address="0xc00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 1, channel 4"/>
+      <node id="FIBER_1_CHAN_5" address="0xd00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 1, channel 5"/>
+      <node id="FIBER_2_CHAN_0" address="0x1000" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 2, channel 0"/>
+      <node id="FIBER_2_CHAN_1" address="0x1100" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 2, channel 1"/>
+      <node id="FIBER_2_CHAN_2" address="0x1200" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 2, channel 2"/>
+      <node id="FIBER_2_CHAN_3" address="0x1300" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 2, channel 3"/>
+      <node id="FIBER_2_CHAN_4" address="0x1400" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 2, channel 4"/>
+      <node id="FIBER_2_CHAN_5" address="0x1500" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 2, channel 5"/>
+      <node id="FIBER_3_CHAN_0" address="0x1800" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 3, channel 0"/>
+      <node id="FIBER_3_CHAN_1" address="0x1900" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 3, channel 1"/>
+      <node id="FIBER_3_CHAN_2" address="0x1a00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 3, channel 2"/>
+      <node id="FIBER_3_CHAN_3" address="0x1b00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 3, channel 3"/>
+      <node id="FIBER_3_CHAN_4" address="0x1c00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 3, channel 4"/>
+      <node id="FIBER_3_CHAN_5" address="0x1d00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 3, channel 5"/>
+      <node id="FIBER_4_CHAN_0" address="0x2000" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 4, channel 0"/>
+      <node id="FIBER_4_CHAN_1" address="0x2100" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 4, channel 1"/>
+      <node id="FIBER_4_CHAN_2" address="0x2200" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 4, channel 2"/>
+      <node id="FIBER_4_CHAN_3" address="0x2300" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 4, channel 3"/>
+      <node id="FIBER_4_CHAN_4" address="0x2400" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 4, channel 4"/>
+      <node id="FIBER_4_CHAN_5" address="0x2500" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 4, channel 5"/>
+      <node id="FIBER_5_CHAN_0" address="0x2800" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 5, channel 0"/>
+      <node id="FIBER_5_CHAN_1" address="0x2900" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 5, channel 1"/>
+      <node id="FIBER_5_CHAN_2" address="0x2a00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 5, channel 2"/>
+      <node id="FIBER_5_CHAN_3" address="0x2b00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 5, channel 3"/>
+      <node id="FIBER_5_CHAN_4" address="0x2c00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 5, channel 4"/>
+      <node id="FIBER_5_CHAN_5" address="0x2d00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 5, channel 5"/>
+      <node id="FIBER_6_CHAN_0" address="0x3000" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 6, channel 0"/>
+      <node id="FIBER_6_CHAN_1" address="0x3100" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 6, channel 1"/>
+      <node id="FIBER_6_CHAN_2" address="0x3200" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 6, channel 2"/>
+      <node id="FIBER_6_CHAN_3" address="0x3300" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 6, channel 3"/>
+      <node id="FIBER_6_CHAN_4" address="0x3400" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 6, channel 4"/>
+      <node id="FIBER_6_CHAN_5" address="0x3500" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 6, channel 5"/>
+      <node id="FIBER_7_CHAN_0" address="0x3800" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 7, channel 0"/>
+      <node id="FIBER_7_CHAN_1" address="0x3900" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 7, channel 1"/>
+      <node id="FIBER_7_CHAN_2" address="0x3a00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 7, channel 2"/>
+      <node id="FIBER_7_CHAN_3" address="0x3b00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 7, channel 3"/>
+      <node id="FIBER_7_CHAN_4" address="0x3c00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 7, channel 4"/>
+      <node id="FIBER_7_CHAN_5" address="0x3d00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 7, channel 5"/>
+      <node id="FIBER_8_CHAN_0" address="0x4000" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 8, channel 0"/>
+      <node id="FIBER_8_CHAN_1" address="0x4100" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 8, channel 1"/>
+      <node id="FIBER_8_CHAN_2" address="0x4200" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 8, channel 2"/>
+      <node id="FIBER_8_CHAN_3" address="0x4300" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 8, channel 3"/>
+      <node id="FIBER_8_CHAN_4" address="0x4400" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 8, channel 4"/>
+      <node id="FIBER_8_CHAN_5" address="0x4500" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 8, channel 5"/>
+      <node id="FIBER_9_CHAN_0" address="0x4800" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 9, channel 0"/>
+      <node id="FIBER_9_CHAN_1" address="0x4900" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 9, channel 1"/>
+      <node id="FIBER_9_CHAN_2" address="0x4a00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 9, channel 2"/>
+      <node id="FIBER_9_CHAN_3" address="0x4b00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 9, channel 3"/>
+      <node id="FIBER_9_CHAN_4" address="0x4c00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 9, channel 4"/>
+      <node id="FIBER_9_CHAN_5" address="0x4d00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 9, channel 5"/>
+      <node id="FIBER_10_CHAN_0" address="0x5000" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 10, channel 0"/>
+      <node id="FIBER_10_CHAN_1" address="0x5100" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 10, channel 1"/>
+      <node id="FIBER_10_CHAN_2" address="0x5200" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 10, channel 2"/>
+      <node id="FIBER_10_CHAN_3" address="0x5300" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 10, channel 3"/>
+      <node id="FIBER_10_CHAN_4" address="0x5400" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 10, channel 4"/>
+      <node id="FIBER_10_CHAN_5" address="0x5500" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 10, channel 5"/>
+      <node id="FIBER_11_CHAN_0" address="0x5800" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 11, channel 0"/>
+      <node id="FIBER_11_CHAN_1" address="0x5900" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 11, channel 1"/>
+      <node id="FIBER_11_CHAN_2" address="0x5a00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 11, channel 2"/>
+      <node id="FIBER_11_CHAN_3" address="0x5b00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 11, channel 3"/>
+      <node id="FIBER_11_CHAN_4" address="0x5c00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 11, channel 4"/>
+      <node id="FIBER_11_CHAN_5" address="0x5d00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 11, channel 5"/>
+      <node id="FIBER_12_CHAN_0" address="0x6000" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 12, channel 0"/>
+      <node id="FIBER_12_CHAN_1" address="0x6100" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 12, channel 1"/>
+      <node id="FIBER_12_CHAN_2" address="0x6200" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 12, channel 2"/>
+      <node id="FIBER_12_CHAN_3" address="0x6300" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 12, channel 3"/>
+      <node id="FIBER_12_CHAN_4" address="0x6400" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 12, channel 4"/>
+      <node id="FIBER_12_CHAN_5" address="0x6500" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 12, channel 5"/>
+      <node id="FIBER_13_CHAN_0" address="0x6800" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 13, channel 0"/>
+      <node id="FIBER_13_CHAN_1" address="0x6900" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 13, channel 1"/>
+      <node id="FIBER_13_CHAN_2" address="0x6a00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 13, channel 2"/>
+      <node id="FIBER_13_CHAN_3" address="0x6b00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 13, channel 3"/>
+      <node id="FIBER_13_CHAN_4" address="0x6c00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 13, channel 4"/>
+      <node id="FIBER_13_CHAN_5" address="0x6d00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 13, channel 5"/>
+      <node id="FIBER_14_CHAN_0" address="0x7000" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 14, channel 0"/>
+      <node id="FIBER_14_CHAN_1" address="0x7100" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 14, channel 1"/>
+      <node id="FIBER_14_CHAN_2" address="0x7200" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 14, channel 2"/>
+      <node id="FIBER_14_CHAN_3" address="0x7300" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 14, channel 3"/>
+      <node id="FIBER_14_CHAN_4" address="0x7400" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 14, channel 4"/>
+      <node id="FIBER_14_CHAN_5" address="0x7500" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 14, channel 5"/>
+      <node id="FIBER_15_CHAN_0" address="0x7800" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 15, channel 0"/>
+      <node id="FIBER_15_CHAN_1" address="0x7900" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 15, channel 1"/>
+      <node id="FIBER_15_CHAN_2" address="0x7a00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 15, channel 2"/>
+      <node id="FIBER_15_CHAN_3" address="0x7b00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 15, channel 3"/>
+      <node id="FIBER_15_CHAN_4" address="0x7c00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 15, channel 4"/>
+      <node id="FIBER_15_CHAN_5" address="0x7d00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 15, channel 5"/>
+      <node id="FIBER_16_CHAN_0" address="0x8000" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 16, channel 0"/>
+      <node id="FIBER_16_CHAN_1" address="0x8100" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 16, channel 1"/>
+      <node id="FIBER_16_CHAN_2" address="0x8200" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 16, channel 2"/>
+      <node id="FIBER_16_CHAN_3" address="0x8300" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 16, channel 3"/>
+      <node id="FIBER_16_CHAN_4" address="0x8400" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 16, channel 4"/>
+      <node id="FIBER_16_CHAN_5" address="0x8500" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 16, channel 5"/>
+      <node id="FIBER_17_CHAN_0" address="0x8800" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 17, channel 0"/>
+      <node id="FIBER_17_CHAN_1" address="0x8900" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 17, channel 1"/>
+      <node id="FIBER_17_CHAN_2" address="0x8a00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 17, channel 2"/>
+      <node id="FIBER_17_CHAN_3" address="0x8b00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 17, channel 3"/>
+      <node id="FIBER_17_CHAN_4" address="0x8c00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 17, channel 4"/>
+      <node id="FIBER_17_CHAN_5" address="0x8d00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 17, channel 5"/>
+      <node id="FIBER_18_CHAN_0" address="0x9000" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 18, channel 0"/>
+      <node id="FIBER_18_CHAN_1" address="0x9100" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 18, channel 1"/>
+      <node id="FIBER_18_CHAN_2" address="0x9200" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 18, channel 2"/>
+      <node id="FIBER_18_CHAN_3" address="0x9300" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 18, channel 3"/>
+      <node id="FIBER_18_CHAN_4" address="0x9400" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 18, channel 4"/>
+      <node id="FIBER_18_CHAN_5" address="0x9500" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 18, channel 5"/>
+      <node id="FIBER_19_CHAN_0" address="0x9800" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 19, channel 0"/>
+      <node id="FIBER_19_CHAN_1" address="0x9900" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 19, channel 1"/>
+      <node id="FIBER_19_CHAN_2" address="0x9a00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 19, channel 2"/>
+      <node id="FIBER_19_CHAN_3" address="0x9b00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 19, channel 3"/>
+      <node id="FIBER_19_CHAN_4" address="0x9c00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 19, channel 4"/>
+      <node id="FIBER_19_CHAN_5" address="0x9d00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 19, channel 5"/>
+      <node id="FIBER_20_CHAN_0" address="0xa000" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 20, channel 0"/>
+      <node id="FIBER_20_CHAN_1" address="0xa100" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 20, channel 1"/>
+      <node id="FIBER_20_CHAN_2" address="0xa200" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 20, channel 2"/>
+      <node id="FIBER_20_CHAN_3" address="0xa300" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 20, channel 3"/>
+      <node id="FIBER_20_CHAN_4" address="0xa400" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 20, channel 4"/>
+      <node id="FIBER_20_CHAN_5" address="0xa500" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 20, channel 5"/>
+      <node id="FIBER_21_CHAN_0" address="0xa800" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 21, channel 0"/>
+      <node id="FIBER_21_CHAN_1" address="0xa900" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 21, channel 1"/>
+      <node id="FIBER_21_CHAN_2" address="0xaa00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 21, channel 2"/>
+      <node id="FIBER_21_CHAN_3" address="0xab00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 21, channel 3"/>
+      <node id="FIBER_21_CHAN_4" address="0xac00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 21, channel 4"/>
+      <node id="FIBER_21_CHAN_5" address="0xad00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 21, channel 5"/>
+      <node id="FIBER_22_CHAN_0" address="0xb000" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 22, channel 0"/>
+      <node id="FIBER_22_CHAN_1" address="0xb100" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 22, channel 1"/>
+      <node id="FIBER_22_CHAN_2" address="0xb200" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 22, channel 2"/>
+      <node id="FIBER_22_CHAN_3" address="0xb300" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 22, channel 3"/>
+      <node id="FIBER_22_CHAN_4" address="0xb400" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 22, channel 4"/>
+      <node id="FIBER_22_CHAN_5" address="0xb500" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 22, channel 5"/>
+      <node id="FIBER_23_CHAN_0" address="0xb800" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 23, channel 0"/>
+      <node id="FIBER_23_CHAN_1" address="0xb900" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 23, channel 1"/>
+      <node id="FIBER_23_CHAN_2" address="0xba00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 23, channel 2"/>
+      <node id="FIBER_23_CHAN_3" address="0xbb00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 23, channel 3"/>
+      <node id="FIBER_23_CHAN_4" address="0xbc00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 23, channel 4"/>
+      <node id="FIBER_23_CHAN_5" address="0xbd00" permission="readwrite" mode="incremental" size="256" description="LUMI LUT for fiber 23, channel 5"/>
+    </node>
+
+    <!-- BHM "LUMI" -->
+    <node id="BHM" address="0x30000">
+      <node id="BX_OFFSET" address="0x0" mask="0xFFFF" permission="rw"/>
+      <node id="RUN" address="0x1" mask="0x1" permission="rw" description="Run the histogramming" />
+      <node id="CLEAR" address="0x1" mask="0x2" permission="rw" description="Clear the histograms" />
+      <node id="TDC_MAP" address="0x40" permission="rw" mode="incremental" size="64" description="BHM conversion of TDC to time bin"/>
+      <node id="CLEARING_11_0" address="0x4000" permission="r" description="Status of clearing histograms for channels 11-0"/>
+      <node id="THRESHOLDS_11_0" address="0x4010" permission="rw" mode="incremental" size="12"/>
+      <node id="HISTOGRAMS_11_0" address="0x4400" permission="r" mode="incremental" size="12288"/>
+      <node id="CLEARING_23_12" address="0x8000" permission="r" description="Status of clearing histograms for channels 23-12"/>
+      <node id="THRESHOLDS_23_12" address="0x8010" permission="rw" mode="incremental" size="12"/>
+      <node id="HISTOGRAMS_23_12" address="0x8400" permission="r" mode="incremental" size="12288"/>
+    </node>
+
+    <node id="LINKS" address="0x500">
+      <node id="RX0_RESET" address="0x00" permission="rw" mask="0x2"/>
+      <node id="RX0_CDRRESET" address="0x00" permission="rw" mask="0x1000000"/>
+      <node id="RX0_BUFRESET" address="0x00" permission="rw" mask="0x2000000"/>
+      <node id="RX0_POLARITY" address="0x00" permission="rw" mask="0x8"/>
+      <node id="RX0_EQMIX" address="0x00" permission="rw" mask="0x70"/>
+      <node id="RX0_PLLRESET" address="0x00" permission="rw" mask="0x200000"/>
+      <node id="RX0_DFETAPROV" address="0x00" permission="rw" mask="0x400000"/>
+      <node id="RX0_RESET_ERR_COUNTER" address="0x00" permission="rw" mask="0x800000"/>
+      <node id="RX0_RESETDONE" address="0x40" permission="read" mask="0x1"/>
+      <node id="RX0_PLLLKDET" address="0x40" permission="read" mask="0x4"/>
+      <node id="RX0_ALIGNED" address="0x40" permission="read" mask="0x200"/>
+      <node id="RX0_ERROR_COUNTER" address="0x70" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX1_RESET" address="0x01" permission="rw" mask="0x2"/>
+      <node id="RX1_CDRRESET" address="0x01" permission="rw" mask="0x1000000"/>
+      <node id="RX1_BUFRESET" address="0x01" permission="rw" mask="0x2000000"/>
+      <node id="RX1_POLARITY" address="0x01" permission="rw" mask="0x8"/>
+      <node id="RX1_EQMIX" address="0x01" permission="rw" mask="0x70"/>
+      <node id="RX1_PLLRESET" address="0x01" permission="rw" mask="0x200000"/>
+      <node id="RX1_DFETAPROV" address="0x01" permission="rw" mask="0x400000"/>
+      <node id="RX1_RESET_ERR_COUNTER" address="0x01" permission="rw" mask="0x800000"/>
+      <node id="RX1_RESETDONE" address="0x41" permission="read" mask="0x1"/>
+      <node id="RX1_PLLLKDET" address="0x41" permission="read" mask="0x4"/>
+      <node id="RX1_ALIGNED" address="0x41" permission="read" mask="0x200"/>
+      <node id="RX1_ERROR_COUNTER" address="0x71" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX2_RESET" address="0x02" permission="rw" mask="0x2"/>
+      <node id="RX2_CDRRESET" address="0x02" permission="rw" mask="0x1000000"/>
+      <node id="RX2_BUFRESET" address="0x02" permission="rw" mask="0x2000000"/>
+      <node id="RX2_POLARITY" address="0x02" permission="rw" mask="0x8"/>
+      <node id="RX2_EQMIX" address="0x02" permission="rw" mask="0x70"/>
+      <node id="RX2_PLLRESET" address="0x02" permission="rw" mask="0x200000"/>
+      <node id="RX2_DFETAPROV" address="0x02" permission="rw" mask="0x400000"/>
+      <node id="RX2_RESET_ERR_COUNTER" address="0x02" permission="rw" mask="0x800000"/>
+      <node id="RX2_RESETDONE" address="0x42" permission="read" mask="0x1"/>
+      <node id="RX2_PLLLKDET" address="0x42" permission="read" mask="0x4"/>
+      <node id="RX2_ALIGNED" address="0x42" permission="read" mask="0x200"/>
+      <node id="RX2_ERROR_COUNTER" address="0x72" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX3_RESET" address="0x03" permission="rw" mask="0x2"/>
+      <node id="RX3_CDRRESET" address="0x03" permission="rw" mask="0x1000000"/>
+      <node id="RX3_BUFRESET" address="0x03" permission="rw" mask="0x2000000"/>
+      <node id="RX3_POLARITY" address="0x03" permission="rw" mask="0x8"/>
+      <node id="RX3_EQMIX" address="0x03" permission="rw" mask="0x70"/>
+      <node id="RX3_PLLRESET" address="0x03" permission="rw" mask="0x200000"/>
+      <node id="RX3_DFETAPROV" address="0x03" permission="rw" mask="0x400000"/>
+      <node id="RX3_RESET_ERR_COUNTER" address="0x03" permission="rw" mask="0x800000"/>
+      <node id="RX3_RESETDONE" address="0x43" permission="read" mask="0x1"/>
+      <node id="RX3_PLLLKDET" address="0x43" permission="read" mask="0x4"/>
+      <node id="RX3_ALIGNED" address="0x43" permission="read" mask="0x200"/>
+      <node id="RX3_ERROR_COUNTER" address="0x73" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX4_RESET" address="0x04" permission="rw" mask="0x2"/>
+      <node id="RX4_CDRRESET" address="0x04" permission="rw" mask="0x1000000"/>
+      <node id="RX4_BUFRESET" address="0x04" permission="rw" mask="0x2000000"/>
+      <node id="RX4_POLARITY" address="0x04" permission="rw" mask="0x8"/>
+      <node id="RX4_EQMIX" address="0x04" permission="rw" mask="0x70"/>
+      <node id="RX4_PLLRESET" address="0x04" permission="rw" mask="0x200000"/>
+      <node id="RX4_DFETAPROV" address="0x04" permission="rw" mask="0x400000"/>
+      <node id="RX4_RESET_ERR_COUNTER" address="0x04" permission="rw" mask="0x800000"/>
+      <node id="RX4_RESETDONE" address="0x44" permission="read" mask="0x1"/>
+      <node id="RX4_PLLLKDET" address="0x44" permission="read" mask="0x4"/>
+      <node id="RX4_ALIGNED" address="0x44" permission="read" mask="0x200"/>
+      <node id="RX4_ERROR_COUNTER" address="0x74" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX5_RESET" address="0x05" permission="rw" mask="0x2"/>
+      <node id="RX5_CDRRESET" address="0x05" permission="rw" mask="0x1000000"/>
+      <node id="RX5_BUFRESET" address="0x05" permission="rw" mask="0x2000000"/>
+      <node id="RX5_POLARITY" address="0x05" permission="rw" mask="0x8"/>
+      <node id="RX5_EQMIX" address="0x05" permission="rw" mask="0x70"/>
+      <node id="RX5_PLLRESET" address="0x05" permission="rw" mask="0x200000"/>
+      <node id="RX5_DFETAPROV" address="0x05" permission="rw" mask="0x400000"/>
+      <node id="RX5_RESET_ERR_COUNTER" address="0x05" permission="rw" mask="0x800000"/>
+      <node id="RX5_RESETDONE" address="0x45" permission="read" mask="0x1"/>
+      <node id="RX5_PLLLKDET" address="0x45" permission="read" mask="0x4"/>
+      <node id="RX5_ALIGNED" address="0x45" permission="read" mask="0x200"/>
+      <node id="RX5_ERROR_COUNTER" address="0x75" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX6_RESET" address="0x06" permission="rw" mask="0x2"/>
+      <node id="RX6_CDRRESET" address="0x06" permission="rw" mask="0x1000000"/>
+      <node id="RX6_BUFRESET" address="0x06" permission="rw" mask="0x2000000"/>
+      <node id="RX6_POLARITY" address="0x06" permission="rw" mask="0x8"/>
+      <node id="RX6_EQMIX" address="0x06" permission="rw" mask="0x70"/>
+      <node id="RX6_PLLRESET" address="0x06" permission="rw" mask="0x200000"/>
+      <node id="RX6_DFETAPROV" address="0x06" permission="rw" mask="0x400000"/>
+      <node id="RX6_RESET_ERR_COUNTER" address="0x06" permission="rw" mask="0x800000"/>
+      <node id="RX6_RESETDONE" address="0x46" permission="read" mask="0x1"/>
+      <node id="RX6_PLLLKDET" address="0x46" permission="read" mask="0x4"/>
+      <node id="RX6_ALIGNED" address="0x46" permission="read" mask="0x200"/>
+      <node id="RX6_ERROR_COUNTER" address="0x76" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX7_RESET" address="0x07" permission="rw" mask="0x2"/>
+      <node id="RX7_CDRRESET" address="0x07" permission="rw" mask="0x1000000"/>
+      <node id="RX7_BUFRESET" address="0x07" permission="rw" mask="0x2000000"/>
+      <node id="RX7_POLARITY" address="0x07" permission="rw" mask="0x8"/>
+      <node id="RX7_EQMIX" address="0x07" permission="rw" mask="0x70"/>
+      <node id="RX7_PLLRESET" address="0x07" permission="rw" mask="0x200000"/>
+      <node id="RX7_DFETAPROV" address="0x07" permission="rw" mask="0x400000"/>
+      <node id="RX7_RESET_ERR_COUNTER" address="0x07" permission="rw" mask="0x800000"/>
+      <node id="RX7_RESETDONE" address="0x47" permission="read" mask="0x1"/>
+      <node id="RX7_PLLLKDET" address="0x47" permission="read" mask="0x4"/>
+      <node id="RX7_ALIGNED" address="0x47" permission="read" mask="0x200"/>
+      <node id="RX7_ERROR_COUNTER" address="0x77" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX8_RESET" address="0x08" permission="rw" mask="0x2"/>
+      <node id="RX8_CDRRESET" address="0x08" permission="rw" mask="0x1000000"/>
+      <node id="RX8_BUFRESET" address="0x08" permission="rw" mask="0x2000000"/>
+      <node id="RX8_POLARITY" address="0x08" permission="rw" mask="0x8"/>
+      <node id="RX8_EQMIX" address="0x08" permission="rw" mask="0x70"/>
+      <node id="RX8_PLLRESET" address="0x08" permission="rw" mask="0x200000"/>
+      <node id="RX8_DFETAPROV" address="0x08" permission="rw" mask="0x400000"/>
+      <node id="RX8_RESET_ERR_COUNTER" address="0x08" permission="rw" mask="0x800000"/>
+      <node id="RX8_RESETDONE" address="0x48" permission="read" mask="0x1"/>
+      <node id="RX8_PLLLKDET" address="0x48" permission="read" mask="0x4"/>
+      <node id="RX8_ALIGNED" address="0x48" permission="read" mask="0x200"/>
+      <node id="RX8_ERROR_COUNTER" address="0x78" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX9_RESET" address="0x09" permission="rw" mask="0x2"/>
+      <node id="RX9_CDRRESET" address="0x09" permission="rw" mask="0x1000000"/>
+      <node id="RX9_BUFRESET" address="0x09" permission="rw" mask="0x2000000"/>
+      <node id="RX9_POLARITY" address="0x09" permission="rw" mask="0x8"/>
+      <node id="RX9_EQMIX" address="0x09" permission="rw" mask="0x70"/>
+      <node id="RX9_PLLRESET" address="0x09" permission="rw" mask="0x200000"/>
+      <node id="RX9_DFETAPROV" address="0x09" permission="rw" mask="0x400000"/>
+      <node id="RX9_RESET_ERR_COUNTER" address="0x09" permission="rw" mask="0x800000"/>
+      <node id="RX9_RESETDONE" address="0x49" permission="read" mask="0x1"/>
+      <node id="RX9_PLLLKDET" address="0x49" permission="read" mask="0x4"/>
+      <node id="RX9_ALIGNED" address="0x49" permission="read" mask="0x200"/>
+      <node id="RX9_ERROR_COUNTER" address="0x79" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX10_RESET" address="0x0a" permission="rw" mask="0x2"/>
+      <node id="RX10_CDRRESET" address="0x0a" permission="rw" mask="0x1000000"/>
+      <node id="RX10_BUFRESET" address="0x0a" permission="rw" mask="0x2000000"/>
+      <node id="RX10_POLARITY" address="0x0a" permission="rw" mask="0x8"/>
+      <node id="RX10_EQMIX" address="0x0a" permission="rw" mask="0x70"/>
+      <node id="RX10_PLLRESET" address="0x0a" permission="rw" mask="0x200000"/>
+      <node id="RX10_DFETAPROV" address="0x0a" permission="rw" mask="0x400000"/>
+      <node id="RX10_RESET_ERR_COUNTER" address="0x0a" permission="rw" mask="0x800000"/>
+      <node id="RX10_RESETDONE" address="0x4a" permission="read" mask="0x1"/>
+      <node id="RX10_PLLLKDET" address="0x4a" permission="read" mask="0x4"/>
+      <node id="RX10_ALIGNED" address="0x4a" permission="read" mask="0x200"/>
+      <node id="RX10_ERROR_COUNTER" address="0x7a" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX11_RESET" address="0x0b" permission="rw" mask="0x2"/>
+      <node id="RX11_CDRRESET" address="0x0b" permission="rw" mask="0x1000000"/>
+      <node id="RX11_BUFRESET" address="0x0b" permission="rw" mask="0x2000000"/>
+      <node id="RX11_POLARITY" address="0x0b" permission="rw" mask="0x8"/>
+      <node id="RX11_EQMIX" address="0x0b" permission="rw" mask="0x70"/>
+      <node id="RX11_PLLRESET" address="0x0b" permission="rw" mask="0x200000"/>
+      <node id="RX11_DFETAPROV" address="0x0b" permission="rw" mask="0x400000"/>
+      <node id="RX11_RESET_ERR_COUNTER" address="0x0b" permission="rw" mask="0x800000"/>
+      <node id="RX11_RESETDONE" address="0x4b" permission="read" mask="0x1"/>
+      <node id="RX11_PLLLKDET" address="0x4b" permission="read" mask="0x4"/>
+      <node id="RX11_ALIGNED" address="0x4b" permission="read" mask="0x200"/>
+      <node id="RX11_ERROR_COUNTER" address="0x7b" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX12_RESET" address="0x0c" permission="rw" mask="0x2"/>
+      <node id="RX12_CDRRESET" address="0x0c" permission="rw" mask="0x1000000"/>
+      <node id="RX12_BUFRESET" address="0x0c" permission="rw" mask="0x2000000"/>
+      <node id="RX12_POLARITY" address="0x0c" permission="rw" mask="0x8"/>
+      <node id="RX12_EQMIX" address="0x0c" permission="rw" mask="0x70"/>
+      <node id="RX12_PLLRESET" address="0x0c" permission="rw" mask="0x200000"/>
+      <node id="RX12_DFETAPROV" address="0x0c" permission="rw" mask="0x400000"/>
+      <node id="RX12_RESET_ERR_COUNTER" address="0x0c" permission="rw" mask="0x800000"/>
+      <node id="RX12_RESETDONE" address="0x4c" permission="read" mask="0x1"/>
+      <node id="RX12_PLLLKDET" address="0x4c" permission="read" mask="0x4"/>
+      <node id="RX12_ALIGNED" address="0x4c" permission="read" mask="0x200"/>
+      <node id="RX12_ERROR_COUNTER" address="0x7c" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX13_RESET" address="0x0d" permission="rw" mask="0x2"/>
+      <node id="RX13_CDRRESET" address="0x0d" permission="rw" mask="0x1000000"/>
+      <node id="RX13_BUFRESET" address="0x0d" permission="rw" mask="0x2000000"/>
+      <node id="RX13_POLARITY" address="0x0d" permission="rw" mask="0x8"/>
+      <node id="RX13_EQMIX" address="0x0d" permission="rw" mask="0x70"/>
+      <node id="RX13_PLLRESET" address="0x0d" permission="rw" mask="0x200000"/>
+      <node id="RX13_DFETAPROV" address="0x0d" permission="rw" mask="0x400000"/>
+      <node id="RX13_RESET_ERR_COUNTER" address="0x0d" permission="rw" mask="0x800000"/>
+      <node id="RX13_RESETDONE" address="0x4d" permission="read" mask="0x1"/>
+      <node id="RX13_PLLLKDET" address="0x4d" permission="read" mask="0x4"/>
+      <node id="RX13_ALIGNED" address="0x4d" permission="read" mask="0x200"/>
+      <node id="RX13_ERROR_COUNTER" address="0x7d" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX14_RESET" address="0x0e" permission="rw" mask="0x2"/>
+      <node id="RX14_CDRRESET" address="0x0e" permission="rw" mask="0x1000000"/>
+      <node id="RX14_BUFRESET" address="0x0e" permission="rw" mask="0x2000000"/>
+      <node id="RX14_POLARITY" address="0x0e" permission="rw" mask="0x8"/>
+      <node id="RX14_EQMIX" address="0x0e" permission="rw" mask="0x70"/>
+      <node id="RX14_PLLRESET" address="0x0e" permission="rw" mask="0x200000"/>
+      <node id="RX14_DFETAPROV" address="0x0e" permission="rw" mask="0x400000"/>
+      <node id="RX14_RESET_ERR_COUNTER" address="0x0e" permission="rw" mask="0x800000"/>
+      <node id="RX14_RESETDONE" address="0x4e" permission="read" mask="0x1"/>
+      <node id="RX14_PLLLKDET" address="0x4e" permission="read" mask="0x4"/>
+      <node id="RX14_ALIGNED" address="0x4e" permission="read" mask="0x200"/>
+      <node id="RX14_ERROR_COUNTER" address="0x7e" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX15_RESET" address="0x0f" permission="rw" mask="0x2"/>
+      <node id="RX15_CDRRESET" address="0x0f" permission="rw" mask="0x1000000"/>
+      <node id="RX15_BUFRESET" address="0x0f" permission="rw" mask="0x2000000"/>
+      <node id="RX15_POLARITY" address="0x0f" permission="rw" mask="0x8"/>
+      <node id="RX15_EQMIX" address="0x0f" permission="rw" mask="0x70"/>
+      <node id="RX15_PLLRESET" address="0x0f" permission="rw" mask="0x200000"/>
+      <node id="RX15_DFETAPROV" address="0x0f" permission="rw" mask="0x400000"/>
+      <node id="RX15_RESET_ERR_COUNTER" address="0x0f" permission="rw" mask="0x800000"/>
+      <node id="RX15_RESETDONE" address="0x4f" permission="read" mask="0x1"/>
+      <node id="RX15_PLLLKDET" address="0x4f" permission="read" mask="0x4"/>
+      <node id="RX15_ALIGNED" address="0x4f" permission="read" mask="0x200"/>
+      <node id="RX15_ERROR_COUNTER" address="0x7f" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX16_RESET" address="0x10" permission="rw" mask="0x2"/>
+      <node id="RX16_CDRRESET" address="0x10" permission="rw" mask="0x1000000"/>
+      <node id="RX16_BUFRESET" address="0x10" permission="rw" mask="0x2000000"/>
+      <node id="RX16_POLARITY" address="0x10" permission="rw" mask="0x8"/>
+      <node id="RX16_EQMIX" address="0x10" permission="rw" mask="0x70"/>
+      <node id="RX16_PLLRESET" address="0x10" permission="rw" mask="0x200000"/>
+      <node id="RX16_DFETAPROV" address="0x10" permission="rw" mask="0x400000"/>
+      <node id="RX16_RESET_ERR_COUNTER" address="0x10" permission="rw" mask="0x800000"/>
+      <node id="RX16_RESETDONE" address="0x50" permission="read" mask="0x1"/>
+      <node id="RX16_PLLLKDET" address="0x50" permission="read" mask="0x4"/>
+      <node id="RX16_ALIGNED" address="0x50" permission="read" mask="0x200"/>
+      <node id="RX16_ERROR_COUNTER" address="0x80" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX17_RESET" address="0x11" permission="rw" mask="0x2"/>
+      <node id="RX17_CDRRESET" address="0x11" permission="rw" mask="0x1000000"/>
+      <node id="RX17_BUFRESET" address="0x11" permission="rw" mask="0x2000000"/>
+      <node id="RX17_POLARITY" address="0x11" permission="rw" mask="0x8"/>
+      <node id="RX17_EQMIX" address="0x11" permission="rw" mask="0x70"/>
+      <node id="RX17_PLLRESET" address="0x11" permission="rw" mask="0x200000"/>
+      <node id="RX17_DFETAPROV" address="0x11" permission="rw" mask="0x400000"/>
+      <node id="RX17_RESET_ERR_COUNTER" address="0x11" permission="rw" mask="0x800000"/>
+      <node id="RX17_RESETDONE" address="0x51" permission="read" mask="0x1"/>
+      <node id="RX17_PLLLKDET" address="0x51" permission="read" mask="0x4"/>
+      <node id="RX17_ALIGNED" address="0x51" permission="read" mask="0x200"/>
+      <node id="RX17_ERROR_COUNTER" address="0x81" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX18_RESET" address="0x12" permission="rw" mask="0x2"/>
+      <node id="RX18_CDRRESET" address="0x12" permission="rw" mask="0x1000000"/>
+      <node id="RX18_BUFRESET" address="0x12" permission="rw" mask="0x2000000"/>
+      <node id="RX18_POLARITY" address="0x12" permission="rw" mask="0x8"/>
+      <node id="RX18_EQMIX" address="0x12" permission="rw" mask="0x70"/>
+      <node id="RX18_PLLRESET" address="0x12" permission="rw" mask="0x200000"/>
+      <node id="RX18_DFETAPROV" address="0x12" permission="rw" mask="0x400000"/>
+      <node id="RX18_RESET_ERR_COUNTER" address="0x12" permission="rw" mask="0x800000"/>
+      <node id="RX18_RESETDONE" address="0x52" permission="read" mask="0x1"/>
+      <node id="RX18_PLLLKDET" address="0x52" permission="read" mask="0x4"/>
+      <node id="RX18_ALIGNED" address="0x52" permission="read" mask="0x200"/>
+      <node id="RX18_ERROR_COUNTER" address="0x82" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX19_RESET" address="0x13" permission="rw" mask="0x2"/>
+      <node id="RX19_CDRRESET" address="0x13" permission="rw" mask="0x1000000"/>
+      <node id="RX19_BUFRESET" address="0x13" permission="rw" mask="0x2000000"/>
+      <node id="RX19_POLARITY" address="0x13" permission="rw" mask="0x8"/>
+      <node id="RX19_EQMIX" address="0x13" permission="rw" mask="0x70"/>
+      <node id="RX19_PLLRESET" address="0x13" permission="rw" mask="0x200000"/>
+      <node id="RX19_DFETAPROV" address="0x13" permission="rw" mask="0x400000"/>
+      <node id="RX19_RESET_ERR_COUNTER" address="0x13" permission="rw" mask="0x800000"/>
+      <node id="RX19_RESETDONE" address="0x53" permission="read" mask="0x1"/>
+      <node id="RX19_PLLLKDET" address="0x53" permission="read" mask="0x4"/>
+      <node id="RX19_ALIGNED" address="0x53" permission="read" mask="0x200"/>
+      <node id="RX19_ERROR_COUNTER" address="0x83" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX20_RESET" address="0x14" permission="rw" mask="0x2"/>
+      <node id="RX20_CDRRESET" address="0x14" permission="rw" mask="0x1000000"/>
+      <node id="RX20_BUFRESET" address="0x14" permission="rw" mask="0x2000000"/>
+      <node id="RX20_POLARITY" address="0x14" permission="rw" mask="0x8"/>
+      <node id="RX20_EQMIX" address="0x14" permission="rw" mask="0x70"/>
+      <node id="RX20_PLLRESET" address="0x14" permission="rw" mask="0x200000"/>
+      <node id="RX20_DFETAPROV" address="0x14" permission="rw" mask="0x400000"/>
+      <node id="RX20_RESET_ERR_COUNTER" address="0x14" permission="rw" mask="0x800000"/>
+      <node id="RX20_RESETDONE" address="0x54" permission="read" mask="0x1"/>
+      <node id="RX20_PLLLKDET" address="0x54" permission="read" mask="0x4"/>
+      <node id="RX20_ALIGNED" address="0x54" permission="read" mask="0x200"/>
+      <node id="RX20_ERROR_COUNTER" address="0x84" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX21_RESET" address="0x15" permission="rw" mask="0x2"/>
+      <node id="RX21_CDRRESET" address="0x15" permission="rw" mask="0x1000000"/>
+      <node id="RX21_BUFRESET" address="0x15" permission="rw" mask="0x2000000"/>
+      <node id="RX21_POLARITY" address="0x15" permission="rw" mask="0x8"/>
+      <node id="RX21_EQMIX" address="0x15" permission="rw" mask="0x70"/>
+      <node id="RX21_PLLRESET" address="0x15" permission="rw" mask="0x200000"/>
+      <node id="RX21_DFETAPROV" address="0x15" permission="rw" mask="0x400000"/>
+      <node id="RX21_RESET_ERR_COUNTER" address="0x15" permission="rw" mask="0x800000"/>
+      <node id="RX21_RESETDONE" address="0x55" permission="read" mask="0x1"/>
+      <node id="RX21_PLLLKDET" address="0x55" permission="read" mask="0x4"/>
+      <node id="RX21_ALIGNED" address="0x55" permission="read" mask="0x200"/>
+      <node id="RX21_ERROR_COUNTER" address="0x85" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX22_RESET" address="0x16" permission="rw" mask="0x2"/>
+      <node id="RX22_CDRRESET" address="0x16" permission="rw" mask="0x1000000"/>
+      <node id="RX22_BUFRESET" address="0x16" permission="rw" mask="0x2000000"/>
+      <node id="RX22_POLARITY" address="0x16" permission="rw" mask="0x8"/>
+      <node id="RX22_EQMIX" address="0x16" permission="rw" mask="0x70"/>
+      <node id="RX22_PLLRESET" address="0x16" permission="rw" mask="0x200000"/>
+      <node id="RX22_DFETAPROV" address="0x16" permission="rw" mask="0x400000"/>
+      <node id="RX22_RESET_ERR_COUNTER" address="0x16" permission="rw" mask="0x800000"/>
+      <node id="RX22_RESETDONE" address="0x56" permission="read" mask="0x1"/>
+      <node id="RX22_PLLLKDET" address="0x56" permission="read" mask="0x4"/>
+      <node id="RX22_ALIGNED" address="0x56" permission="read" mask="0x200"/>
+      <node id="RX22_ERROR_COUNTER" address="0x86" permission="read" mask="0xFFFFFFFF"/>
+      <node id="RX23_RESET" address="0x17" permission="rw" mask="0x2"/>
+      <node id="RX23_CDRRESET" address="0x17" permission="rw" mask="0x1000000"/>
+      <node id="RX23_BUFRESET" address="0x17" permission="rw" mask="0x2000000"/>
+      <node id="RX23_POLARITY" address="0x17" permission="rw" mask="0x8"/>
+      <node id="RX23_EQMIX" address="0x17" permission="rw" mask="0x70"/>
+      <node id="RX23_PLLRESET" address="0x17" permission="rw" mask="0x200000"/>
+      <node id="RX23_DFETAPROV" address="0x17" permission="rw" mask="0x400000"/>
+      <node id="RX23_RESET_ERR_COUNTER" address="0x17" permission="rw" mask="0x800000"/>
+      <node id="RX23_RESETDONE" address="0x57" permission="read" mask="0x1"/>
+      <node id="RX23_PLLLKDET" address="0x57" permission="read" mask="0x4"/>
+      <node id="RX23_ALIGNED" address="0x57" permission="read" mask="0x200"/>
+      <node id="RX23_ERROR_COUNTER" address="0x87" permission="read" mask="0xFFFFFFFF"/>
+      <node id="TX0_RESET" address="0x18" permission="readwrite" mask="0x1"/>
+      <node id="TX0_POLARITY" address="0x18" permission="readwrite" mask="0x4"/>
+      <node id="TX0_POSTEMPHASIS" address="0x18" permission="readwrite" mask="0xF80"/>
+      <node id="TX0_PREEMPHASIS" address="0x18" permission="readwrite" mask="0xF000"/>
+      <node id="TX0_DIFFCTRL" address="0x18" permission="readwrite" mask="0xF0000"/>
+      <node id="TX0_PLLRESET" address="0x18" permission="readwrite" mask="0x100000"/>
+      <node id="TX0_RESETDONE" address="0x58" permission="read" mask="0x2"/>
+      <node id="TX0_PLLLKDET" address="0x58" permission="read" mask="0x8"/>
+      <node id="TX1_RESET" address="0x19" permission="readwrite" mask="0x1"/>
+      <node id="TX1_POLARITY" address="0x19" permission="readwrite" mask="0x4"/>
+      <node id="TX1_POSTEMPHASIS" address="0x19" permission="readwrite" mask="0xF80"/>
+      <node id="TX1_PREEMPHASIS" address="0x19" permission="readwrite" mask="0xF000"/>
+      <node id="TX1_DIFFCTRL" address="0x19" permission="readwrite" mask="0xF0000"/>
+      <node id="TX1_PLLRESET" address="0x19" permission="readwrite" mask="0x100000"/>
+      <node id="TX1_RESETDONE" address="0x59" permission="read" mask="0x2"/>
+      <node id="TX1_PLLLKDET" address="0x59" permission="read" mask="0x8"/>
+      <node id="TX2_RESET" address="0x1a" permission="readwrite" mask="0x1"/>
+      <node id="TX2_POLARITY" address="0x1a" permission="readwrite" mask="0x4"/>
+      <node id="TX2_POSTEMPHASIS" address="0x1a" permission="readwrite" mask="0xF80"/>
+      <node id="TX2_PREEMPHASIS" address="0x1a" permission="readwrite" mask="0xF000"/>
+      <node id="TX2_DIFFCTRL" address="0x1a" permission="readwrite" mask="0xF0000"/>
+      <node id="TX2_PLLRESET" address="0x1a" permission="readwrite" mask="0x100000"/>
+      <node id="TX2_RESETDONE" address="0x5a" permission="read" mask="0x2"/>
+      <node id="TX2_PLLLKDET" address="0x5a" permission="read" mask="0x8"/>
+      <node id="TX3_RESET" address="0x1b" permission="readwrite" mask="0x1"/>
+      <node id="TX3_POLARITY" address="0x1b" permission="readwrite" mask="0x4"/>
+      <node id="TX3_POSTEMPHASIS" address="0x1b" permission="readwrite" mask="0xF80"/>
+      <node id="TX3_PREEMPHASIS" address="0x1b" permission="readwrite" mask="0xF000"/>
+      <node id="TX3_DIFFCTRL" address="0x1b" permission="readwrite" mask="0xF0000"/>
+      <node id="TX3_PLLRESET" address="0x1b" permission="readwrite" mask="0x100000"/>
+      <node id="TX3_RESETDONE" address="0x5b" permission="read" mask="0x2"/>
+      <node id="TX3_PLLLKDET" address="0x5b" permission="read" mask="0x8"/>
+      <node id="TX4_RESET" address="0x1c" permission="readwrite" mask="0x1"/>
+      <node id="TX4_POLARITY" address="0x1c" permission="readwrite" mask="0x4"/>
+      <node id="TX4_POSTEMPHASIS" address="0x1c" permission="readwrite" mask="0xF80"/>
+      <node id="TX4_PREEMPHASIS" address="0x1c" permission="readwrite" mask="0xF000"/>
+      <node id="TX4_DIFFCTRL" address="0x1c" permission="readwrite" mask="0xF0000"/>
+      <node id="TX4_PLLRESET" address="0x1c" permission="readwrite" mask="0x100000"/>
+      <node id="TX4_RESETDONE" address="0x5c" permission="read" mask="0x2"/>
+      <node id="TX4_PLLLKDET" address="0x5c" permission="read" mask="0x8"/>
+      <node id="TX5_RESET" address="0x1d" permission="readwrite" mask="0x1"/>
+      <node id="TX5_POLARITY" address="0x1d" permission="readwrite" mask="0x4"/>
+      <node id="TX5_POSTEMPHASIS" address="0x1d" permission="readwrite" mask="0xF80"/>
+      <node id="TX5_PREEMPHASIS" address="0x1d" permission="readwrite" mask="0xF000"/>
+      <node id="TX5_DIFFCTRL" address="0x1d" permission="readwrite" mask="0xF0000"/>
+      <node id="TX5_PLLRESET" address="0x1d" permission="readwrite" mask="0x100000"/>
+      <node id="TX5_RESETDONE" address="0x5d" permission="read" mask="0x2"/>
+      <node id="TX5_PLLLKDET" address="0x5d" permission="read" mask="0x8"/>
+      <node id="TX6_RESET" address="0x1e" permission="readwrite" mask="0x1"/>
+      <node id="TX6_POLARITY" address="0x1e" permission="readwrite" mask="0x4"/>
+      <node id="TX6_POSTEMPHASIS" address="0x1e" permission="readwrite" mask="0xF80"/>
+      <node id="TX6_PREEMPHASIS" address="0x1e" permission="readwrite" mask="0xF000"/>
+      <node id="TX6_DIFFCTRL" address="0x1e" permission="readwrite" mask="0xF0000"/>
+      <node id="TX6_PLLRESET" address="0x1e" permission="readwrite" mask="0x100000"/>
+      <node id="TX6_RESETDONE" address="0x5e" permission="read" mask="0x2"/>
+      <node id="TX6_PLLLKDET" address="0x5e" permission="read" mask="0x8"/>
+      <node id="TX7_RESET" address="0x1f" permission="readwrite" mask="0x1"/>
+      <node id="TX7_POLARITY" address="0x1f" permission="readwrite" mask="0x4"/>
+      <node id="TX7_POSTEMPHASIS" address="0x1f" permission="readwrite" mask="0xF80"/>
+      <node id="TX7_PREEMPHASIS" address="0x1f" permission="readwrite" mask="0xF000"/>
+      <node id="TX7_DIFFCTRL" address="0x1f" permission="readwrite" mask="0xF0000"/>
+      <node id="TX7_PLLRESET" address="0x1f" permission="readwrite" mask="0x100000"/>
+      <node id="TX7_RESETDONE" address="0x5f" permission="read" mask="0x2"/>
+      <node id="TX7_PLLLKDET" address="0x5f" permission="read" mask="0x8"/>
+      <node id="TX8_RESET" address="0x20" permission="readwrite" mask="0x1"/>
+      <node id="TX8_POLARITY" address="0x20" permission="readwrite" mask="0x4"/>
+      <node id="TX8_POSTEMPHASIS" address="0x20" permission="readwrite" mask="0xF80"/>
+      <node id="TX8_PREEMPHASIS" address="0x20" permission="readwrite" mask="0xF000"/>
+      <node id="TX8_DIFFCTRL" address="0x20" permission="readwrite" mask="0xF0000"/>
+      <node id="TX8_PLLRESET" address="0x20" permission="readwrite" mask="0x100000"/>
+      <node id="TX8_RESETDONE" address="0x60" permission="read" mask="0x2"/>
+      <node id="TX8_PLLLKDET" address="0x60" permission="read" mask="0x8"/>
+      <node id="TX9_RESET" address="0x21" permission="readwrite" mask="0x1"/>
+      <node id="TX9_POLARITY" address="0x21" permission="readwrite" mask="0x4"/>
+      <node id="TX9_POSTEMPHASIS" address="0x21" permission="readwrite" mask="0xF80"/>
+      <node id="TX9_PREEMPHASIS" address="0x21" permission="readwrite" mask="0xF000"/>
+      <node id="TX9_DIFFCTRL" address="0x21" permission="readwrite" mask="0xF0000"/>
+      <node id="TX9_PLLRESET" address="0x21" permission="readwrite" mask="0x100000"/>
+      <node id="TX9_RESETDONE" address="0x61" permission="read" mask="0x2"/>
+      <node id="TX9_PLLLKDET" address="0x61" permission="read" mask="0x8"/>
+      <node id="TX10_RESET" address="0x22" permission="readwrite" mask="0x1"/>
+      <node id="TX10_POLARITY" address="0x22" permission="readwrite" mask="0x4"/>
+      <node id="TX10_POSTEMPHASIS" address="0x22" permission="readwrite" mask="0xF80"/>
+      <node id="TX10_PREEMPHASIS" address="0x22" permission="readwrite" mask="0xF000"/>
+      <node id="TX10_DIFFCTRL" address="0x22" permission="readwrite" mask="0xF0000"/>
+      <node id="TX10_PLLRESET" address="0x22" permission="readwrite" mask="0x100000"/>
+      <node id="TX10_RESETDONE" address="0x62" permission="read" mask="0x2"/>
+      <node id="TX10_PLLLKDET" address="0x62" permission="read" mask="0x8"/>
+      <node id="TX11_RESET" address="0x23" permission="readwrite" mask="0x1"/>
+      <node id="TX11_POLARITY" address="0x23" permission="readwrite" mask="0x4"/>
+      <node id="TX11_POSTEMPHASIS" address="0x23" permission="readwrite" mask="0xF80"/>
+      <node id="TX11_PREEMPHASIS" address="0x23" permission="readwrite" mask="0xF000"/>
+      <node id="TX11_DIFFCTRL" address="0x23" permission="readwrite" mask="0xF0000"/>
+      <node id="TX11_PLLRESET" address="0x23" permission="readwrite" mask="0x100000"/>
+      <node id="TX11_RESETDONE" address="0x63" permission="read" mask="0x2"/>
+      <node id="TX11_PLLLKDET" address="0x63" permission="read" mask="0x8"/>
+      <node id="XTRA0_RESET" address="0x28" permission="readwrite" mask="0x1"/>
+      <node id="XTRA0_POLARITY" address="0x28" permission="readwrite" mask="0x4"/>
+      <node id="XTRA0_POSTEMPHASIS" address="0x28" permission="readwrite" mask="0xF80"/>
+      <node id="XTRA0_PREEMPHASIS" address="0x28" permission="readwrite" mask="0xF000"/>
+      <node id="XTRA0_DIFFCTRL" address="0x28" permission="readwrite" mask="0xF0000"/>
+      <node id="XTRA0_PLLRESET" address="0x28" permission="readwrite" mask="0x100000"/>
+      <node id="XTRA0_RESETDONE" address="0x68" permission="read" mask="0x2"/>
+      <node id="XTRA0_PLLLKDET" address="0x68" permission="read" mask="0x8"/>
+      <node id="XTRA1_RESET" address="0x29" permission="readwrite" mask="0x1"/>
+      <node id="XTRA1_POLARITY" address="0x29" permission="readwrite" mask="0x4"/>
+      <node id="XTRA1_POSTEMPHASIS" address="0x29" permission="readwrite" mask="0xF80"/>
+      <node id="XTRA1_PREEMPHASIS" address="0x29" permission="readwrite" mask="0xF000"/>
+      <node id="XTRA1_DIFFCTRL" address="0x29" permission="readwrite" mask="0xF0000"/>
+      <node id="XTRA1_PLLRESET" address="0x29" permission="readwrite" mask="0x100000"/>
+      <node id="XTRA1_RESETDONE" address="0x69" permission="read" mask="0x2"/>
+      <node id="XTRA1_PLLLKDET" address="0x69" permission="read" mask="0x8"/>
+      <node id="XTRA2_RESET" address="0x2a" permission="readwrite" mask="0x1"/>
+      <node id="XTRA2_POLARITY" address="0x2a" permission="readwrite" mask="0x4"/>
+      <node id="XTRA2_POSTEMPHASIS" address="0x2a" permission="readwrite" mask="0xF80"/>
+      <node id="XTRA2_PREEMPHASIS" address="0x2a" permission="readwrite" mask="0xF000"/>
+      <node id="XTRA2_DIFFCTRL" address="0x2a" permission="readwrite" mask="0xF0000"/>
+      <node id="XTRA2_PLLRESET" address="0x2a" permission="readwrite" mask="0x100000"/>
+      <node id="XTRA2_RESETDONE" address="0x6a" permission="read" mask="0x2"/>
+      <node id="XTRA2_PLLLKDET" address="0x6a" permission="read" mask="0x8"/>
+      <node id="XTRA3_RESET" address="0x2b" permission="readwrite" mask="0x1"/>
+      <node id="XTRA3_POLARITY" address="0x2b" permission="readwrite" mask="0x4"/>
+      <node id="XTRA3_POSTEMPHASIS" address="0x2b" permission="readwrite" mask="0xF80"/>
+      <node id="XTRA3_PREEMPHASIS" address="0x2b" permission="readwrite" mask="0xF000"/>
+      <node id="XTRA3_DIFFCTRL" address="0x2b" permission="readwrite" mask="0xF0000"/>
+      <node id="XTRA3_PLLRESET" address="0x2b" permission="readwrite" mask="0x100000"/>
+      <node id="XTRA3_RESETDONE" address="0x6b" permission="read" mask="0x2"/>
+      <node id="XTRA3_PLLLKDET" address="0x6b" permission="read" mask="0x8"/>
+      <node id="F2B0_RESET" address="0x24" permission="readwrite" mask="0x1"/>
+      <node id="F2B0_POLARITY" address="0x24" permission="readwrite" mask="0x4"/>
+      <node id="F2B0_POSTEMPHASIS" address="0x24" permission="readwrite" mask="0xF80"/>
+      <node id="F2B0_PREEMPHASIS" address="0x24" permission="readwrite" mask="0xF000"/>
+      <node id="F2B0_DIFFCTRL" address="0x24" permission="readwrite" mask="0xF0000"/>
+      <node id="F2B0_PLLRESET" address="0x24" permission="readwrite" mask="0x100000"/>
+      <node id="F2B0_RESETDONE" address="0x64" permission="read" mask="0x2"/>
+      <node id="F2B0_PLLLKDET" address="0x64" permission="read" mask="0x8"/>
+      <node id="F2B1_RESET" address="0x25" permission="readwrite" mask="0x1"/>
+      <node id="F2B1_POLARITY" address="0x25" permission="readwrite" mask="0x4"/>
+      <node id="F2B1_POSTEMPHASIS" address="0x25" permission="readwrite" mask="0xF80"/>
+      <node id="F2B1_PREEMPHASIS" address="0x25" permission="readwrite" mask="0xF000"/>
+      <node id="F2B1_DIFFCTRL" address="0x25" permission="readwrite" mask="0xF0000"/>
+      <node id="F2B1_PLLRESET" address="0x25" permission="readwrite" mask="0x100000"/>
+      <node id="F2B1_RESETDONE" address="0x65" permission="read" mask="0x2"/>
+      <node id="F2B1_PLLLKDET" address="0x65" permission="read" mask="0x8"/>
+      <node id="F2B2_RESET" address="0x26" permission="readwrite" mask="0x1"/>
+      <node id="F2B2_POLARITY" address="0x26" permission="readwrite" mask="0x4"/>
+      <node id="F2B2_POSTEMPHASIS" address="0x26" permission="readwrite" mask="0xF80"/>
+      <node id="F2B2_PREEMPHASIS" address="0x26" permission="readwrite" mask="0xF000"/>
+      <node id="F2B2_DIFFCTRL" address="0x26" permission="readwrite" mask="0xF0000"/>
+      <node id="F2B2_PLLRESET" address="0x26" permission="readwrite" mask="0x100000"/>
+      <node id="F2B2_RESETDONE" address="0x66" permission="read" mask="0x2"/>
+      <node id="F2B2_PLLLKDET" address="0x66" permission="read" mask="0x8"/>
+      <node id="F2B3_RESET" address="0x27" permission="readwrite" mask="0x1"/>
+      <node id="F2B3_POLARITY" address="0x27" permission="readwrite" mask="0x4"/>
+      <node id="F2B3_POSTEMPHASIS" address="0x27" permission="readwrite" mask="0xF80"/>
+      <node id="F2B3_PREEMPHASIS" address="0x27" permission="readwrite" mask="0xF000"/>
+      <node id="F2B3_DIFFCTRL" address="0x27" permission="readwrite" mask="0xF0000"/>
+      <node id="F2B3_PLLRESET" address="0x27" permission="readwrite" mask="0x100000"/>
+      <node id="F2B3_RESETDONE" address="0x67" permission="read" mask="0x2"/>
+      <node id="F2B3_PLLLKDET" address="0x67" permission="read" mask="0x8"/>
+      <node id="SFP0_RESET" address="0x2c" permission="readwrite" mask="0x1"/>
+      <node id="SFP0_POLARITY" address="0x2c" permission="readwrite" mask="0x4"/>
+      <node id="SFP0_POSTEMPHASIS" address="0x2c" permission="readwrite" mask="0xF80"/>
+      <node id="SFP0_PREEMPHASIS" address="0x2c" permission="readwrite" mask="0xF000"/>
+      <node id="SFP0_DIFFCTRL" address="0x2c" permission="readwrite" mask="0xF0000"/>
+      <node id="SFP0_PLLRESET" address="0x2c" permission="readwrite" mask="0x100000"/>
+      <node id="SFP0_RESETDONE" address="0x6c" permission="read" mask="0x2"/>
+      <node id="SFP0_PLLLKDET" address="0x6c" permission="read" mask="0x8"/>
+      <node id="SFP1_RESET" address="0x2d" permission="readwrite" mask="0x1"/>
+      <node id="SFP1_POLARITY" address="0x2d" permission="readwrite" mask="0x4"/>
+      <node id="SFP1_POSTEMPHASIS" address="0x2d" permission="readwrite" mask="0xF80"/>
+      <node id="SFP1_PREEMPHASIS" address="0x2d" permission="readwrite" mask="0xF000"/>
+      <node id="SFP1_DIFFCTRL" address="0x2d" permission="readwrite" mask="0xF0000"/>
+      <node id="SFP1_PLLRESET" address="0x2d" permission="readwrite" mask="0x100000"/>
+      <node id="SFP1_RESETDONE" address="0x6d" permission="read" mask="0x2"/>
+      <node id="SFP1_PLLLKDET" address="0x6d" permission="read" mask="0x8"/>
+      <node id="TP0_RESET" address="0x2e" permission="readwrite" mask="0x1"/>
+      <node id="TP0_POLARITY" address="0x2e" permission="readwrite" mask="0x4"/>
+      <node id="TP0_POSTEMPHASIS" address="0x2e" permission="readwrite" mask="0xF80"/>
+      <node id="TP0_PREEMPHASIS" address="0x2e" permission="readwrite" mask="0xF000"/>
+      <node id="TP0_DIFFCTRL" address="0x2e" permission="readwrite" mask="0xF0000"/>
+      <node id="TP0_PLLRESET" address="0x2e" permission="readwrite" mask="0x100000"/>
+      <node id="TP0_RESETDONE" address="0x6e" permission="read" mask="0x2"/>
+      <node id="TP0_PLLLKDET" address="0x6e" permission="read" mask="0x8"/>
+      <node id="TP1_RESET" address="0x2f" permission="readwrite" mask="0x1"/>
+      <node id="TP1_POLARITY" address="0x2f" permission="readwrite" mask="0x4"/>
+      <node id="TP1_POSTEMPHASIS" address="0x2f" permission="readwrite" mask="0xF80"/>
+      <node id="TP1_PREEMPHASIS" address="0x2f" permission="readwrite" mask="0xF000"/>
+      <node id="TP1_DIFFCTRL" address="0x2f" permission="readwrite" mask="0xF0000"/>
+      <node id="TP1_PLLRESET" address="0x2f" permission="readwrite" mask="0x100000"/>
+      <node id="TP1_RESETDONE" address="0x6f" permission="read" mask="0x2"/>
+      <node id="TP1_PLLLKDET" address="0x6f" permission="read" mask="0x8"/>
+
+      <node id="GTX_ERR_THRESHOLD" address="50" permission="readwrite" mask="0xFFFFFFFF"/>
+      <node id="BAD_DATA_RESET"    address="51" permission="readwrite" mask="0xFFFFFFFF"/>
+      <node id="PPOD_RESET" address="52" permission="rw" mask="0x1"/>
+      <node id="GTX_RESET_COUNTER" address="136" permission="readwrite" mode="incremental" size="24"/>
+      <node id="RX_ERROR_COUNTER_ENABLE" address="160" permission="readwrite"/>
+    </node>
+
+    <node id="FE_RAM" address="0x300000">
+        <node id="ENABLE" address="0" permission="rw" mask="0xFFFFFF"/>
+	<node id="ORBIT_LENGTH" address="1" permission="rw" mask="0xFFF"/>
+	<node id="SYNC_TO_TTC" address="2" permission="rw" mask="0x1"/>
+	<node id="TTC_ORBIT_DELAY" address="2" permission="rw" mask="0xFFF0000"/>
+	<node id="HALF_TICK_DELAY" address="3" permission="rw" mask="0xFFFFFF"/>
+	<node id="NWORDS" address="5" permission="r"/>
+	<node id="POINTERS" address="8" permission="r" mode="incremental" size="24"/>
+    </node>
+
+    <!-- Alignment -->
+    <node id="ALIGN_DELAY" address="0x600" permission="readwrite" mask="0xFFFFFFFF"/>
+    <node id="FE_SPY_PULSE_PRE" address="0x601" permission="rw" mask="0xFFFFFFFF"/>
+    <node id="FE_SPY_PULSE_DELAY" address="0x602" permission="rw" mask="0xFFFFFFFF"/>
+    <node id="ALIGN_RESET_FIBERS" address="0x603" permission="readwrite" mask="0xFFFFFFFF"/>
+    <node id="ALIGN_AUTOALIGN_MASK" address="0x604" permission="readwrite" mask="0xFFFFFFFF"/>
+    <node id="ALIGN_OCCUPANCY" address="0x608" permission="read" mode="incremental" size="24"/>
+    <node id="ALIGN_DELTA" address="0x620" permission="read" mode="incremental" size="24"/>
+    <node id="ALIGN_STATUS" address="0x638" permission="read" mode="incremental" size="24"/>
+    <node id="ALIGN_BAD_COUNT" address="0x650" permission="read" mode="incremental" size="24"/>
+    <node id="ALIGN_FIBER_RATE" address="0x668" permission="read" mode="incremental" size="24"/>
+    <node id="FE_RAM_USE" address="0x606" permission="rw" mask="0x1" description="Enable the use of the FE/emulation rams at the alignment block"/>       
+    
+    <!-- FE Link Spy -->
+    <node id="FE_SPY_START" address="0x200000" permission="readwrite" mask="0xFFFFFFFF"/>
+    <node id="FE_SPY_ENABLE_CAPTURE_SW" address="0x200001" permission="readwrite" mask="0x1"/>
+    <node id="FE_SPY_CAPTURE_BX_PADDING" address="0x200002" permission="readwrite" mask="0xFFFFFFFF"/>
+    <node id="FE_SPY_ENABLE_CAPTURE_DTC" address="0x200003" permission="readwrite" mask="0x1"/>
+    <node id="FE_SPY_ORBIT_NO_WAIT" address="0x200004" permission="readwrite" mask="0x1"/>   
+    <node id="FE_SPY_RAW_WORDS" address="0x200005" permission="readwrite" mask="0x1"/>   
+    <node id="FE_FIBER_ID"      address="0x200006" permission="readwrite" mask="0xFFFFFFFF"/>   
+    <node id="SPY_RAM_ERASE_ENABLE" address="0x200007" permission="readwrite" mask="0x1"/>   
+    <node id="SPY_CAPTURE_ENABLE" address="0x200007" permission="readwrite" mask="0x100"/>   
+    <node id="SPY_PULSE_RATE"    address="0x200008" permission="read" mask="0xFFFFFFFF"/>   
+    <node id="ACCEPT_PULSE_RATE" address="0x200009" permission="read" mask="0xFFFFFFFF"/>   
+    <node id="FE_SPY_RAM_COUNT" address="0x20000A" permission="read" mask="0xFFFFFFFF"/>
+    <node id="FE_SPY_RAM_WORDS" address="0x20000B" permission="read" mask="0xFFFFFFFF"/>
+    <node id="FE_SPY_RAM_LINKMASK" address="0x20000C" permission="read" mask="0xFFFFFFFF"/>
+    <node id="FE_SPY_RAM_STATE"       address="0x20000D" permission="read" mask="0xFFFFFFFF"/>
+    <node id="FE_SPY_PULSE_COUNTER" address="0x20000E" permission="read" mask="0xFFFFFFFF"/>
+    <node id="FE_SPY_WRITEPTR_L1A"   address="0x20000F" permission="read" mask="0xFFFFFFFF"/>
+    <node id="FE_SPY_RAM_PTRS" address="0x200010" permission="read" mode="incremental" size="24"/>
+
+    <!-- Link Histograms -->
+    <node id="LINK_HISTO" address="0x600000">
+      <node id="RUN" address="0" mask="0x1" permission="rw" description="Enable/disable for the acquisition of link histograms"/>
+      <node id="CLEAR" address="0" mask="0x2" permission="rw" description="Start the clear of the link histograms (requires ~1ms"/>
+      <node id="INTEGRATE" address="0" mask="0x4" permission="rw" description="Enable the integration"/>
+      <node id="CAPIDSMSB" address="0" mask="0x8" permission="rw" description="Use the CAPID as the MSB of the data (useful for source calibration)"/>
+      <node id="ORBITS" address="1" mask="0xFFFFFFFF" permission="rw" description="Number of the orbits to integrate for"/>
+
+      <node id="CLEARING" address="4" permission="r" description="Bitmask for clear status of each fiber"/>
+      <node id="NHIST" address="5" mask="0xFFFF" permission="r" description="Number of histograms"/>
+      <node id="INTEGRATIONDONE" address="6" mask="0x1" permission="r" description="Integation complete"/>
+      <node id="CLEARDONE" address="6" mask="0x2" permission="r" description="Clear complete"/>
+      <node id="FIRSTORBIT" address="7" mask="0xFFFFFFFF" permission="r" description="First orbit integrated"/>
+      <node id="LASTORBIT" address="8" mask="0xFFFFFFFF" permission="r" description="Last orbit integrated"/>
+      <node id="HISTOGRAM" address="0x400" permission="read" mode="incremental" size="65536"/>
+    </node>
+    
+    <!-- Trigger Path -->
+    <node id="TRIGGER" address="0x400000">
+      <node id="LUT_ACCESS_ENABLE" address="0" permission="rw" mask="0x1" description="Enables read/write access to LUTs (otherwise some LUTs are disabled for I/O as they are single-port RAMs)"/>
+      <node id="SELF_TRIGGER_THRESHOLDS" address="4" permission="rw" mode="incremental" size="48"/>
+      <node id="LUT_GROUP_0" address="256">
+	<node id="N_ADDR_BITS" address="0" mask="0xFF" permission="r" description="Number of address bits per LUT for this type of LUT"/>
+	<node id="N_DATA_BITS" address="0" mask="0xFF00" permission="r" description="Number of address bits per LUT for this type of LUT"/>
+	<node id="N_LUTS" address="0" mask="0xFF0000" permission="r" description="Number of copies of LUT for this type of LUT"/>
+	<node id="LAST_LUT_GROUP" address="0" mask="0x80000000" permission="r" description="Set if this is the last LUT group in this firmware"/>
+	<node id="BASE_ADDRESS" address="1" mask="0xFFFFFFFF" permission="r" description="Base address (absolute) for this group of LUTs"/>
+	<node id="STRIDE" address="2" mask="0xFFFFFFFF" permission="r" description="LUT-to-LUT stride for this group of LUTs"/>
+      </node>
+      <node id="LUT_GROUP_1" address="259">
+	<node id="N_ADDR_BITS" address="0" mask="0xFF" permission="r" description="Number of address bits per LUT for this type of LUT"/>
+	<node id="N_DATA_BITS" address="0" mask="0xFF00" permission="r" description="Number of address bits per LUT for this type of LUT"/>
+	<node id="N_LUTS" address="0" mask="0xFF0000" permission="r" description="Number of copies of LUT for this type of LUT"/>
+	<node id="LAST_LUT_GROUP" address="0" mask="0x80000000" permission="r" description="Set if this is the last LUT group in this firmware"/>
+	<node id="BASE_ADDRESS" address="1" mask="0xFFFFFFFF" permission="r" description="Base address (absolute) for this group of LUTs"/>
+	<node id="STRIDE" address="2" mask="0xFFFFFFFF" permission="r" description="LUT-to-LUT stride for this group of LUTs"/>
+      </node>
+      <node id="LUT_GROUP_2" address="262">
+	<node id="N_ADDR_BITS" address="0" mask="0xFF" permission="r" description="Number of address bits per LUT for this type of LUT"/>
+	<node id="N_DATA_BITS" address="0" mask="0xFF00" permission="r" description="Number of address bits per LUT for this type of LUT"/>
+	<node id="N_LUTS" address="0" mask="0xFF0000" permission="r" description="Number of copies of LUT for this type of LUT"/>
+	<node id="LAST_LUT_GROUP" address="0" mask="0x80000000" permission="r" description="Set if this is the last LUT group in this firmware"/>
+	<node id="BASE_ADDRESS" address="1" mask="0xFFFFFFFF" permission="r" description="Base address (absolute) for this group of LUTs"/>
+	<node id="STRIDE" address="2" mask="0xFFFFFFFF" permission="r" description="LUT-to-LUT stride for this group of LUTs"/>
+      </node>
+      <node id="LUT_GROUP_3" address="265">
+	<node id="N_ADDR_BITS" address="0" mask="0xFF" permission="r" description="Number of address bits per LUT for this type of LUT"/>
+	<node id="N_DATA_BITS" address="0" mask="0xFF00" permission="r" description="Number of address bits per LUT for this type of LUT"/>
+	<node id="N_LUTS" address="0" mask="0xFF0000" permission="r" description="Number of copies of LUT for this type of LUT"/>
+	<node id="LAST_LUT_GROUP" address="0" mask="0x80000000" permission="r" description="Set if this is the last LUT group in this firmware"/>
+	<node id="BASE_ADDRESS" address="1" mask="0xFFFFFFFF" permission="r" description="Base address (absolute) for this group of LUTs"/>
+	<node id="STRIDE" address="2" mask="0xFFFFFFFF" permission="r" description="LUT-to-LUT stride for this group of LUTs"/>
+      </node>
+      <node id="LUT_GROUP_4" address="268">
+	<node id="N_ADDR_BITS" address="0" mask="0xFF" permission="r" description="Number of address bits per LUT for this type of LUT"/>
+	<node id="N_DATA_BITS" address="0" mask="0xFF00" permission="r" description="Number of address bits per LUT for this type of LUT"/>
+	<node id="N_LUTS" address="0" mask="0xFF0000" permission="r" description="Number of copies of LUT for this type of LUT"/>
+	<node id="LAST_LUT_GROUP" address="0" mask="0x80000000" permission="r" description="Set if this is the last LUT group in this firmware"/>
+	<node id="BASE_ADDRESS" address="1" mask="0xFFFFFFFF" permission="r" description="Base address (absolute) for this group of LUTs"/>
+	<node id="STRIDE" address="2" mask="0xFFFFFFFF" permission="r" description="LUT-to-LUT stride for this group of LUTs"/>
+      </node>
+      
+    </node>
+    <node id="TRIGGER_SPY" address="0x20000">
+      <node id="ENABLE_MASK" address="0" mask="0xFFFFFFFF" permission="rw" description="Enable/capture control (cycle to get new data)"/>
+      <node id="ORBIT_DELAY" address="1" mask="0xFFFFFFFF" permission="rw" description="Delay between orbit and capture start"/>
+      <node id="PPOD_0" address="0x0800" permission="r" mode="incremental" size="2048"/>
+      <node id="PPOD_1" address="0x1000" permission="r" mode="incremental" size="2048"/>
+      <node id="PPOD_2" address="0x1800" permission="r" mode="incremental" size="2048"/>
+      <node id="PPOD_3" address="0x2000" permission="r" mode="incremental" size="2048"/>
+      <node id="PPOD_4" address="0x2800" permission="r" mode="incremental" size="2048"/>
+      <node id="PPOD_5" address="0x3000" permission="r" mode="incremental" size="2048"/>
+      <node id="PPOD_6" address="0x3800" permission="r" mode="incremental" size="2048"/>
+      <node id="PPOD_7" address="0x4000" permission="r" mode="incremental" size="2048"/>
+      <node id="PPOD_8" address="0x4800" permission="r" mode="incremental" size="2048"/>
+      <node id="PPOD_9" address="0x5000" permission="r" mode="incremental" size="2048"/>
+      <node id="PPOD_10" address="0x5800" permission="r" mode="incremental" size="2048"/>
+      <node id="PPOD_11" address="0x6000" permission="r" mode="incremental" size="2048"/>
+      <node id="SFP_0" address="0x6800" permission="r" mode="incremental" size="2048"/>
+      <node id="SFP_1" address="0x7000" permission="r" mode="incremental" size="2048"/>
+    </node>
+
+
+    <!-- DAQ Path/Pipeline -->  
+    <node id="PIPELINE0" address="0x700">
+      <node id="PRESAMPLES"        address="0" permission="rw"/>
+      <node id="NSAMPLES"          address="1" permission="rw"/>
+      <node id="PIPELINEDEPTH"     address="2" permission="rw"/>
+      <node id="DEBUG"             address="3" permission="rw" mask="1"/>
+      <node id="ENABLE_ACCEPT"     address="4" permission="rw" mask="1"/>
+      <node id="RESET_SOFT"        address="4" permission="rw" mask="2"/>
+      <node id="RESET_HARD"        address="4" permission="rw" mask="4"/>
+      <node id="DAQ_PIPE_FUDGE"    address="7" permission="rw"/>
+      <node id="DAQ_PHASE_DELAY"   address="8" permission="rw"/>
+      <node id="DAQ_DELAY_READ_ADDRESS" address="16" permission="rw"/>
+      <node id="DAQ_WHICH_FIBER"   address="17" permission="rw"/>
+      <node id="DAQ_DELAY_ENABLE_SLICE" address="18" permission="rw"/>
+      <node id="RAM_EANBLE_CHOICE" address="23" permission="rw"/>
+      <node id="DAQ_QUEUE_HOLD"    address="24" permission="rw"/>
+      <node id="DAQ_QUEUE_ADVANCE" address="25" permission="rw"/>
+      <node id="DAQ_SLICE_HOLD"    address="26" permission="rw"/>
+      <node id="DAQ_SLICE_ADVANCE" address="27" permission="rw"/>
+      <node id="DAQ_FIFO_HOLD"     address="28" permission="rw"/>
+      <node id="DAQ_FIFO_ADVANCE"  address="29" permission="rw"/>
+      <node id="DAQ_WHICH_SLICE"   address="30" permission="rw"/>
+      <node id="DAQ_WHICH_CHANNEL" address="31" permission="rw"/>
+
+      <node id="DAQ_NUM_FIBERS"     address="32" permission="rw"/>
+      <node id="DAQ_NUM_SLICES"     address="33" permission="rw"/>
+      <node id="DAQ_PIPE_OVERFLOW"  address="35" permission="rw"/>
+      <node id="DAQ_ACCEPT_COUNTER" address="36" permission="rw"/>
+      <node id="DAQ_QUEUE_EMPTY"    address="38" permission="rw"/>
+      <node id="DAQ_QUEUE_DATA"     address="39" permission="rw"/>
+      <node id="DAQ_SLICE_EMPTY"    address="40" permission="rw"/>
+      <node id="DAQ_SLICE_DATA"     address="41" permission="rw"/>
+      <node id="DAQ_SLICE_COUNTER"  address="42" permission="rw"/>
+      <node id="DAQ_TR"             address="43" permission="rw"/>
+      <node id="DAQ_WCNT"           address="44" permission="rw"/>
+      <node id="DAQ_RCNT"           address="45" permission="rw"/>
+      <node id="DAQ_RAM_CTRL_STATE" address="46" permission="rw"/>
+      <node id="DAQ_FIFO_EMPTY"     address="47" permission="rw"/>
+      <node id="DAQ_FIFO_DATA"      address="48" permission="rw"/>
+      <node id="DAQ_FIFO_TR"        address="49" permission="rw"/>
+      <node id="DAQ_FIFO_WCNT"      address="50" permission="rw"/>
+      <node id="DAQ_FIFO_RCNT"      address="51" permission="rw"/>
+      <node id="DAQ_READ_ADDR"      address="52" permission="rw"/>
+      <node id="DAQ_NUM_CHANNELS"   address="53" permission="rw"/>
+      <node id="DAQ_WRITE_ADDR"     address="54" permission="rw"/>
+      <node id="DAQ_WRITE_PTR"      address="55" permission="rw"/>
+      <node id="DAQ_ERROR_COUNT"    address="56" permission="rw"/>
+      <node id="DAQ_CAPTURE_DATA"   address="57" permission="rw"/>
+      <node id="DAQ_SWL1A"          address="64" permission="w"/>
+    </node>
+    <node id="PIPELINE1" address="0x800">
+      <node id="PRESAMPLES"        address="0" permission="rw"/>
+      <node id="NSAMPLES"          address="1" permission="rw"/>
+      <node id="PIPELINEDEPTH"     address="2" permission="rw"/>
+      <node id="DEBUG"             address="3" permission="rw" mask="1"/>
+      <node id="ENABLE_ACCEPT"     address="4" permission="rw" mask="1"/>
+      <node id="RESET_SOFT"        address="4" permission="rw" mask="2"/>
+      <node id="RESET_HARD"        address="4" permission="rw" mask="4"/>
+      <node id="DAQ_PIPE_FUDGE"    address="7" permission="rw"/>
+      <node id="DAQ_PHASE_DELAY"   address="8" permission="rw"/>
+      <node id="DAQ_DELAY_READ_ADDRESS" address="16" permission="rw"/>
+      <node id="DAQ_WHICH_FIBER"   address="17" permission="rw"/>
+      <node id="DAQ_DELAY_ENABLE_SLICE" address="18" permission="rw"/>
+      <node id="RAM_EANBLE_CHOICE" address="23" permission="rw"/>
+      <node id="DAQ_QUEUE_HOLD"    address="24" permission="rw"/>
+      <node id="DAQ_QUEUE_ADVANCE" address="25" permission="rw"/>
+      <node id="DAQ_SLICE_HOLD"    address="26" permission="rw"/>
+      <node id="DAQ_SLICE_ADVANCE" address="27" permission="rw"/>
+      <node id="DAQ_FIFO_HOLD"     address="28" permission="rw"/>
+      <node id="DAQ_FIFO_ADVANCE"  address="29" permission="rw"/>
+      <node id="DAQ_WHICH_SLICE"   address="30" permission="rw"/>
+      <node id="DAQ_WHICH_CHANNEL" address="31" permission="rw"/>
+
+      <node id="DAQ_NUM_FIBERS"     address="32" permission="rw"/>
+      <node id="DAQ_NUM_SLICES"     address="33" permission="rw"/>
+      <node id="DAQ_PIPE_OVERFLOW"  address="35" permission="rw"/>
+      <node id="DAQ_ACCEPT_COUNTER" address="36" permission="rw"/>
+      <node id="DAQ_QUEUE_EMPTY"    address="38" permission="rw"/>
+      <node id="DAQ_QUEUE_DATA"     address="39" permission="rw"/>
+      <node id="DAQ_SLICE_EMPTY"    address="40" permission="rw"/>
+      <node id="DAQ_SLICE_DATA"     address="41" permission="rw"/>
+      <node id="DAQ_SLICE_COUNTER"  address="42" permission="rw"/>
+      <node id="DAQ_TR"             address="43" permission="rw"/>
+      <node id="DAQ_WCNT"           address="44" permission="rw"/>
+      <node id="DAQ_RCNT"           address="45" permission="rw"/>
+      <node id="DAQ_RAM_CTRL_STATE" address="46" permission="rw"/>
+      <node id="DAQ_FIFO_EMPTY"     address="47" permission="rw"/>
+      <node id="DAQ_FIFO_DATA"      address="48" permission="rw"/>
+      <node id="DAQ_FIFO_TR"        address="49" permission="rw"/>
+      <node id="DAQ_FIFO_WCNT"      address="50" permission="rw"/>
+      <node id="DAQ_FIFO_RCNT"      address="51" permission="rw"/>
+      <node id="DAQ_READ_ADDR"      address="52" permission="rw"/>
+      <node id="DAQ_NUM_CHANNELS"   address="53" permission="rw"/>
+      <node id="DAQ_WRITE_ADDR"     address="54" permission="rw"/>
+      <node id="DAQ_WRITE_PTR"      address="55" permission="rw"/>
+      <node id="DAQ_ERROR_COUNT"    address="56" permission="rw"/>
+      <node id="DAQ_CAPTURE_DATA"   address="57" permission="rw"/>
+      <node id="DAQ_SWL1A"          address="64" permission="w"/>
+    </node>
+    <node id="PIPELINE_TP" address="0x900">
+      <node id="PRESAMPLES"        address="0" permission="rw"/>
+      <node id="NSAMPLES"          address="1" permission="rw"/>
+      <node id="PIPELINEDEPTH"     address="2" permission="rw"/>
+      <node id="DEBUG"             address="3" permission="rw" mask="1"/>
+      <node id="ENABLE_ACCEPT"     address="4" permission="rw" mask="1"/>
+      <node id="RESET_SOFT"        address="4" permission="rw" mask="2"/>
+      <node id="RESET_HARD"        address="4" permission="rw" mask="4"/>
+      <node id="DAQ_PIPE_FUDGE"    address="7" permission="rw"/>
+      <node id="DAQ_PHASE_DELAY"   address="8" permission="rw"/>
+      <node id="DAQ_DELAY_READ_ADDRESS" address="16" permission="rw"/>
+      <node id="DAQ_WHICH_FIBER"   address="17" permission="rw"/>
+      <node id="DAQ_DELAY_ENABLE_SLICE" address="18" permission="rw"/>
+      <node id="RAM_EANBLE_CHOICE" address="23" permission="rw"/>
+      <node id="DAQ_QUEUE_HOLD"    address="24" permission="rw"/>
+      <node id="DAQ_QUEUE_ADVANCE" address="25" permission="rw"/>
+      <node id="DAQ_SLICE_HOLD"    address="26" permission="rw"/>
+      <node id="DAQ_SLICE_ADVANCE" address="27" permission="rw"/>
+      <node id="DAQ_FIFO_HOLD"     address="28" permission="rw"/>
+      <node id="DAQ_FIFO_ADVANCE"  address="29" permission="rw"/>
+      <node id="DAQ_WHICH_SLICE"   address="30" permission="rw"/>
+      <node id="DAQ_WHICH_CHANNEL" address="31" permission="rw"/>
+
+      <node id="DAQ_NUM_FIBERS"     address="32" permission="rw"/>
+      <node id="DAQ_NUM_SLICES"     address="33" permission="rw"/>
+      <node id="DAQ_PIPE_OVERFLOW"  address="35" permission="rw"/>
+      <node id="DAQ_ACCEPT_COUNTER" address="36" permission="rw"/>
+      <node id="DAQ_QUEUE_EMPTY"    address="38" permission="rw"/>
+      <node id="DAQ_QUEUE_DATA"     address="39" permission="rw"/>
+      <node id="DAQ_SLICE_EMPTY"    address="40" permission="rw"/>
+      <node id="DAQ_SLICE_DATA"     address="41" permission="rw"/>
+      <node id="DAQ_SLICE_COUNTER"  address="42" permission="rw"/>
+      <node id="DAQ_TR"             address="43" permission="rw"/>
+      <node id="DAQ_WCNT"           address="44" permission="rw"/>
+      <node id="DAQ_RCNT"           address="45" permission="rw"/>
+      <node id="DAQ_RAM_CTRL_STATE" address="46" permission="rw"/>
+      <node id="DAQ_FIFO_EMPTY"     address="47" permission="rw"/>
+      <node id="DAQ_FIFO_DATA"      address="48" permission="rw"/>
+      <node id="DAQ_FIFO_TR"        address="49" permission="rw"/>
+      <node id="DAQ_FIFO_WCNT"      address="50" permission="rw"/>
+      <node id="DAQ_FIFO_RCNT"      address="51" permission="rw"/>
+      <node id="DAQ_READ_ADDR"      address="52" permission="rw"/>
+      <node id="DAQ_NUM_CHANNELS"   address="53" permission="rw"/>
+      <node id="DAQ_WRITE_ADDR"     address="54" permission="rw"/>
+      <node id="DAQ_WRITE_PTR"      address="55" permission="rw"/>
+      <node id="DAQ_ERROR_COUNT"    address="56" permission="rw"/>
+      <node id="DAQ_CAPTURE_DATA"   address="57" permission="rw"/>
+      <node id="DAQ_SWL1A"          address="64" permission="w"/>
+    </node>
+
+  </node> <!-- end of FRONT -->
+
+  <node id="BACK">
+
+    <!-- General -->
+    <node id="FIRMWARE_REVISION" address="0x101" permission="read" description="Firmware revision">
+      <node id="FIRMWARE_FLAVOR" mask="0xFF000000" description="Flavor of the version"/>
+      <node id="FIRMWARE_MAJOR" mask="0x00FF0000" description="Major revision number for the firmware" />
+      <node id="FIRMWARE_MINOR" mask="0x0000FF00" description=" Minor revision number for the firmware" />
+      <node id="FIRMWARE_PATCH" mask="0x000000FF" description=" Patch revision number for the firmware" />
+    </node>
+    <node id="BOARDIDENTIFIER" address="0x102" mask="0xFFFFFFFF" permission="read" description="Board version"/>
+
+    <node id="SYSMON" address="0x180">
+      <node id="TEMPCORE" permission="r" address="0"/>
+      <node id="VOLTCORE" permission="r" address="1"/>
+      <node id="VOLTAUX" permission="r" address="2"/>
+    </node>
+
+    <!-- Clock rates -->
+    <node id="CLOCK_RATES" address="0x300" permission="read" mode="incremental" size="15" description=" Buffer of clock rates in 100Hz units"/>
+    <!--node id="CLOCK_RATE_IPBUS" mask="0xFFFFFFFF" description="Clock rate of the IPbus clock (currently 25 MHZ) in 100 Hz units"/>
+	<node id="CLOCK_RATE_100MHZ" mask="0xFFFFFFFF" description=" Clock rate of the 100 MHz crystal clock in 100 Hz units"/>
+	<node id="CLOCK_RATE_LHC" mask="0xFFFFFFFF" description=" Clock rate of the LHC clock in 100 Hz units"/>/>
+	<node id="CLOCK_RATE_LHC2" mask="0xFFFFFFFF" description=" Clock rate of the 2*LHC clock in 100 Hz units"/>
+	<node id="CLOCK_RATE_LHC3" mask="0xFFFFFFFF" description=" Clock rate of the 3*LHC clock in 100 Hz units"/>
+	<node id="CLOCK_RATE_LHC4" mask="0xFFFFFFFF" description=" Clock rate of the 4*LHC clock in 100 Hz units"/>
+	<node id="CLOCK_RATE_LHC6" mask="0xFFFFFFFF" description=" Clock rate of the 6*LHC clock in 100 Hz units"/>
+	<node id="CLOCK_RATE_LHC8" mask="0xFFFFFFFF" description=" Clock rate of the 8*LHC clock in 100 Hz units"/>
+	<node id="CLOCK_RATE_ORBIT" mask="0xFFFFFFFF" description=" Orbit signal rate in 100 Hz units"/>
+	</node-->
+
+    <!-- DTC -->
+    <node id="DTC" address="0x400">
+      <node id="RESET" address="16" mask="0x10" permission="w" description="Reset the DTC block"/>
+      <node id="RESET_ERROR_COUNTERS" address="16" mask="0x20" permission="w" description="Reset the error counters"/>
+      <node id="RATE_40MHZ" address="0x0" mask="0xFFFFFFFF" permission="r" description="DTC 40 MHz"/>
+      <node id="RATE_ORBIT" address="0x1" mask="0xFFFFFFFF" permission="r" description="DTC Orbit rate"/>
+      <node id="BUNCH_COUNT" address="0x2" mask="0xFFFFFFFF" permission="r" description="Bunch Count"/>
+      <node id="EVENT_NUMBER" address="0x3" mask="0xFFFFFFFF" permission="r" description="Event Number"/>
+      <node id="BC0_ERROR" address="0x4" mask="0xFFFFFFFF" permission="r" description="BC0 Error Count"/>
+      <node id="SINGLE_ERROR" address="0x5" mask="0xFFFFFFFF" permission="r" description="Single Error Count"/>
+      <node id="DOUBLE_ERROR" address="0x6" mask="0xFFFFFFFF" permission="r" description="Double Error Count"/>
+      <node id="ORM_CMD_QUEUED" address="7" mask="1" permission="r" description="An ORM command is queued"/>
+      <node id="ORM_START_COUNT" address="8" mask="0xFFFF" permission="r" description="Number of oRM start requests"/>
+      <node id="ORM_STOP_COUNT" address="9" mask="0xFFFF" permission="r" description="Number of oRM start requests"/>
+      <node id="ORM_CMD_COUNT" address="10" mask="0xFFFF" permission="r" description="Number of oRM cmd requests"/>
+      <node id="LUMI_NIBBLE" address="11" mask="0xFFFFFFFF" permission="r" description="Number of the next lumi nibble"/>
+      <node id="LUMI_SECTION" address="12" mask="0xFFFFFFFF" permission="r" description="Number of the next lumi section"/>
+      <node id="CMS_RUN" address="13" mask="0xFFFFFFFF" permission="r" description="Number of the CMS Run"/>
+      <node id="LHC_FILL" address="14" mask="0xFFFFFFFF" permission="r" description="Number of the LHC Fill"/>
+      <node id="ORM_START" address="16" mask="0x1" permission="w" description="Generate an oRM start"/>
+      <node id="ORM_STOP" address="16" mask="0x2" permission="w" description="Generate an oRM stop"/>
+      <node id="ORM_SEND" address="16" mask="0x4" permission="w" description="Generate an oRM send"/>
+      <node id="ORM_CMD" address="17" mask="0xFFFFFFFF" permission="rw" description="ORM command code"/>
+      <node id="TTC_STREAM_PHASE_CONTROL" address="18" mask="0x3" permission="rw" description="Manual control over the TTC stream phase"/>
+      <node id="TTC_STREAM_PHASE_OVERRIDE" address="18" mask="0x4" permission="rw" description="Manual override"/>
+      <node id="TTC_STREAM_AUTO_THRESHOLD" address="18" mask="0xFF00" permission="rw" description="Threshold for auto set of delays"/>
+      <node id="TTC_STREAM_PHASE" address="15" mask="0x3" permission="r" description="Read the TTC stream phase"/>
+      <node id="TTC_STREAM_PHASE_LOCKED" address="15" mask="0x4" permission="r" description="Has the auto-lock succeeded?"/>
+
+    </node>
+
+    <!-- DDR3 -->
+    <node id="DDR" address="0x800">
+       <node id="DATA_WRITE"        address="0x0" permission="rw" description="data write"/>
+       <node id="ENABLE_DATA0_WRITE" address="0x1" permission="rw" description="enable data write"/>
+       <node id="ENABLE_DATA1_WRITE" address="0x2" permission="rw" description="enable data write"/>
+       <node id="ENABLE_DATA2_WRITE" address="0x3" permission="rw" description="enable data write"/>
+       <node id="ENABLE_DATA3_WRITE" address="0x4" permission="rw" description="enable data write"/>
+       <node id="ADDR_WRITE"        address="0x5" permission="rw" description="address write"/>
+       <node id="ENABLE_ADDR_WRITE" address="0x6" permission="rw" description="enable addr write"/>
+       <node id="ADDR_READ"         address="0x7" permission="rw" description="address read"/>
+       <node id="ENABLE_ADDR_READ"  address="0x8" permission="rw" description="enable addr read"/>
+       <node id="ENABLE_DATA0_READ"  address="0x9" permission="rw" description="enable data read"/>
+       <node id="ENABLE_DATA1_READ"  address="0xA" permission="rw" description="enable data read"/>
+       <node id="ENABLE_DATA2_READ"  address="0xB" permission="rw" description="enable data read"/>
+       <node id="ENABLE_DATA3_READ"  address="0xC" permission="rw" description="enable data read"/>
+       <node id="USE_IPBUS"         address="0xE" permission="rw" description="data read"/>
+       <node id="RESET_DDR3"        address="0xF" permission="rw" description="data read"/>
+
+       <node id="DATA0_READ"            address="0x10" permission="r" description="data read"/>
+       <node id="DATA1_READ"            address="0x11" permission="r" description="data read"/>
+       <node id="DATA2_READ"            address="0x12" permission="r" description="data read"/>
+       <node id="DATA3_READ"            address="0x13" permission="r" description="data read"/>
+       <node id="FULL_WRITE"           address="0x14" permission="r" description="write full"/>
+       <node id="FULL_READ"            address="0x15" permission="r" description="read full"/>
+       <node id="EMPTY_READ"           address="0x16" permission="r" description="read empty"/>
+       <node id="PHY_INIT_DONE"        address="0x17" permission="r" description="other status"/>
+       <node id="STATE"                address="0x18" permission="r" description="other status"/>
+       <node id="CONSECUTIVE_WRITES"   address="0x19" permission="r" description="other status"/>
+       <node id="COUNT_ENABLE_ADDR_W"  address="0x1A" permission="r" description="other status"/>
+       <node id="COUNT_ENABLE_DATA0_W"  address="0x1B" permission="r" description="other status"/>
+       <node id="COUNT_ENABLE_DATA1_W"  address="0x1C" permission="r" description="other status"/>
+       <node id="COUNT_ENABLE_DATA2_W"  address="0x1D" permission="r" description="other status"/>
+       <node id="COUNT_ENABLE_DATA3_W"  address="0x1E" permission="r" description="other status"/>
+       <node id="COUNT_ENABLE_ADDR_R"   address="0x1F" permission="r" description="other status"/>
+       <node id="COUNT_ENABLE_DATA0_R"  address="0x20" permission="r" description="other status"/>
+       <node id="COUNT_ENABLE_DATA1_R"  address="0x21" permission="r" description="other status"/>
+       <node id="COUNT_ENABLE_DATA2_R"  address="0x22" permission="r" description="other status"/>
+       <node id="COUNT_ENABLE_DATA3_R"  address="0x23" permission="r" description="other status"/>
+       <node id="COUNT_READ_DATA0_W"    address="0x24" permission="r" description="other status"/>
+       <node id="COUNT_READ_DATA1_W"    address="0x25" permission="r" description="other status"/>
+       <node id="COUNT_READ_DATA2_W"    address="0x26" permission="r" description="other status"/>
+       <node id="COUNT_READ_DATA3_W"    address="0x27" permission="r" description="other status"/>
+       <node id="COUNT_READ_ADDR_W"     address="0x28" permission="r" description="other status"/>
+       <node id="COUNT_READ_ADDR_R"     address="0x29" permission="r" description="other status"/>
+       <node id="COUNT_APP_RD_DATA_END" address="0x2A" permission="r" description="other status"/>
+       <node id="COUNT_APP_RD_VALID0"    address="0x2B" permission="r" description="other status"/>
+       <node id="COUNT_APP_RD_VALID1"    address="0x2C" permission="r" description="other status"/>
+       <node id="COUNT_APP_RD_VALID2"    address="0x2D" permission="r" description="other status"/>
+       <node id="COUNT_APP_RD_VALID3"    address="0x2E" permission="r" description="other status"/>
+       <node id="COUNT_APP_WDF_WREN"    address="0x2F" permission="r" description="other status"/>
+       <node id="COUNT_APP_WDF_END"     address="0x30" permission="r" description="other status"/>
+       <node id="COUNT_APP_EN"          address="0x31" permission="r" description="other status"/>
+       <node id="COUNT_STATE_WRITE0"  address="0x32" permission="r" description="other status"/>
+       <node id="COUNT_STATE_WRITE1"  address="0x33" permission="r" description="other status"/>
+       <node id="COUNT_STATE_WRITE2"  address="0x34" permission="r" description="other status"/>
+       <node id="COUNT_STATE_WRITE3"  address="0x35" permission="r" description="other status"/>
+       <node id="COUNT_STATE_READ0"  address="0x36" permission="r" description="other status"/>
+       <node id="COUNT_STATE_READ1"  address="0x37" permission="r" description="other status"/>
+       <node id="COUNT_STATE_READ2"  address="0x38" permission="r" description="other status"/>
+       <node id="CNT_RDY_WRITE0"  address="0x39" permission="r" description="other status"/>
+       <node id="CNT_RDY_WRITE1"  address="0x3A" permission="r" description="other status"/>
+       <node id="CNT_RDY_WRITE2"  address="0x3B" permission="r" description="other status"/>
+       <node id="CNT_RDY_WRITE3"  address="0x3C" permission="r" description="other status"/>
+       <node id="CNT_RDY_READ0"  address="0x3D" permission="r" description="other status"/>
+       <node id="CNT_RDY_READ1"  address="0x3E" permission="r" description="other status"/>
+       <node id="CNT_RDY_READ2"  address="0x3F" permission="r" description="other status"/>
+       <node id="RATE_CLK_FIFO"     address="0x40" permission="r" description="other status"/>
+       <node id="RATE_CLK_200MHZ"   address="0x41" permission="r" description="other status"/>
+       <node id="RATE_CLK_400"      address="0x42" permission="r" description="other status"/>
+       <node id="RATE_CLK_UI"       address="0x43" permission="r" description="other status"/>
+       <node id="RESET_CLK_FIFO"    address="0x44" permission="wr" description="other status"/>
+       <node id="RESET_CLK_400"     address="0x45" permission="wr" description="other status"/>
+       <node id="RESET_CLK_UI"      address="0x46" permission="wr" description="other status"/>
+       <node id="DDR3_VERSION"      address="0x47" permission="r" description="other status"/>
+    </node>  
+
+    <!-- I2C SENSORS -->
+    <node id="SENSORS" address="0x3000">
+       <node id="DIRECT" address="0x1">
+         <node id="DATA_OUT" mask="0xFF" permission="rw" description="Direct access, data to I2C core"/>
+         <node id="ADDR" mask="0x700" permission="rw" description="Direct access, address to I2C core"/>
+         <node id="WRITE" mask="0x1000" permission="rw" description="Direct access, write-enable to I2C core"/>
+         <node id="DATA_IN" mask="0xFF0000" permission="rw" description="Direct access, data from I2C core"/>
+	 <node id="ENGINE_BUSY" mask="0x80000000" permission="r" description="I2C engine is running"/>
+       </node>
+       <node id="DIRECT_START" address="0x0" mask="0x1" permission="rw" description="Start direct I2C core action"/>
+       
+       <node id="ENABLE_ENGINE" address="0x0" mask="0x2" permission="rw" description="Enable the engine to process I2C commands"/>
+       <node id="RESET_ENGINE" address="0x0" mask="0x4" permission="rw" description="Reset the engine which processes I2C commands (does not automatically clear)"/>
+       <node id="INSTRUCTION_WORDS" address="0x2" mask="0xFFF" permission="r" description="Number of words in the instruction fifo"/>
+       <node id="RESULT_WORDS" address="0x3" mask="0xFFF" permission="r" description="Number of words in the results fifo"/>
+
+       <node id="INSTRUCTION_FIFO" address="0x100" mode="non-inc" size="0x400" permission="rw" description="Instruction words for the engine"/>
+       <node id="RESULT_FIFO" address="0x200" mode="non-inc" size="0x400" permission="r" description="Response words for the engine"/>
+       <node id="INSTRUCTION_BUFFER" address="0x400" mode="incremental" size="0x400" permission="rw" description="Instruction words for the engine"/>
+       <node id="RESPONSE_BUFFER" address="0x800" mode="incremental" size="0x400" permission="rw" description="Response words from the engine"/>
+
+    </node>
+
+    <!-- LUMI -->
+    <node id="LUMI" address="0x500000">
+       <node id="LHC_ADVANCE_POINTER" address="0x1" mask="0x1" permission="write" description="Lumi advance"/>
+       <node id="LHC_VALID_ADVANCE_POINTER" address="0x1" mask="0x2" permission="write" description="Lumi advance"/>
+       <node id="CMS1_ADVANCE_POINTER" address="0x1" mask="0x4" permission="write" description="Lumi advance"/>
+       <node id="CMS2_ADVANCE_POINTER" address="0x1" mask="0x8" permission="write" description="Lumi advance"/>
+       <node id="CMS_VALID_ADVANCE_POINTER" address="0x1" mask="0x10" permission="write" description="Lumi advance"/>
+       <node id="CMS_ET_ADVANCE_POINTER" address="0x1" mask="0x20" permission="write" description="Lumi advance"/>
+       <node id="LINK_RESET" address="0x1" mask="0x100" permission="write" description="Reset the link receiver"/>
+       <node id="DECODER_RESET" address="0x1" mask="0x200" permission="write" description="Reset the link receiver"/>
+       <node id="LINK_ALIGN_STATE" address="0x0" mask="0xFF0000" permission="read" description="link align status"/>
+       <node id="LINK_SPY_MODE" address="0x0" mask="0xF000" permission="rw" description="link spy mode (2=stop)"/>
+       <node id="LINK_SPY" address="0x7000" permission="r" mode="incremental" size="64" description="small spy buffer to look at data from the link"/>
+       <node id="LHC_N_ORBITS" address="0x2" mask="0xFFFFFFFF" permission="readwrite" description="Number of orbits to integrate for LHC lumi"/>
+       <node id="CMS_N_ORBITS" address="0x3" mask="0xFFFFFFFF" permission="readwrite" description="Number of orbits to integrate for CMS lumi"/>
+       <node id="LUMI_BC0_RATE" address="0x8" permission="r" mask="0xFFFFFFFF" description="BC0 rate on the link"/>
+       <node id="TRIG_BC0_RATE" address="0x9" permission="r" mask="0xFFFFFFFF" description="BC0 rate on the link"/>
+       <node id="LINK_ERRORS" address="0x7" permission="r" mask="0xFFFFFFFF" description="Link error count"/>
+       <node id="LHC" address="0x1000">
+          <node id="HIST" address="0x0" permission="read" mode="incremental" size="0xFF0" description="LHC Histogram "/>
+          <node id="FIRST_ORBIT" address="0xFF0" mask="0xFFFFFFFF" permission="read" description="First orbit for LHC Histogram "/>
+          <node id="LAST_ORBIT" address="0xFF1" mask="0xFFFFFFFF" permission="read" description="last orbit for LHC Histogram "/>
+          <node id="AVAILABLE" address="0xFF2" mask="0xFFFFFFFF" permission="read" description="LHC Histogram available "/>
+          <node id="OVERFLOW" address="0xFF3" mask="0xFFFFFFFF" permission="read" description="LHC Histogram overflow"/>
+          <node id="READ_POINTER" address="0xFF4" mask="0xF" permission="read" description="LHC Histogram current read pointer"/>
+          <node id="WRITE_POINTER" address="0xFF4" mask="0xF0" permission="read" description="LHC Histogram current write pointer"/>
+	  <node id="LUMI_NIBBLE" address="0xFF5" mask="0xFFFFFFFF" permission="read" description="Lumi nibble for this histrogram (from TTC)"/>
+	  <node id="LUMI_SECTION" address="0xFF6" mask="0xFFFFFFFF" permission="read" description="Lumi section number for this histrogram (from TTC)"/>
+	  <node id="CMS_RUN" address="0xFF7" mask="0xFFFFFFFF" permission="read" description="CMS run number for this histrogram (from TTC)"/>
+	  <node id="LHC_FILL" address="0xFF8" mask="0xFFFFFFFF" permission="read" description="LHC fill number for this histrogram (from TTC)"/>
+
+       </node>
+       <node id="LHC_VALID" address="0x2000">
+          <node id="HIST" address="0x0" permission="readwrite" mode="incremental" size="0xFF0" description="LHC_valid Histogram "/>
+          <node id="FIRST_ORBIT" address="0xFF0" mask="0xFFFFFFFF" permission="readwrite" description="First orbit for LHC_valid Histogram "/>
+          <node id="LAST_ORBIT" address="0xFF1" mask="0xFFFFFFFF" permission="readwrite" description="last orbit for LHC_valid Histogram "/>
+          <node id="AVAILABLE" address="0xFF2" mask="0xFFFFFFFF" permission="read" description="LHC_valid Histogram available "/>
+          <node id="OVERFLOW" address="0xFF3" mask="0xFFFFFFFF" permission="read" description="LHC_valid Histogram overflow"/>
+          <node id="READ_POINTER" address="0xFF4" mask="0xF" permission="read" description="LHC_valid Histogram current read pointer"/>
+          <node id="WRITE_POINTER" address="0xFF4" mask="0xF0" permission="read" description="LHC_valid Histogram current write pointer"/>
+	  <node id="LUMI_NIBBLE" address="0xFF5" mask="0xFFFFFFFF" permission="read" description="Lumi nibble for this histrogram (from TTC)"/>
+	  <node id="LUMI_SECTION" address="0xFF6" mask="0xFFFFFFFF" permission="read" description="Lumi section number for this histrogram (from TTC)"/>
+	  <node id="CMS_RUN" address="0xFF7" mask="0xFFFFFFFF" permission="read" description="CMS run number for this histrogram (from TTC)"/>
+	  <node id="LHC_FILL" address="0xFF8" mask="0xFFFFFFFF" permission="read" description="LHC fill number for this histrogram (from TTC)"/>
+       </node>
+       <node id="CMS1" address="0x3000">
+          <node id="HIST" address="0x0" permission="readwrite" mode="incremental" size="0xFF0" description="CMS1 Histogram "/>
+          <node id="FIRST_ORBIT" address="0xFF0" mask="0xFFFFFFFF" permission="readwrite" description="First orbit for CMS1 Histogram "/>
+          <node id="LAST_ORBIT" address="0xFF1" mask="0xFFFFFFFF" permission="readwrite" description="last orbit for CMS1 Histogram "/>
+          <node id="AVAILABLE" address="0xFF2" mask="0xFFFFFFFF" permission="read" description="CMS1 Histogram available "/>
+          <node id="OVERFLOW" address="0xFF3" mask="0xFFFFFFFF" permission="read" description="CMS1 Histogram overflow"/>
+          <node id="READ_POINTER" address="0xFF4" mask="0xF" permission="read" description="CMS1 Histogram current read pointer"/>
+          <node id="WRITE_POINTER" address="0xFF4" mask="0xF0" permission="read" description="CMS1 Histogram current write pointer"/>
+	  <node id="LUMI_NIBBLE" address="0xFF5" mask="0xFFFFFFFF" permission="read" description="Lumi nibble for this histrogram (from TTC)"/>
+	  <node id="LUMI_SECTION" address="0xFF6" mask="0xFFFFFFFF" permission="read" description="Lumi section number for this histrogram (from TTC)"/>
+	  <node id="CMS_RUN" address="0xFF7" mask="0xFFFFFFFF" permission="read" description="CMS run number for this histrogram (from TTC)"/>
+	  <node id="LHC_FILL" address="0xFF8" mask="0xFFFFFFFF" permission="read" description="LHC fill number for this histrogram (from TTC)"/>
+       </node>
+       <node id="CMS2" address="0x4000">
+          <node id="HIST" address="0x0" permission="readwrite" mode="incremental" size="0xFF0" description="CMS2 Histogram "/>
+          <node id="FIRST_ORBIT" address="0xFF0" mask="0xFFFFFFFF" permission="readwrite" description="First orbit for CMS2 Histogram "/>
+          <node id="LAST_ORBIT" address="0xFF1" mask="0xFFFFFFFF" permission="readwrite" description="last orbit for CMS2 Histogram "/>
+          <node id="AVAILABLE" address="0xFF2" mask="0xFFFFFFFF" permission="read" description="CMS2 Histogram available "/>
+          <node id="OVERFLOW" address="0xFF3" mask="0xFFFFFFFF" permission="read" description="CMS2 Histogram overflow"/>
+          <node id="READ_POINTER" address="0xFF4" mask="0xF" permission="read" description="CMS2 Histogram current read pointer"/>
+          <node id="WRITE_POINTER" address="0xFF4" mask="0xF0" permission="read" description="CMS2 Histogram current write pointer"/>
+	  <node id="LUMI_NIBBLE" address="0xFF5" mask="0xFFFFFFFF" permission="read" description="Lumi nibble for this histrogram (from TTC)"/>
+	  <node id="LUMI_SECTION" address="0xFF6" mask="0xFFFFFFFF" permission="read" description="Lumi section number for this histrogram (from TTC)"/>
+	  <node id="CMS_RUN" address="0xFF7" mask="0xFFFFFFFF" permission="read" description="CMS run number for this histrogram (from TTC)"/>
+	  <node id="LHC_FILL" address="0xFF8" mask="0xFFFFFFFF" permission="read" description="LHC fill number for this histrogram (from TTC)"/>
+       </node>
+       <node id="CMS_VALID" address="0x5000">
+          <node id="HIST" address="0x0" permission="readwrite" mode="incremental" size="0xFF0" description="CMSValid Histogram "/>
+          <node id="FIRST_ORBIT" address="0xFF0" mask="0xFFFFFFFF" permission="readwrite" description="First orbit for CMS2 Histogram "/>
+          <node id="LAST_ORBIT" address="0xFF1" mask="0xFFFFFFFF" permission="readwrite" description="last orbit for CMS2 Histogram "/>
+          <node id="AVAILABLE" address="0xFF2" mask="0xFFFFFFFF" permission="read" description="CMS_valid Histogram available "/>
+          <node id="OVERFLOW" address="0xFF3" mask="0xFFFFFFFF" permission="read" description="CMS_valid Histogram overflow"/>
+          <node id="READ_POINTER" address="0xFF4" mask="0xF" permission="read" description="CMS_valid Histogram current read pointer"/>
+          <node id="WRITE_POINTER" address="0xFF4" mask="0xF0" permission="read" description="CMS_valid Histogram current write pointer"/>
+	  <node id="LUMI_NIBBLE" address="0xFF5" mask="0xFFFFFFFF" permission="read" description="Lumi nibble for this histrogram (from TTC)"/>
+	  <node id="LUMI_SECTION" address="0xFF6" mask="0xFFFFFFFF" permission="read" description="Lumi section number for this histrogram (from TTC)"/>
+	  <node id="CMS_RUN" address="0xFF7" mask="0xFFFFFFFF" permission="read" description="CMS run number for this histrogram (from TTC)"/>
+	  <node id="LHC_FILL" address="0xFF8" mask="0xFFFFFFFF" permission="read" description="LHC fill number for this histrogram (from TTC)"/>
+       </node>
+       <node id="CMS_ET" address="0x6000">
+          <node id="HIST" address="0x0" permission="readwrite" mode="incremental" size="0xFF0" description="CMSet Histogram "/>
+          <node id="FIRST_ORBIT" address="0xFF0" mask="0xFFFFFFFF" permission="readwrite" description="First orbit for CMS2 Histogram "/>
+          <node id="LAST_ORBIT" address="0xFF1" mask="0xFFFFFFFF" permission="readwrite" description="last orbit for CMS2 Histogram "/>
+          <node id="AVAILABLE" address="0xFF2" mask="0xFFFFFFFF" permission="read" description="CMS_et Histogram available "/>
+          <node id="OVERFLOW" address="0xFF3" mask="0xFFFFFFFF" permission="read" description="CMS_et Histogram overflow"/>
+          <node id="READ_POINTER" address="0xFF4" mask="0xF" permission="read" description="CMS_et Histogram current read pointer"/>
+          <node id="WRITE_POINTER" address="0xFF4" mask="0xF0" permission="read" description="CMS_et Histogram current write pointer"/>
+	  <node id="LUMI_NIBBLE" address="0xFF5" mask="0xFFFFFFFF" permission="read" description="Lumi nibble for this histrogram (from TTC)"/>
+	  <node id="LUMI_SECTION" address="0xFF6" mask="0xFFFFFFFF" permission="read" description="Lumi section number for this histrogram (from TTC)"/>
+	  <node id="CMS_RUN" address="0xFF7" mask="0xFFFFFFFF" permission="read" description="CMS run number for this histrogram (from TTC)"/>
+	  <node id="LHC_FILL" address="0xFF8" mask="0xFFFFFFFF" permission="read" description="LHC fill number for this histrogram (from TTC)"/>
+       </node>
+    </node> <!-- end of  lumi -->
+
+    <!-- BHM-LUMI -->
+    <node id="BHM" address="0x580000">
+       <node id="ADVANCE_POINTER" address="0x1" mask="0xFFFFFFFF" permission="write" description="Lumi advance"/>
+       <node id="CLEAR_OVERFLOW" address="0x2" mask="0xFFFFFFFF" permission="write" description="Clear overflow (specifically)"/>
+       <node id="LINK_RESET" address="0x0" mask="0x1" permission="readwrite" description="Reset the link receiver"/>
+       <node id="DECODER_RESET" address="0x0" mask="0x2" permission="readwrite" description="Reset the link receiver"/>
+       <node id="LINK_ALIGN_STATE" address="0x0" mask="0xFF0000" permission="read" description="link align status"/>
+       <node id="LINK_SPY_MODE" address="0x0" mask="0xF000" permission="rw" description="link spy mode (2=stop)"/>
+       <node id="LINK_SPY" address="0x40" permission="r" mode="incremental" size="64" description="small spy buffer to look at data from the link"/>
+       <node id="N_ORBITS" address="3" mask="0xFFFFFFFF" permission="readwrite" description="Number of orbits to integrate"/>
+       <node id="DATA_AVAILABLE" address="4" mode="incremental" size="3" description="Available bits for all the 21*4 histograms"/>
+       <node id="DATA_LOST" address="7" mode="incremental" size="3" description="Lost-data bits for all the 21*4 histograms"/>
+       <node id="LINK_ERRORS" address="10" permission="r" mask="0xFFFFFFFF" description="Error rate on the link"/>
+       <node id="LUMI_BC0_RATE" address="11" permission="r" mask="0xFFFFFFFF" description="BC0 rate on the link"/>
+       <node id="TRIG_BC0_RATE" address="12" permission="r" mask="0xFFFFFFFF" description="BC0 rate on the link"/>
+
+       <node id="HISTS" address="0x1000" permission="read" mode="incremental" size="0x1C000" description="Histograms for 21*4/3 series."/>
+       <!-- Each histogram has 3564 bunches and then contains :
+               AVAILABLE at relative address 0xFF0
+               OVERFLOW at relative address 0xFF1
+               FIRST_ORBIT in bytes at relative addresses [0xFF6,0xFF5,0xFF4,0xFF3]
+               LAST_ORBIT in bytes at relative addresses [0xFFA,0xFF9,0xFF8,0xFF7]
+               LUMI_NIBBLE in bytes at relative addresses [0xFE3,0xFE2,0xFE1,0xFE0]
+               LUMI_SECTION in bytes at relative addresses [0xFE7,0xFE6,0xFE5,0xFE4]
+               CMS_RUN in bytes at relative addresses [0xFEB,0xFEA,0xFE9,0xFE8]
+               LHC_FILL in bytes at relative addresses [0xFEF,0xFEE,0xFED,0xFEC]
+            Three 9-bit-wide histograms are packed into each 32-bit word (to minimize readout time):
+               HISTA : [8:0]
+               HISTB : [18:10]
+               HISTC : [28:20]
+            To select the TDC-code bin N for channel M, read histogram [(M/3)*4+N] and select the (M%3)-th histogram within the word.
+       -->
+    </node> <!-- end of BHM-lumi -->
+
+    <!-- SFP Control Words -->
+    <node id="SFP_LINKS" address="0x700">
+          <node id="CTRL_WORD_0" address="0x0" permission="rw" mask="0xFFFFFFFF" />
+          <node id="CTRL_WORD_1" address="0x1" permission="rw" mask="0xFFFFFFFF" />
+          <node id="STATUS_0"        address="0x2" permission="rw" />
+          <node id="STATUS_1"        address="0x3" permission="rw" />
+          <node id="ERROR_COUNTER_0" address="0x4" permission="rw" />
+          <node id="ERROR_COUNTER_1" address="0x5" permission="rw" />
+          <node id="RX_CLK_RATE0"    address="0x6" permission="rw" />
+          <node id="RX_CLK_RATE1"    address="0x7" permission="rw" />
+    </node>
+
+    <!-- SFP SPY RAM-->
+    <node id="SFP_SPY_START" address="0x200000" permission="rw" mask="0xFFFFFFFF" description="do a spy operation"/>>
+    <node id="SFP_SPY_ENABLE_CAPTURE_SW" address="0x200001" permission="rw" mask="0x1" description="enable capture signals from IPbus"/>
+    <node id="SFP_SPY_ENABLE_CAPTURE_DTC" address="0x200003" permission="rw" mask="0x1" description="enable accept signals from DTC"/>
+    <node id="SFP_SPY_ORBIT_NO_WAIT" address="0x200004" permission="rw" mask="0x1" description="don't wait until the start of the next orbit"/>
+    <node id="SFP_SPY_ALIGN_DELAY" address="0x200005" permission="rw" mask="0xFFFFFFFF" description="number of ticks to delay dtc_pulse"/>
+    <node id="SFP_SPY_PULSE_PRE" address="0x200006" permission="rw" mask="0xFFFFFFFF" description="number of pre_samples for the spy buffers"/>
+    <node id="SFP_SPY_PULSE_DELAY" address="0x200007" permission="rw" mask="0xFFFFFFFF" description="number of skip_samples for the spy buffers"/>
+    <node id="SFP_SPY_RAM_COUNT" address="0x20000A" permission="rw" mask="0xFFFFFFFF" description="number of spy rams"/>
+    <node id="SFP_SPY_RAM_WORDS" address="0x20000B" permission="rw" mask="0xFFFFFFFF" description="number of 32-bit words in each spy ram"/>
+    <node id="SFP_SPY_RAM_LINKMASK" address="0x20000C" permission="rw" mask="0xFFFFFFFF" description="fiber mask indicating which spy rams exist"/>
+    <node id="SFP_SPY_RAM_PTRS" address="0x200010" permission="rw" mode="incremental" size="2" description="spy ram pointers"/>
+
+    <!-- SELF TRIGGER MONITOR -->
+    <node id="SELF_TRIGGER" address="0x600000">
+       <node id="BIT0_ADVANCE_POINTER" address="0x0" mask="0x1" permission="write" description="Advance to next"/>
+       <node id="BIT1_ADVANCE_POINTER" address="0x0" mask="0x4" permission="write" description="Advance to next"/>
+       <node id="BIT2_ADVANCE_POINTER" address="0x0" mask="0x10" permission="write" description="Advance to next"/>
+       <node id="BIT3_ADVANCE_POINTER" address="0x0" mask="0x40" permission="write" description="Advance to next"/>
+       <node id="BIT4_ADVANCE_POINTER" address="0x0" mask="0x100" permission="write" description="Advance to next"/>
+       <node id="BIT5_ADVANCE_POINTER" address="0x0" mask="0x400" permission="write" description="Advance to next"/>
+       <node id="BIT6_ADVANCE_POINTER" address="0x0" mask="0x1000" permission="write" description="Advance to next"/>
+       <node id="BIT7_ADVANCE_POINTER" address="0x0" mask="0x4000" permission="write" description="Advance to next"/>
+
+       <node id="BIT0_RESET_LOSS" address="0x0" mask="0x2" permission="write" description="Clear failure"/>
+       <node id="BIT1_RESET_LOSS" address="0x0" mask="0x8" permission="write" description="Clear failure"/>
+       <node id="BIT2_RESET_LOSS" address="0x0" mask="0x20" permission="write" description="Clear failure"/>
+       <node id="BIT3_RESET_LOSS" address="0x0" mask="0x80" permission="write" description="Clear failure"/>
+       <node id="BIT4_RESET_LOSS" address="0x0" mask="0x200" permission="write" description="Clear failure"/>
+       <node id="BIT5_RESET_LOSS" address="0x0" mask="0x800" permission="write" description="Clear failure"/>
+       <node id="BIT6_RESET_LOSS" address="0x0" mask="0x2000" permission="write" description="Clear failure"/>
+       <node id="BIT7_RESET_LOSS" address="0x0" mask="0x8000" permission="write" description="Clear failure"/>
+
+       <node id="MANUAL_START" address="0x0" mask="0x10000" permission="write" description=""/>
+       <node id="N_ORBITS" address="0x1" mask="0xFFFFFFFF" permission="readwrite" description="Number of orbits to integrate"/>
+
+       <node id="BIT0" address="0x1000">
+          <node id="HIST" address="0x0" permission="read" mode="incremental" size="0xFF0" description="Histogram "/>
+          <node id="FIRST_ORBIT" address="0xFF0" mask="0xFFFFFFFF" permission="read" description="First orbit for histogram "/>
+          <node id="LAST_ORBIT" address="0xFF1" mask="0xFFFFFFFF" permission="read" description="Last orbit for histogram "/>
+          <node id="AVAILABLE" address="0xFF2" mask="0xFFFFFFFF" permission="read" description="Histogram available "/>
+          <node id="OVERFLOW" address="0xFF3" mask="0xFFFFFFFF" permission="read" description="Histogram overflow"/>
+          <node id="READ_POINTER" address="0xFF4" mask="0xF" permission="read" description="Histogram current read pointer"/>
+          <node id="WRITE_POINTER" address="0xFF4" mask="0xF0" permission="read" description="Histogram current write pointer"/>
+       </node>
+       <node id="BIT1" address="0x2000">
+          <node id="HIST" address="0x0" permission="read" mode="incremental" size="0xFF0" description="Histogram "/>
+          <node id="FIRST_ORBIT" address="0xFF0" mask="0xFFFFFFFF" permission="read" description="First orbit for histogram "/>
+          <node id="LAST_ORBIT" address="0xFF1" mask="0xFFFFFFFF" permission="read" description="Last orbit for histogram "/>
+          <node id="AVAILABLE" address="0xFF2" mask="0xFFFFFFFF" permission="read" description="Histogram available "/>
+          <node id="OVERFLOW" address="0xFF3" mask="0xFFFFFFFF" permission="read" description="Histogram overflow"/>
+          <node id="READ_POINTER" address="0xFF4" mask="0xF" permission="read" description="Histogram current read pointer"/>
+          <node id="WRITE_POINTER" address="0xFF4" mask="0xF0" permission="read" description="Histogram current write pointer"/>
+       </node>
+       <node id="BIT2" address="0x3000">
+          <node id="HIST" address="0x0" permission="read" mode="incremental" size="0xFF0" description="Histogram "/>
+          <node id="FIRST_ORBIT" address="0xFF0" mask="0xFFFFFFFF" permission="read" description="First orbit for histogram "/>
+          <node id="LAST_ORBIT" address="0xFF1" mask="0xFFFFFFFF" permission="read" description="Last orbit for histogram "/>
+          <node id="AVAILABLE" address="0xFF2" mask="0xFFFFFFFF" permission="read" description="Histogram available "/>
+          <node id="OVERFLOW" address="0xFF3" mask="0xFFFFFFFF" permission="read" description="Histogram overflow"/>
+          <node id="READ_POINTER" address="0xFF4" mask="0xF" permission="read" description="Histogram current read pointer"/>
+          <node id="WRITE_POINTER" address="0xFF4" mask="0xF0" permission="read" description="Histogram current write pointer"/>
+       </node>
+       <node id="BIT3" address="0x4000">
+          <node id="HIST" address="0x0" permission="read" mode="incremental" size="0xFF0" description="Histogram "/>
+          <node id="FIRST_ORBIT" address="0xFF0" mask="0xFFFFFFFF" permission="read" description="First orbit for histogram "/>
+          <node id="LAST_ORBIT" address="0xFF1" mask="0xFFFFFFFF" permission="read" description="Last orbit for histogram "/>
+          <node id="AVAILABLE" address="0xFF2" mask="0xFFFFFFFF" permission="read" description="Histogram available "/>
+          <node id="OVERFLOW" address="0xFF3" mask="0xFFFFFFFF" permission="read" description="Histogram overflow"/>
+          <node id="READ_POINTER" address="0xFF4" mask="0xF" permission="read" description="Histogram current read pointer"/>
+          <node id="WRITE_POINTER" address="0xFF4" mask="0xF0" permission="read" description="Histogram current write pointer"/>
+       </node>
+       <node id="BIT4" address="0x5000">
+          <node id="HIST" address="0x0" permission="read" mode="incremental" size="0xFF0" description="Histogram "/>
+          <node id="FIRST_ORBIT" address="0xFF0" mask="0xFFFFFFFF" permission="read" description="First orbit for histogram "/>
+          <node id="LAST_ORBIT" address="0xFF1" mask="0xFFFFFFFF" permission="read" description="Last orbit for histogram "/>
+          <node id="AVAILABLE" address="0xFF2" mask="0xFFFFFFFF" permission="read" description="Histogram available "/>
+          <node id="OVERFLOW" address="0xFF3" mask="0xFFFFFFFF" permission="read" description="Histogram overflow"/>
+          <node id="READ_POINTER" address="0xFF4" mask="0xF" permission="read" description="Histogram current read pointer"/>
+          <node id="WRITE_POINTER" address="0xFF4" mask="0xF0" permission="read" description="Histogram current write pointer"/>
+       </node>
+       <node id="BIT5" address="0x6000">
+          <node id="HIST" address="0x0" permission="read" mode="incremental" size="0xFF0" description="Histogram "/>
+          <node id="FIRST_ORBIT" address="0xFF0" mask="0xFFFFFFFF" permission="read" description="First orbit for histogram "/>
+          <node id="LAST_ORBIT" address="0xFF1" mask="0xFFFFFFFF" permission="read" description="Last orbit for histogram "/>
+          <node id="AVAILABLE" address="0xFF2" mask="0xFFFFFFFF" permission="read" description="Histogram available "/>
+          <node id="OVERFLOW" address="0xFF3" mask="0xFFFFFFFF" permission="read" description="Histogram overflow"/>
+          <node id="READ_POINTER" address="0xFF4" mask="0xF" permission="read" description="Histogram current read pointer"/>
+          <node id="WRITE_POINTER" address="0xFF4" mask="0xF0" permission="read" description="Histogram current write pointer"/>
+       </node>
+       <node id="BIT6" address="0x7000">
+          <node id="HIST" address="0x0" permission="read" mode="incremental" size="0xFF0" description="Histogram "/>
+          <node id="FIRST_ORBIT" address="0xFF0" mask="0xFFFFFFFF" permission="read" description="First orbit for histogram "/>
+          <node id="LAST_ORBIT" address="0xFF1" mask="0xFFFFFFFF" permission="read" description="Last orbit for histogram "/>
+          <node id="AVAILABLE" address="0xFF2" mask="0xFFFFFFFF" permission="read" description="Histogram available "/>
+          <node id="OVERFLOW" address="0xFF3" mask="0xFFFFFFFF" permission="read" description="Histogram overflow"/>
+          <node id="READ_POINTER" address="0xFF4" mask="0xF" permission="read" description="Histogram current read pointer"/>
+          <node id="WRITE_POINTER" address="0xFF4" mask="0xF0" permission="read" description="Histogram current write pointer"/>
+       </node>
+       <node id="BIT7" address="0x8000">
+          <node id="HIST" address="0x0" permission="read" mode="incremental" size="0xFF0" description="Histogram "/>
+          <node id="FIRST_ORBIT" address="0xFF0" mask="0xFFFFFFFF" permission="read" description="First orbit for histogram "/>
+          <node id="LAST_ORBIT" address="0xFF1" mask="0xFFFFFFFF" permission="read" description="Last orbit for histogram "/>
+          <node id="AVAILABLE" address="0xFF2" mask="0xFFFFFFFF" permission="read" description="Histogram available "/>
+          <node id="OVERFLOW" address="0xFF3" mask="0xFFFFFFFF" permission="read" description="Histogram overflow"/>
+          <node id="READ_POINTER" address="0xFF4" mask="0xF" permission="read" description="Histogram current read pointer"/>
+          <node id="WRITE_POINTER" address="0xFF4" mask="0xF0" permission="read" description="Histogram current write pointer"/>
+       </node>
+
+    </node> <!-- end of self-trigger monitor -->
+
+    <!-- MMC  interface related -->
+    <node id="MMC_SCANSLV" address="0x500" mask="0x00000010" permission="read" description="Status of the SCANSLV line"/>
+    <node id="MMC_LOWERFLAG" address="0x500" mask="0x00000020" permission="read" description="Status of the Lower Flag"/>
+    <node id="MMC_UPPERFLAG" address="0x500" mask="0x00000040" permission="read" description="Status of the Upper Flag"/>
+    <node id="MMC_CFGREADY" address="0x500" mask="0x00000080" permission="read" description="Did we get a Cfg block from the MMC?"/>
+    <node id="MMC_PRIMARYCFGBLOCK" address="0x500" mask="0xFFFF0000" permission="read" description="Primary cfg block information (currently the crate and slot)"/>
+    <node id="MMC_LOWERFLAG_RESET" address="0x503" mask="0x00000001" permission="write" description="Lower the lower flag"/>
+    <node id="MMC_LOWERFLAG_SET" address="0x503" mask="0x00000002" permission="write" description="Raise the lower flag"/>
+    <node id="MMC_UPPERFLAG_RESET" address="0x503" mask="0x00000004" permission="write" description="Lower the upper flag"/>
+    <node id="MMC_UPPERFLAG_SET" address="0x503" mask="0x00000008" permission="write" description="Raise the upper flag"/>
+    <node id="MMC_CFGBLOCK_PTR" address="0x501" mask="0x000000FF" permission="readwrite" description="Pointer into the MMC SPI memory"/>
+    <node id="MMC_CFGBLOCK_READ" address="0x502" mask="0x000000FF" permission="read" description="Read the content of the byte pointed to by MMC_CFGBLOCK_PTR"/>
+    <node id="MMC_SPICYCLE_COUNTER" address="0x504" mask="0x0000FFFF" permission="read" description="Number of SPI cycles observed"/>
+    <node id="MMC_SCAN_COUNTER" address="0x504" mask="0xFFFF0000" permission="read" description="Number of SCANSLV cycles observed"/>
+    <node id="MAC_SPI_START" address="0x503" mask="0x100" permission="write" description="Start an SPI transaction to the MAC/id SPI EEPROM"/>
+    <node id="MAC_SPI_DONE" address="0x500" mask="0x0004" permission="read" description="Is the MAC SPI interaction done?"/>
+    <node id="MAC_SPI_LEN" address="0x506" mask="0xFF000000" permission="readwrite" description="Number of SPI bits for MAC EEPROM transactions"/>
+    <node id="MAC_SPI_TO_PROM" address="0x506" mask="0xFFFFFF" permission="readwrite" description="Bitstream for transfer to MAC EEPROM"/>
+    <node id="MAC_SPI_FROM_PROM" address="0x507" mask="0xFFFFFFFF" permission="read" description="Bitstream read via SPI from MAC EEPROM"/>
+    <node id="MAC_SPI_BITS" address="0x508" permission="read" mode="incremental" size="4" description="Bits read from MAC/SerialNumber EEPROM"/>
+    <node id="SERIAL_NUMBER" address="0x50E" permission="read" mask="0xFFFF00" description="Module serial number from EEPROM"/>
+
+
+    <!-- SPI-FLASH related -->
+    <node id="FLASH_OUT_BUFFER" address="0x1000" permission="readwrite" mode="incremental" size="0x200" description="Memory buffer for data sent to FLASH memory SPI"/>
+    <node id="FLASH_IN_BUFFER" address="0x1200" permission="readwrite" mode="incremental" size="0x200" description="Memory buffer for data received from FLASH memory SPI"/>
+    <node id="FLASH_BYTE_COUNT" address="0x1400" mask="0xFFFFFFFF" permission="readwrite" description="Number of bytes in SPI transaction"/>
+    <node id="FLASH_SPI_DIVISOR" address="0x1401" mask="0xFFFFFFFF" permission="readwrite" description="Clock divisor for SPI bus (default is generally ok)"/>
+    <node id="FLASH_START" address="0x1402" mask="0x1" permission="readwrite" description="Start SPI FLASH transaction"/>
+    <node id="FLASH_BUSY" address="0x1402" mask="0x2" permission="read" description="Check if the SPI is busy"/>
+    <node id="FLASH_PICK_GP_PROM"  address="0x1410" mask="0x1" permission="readwrite" description="Read/write from the general-purpose (not FPGA-configuration) PROM"/>
+    <node id="FLASH_REVSEL"  address="0x1410" mask="0x2" permission="readwrite" description="Which of two FPGA-configuration PROMs to talk to"/>
+    <node id="FLASH_WHICH_GP_PROM"  address="0x1410" mask="0x4" permission="readwrite" description="Which of two general-purpose (not FPGA-configuration) PROMs"/>
+    <node id="FLASH_BRIDGE_FRONT" address="0x1410" mask="0x8" permission="readwrite" description="Access the FRONT fpga flash through the bridge"/>
+    <node id="FLASH_RELOAD_FRONT" address="0x1410" mask="0x10" permission="readwrite" description="Access PROGRAM_B for the front FPGA (level, not pulse!)"/>
+    <node id="FLASH_RELOAD_BACK" address="0x1410" mask="0x20" permission="readwrite" description="Access PROGRAM_B for the back FPGA (pulse, effectively).  Requiures FRONT fpga to be up and running"/>
+
+    <!-- SPI-CLOCK related -->
+    <node id="CLOCK_OUT_BUFFER" address="0x2000" permission="readwrite" mode="incremental" size="0x200" description="Memory buffer for data sent to CLOCK assembly"/>
+    <node id="CLOCK_IN_BUFFER" address="0x2200" permission="readwrite" mode="incremental" size="0x200" description="Memory buffer for data received from the CLOCK assembly SPI"/>
+    <node id="CLOCK_BYTE_COUNT" address="0x2400" mask="0xFFFFFFFF" permission="readwrite" description="Number of bytes in SPI transaction"/>
+    <node id="CLOCK_SPI_DIVISOR" address="0x2401" mask="0xFFFFFFFF" permission="readwrite" description="Clock divisor for SPI bus (default is generally ok)"/>
+    <node id="CLOCK_SPI_START" address="0x2402" mask="0x1" permission="readwrite" description="Start SPI transaction"/>
+    <node id="CLOCK_SPI_BUSY" address="0x2402" mask="0x2" permission="read" description="Check if the SPI is busy"/>
+    <node id="CLOCK_SPI_SELECT_TARGET"  address="0x2410" mask="0x7" permission="readwrite" description="1:53XXA, 2:53XXB, 3:S/N, 4:EEPROM, 5:CPLD"/>
+    <node id="CLOCK_PLL_RESET0"  address="0x2410" mask="0x8" permission="readwrite" description="Reset PLLA"/>
+    <node id="CLOCK_PLL_RESET1"  address="0x2410" mask="0x10" permission="readwrite" description="Reset PLLB"/>
+    <node id="CLOCK_CPLD_RESET"  address="0x2410" mask="0x20" permission="rw" description="CPLD Reset"/>
+
+    <node id="CLOCK_LOS0"  address="0x2411" mask="0x1" permission="read" description="LOS PLLA"/>
+    <node id="CLOCK_LOS1"  address="0x2411" mask="0x2" permission="read" description="LOS PLLB"/>
+    <node id="CLOCK_LOL0"  address="0x2411" mask="0x4" permission="read" description="LOL PLLA"/>
+    <node id="CLOCK_LOL1"  address="0x2411" mask="0x8" permission="read" description="LOL PLLB"/>
+
+
+    <!-- DAQ F2B Links -->
+    <node id="DAQ_F2B" address="0x4000">
+       <node id="RESET0" address="0x1" mask="0x1" permission="w" description="Reset RX side of DAQ F2B link 0"/>
+       <node id="RESET_ERRORS0" address="0x1" mask="0x2" permission="w" description="Reset error counters on DAQ F2B link 0"/>
+       <node id="RESET1" address="0x1" mask="0x4" permission="w" description="Reset RX side of DAQ F2B link 1"/>
+       <node id="RESET_ERRORS1" address="0x1" mask="0x8" permission="w" description="Reset error counters on DAQ F2B link 1"/>
+       <node id="ERROR_COUNT0" address="0x4" mask="0xFFFF" permission="r" description="Number of link errors on link 0"/> 
+       <node id="ERROR_COUNT1" address="0x7" mask="0xFFFF" permission="r" description="Number of link errors on link 1"/> 
+       <node id="STATUS0" address="0x4" mask="0xF0000" permission="r" description="Status of link 0 (0x7 is good)"/> 
+       <node id="STATUS1" address="0x7" mask="0xF0000" permission="r" description="Status of link 1 (0x7 is good)"/> 
+       <node id="WORDS0_LOW" address="0x5" permission="r" description="Low 32 bits of 64-bit counter on DAQ words passed over link 0"/> 
+       <node id="WORDS0_HIGH" address="0x6" permission="r" description="High 32 bits of 64-bit counter on DAQ words passed over link 0"/> 
+       <node id="WORDS1_LOW" address="0x8" permission="r" description="Low 32 bits of 64-bit counter on DAQ words passed over link 1"/> 
+       <node id="WORDS1_HIGH" address="0x9" permission="r" description="High 32 bits of 64-bit counter on DAQ words passed over link 1"/> 
+       <node id="SPY_MODE" address="0x2" permission="rw" mask="0xF00" />
+       <node id="SPY0" address="0x40" permission="r" mode="incremental" size="64" />
+       <node id="SPY1" address="0x80" permission="r" mode="incremental" size="64" />
+
+       <node id="RESET2" address="0x1" mask="0x10" permission="w" description="Reset RX side of DAQ F2B link 2"/>
+       <node id="RESET_ERRORS2" address="0x1" mask="0x20" permission="w" description="Reset error counters on DAQ F2B link 2"/>
+       <node id="ERROR_COUNT2" address="0xB" mask="0xFFFF" permission="r" description="Number of link errors on link 2"/> 
+       <node id="STATUS2" address="0xB" mask="0xF0000" permission="r" description="Status of link 2 (0x7 is good)"/> 
+       <node id="WORDS2_LOW" address="0xC" permission="r" description="Low 32 bits of 64-bit counter on DAQ words passed over link 2"/> 
+       <node id="WORDS2_HIGH" address="0xD" permission="r" description="High 32 bits of 64-bit counter on DAQ words passed over link 2"/> 
+       <node id="SPY2" address="0xC0" permission="r" mode="incremental" size="64" />
+
+
+    </node>
+
+    <!-- DRAM/FIFO/ZS Block -->
+    <node id="DAQ_ERAM_RESET" address="0x00300000" mask="0x00000001" permission="write" description="Reset the FIFO RAM system"/>
+
+    
+    <node id="DAQ_ZS_RESET" address="0x00300000" mask="0x00000002" permission="write" description="Reset the ZS machinery"/>
+    <node id="DAQ_ZS_SUMBYTWO" address="0x00300001" mask="0x00000002" permission="readwrite" description="Perform pairwise summing for the ZS (as for HB/HE)"/> 
+    <node id="DAQ_ZS_MASK" address="0x00300001" mask="0xFFFF0000" permission="readwrite" description="Disable the use of specific samples/sums for the ZS determination"/>
+    <node id="DAQ_ZS_THRESHOLDS" address="0x00300040" permission="readwrite" mode="incremental" size="128" description="Channel-by-channel zero suppression thresholds"/>
+        
+    <!-- DAQ-Path Block --> 
+    <node id="DAQ_FORMATTER_ENABLE" address="0x00400000" mask="0x00000001" permission="readwrite" description="Enable the formatter"/>
+    <node id="DAQ_ZS_DISABLE" address="0x00400000" mask="0x00000002" permission="readwrite" description="Completely disable ZS (all data NZS)"/>
+    <node id="DAQ_ZS_MARKANDPASS" address="0x00400000" mask="0x00000004" permission="readwrite" description="Disable ZS but mark which data would have been suppressed"/>
+    <node id="DAQ_MODULEID" address="0x00400001" mask="0x0000FFFF" permission="readwrite" description="Module identifier (used in the data payload)"/>
+    <node id="DAQ_SPY_ADVANCE" address="0x00400002" mask="0x00000001" permission="write" description="Advance the spy (allow the next event to be captured)"/>
+    <node id="DAQ_SAMPLE_PIPELINE_ADVANCE" address="0x00400002" mask="0x00000002" permission="write" description="Advance the sample pipeline (Debugging use only!)"/>
+    <node id="DAQ_RESET_EVN_FIFO" address="0x00400002" mask="0x00000004" permission="write" description="Reset the EVN fifo (empty contents"/>
+    <node id="DAQ_RESET_FORMATTER" address="0x00400002" mask="0x00000008" permission="write" description="Reset the event formatter block"/>
+    <node id="DAQ_RESET_LINK" address="0x00400002" mask="0x00000100" permission="write" description="Reset the event formatter block"/>
+    <node id="DAQ_RESET_L1FIFO_FULL" address="0x00400002" mask="0x00000200" permission="write" description="Reset the event formatter block"/>
+    <node id="DAQ_SAMPLE_PIPELINE_SPY" address="0x00400009" mask="0xFFFFFFFF" permission="read" description="Spy the next word from the sample pipeline"/>
+    <node id="DAQ_BC_OFFSET" address="0x00400003" mask="0x00000FFF" permission="readwrite" description="BC offset for DAQ purposes"/>
+    <node id="DAQ_SPY_PRESCALER" address="0x00400007" mask="0x0000FFFF" permission="readwrite" description="Prescale for DAQ spy capture"/>
+    <node id="DAQ_SPY_LAST" address="0x00400007" mask="0x00010000" permission="readwrite" description="Capture last event, not first"/>
+    <node id="DAQ_SPY_MULTIPLE" address="0x00400007" mask="0x00020000" permission="readwrite" description="Capture multiple events as long as possible"/>
+    
+    <node id="DAQ_SPY_WORD_COUNT" address="0x00400008" mask="0xFFFFFFFF" permission="read" description="Number of SPY words"/>
+    <node id="DAQ_ORN" address="0x0040000A" mask="0xFFFFFFFF" permission="read" description="Orbit Number"/>
+    <node id="DAQ_LASTEVN" address="0x0040000B" mask="0xFFFFFFFF" permission="read" description="EVN associated with the last L1A"/>
+    <node id="DAQ_HEADER_OCCUPANCY" address="0x0040000C" mask="0x0000007F" permission="read" description="Occupancy of the L1 header pipeline"/>
+    <node id="DAQ_HEADER_PEAKOCCUPANCY" address="0x0040000C" mask="0x0007F000" permission="read" description="Highest observed occupancy of the L1 header pipeline"/>
+    <node id="DAQ_FIFO_READY" address="0x0040000C" mask="0x00000F00" permission="read" description="Occupancy of the DRAM FIFO"/>
+    <node id="DAQ_SPY_BUFFER" address="0x00400800" permission="read" mode="incremental" size="2048" description="DAQ Spy buffer"/>
+    <node id="DAQ_NPRESAMPLES" address="0x00400004" mask="0x1F0000" permission="readwrite" description="Number of presamples"/>
+    <node id="DAQ_NSAMPLES" address="0x00400004" mask="0xF" permission="readwrite" description="Number of samples to acquire"/>
+    <node id="DAQ_PIPELINELENGTH" address="0x00400004" mask="0xFF000000" permission="readwrite" description="L1A Pipeline length"/>    
+
+    <node id="DAQ_N_TP_SAMPLES" address="0x00401000" mask="0xF0000" permission="rw" description="Number of trigger-primitive samples"/>
+    <node id="DAQ_N_TP_PRESAMPLES" address="0x00401000" mask="0xF00000" permission="rw" description="Number of trigger-primitive presamples"/>
+    <node id="DAQ_TP_ZS_ENABLE" address="0x00401000" mask="0x1" permission="rw" description="Enable zero-suppression for trigger primitives"/>
+    <node id="DAQ_TP_ZS_SOI_ONLY" address="0x00401000" mask="0x2" permission="rw" description="Look only at the SOI for trigger primitive zero suppression"/>
+    <node id="DAQ_TP_SPY_ENABLE" address="0x00401000" mask="0x10000000" permission="rw" description="Use the buffer for spying rather than formatting"/>
+    <node id="DAQ_TP_SPY_BUFFER" address="0x00401400" permission="r" mode="incremental" size="1024" description="Use the buffer for spying rather than formatting"/>
+    
+
+  </node>
+</node>

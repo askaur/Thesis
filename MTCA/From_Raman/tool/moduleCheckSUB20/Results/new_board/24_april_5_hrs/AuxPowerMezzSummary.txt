@@ -1,0 +1,47 @@
+Margin up, 00:1e:c0:81:1d:ac, BAD VOUT, 2.39 V, 2.39 V, 2.39 V, Sat Apr 12 14:18:29 2014
+Margin dn, 00:1e:c0:81:1d:ac, BAD VOUT, 2.65 V, 2.65 V, 2.65 V, Sat Apr 12 14:19:30 2014
+Nominal,    00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Sat Apr 12 14:20:30 2014
+Hl Nominal, 00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Sat Apr 12 14:21:32 2014
+Margin up, 00:1e:c0:81:1d:ac, BAD VOUT, 2.39 V, 2.39 V, 2.39 V, Mon Apr 14 07:46:00 2014
+Margin dn, 00:1e:c0:81:1d:ac, BAD VOUT, 2.65 V, 2.65 V, 2.65 V, Mon Apr 14 07:47:00 2014
+Nominal,    00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Mon Apr 14 07:48:00 2014
+Hl Nominal, 00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Mon Apr 14 07:49:02 2014
+Margin up, 00:1e:c0:81:1d:ac, BAD VOUT, 2.39 V, 2.39 V, 2.39 V, Mon Apr 14 08:25:49 2014
+Margin dn, 00:1e:c0:81:1d:ac, BAD VOUT, 2.65 V, 2.65 V, 2.65 V, Mon Apr 14 08:55:49 2014
+Nominal,    00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Mon Apr 14 10:55:50 2014
+Hl Nominal, 00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Mon Apr 14 12:55:51 2014
+Margin up, 00:1e:c0:81:1d:ac, BAD VOUT, 2.39 V, 2.39 V, 2.39 V, Wed Apr 23 07:27:46 2014
+Margin up, 00:04:a3:a0:ff:0e,     PASS, 1.55 V, 1.55 V, 1.55 V, Wed Apr 23 07:27:46 2014
+Margin dn, 00:1e:c0:81:1d:ac, BAD VOUT, 2.65 V, 2.65 V, 2.65 V, Wed Apr 23 07:28:46 2014
+Margin dn, 00:04:a3:a0:ff:0e,     PASS, 1.71 V, 1.72 V, 1.72 V, Wed Apr 23 07:28:46 2014
+Nominal,    00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Wed Apr 23 07:29:47 2014
+Nominal,    00:04:a3:a0:ff:0e,     PASS, 1.63 V, 1.63 V, 1.63 V, Wed Apr 23 07:29:47 2014
+Hl Nominal, 00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Wed Apr 23 07:30:49 2014
+Hl Nominal, 00:04:a3:a0:ff:0e,     PASS, 1.63 V, 1.63 V, 1.63 V, Wed Apr 23 07:30:49 2014
+Margin up, 00:1e:c0:81:1d:ac, BAD VOUT, 2.39 V, 2.39 V, 2.39 V, Wed Apr 23 07:39:13 2014
+Margin up, 00:04:a3:a0:ff:0e,     PASS, 1.55 V, 1.55 V, 1.55 V, Wed Apr 23 07:39:13 2014
+Margin dn, 00:1e:c0:81:1d:ac, BAD VOUT, 2.65 V, 2.65 V, 2.65 V, Wed Apr 23 07:40:14 2014
+Margin dn, 00:04:a3:a0:ff:0e,     PASS, 1.72 V, 1.72 V, 1.72 V, Wed Apr 23 07:40:14 2014
+Nominal,    00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Wed Apr 23 07:41:14 2014
+Nominal,    00:04:a3:a0:ff:0e,     PASS, 1.63 V, 1.63 V, 1.63 V, Wed Apr 23 07:41:14 2014
+Hl Nominal, 00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Wed Apr 23 07:42:17 2014
+Hl Nominal, 00:04:a3:a0:ff:0e,     PASS, 1.63 V, 1.63 V, 1.63 V, Wed Apr 23 07:42:17 2014
+Margin up, 00:1e:c0:81:1d:ac, BAD VOUT, 2.39 V, 2.39 V, 2.39 V, Wed Apr 23 10:53:47 2014
+Margin up, 00:1e:c0:81:1d:ac, BAD VOUT, 2.39 V, 2.39 V, 2.39 V, Wed Apr 23 13:57:19 2014
+Margin dn, 00:1e:c0:81:1d:ac, BAD VOUT, 2.65 V, 2.65 V, 2.65 V, Wed Apr 23 14:27:19 2014
+Margin up, 00:1e:c0:81:1d:ac, BAD VOUT, 2.39 V, 2.39 V, 2.39 V, Thu Apr 24 05:53:59 2014
+Margin up, 00:04:a3:a0:ff:0e,     PASS, 1.55 V, 1.55 V, 1.55 V, Thu Apr 24 05:53:59 2014
+Margin dn, 00:1e:c0:81:1d:ac, BAD VOUT, 2.65 V, 2.65 V, 2.65 V, Thu Apr 24 05:55:00 2014
+Margin dn, 00:04:a3:a0:ff:0e,     PASS, 1.72 V, 1.72 V, 1.72 V, Thu Apr 24 05:55:00 2014
+Nominal,    00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Thu Apr 24 05:56:00 2014
+Nominal,    00:04:a3:a0:ff:0e,     PASS, 1.63 V, 1.63 V, 1.63 V, Thu Apr 24 05:56:00 2014
+Hl Nominal, 00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Thu Apr 24 05:57:03 2014
+Hl Nominal, 00:04:a3:a0:ff:0e,     PASS, 1.63 V, 1.63 V, 1.63 V, Thu Apr 24 05:57:03 2014
+Margin up, 00:1e:c0:81:1d:ac, BAD VOUT, 2.39 V, 2.39 V, 2.39 V, Thu Apr 24 06:30:30 2014
+Margin up, 00:04:a3:a0:ff:0e,     PASS, 1.55 V, 1.55 V, 1.55 V, Thu Apr 24 06:30:30 2014
+Margin dn, 00:1e:c0:81:1d:ac, BAD VOUT, 2.65 V, 2.65 V, 2.65 V, Thu Apr 24 07:00:31 2014
+Margin dn, 00:04:a3:a0:ff:0e, BADPOWER, 1.72 V, 1.72 V, 1.72 V, Thu Apr 24 07:00:31 2014
+Nominal,    00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Thu Apr 24 09:00:31 2014
+Nominal,    00:04:a3:a0:ff:0e,     PASS, 1.63 V, 1.63 V, 1.63 V, Thu Apr 24 09:00:31 2014
+Hl Nominal, 00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Thu Apr 24 11:00:34 2014
+Hl Nominal, 00:04:a3:a0:ff:0e,     PASS, 1.63 V, 1.63 V, 1.63 V, Thu Apr 24 11:00:34 2014

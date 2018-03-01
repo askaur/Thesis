@@ -1,0 +1,4 @@
+Margin up, 00:1e:c0:81:1d:ac, BAD VOUT, 2.39 V, 2.39 V, 2.39 V, Sat Apr 12 14:18:29 2014
+Margin dn, 00:1e:c0:81:1d:ac, BAD VOUT, 2.65 V, 2.65 V, 2.65 V, Sat Apr 12 14:19:30 2014
+Nominal,    00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Sat Apr 12 14:20:30 2014
+Hl Nominal, 00:1e:c0:81:1d:ac, BAD VOUT, 2.52 V, 2.52 V, 2.52 V, Sat Apr 12 14:21:32 2014

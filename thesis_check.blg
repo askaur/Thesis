@@ -30,49 +30,51 @@ Warning--empty journal in CMS:2009nxa
 Warning--empty author in CMS:2010byl
 Warning--empty journal in CMS:2010byl
 Warning--empty journal in Adam:2005cg
+Warning--empty journal in KRose
 Warning--empty journal in CMS:2010xta
 Warning--empty journal in CMS:2011esa
 Warning--empty journal in DAgostini
 Warning--empty journal in DN
-You've used 129 entries,
+Warning--empty journal in CMS:2012tda
+You've used 136 entries,
             1876 wiz_defined-function locations,
-            1273 strings with 24464 characters,
-and the built_in function-call counts, 34866 in all, are:
-= -- 3560
-> -- 1149
+            1309 strings with 25446 characters,
+and the built_in function-call counts, 36426 in all, are:
+= -- 3706
+> -- 1215
 < -- 0
-+ -- 438
-- -- 309
-* -- 2120
-:= -- 4712
-add.period$ -- 145
-call.type$ -- 129
-change.case$ -- 124
++ -- 464
+- -- 328
+* -- 2220
+:= -- 4939
+add.period$ -- 154
+call.type$ -- 136
+change.case$ -- 131
 chr.to.int$ -- 0
-cite$ -- 147
-duplicate$ -- 2059
-empty$ -- 3244
-format.name$ -- 309
-if$ -- 8924
+cite$ -- 156
+duplicate$ -- 2137
+empty$ -- 3397
+format.name$ -- 328
+if$ -- 9307
 int.to.chr$ -- 0
-int.to.str$ -- 129
-missing$ -- 130
-newline$ -- 406
-num.names$ -- 127
-pop$ -- 388
+int.to.str$ -- 136
+missing$ -- 135
+newline$ -- 429
+num.names$ -- 134
+pop$ -- 418
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1592
+skip$ -- 1645
 stack$ -- 0
-substring$ -- 1999
-swap$ -- 1005
+substring$ -- 2071
+swap$ -- 1034
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 18
-while$ -- 291
-width$ -- 132
-write$ -- 1279
-(There were 18 warnings)
+warning$ -- 20
+while$ -- 303
+width$ -- 139
+write$ -- 1343
+(There were 20 warnings)
