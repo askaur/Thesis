@@ -91,11 +91,11 @@
 \contentsline {section}{\numberline {9.1}Silicon Photo-Multipliers}{150}{section.9.1}
 \contentsline {section}{\numberline {9.2}MicroTCA}{155}{section.9.2}
 \contentsline {section}{\numberline {9.3}Other Activities}{160}{section.9.3}
-\contentsline {chapter}{Appendix \numberline {A}}{162}{Appendix.a.A}
-\contentsline {section}{\numberline {A.1}Cross-section Ratio, \ensuremath {R_{32}}\xspace }{163}{section.a.A.1}
-\contentsline {section}{\numberline {A.2}Individual Sources of Jet Energy Correction Uncertainties}{164}{section.a.A.2}
-\contentsline {section}{\numberline {A.3}Experimental Uncertainties}{167}{section.a.A.3}
-\contentsline {section}{\numberline {A.4}Theoretical Uncertainties}{170}{section.a.A.4}
-\contentsline {chapter}{Bibliography}{173}{section*.98}
-\contentsline {chapter}{List of Publications}{187}{section*.100}
-\contentsline {chapter}{Reprints}{213}{section*.102}
+\contentsline {chapter}{Appendix \numberline {A}}{163}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}Cross-section Ratio, \ensuremath {R_{32}}\xspace }{164}{section.a.A.1}
+\contentsline {section}{\numberline {A.2}Individual Sources of Jet Energy Correction Uncertainties}{165}{section.a.A.2}
+\contentsline {section}{\numberline {A.3}Experimental Uncertainties}{168}{section.a.A.3}
+\contentsline {section}{\numberline {A.4}Theoretical Uncertainties}{171}{section.a.A.4}
+\contentsline {chapter}{Bibliography}{175}{section*.98}
+\contentsline {chapter}{List of Publications}{189}{section*.100}
+\contentsline {chapter}{Reprints}{195}{section*.102}
