@@ -215,6 +215,17 @@ M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{The Anti-k(t) jet clustering
 M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{FastJet User Manual},'' {\em Eur.
   Phys. J.}, vol.~C72, p.~1896, 2012.
 
+\bibitem{Arnison:1983rp}
+G.~Arnison {\em et~al.}, ``{Experimental Observation of Isolated Large
+  Transverse Energy Electrons with Associated Missing Energy at s**(1/2) =
+  540-GeV},'' {\em Phys. Lett.}, vol.~122B, pp.~103--116, 1983.
+\newblock [,611(1983)].
+
+\bibitem{Banner:1983jy}
+M.~Banner {\em et~al.}, ``{Observation of Single Isolated Electrons of High
+  Transverse Momentum in Events with Missing Transverse Energy at the CERN
+  anti-p p Collider},'' {\em Phys. Lett.}, vol.~122B, pp.~476--485, 1983.
+
 \bibitem{Evans:2008zzb}
 L.~Evans and P.~Bryant, ``{LHC Machine},'' {\em JINST}, vol.~3, p.~S08001,
   2008.
@@ -455,18 +466,18 @@ C.~Collaboration, ``{Jet Energy Resolution at 8 TeV}.''
 \bibitem{CMS:2011esa}
 C.~Collaboration, ``{Jet Energy Resolution in CMS at sqrt(s)=7 TeV},'' 2011.
 
+\bibitem{Adye:2011gm}
+T.~Adye, ``{Unfolding algorithms and tests using RooUnfold},'' in {\em
+  {Proceedings, PHYSTAT 2011 Workshop on Statistical Issues Related to
+  Discovery Claims in Search Experiments and Unfolding, CERN,Geneva,
+  Switzerland 17-20 January 2011}}, (Geneva), pp.~313--318, CERN, CERN, 2011.
+
 \bibitem{DAgostini:1994fjx}
 G.~D'Agostini, ``{A Multidimensional unfolding method based on Bayes'
   theorem},'' {\em Nucl. Instrum. Meth.}, vol.~A362, pp.~487--498, 1995.
 
 \bibitem{DAgostini}
 G.~D'Agostini, ``{Improved iterative Bayesian unfolding},'' 2010.
-
-\bibitem{Adye:2011gm}
-T.~Adye, ``{Unfolding algorithms and tests using RooUnfold},'' in {\em
-  {Proceedings, PHYSTAT 2011 Workshop on Statistical Issues Related to
-  Discovery Claims in Search Experiments and Unfolding, CERN,Geneva,
-  Switzerland 17-20 January 2011}}, (Geneva), pp.~313--318, CERN, CERN, 2011.
 
 \bibitem{CMS:2011ab}
 S.~Chatrchyan {\em et~al.}, ``{Measurement of the Inclusive Jet Cross Section
