@@ -1,36 +1,26 @@
 \select@language {english}
-\contentsline {chapter}{List of Figures}{xv}{section*.2}
-\contentsline {chapter}{List of Tables}{xxi}{section*.4}
+\contentsline {chapter}{List of Figures}{xiii}{section*.2}
+\contentsline {chapter}{List of Tables}{xix}{section*.4}
 \rule {13.9 cm}{.1pt}\par 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Theoretical Background}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}Standard Model}{7}{section.2.1}
-\contentsline {section}{\numberline {2.2}Quantum Chromodynamics}{10}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Perturbative Quantum Chromodynamics}{14}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Renormalization and Running of the Strong Coupling}{16}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Hadronic Collisions}{18}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Parton Shower and Hadronization}{21}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Underlying Event}{24}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Jets}{25}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Jet Algorithms}{26}{subsection.2.4.1}
 \contentsline {chapter}{\numberline {3}Experimental Setup}{33}{chapter.3}
 \contentsline {section}{\numberline {3.1}The Large Hadron Collider}{34}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Luminosity Measurement}{36}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}Luminosity Measurement}{37}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Pileup Interactions}{38}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}The Compact Muon Solenoid}{39}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Coordinate System}{42}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.2}The Compact Muon Solenoid}{40}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Coordinate System}{41}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Inner Tracker System}{43}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Electromagnetic Calorimeter}{46}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Hadronic Calorimeter}{47}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.4}Hadronic Calorimeter}{48}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}Superconducting Magnet}{51}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3.2.6}Muon System}{51}{subsection.3.2.6}
 \contentsline {subsection}{\numberline {3.2.7}Trigger and Data Acquisition System}{53}{subsection.3.2.7}
 \contentsline {subsubsection}{\numberline {3.2.7.1}Jet Triggers}{55}{subsubsection.3.2.7.1}
 \contentsline {subsubsection}{\numberline {3.2.7.2}Data Acquisition System}{56}{subsubsection.3.2.7.2}
-\contentsline {subsection}{\numberline {3.2.8}Data Management}{57}{subsection.3.2.8}
-\contentsline {section}{\numberline {3.3}Software Tools}{58}{section.3.3}
+\contentsline {subsection}{\numberline {3.2.8}Data Management}{56}{subsection.3.2.8}
+\contentsline {section}{\numberline {3.3}Software Tools}{57}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}CMSSW Framework}{58}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}ROOT}{58}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}ROOT}{59}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}\NLOJET ~and {\textsc {fastNLO}}\xspace }{59}{subsection.3.3.3}
 \contentsline {chapter}{\numberline {4}Event Generation, Simulation and Reconstruction}{61}{chapter.4}
 \contentsline {section}{\numberline {4.1}Event Generation and Simulation Software}{61}{section.4.1}
@@ -87,15 +77,16 @@
 \contentsline {subsection}{\numberline {7.2.2}Fit Results}{139}{subsection.7.2.2}
 \contentsline {section}{\numberline {7.3}Running of the Strong Coupling Constant}{142}{section.7.3}
 \contentsline {chapter}{\numberline {8}Summary}{147}{chapter.8}
-\contentsline {chapter}{\numberline {9}Hardware and Software Activities}{151}{chapter.9}
+\contentsline {chapter}{\numberline {9}Hardware and Software Activities Undertaken}{151}{chapter.9}
 \contentsline {section}{\numberline {9.1}Silicon Photo-Multipliers}{152}{section.9.1}
 \contentsline {section}{\numberline {9.2}MicroTCA}{156}{section.9.2}
-\contentsline {section}{\numberline {9.3}Other Activities}{159}{section.9.3}
+\contentsline {section}{\numberline {9.3}Other Activities}{161}{section.9.3}
 \contentsline {chapter}{Appendix \numberline {A}}{163}{Appendix.a.A}
 \contentsline {section}{\numberline {A.1}Cross-section Ratio, \ensuremath {R_{32}}\xspace }{164}{section.a.A.1}
 \contentsline {section}{\numberline {A.2}Individual Sources of Jet Energy Correction Uncertainties}{165}{section.a.A.2}
 \contentsline {section}{\numberline {A.3}Experimental Uncertainties}{169}{section.a.A.3}
 \contentsline {section}{\numberline {A.4}Theoretical Uncertainties}{172}{section.a.A.4}
-\contentsline {chapter}{Bibliography}{175}{section*.100}
-\contentsline {chapter}{List of Publications}{191}{section*.102}
-\contentsline {chapter}{Reprints}{197}{section*.104}
+\contentsline {section}{\numberline {A.5}Definitions}{175}{section.a.A.5}
+\contentsline {chapter}{Bibliography}{177}{section*.102}
+\contentsline {chapter}{List of Publications}{193}{section*.104}
+\contentsline {chapter}{Reprints}{199}{section*.106}

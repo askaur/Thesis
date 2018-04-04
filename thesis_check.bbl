@@ -37,10 +37,6 @@ A.~Salam, ``{Gauge Unification of Fundamental Forces},'' {\em Rev. Mod. Phys.},
   vol.~52, pp.~525--538, 1980.
 \newblock [Science210,723(1980)].
 
-\bibitem{Georgi:1974sy}
-H.~Georgi and S.~L. Glashow, ``{Unity of All Elementary Particle Forces},''
-  {\em Phys. Rev. Lett.}, vol.~32, pp.~438--441, 1974.
-
 \bibitem{Higgs:1964pj}
 P.~W. Higgs, ``{Broken Symmetries and the Masses of Gauge Bosons},'' {\em Phys.
   Rev. Lett.}, vol.~13, pp.~508--509, 1964.
@@ -140,11 +136,6 @@ S.~Alekhin, J.~Blumlein, and S.~Moch, ``{Parton Distribution Functions and
   Benchmark Cross Sections at NNLO},'' {\em Phys. Rev.}, vol.~D86, p.~054009,
   2012.
 
-\bibitem{Abramowicz:2015mha}
-H.~Abramowicz {\em et~al.}, ``{Combination of measurements of inclusive deep
-  inelastic ${e^{\pm }p}$ scattering cross sections and QCD analysis of HERA
-  data},'' {\em Eur. Phys. J.}, vol.~C75, no.~12, p.~580, 2015.
-
 \bibitem{Andersson:1998tv}
 B.~Andersson, ``{The Lund model},'' {\em Camb. Monogr. Part. Phys. Nucl. Phys.
   Cosmol.}, vol.~7, pp.~1--471, 1997.
@@ -225,6 +216,16 @@ G.~Arnison {\em et~al.}, ``{Experimental Observation of Isolated Large
 M.~Banner {\em et~al.}, ``{Observation of Single Isolated Electrons of High
   Transverse Momentum in Events with Missing Transverse Energy at the CERN
   anti-p p Collider},'' {\em Phys. Lett.}, vol.~122B, pp.~476--485, 1983.
+
+\bibitem{Abachi:1994je}
+S.~Abachi {\em et~al.}, ``{Search for the top quark in $p\bar{p}$ collisions at
+  $\sqrt{s} = 1.8$ TeV},'' {\em Phys. Rev. Lett.}, vol.~72, pp.~2138--2142,
+  1994.
+
+\bibitem{Abe:1994st}
+F.~Abe {\em et~al.}, ``{Evidence for top quark production in $\bar{p}p$
+  collisions at $\sqrt{s} = 1.8$ TeV},'' {\em Phys. Rev.}, vol.~D50,
+  pp.~2966--3026, 1994.
 
 \bibitem{Evans:2008zzb}
 L.~Evans and P.~Bryant, ``{LHC Machine},'' {\em JINST}, vol.~3, p.~S08001,
@@ -538,6 +539,11 @@ A.~D. Martin, W.~J. Stirling, R.~S. Thorne, and G.~Watt, ``{Uncertainties on
 R.~D. Ball {\em et~al.}, ``{Parton distributions with LHC data},'' {\em Nucl.
   Phys.}, vol.~B867, pp.~244--289, 2013.
 
+\bibitem{Abramowicz:2015mha}
+H.~Abramowicz {\em et~al.}, ``{Combination of measurements of inclusive deep
+  inelastic ${e^{\pm }p}$ scattering cross sections and QCD analysis of HERA
+  data},'' {\em Eur. Phys. J.}, vol.~C75, no.~12, p.~580, 2015.
+
 \bibitem{Hollik:2004dz}
 W.~Hollik {\em et~al.}, ``{Electroweak physics},'' {\em Acta Phys. Polon.},
   vol.~B35, pp.~2533--2555, 2004.
@@ -620,6 +626,10 @@ B.~Schmidt and M.~Steinhauser, ``{CRunDec: a C++ package for running and
 B.~Lutz, ``{Upgrade of the CMS Hadron Outer Calorimeter with SiPM sensors},''
   {\em J. Phys. Conf. Ser.}, vol.~404, p.~012018, 2012.
 
+\bibitem{DN}
+B.~Lutz, ``{Commissioning and performance of the CMS Hadron Outer
+  Calorimeter},'' 2014.
+
 \bibitem{Anderson:2011zzc}
 J.~Anderson, J.~Freeman, S.~Los, and J.~Whitmore, ``{Upgrade of the CMS Hadron
   Outer Calorimeter with SIPMs},'' {\em Phys. Procedia}, vol.~37, pp.~72--78,
@@ -628,10 +638,6 @@ J.~Anderson, J.~Freeman, S.~Los, and J.~Whitmore, ``{Upgrade of the CMS Hadron
 \bibitem{Kunsken:2015zla}
 A.~Künsken, ``{MPPC photon sensor operational experience in CMS},'' {\em J.
   Phys. Conf. Ser.}, vol.~587, no.~1, p.~012022, 2015.
-
-\bibitem{DN}
-B.~Lutz, ``{Commissioning and performance of the CMS Hadron Outer
-  Calorimeter},'' 2014.
 
 \bibitem{CMS:2012tda}
 J.~Mans, J.~Anderson, B.~Dahmes, P.~de~Barbaro, J.~Freeman, T.~Grassi,

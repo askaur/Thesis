@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  2 APR 2018 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  4 APR 2018 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1132,23 +1132,19 @@ Package amsmath Warning: Foreign command \over;
  (./Theory.tex
 Chapter 2.
 
-</home/anter/Desktop/Thesis/Figures/model-physics.pdf, id=664, 307.19969pt x 22
+</home/anter/Desktop/Thesis/Figures/model-physics.pdf, id=668, 259.40012pt x 22
 0.07018pt>
 File: /home/anter/Desktop/Thesis/Figures/model-physics.pdf Graphic file (type p
 df)
  <use /home/anter/Desktop/Thesis/Figures/model-physics.pdf>
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/model-physics.pdf u
 sed on input line 12.
-(pdftex.def)             Requested size: 512.1483pt x 366.90135pt.
-
-Overfull \hbox (45.28893pt too wide) in paragraph at lines 10--12
- |  [] 
- []
-
-[7
+(pdftex.def)             Requested size: 426.79134pt x 362.11285pt.
+ [7
 
 
-] [8 </home/anter/Desktop/Thesis/Figures/model-physics.pdf>] [9] [10]
+]
+[8 </home/anter/Desktop/Thesis/Figures/model-physics.pdf>] [9] [10]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -1157,7 +1153,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
  [11]
-</home/anter/Desktop/Thesis/Figures/Final/Feynman_1.png, id=839, 685.05937pt x 
+</home/anter/Desktop/Thesis/Figures/Final/Feynman_1.png, id=835, 685.05937pt x 
 196.48407pt>
 File: /home/anter/Desktop/Thesis/Figures/Final/Feynman_1.png Graphic file (type
  png)
@@ -1166,7 +1162,7 @@ Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Final/Feynman_1.png
  used on input line 60.
 (pdftex.def)             Requested size: 341.43436pt x 97.92998pt.
 
-</home/anter/Desktop/Thesis/Figures/Final/Feynman_2.png, id=841, 889.82437pt x 
+</home/anter/Desktop/Thesis/Figures/Final/Feynman_2.png, id=837, 889.82437pt x 
 195.73125pt>
 File: /home/anter/Desktop/Thesis/Figures/Final/Feynman_2.png Graphic file (type
  png)
@@ -1180,35 +1176,49 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [12] [13 </home/anter/Desktop/Thesis/Figures/Final/Feynman_1.png> </home/anter/
 Desktop/Thesis/Figures/Final/Feynman_2.png>]
-</home/anter/Desktop/Thesis/Figures/Orders.pdf, id=865, 569.12625pt x 447.6725p
-t>
+</home/anter/Desktop/Thesis/Figures/Final/Grifiths.png, id=860, 734.745pt x 499
+.8675pt>
+File: /home/anter/Desktop/Thesis/Figures/Final/Grifiths.png Graphic file (type 
+png)
+ <use /home/anter/Desktop/Thesis/Figures/Final/Grifiths.png>
+Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Final/Grifiths.png 
+used on input line 87.
+(pdftex.def)             Requested size: 213.39566pt x 145.17905pt.
+ [14 </home/anter/Desktop/Thesis/Figures/Final/Grifiths.png>]
+</home/anter/Desktop/Thesis/Figures/Orders.pdf, id=867, 569.12625pt x 278.03876
+pt>
 File: /home/anter/Desktop/Thesis/Figures/Orders.pdf Graphic file (type pdf)
  <use /home/anter/Desktop/Thesis/Figures/Orders.pdf>
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Orders.pdf used on 
-input line 93.
-(pdftex.def)             Requested size: 405.45045pt x 318.94264pt.
- [14] [15 </home/anter/Desktop/Thesis/Figures/Orders.pdf, page is rotated 90 de
-grees>] [16] [17]
-</home/anter/Desktop/Thesis/Figures/Final/Alpha.png, id=946, 644.4075pt x 411.0
+input line 104.
+(pdftex.def)             Requested size: 469.47307pt x 229.36359pt.
+
+Overfull \hbox (22.53062pt too wide) in paragraph at lines 103--104
+ |  [] 
+ []
+
+[15 </home/anter/Desktop/Thesis/Figures/Orders.pdf, page is rotated 90 degrees>
+] [16] [17]
+</home/anter/Desktop/Thesis/Figures/Final/Alpha.png, id=944, 644.4075pt x 411.0
 3563pt>
 File: /home/anter/Desktop/Thesis/Figures/Final/Alpha.png Graphic file (type png
 )
  <use /home/anter/Desktop/Thesis/Figures/Final/Alpha.png>
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Final/Alpha.png use
-d on input line 144.
+d on input line 154.
 (pdftex.def)             Requested size: 405.45045pt x 258.62767pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [18] [19 </home/anter/Desktop/Thesis/Figures/Final/Alpha.png>]
-</home/anter/Desktop/Thesis/Figures/Factorization.pdf, id=965, 569.12625pt x 53
+</home/anter/Desktop/Thesis/Figures/Factorization.pdf, id=963, 569.12625pt x 53
 4.99875pt>
 File: /home/anter/Desktop/Thesis/Figures/Factorization.pdf Graphic file (type p
 df)
  <use /home/anter/Desktop/Thesis/Figures/Factorization.pdf>
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Factorization.pdf u
-sed on input line 162.
+sed on input line 173.
 (pdftex.def)             Requested size: 277.41176pt x 260.78839pt.
 
 
@@ -1216,55 +1226,50 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [20] [21 </home/anter/Desktop/Thesis/Figures/Factorization.pdf, page is rotated
  90 degrees>]
-</home/anter/Desktop/Thesis/Figures/Final/String.png, id=1040, 666.23906pt x 23
+</home/anter/Desktop/Thesis/Figures/Final/String.png, id=1036, 666.23906pt x 23
 4.1247pt>
 File: /home/anter/Desktop/Thesis/Figures/Final/String.png Graphic file (type pn
 g)
  <use /home/anter/Desktop/Thesis/Figures/Final/String.png>
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Final/String.png us
-ed on input line 186.
+ed on input line 197.
 (pdftex.def)             Requested size: 405.45045pt x 142.48361pt.
  [22]
 [23 </home/anter/Desktop/Thesis/Figures/Final/String.png>]
-</home/anter/Desktop/Thesis/Figures/MPI.png, id=1065, 749.04843pt x 343.2825pt>
+</home/anter/Desktop/Thesis/Figures/MPI.png, id=1060, 749.04843pt x 343.2825pt>
 File: /home/anter/Desktop/Thesis/Figures/MPI.png Graphic file (type png)
 <use /home/anter/Desktop/Thesis/Figures/MPI.png>
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/MPI.png used on inp
-ut line 200.
+ut line 209.
 (pdftex.def)             Requested size: 405.45045pt x 185.81502pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[24] [25 </home/anter/Desktop/Thesis/Figures/MPI.png>]
-</home/anter/Desktop/Thesis/Figures/jet2.png, id=1084, 451.6875pt x 232.87pt>
+ [24 </home/anter/Desktop/Thesis/Figures/MPI.png>]
+</home/anter/Desktop/Thesis/Figures/jet2.png, id=1074, 451.6875pt x 232.87pt>
 File: /home/anter/Desktop/Thesis/Figures/jet2.png Graphic file (type png)
 
 <use /home/anter/Desktop/Thesis/Figures/jet2.png>
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/jet2.png used on in
-put line 216.
+put line 223.
 (pdftex.def)             Requested size: 320.09349pt x 165.0368pt.
-
-</home/anter/Desktop/Thesis/Figures/Final/Algo.png, id=1088, 490.83376pt x 417.
+ [25 </home/anter/Desktop/Thesis/Figures/jet2.png (PNG copy)>]
+</home/anter/Desktop/Thesis/Figures/Final/Algo.png, id=1085, 490.83376pt x 417.
 81094pt>
 File: /home/anter/Desktop/Thesis/Figures/Final/Algo.png Graphic file (type png)
 
  <use /home/anter/Desktop/Thesis/Figures/Final/Algo.png>
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Final/Algo.png used
- on input line 231.
+ on input line 240.
 (pdftex.def)             Requested size: 269.9594pt x 229.79672pt.
- [26 </home/anter/Desktop/Thesis/Figures/jet2.png (PNG copy)>] [27 </home/anter
-/Desktop/Thesis/Figures/Final/Algo.png>] [28]
-</home/anter/Desktop/Thesis/Figures/Final/JetAlgo.png, id=1122, 592.46344pt x 4
+ [26] [27 </home/anter/Desktop/Thesis/Figures/Final/Algo.png>] [28]
+</home/anter/Desktop/Thesis/Figures/Final/JetAlgo.png, id=1118, 592.46344pt x 4
 32.11438pt>
 File: /home/anter/Desktop/Thesis/Figures/Final/JetAlgo.png Graphic file (type p
 ng)
  <use /home/anter/Desktop/Thesis/Figures/Final/JetAlgo.png>
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Final/JetAlgo.png u
-sed on input line 255.
+sed on input line 264.
 (pdftex.def)             Requested size: 512.1483pt x 373.5496pt.
 
-Overfull \hbox (31.06255pt too wide) in paragraph at lines 253--255
+Overfull \hbox (31.06255pt too wide) in paragraph at lines 262--264
  |  [] 
  []
 
@@ -1399,7 +1404,7 @@ File: /home/anter/Desktop/Thesis/Figures/Final/ECAL.png Graphic file (type png)
 
  <use /home/anter/Desktop/Thesis/Figures/Final/ECAL.png>
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Final/ECAL.png used
- on input line 156.
+ on input line 155.
 (pdftex.def)             Requested size: 393.42285pt x 192.42035pt.
  [47 </home/anter/Desktop/Thesis/Figures/Final/ECAL.png>]
 </home/anter/Desktop/Thesis/Figures/Final/HCAL.png, id=1455, 653.44125pt x 402.
@@ -1408,7 +1413,7 @@ File: /home/anter/Desktop/Thesis/Figures/Final/HCAL.png Graphic file (type png)
 
  <use /home/anter/Desktop/Thesis/Figures/Final/HCAL.png>
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Final/HCAL.png used
- on input line 178.
+ on input line 177.
 (pdftex.def)             Requested size: 392.06776pt x 241.20297pt.
  [48] [49 </home/anter/Desktop/Thesis/Figures/Final/HCAL.png>] [50]
 </home/anter/Desktop/Thesis/Figures/Final/Muon.png, id=1475, 453.19313pt x 340.
@@ -1417,7 +1422,7 @@ File: /home/anter/Desktop/Thesis/Figures/Final/Muon.png Graphic file (type png)
 
  <use /home/anter/Desktop/Thesis/Figures/Final/Muon.png>
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Final/Muon.png used
- on input line 207.
+ on input line 206.
 (pdftex.def)             Requested size: 376.15019pt x 282.42506pt.
  [51] [52]
 </home/anter/Desktop/Thesis/Figures/Final/Trigger.png, id=1490, 453.94594pt x 3
@@ -1426,7 +1431,7 @@ File: /home/anter/Desktop/Thesis/Figures/Final/Trigger.png Graphic file (type p
 ng)
  <use /home/anter/Desktop/Thesis/Figures/Final/Trigger.png>
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Final/Trigger.png u
-sed on input line 227.
+sed on input line 226.
 (pdftex.def)             Requested size: 385.85587pt x 273.23459pt.
  [53 </home/anter/Desktop/Thesis/Figures/Final/Muon.png>] [54 </home/anter/Desk
 top/Thesis/Figures/Final/Trigger.png>] [55]
@@ -1435,7 +1440,7 @@ top/Thesis/Figures/Final/Trigger.png>] [55]
 File: /home/anter/Desktop/Thesis/Figures/Final/DAQ.png Graphic file (type png)
  <use /home/anter/Desktop/Thesis/Figures/Final/DAQ.png>
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Final/DAQ.png used 
-on input line 260.
+on input line 259.
 (pdftex.def)             Requested size: 390.70872pt x 184.4386pt.
 
 
@@ -1447,7 +1452,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: /home/anter/Desktop/Thesis/Figures/Computing.png Graphic file (type png)
  <use /home/anter/Desktop/Thesis/Figures/Computing.png>
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Computing.png used 
-on input line 274.
+on input line 273.
 (pdftex.def)             Requested size: 324.2094pt x 243.15704pt.
 
 
@@ -1456,23 +1461,23 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [57 </home/anter/Desktop/Thesis/Figures/Final/DAQ.png>] [58 </home/anter/Deskto
 p/Thesis/Figures/Computing.png>]
 LaTeX Font Info:    Font shape `OT1/cmr/bx/sc' in size <14.4> not available
-(Font)              Font shape `OT1/cmr/b/sc' tried instead on input line 291.
+(Font)              Font shape `OT1/cmr/b/sc' tried instead on input line 289.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 291.
+(hyperref)                removing `\@ifnextchar' on input line 289.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 291.
+(hyperref)                removing `\@ifnextchar' on input line 289.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 291.
+(hyperref)                removing `\@ifnextchar' on input line 289.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 291.
+(hyperref)                removing `\@ifnextchar' on input line 289.
 
 [59]) [60]
 \openout2 = `Reconstruction.aux'.
@@ -1781,8 +1786,18 @@ d on input line 190.
 
 LaTeX Warning: Float too large for page by 49.33832pt on input line 194.
 
-
-</home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficiency.pdf, id=2123, 569.1262
+[84] [85 <./Plots_HT_2_150/Comparison_NuHadFrac_2_HT_2_150.pdf, page is rotated
+ 90 degrees> <./Plots_HT_2_150/Comparison_PhFrac_2_HT_2_150.pdf, page is rotate
+d 90 degrees> <./Plots_HT_2_150/Comparison_MuFrac_2_HT_2_150.pdf, page is rotat
+ed 90 degrees> <./Plots_HT_2_150/Comparison_ElFrac_2_HT_2_150.pdf, page is rota
+ted 90 degrees> <./Plots_HT_2_150/Comparison_ChHadFrac_2_HT_2_150.pdf, page is 
+rotated 90 degrees>] [86 <./Plots_HT_2_150/Comparison_NuHadFrac_3_HT_2_150.pdf,
+ page is rotated 90 degrees> <./Plots_HT_2_150/Comparison_PhFrac_3_HT_2_150.pdf
+, page is rotated 90 degrees> <./Plots_HT_2_150/Comparison_MuFrac_3_HT_2_150.pd
+f, page is rotated 90 degrees> <./Plots_HT_2_150/Comparison_ElFrac_3_HT_2_150.p
+df, page is rotated 90 degrees> <./Plots_HT_2_150/Comparison_ChHadFrac_3_HT_2_1
+50.pdf, page is rotated 90 degrees>]
+</home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficiency.pdf, id=2566, 569.1262
 5pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficiency.pdf Graphic file 
 (type pdf)
@@ -1791,19 +1806,9 @@ File: /home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficiency.pdf Graphic file
 Package pdftex.def Info: /home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficienc
 y.pdf used on input line 201.
 (pdftex.def)             Requested size: 226.19888pt x 169.95288pt.
- [84] [85 <./Plots_HT_2_150/Comparison_NuHadFrac_2_HT_2_150.pdf, page is rotate
-d 90 degrees> <./Plots_HT_2_150/Comparison_PhFrac_2_HT_2_150.pdf, page is rotat
-ed 90 degrees> <./Plots_HT_2_150/Comparison_MuFrac_2_HT_2_150.pdf, page is rota
-ted 90 degrees> <./Plots_HT_2_150/Comparison_ElFrac_2_HT_2_150.pdf, page is rot
-ated 90 degrees> <./Plots_HT_2_150/Comparison_ChHadFrac_2_HT_2_150.pdf, page is
- rotated 90 degrees>] [86 <./Plots_HT_2_150/Comparison_NuHadFrac_3_HT_2_150.pdf
-, page is rotated 90 degrees> <./Plots_HT_2_150/Comparison_PhFrac_3_HT_2_150.pd
-f, page is rotated 90 degrees> <./Plots_HT_2_150/Comparison_MuFrac_3_HT_2_150.p
-df, page is rotated 90 degrees> <./Plots_HT_2_150/Comparison_ElFrac_3_HT_2_150.
-pdf, page is rotated 90 degrees> <./Plots_HT_2_150/Comparison_ChHadFrac_3_HT_2_
-150.pdf, page is rotated 90 degrees>] [87 </home/anter/Desktop/Thesis/Plots_HT_
-2_150/ID_Efficiency.pdf, page is rotated 90 degrees>]
-<Plots_HT_2_150/Nvertices.pdf, id=2621, 569.12625pt x 544.0325pt>
+ [87 </home/anter/Desktop/Thesis/Plots_HT_2_150/ID_Efficiency.pdf, page is rota
+ted 90 degrees>] <Plots_HT_2_150/Nvertices.pdf, id=2621, 569.12625pt x 544.0325
+pt>
 File: Plots_HT_2_150/Nvertices.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/Nvertices.pdf>
@@ -1874,7 +1879,7 @@ crystal_nomet.pdf used on input line 301.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_2.pdf, id=2879, 569.12625pt
+<Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_2.pdf, id=2883, 569.12625pt
  x 427.5975pt>
 File: Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_2.pdf Graphic file (ty
 pe pdf)
@@ -1883,7 +1888,7 @@ Package pdftex.def Info: Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_2.p
 df used on input line 309.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_3.pdf, id=2880, 569.12625pt
+<Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_3.pdf, id=2884, 569.12625pt
  x 427.5975pt>
 File: Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_3.pdf Graphic file (ty
 pe pdf)
@@ -1892,69 +1897,65 @@ Package pdftex.def Info: Plots_HT_2_150/Comparison_Resolution_Crystal_Gauss_3.p
 df used on input line 310.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<Plots_HT_2_150/Extrapolate_Sigma_Value_Res_2_crystal_range_ext.pdf, id=2881, 5
+<Plots_HT_2_150/Extrapolate_Sigma_Value_Res_2_crystal_range_ext.pdf, id=2885, 5
 69.12625pt x 427.5975pt>
 File: Plots_HT_2_150/Extrapolate_Sigma_Value_Res_2_crystal_range_ext.pdf Graphi
 c file (type pdf)
 
 <use Plots_HT_2_150/Extrapolate_Sigma_Value_Res_2_crystal_range_ext.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Extrapolate_Sigma_Value_Res_2_crystal_r
-ange_ext.pdf used on input line 318.
+ange_ext.pdf used on input line 317.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Extrapolate_Sigma_Value_Res_3_crystal_ext.pdf, id=2882, 569.126
+<Plots_HT_2_150/Extrapolate_Sigma_Value_Res_3_crystal_ext.pdf, id=2886, 569.126
 25pt x 427.5975pt>
 File: Plots_HT_2_150/Extrapolate_Sigma_Value_Res_3_crystal_ext.pdf Graphic file
  (type pdf)
 
 <use Plots_HT_2_150/Extrapolate_Sigma_Value_Res_3_crystal_ext.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Extrapolate_Sigma_Value_Res_3_crystal_e
-xt.pdf used on input line 319.
+xt.pdf used on input line 318.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
+ [93]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[93] [94 <./Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_crystal_nomet
-.pdf, page is rotated 90 degrees> <./Plots_HT_2_150/Fit_Res_3_final_crystal_gen
-bin_250-275_crystal_nomet.pdf, page is rotated 90 degrees> <./Plots_HT_2_150/Co
+[94 <./Plots_HT_2_150/Fit_Res_2_final_crystal_genbin_250-275_crystal_nomet.pdf,
+ page is rotated 90 degrees> <./Plots_HT_2_150/Fit_Res_3_final_crystal_genbin_2
+50-275_crystal_nomet.pdf, page is rotated 90 degrees>] [95 <./Plots_HT_2_150/Co
 mparison_Resolution_Crystal_Gauss_2.pdf, page is rotated 90 degrees> <./Plots_H
-T_2_150/Comparison_Resolution_Crystal_Gauss_3.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Plots_HT_2_150/Ratio_Reco_2_crystal.pdf, id=3075, 569.12625pt x 427.5975pt>
+T_2_150/Comparison_Resolution_Crystal_Gauss_3.pdf, page is rotated 90 degrees> 
+<./Plots_HT_2_150/Extrapolate_Sigma_Value_Res_2_crystal_range_ext.pdf, page is 
+rotated 90 degrees> <./Plots_HT_2_150/Extrapolate_Sigma_Value_Res_3_crystal_ext
+.pdf, page is rotated 90 degrees>]
+<Plots_HT_2_150/Ratio_Reco_2_crystal.pdf, id=3165, 569.12625pt x 427.5975pt>
 File: Plots_HT_2_150/Ratio_Reco_2_crystal.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/Ratio_Reco_2_crystal.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Ratio_Reco_2_crystal.pdf used on input 
-line 350.
+line 347.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Ratio_Reco_3_crystal.pdf, id=3076, 569.12625pt x 427.5975pt>
+<Plots_HT_2_150/Ratio_Reco_3_crystal.pdf, id=3166, 569.12625pt x 427.5975pt>
 File: Plots_HT_2_150/Ratio_Reco_3_crystal.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/Ratio_Reco_3_crystal.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Ratio_Reco_3_crystal.pdf used on input 
-line 351.
+line 348.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
- [95 <./Plots_HT_2_150/Extrapolate_Sigma_Value_Res_2_crystal_range_ext.pdf, pag
-e is rotated 90 degrees> <./Plots_HT_2_150/Extrapolate_Sigma_Value_Res_3_crysta
-l_ext.pdf, page is rotated 90 degrees>] [96 <./Plots_HT_2_150/Ratio_Reco_2_crys
-tal.pdf, page is rotated 90 degrees> <./Plots_HT_2_150/Ratio_Reco_3_crystal.pdf
-, page is rotated 90 degrees>]
-[97] [98] [99]
+ [96 <./Plots_HT_2_150/Ratio_Reco_2_crystal.pdf, page is rotated 90 degrees> <.
+/Plots_HT_2_150/Ratio_Reco_3_crystal.pdf, page is rotated 90 degrees>] [97] [98
+] [99]
 <Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcI.pdf, id=3285, 569.12625pt x
  427.5975pt>
 File: Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcI.pdf Graphic file (type
  pdf)
  <use Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcI.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcI.pdf
- used on input line 420.
+ used on input line 417.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 <Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcI.pdf, id=3286, 569.12625pt x
@@ -1963,7 +1964,7 @@ File: Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcI.pdf Graphic file (type
  pdf)
  <use Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcI.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcI.pdf
- used on input line 421.
+ used on input line 418.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 <Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcII.pdf, id=3287, 569.12625pt 
@@ -1972,7 +1973,7 @@ File: Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcII.pdf Graphic file (typ
 e pdf)
  <use Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcII.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Extrapolate_Theory_2_HT_2_150_funcII.pd
-f used on input line 423.
+f used on input line 420.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 <Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcII.pdf, id=3288, 569.12625pt 
@@ -1981,7 +1982,7 @@ File: Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcII.pdf Graphic file (typ
 e pdf)
  <use Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcII.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Extrapolate_Theory_3_HT_2_150_funcII.pd
-f used on input line 424.
+f used on input line 421.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 [100]
@@ -1992,7 +1993,7 @@ file (type pdf)
 
 <use Plots_HT_2_150/Normalized_Response_Matrix_NLO_2_range_column.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Normalized_Response_Matrix_NLO_2_range_
-column.pdf used on input line 436.
+column.pdf used on input line 433.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 <Plots_HT_2_150/Normalized_Response_Matrix_NLO_3_column.pdf, id=3305, 569.12625
@@ -2002,10 +2003,10 @@ type pdf)
 
 <use Plots_HT_2_150/Normalized_Response_Matrix_NLO_3_column.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Normalized_Response_Matrix_NLO_3_column
-.pdf used on input line 437.
+.pdf used on input line 434.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-Overfull \hbox (13.75328pt too wide) in paragraph at lines 436--438
+Overfull \hbox (13.75328pt too wide) in paragraph at lines 433--435
  []  [] 
  []
 
@@ -2020,7 +2021,7 @@ File: Plots_HT_2_150/Extrapolate_Theory_Ratio_32_funcII.pdf Graphic file (type
 pdf)
  <use Plots_HT_2_150/Extrapolate_Theory_Ratio_32_funcII.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Extrapolate_Theory_Ratio_32_funcII.pdf 
-used on input line 448.
+used on input line 445.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 <Plots_HT_2_150/Normalized_Response_Matrix_NLO_ratio_32_column_3.pdf, id=3487, 
@@ -2030,7 +2031,7 @@ ic file (type pdf)
 
 <use Plots_HT_2_150/Normalized_Response_Matrix_NLO_ratio_32_column_3.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Normalized_Response_Matrix_NLO_ratio_32
-_column_3.pdf used on input line 449.
+_column_3.pdf used on input line 446.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 <Plots_HT_2_150/Ratio_Unfolding_NLO_2_funcI.pdf, id=3490, 569.12625pt x 427.597
@@ -2038,7 +2039,7 @@ _column_3.pdf used on input line 449.
 File: Plots_HT_2_150/Ratio_Unfolding_NLO_2_funcI.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Ratio_Unfolding_NLO_2_funcI.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_NLO_2_funcI.pdf used on
- input line 458.
+ input line 455.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 <Plots_HT_2_150/Ratio_Unfolding_NLO_3_funcI.pdf, id=3491, 569.12625pt x 427.597
@@ -2046,10 +2047,10 @@ Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_NLO_2_funcI.pdf used on
 File: Plots_HT_2_150/Ratio_Unfolding_NLO_3_funcI.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Ratio_Unfolding_NLO_3_funcI.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_NLO_3_funcI.pdf used on
- input line 459.
+ input line 456.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-Overfull \hbox (5.21747pt too wide) in paragraph at lines 458--459
+Overfull \hbox (5.21747pt too wide) in paragraph at lines 455--456
  | []  [] 
  []
 
@@ -2060,7 +2061,7 @@ File: Plots_HT_2_150/Ratio_Unfolding_NLO_Ratio_32_funcI.pdf Graphic file (type
 pdf)
  <use Plots_HT_2_150/Ratio_Unfolding_NLO_Ratio_32_funcI.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_NLO_Ratio_32_funcI.pdf 
-used on input line 460.
+used on input line 457.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 [102 <./Plots_HT_2_150/Normalized_Response_Matrix_NLO_2_range_column.pdf, page 
@@ -2071,7 +2072,7 @@ pt>
 File: Plots_HT_2_150/Comparison_closure_2_range.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Comparison_closure_2_range.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Comparison_closure_2_range.pdf used on 
-input line 470.
+input line 467.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 <Plots_HT_2_150/Comparison_closure_3.pdf, id=3586, 569.12625pt x 427.5975pt>
@@ -2079,10 +2080,10 @@ File: Plots_HT_2_150/Comparison_closure_3.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/Comparison_closure_3.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Comparison_closure_3.pdf used on input 
-line 471.
+line 468.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-Overfull \hbox (5.21747pt too wide) in paragraph at lines 470--471
+Overfull \hbox (5.21747pt too wide) in paragraph at lines 467--468
  | []  [] 
  []
 
@@ -2093,7 +2094,7 @@ File: Plots_HT_2_150/Comparison_closure_ratio_32_now.pdf Graphic file (type pdf
 )
  <use Plots_HT_2_150/Comparison_closure_ratio_32_now.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Comparison_closure_ratio_32_now.pdf use
-d on input line 472.
+d on input line 469.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 
@@ -2105,7 +2106,7 @@ pt>
 File: Plots_HT_2_150/Ratio_Unfolding_data_NLO_2.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Ratio_Unfolding_data_NLO_2.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_data_NLO_2.pdf used on 
-input line 484.
+input line 481.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 <Plots_HT_2_150/Ratio_Unfolding_data_NLO_3.pdf, id=3593, 569.12625pt x 427.5975
@@ -2113,10 +2114,10 @@ pt>
 File: Plots_HT_2_150/Ratio_Unfolding_data_NLO_3.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Ratio_Unfolding_data_NLO_3.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_data_NLO_3.pdf used on 
-input line 485.
+input line 482.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-Overfull \hbox (5.21747pt too wide) in paragraph at lines 484--485
+Overfull \hbox (5.21747pt too wide) in paragraph at lines 481--482
  | []  [] 
  []
 
@@ -2127,7 +2128,7 @@ File: Plots_HT_2_150/Ratio_Unfolding_data_NLO_ratio32.pdf Graphic file (type pd
 f)
  <use Plots_HT_2_150/Ratio_Unfolding_data_NLO_ratio32.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Ratio_Unfolding_data_NLO_ratio32.pdf us
-ed on input line 486.
+ed on input line 483.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 
@@ -2151,7 +2152,7 @@ File: Plots_HT_2_150/Comparison_stat_unc_2_HT_2_150.pdf Graphic file (type pdf)
 
  <use Plots_HT_2_150/Comparison_stat_unc_2_HT_2_150.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Comparison_stat_unc_2_HT_2_150.pdf used
- on input line 505.
+ on input line 502.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 <Plots_HT_2_150/Comparison_stat_unc_3_HT_2_150.pdf, id=4088, 569.12625pt x 427.
@@ -2160,10 +2161,10 @@ File: Plots_HT_2_150/Comparison_stat_unc_3_HT_2_150.pdf Graphic file (type pdf)
 
  <use Plots_HT_2_150/Comparison_stat_unc_3_HT_2_150.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Comparison_stat_unc_3_HT_2_150.pdf used
- on input line 506.
+ on input line 503.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-Overfull \hbox (5.21747pt too wide) in paragraph at lines 505--506
+Overfull \hbox (5.21747pt too wide) in paragraph at lines 502--503
  | []  [] 
  []
 
@@ -2174,7 +2175,7 @@ File: Plots_HT_2_150/Comparison_stat_unc_ratio_32_symm.pdf Graphic file (type p
 df)
  <use Plots_HT_2_150/Comparison_stat_unc_ratio_32_symm.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Comparison_stat_unc_ratio_32_symm.pdf u
-sed on input line 509.
+sed on input line 506.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 <Plots_HT_2_150/Correlation_Matrix_NLO_2_ite4.pdf, id=4091, 569.12625pt x 427.5
@@ -2182,7 +2183,7 @@ sed on input line 509.
 File: Plots_HT_2_150/Correlation_Matrix_NLO_2_ite4.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Correlation_Matrix_NLO_2_ite4.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Correlation_Matrix_NLO_2_ite4.pdf used 
-on input line 519.
+on input line 516.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 <Plots_HT_2_150/Correlation_Matrix_NLO_3_ite4.pdf, id=4092, 569.12625pt x 427.5
@@ -2190,10 +2191,10 @@ on input line 519.
 File: Plots_HT_2_150/Correlation_Matrix_NLO_3_ite4.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Correlation_Matrix_NLO_3_ite4.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Correlation_Matrix_NLO_3_ite4.pdf used 
-on input line 520.
+on input line 517.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-Overfull \hbox (5.21747pt too wide) in paragraph at lines 519--520
+Overfull \hbox (5.21747pt too wide) in paragraph at lines 516--517
  | []  [] 
  []
 
@@ -2204,7 +2205,7 @@ File: Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite4.pdf Graphic file (typ
 e pdf)
  <use Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite4.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Correlation_Matrix_NLO_Ratio_32_ite4.pd
-f used on input line 521.
+f used on input line 518.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 
@@ -2221,17 +2222,17 @@ _32_ite4.pdf, page is rotated 90 degrees>] [110] [111]
 File: Plots_HT_2_150/Total_unc_all_2_NLO_add.pdf Graphic file (type pdf)
 <use Plots_HT_2_150/Total_unc_all_2_NLO_add.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Total_unc_all_2_NLO_add.pdf used on inp
-ut line 565.
+ut line 562.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 <Plots_HT_2_150/Total_unc_all_3_NLO_add.pdf, id=4396, 569.12625pt x 427.5975pt>
 File: Plots_HT_2_150/Total_unc_all_3_NLO_add.pdf Graphic file (type pdf)
 <use Plots_HT_2_150/Total_unc_all_3_NLO_add.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Total_unc_all_3_NLO_add.pdf used on inp
-ut line 566.
+ut line 563.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-Overfull \hbox (5.21747pt too wide) in paragraph at lines 565--566
+Overfull \hbox (5.21747pt too wide) in paragraph at lines 562--563
  | []  [] 
  []
 
@@ -2241,7 +2242,7 @@ Overfull \hbox (5.21747pt too wide) in paragraph at lines 565--566
 File: Plots_HT_2_150/Total_Unc_ratio_32_direct_add.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Total_Unc_ratio_32_direct_add.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Total_Unc_ratio_32_direct_add.pdf used 
-on input line 567.
+on input line 564.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 
@@ -2261,7 +2262,7 @@ Chapter 6.
 
 
 ] [116] [117]
-<Plots_HT_2_150/Kfactor_all_1.pdf, id=4585, 569.12625pt x 427.5975pt>
+<Plots_HT_2_150/Kfactor_all_1.pdf, id=4586, 569.12625pt x 427.5975pt>
 File: Plots_HT_2_150/Kfactor_all_1.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/Kfactor_all_1.pdf>
@@ -2269,7 +2270,7 @@ Package pdftex.def Info: Plots_HT_2_150/Kfactor_all_1.pdf used on input line 54
 .
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Kfactor_all_2.pdf, id=4586, 569.12625pt x 427.5975pt>
+<Plots_HT_2_150/Kfactor_all_2.pdf, id=4587, 569.12625pt x 427.5975pt>
 File: Plots_HT_2_150/Kfactor_all_2.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/Kfactor_all_2.pdf>
@@ -2278,7 +2279,7 @@ Package pdftex.def Info: Plots_HT_2_150/Kfactor_all_2.pdf used on input line 55
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
  [118 <./Plots_HT_2_150/Kfactor_all_1.pdf, page is rotated 90 degrees> <./Plots
 _HT_2_150/Kfactor_all_2.pdf, page is rotated 90 degrees>]
-<Plots_HT_2_150/Final_NP_Corr_2.pdf, id=4680, 569.12625pt x 427.5975pt>
+<Plots_HT_2_150/Final_NP_Corr_2.pdf, id=4681, 569.12625pt x 427.5975pt>
 File: Plots_HT_2_150/Final_NP_Corr_2.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/Final_NP_Corr_2.pdf>
@@ -2286,7 +2287,7 @@ Package pdftex.def Info: Plots_HT_2_150/Final_NP_Corr_2.pdf used on input line
 82.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Final_NP_Corr_3.pdf, id=4681, 569.12625pt x 427.5975pt>
+<Plots_HT_2_150/Final_NP_Corr_3.pdf, id=4682, 569.12625pt x 427.5975pt>
 File: Plots_HT_2_150/Final_NP_Corr_3.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/Final_NP_Corr_3.pdf>
@@ -2294,7 +2295,7 @@ Package pdftex.def Info: Plots_HT_2_150/Final_NP_Corr_3.pdf used on input line
 83.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Final_NP_Corr_Ratio_32.pdf, id=4682, 569.12625pt x 427.5975pt>
+<Plots_HT_2_150/Final_NP_Corr_Ratio_32.pdf, id=4683, 569.12625pt x 427.5975pt>
 File: Plots_HT_2_150/Final_NP_Corr_Ratio_32.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/Final_NP_Corr_Ratio_32.pdf>
@@ -2304,14 +2305,14 @@ t line 84.
  [119] [120 <./Plots_HT_2_150/Final_NP_Corr_2.pdf, page is rotated 90 degrees> 
 <./Plots_HT_2_150/Final_NP_Corr_3.pdf, page is rotated 90 degrees> <./Plots_HT_
 2_150/Final_NP_Corr_Ratio_32.pdf, page is rotated 90 degrees>]
-<Plots_HT_2_150/EW_2.pdf, id=4827, 569.12625pt x 427.5975pt>
+<Plots_HT_2_150/EW_2.pdf, id=4828, 569.12625pt x 427.5975pt>
 File: Plots_HT_2_150/EW_2.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/EW_2.pdf>
 Package pdftex.def Info: Plots_HT_2_150/EW_2.pdf used on input line 97.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Comparison_data_NLO_2_NoEW.pdf, id=4830, 569.12625pt x 427.5975
+<Plots_HT_2_150/Comparison_data_NLO_2_NoEW.pdf, id=4831, 569.12625pt x 427.5975
 pt>
 File: Plots_HT_2_150/Comparison_data_NLO_2_NoEW.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Comparison_data_NLO_2_NoEW.pdf>
@@ -2319,7 +2320,7 @@ Package pdftex.def Info: Plots_HT_2_150/Comparison_data_NLO_2_NoEW.pdf used on
 input line 105.
 (pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
 
-<Plots_HT_2_150/Comparison_data_NLO_2_EW.pdf, id=4831, 569.12625pt x 427.5975pt
+<Plots_HT_2_150/Comparison_data_NLO_2_EW.pdf, id=4832, 569.12625pt x 427.5975pt
 >
 File: Plots_HT_2_150/Comparison_data_NLO_2_EW.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Comparison_data_NLO_2_EW.pdf>
@@ -2333,113 +2334,113 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [121 <./Plots_HT_2_150/EW_2.pdf, page is rotated 90 degrees>] [122 <./Plots_HT_
 2_150/Comparison_data_NLO_2_NoEW.pdf, page is rotated 90 degrees> <./Plots_HT_2
 _150/Comparison_data_NLO_2_EW.pdf, page is rotated 90 degrees>] [123]
-<Plots_HT_2_150/Theory_Unc_2.pdf, id=4983, 569.12625pt x 427.5975pt>
+<Plots_HT_2_150/Theory_Unc_2.pdf, id=4984, 569.12625pt x 427.5975pt>
 File: Plots_HT_2_150/Theory_Unc_2.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/Theory_Unc_2.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Theory_Unc_2.pdf used on input line 148
+Package pdftex.def Info: Plots_HT_2_150/Theory_Unc_2.pdf used on input line 147
 .
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Theory_Unc_3.pdf, id=4984, 569.12625pt x 427.5975pt>
+<Plots_HT_2_150/Theory_Unc_3.pdf, id=4985, 569.12625pt x 427.5975pt>
 File: Plots_HT_2_150/Theory_Unc_3.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/Theory_Unc_3.pdf>
-Package pdftex.def Info: Plots_HT_2_150/Theory_Unc_3.pdf used on input line 149
+Package pdftex.def Info: Plots_HT_2_150/Theory_Unc_3.pdf used on input line 148
 .
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Theory_Unc_Ratio_32.pdf, id=4985, 569.12625pt x 427.5975pt>
+<Plots_HT_2_150/Theory_Unc_Ratio_32.pdf, id=4986, 569.12625pt x 427.5975pt>
 File: Plots_HT_2_150/Theory_Unc_Ratio_32.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/Theory_Unc_Ratio_32.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Theory_Unc_Ratio_32.pdf used on input l
-ine 150.
+ine 149.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
  [124] [125 <./Plots_HT_2_150/Theory_Unc_2.pdf, page is rotated 90 degrees> <./
 Plots_HT_2_150/Theory_Unc_3.pdf, page is rotated 90 degrees> <./Plots_HT_2_150/
 Theory_Unc_Ratio_32.pdf, page is rotated 90 degrees>] [126]
-<Plots_HT_2_150/Comparison_data_theory_EW.pdf, id=5133, 569.12625pt x 427.5975p
+<Plots_HT_2_150/Comparison_data_theory_EW.pdf, id=5134, 569.12625pt x 427.5975p
 t>
 File: Plots_HT_2_150/Comparison_data_theory_EW.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Comparison_data_theory_EW.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Comparison_data_theory_EW.pdf used on i
-nput line 176.
+nput line 175.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Comparison_data_MC_EW.pdf, id=5134, 569.12625pt x 427.5975pt>
+<Plots_HT_2_150/Comparison_data_MC_EW.pdf, id=5135, 569.12625pt x 427.5975pt>
 File: Plots_HT_2_150/Comparison_data_MC_EW.pdf Graphic file (type pdf)
 
 <use Plots_HT_2_150/Comparison_data_MC_EW.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Comparison_data_MC_EW.pdf used on input
- line 177.
+ line 176.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Sensitivity_ratio_32_CT10_only.pdf, id=5135, 569.12625pt x 427.
+<Plots_HT_2_150/Sensitivity_ratio_32_CT10_only.pdf, id=5136, 569.12625pt x 427.
 5975pt>
 File: Plots_HT_2_150/Sensitivity_ratio_32_CT10_only.pdf Graphic file (type pdf)
 
  <use Plots_HT_2_150/Sensitivity_ratio_32_CT10_only.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Sensitivity_ratio_32_CT10_only.pdf used
- on input line 184.
+ on input line 183.
 (pdftex.def)             Requested size: 213.39566pt x 160.32909pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Plots_HT_2_150/Comparison_data_NLO_Pdfs_2_EW.pdf, id=5137, 569.12625pt x 427.5
+<Plots_HT_2_150/Comparison_data_NLO_Pdfs_2_EW.pdf, id=5138, 569.12625pt x 427.5
 975pt>
 File: Plots_HT_2_150/Comparison_data_NLO_Pdfs_2_EW.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Comparison_data_NLO_Pdfs_2_EW.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Comparison_data_NLO_Pdfs_2_EW.pdf used 
-on input line 194.
+on input line 193.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Comparison_data_NLO_Pdfs_3.pdf, id=5138, 569.12625pt x 427.5975
+<Plots_HT_2_150/Comparison_data_NLO_Pdfs_3.pdf, id=5139, 569.12625pt x 427.5975
 pt>
 File: Plots_HT_2_150/Comparison_data_NLO_Pdfs_3.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Comparison_data_NLO_Pdfs_3.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Comparison_data_NLO_Pdfs_3.pdf used on 
-input line 195.
+input line 194.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Comparison_data_NLO_Pdfs_ratio_32.pdf, id=5139, 569.12625pt x 4
+<Plots_HT_2_150/Comparison_data_NLO_Pdfs_ratio_32.pdf, id=5140, 569.12625pt x 4
 27.5975pt>
 File: Plots_HT_2_150/Comparison_data_NLO_Pdfs_ratio_32.pdf Graphic file (type p
 df)
  <use Plots_HT_2_150/Comparison_data_NLO_Pdfs_ratio_32.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Comparison_data_NLO_Pdfs_ratio_32.pdf u
-sed on input line 196.
+sed on input line 195.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
  [127 <./Plots_HT_2_150/Comparison_data_theory_EW.pdf, page is rotated 90 degre
 es> <./Plots_HT_2_150/Comparison_data_MC_EW.pdf, page is rotated 90 degrees>]
-<Plots_HT_2_150/Comparison_data_MC_samples_2_Pow_EW.pdf, id=5232, 569.12625pt x
+<Plots_HT_2_150/Comparison_data_MC_samples_2_Pow_EW.pdf, id=5233, 569.12625pt x
  427.5975pt>
 File: Plots_HT_2_150/Comparison_data_MC_samples_2_Pow_EW.pdf Graphic file (type
  pdf)
  <use Plots_HT_2_150/Comparison_data_MC_samples_2_Pow_EW.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Comparison_data_MC_samples_2_Pow_EW.pdf
- used on input line 206.
+ used on input line 205.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Comparison_data_MC_samples_3_Pow.pdf, id=5233, 569.12625pt x 42
+<Plots_HT_2_150/Comparison_data_MC_samples_3_Pow.pdf, id=5234, 569.12625pt x 42
 7.5975pt>
 File: Plots_HT_2_150/Comparison_data_MC_samples_3_Pow.pdf Graphic file (type pd
 f)
  <use Plots_HT_2_150/Comparison_data_MC_samples_3_Pow.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Comparison_data_MC_samples_3_Pow.pdf us
-ed on input line 207.
+ed on input line 206.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Comparison_data_MC_samples_ratio_32_Pow.pdf, id=5234, 569.12625
+<Plots_HT_2_150/Comparison_data_MC_samples_ratio_32_Pow.pdf, id=5235, 569.12625
 pt x 427.5975pt>
 File: Plots_HT_2_150/Comparison_data_MC_samples_ratio_32_Pow.pdf Graphic file (
 type pdf)
 
 <use Plots_HT_2_150/Comparison_data_MC_samples_ratio_32_Pow.pdf>
 Package pdftex.def Info: Plots_HT_2_150/Comparison_data_MC_samples_ratio_32_Pow
-.pdf used on input line 208.
+.pdf used on input line 207.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 
@@ -2462,7 +2463,7 @@ Chapter 7.
 
 
 ] [132]
-<Plots_HT_2_150/Sensitivity_2_ratio_NLO_CT10_EW.pdf, id=5588, 569.12625pt x 427
+<Plots_HT_2_150/Sensitivity_2_ratio_NLO_CT10_EW.pdf, id=5589, 569.12625pt x 427
 .5975pt>
 File: Plots_HT_2_150/Sensitivity_2_ratio_NLO_CT10_EW.pdf Graphic file (type pdf
 )
@@ -2471,7 +2472,7 @@ Package pdftex.def Info: Plots_HT_2_150/Sensitivity_2_ratio_NLO_CT10_EW.pdf use
 d on input line 22.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Sensitivity_2_ratio_NLO_CT14_EW.pdf, id=5589, 569.12625pt x 427
+<Plots_HT_2_150/Sensitivity_2_ratio_NLO_CT14_EW.pdf, id=5590, 569.12625pt x 427
 .5975pt>
 File: Plots_HT_2_150/Sensitivity_2_ratio_NLO_CT14_EW.pdf Graphic file (type pdf
 )
@@ -2480,7 +2481,7 @@ Package pdftex.def Info: Plots_HT_2_150/Sensitivity_2_ratio_NLO_CT14_EW.pdf use
 d on input line 23.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Sensitivity_2_ratio_NLO_MSTW2008_EW.pdf, id=5590, 569.12625pt x
+<Plots_HT_2_150/Sensitivity_2_ratio_NLO_MSTW2008_EW.pdf, id=5591, 569.12625pt x
  427.5975pt>
 File: Plots_HT_2_150/Sensitivity_2_ratio_NLO_MSTW2008_EW.pdf Graphic file (type
  pdf)
@@ -2489,7 +2490,7 @@ Package pdftex.def Info: Plots_HT_2_150/Sensitivity_2_ratio_NLO_MSTW2008_EW.pdf
  used on input line 25.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Sensitivity_2_ratio_NLO_MMHT2014_EW.pdf, id=5591, 569.12625pt x
+<Plots_HT_2_150/Sensitivity_2_ratio_NLO_MMHT2014_EW.pdf, id=5592, 569.12625pt x
  427.5975pt>
 File: Plots_HT_2_150/Sensitivity_2_ratio_NLO_MMHT2014_EW.pdf Graphic file (type
  pdf)
@@ -2498,7 +2499,7 @@ Package pdftex.def Info: Plots_HT_2_150/Sensitivity_2_ratio_NLO_MMHT2014_EW.pdf
  used on input line 26.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Sensitivity_2_ratio_NLO_NNPDF23_EW.pdf, id=5592, 569.12625pt x 
+<Plots_HT_2_150/Sensitivity_2_ratio_NLO_NNPDF23_EW.pdf, id=5593, 569.12625pt x 
 427.5975pt>
 File: Plots_HT_2_150/Sensitivity_2_ratio_NLO_NNPDF23_EW.pdf Graphic file (type 
 pdf)
@@ -2507,7 +2508,7 @@ Package pdftex.def Info: Plots_HT_2_150/Sensitivity_2_ratio_NLO_NNPDF23_EW.pdf
 used on input line 28.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Sensitivity_3_ratio_NLO_CT10.pdf, id=5593, 569.12625pt x 427.59
+<Plots_HT_2_150/Sensitivity_3_ratio_NLO_CT10.pdf, id=5594, 569.12625pt x 427.59
 75pt>
 File: Plots_HT_2_150/Sensitivity_3_ratio_NLO_CT10.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Sensitivity_3_ratio_NLO_CT10.pdf>
@@ -2515,7 +2516,7 @@ Package pdftex.def Info: Plots_HT_2_150/Sensitivity_3_ratio_NLO_CT10.pdf used o
 n input line 36.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Sensitivity_3_ratio_NLO_CT14.pdf, id=5594, 569.12625pt x 427.59
+<Plots_HT_2_150/Sensitivity_3_ratio_NLO_CT14.pdf, id=5595, 569.12625pt x 427.59
 75pt>
 File: Plots_HT_2_150/Sensitivity_3_ratio_NLO_CT14.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Sensitivity_3_ratio_NLO_CT14.pdf>
@@ -2523,7 +2524,7 @@ Package pdftex.def Info: Plots_HT_2_150/Sensitivity_3_ratio_NLO_CT14.pdf used o
 n input line 37.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Sensitivity_3_ratio_NLO_MSTW2008.pdf, id=5595, 569.12625pt x 42
+<Plots_HT_2_150/Sensitivity_3_ratio_NLO_MSTW2008.pdf, id=5596, 569.12625pt x 42
 7.5975pt>
 File: Plots_HT_2_150/Sensitivity_3_ratio_NLO_MSTW2008.pdf Graphic file (type pd
 f)
@@ -2532,7 +2533,7 @@ Package pdftex.def Info: Plots_HT_2_150/Sensitivity_3_ratio_NLO_MSTW2008.pdf us
 ed on input line 39.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Sensitivity_3_ratio_NLO_MMHT2014.pdf, id=5596, 569.12625pt x 42
+<Plots_HT_2_150/Sensitivity_3_ratio_NLO_MMHT2014.pdf, id=5597, 569.12625pt x 42
 7.5975pt>
 File: Plots_HT_2_150/Sensitivity_3_ratio_NLO_MMHT2014.pdf Graphic file (type pd
 f)
@@ -2541,7 +2542,7 @@ Package pdftex.def Info: Plots_HT_2_150/Sensitivity_3_ratio_NLO_MMHT2014.pdf us
 ed on input line 40.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Sensitivity_3_ratio_NLO_NNPDF23.pdf, id=5597, 569.12625pt x 427
+<Plots_HT_2_150/Sensitivity_3_ratio_NLO_NNPDF23.pdf, id=5598, 569.12625pt x 427
 .5975pt>
 File: Plots_HT_2_150/Sensitivity_3_ratio_NLO_NNPDF23.pdf Graphic file (type pdf
 )
@@ -2550,7 +2551,7 @@ Package pdftex.def Info: Plots_HT_2_150/Sensitivity_3_ratio_NLO_NNPDF23.pdf use
 d on input line 42.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Sensitivity_double_ratio_32_CT10.pdf, id=5598, 569.12625pt x 42
+<Plots_HT_2_150/Sensitivity_double_ratio_32_CT10.pdf, id=5599, 569.12625pt x 42
 7.5975pt>
 File: Plots_HT_2_150/Sensitivity_double_ratio_32_CT10.pdf Graphic file (type pd
 f)
@@ -2559,7 +2560,7 @@ Package pdftex.def Info: Plots_HT_2_150/Sensitivity_double_ratio_32_CT10.pdf us
 ed on input line 50.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Sensitivity_double_ratio_32_CT14.pdf, id=5599, 569.12625pt x 42
+<Plots_HT_2_150/Sensitivity_double_ratio_32_CT14.pdf, id=5600, 569.12625pt x 42
 7.5975pt>
 File: Plots_HT_2_150/Sensitivity_double_ratio_32_CT14.pdf Graphic file (type pd
 f)
@@ -2568,7 +2569,7 @@ Package pdftex.def Info: Plots_HT_2_150/Sensitivity_double_ratio_32_CT14.pdf us
 ed on input line 51.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Sensitivity_double_ratio_32_MSTW2008.pdf, id=5600, 569.12625pt 
+<Plots_HT_2_150/Sensitivity_double_ratio_32_MSTW2008.pdf, id=5601, 569.12625pt 
 x 427.5975pt>
 File: Plots_HT_2_150/Sensitivity_double_ratio_32_MSTW2008.pdf Graphic file (typ
 e pdf)
@@ -2577,7 +2578,7 @@ Package pdftex.def Info: Plots_HT_2_150/Sensitivity_double_ratio_32_MSTW2008.pd
 f used on input line 53.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Sensitivity_double_ratio_32_MMHT2014.pdf, id=5601, 569.12625pt 
+<Plots_HT_2_150/Sensitivity_double_ratio_32_MMHT2014.pdf, id=5602, 569.12625pt 
 x 427.5975pt>
 File: Plots_HT_2_150/Sensitivity_double_ratio_32_MMHT2014.pdf Graphic file (typ
 e pdf)
@@ -2586,7 +2587,7 @@ Package pdftex.def Info: Plots_HT_2_150/Sensitivity_double_ratio_32_MMHT2014.pd
 f used on input line 54.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
-<Plots_HT_2_150/Sensitivity_double_ratio_32_NNPDF23.pdf, id=5602, 569.12625pt x
+<Plots_HT_2_150/Sensitivity_double_ratio_32_NNPDF23.pdf, id=5603, 569.12625pt x
  427.5975pt>
 File: Plots_HT_2_150/Sensitivity_double_ratio_32_NNPDF23.pdf Graphic file (type
  pdf)
@@ -2840,7 +2841,7 @@ Overfull \hbox (60.93782pt too wide) in paragraph at lines 233--259
  []
 
 [141] [142] [143]
-<Plots_HT_2_150/Running_alphas_8TeV_R32.pdf, id=6342, 569.12625pt x 390.45876pt
+<Plots_HT_2_150/Running_alphas_8TeV_R32.pdf, id=6343, 569.12625pt x 390.45876pt
 >
 File: Plots_HT_2_150/Running_alphas_8TeV_R32.pdf Graphic file (type pdf)
  <use Plots_HT_2_150/Running_alphas_8TeV_R32.pdf>
@@ -2874,7 +2875,7 @@ Chapter 9.
 
 
 ]
-</home/anter/Desktop/Thesis/Figures/Final/SiPM_2.png, id=6457, 587.19376pt x 54
+</home/anter/Desktop/Thesis/Figures/Final/SiPM_2.png, id=6458, 587.19376pt x 54
 0.0175pt>
 File: /home/anter/Desktop/Thesis/Figures/Final/SiPM_2.png Graphic file (type pn
 g)
@@ -2887,7 +2888,7 @@ ed on input line 10.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [152]
-</home/anter/Desktop/Thesis/Figures/Final/bv_led_iv_49.pdf, id=6467, 569.12625p
+</home/anter/Desktop/Thesis/Figures/Final/bv_led_iv_49.pdf, id=6468, 569.12625p
 t x 385.44pt>
 File: /home/anter/Desktop/Thesis/Figures/Final/bv_led_iv_49.pdf Graphic file (t
 ype pdf)
@@ -2896,7 +2897,7 @@ Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Final/bv_led_iv_49.
 pdf used on input line 26.
 (pdftex.def)             Requested size: 369.92767pt x 250.53302pt.
 
-</home/anter/Desktop/Thesis/Figures/Final/Gain_PED_108.pdf, id=6469, 569.12625p
+</home/anter/Desktop/Thesis/Figures/Final/Gain_PED_108.pdf, id=6470, 569.12625p
 t x 385.44pt>
 File: /home/anter/Desktop/Thesis/Figures/Final/Gain_PED_108.pdf Graphic file (t
 ype pdf)
@@ -2905,7 +2906,7 @@ Package pdftex.def Info: /home/anter/Desktop/Thesis/Figures/Final/Gain_PED_108.
 pdf used on input line 37.
 (pdftex.def)             Requested size: 369.92767pt x 250.53302pt.
 
-</home/anter/Desktop/Thesis/Figures/Final/Fit.pdf, id=6471, 569.12625pt x 369.3
+</home/anter/Desktop/Thesis/Figures/Final/Fit.pdf, id=6472, 569.12625pt x 369.3
 8pt>
 File: /home/anter/Desktop/Thesis/Figures/Final/Fit.pdf Graphic file (type pdf)
  <use /home/anter/Desktop/Thesis/Figures/Final/Fit.pdf>
@@ -2927,7 +2928,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [156 </home/anter/Desktop/Thesis/Figures/Final/Gain_PED_108.pdf, page is rotate
 d 90 degrees>]
-</home/anter/Desktop/Thesis/Figures/Final/MTCA_2.png, id=6580, 470.75874pt x 31
+</home/anter/Desktop/Thesis/Figures/Final/MTCA_2.png, id=6581, 470.75874pt x 31
 8.18875pt>
 File: /home/anter/Desktop/Thesis/Figures/Final/MTCA_2.png Graphic file (type pn
 g)
@@ -2941,7 +2942,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [157 </home/anter/Desktop/Thesis/Figures/Final/Fit.pdf, page is rotated 90 degr
 ees>]
-</home/anter/Desktop/Thesis/Figures/Final/FlowChart.png, id=6636, 913.4125pt x 
+</home/anter/Desktop/Thesis/Figures/Final/FlowChart.png, id=6637, 913.4125pt x 
 567.11874pt>
 File: /home/anter/Desktop/Thesis/Figures/Final/FlowChart.png Graphic file (type
  png)
@@ -2955,7 +2956,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [158 </home/anter/Desktop/Thesis/Figures/Final/MTCA_2.png>] [159 </home/anter/D
 esktop/Thesis/Figures/Final/FlowChart.png>]
-</home/anter/Desktop/Thesis/Figures/MTCA/SetUp_5.png, id=6646, 483.8075pt x 642
+</home/anter/Desktop/Thesis/Figures/MTCA/SetUp_5.png, id=6647, 483.8075pt x 642
 .4pt>
 File: /home/anter/Desktop/Thesis/Figures/MTCA/SetUp_5.png Graphic file (type pn
 g)
@@ -2976,7 +2977,7 @@ Appendix A.
 
 ]
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_2_HT_2_Unc_
-Abs_1.pdf, id=6672, 569.12625pt x 427.5975pt>
+Abs_1.pdf, id=6673, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_2_HT_2
 _Unc_Abs_1.pdf Graphic file (type pdf)
 
@@ -2987,7 +2988,7 @@ cro_Plot_All_2_HT_2_Unc_Abs_1.pdf used on input line 51.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_2_HT_2_Unc_
-Single_1.pdf, id=6673, 569.12625pt x 427.5975pt>
+Single_1.pdf, id=6674, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_2_HT_2
 _Unc_Single_1.pdf Graphic file (type pdf)
 
@@ -2998,7 +2999,7 @@ cro_Plot_All_2_HT_2_Unc_Single_1.pdf used on input line 52.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_3_HT_2_Unc_
-Abs_1.pdf, id=6674, 569.12625pt x 427.5975pt>
+Abs_1.pdf, id=6675, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_3_HT_2
 _Unc_Abs_1.pdf Graphic file (type pdf)
 
@@ -3009,7 +3010,7 @@ cro_Plot_All_3_HT_2_Unc_Abs_1.pdf used on input line 53.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_3_HT_2_Unc_
-Single_1.pdf, id=6675, 569.12625pt x 427.5975pt>
+Single_1.pdf, id=6676, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_3_HT_2
 _Unc_Single_1.pdf Graphic file (type pdf)
 
@@ -3020,7 +3021,7 @@ cro_Plot_All_3_HT_2_Unc_Single_1.pdf used on input line 54.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_Ratio_32_HT_2_U
-nc_Abs_1.pdf, id=6676, 569.12625pt x 427.5975pt>
+nc_Abs_1.pdf, id=6677, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_Ratio_32_H
 T_2_Unc_Abs_1.pdf Graphic file (type pdf)
 
@@ -3031,7 +3032,7 @@ cro_Plot_Ratio_32_HT_2_Unc_Abs_1.pdf used on input line 55.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_Ratio_32_HT_2_U
-nc_Single_1.pdf, id=6677, 569.12625pt x 427.5975pt>
+nc_Single_1.pdf, id=6678, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_Ratio_32_H
 T_2_Unc_Single_1.pdf Graphic file (type pdf)
 
@@ -3042,7 +3043,7 @@ cro_Plot_Ratio_32_HT_2_Unc_Single_1.pdf used on input line 56.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_2_HT_2_Unc_
-Relative_1.pdf, id=6678, 569.12625pt x 427.5975pt>
+Relative_1.pdf, id=6679, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_2_HT_2
 _Unc_Relative_1.pdf Graphic file (type pdf)
 
@@ -3053,7 +3054,7 @@ cro_Plot_All_2_HT_2_Unc_Relative_1.pdf used on input line 64.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_2_HT_2_Unc_
-Relative_2.pdf, id=6679, 569.12625pt x 427.5975pt>
+Relative_2.pdf, id=6680, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_2_HT_2
 _Unc_Relative_2.pdf Graphic file (type pdf)
 
@@ -3064,7 +3065,7 @@ cro_Plot_All_2_HT_2_Unc_Relative_2.pdf used on input line 65.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_3_HT_2_Unc_
-Relative_1.pdf, id=6680, 569.12625pt x 427.5975pt>
+Relative_1.pdf, id=6681, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_3_HT_2
 _Unc_Relative_1.pdf Graphic file (type pdf)
 
@@ -3075,7 +3076,7 @@ cro_Plot_All_3_HT_2_Unc_Relative_1.pdf used on input line 66.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_3_HT_2_Unc_
-Relative_2.pdf, id=6681, 569.12625pt x 427.5975pt>
+Relative_2.pdf, id=6682, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_3_HT_2
 _Unc_Relative_2.pdf Graphic file (type pdf)
 
@@ -3086,7 +3087,7 @@ cro_Plot_All_3_HT_2_Unc_Relative_2.pdf used on input line 67.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_Ratio_32_HT_2_U
-nc_Relative_1.pdf, id=6682, 569.12625pt x 427.5975pt>
+nc_Relative_1.pdf, id=6683, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_Ratio_32_H
 T_2_Unc_Relative_1.pdf Graphic file (type pdf)
 
@@ -3097,7 +3098,7 @@ cro_Plot_Ratio_32_HT_2_Unc_Relative_1.pdf used on input line 68.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_Ratio_32_HT_2_U
-nc_Relative_2.pdf, id=6683, 569.12625pt x 427.5975pt>
+nc_Relative_2.pdf, id=6684, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_Ratio_32_H
 T_2_Unc_Relative_2.pdf Graphic file (type pdf)
 
@@ -3108,7 +3109,7 @@ cro_Plot_Ratio_32_HT_2_Unc_Relative_2.pdf used on input line 69.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_2_HT_2_Unc_
-RelativeStat_1.pdf, id=6684, 569.12625pt x 427.5975pt>
+RelativeStat_1.pdf, id=6685, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_2_HT_2
 _Unc_RelativeStat_1.pdf Graphic file (type pdf)
 
@@ -3119,7 +3120,7 @@ cro_Plot_All_2_HT_2_Unc_RelativeStat_1.pdf used on input line 77.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_2_HT_2_Unc_
-Pileup_1.pdf, id=6685, 569.12625pt x 427.5975pt>
+Pileup_1.pdf, id=6686, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_2_HT_2
 _Unc_Pileup_1.pdf Graphic file (type pdf)
 
@@ -3130,7 +3131,7 @@ cro_Plot_All_2_HT_2_Unc_Pileup_1.pdf used on input line 78.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_3_HT_2_Unc_
-RelativeStat_1.pdf, id=6686, 569.12625pt x 427.5975pt>
+RelativeStat_1.pdf, id=6687, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_3_HT_2
 _Unc_RelativeStat_1.pdf Graphic file (type pdf)
 
@@ -3141,7 +3142,7 @@ cro_Plot_All_3_HT_2_Unc_RelativeStat_1.pdf used on input line 79.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_3_HT_2_Unc_
-Pileup_1.pdf, id=6687, 569.12625pt x 427.5975pt>
+Pileup_1.pdf, id=6688, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_All_3_HT_2
 _Unc_Pileup_1.pdf Graphic file (type pdf)
 
@@ -3152,7 +3153,7 @@ cro_Plot_All_3_HT_2_Unc_Pileup_1.pdf used on input line 80.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_Ratio_32_HT_2_U
-nc_RelativeStat_1.pdf, id=6688, 569.12625pt x 427.5975pt>
+nc_RelativeStat_1.pdf, id=6689, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_Ratio_32_H
 T_2_Unc_RelativeStat_1.pdf Graphic file (type pdf)
 
@@ -3163,7 +3164,7 @@ cro_Plot_Ratio_32_HT_2_Unc_RelativeStat_1.pdf used on input line 81.
 (pdftex.def)             Requested size: 217.66122pt x 163.53267pt.
 
 </home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_Ratio_32_HT_2_U
-nc_Pileup_1.pdf, id=6689, 569.12625pt x 427.5975pt>
+nc_Pileup_1.pdf, id=6690, 569.12625pt x 427.5975pt>
 File: /home/anter/Desktop/Thesis/Plots_HT_2_150/Single/MC_Macro_Plot_Ratio_32_H
 T_2_Unc_Pileup_1.pdf Graphic file (type pdf)
 
@@ -3273,7 +3274,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/it' in size <5.5> not available
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=7895, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=7896, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf>
@@ -3295,7 +3296,7 @@ pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=7898, page=1, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=7899, page=1, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 1>
@@ -3322,7 +3323,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page1 used on input line 198.
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=7899, page=2, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=7900, page=2, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 2>
@@ -3350,7 +3351,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page2 used on input line 198.
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=7943, page=3, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=7944, page=3, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 3>
@@ -3366,7 +3367,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page3 used on input line 198.
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=7944, page=4, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=7945, page=4, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 4>
@@ -3394,7 +3395,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page4 used on input line 198.
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=7962, page=5, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=7963, page=5, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 5>
@@ -3410,7 +3411,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page5 used on input line 198.
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=7963, page=6, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=7964, page=6, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 6>
@@ -3438,7 +3439,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page6 used on input line 198.
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=8061, page=7, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=8062, page=7, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 7>
@@ -3454,7 +3455,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page7 used on input line 198.
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=8062, page=8, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=8063, page=8, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 8>
@@ -3482,7 +3483,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page8 used on input line 198.
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=8199, page=9, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=8200, page=9, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 9>
@@ -3498,7 +3499,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page9 used on input line 198.
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=8200, page=10, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=8201, page=10, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 10>
@@ -3526,7 +3527,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page10 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=8470, page=11, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=8471, page=11, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 11>
@@ -3542,7 +3543,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page11 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=8471, page=12, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=8472, page=12, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 12>
@@ -3570,7 +3571,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page12 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=8696, page=13, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=8697, page=13, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 13>
@@ -3586,7 +3587,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page13 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=8697, page=14, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=8698, page=14, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 14>
@@ -3614,7 +3615,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page14 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=8878, page=15, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=8879, page=15, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 15>
@@ -3630,7 +3631,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page15 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=8879, page=16, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=8880, page=16, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 16>
@@ -3658,7 +3659,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page16 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=9324, page=17, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=9325, page=17, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 17>
@@ -3674,7 +3675,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page17 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=9325, page=18, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=9326, page=18, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 18>
@@ -3702,7 +3703,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page18 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=9550, page=19, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=9551, page=19, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 19>
@@ -3718,7 +3719,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page19 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=9551, page=20, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=9552, page=20, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 20>
@@ -3746,7 +3747,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page20 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=9556, page=21, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=9557, page=21, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 21>
@@ -3762,7 +3763,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page21 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=9557, page=22, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=9558, page=22, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 22>
@@ -3790,7 +3791,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page22 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=9607, page=23, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=9608, page=23, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 23>
@@ -3806,7 +3807,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page23 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=9608, page=24, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=9609, page=24, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 24>
@@ -3834,7 +3835,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page24 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=9618, page=25, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=9619, page=25, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 25>
@@ -3850,7 +3851,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page25 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=9619, page=26, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=9620, page=26, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 26>
@@ -3878,7 +3879,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page26 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=9624, page=27, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=9625, page=27, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 27>
@@ -3894,7 +3895,7 @@ Package pdftex.def Info: Pdfs/SMP-16-008-pas.pdf, page27 used on input line 198
 
 pdfTeX warning: pdflatex (file ./Pdfs/SMP-16-008-pas.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Pdfs/SMP-16-008-pas.pdf, id=9625, page=28, 597.50829pt x 845.0471pt>
+<Pdfs/SMP-16-008-pas.pdf, id=9626, page=28, 597.50829pt x 845.0471pt>
 File: Pdfs/SMP-16-008-pas.pdf Graphic file (type pdf)
 
 <use Pdfs/SMP-16-008-pas.pdf, page 28>
@@ -3933,16 +3934,19 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 202.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
  ) 
 Here is how much of TeX's memory you used:
- 14512 strings out of 493033
- 227603 string characters out of 6136455
- 386235 words of memory out of 5000000
- 16826 multiletter control sequences out of 15000+600000
+ 14521 strings out of 493033
+ 227905 string characters out of 6136455
+ 386657 words of memory out of 5000000
+ 16832 multiletter control sequences out of 15000+600000
  29527 words of font info for 98 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 43i,26n,48p,3329b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,26n,48p,3337b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} </home/anter/.te
 xmf-var/fonts/pk/ljfour/public/cm/cmbcsc10.864pk></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts
@@ -3960,31 +3964,30 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf
 /fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfrm1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/couri
-er/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (238 pages, 10631150 bytes).
+blic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfrm1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uh
+vb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on thesis.pdf (238 pages, 10632216 bytes).
 PDF statistics:
- 10202 PDF objects out of 10688 (max. 8388607)
- 714 named destinations out of 1000 (max. 500000)
- 1711 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 10203 PDF objects out of 10688 (max. 8388607)
+ 716 named destinations out of 1000 (max. 500000)
+ 1716 words of extra memory for PDF output out of 10000 (max. 10000000)
 
