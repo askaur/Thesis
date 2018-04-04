@@ -41,8 +41,8 @@
 
 \DeclareRobustCommand{\frac}[3][0pt]{%
   {\begingroup\hspace{#1}#2\hspace{#1}\endgroup\over\hspace{#1}#3\hspace{#1}}}
-\hypersetup{colorlinks, citecolor=blue, linkcolor=blue, urlcolor=blue}   % url colors
-%\hypersetup{colorlinks, citecolor=black, linkcolor=black, urlcolor=black}
+%\hypersetup{colorlinks, citecolor=blue, linkcolor=blue, urlcolor=blue}   % url colors
+\hypersetup{colorlinks, citecolor=black, linkcolor=black, urlcolor=black}
 \pagestyle{fancy} \fancyhfoffset[LE]{.5 cm}
 \clearpage{\pagestyle{empty}\cleardoublepage} \pagestyle{fancy}
 
@@ -195,7 +195,9 @@
 \end{center}
 \vskip 4pc
 \newpage \thispagestyle{empty}\cleardoublepage     % to get empty page without pagenumber
+\includepdf[pages=1-12, nup=1x2, landscape=false, angle=-90]{Pdfs/585809.pdf}
 \includepdf[pages=1-28, nup=1x2, landscape=false, angle=-90]{Pdfs/SMP-16-008-pas.pdf}
+\includepdf[pages=1-1]{Pdfs/Constancia-Kaur.pdf}
 
 \newpage \thispagestyle{empty}\cleardoublepage     % to get empty page without pagenumber
 
