@@ -96,7 +96,7 @@
 \contentsline {section}{\numberline {A.2}Individual Sources of Jet Energy Correction Uncertainties}{163}{section.a.A.2}
 \contentsline {section}{\numberline {A.3}Experimental Uncertainties}{167}{section.a.A.3}
 \contentsline {section}{\numberline {A.4}Theoretical Uncertainties}{170}{section.a.A.4}
-\contentsline {section}{\numberline {A.5}Definitions}{173}{section.a.A.5}
+\contentsline {section}{\numberline {A.5}Crystal Ball Function}{173}{section.a.A.5}
 \contentsline {chapter}{Bibliography}{175}{section*.102}
 \contentsline {chapter}{List of Publications}{191}{section*.104}
 \contentsline {chapter}{Reprints}{197}{section*.106}

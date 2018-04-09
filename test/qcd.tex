@@ -1,0 +1,17 @@
+\documentclass[border=3mm]{standalone}
+\usepackage{pstricks-add}
+\usepackage{pst-coil}
+\begin{document}
+\psset{arrowscale=2}
+\begin{pspicture}(-1,-1)(4,1)
+    \psline[ArrowInside=->](-1,-1)(0,0)
+    \psline[ArrowInside=->](0,0)(-1,1)
+    \pssin[periods=3,amplitude=0.1,coilarm=0](0,0)(1,0)
+    %No ArrowInside for \psarc :(
+    \psarc(1.5,0){0.5}{0}{180}\psarc{->}(1.5,0){0.5}{0}{100}
+    \psarc(1.5,0){0.5}{180}{360}\psarc{->}(1.5,0){0.5}{180}{280}
+    \pssin[periods=3,amplitude=0.1,coilarm=0](2,0)(3,0)
+    \psline[ArrowInside=->](4,-1)(3,0)
+    \psline[ArrowInside=->](3,0)(4,1)
+\end{pspicture}
+\end{document}
