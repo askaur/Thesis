@@ -1,0 +1,1359 @@
+\documentclass{beamer}
+\include{env}
+\include{shortcuts}
+\vspace{15 mm}
+
+\title[Anterpreet Kaur (Ph.D. Defense)] {\normalsize MEASUREMENT OF MULTIJET CROSS-SECTION RATIOS \\IN PROTON-PROTON COLLISIONS WITH THE CMS \\DETECTOR AT THE LHC}
+
+\author[Multijet Cross-Section Ratios]{\blue{Anterpreet Kaur} \\ { \normalsize Supervisor : Prof. Manjit Kaur}\\}
+\vspace{-3mm}
+\institute[]
+{
+%{ \normalsize \blue{Supervisor : Prof. Manjit Kaur }}\\
+% \medskip
+ %\medskip
+ %\medskip
+ %\medskip
+ Department of Physics \\ Panjab University \\ Chandigarh, India
+}
+\date[December, 2018]{\footnotesize \textcolor{blue!0!black}{}}
+
+\begin{document}
+\setbeamercolor{item}{fg=red!70!black}
+\setbeamertemplate{enumerate items}[default]
+
+%###################################### Slide : 1 ######################################
+\begin{frame}[plain]
+\vspace{0.50mm}
+\includegraphics[scale = 0.18]{/home/anter/Desktop/Analysis_8/Present_Latex/Klaus/plots/cms.jpeg}
+\hfill
+\hspace{50 mm}
+\includegraphics[scale = 0.20]{/home/anter/Desktop/Analysis_8/Present_Latex/Klaus/plots/pu.png}
+\vspace{0.2mm}
+\titlepage
+\vspace{2.2mm}
+\begin{beamercolorbox}[wd=120mm,ht=1.5mm,center,shadow=true, rounded=true]{redgrey}
+{}
+{\scriptsize \mycolor{Ph.D. Defense \hfill \hspace{75mm} December , 2018}}
+\end{beamercolorbox}
+\end{frame}
+
+%###################################### Slide : 2 ######################################
+\begin{frame}
+\frametitle{\centerline{Outline}}
+\setlength\labelsep {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{itemize}
+\item {\scriptsize Physics of the Thesis
+\vspace{1mm}
+\item Experimental Set-up
+\vspace{1mm}
+\item Theoretical Background
+\vspace{1mm}
+\item Software Tools
+\vspace{1mm}
+\item Analysis Strategy
+\vspace{1mm}
+\item Measurement of Inclusive Multijet Cross-sections
+\vspace{1mm}
+\item Theoretical Predictions
+\vspace{1mm}
+\item Data-Theory Comparisons
+\vspace{1mm}
+\item Cross-section Ratio R$_{32}$
+\vspace{1mm}
+\item Determination of the Strong Coupling Constant, \alpsmz
+\vspace{1mm}
+\item Summary and Outlook 
+\vspace{1mm}
+\item Hardware Activities\\}
+\end{itemize}
+\end{frame}
+
+%##################################### Slide : 3 ###########################################
+\begin{frame}
+\frametitle{\centerline{Physics of the Thesis}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\vspace{-1.5mm}
+\begin{itemize}
+\item {\scriptsize Hadrons colliding at very high center-of-mass energies provide a direct probe to the nature of the underlying parton-parton scattering physics.
+\vspace{1mm} 
+\item {\bf Scattering} \mycolor{$\rightarrow$} {\bf Fragmentation} \mycolor{$\rightarrow$} {\bf Hadronization} \mycolor{$\rightarrow$} {\bf Clustering into Jets}
+\vspace{1mm}
+\item Jets being the final structures observed in the detector :\\}
+\tri
+\begin{itemize}
+\item {\scriptsize relate experimental observations to theory predictions. %formulated in terms of partons.
+\vspace{0.5mm}
+\item preserve the energy and direction of the initial partons. 
+\vspace{0.5mm}
+\item serve as a direct test of theory of strong interactions, {\bf Quantum Chromodynamics}.\\}
+\end{itemize}
+\ball 
+\item {\scriptsize Inclusive multijet production cross-section provides the details of parton distribution functions (PDF) of the colliding hadrons and precise measurement of the strong coupling constant \alps :\\}
+\vspace{-6mm} 
+\begin{align*}
+\blue{\resizebox{.4\hsize}{!}{$\rm \sigma_{i\mbox{-}jet} = \sigma(pp\to i~jets~\plus X) \propto \alpsns^{i}$}} 
+\end{align*}
+\item {\scriptsize Cross sections ratios : ~~~~~\blue{$\rm{R_{mn} = \frac{\sigma_{m\mbox{-}jet}}{\sigma_{n\mbox{-}jet}}} \propto \alpsns^{m-n}~;~ m~>~n$}
+\vspace{0mm}
+\item {\bf Why cross-section ratios ?} \\
+$-$ better choice w.r.t. inclusive cross-sections because of less dependency on uncertainties such as : \\}
+\begin{itemize}
+\tri
+\item  {\scriptsize uncertainties due to luminosity, 
+\vspace{0.2mm}
+\item scale dependence, 
+\vspace{0.2mm}
+\item PDF dependence etc.\\}
+\end{itemize}
+\ball
+\vspace{0.5mm}
+\item {\scriptsize A measurement of the ratio of the inclusive 3-jet cross section to the inclusive 2-jet cross section as a function of the average transverse momentum, $\rm{<p_{T1,2}>}$, of the two leading jets in the event is performed at 7 TeV (\textcolor{red!80!black}{Eur. Phys. J. C 73 (2013) 2604}).\\}
+\end{itemize}
+\end{frame}
+
+%##################################### Slide : 4 ###########################################
+\begin{frame}
+\begin{center}
+\vspace{13mm}
+\textbf{\Large\mycolor{Experimental Set-up}}
+\end{center}
+\end{frame}
+
+%##################################### Slide : 5 ###########################################
+\begin{frame}
+\frametitle{\centerline{Large Hadron Collider}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{itemize}
+\item {\scriptsize World’s biggest and the most powerful particle accelerator and collider built by CERN (European Organization for Nuclear Research) 
+\vspace{0.5mm}
+\item Located in a 27 km long tunnel, 100 m (approx.) underground at Swiss-France border. \\}
+\end{itemize}
+\begin{minipage}[thbp]{0.33\textwidth}
+\begin{itemize}
+\vspace{-8mm}
+\item {\scriptsize \blue{\bf Proton-proton (p-p)}, proton-lead and lead-lead as well as xenon-xenon nuclei collisions take place at different center-of-mass energies (\cmens).
+\vspace{0.5mm}
+\item Currently running at \\\cme = 13 TeV with peak luminosity, \lumins~= 2.1 $\times$ 10$^{34}$ cm$^{-2}$sec$^{-1}$.
+\vspace{0.5mm}
+\item Four big experiments located at different interaction points.\\}
+\end{itemize}
+\hspace{5mm}
+\end{minipage}
+\begin{minipage}[thbp]{0.2\textwidth}
+\includegraphics[scale = 0.3]{/home/anter/Desktop/Thesis/Figures/LHC.png}\\
+\end{minipage}
+\end{frame}
+
+%##################################### Slide : 6 ###########################################
+\begin{frame}
+\frametitle{\centerline{CMS Detector}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\vspace{-1mm}
+\begin{itemize}
+\item {\scriptsize Compact Muon Solenoid (CMS) : One of the general purpose detectors which \\ %located at the interaction point 5 (P5) of the main LHC ring, near the village of Cessy in France. \\
+\vspace{1mm}
+- is \mycolor{compact} in size : 21 m long, 15 m wide and 15 m high weighing 12,500 tonnes \\
+\vspace{0.5mm}
+- emphasis on the detection of \mycolor{muons} \\
+\vspace{0.5mm}
+- is enclosed within high \mycolor{solenoidal} magnetic field \\
+\vspace{0.5mm}
+\item Complex layered structure of sub-detectors : Tracker, Electromagnetic Calorimeter (ECAL), Hadron Calorimeter (HCAL) and Muon System.\\}
+\end{itemize}
+\vspace{-3mm}
+\begin{center}
+\includegraphics[scale = 0.52]{/home/anter/Desktop/Thesis/Figures/CMS_2_new.png}\\
+\end{center}
+\end{frame}
+
+%##################################### Slide : 7 ###########################################
+\begin{frame}
+\frametitle{\centerline{CMS Detector : Front View}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{minipage}[thbp]{0.45\textwidth}
+\begin{itemize}
+\item {\scriptsize Major fraction of the particles \\ produced in p-p collisions is hadrons.
+\vspace{1mm}
+\item Collimated in the form of conical structures called \mycolor{Jets}.
+\vspace{1mm}
+\item Both hadronic (charged and neutral) and electromagnetic components.
+\vspace{1mm}
+\item \mycolor{Charged Particles :} energy deposits \\ in the calorimeters.
+\vspace{1mm}
+\item \mycolor{Neutral Particles :} missing transverse energy.
+\vspace{1mm}
+\item \mycolor{HCAL :} detects neutral particles; \\an essential sub-system of the CMS detector and contributes to most of physics studies with CMS.\\}
+\end{itemize}
+\end{minipage}
+\hspace{-5.5mm}
+\begin{minipage}[thbp]{0.3\textwidth}
+\begin{center}
+\vspace{-3mm}
+\begin{overpic}[scale = 0.48]{/home/anter/Desktop/Thesis/Figures/cropped_CMS_Front.pdf}
+\put(34,-3){\tiny $\odot$ - Direction of magnetic field in the return yoke}
+\put(34,-6.5){\tiny $\otimes$ - Direction of magnetic field inside the solenoid}
+\end{overpic}
+\end{center}
+\end{minipage}
+\end{frame}
+
+%##################################### Slide : 8 ###########################################
+\begin{frame}
+\begin{center}
+\vspace{13mm}
+\textbf{\Large\mycolor{Theoretical Background}}
+\end{center}
+\end{frame}
+
+%##################################### Slide : 9 ###########################################
+\begin{frame}
+\frametitle{\centerline{Standard Model}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{itemize}
+\item {\scriptsize A theoretical model to describe the nature and properties of fundamental particles and their interactions. \\}
+\end{itemize}
+\begin{minipage}[thbp]{0.5\textwidth}
+\begin{itemize}
+\vspace{1mm}
+\item {\scriptsize \mycolor{Fundamental particles : \\}}
+\tri
+\begin{itemize}
+\item {\scriptsize Fermions \\}
+\cir
+\begin{itemize}
+\item {\scriptsize Quarks ($q$)
+\vspace{1mm}
+\item Leptons (\sln) \\}
+\end{itemize}
+\tri
+\item {\scriptsize Bosons \\}
+\cir
+\begin{itemize}
+\item {\scriptsize Gauge Bosons
+\vspace{1mm}
+\item Scalar Boson \\}
+\end{itemize}
+\end{itemize}
+\ball
+%\vspace{1mm}
+\item {\scriptsize \mycolor{Forces of interactions : \\}}
+\tri
+\begin{itemize}
+\item {\scriptsize Electromagnetic - photon ($\gamma$) 
+\vspace{1mm}
+\item Strong - gluons ($g$)
+\vspace{1mm}
+\item Weak - $W^\pm$ and $Z$
+\vspace{1mm}
+\item Gravity\mycolor{$^\star$} - graviton}\\
+\end{itemize}
+\ball
+%\item {\scriptsize Described by {\bf SU(3)$_{\rm C}~\otimes$ SU(2)$_{\rm L}~\otimes$ U(1)$_{\rm Y}$} gauge symmetry \\}
+\end{itemize}
+\vspace{1mm}
+\end{minipage}
+\hspace{-6mm}
+\begin{minipage}[thbp]{0.5\textwidth} 
+\begin{overpic}[scale=0.75]{/home/anter/Desktop/Thesis/Figures/model-physics.pdf}\\
+\put(30,-12){\tiny \mycolor{{$^\star$}not been incorporated into Standard Model yet}\\}
+\end{overpic}
+\end{minipage}\\
+\begin{itemize}
+\vspace{-2mm}
+\item {\scriptsize Described by {\bf ${\rm \underbrace{SU(3)_C}_\text{\blue{Strong}}~\otimes \underbrace{SU(2)_L~\otimes U(1)_Y}_\text{\blue{ElectroWeak}}}$} gauge symmetry \\}
+\end{itemize}
+\vspace{-2mm}
+\end{frame}
+
+%##################################### Slide : 10 ###########################################
+\begin{frame}
+\frametitle{\centerline{Quantum Chromodynamics (QCD)}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{itemize}
+\item {\scriptsize A non-abelian gauge theory describing the strong interactions between quarks and gluons. 
+\vspace{1mm}
+\item \mycolor{Color charge -} \\}
+\tri
+\begin{itemize}
+\item {\scriptsize Quarks and gluons : colored
+\vspace{2mm}
+\item Hadrons - Baryons ($qqq$) and Mesons ($q\bar{q}$) : colorless \\}
+\end{itemize}
+\ball
+\item {\scriptsize \mycolor{Strong coupling constant \alps -} a fundamental parameter giving the strength of interaction. \\}
+\end{itemize}
+\begin{minipage}[thbp]{0.55\textwidth}
+\begin{itemize}
+\item {\scriptsize \mycolor{Properties - }\\}
+\tri
+\begin{itemize}
+\item {\scriptsize Confinement : at low energies $\rightarrow$ \blue{Non-perturbatve (NP) regime}
+\vspace{1mm}
+\item Asymptotic freedom : at high energies $\rightarrow$ \blue{Perturbative regime} \\}
+\end{itemize}
+\ball
+\item {\scriptsize In perturbative QCD \\}
+\end{itemize}
+\hspace{5mm}{\scriptsize \blue{$ X = \sum\limits_{i=0}^{N} \alpha^n_s {\rm c}_i = {\rm c}_0~\plus \alpha^1_s {\rm c}_1~\plus \alpha^2_s {\rm c}_2~\plus ... \\$}}
+\end{minipage}
+\hspace{8mm}
+\begin{minipage}[thbp]{0.3\textwidth}
+\vspace{4mm}
+\includegraphics[width=1.3\textwidth]{/home/anter/Desktop/Thesis/Figures/Final/Grifiths.png}
+\end{minipage}\\
+\hspace{4mm}{\scriptsize is determined by summing over the amplitudes of all Feynman diagrams.\\}
+\begin{itemize}
+\item[]
+\begin{itemize}
+\tri
+\item {\scriptsize Power of \alps : the number of vertices associated with $q$-$g$ or $g$-$g$ interactions.\\}
+\end{itemize}
+\end{itemize}
+\ball
+\end{frame}
+
+%##################################### Slide : 11 ###########################################
+\begin{frame}
+\frametitle{\centerline{Perturbative QCD}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{center}
+\begin{overpic}[scale = 0.5]{/home/anter/Desktop/Thesis/Figures/Orders.pdf}
+\vspace{-3mm}
+\put(20,49){\scriptsize \mycolor{\bf Different orders in a 2 $\rightarrow$ 2 scattering process}}
+\put(90,5){\tiny \mycolor{\bf \alpsq = $g^2_s/4\pi$}}
+\end{overpic}
+\begin{itemize}
+\item {\scriptsize \mycolor{Ultraviolet (UV) divergences :} Calculations become complex with the loop diagrams; associated integrals are divergent. %- the momenta of the virtual particles in a loop are not fully constrained by four-momentum conservation
+\item \mycolor{Renormalization :} a mathematical procedure which \\}
+\begin{itemize}
+\tri 
+\item {\scriptsize allows finite calculation of momenta integrals of virtual loop by removing UV divergences.
+\vspace{0.5mm}
+\item introduces a regulator for the infinities - \blue{renormalization scale \mur}.
+\vspace{0.5mm}
+\item redefines or renormalizes the coupling constant to absorb the UV divergences. \\}
+\end{itemize}
+\end{itemize}
+\ball
+\end{center}
+\end{frame}
+
+%##################################### Slide : 12 ###########################################
+\begin{frame}
+\frametitle{\centerline{Running of the Strong Coupling}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\vspace{-.5mm}
+\begin{minipage}[thbp]{0.6\textwidth}
+\begin{itemize}
+\item {\scriptsize \mycolor{Renormalization group equation (RGE)} : exact dependence of \alpsmusq on \mur\\}
+\tri
+\begin{itemize}
+\item {\scriptsize Dependence of $X$ on \mur~must cancel $\rightarrow$ \\ \begin{center} \hspace{4mm}\blue{$\mur^{2}\frac{d}{d\mur^{2}}X\Big(\frac{Q^{2}}{\mur^{2}},\alpha_{s}(\mur^{2})\Big)=0$}\end{center}
+\vspace{0mm}
+\item First order solution of RGE is : \\ 
+\begin{center} \hspace{4mm} \blue{$\alpha_{s}(\mur^2)=\frac{1}{b_0~{\rm ln}\big(\mur^2/\Lambda^2_{QCD}\big)}$} \end{center}
+\vspace{0mm}
+\item Coupling becomes large at the scale $\Lambda_{QCD}$
+\vspace{1mm}
+\item For $b_0$ \gr 0, coupling becomes weaker at higher scales $Q$ $\rightarrow$ \mycolor{asymptotic freedom} \\}
+\end{itemize}
+\end{itemize}
+\end{minipage}
+\hspace{-2.5mm}
+\begin{minipage}[thbp]{0.3\textwidth}
+\includegraphics[scale=0.23]{/home/anter/Desktop/Thesis/Figures/Final/Alpha.png}
+\end{minipage}
+\begin{itemize}
+\ball
+\vspace{1mm}
+\item {\scriptsize It is always convenient to express \alps at some fixed scale - \\}
+\tri
+\begin{itemize}
+\item {\scriptsize Some of the best measurements come from $Z$ decays : the strong coupling is determined at the \mycolor{scale of the $Z$ boson mass \alpsmzns} given by \\}
+\end{itemize}
+\begin{center}
+{\scriptsize\blue{$\alpsns\big(\mur,\alpsmzns\big) = \frac{\alpsmz}{1~\plus \alpsmzns b_0{\rm ln}(\mur^2/M^2_z)}$}\\}
+\end{center}
+\ball
+\item {\scriptsize \alps: a free parameter of QCD theory \\}
+\tri
+\begin{itemize}
+\item {\scriptsize must be extracted from experimental measurements 
+\vspace{0.5mm}
+\item evolved to the scale of the $Z$ boson
+\vspace{0.5mm}
+\item current world average value\mycolor{$^\star$}is \blue{$\alpsmz = 0.1181 \pm 0.0011$}\\}
+\end{itemize}
+\ball
+\end{itemize}
+\hfill {\tiny \mycolor{{$^\star$}Particle Data Group (PDG)}\\}
+\end{frame}
+
+%##################################### Slide : 13 ###########################################
+\begin{frame}
+\frametitle{\centerline{Hadronic Collisions}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{minipage}[thbp]{0.6\textwidth}
+\begin{itemize}
+\item {\scriptsize \mycolor{Proton} - three valence quarks ($uud$), gluons and the sea quarks. 
+%\item At large momentum transfer, the collision between two hadrons can be visualized as an interaction between their constituents - $q$ and $g$.
+\item \mycolor{Cross-section ($\sigma$)} of a certain process : the probability that the two hadrons interact and give rise to that final state. 
+\item In a hadronic collision, the perturbation theory is only valid at the parton-level. %but due to property of confinement at low energies, free partons cannot exist in nature. 
+\item \mycolor{Factorization theorem} - allows the calculation of $\sigma$ by separating into two parts : \\}
+{\scriptsize $\sigma_{P_1P_2 \rightarrow X}=\blue{\sum\limits_{i,j}^{}\int_{}^{} dx_1dx_2f_{i,P_1}(x_1,\muf)f_{j,P_2}(x_2,\muf)}$}~\\{\scriptsize \hspace{15mm}$\times~\green{\hat\sigma_{ij\rightarrow X} \Bigg(x_1p_1,x_2p_2,\alpha(\mur^2),\frac{Q^2}{\muf^2}\Bigg)}$} \\
+\tri
+\end{itemize}
+\end{minipage}
+\hspace{-2mm}
+\begin{minipage}[thbp]{0.35\textwidth}
+\begin{overpic}
+[scale=0.26]{/home/anter/Desktop/Thesis/Figures/Factorization_3.pdf}\\
+\put(62,26){\tiny{\green{a short-distance}}}
+\put(58,22){\tiny{\green{partonic cross-section}}}
+\put(58,18){\tiny{\green{calculable with pQCD}}}
+\put(30,80){\tiny{\blue{a NP long-distance part described}}} 
+\put(32,76){\tiny{\blue{by parton distribution functions}}}
+\put(47,71){\tiny{\blue{$f_i(x,\muf)$ (PDFs)}}}  
+\end{overpic}\\
+\end{minipage}
+\tri
+\begin{itemize}
+\item[]
+\begin{itemize}
+\item {\scriptsize Proton PDFs {\bf $f_i$} and {\bf $f_{j}$} : probability to find a parton $i$ with momentum fraction $x$ within a hadron.
+\item \mycolor{Factorization scale, \muf} : corresponds to the resolution with which the hadron is being probed. \\}
+\cir
+\begin{itemize}
+\item {\scriptsize Particles emitted with \mycolor{\pt~\gr \muf} are considered in the calculation of hard scattering perturbative coefficients. 
+\item Particles emitted with \mycolor{\pt~\ls \muf} are accounted for within the PDFs.\\}
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\end{frame}
+\ball
+
+%##################################### Slide : 14 ###########################################
+\begin{frame}
+\frametitle{\centerline{Hadronic Collisions}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{center}
+\includegraphics[scale=0.28]{/home/anter/Desktop/Thesis/Figures/MPI.png}\\
+
+\begin{itemize}
+\item {\scriptsize \red{\bf Hard Scattering :}\\}
+\tri
+\begin{itemize}
+\item {\scriptsize Parton Shower : collinear parton splitting and the soft gluon emissions (pQCD).
+\vspace{1mm}
+\item Hadronization : confinement of colored quarks and gluons into the color-neutral composite particles called hadrons (non-pQCD).\\}
+\end{itemize}
+\ball
+\item {\scriptsize {\bf Underlying Event :} Event structure is significantly more complex than that of the lepton collisions.\\}
+\tri
+\begin{itemize}
+\item {\scriptsize \textcolor{pink}{\bf Initial and Final-State Radiations (ISR, FSR) :} two incoming as well as outgoing partons can also develop parton showers.
+\vspace{1mm}
+\item \green{\bf Multiple Parton Interactions (MPI) :} remaining two partons which do not participate in a hard collision may also interact.\\ }
+\end{itemize}
+\end{itemize}
+\end{center}
+\end{frame}
+
+%##################################### Slide : 15 ###########################################
+\begin{frame}
+\frametitle{\centerline{Jets}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{minipage}[thbp]{0.54\textwidth}
+\begin{itemize}
+\item {\scriptsize Hadrons produced in p-p collisions get collimated \\ in the form of conical structures called ``jets'' of radius `R'. 
+\vspace{1mm}
+\item Direction of the jet is towards the direction of the initial partons that originated them. 
+\vspace{1mm}
+\item Detectable objects which relate experimental observations to theory predictions formulated in terms of partons.\\}
+\end{itemize}
+\end{minipage}
+\hspace{-2mm}
+\begin{minipage}[thbp]{0.2\textwidth}
+\includegraphics[scale = 0.38]{/home/anter/Desktop/Thesis/Figures/jet2.png}\\
+%\includegraphics[scale = 0.38]{/home/anter/Desktop/Thesis/Figures/jet_levels_en_edited.pdf}\\
+\end{minipage}
+\vspace{-2mm}
+\begin{itemize}
+\item {\scriptsize Act as a bridge between the elementary quarks and gluons of QCD and the final hadrons produced in high energy collisions. 
+\vspace{1mm}
+\item At the LHC, {\bf Dijet Events} : 2 $\rightarrow$ 2, {\bf Multijet Events :} 2 $\rightarrow$ 3, 2 $\rightarrow$ 4
+\vspace{1mm}
+\item Jets and their observables are the best tools to test the predictions of pQCD : \\}
+\tri
+\begin{itemize}
+\item {\scriptsize \mycolor{Jet production cross-section :} helps to extract the value of \alps and to reduce the uncertainties of the PDFs of the proton.  
+\vspace{1mm}
+\item Inclusive multijet event cross-sections permits more elaborate tests of QCD.
+\vspace{1mm} 
+\item A precise study of jet variables helps to understand the signal and background modelling for new physics searches in hadronic final states.\\}
+\end{itemize}
+\ball
+\end{itemize}
+\end{frame}
+
+%##################################### Slide : 16 ###########################################
+\begin{frame}
+\frametitle{\centerline{Jet Algorithms}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{itemize}
+\item {\scriptsize Jet algorithms provide a set of rules which determine how the particles can be clustered into a jet.
+\item Parameters involved indicate how close two particles must be to belong to the same jet :\\}
+\tri
+\begin{itemize}
+\item {\scriptsize \mycolor{Cone algorithms} $\rightarrow$ closeness in coordinate space
+\vspace{1mm} 
+\item \mycolor{Sequential Recombination algorithms} $\rightarrow$ closeness in momentum space\\}
+\end{itemize}
+\ball
+\item {\scriptsize Recombination Scheme \\}
+\end{itemize}
+\begin{minipage}[thbp]{0.75\textwidth}
+%\vspace{-10mm}
+\begin{itemize}
+\item {\scriptsize \mycolor{Infrared safety : } Addition of a soft emission should not change the number of hard jets found in an event.
+\item \mycolor{Collinear safety :} Collinear splitting should not modify the number of jets formed in an event. 
+\item Three types of Sequential Recombination algorithms : \\}
+\tri
+\begin{itemize}
+\item {\scriptsize \kt : involves clustering of soft particles first; susceptible to the underlying and pileup events
+\item Cambridge/Aachen (C/A) : involves energy independent clusterings.
+\item \blue{\bf anti-\kt:} cluster hard particles first; less sensitive to underlying and pileup events.\\}
+\end{itemize}
+\ball
+\end{itemize}
+\end{minipage}
+\hspace{-2.5mm}
+\begin{minipage}[thbp]{0.1\textwidth}
+\begin{center}
+\vspace{-6mm}
+\includegraphics[scale = 0.2]{/home/anter/Desktop/Thesis/Figures/Final/Algo.png}\\
+\end{center}
+\end{minipage}
+\end{frame}
+
+%##################################### Slide : 17 ###########################################
+\begin{frame}
+\begin{center}
+\vspace{13mm}
+\textbf{\Large\mycolor{Software Tools}}
+\end{center}
+\end{frame}
+
+%##################################### Slide : 18 ###########################################
+\begin{frame}
+\frametitle{\centerline{Software Tools}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{itemize}
+\item {\scriptsize \mycolor{CMS software (CMSSW) framework :} a dedicated data structure and software tools.\\}
+\tri
+\begin{itemize}
+\item {\scriptsize Performs calibration, event generation, detector simulation, event reconstruction etc. by implementing the codes either in C\plusn\plus or Python languages.\\}
+\end{itemize}
+\ball
+\item {\scriptsize \mycolor{ROOT :} an open source object-oriented data analysis framework.\\}
+\tri
+\begin{itemize}
+\item {\scriptsize Consists of a huge C\plusn\plus library which store and analyze large amounts of the data. 
+\vspace{0.5mm}
+\item Provides histrogramming methods in 1, 2 and 3 dimensions, curve fitting functions, minimization procedures, graphics and visualization classes. \\}
+\end{itemize}
+\ball
+\item {\scriptsize \mycolor{\fastjet :} a software C\plusn\plus package.\\}
+\tri
+\begin{itemize}
+\item {\scriptsize Provides a broad range of jet finding, determination of jet areas, estimation of pileup and underlying-event noise levels etc. \\}
+\end{itemize}
+\ball
+\item {\scriptsize \mycolor{\NLOJET~:} a C\plusn\plus program to evaluate jet production cross-sections at leading order (LO) and next-to-leading order (NLO).\\}
+\tri
+\begin{itemize}
+\item {\scriptsize Calculations of pQCD cross-sections using Monte Carlo integration methods are very time consuming. 
+\vspace{0.5mm}
+\item PDF fits or estimations of uncertainties becomes difficult where the calculations of the cross-sections are needed to be repeated. \\}
+\end{itemize}
+\ball
+\item {\scriptsize \mycolor{\fastNLO :} fast re-evaluations of cross-sections in interface with \NLOJETPPn. \\}
+\tri
+\begin{itemize}
+\item {\scriptsize The strong coupling constant and the PDFs can be changed without a re-calculation of the perturbative coefficients.\\}
+\end{itemize}
+\ball
+\end{itemize}
+\end{frame}
+
+%##################################### Slide : 19 ###########################################
+\begin{frame}
+\frametitle{\centerline{Monte Carlo (MC) Simulations}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{itemize}
+\item {\scriptsize \mycolor{\PYTHIA :} most widely used program to generate the collisions at high energies.\\}
+\tri
+\begin{itemize}
+\item {\scriptsize Uses LO calculations to derive the colored partons from the hard interaction.
+\vspace{0.5mm}
+\item Uses the Lund string hadronization model to describe hard and soft interactions and parton showers. 
+%\item Uses the Lund string hadronization model to describe hard and soft interactions, PDFs, ISR/FSR parton showers, multi-parton interactions, fragmentation and decay. 
+%\item Originally coded in FORTRAN language as \PYTHIASn, and rewritten in C\plusn\plus as \PYTHIAE.
+\vspace{0.5mm}
+\item \blue{\PYTHIAS with tune \Ztwostar} and \blue{\PYTHIAE~with tunes CUETS1 and CUETM1} have been used.\\}
+\end{itemize}
+\ball
+\item {\scriptsize \mycolor{\MadGraph~:} generates LO matrix elements for high energy physics processes.\\}
+\tri
+\begin{itemize}
+\item {\scriptsize Stores the event information of the particles in the Les Houches format.
+\vspace{0.5mm}
+\item \blue{\MadGraphFn} has been interfaced to \blue{\PYTHIAS with tune \Ztwostar} - used here mainly for general comparisons to the data and calculating the detector resolution. \\}
+\end{itemize}
+\ball
+\item {\scriptsize \mycolor{\HERWIG~(Hadron Emission Reactions With Interfering Gluons) :} a multi-purpose LO event generator. \\}
+\tri
+\begin{itemize}
+\item {\scriptsize Uses angular ordering for parton showers and cluster model for hadronization.
+%\item \HERWIG and \HERWIGPP are written in FORTRAN and C\plusn\plusn  languages, respectively.
+\vspace{0.5mm}
+\item \blue{\HERWIGPP with the default tune of version 2.3} has been used to study the non-perturbative effects.\\}
+\end{itemize}
+\ball
+\item {\scriptsize \mycolor{\POWHEG~(Positive Weight Hardest Emission Generator)} : performs the fixed NLO calculations merged with parton showers.\\}
+\tri
+\begin{itemize}
+\item {\scriptsize Uses \POWHEG~BOX to implement NLO calculations in shower MC programs. 
+\vspace{0.5mm}
+\item \blue{\POWHEG} has been interfaced to \blue{\PYTHIAE~with tunes CUETS1 and CUETM1} to include the parton shower and hadronization. \\}
+\end{itemize}
+\ball
+\end{itemize}
+\end{frame}
+
+%##################################### Slide : 20 ###########################################
+\begin{frame}
+\frametitle{\centerline{Simulation and Reconstruction}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\vspace{-1mm}
+\begin{itemize}
+\item {\scriptsize \mycolor{Detector Simulation -}  a computer program which takes the particles generated by MC event generators. \\}
+\tri
+\begin{itemize}
+\item {\scriptsize Defines the detector system, its geometry, material and electronics properties.
+\vspace{0.5mm}
+%\item It describes the nature of the interactions of the particles with the material of the detector.
+\item \blue{Full Simulation -} based on a C\plusn\plus simulation toolkit \GEANTfour~(GEometry ANd Tracking); handles the interactions of particles with matter over a wide range of energy.
+\vspace{0.5mm}
+\item \blue{Fast Simulation -} detector effects are parametrized instead of simulating; events are produced at much faster rates.\\}  
+\end{itemize}
+\ball
+\item {\scriptsize \mycolor{Digitization :} The simulated detector response is then transformed into a digital signal with the help of electronics.
+\vspace{0.5mm}
+\item \mycolor{Event Reconstruction :} indentifies the particles passing through the detector by interpreting the electrical signals produced in digitization.\\}
+\tri
+\begin{itemize}
+\item {\scriptsize Analysis-level objects are created by combining recorded signals from the tracker, energy deposits from calorimeters and muon detectors.
+\vspace{0.5mm}
+%\item The reconstructed hits are collected which are combined to form tracks and calorimetric towers. 
+%\item Higher level objects such as electrons, muons, photons and jets are reconstructed by combining the tracks and energy deposits.
+\item \blue{Particle Flow (PF) Algorithm} combines the information from individual sub-detectors. \\}
+\end{itemize}
+\ball
+\item {\scriptsize \mycolor{Track Reconstruction :} CMS uses an iterative tracking algorithm.\\}%, the Combinatorial Track Finder (CTF) algorithm.\\}
+\tri
+\begin{itemize}
+\item {\scriptsize Quality criteria is used to reject the badly reconstructed tracks and to decrease the fake rate.\\}
+\end{itemize}
+\ball
+\item {\scriptsize \mycolor{Primary Vertex Reconstruction :} identification of the primary vertex of the main hard interaction is crucial. \\}
+\tri
+\begin{itemize}
+\item {\scriptsize Track assigned to only one vertex $\rightarrow$ {\bf hard interaction}. 
+\vspace{0.5mm}
+\item Track assigned to more than one vertex $\rightarrow$ {\bf soft interaction}.\\}
+\end{itemize}
+\ball
+\end{itemize}
+\end{frame}
+
+%##################################### Slide : 21 ###########################################
+\begin{frame}
+\frametitle{\centerline{Jet Reconstruction}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{itemize}
+\item {\scriptsize PF event reconstruction algorithm converts the detector signals back to physical objects and their energy is measured :\\}
+\end{itemize}
+\begin{minipage}[thbp]{0.52\textwidth} 
+\begin{itemize}
+\item []
+\tri
+\begin{itemize}
+\item {\scriptsize {\bf Electrons :} from the track momentum, corresponding ECAL energy deposits and the energy sum of all bremsstrahlung photons associated with the tracks. 
+\vspace{0.5mm}
+\item {\bf Muons :} from the curvature of the tracks in tracker and muon chambers.
+\vspace{0.5mm}
+\item {\bf Photons :} directly from the ECAL measurements.\\}
+\end{itemize}
+\end{itemize}
+\end{minipage}
+\begin{minipage}[thbp]{0.22\textwidth} 
+\includegraphics[scale=0.3]{/home/anter/Desktop/Thesis/Figures/Final/PF.png}
+\end{minipage}
+\begin{itemize}
+\item []
+\tri
+\begin{itemize}
+\item {\scriptsize {\bf Charged hadrons} : from track momentum and corresponding energy clusters in ECAL and HCAL. 
+\vspace{0.5mm}
+\item {\bf Neutral hadrons} : from calibrated ECAL and HCAL energies. \\} 
+%\item {\bf Missing transverse energy (\ETmiss) :} \ETmiss = $-\sum\limits_{\rm i}^{}\overrightarrow{p_{\rm T,i}}$. \\}
+\end{itemize}
+\ball
+\item {\scriptsize {\bf Jets :} are reconstructed from the collection of PF objects.\\}
+\tri
+\begin{itemize}
+\item {\scriptsize {\bf Generator Jets (GenJets) :} stable particles generated by the MC event generators.
+\vspace{0.5mm}
+\item {\bf Calorimetric Jets (CaloJets) :} energy deposits in the ECAL and HCAL towers.
+\vspace{0.5mm}
+\item \blue{Particle Flow Jets (PFJets) :} detector level jets from particle flow candidates. \\}
+\cir
+\begin{itemize}
+\item {\scriptsize Use of the tracker and high granularity of the ECAL gives better energy resolution.
+\item PFJets perform better than CaloJets and are the standard jets used at CMS.\\}
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\ball
+\end{frame}
+
+%##################################### Slide : 22 ###########################################
+\begin{frame}
+\begin{center}
+\vspace{13mm}
+\textbf{\Large\mycolor{Measurement of the Differential Inclusive Multijet \\\vspace{2mm}Cross-sections and their Ratio \ratio}}
+\end{center}
+\end{frame}
+
+% ###################################### Slide : 23 ######################################
+\begin{frame}
+\frametitle{\centerline{Analysis Strategy}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{itemize}
+\item {\scriptsize Jets are reconstructed from particle flow objects using the \mycolor{anti-\kt}clustering algorithm with the size parameter \mycolor{R = 0.7}.
+\vspace{0.2mm}
+\item Event Selection : Appropriate selection criteria has been designed for choosing the best event for analysis. This measurement uses jets with \mycolor{\pt~\gr 150 GeV} and \mycolor{$|y|$ \ls  2.5}.
+\vspace{0.2mm}
+\item Pileup reweighting.
+\vspace{0.2mm}
+\item Detector level comparison of differential inclusive 3-jet and 2-jet cross-sections in terms of defined observable for full Data, MC and theory predictions.
+\vspace{0.2mm}
+\item Unfolding set-up and the measured cross-sections are corrected for detector smearing effects by using the Unfolding technique.
+\vspace{0.2mm}
+\item Evaluated cross-section ratio, \rations.
+\vspace{0.2mm}
+\item Evaluated experimental and systematic uncertainties from different sources.
+\vspace{0.2mm}
+\item Included NLO pQCD calculations obtained using different PDF sets and corrected them for MPI and HAD effects by applying non-perturbative
+(NP) corrections as well as for electroweak (EW) effects.
+\vspace{0.2mm}
+\item Evaluated theoretical uncertainties from different sources.
+\vspace{0.2mm}
+\item Compared theoretical results with that of data.
+\vspace{0.2mm}
+\item Extracted the value of \alpsmz by fitting cross-sections as well as cross-section ratio, \rations.
+\vspace{0.2mm}
+\item Studied the running of \alpsq~as a function of $Q$.\\}
+\end{itemize}
+\end{frame}
+
+%##################################### Slide : 24 ###########################################
+\begin{frame}
+\frametitle{\centerline{Multijet Cross-sections and their Ratio \ratio}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{itemize}
+\item {\scriptsize The scale based on the transverse momentum of the jets is used :
+\begin{align*}
+\blue{\resizebox{.32\hsize}{!}{$\ptave = \mathrm{\frac{p_{T,1}~\plus p_{T,2}}{2} = \httwo}$}}
+\end{align*}
+\item Inclusive differential multijet event cross section (pb/GeV) is defined as : \\}
+\vspace{-5mm}
+\begin{align*}
+\resizebox{.37\hsize}{!}{$\mycolor{\mathrm{\frac{d\sigma_{{\it n}-{\rm jet}}}{d(\httwons)}} =  \frac{1}{\epsilon~\mathcal{L}_{\mathrm{int,eff}}}\frac{N_\mathrm{event}}{\Delta\big(\httwons\big)}}$} %~~~~\mathrm{where}$}
+\end{align*}
+\vspace{-3mm}
+\item {\scriptsize {\bf Inclusive $n$\hy jet} event samples include the events with {\bf number of jets (\nj) $\geq$ $n$}.\\}
+\begin{itemize}
+\tri
+\item {\scriptsize $n$ = 2 $\rightarrow$ Inclusive 2-jet events \blue{(\njt)}
+\item $n$ = 3 $\rightarrow$ Inclusive 3-jet events \blue{(\njth)}\\}
+\end{itemize}
+\vspace{1mm}
+\item {\scriptsize Cross-section ratio is defined as :
+\vspace{-3mm}
+\begin{align*}
+\mycolor{\ratio = \frac[10pt]{{\dd{\sigma_{3\hy {\rm jet}}}{\big(\httwons\big)}}}{\dd{\sigma_{2\hy {\rm jet}}}{\big(\httwons\big)}}}
+\end{align*}
+\item Sufficient data are available up to \\}
+\begin{itemize}
+\tri 
+\item {\scriptsize \httwo \ls 2000 GeV for \njt
+\item \httwo \ls 1680 GeV for \njth
+\item \httwo \ls 1680 GeV for \rations\\}
+\end{itemize}
+\end{itemize}
+\end{frame}
+\ball
+
+%##################################### Slide : 25 ###########################################
+\begin{frame}
+\frametitle{\centerline{Datasets \& MC Samples}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}  
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\vspace{-2mm}
+\begin{center}
+\begin{itemize}
+\item {\scriptsize {\bf Data :} Collected at \cme~= 8 TeV during 2012 run; Integrated Luminosity : {\bf 19.7 \fbinv} \\}
+\begin{table}[!h]
+\centering\tiny
+%\begin{tabular}{cclc}
+\hspace*{-6mm}\begin{tabular}{>{\centering\arraybackslash}m{0.25in}cl>{\centering\arraybackslash}m{0.97in}}
+\hline\hline
+{\bf Run}  & {\bf Run range} &  {\bf \hspace*{12mm}Data set}          & {\bf Luminosity (\fbinv)} \rbtrr\\\hline
+
+   A       & 190456-193621   & /Jet/Run2012A-22Jan2013-v1/AOD         & 0.88  \rbtrr\\
+   B       & 193834-196531   & /Jet[Mon,HT]/Run2012B-22Jan2013-v1/AOD & 4.41  \rbtrr\\
+   C       & 198022-203742   & /Jet[Mon,HT]/Run2012C-22Jan2013-v1/AOD & 7.06  \rbtrr\\
+   D       & 203777-208686   & /Jet[Mon,HT]/Run2012D-22Jan2013-v1/AOD & 7.37  \rbtrr\\
+\hline\hline
+\end{tabular}
+\end{table}
+\vspace{1mm}
+%\tri
+%\begin{itemize}
+%\item {\scriptsize CMS software : CMSSW\_5\_3\_11
+%\vspace{1mm}
+%\item JECs : Winter14\_V8
+%\vspace{1mm}
+%\item Json file: Cert\_190456-208686\_8TeV\_22Jan2013ReReco\_Collisions12\_JSON.txt \\ }
+%\end{itemize}
+\ball
+\vspace{1mm}
+\item {\scriptsize {\bf Simulated Monte-Carlo (MC) Samples :} \\}
+\vspace{-2mm} 
+\begin{table}[!h]
+\centering\tiny
+\hspace*{-6mm}\begin{tabular}{lc>{\centering\arraybackslash}m{0.6in}c}
+
+\hline\hline
+{\bf Generator}  & {\bf Sample}  &  {\bf Events}   & {\bf Cross-section (pb)}  \rbtrr\\\hline
+ & \makecell{{\tiny /{\bf QCD\_HT-100To250}\_TuneZ2star\_8TeV-madgraph-pythia6/\vspace{0mm}}\\{\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & 50129518 & 1.036 $\times$ 10$^7$ \rbtrr\\
+  \makecell{{\tiny \mycolor{\MadGraphF}}\\{\tiny \mycolor{\plus \PYTHIAS}}} & \makecell{{\tiny /{\bf QCD\_HT-250To500}\_TuneZ2star\_8TeV-madgraph-pythia6/\vspace{0mm}}\\{\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & 27062078 & 2.760 $\times$ 10$^5$ \rbtrr\\
+\makecell{{\tiny \mycolor{Tune Z2$^{\star}$}}\\ {\tiny \mycolor{(\MGP~Z2*)}}} & \makecell{{\tiny /{\bf QCD\_HT-500To1000}\_TuneZ2star\_8TeV-madgraph-pythia6/\vspace{0mm}}\\{\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & 30599292 & 8.426 $\times$ 10$^3$ \rbtrr\\
+ & \makecell{{\tiny /{\bf QCD\_HT-1000ToInf}\_TuneZ2star\_8TeV-madgraph-pythia6/\vspace{0mm}}\\{\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & 13843863 & 2.040 $\times$ 10$^2$ \rbtrr\\ \hline
+\mycolor{\HERWIGPP} &  \makecell{{\tiny /{\bf QCD\_Pt-15to3000}\_TuneEE3\_Flat\_8TeV\_herwigpp/\vspace{0mm}}\\{\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & & \rbtrr\\ \hline
+\mycolor{\PYTHIAS} &  \makecell{{\tiny /{\bf QCD\_Pt-15to3000}\_TuneZ2star\_Flat\_8TeV\_pythia6/\vspace{0mm}}\\{\tiny Summer12\_DR53X-PU\_S10\_START53\_V7A-v1/AODSIM}} & & \rbtrr\\
+\hline\hline
+\end{tabular}
+\end{table}
+\vspace{1mm}
+\item {\scriptsize {\bf Theoretical NLO} calculations using the \mycolor{\NLOJETPP}program (v4.1.3) within the framework of the \mycolor{\fastNLO}package (v2.3) using different PDF sets. \\}
+\end{itemize}
+\end{center}
+\end{frame}
+
+%##################################### Slide : 26 ###########################################
+\begin{frame}
+\frametitle{\centerline{Trigger Studies}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmarginiii{\dimexpr\leftmarginiii + 0.05em\relax}
+\vspace{-1mm}
+\begin{minipage}[thbp]{0.45\textwidth} 
+\begin{itemize}
+\item {\scriptsize Five single-jet high-level triggers
+\vspace{0.5mm}
+\item Only highest-threshold trigger is unprescaled
+\vspace{0.5mm} 
+\item Trigger efficiency for HLT\_PFJetY : \\}
+\end{itemize}
+\end{minipage}
+\hspace{15mm}
+\begin{minipage}[thbp]{0.35\textwidth} 
+\includegraphics[scale=0.215]{Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf}
+\end{minipage}
+\vspace{-1.5mm} 
+\begin{align*}
+%\resizebox{.8\hsize}{!}{$\rm {HLT\_PFJet_{eff}Y = \frac{\httwons(HLT\_PFJetX ~+~ L1Object_{\pt} > ~Z ~+~ HLTObject_{\pt} > ~Y)}{\httwons(HLT\_PFJetX)}}$}
+%\resizebox{.8\hsize}{!}{${\rm \epsilon_{HLT\_PFJetY}} = \frac{\httwo {\rm \bigg(HLT\_PFJetX~\plus (L1Object\_\pt > Z)~\plus (HLTObject\_\pt > Y)\bigg)}}{\httwo {\rm (HLT\_PFJetX)}}$}
+\resizebox{.8\hsize}{!}{$\rm {\epsilon_{HLT\_PFJetY}} = \frac{\httwons\big(HLT\_PFJetX~\plus (L1Object\_{p_{\rm T}}~\geq~Z)~\plus (HLTObject\_{p_{\rm T}}~\geq~Y)\big)}{\httwons\big(HLT\_PFJetX \big)}$}
+\end{align*}
+\begin{itemize}
+\item[]
+\tri
+\vspace{-1mm}
+\begin{itemize}
+\item {\scriptsize the value of X is chosen previous to that of Y in \pt~ordering
+\vspace{0.5mm} 
+\item Z is the L1 seed value corresponding to the trigger path \\}
+\end{itemize}
+\ball
+\vspace{1mm}
+\item {\scriptsize Trigger regions defined as ranges of the \httwo for every single-jet trigger used : \\}
+\end{itemize}
+\vspace{-1.5mm} 
+\begin{table}[htbp]
+ \centering\tiny
+\begin{tabular}{ccccl}
+ \hline\hline
+ {\bf Trigger Path} & \makecell{{\bf L1 threshold} \\{\bf (GeV)}} & \makecell{{\bf HLT threshold} \\ {\bf (GeV)}} & \makecell{{\bf \httwons, 99\%}\\ {\bf (GeV)}}  & \makecell{{\bf Eff. Lumi} \\ {\bf (\fbinv)}} \rbthm\\\hline
+ HLT\_PFJet80       &  36 &  80 & 120.0 & ~0.0021 \rbtrr \\
+ HLT\_PFJet140      &  68 & 140 & 187.5 & ~0.0560 \rbtrr \\
+ HLT\_PFJet200      &  92 & 200 & 262.5 & ~0.2600 \rbtrr \\
+ HLT\_PFJet260      & 128 & 260 & 345.0 & ~1.0600 \rbtrr \\
+ HLT\_PFJet320      & 128 & 320 & 405.0 & 19.7100 \rbtrr \\
+ \hline\hline
+ \end{tabular}
+\end{table}
+\end{frame}
+
+%##################################### Slide : 27 ###########################################
+\begin{frame}
+\frametitle{\centerline{Jet Energy Corrections}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{itemize}
+\item {\scriptsize Measured energy of jets cannot be directly translated to the energy at true particle or parton level.\\} 
+\begin{itemize}
+\tri
+\item {\scriptsize Non-linear and non-uniform response of the calorimeters, effects of pileup and small residual effects in the data remaining after the corrections based on MC simulations.\\}
+\end{itemize}
+\item {\scriptsize CMS follows a factorized approach : \\}
+\end{itemize}
+\vspace{-4mm}
+\begin{align*}
+p^{\rm corr}_{\rm T} = c_{\rm res}(\eta,p''_{\rm T})\cdot c_{\rm mc}(\eta,p'_{\rm T})\cdot c_{\rm pileup}(\eta,\rho,{\rm A}_{j},p^{\rm raw}_{\rm T})\cdot p^{\rm raw}_{\rm T}
+\end{align*}
+%\begin{center}
+\hspace{-3mm}\includegraphics[scale=0.9]{/home/anter/Desktop/Thesis/Figures/New/JEC.pdf}\\
+\vspace{3mm}
+\begin{itemize}
+\item {\scriptsize Corrections are applied to jets in both the data$^{\mycolor{\#}}$ as well as in simulated events$^{\mycolor{*}}$. \\ \blue{\tiny [Details in Slide no.~\ref{corr} in Back-Up]}\\}
+\end{itemize}
+%\end{center}
+{\tiny \mycolor{$^{\#}$ Winter\_V8 jet energy corrections}\\}
+\vspace{-2mm}
+{\tiny \mycolor{$^{*}$ START53\_V27 jet energy corrections}}
+\end{frame}
+
+%##################################### Slide : 28 ###########################################
+\begin{frame}
+\frametitle{\centerline{Luminosity Measurement}}
+ \setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}  
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\vspace{-2mm}
+\begin{itemize}
+\item {\scriptsize \mycolor{Luminosity ($\mathcal{L}$)} gives the rate at which collisions occur.
+\vspace{1mm}
+\item Number of collisions produced in a detector per cm$^2$ and per second.
+\vspace{1mm}
+\item \lumi~is related to total number of events $N$ of a process over a time period $T$ and $\sigma$ as :\\}
+\end{itemize}
+\vspace{-2mm}
+\begin{align*}
+\resizebox{.28\hsize}{!}{$\mycolor{{\ensuremath N} = \int_{0}^{T} \mathcal{L}~\sigma~dt = \mathcal{L}_{int}~\sigma}$}
+\end{align*}
+{\scriptsize where $\int_{0}^{T} \mathcal{L}~dt~=~\mathcal{L}_{int}$ gives the total integrated luminosity, expressed in barn$^{-1}$ units\mycolor{$^{*}$}\\}
+\vspace{1mm}
+\begin{itemize}
+\item {\scriptsize $\mathcal{L}_{int}$ gives a direct indication of number of events produced in a process.\\}
+\vspace{1mm}
+\tri
+\begin{itemize}
+\item {\scriptsize For e.g. an integrated luminosity of 10 \fbinv~means that 10 events are produced in a process having cross-section equal to 1 fb.\\}
+\end{itemize}
+\end{itemize}
+\ball
+\vspace{-2mm}
+\begin{minipage}[thbp]{0.53\textwidth}
+\begin{itemize}
+\item {\scriptsize CMS constantly monitors the instantaneous luminosity delivered by the LHC.
+\vspace{0.5mm}
+\item The absolute luminosity is measured using van-der-Meer scans done in special runs of the LHC. 
+\vspace{0.5mm}
+\item The measured integrated luminosity for 2012 data set is \mycolor{19.7 \fbinv $\pm~ ^{2.5\% (syst.)}_{0.5\% (stat.)}$}\\}
+\item[] 
+\end{itemize}
+{\tiny \mycolor{$^{*}$1 barn = 10$^{-28}~m^2$}\\}
+\end{minipage}
+\begin{minipage}[thbp]{0.33\textwidth}
+\vspace{1mm}
+\includegraphics[scale=0.28]{/home/anter/Desktop/Thesis/Figures/int_lumi_cumulative_pp_2_New.pdf}\\
+\end{minipage}\\
+\end{frame}
+
+%##################################### Slide : 29 ###########################################
+\begin{frame}
+\frametitle{\centerline{Pileup Interactions}}
+ \setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}  
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\noindent
+\begin{center}
+\begin{itemize}
+\item {\scriptsize To observe the extremely rare events, the event rate in a collider should be very high.\\}
+\end{itemize}
+\vspace{2mm}
+{\scriptsize {\bf High delivered luminosity} \\
+\vspace{0.5mm}
+\mycolor{$\downarrow$} \\
+\vspace{0.5mm}
+{\bf Increase in the number of bunches or protons per bunch} \\
+\vspace{0.5mm}
+\mycolor{$\downarrow$} \\
+\vspace{0.5mm}
+{\bf Pileup (PU) interactions}\\
+\vspace{0.5mm}
+\mycolor{$\downarrow$} \\
+\vspace{0.5mm}
+{\bf Low \pt~jets}\\}
+\end{center}
+\begin{minipage}[thbp]{0.48\textwidth}
+\begin{itemize}
+\item {\scriptsize {\bf In-time pileup :} Additional collisions within a single bunch crossing.
+\vspace{1mm}
+\item {\bf Out-of-time pileup :} Additional collisions coming from other bunch crossings.\\}
+\end{itemize}
+\end{minipage}
+\begin{minipage}[thbp]{0.33\textwidth}
+\includegraphics[scale=0.3]{/home/anter/Desktop/Thesis/Figures/Final/Pileup.png}
+\end{minipage}
+\end{frame}
+
+%##################################### Slide : 30 ###########################################
+\begin{frame}
+\frametitle{\centerline{Pileup Reweighting}}
+ \setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}  
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\vspace{-3mm}
+\begin{center}
+\begin{itemize}
+\item {\scriptsize Number of pileup interactions are taken into account in generating the official MC samples. 
+\item But the number of pileup events implemented in the simulation $N_{\rm MC} (N_{\rm PU,truth})$, does not match exactly the one measured in the data $N_{\rm data} (N_{\rm PU,est.})$. 
+\item To match the pileup distributions in the data, a reweighting factor $w_{\rm PU}$ is applied to the simulated events : \\}
+\end{itemize}
+\vspace{-8mm}
+\begin{align*}
+\mycolor{\resizebox{.38\hsize}{!}{$ w_{\rm PU} = \frac {N_{\rm data} (N_{\rm PU,est.})/\sum N_{\rm data}} {N_{\rm MC} (N_{\rm PU,truth)}/\sum N_{\rm MC}}$}}
+\end{align*}
+%\hspace{5mm} \blue{\scriptsize \bf Before Pileup reweighting}
+%\hspace{25mm} \blue{\scriptsize \bf After Pileup reweighting}
+\vspace{-3.5mm}
+\includegraphics[scale=0.3]{Plots_HT_2_150/Nvertices.pdf}%
+ ~~\includegraphics[scale=0.3]{Plots_HT_2_150/Nvertices_weight.pdf}
+\end{center}
+\end{frame}
+
+%##################################### Slide : 30 ###########################################
+\begin{frame}
+\frametitle{\centerline{Pileup Reweighting}}
+ \setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}  
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\vspace{-3mm}
+\begin{center}
+\begin{itemize}
+\item {\scriptsize Number of pileup interactions are taken into account in generating the official MC samples. 
+\item But the number of pileup events implemented in the simulation $N_{\rm MC} (N_{\rm PU,truth})$, does not match exactly the one measured in the data $N_{\rm data} (N_{\rm PU,est.})$. 
+\item To match the pileup distributions in the data, a reweighting factor $w_{\rm PU}$ is applied to the simulated events : \\}
+\end{itemize}
+\vspace{-8mm}
+\begin{align*}
+\mycolor{\resizebox{.38\hsize}{!}{$ w_{\rm PU} = \frac {N_{\rm data} (N_{\rm PU,est.})/\sum N_{\rm data}} {N_{\rm MC} (N_{\rm PU,truth)}/\sum N_{\rm MC}}$}}
+\end{align*}
+%\hspace{5mm} \blue{\scriptsize \bf Before Pileup reweighting}
+%\hspace{25mm} \blue{\scriptsize \bf After Pileup reweighting}
+\vspace{-3.5mm}
+\includegraphics[scale=0.3]{Plots_HT_2_150/Nvertices.pdf}%
+ ~~\includegraphics[scale=0.3]{Plots_HT_2_150/Nvertices_weight.pdf}
+\end{center}
+\end{frame}
+
+%##################################### Slide : 31 ###########################################
+\begin{frame}
+\frametitle{\centerline{Detector Level Comparisons}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmarginiii{\dimexpr\leftmarginiii + 0.05em\relax}
+%\begin{itemize}
+%\item {\scriptsize LO MC generator roughly describes the spectrum on %detector level \\}
+%\end{itemize}
+\vspace{-1.3mm}
+\hspace{33mm}\begin{overpic}[scale = 0.22]{/home/anter/Desktop/Thesis/Viva/Plots_HT_2_150_cropped/cropped_Comparison_all_2_HT_2_150.pdf}
+\put(-72,60){\parbox{1.08in}{\scriptsize - Data are compared to the sample of {\bf \MGP~Z2*} simulated events.\\}}
+\put(-72,26){\parbox{1.08in}{\scriptsize \mycolor{- LO MC generator roughly describes the spectrum on detector level.} \\}}
+\end{overpic}%
+\includegraphics[scale = 0.22]{/home/anter/Desktop/Thesis/Viva/Plots_HT_2_150_cropped/cropped_Comparison_all_3_HT_2_150.pdf}\\
+\begin{minipage}[tbp]{0.55\textwidth}
+\begin{itemize}
+\item {\scriptsize Cross-section ratio : \ratio = $\frac{\sigma_{\rm 3\hy jet}}{\sigma_{\rm 2\hy jet}}$ \\}
+\vspace{0.5mm} 
+\tri
+\begin{itemize}
+\item {\scriptsize Numerator and denominator are not independent samples.  
+\vspace{0.5mm} 
+\item Statistical uncertainty is calculated using the \mycolor{\bf Wilson score interval} method which takes into account the correlation between the numerator and the denominator. \\}
+\end{itemize}
+\end{itemize}
+\end{minipage}
+\hspace{3mm}
+\begin{minipage}[tbp]{0.25\textwidth}
+\includegraphics[scale = 0.25]{Plots_HT_2_150/Ratio_32_all_HT_2_150.pdf}\\
+\end{minipage}
+\end{frame}
+
+
+%##################################### Slide : 32 ###########################################
+\begin{frame}
+\frametitle{\centerline{Jet Energy Resolution (JER)}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmarginiii{\dimexpr\leftmarginiii + 0.05em\relax}
+\begin{itemize}
+\vspace{-2mm}
+ \item {\scriptsize Computed the jet energy resolution (JER) as a function of \httwo from MG\plus P6 Z2* MC sample
+\vspace{0.5mm}
+\item Measurements show that JER in data is worse than in the simulation and the jet \pt in MC need to be smeared more to describe the data
+\vspace{0.5mm}
+ \item \mycolor {Scaling procedure : Scaled reco jets to match resolution of data} \\}
+ \end{itemize}
+\vspace{-3mm}
+\begin{align*}
+\resizebox{.45\hsize}{!}{$\rm \pt \rightarrow max[0.,\ptns gen~\plus~c * (\pt –~\ptns gen)]$}
+\end{align*}
+\vspace{-6mm}
+\begin{itemize}
+ \tri
+ \begin{itemize}
+ \item  {\scriptsize Non-gaussian tails are also scaled using same scaling factors determined for Gaussian core which leads to large response shifts for tails \\}
+ \end{itemize}
+ \ball
+ \item {\scriptsize \green {Smearing procedure : Smear the reconstructed jet \pt using a gaussian width widened by the scaling factor (c) (as followed in \bf{SMP-16-011}) }\\}
+ \end{itemize}
+\vspace{-2mm}
+\begin{align*}
+\resizebox{.46\hsize}{!}{$\rm \pt \rightarrow Gauss\big(\mu = \ptns, \sigma = (\sqrt{c^2 - 1}) \times \rm{JER^{MC}}\big)$}
+\end{align*}
+\vspace{-5mm}
+\begin{itemize}
+ \item  {\scriptsize \green {Crystal Ball Fit} of Reco \httwo/Gen \httwo in each Gen \httwo bin overlayed by \mycolor{Gaussian fit} \\}
+\end{itemize}
+%\hspace{-2.5mm}
+\vspace{-2mm}
+\begin{center}
+\includegraphics[scale = 0.24]{/home/anter/Desktop/Analysis_8/Present_Latex/Approval/Approval_New/Fit_Res_2_final_crystal_genbin_250-275_crystal.pdf}%
+\includegraphics[scale = 0.24]{/home/anter/Desktop/Analysis_8/Present_Latex/Approval/Approval_New/Fit_Res_3_final_crystal_genbin_250-275_crystal.pdf}\\
+\end{center}
+\end{frame}
+
+%##################################### Slide : 33 ###########################################
+\begin{frame}
+\frametitle{\centerline{Jet Energy Resolution (JER)}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmarginiii{\dimexpr\leftmarginiii + 0.05em\relax}
+\vspace{-2mm}
+\begin{center}
+\begin{itemize}
+ {\scriptsize \item Fit using NSC-formula (adapted for PF jets)\\
+\vspace{-5mm}
+\hspace{60mm}\boxed{\rm{\frac{\sigma (x)}{x} = \sqrt{sgn(N) \cdot \frac{ N^{2}}{x^{2}}+\frac{S^{2}}{x} \cdot x^{s} + C^{2}}}}  \\
+\item Fits at high \httwo start lacking events \\}
+\end{itemize}
+\end{center}
+\hspace{-3mm}
+\includegraphics[scale = 0.215]{/home/anter/Desktop/Analysis_8/Present_Latex/After_Pre-approval/New_Plots_PAS/Extrapolate_Sigma_Value_Res_2_crystal_range.pdf}%
+\includegraphics[scale = 0.215]{/home/anter/Desktop/Analysis_8/Present_Latex/After_Pre-approval/New_Plots_PAS/Extrapolate_Sigma_Value_Res_3_crystal.pdf}%
+\includegraphics[scale = 0.215]{/home/anter/Desktop/Analysis_8/Present_Latex/After_Pre-approval/New_Plots_PAS/Comparison_Resolution_Crystal_32_divide.pdf}\\
+\vspace{2mm}
+\begin{center}
+\begin{table}[htbp]
+\centering\scriptsize
+\begin{tabular}{ccccc}
+        \hline \hline
+
+                 &    N    &  S   &    C   &    s   \\ \hline
+Inclusive 2-jet  & ~3.32 & 1.62 & 0.0333 & -0.318  \\
+Inclusive 3-jet  & -6.03 & 3.32 & 0.0333 & -0.515  \\
+\hline \hline
+           
+\end{tabular}
+\end{table}
+\vspace{2mm}
+\begin{itemize}
+ {\scriptsize \item Resolution is similar in inclusive 3-jet and 2-jet (Right Fig.)
+\vspace{2mm}
+ \item Fit parameters are used for smearing of NLO spectrum to construct response matrices \\ }
+\end{itemize}
+\end{center}
+\end{frame}
+
+
+%##################################### Slide :  ###########################################
+\begin{frame}
+\begin{center}
+\vspace{15mm}
+\textbf{\Large\mycolor{Back-Up Slides}}
+\end{center}
+\end{frame}
+
+%##################################### Slide :  ###########################################
+\begin{frame}
+\frametitle{\centerline{Sequential Recombination Algorithms}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{itemize}
+\item {\scriptsize Based on transverse momentum \pt~of the particles.\\}
+\begin{enumerate}
+{\scriptsize \item Distance $d_{ij}$ between two particles $i$ and $j$ and distance $d_{iB}$ of the particle to the beam are calculated as\\
+\begin{equation}
+\begin{gathered}
+d_{ij} = {\rm min}\big(p^{2p}_{{\rm T}i},p^{2p}_{{\rm T}j}\big) \frac{\Delta R^2_{ij}}{R^2}, ~~~~d_{iB} = p^{2p}_{{\rm T}i} \\ {\rm where} ~~~\Delta R^2_{ij} = (y_i -y_j)^{2} ~\plus (\phi_i -\phi_j)^{2}
+\end{gathered}
+\end{equation}
+\item If $d_{ij}$ \ls $d_{iB}$, particles $i$ and $j$ are merged into a new single jet object $k$, summing four-momenta of two initial particles by recombination scheme and step 1 is repeated. 
+\vspace{1mm} 
+\item If $d_{iB}$ \ls $d_{ij}$, particle $i$ is declared as a final-state jet and the particle gets removed from the list.\\}
+\end{enumerate}
+\item {\scriptsize Value of the parameter $p$ defines the three different sequential algorithms :\\}
+\tri
+\begin{itemize}
+\item {\scriptsize \kt algorithm : {\bf $p$ = 1}
+\vspace{1mm} 
+\item Cambridge/Aachen (C/A) algorithm : {\bf $p$ = 0} 
+\vspace{1mm} 
+\item anti-$k_{T}$ algorithm : {\bf $p$ = -1} \\}
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+%##################################### Slide :  ###########################################
+\begin{frame}
+\frametitle{\centerline{Event Selection}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{center}
+\begin{itemize}
+ \item  {\scriptsize anti-\kt particle flow (PF) jets with R = 0.7.
+\vspace{2.0mm}
+\item At least one good primary vertex : $|${z(PV)}$|$\ls 24 cm, $\rho$(PV) $<$ 2 cm, $ndof >$ 4
+\vspace{2.0mm}
+\item Official tight jet ID recommended by \JetMet group is used.
+\vspace{2.0mm}
+\item All jets having \pt \gr 150 GeV and $|y|$ \ls 5.0 are selected.
+\vspace{2.0mm}
+\item Events with at least two jets are selected.
+\vspace{2.0mm}
+\item The two leading jets should have $|y|$ \ls 2.5 and further jets are counted only, if they lie within the same central rapidity range of $|y|$ \ls 2.5.
+\vspace{2.0mm}
+\item ${\frac{\ETmiss}{\sum\ET}}$ $\textless$ 0.3 to protect against mismeasured or background events with large missing \ET.\\}
+\end{itemize}
+\end{center}
+\end{frame}
+
+%##################################### Slide :  ###########################################
+\begin{frame}
+\frametitle{\centerline{Trigger Efficiencies vs \httwo}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\vspace{-8mm}
+\begin{center}
+\includegraphics[scale = 0.205]{Plots_HT_2_150/Fit_Turn_Efficiency_80_2_ht_2.pdf}%
+\includegraphics[scale = 0.205]{Plots_HT_2_150/Fit_Turn_Efficiency_140_2_ht_2.pdf}%
+\includegraphics[scale = 0.205]{Plots_HT_2_150/Fit_Turn_Efficiency_200_2_ht_2.pdf}\\
+\includegraphics[scale = 0.205]{Plots_HT_2_150/Fit_Turn_Efficiency_260_2_ht_2.pdf}%
+\begin{overpic}[scale = 0.205]{Plots_HT_2_150/Fit_Turn_Efficiency_320_2_ht_2.pdf}
+\put(-120,-12){\scriptsize {\bf Uncertainty on the efficiency is
+calculated using Clopper-Pearson confidence intervals :}}
+\put(-30,-23){\scriptsize \blue{$ f_{fit} (x) = \frac {1}{2} \Big( 1 ~\plusn~ {\rm erf} \big(\frac {x - \mu}{\sqrt{2} \sigma} \big) \Big) $}}
+\end{overpic}
+\end{center}
+\end{frame}
+
+%##################################### Slide :  ###########################################
+\begin{frame}
+\frametitle{\centerline{Missing Transverse Energy}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\vspace{-8mm}
+\begin{center}
+\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Missing_ET_2.pdf}%
+ ~~\includegraphics[width=0.51\textwidth]{Plots_HT_2_150/Missing_ET_3.pdf}
+\end{center}
+\end{frame}
+
+%##################################### Slide : 27 ###########################################
+\begin{frame}
+\label{corr}
+\frametitle{\centerline{Jet Energy Corrections}}
+\setlength\labelsep   {\dimexpr\labelsep + 0.05em\relax}
+\setlength\leftmargini{\dimexpr\leftmargini + 0.05em\relax}
+\begin{itemize}
+\item {\scriptsize \mycolor{Pileup Corrections}\\}
+\begin{itemize}
+\tri
+\item {\scriptsize Due to additional p-p collisions within the same bunch-crossing.
+%\item The particles produced from the pileup events get clustered into the jets coming from the hard interaction and increase the jet energy.
+\item Corrections are determined by simulating a sample of QCD dijet events with and without pileup effects. 
+\item $c_{\rm pileup}$ is calculated from jet area method using the pileup density $\rho$ in the event and the jet area ${\rm A}_{j}$.\\}
+\end{itemize}
+\ball 
+\item {\scriptsize \mycolor{MC Corrections}\\}
+\begin{itemize}
+\tri
+\item {\scriptsize Due to the inefficiencies introduced by the detector simulation.
+\vspace{0.5mm}
+\item Based on MC simulated QCD events.
+\vspace{0.5mm}
+\item $c_{\rm mc}$ is derived by comparing the measured jet \pt~to the particle level jet \pt.\\}
+\end{itemize}
+\ball
+\item {\scriptsize \mycolor{Residual Data Corrections} \\}
+\begin{itemize}
+\tri
+\item {\scriptsize Due to remaining small differences between the data and MC simulations.
+\vspace{0.5mm} 
+\item Applied only to the data.
+\vspace{0.5mm}
+\item $c_{\rm res}$ is derived from data-driven methods using dijet events in which a probe jet is calibrated using a tag jet.\\}
+\end{itemize}
+\ball
+\item {\scriptsize \mycolor{Flavor Corrections}\\} 
+\begin{itemize}
+\tri
+\item {\scriptsize Correct the jets for flavor dependence (b, $\tau$ etc.) and are optional.
+\vspace{0.5mm} 
+\item Extracted using Z\plusn jet and photon\plusn jets simulated events.\\}
+\end{itemize}
+\ball
+\end{itemize}
+\end{frame}
+
+
+
+\end{document}

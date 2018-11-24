@@ -1,0 +1,164 @@
+% Itemize
+\newcommand*\ball{\setbeamertemplate{itemize items}[ball]}
+\newcommand*\tri{\setbeamertemplate{itemize items}[triangle]}
+\newcommand*\cir{\setbeamertemplate{itemize items}[circle]}
+%Colors
+\newcommand*\mycolor{\textcolor{red!80!black}}
+\newcommand*\blue{\textcolor{blue!70!black}}
+\newcommand*\green{\textcolor{green!50!black}}
+\newcommand*\red{\textcolor{red!100!black}}
+\definecolor{auburn}{rgb}{0.07, 0.04, 0.56}
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+\definecolor{goldenrod}{rgb}{0.85, 0.65, 0.13}
+%\definecolor{lightskyblue}{rgb}{0.68, 0.78, 0.81}
+\definecolor{lightskyblue}{rgb}{0.36, 0.57, 0.9}
+\newcommand*\AN{\textcolor{auburn}}
+\newcommand*\yes{\textcolor{red!80!black} {\Checkmark }}
+\newcommand*\no{\textcolor{red!80!black} {\XSolidBrush}}
+\definecolor{pink}{rgb}{1.0, 0.11, 0.81}
+\setbeamercolor{redgrey}{fg=red!90!black,bg=white!90!black}
+\setbeamercolor{blackgrey}{fg=black,bg=white!90!black}
+\setbeamercolor{blackwhite}{fg=black,bg=white}
+\definecolor{purple}{rgb}{0.8, 0.0, 0.8}
+%spaces
+\newcommand{\tab}[1]{\hspace{.2\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{.12\textwidth}\rlap{#1}}
+\tcbset{colframe=white,colback=white,nobeforeafter}
+\newcommand{\mybox}[2]{{\color{red!80!black}\fbox{\normalcolor#2}}}
+\setlength\fboxrule{0.8pt}
+%Def
+\newcommand*\alpsmz{\ensuremath{\alpha_S(M_Z)}~}
+\newcommand*\alpsmzns{\ensuremath{\alpha_S(M_Z)}}
+\newcommand*\alps{\ensuremath{\alpha_S}~}
+\newcommand*\alpsns{\ensuremath{\alpha_S}}
+\newcommand*\alpsq{\ensuremath{\alpha_S(Q)}}
+\newcommand*\httwo{\ensuremath{\mathrm{H_{T,2}}/2~}}
+\newcommand*\httwons{\ensuremath{\mathrm{H_{T,2}}/2}}
+\newcommand*\ptave{\ensuremath{\mathrm{\langle p_\mathrm{T_{1,2}}\rangle~}}}
+\newcommand*\ptavens{\ensuremath{\mathrm{\langle p_\mathrm{T_{1,2}}\rangle}}}
+\newcommand*\ratio{\ensuremath{\mathrm{R_{32}~}}}
+\newcommand*\rations{\ensuremath{\mathrm{R_{32}}}}
+\newcommand*\plus{\ensuremath{\texttt{+}}~}
+\newcommand*\plusn{\ensuremath{\texttt{+}}}
+\newcommand*\pas{\includegraphics[scale=0.3]{/home/anter/Desktop/Analysis_8/Present_Latex/Pre-approval/Plots/pas_new.png}}
+\newcommand*{\mur}{\ensuremath{\mu_r}}
+\newcommand*{\muf}{\ensuremath{\mu_f}}
+\newcommand*{\chsq}{\ensuremath{\chi^{2}}~}
+\newcommand*{\chisqndof}{\ensuremath{\chi^2/n_\mathrm{dof}}}
+\newcommand*\staru{\ensuremath{\blue{^{*}}}}
+\newcommand*\unc{\ensuremath{\blue{^{\#}}}}
+%\newcommand*\pt{$p_{T}$}
+\newcommand*\pt{$p_{\rm T}$}
+\newcommand*\msd{m$_{\mathrm{SD}}$}
+\newcommand*\met{E$\mathrm{_{T}^{miss}}$}
+\newcommand*\varnd{$\mathrm{N_{2,DDT}^1}$}
+\newcommand*\varn{$\mathrm{N_{2}^1}$}
+\newcommand*\rapa{$\mathrm{|\eta|}$}
+\newcommand*\gr{$\mathrm{>}~$}
+\newcommand*\ls{$\mathrm{<}~$}
+\newcommand*\kt{$k_t~$}
+\newcommand*\ttbar{$t\bar{t}~$}
+\newcommand*\ttbarn{$t\bar{t}$}
+\newcommand*\lumi{$\mathcal{L}$}
+\newcommand*\NLOJETPP{\textsc{NLOJet{\raisebox{.1\height}{\scalebox{.9}{+}}}{\raisebox{.1\height}{\scalebox{.9}{+}}}}~}
+\newcommand*\NLOJETPPn{\textsc{NLOJet{\raisebox{.1\height}{\scalebox{.9}{+}}}{\raisebox{.1\height}{\scalebox{.9}{+}}}}}
+\newcommand*\fastNLO{{\textsc{fastNLO}}~}
+\newcommand\inv[1]{#1\raisebox{1.15ex}{$\scriptscriptstyle-\!1$}}
+\newcommand\solidcirc[4][0]{\rotatebox{#1}{\tikz{\draw[line width=#2] (0,0) arc [x radius=#3,y radius=#4,start angle=0,end angle=360];}}}
+\providecommand{\hy}{\ensuremath{\mbox{-}}}
+\newcommand*\POWHEG{\textsc{powheg}}
+\newcommand*\PYTHIAE{\textsc{pythia8}}
+\providecommand{\HERWIGPP} {{\textsc{herwig{\raisebox{.1\height}{\scalebox{.8}{+}}}{\raisebox{.1\height}{\scalebox{.8}{+}}}}}~}
+
+%General
+\providecommand{\ptave}{\ensuremath{\langle p_\mathrm{T1,2}\rangle}~}
+\providecommand{\ptavens}{\ensuremath{\langle p_\mathrm{T1,2}\rangle}}
+\providecommand{\breakhere}{\noindent\rule{15cm}{0.4pt}}
+\providecommand{\qm}{{\Huge{\textbf{\textcolor{red}{?}}}}}
+\providecommand{\plus}{{\raisebox{.1\height}{\scalebox{.9}{+}}}~}
+\providecommand{\plusn}{{\raisebox{.1\height}{\scalebox{.9}{+}}}}
+\providecommand{\pluso}{\ensuremath{\texttt{+}}}
+\providecommand{\hy}{\ensuremath{\mbox{-}}}
+\providecommand{\gr}{$\mathrm{>}~$}
+\providecommand{\ls}{$\mathrm{<}~$}
+\providecommand{\nj}{$\mathrm {n_{j}}$}
+\providecommand{\njt}{$\mathrm {n_{j}} \geq 2$}
+\providecommand{\njth}{$\mathrm {n_{j}} \geq 3$}
+\providecommand{\rbthm}{\rule[-2ex]{0ex}{5.ex}}
+\providecommand{\rbtrr}{\rule[-0.8ex]{0ex}{3.2ex}}
+%\providecommand{\rbtrrn}{\rule[-1ex]{0ex}{3.2ex}}
+\providecommand{\rbtrrn}{\rule[-0.85ex]{0ex}{3.2ex}}
+\providecommand{\rbtrrnm}{\rule[-0.85ex]{0ex}{3.1ex}}
+\providecommand{\ratio}{\ensuremath{R_{32}}~}
+\providecommand{\rations}{\ensuremath{\mathrm{R_{32}}}}
+\providecommand{\alpsmz}{\ensuremath{\alpha_s(M_Z)}~}
+\providecommand{\alpsmzns}{\ensuremath{\alpha_s(M_Z)}}
+\providecommand{\alps}{\ensuremath{\alpha_S}~}
+\providecommand{\alpsns}{\ensuremath{\alpha_S}}
+\providecommand{\alpsmusq}{\ensuremath{\alpha_S(\mu_r^2)}~}
+\providecommand{\alpsmzsq}{\ensuremath{\alpha_S(M_Z^2)}~}
+\providecommand{\alpsqsq}{\ensuremath{\alpha_S(Q^2)}~}
+\providecommand{\alpsmu}{\ensuremath{\alpha_S(\mu_r)}~}
+\providecommand{\alpsmz}{\ensuremath{\alpha_S(M_Z)}~}
+\providecommand{\alpsq}{\ensuremath{\alpha_S(Q)}~}
+\newcommand{\ETmiss}{\ensuremath{E_{\mathrm{T}}^{\text{miss}}}}
+\newcommand{\ET}{\ensuremath{E_{\mathrm{T}}}}
+\providecommand{\dd}[2]{\ensuremath{\frac{\mathrm{d} #1}{\mathrm{d} #2}}}
+%Chapter Theory
+\providecommand{\sl}{$\ell$~} 
+\providecommand{\sln}{$\ell$}
+\providecommand{\Lag}{$\mathcal{L}$~} 
+\providecommand{\Lage}{\mathcal{L}} 
+\providecommand{\Lagns}{$\mathcal{L}$}
+%Chapter Reconstruction
+\DeclareRobustCommand{\NLOJET}{{\textsc{NLOJet{\raisebox{.1\height}{\scalebox{.9}{+}}}{\raisebox{.1\height}{\scalebox{.9}{+}}}}}}
+\DeclareRobustCommand{\NLOJETb}{\textbf{\textsc{NLOJet{\raisebox{.1\height}{\scalebox{.9}{+}}}{\raisebox{.1\height}{\scalebox{.9}{+}}}}}}
+\providecommand{\HERWIG} {\textsc{herwig}}
+\providecommand{\GEANTfour}{\textsc{geant4}}
+\providecommand{\GEANTthree}{\textsc{geant3}}
+% Chapter Measurement
+%\providecommand{\httwo}{\ensuremath{H_{\mathrm{T,2}}/2}~}
+\providecommand{\httwot}{\ensuremath{H_{\mathrm{T,2}}/2}~}
+\providecommand{\httwotns}{\ensuremath{H_{\mathrm{T,2}}/2}}
+\providecommand{\ptone}{\ensuremath{p_{\mathrm{T,1}}}}
+\providecommand{\pttwo}{\ensuremath{p_{\mathrm{T,2}}}}
+\providecommand{\cme}{$\sqrt{s}$~}
+\providecommand{\cmens}{$\sqrt{s}$}
+\providecommand{\MadGraph}{{\textsc{MadGraph}}}
+\providecommand{\MadGraphF}{{\textsc{MadGraph5}}~}
+\providecommand{\MadGraphFn}{{\textsc{MadGraph5}}}
+\providecommand{\JetMet}{{\textsc{JET}}MET~}
+\providecommand{\NLOJETPP}{{\textsc{NLOJet{\raisebox{.1\height}{\scalebox{.9}{+}}}{\raisebox{.1\height}{\scalebox{.9}{+}}}}~}}
+\providecommand{\PYTHIA}{{\textsc{pythia}}}
+\providecommand{\PYTHIAS}{{\textsc{pythia6}}~}
+\providecommand{\PYTHIASn}{{\textsc{pythia6}}}
+\providecommand{\MGP}{MG5{\raisebox{.1\height}{\scalebox{.9}{+}}}P6}
+\providecommand{\HERWIGPP} {{\textsc{herwig{\raisebox{.1\height}{\scalebox{.8}{+}}}{\raisebox{.1\height}{\scalebox{.8}{+}}}}}~}
+\providecommand{\HERWIGPPn} {{\textsc{herwig{\raisebox{.1\height}{\scalebox{.8}{+}}}{\raisebox{.1\height}{\scalebox{.8}{+}}}}}}
+\providecommand{\PYTHIAE} {{\textsc{pythia8}}~}
+\providecommand{\POWHEG}{{\textsc{powheg}}~}
+\providecommand{\POWHEGn}{{\textsc{powheg}}}
+\providecommand{\Ztwostar}{\ensuremath{\mathrm{Z2}^\star}}
+\providecommand{\RooUnfold} {{\textsc{RooUnfold}}~}
+\providecommand{\lumins}{\ensuremath{\mathcal{L}}}
+\newcommand{\fbinv} {\mbox{\ensuremath{\,\text{fb}^\text{$-$1}}}}
+% Chapter Theory Predictions
+\providecommand{\chisq}{\ensuremath{\chi^2}~}
+\providecommand{\mur}{\ensuremath{\mu_r}~}
+\providecommand{\muf}{\ensuremath{\mu_f}~}
+\providecommand{\LHAPDF}{{\textsc{LHAPDF}}~}
+\providecommand{\LHAPDFS}{{\textsc{LHAPDF6}}~}
+\providecommand{\NF}{\ensuremath{N_F}~}
+\providecommand{\RunDec}{{\textsc{RunDec}}~}
+\providecommand{\fastNLO} {{\textsc{fastNLO}}~}
+\providecommand{\fastNLOb} {\textbf{\textsc{fastNLO}}~}
+\providecommand{\fastjet} {{\textsc{FastJet}}~}
+\providecommand{\fastjetb} {\textbf{\textsc{FastJet}}~}
+% Chapter Alphas
+\providecommand{\hftwo}{\hspace*{\fill}}
+\providecommand{\chisqndof}{\ensuremath{\chi^2/n_\mathrm{dof}}~}
+\providecommand{\ndof}{\ensuremath{n_\mathrm{dof}}~}
+
+% Chapter Hardware
+\providecommand{\mhtr}{\ensuremath{\mu {\rm HTR}}~}
+\providecommand{\mtca}{\ensuremath{\mu {\rm TCA}}~}
